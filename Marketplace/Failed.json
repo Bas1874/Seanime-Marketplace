@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1431807801444925540",
+    "reason": "Manifest is missing 'id' or 'name' field.",
+    "originalMessageContent": "> **Extension Name:**\n> AnimePahe\n> \n> **Version:**\n> v1.0.1\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://github.com/SyntaxSama/seanime-marketplace/blob/main/manifest.json)  / Copy the link below: \n> `@`@`https://raw.githubusercontent.com/SyntaxSama/seanime-marketplace/refs/heads/main/manifest.json`@`@`\n> **Description:**\n> Extension for AnimePahe, an online streaming provider for subbed/dubbed anime in English\n> \n> **Additional Notes:**\n> Rahim has officially handed me the keys to maintaining the AnimePahe extension and it will no longer exist as a default provider. You can read more about this here:\n> [Click Here For Rahim's Statement About AnimePahe.](https://discord.com/channels/1224767201551192224/1224767201551192227/1431629684612923422)"
+  },
+  {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1359184067915944139",
+    "reason": "Request failed with status code 400",
+    "originalMessageContent": "> **Extension Name:**\n> Example Name\n> \n> **Version:**\n> 0.69\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Example/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Example/manifest.json```\n> **Description:**\n> Extension for (EXAMPLE), an online streaming provider for subbed/dubbed anime in English, made by Bas1874\n> \n> **Additional Notes:**\n> Share any extra details, acknowledgments, or troubleshooting tips."
+  },
+  {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1400449705816883272",
+    "reason": "Manifest is missing 'id' or 'name' field.",
+    "originalMessageContent": "> **Extension Name:**\n> Seanime Banner Remover\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://github.com/Bas1874/Banner-Remover/blob/main/src/manifest.json)  / Copy the link below: \n> ```https://github.com/Bas1874/Banner-Remover/blob/main/src/manifest.json```\n> **Description:**\n> A plugin to hide banner images on various pages.\n> \n> **Additional Notes:**\n> Want to use a CSS Snippet instead? <#1400105892858560512>\n> \n> https://cdn.discordapp.com/attachments/1400449705816883272/1407476671644307596/Iconnnn.png?ex=68b6b90c&is=68b5678c&hm=741f7884dc003d5f10d5ffc3e2f305402694d3cb94a4826e65604ae600d7d7d3&"
+  }
+]
