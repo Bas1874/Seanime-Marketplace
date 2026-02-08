@@ -1496,5 +1496,33 @@
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/ACG.RIP-Torrent-Provider-Seanime/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/ACG.RIP-Torrent-Provider-Seanime/refs/heads/main/src/ACG.ts",
     "website": ""
+  },
+  {
+    "id": "animepahe",
+    "name": "Animepahe",
+    "version": "1.0.4",
+    "author": "ItsSkaiya & Pal",
+    "description": "Animepahe streaming provider for Seanime",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Pal-droid/seanime-marketplace/refs/heads/main/animepahe.png",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/seanime-marketplace/refs/heads/main/manifest.json",
+    "payloadURI": "",
+    "website": ""
+  },
+  {
+    "id": "banner-remover",
+    "name": "Banner Remover",
+    "version": "1.0.0",
+    "author": "bas1874",
+    "description": "A plugin to hide banner images on various pages.",
+    "type": "plugin",
+    "language": "typescript",
+    "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/main/src/Icons/Icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/refs/heads/main/src/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/refs/heads/main/src/banner-remover.ts",
+    "website": ""
   }
 ]
