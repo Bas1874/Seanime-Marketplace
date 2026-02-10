@@ -114,7 +114,7 @@
   {
     "id": "delete-watched-episodes",
     "name": "Delete Watched Episodes",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Dadangdut33",
     "description": "Delete local files for episodes you have already watched to free up disk space",
     "type": "plugin",
@@ -1178,7 +1178,7 @@
   {
     "id": "komikcast",
     "name": "KomikCast",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "author": "pal",
     "description": "KomikCast is a manga provider for Seanime",
     "type": "manga-provider",
