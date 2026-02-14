@@ -1524,5 +1524,19 @@
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/refs/heads/main/src/banner-remover.ts",
     "website": ""
+  },
+  {
+    "id": "my-list-table-view",
+    "name": "My List Table View",
+    "version": "1.0.0",
+    "author": "Dadangdut33",
+    "description": "View The My List data in a table view",
+    "type": "plugin",
+    "language": "typescript",
+    "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/dadangdut33/seanime-extensions/refs/heads/master/plugins/my-list-table-view/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/dadangdut33/seanime-extensions/refs/heads/master/plugins/my-list-table-view/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/dadangdut33/seanime-extensions/refs/heads/master/plugins/my-list-table-view/code.ts",
+    "website": "https://github.com/dadangdut33/seanime-extensions"
   }
 ]
