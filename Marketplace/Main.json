@@ -212,7 +212,7 @@
   {
     "id": "mangabats",
     "name": "MangaBats",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "author": "Pal",
     "description": "MangaBats is a manga provider for Seanime",
     "type": "manga-provider",
