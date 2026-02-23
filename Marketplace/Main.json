@@ -1838,7 +1838,7 @@
   {
     "id": "banner-remover",
     "name": "Banner Remover",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "bas1874",
     "description": "A plugin to hide banner images on various pages.",
     "type": "plugin",
@@ -1848,7 +1848,7 @@
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/refs/heads/main/src/banner-remover.ts",
     "website": "",
-    "flags": "1/56",
+    "flags": "1/62",
     "flaggedBy": [
       "SUPERAntiSpyware"
     ],
