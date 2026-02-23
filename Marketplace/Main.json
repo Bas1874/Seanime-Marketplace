@@ -325,7 +325,7 @@
   {
     "id": "banner-remover",
     "name": "Banner Remover",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "author": "bas1874",
     "description": "A plugin to hide banner images on various pages.",
     "type": "plugin",
