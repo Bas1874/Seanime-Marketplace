@@ -802,7 +802,7 @@
   },
   {
     "id": "banner-remover",
-    "version": "1.0.3",
+    "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/refs/heads/main/src/banner-remover.ts",
     "flags": "1/61",
     "flaggedBy": [
