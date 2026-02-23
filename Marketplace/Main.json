@@ -11,7 +11,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/nontonanime.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/nontonanime/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/nontonanime/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "al-azoramoon",
@@ -25,7 +27,9 @@
     "icon": "https://azoramoon.com/icon-512x512.png",
     "manifestURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/azoramoon/azoramoon.json",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/azoramoon/index.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "al-olympustaff",
@@ -39,7 +43,9 @@
     "icon": "https://i.imgur.com/ulnGanf.jpeg",
     "manifestURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/olympustaff/olympustaff.json",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/olympustaff/index.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "al-3asq",
@@ -53,7 +59,9 @@
     "icon": "https://3asq.org/wp-content/uploads/2021/06/cropped-ICON-192x192.png",
     "manifestURI": "https://raw.githubusercontent.com/bruuhim/3asq-extension/main/src/3asq.json",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/3asq-extension/main/src/index.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "alternative-titles",
@@ -67,7 +75,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/alternative-titles.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "subtitle-engine",
@@ -81,7 +91,9 @@
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/seanime-plugins/refs/heads/main/subtitle-engine/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/seanime-plugins/refs/heads/main/subtitle-engine/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "debridtoggle",
@@ -95,7 +107,9 @@
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/DebridToggle/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/DebridToggle/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/DebridToggle/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "anitube",
@@ -109,7 +123,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/anitube.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anitube/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anitube/provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "delete-watched-episodes",
@@ -123,7 +139,9 @@
     "icon": "https://raw.githubusercontent.com/dadangdut33/seanime-extensions/refs/heads/master/plugins/delete-watched-episodes/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/dadangdut33/seanime-extensions/refs/heads/master/plugins/delete-watched-episodes/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dadangdut33/seanime-extensions/refs/heads/master/plugins/delete-watched-episodes/code.ts",
-    "website": "https://github.com/dadangdut33/seanime-extensions"
+    "website": "https://github.com/dadangdut33/seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "animegg",
@@ -137,7 +155,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/animegg.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animegg/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animegg/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/60",
+    "flaggedBy": []
   },
   {
     "id": "asurascans",
@@ -151,7 +171,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/asurascans.webp",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/asurascans/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/asurascans/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "mal-button",
@@ -165,7 +187,9 @@
     "icon": "https://raw.githubusercontent.com/bruuhim/MAL-Button-Seanime/refs/heads/main/src/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/bruuhim/MAL-Button-Seanime/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/MAL-Button-Seanime/refs/heads/main/src/MAL.ts",
-    "website": "https://github.com/bruuhim/MAL-Button-Seanime"
+    "website": "https://github.com/bruuhim/MAL-Button-Seanime",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "animapper-animevietsub",
@@ -179,7 +203,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/SinonCute/seanime-extensions/main/animapper-animevietsub/animapper-animevietsub.json",
     "payloadURI": "https://raw.githubusercontent.com/SinonCute/seanime-extensions/main/animapper-animevietsub/provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "mynimeku",
@@ -193,7 +219,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/mynimeku.jpg",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/mynimeku/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/mynimeku/provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "snow-effect",
@@ -207,7 +235,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/seanime-xmas.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/effects/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/effects/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "mangabats",
@@ -221,7 +251,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/mangabats.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/manganato/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/manganato/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "custom-css-manager",
@@ -235,7 +267,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Custom%20CSS%20Manager/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Custom%20CSS%20Manager/custom-css-manager.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Custom%20CSS%20Manager/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "custom-episode-metadata",
@@ -249,7 +283,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Custom%20Episode%20Metadata/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Custom%20Episode%20Metadata/custom-episode-metadata.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Custom%20Episode%20Metadata/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/56",
+    "flaggedBy": []
   },
   {
     "id": "anilist-activity",
@@ -263,7 +299,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/anilist.ico",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/anilist-activities/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/anilist-activities/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "MyDubList",
@@ -277,7 +315,9 @@
     "icon": "https://raw.githubusercontent.com/Bas1874/MyDubList-Seanime/refs/heads/main/src/icons/logo.png",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/MyDubList-Seanime/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/MyDubList-Seanime/refs/heads/main/src/MyDubList.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "anilist-watch-order",
@@ -291,7 +331,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/anilist-watch-order.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "vault",
@@ -305,7 +347,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/vault.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "animeheaven",
@@ -319,7 +363,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/animeheaven.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "oneko",
@@ -333,7 +379,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/oneko/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/oneko/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/oneko/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "comix",
@@ -347,7 +395,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/comix.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/comix/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/comix/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "antiseeding",
@@ -361,7 +411,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/pal-droid/seanime-marketplace/refs/heads/main/antiseeding.json",
     "payloadURI": "https://raw.githubusercontent.com/pal-droid/seanime-marketplace/refs/heads/main/antiseeding.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "animeav1",
@@ -375,7 +427,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeAV1/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeAV1/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeAV1/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "mangafire",
@@ -389,7 +443,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaFire/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaFire/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaFire/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "LN-reader",
@@ -403,7 +459,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/ln.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/60",
+    "flaggedBy": []
   },
   {
     "id": "animethemes",
@@ -417,7 +475,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/animethemes.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "ui-translation",
@@ -431,7 +491,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/UI-Translation/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/UI-Translation/ui-translation.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "animeflv",
@@ -445,7 +507,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeFLV/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeFLV/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/refs/heads/master/src/AnimeFLV/index.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "always-advanced-search",
@@ -459,7 +523,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/advanced-search/refs/heads/main/2015046.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/advanced-search/refs/heads/main/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/advanced-search/refs/heads/main/advsearch.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "ilcorsaronero",
@@ -473,7 +539,9 @@
     "icon": "https://raw.githubusercontent.com/faddix/seanime-iCN/main/src/iCN-logo.png",
     "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-iCN/main/ilcorsaronero.json",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-iCN/main/iCN.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "Dub-Schedule",
@@ -487,7 +555,9 @@
     "icon": "https://raw.githubusercontent.com/Bas1874/Dub-Schedule-Seanime/refs/heads/main/src/icons/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/Dub-Schedule-Seanime/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Dub-Schedule-Seanime/refs/heads/main/src/Dub-Schedule.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "anime-news",
@@ -501,7 +571,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/aninewsnet-seanime/refs/heads/main/animenewsnetwork.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/aninewsnet-seanime/refs/heads/main/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/aninewsnet-seanime/refs/heads/main/animenews.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "darkmahou-provider",
@@ -515,7 +587,9 @@
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/src/icon/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/darkmahou/darkmahou-provider.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/darkmahou/darkmahou-provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "hanime-online-streaming",
@@ -529,7 +603,9 @@
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hanime/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hanime/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "setwatched",
@@ -543,7 +619,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/RhythmParadox/SetWatched/refs/heads/master/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/RhythmParadox/SetWatched/refs/heads/master/setwatched.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "cookie-clicker",
@@ -557,7 +635,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Cookie-Clicker/refs/heads/main/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Cookie-Clicker/refs/heads/main/cookie-clicker.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "animekai",
@@ -571,7 +651,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeKai/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "anilist-forums",
@@ -585,7 +667,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Forums/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Forums/anilist-forums.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Forums/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "anicrush",
@@ -599,7 +683,9 @@
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/anicrush/logo.png",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/anicrush/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "agefans",
@@ -613,7 +699,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/agefans.ico",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/agefans/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/agefans/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "weebdex",
@@ -627,7 +715,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/Ari-03/weebdex/refs/heads/main/weebdex.json",
     "payloadURI": "https://raw.githubusercontent.com/Ari-03/weebdex/refs/heads/main/provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/58",
+    "flaggedBy": []
   },
   {
     "id": "sudatchi",
@@ -641,7 +731,9 @@
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/sudatchi/logo.ico",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/sudatchi/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "mangapark",
@@ -655,7 +747,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/Ari-03/mangapark/refs/heads/main/mangapark.json",
     "payloadURI": "https://raw.githubusercontent.com/Ari-03/mangapark/refs/heads/main/provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "mangaworldadult",
@@ -669,7 +763,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/MangaWorld.jpeg",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/MangaWorldAdult/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/MangaWorldAdult/provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "AniList-Discussions-Integrated-Player",
@@ -683,7 +779,9 @@
     "icon": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/refs/heads/main/src/Icons/In-Player%20Discussions4.png",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/refs/heads/main/src/Integrated%20Player/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/refs/heads/main/src/Integrated%20Player/Anilist%20Discussions%20(Integrated%20Player).ts",
-    "website": "https://github.com/Bas1874/anilist-discussion/tree/main"
+    "website": "https://github.com/Bas1874/anilist-discussion/tree/main",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "kitsusync",
@@ -697,7 +795,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/KitsuSync/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/KitsuSync/kitsusync.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/KitsuSync/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/63",
+    "flaggedBy": []
   },
   {
     "id": "hianime",
@@ -711,7 +811,9 @@
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/hianime/logo.png",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/hianime/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/hianime/provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "myanimelistsync",
@@ -725,7 +827,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/MyAnimeListSync/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/MyAnimeListSync/myanimelistsync.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/MyAnimeListSync/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "gojowtf",
@@ -739,7 +843,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/GojoWtf/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "traktsync",
@@ -753,7 +859,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/refs/heads/master/plugins/TraktSync/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/TraktSync/traktsync.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/TraktSync/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "aniworld",
@@ -767,7 +875,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/aniworld.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/aniworld/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/aniworld/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "anilist-private",
@@ -781,7 +891,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Private/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Private/anilist-private.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Private/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "simklsync",
@@ -795,7 +907,9 @@
     "icon": "https://eu.simkl.in/img_favicon/v2/favicon-192x192.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/SimklSync/simklsync.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/SimklSync/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "simkl",
@@ -809,7 +923,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/SIMKL/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/SIMKL/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/SIMKL/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "thepiratebay",
@@ -823,7 +939,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/TPB/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/TPB/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/TPB/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "MALSync",
@@ -837,7 +955,9 @@
     "icon": "https://cdn.myanimelist.net/images/favicon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/MALSync-Seanime/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/MALSync-Seanime/refs/heads/main/src/MALSync.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "kaa",
@@ -851,7 +971,9 @@
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/kaa/logo.ico",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/kaa/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "fancy-fonts",
@@ -865,7 +987,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Fancy%20Fonts/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Fancy%20Fonts/fancy-fonts.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Fancy%20Fonts/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "anilist-favorites",
@@ -879,7 +1003,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Favorites/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/refs/heads/master/plugins/Anilist%20Favorites/anilist-favorites.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Favorites/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "AniLiberty",
@@ -893,7 +1019,9 @@
     "icon": "https://raw.githubusercontent.com/vsecoder/AniLiberty-Seanime/main/src/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/vsecoder/AniLiberty-Seanime/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/vsecoder/AniLiberty-Seanime/main/src/AniLiberty.ts",
-    "website": "https://aniliberty.top"
+    "website": "https://aniliberty.top",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "notes",
@@ -907,7 +1035,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/refs/heads/master/plugins/Notes/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/refs/heads/master/plugins/Notes/notes.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/refs/heads/master/plugins/Notes/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "untracked",
@@ -921,7 +1051,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Untracked/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Untracked/untracked.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Untracked/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "AnimeUnity",
@@ -935,7 +1067,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeUnity/animeunity.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "scanita",
@@ -949,7 +1083,9 @@
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/scanita.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/scanita/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/scanita/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/58",
+    "flaggedBy": []
   },
   {
     "id": "hentaiworld",
@@ -963,7 +1099,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/hentaiworld.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/hentaiworld/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/hentaiworld/provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "discord-rpc-hide-nsfw",
@@ -977,7 +1115,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Hide%20NSFW/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Hide%20NSFW/discord-rpc-hide-nsfw.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Hide%20NSFW/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "shikimorisync",
@@ -991,7 +1131,9 @@
     "icon": "https://shikimori.one/favicons/favicon-96x96.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/ShikimoriSync/shikimorisync.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/ShikimoriSync/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "watch-order",
@@ -1005,7 +1147,9 @@
     "icon": "https://raw.githubusercontent.com/Bas1874/Watch-Order-Seanime/refs/heads/main/scr/icons/AnimeWatchOrderV4.png",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/Watch-Order-Seanime/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Watch-Order-Seanime/refs/heads/main/src/Watch-Order.ts",
-    "website": "https://github.com/Bas1874/Watch-Order-Seanime"
+    "website": "https://github.com/Bas1874/Watch-Order-Seanime",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "mangabaka",
@@ -1019,7 +1163,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaBaka/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaBaka/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaBaka/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "anilist-discussions",
@@ -1033,7 +1179,9 @@
     "icon": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/main/src/Icons/ad-Icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/refs/heads/main/src/my-plugin.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "mangabuddy",
@@ -1047,7 +1195,9 @@
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/mangabuddy.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangabuddy/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangabuddy/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "mangafreak",
@@ -1061,7 +1211,9 @@
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/mangafreak.jpeg",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mangafreak/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mangafreak/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "hentaisaturn",
@@ -1075,7 +1227,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/hentaisaturn.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/hentaisaturn/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/hentaisaturn/provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "anilist-autopause",
@@ -1089,7 +1243,9 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Autopause/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Autopause/anilist-autopause.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Autopause/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions"
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "Doom",
@@ -1103,7 +1259,9 @@
     "icon": "https://raw.githubusercontent.com/Bas1874/Doom-Seanime/refs/heads/main/icons/Icon2.png",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/Doom-Seanime/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Doom-Seanime/refs/heads/main/src/Doom.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "kagane-source",
@@ -1117,7 +1275,9 @@
     "icon": "https://kagane.org/favicon.ico",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/KaganeSoruce/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/KaganeSoruce/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "animeworld",
@@ -1131,7 +1291,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeWorld/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "mangaworld",
@@ -1145,7 +1307,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-manga-providers/refs/heads/main/src/MangaWorld/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "animesaturn",
@@ -1159,7 +1323,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeSaturn/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "anime-notes",
@@ -1173,7 +1339,9 @@
     "icon": "https://raw.githubusercontent.com/faddix/anime-notes/main/src/notepad.png",
     "manifestURI": "https://raw.githubusercontent.com/faddix/anime-notes/main/anime-notes.json",
     "payloadURI": "https://raw.githubusercontent.com/faddix/anime-notes/main/AnimeNotes.ts",
-    "website": "https://github.com/faddix/anime-notes"
+    "website": "https://github.com/faddix/anime-notes",
+    "flags": "0/60",
+    "flaggedBy": []
   },
   {
     "id": "komikcast",
@@ -1187,7 +1355,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/komikcast.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/komikcast/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/komikcast/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "komiku",
@@ -1201,7 +1371,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/komiku.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/komiku/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/komiku/provider.js",
-    "website": ""
+    "website": "",
+    "flags": "0/60",
+    "flaggedBy": []
   },
   {
     "id": "Acgnx",
@@ -1215,7 +1387,9 @@
     "icon": "https://raw.githubusercontent.com/Bas1874/Acgnx-Seanime/refs/heads/main/src/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/Acgnx-Seanime/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Acgnx-Seanime/refs/heads/main/src/Acgnx.ts",
-    "website": "https://github.com/Bas1874/Acgnx-Seanime"
+    "website": "https://github.com/Bas1874/Acgnx-Seanime",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "mangadex-source",
@@ -1229,7 +1403,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaDexSource/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaDexSource/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaDexSource/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "SubsPlease-Provider",
@@ -1243,7 +1419,9 @@
     "icon": "https://raw.githubusercontent.com/Bas1874/SubsPleaseSeanime/refs/heads/main/src/icon/icon.jpeg",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/SubsPleaseSeanime/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/SubsPleaseSeanime/refs/heads/main/src/SubsPlease.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "mangadex",
@@ -1257,7 +1435,9 @@
     "icon": "https://raw.githubusercontent.com/5rahim/hibike/main/icons/mangadex.png",
     "manifestURI": "https://raw.githubusercontent.com/HyperKiko/seanime-extensions/main/src/mangadex/mangadex.json",
     "payloadURI": "https://raw.githubusercontent.com/HyperKiko/seanime-extensions/main/src/mangadex/mangadex.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/60",
+    "flaggedBy": []
   },
   {
     "id": "mal-unofficial",
@@ -1271,7 +1451,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MAL/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MAL/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MAL/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "Watch-Next",
@@ -1285,7 +1467,9 @@
     "icon": "https://raw.githubusercontent.com/Bas1874/Watch-Next-Seanime/refs/heads/main/src/icon/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/Watch-Next-Seanime/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Watch-Next-Seanime/refs/heads/main/src/Watch-Next.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "anizone",
@@ -1299,7 +1483,9 @@
     "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AniZone/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/refs/heads/master/src/AniZone/index.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "anime-uniquestream",
@@ -1313,7 +1499,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeUniqueStream/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeUniqueStream/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeUniqueStream/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/54",
+    "flaggedBy": []
   },
   {
     "id": "anidream",
@@ -1327,7 +1515,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AniDream/icon.jpg",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AniDream/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AniDream/main.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "manhwaweb",
@@ -1341,7 +1531,9 @@
     "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/ManhwaWeb/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/ManhwaWeb/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/ManhwaWeb/index.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "picked-for-you",
@@ -1355,7 +1547,9 @@
     "icon": "https://raw.githubusercontent.com/kRYstall9/Picked-For-You/refs/heads/main/src/icons/recommendedicon.png",
     "manifestURI": "https://raw.githubusercontent.com/kRYstall9/Picked-For-You/refs/heads/main/src/picked-for-you.json",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Picked-For-You/refs/heads/main/src/provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "episodeshistory",
@@ -1369,7 +1563,9 @@
     "icon": "https://raw.githubusercontent.com/kRYstall9/EpisodesHistory-Plugin/refs/heads/main/src/icons/double-check.png",
     "manifestURI": "https://raw.githubusercontent.com/kRYstall9/EpisodesHistory-Plugin/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/EpisodesHistory-Plugin/refs/heads/main/src/provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "YGG-Provider",
@@ -1383,7 +1579,9 @@
     "icon": "https://raw.githubusercontent.com/MLB-11/YGGTorrentSeanime/main/icon/ygg.webp",
     "manifestURI": "https://raw.githubusercontent.com/MLB-11/YGGTorrentSeanime/refs/heads/main/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/MLB-11/YGGTorrentSeanime/refs/heads/main/YGGTorrent.ts",
-    "website": "https://x.com/mlb__11"
+    "website": "https://x.com/mlb__11",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "toonanime-online-streaming",
@@ -1397,7 +1595,9 @@
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/toonanime/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/toonanime/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "anime-ultra-online-streaming",
@@ -1411,7 +1611,9 @@
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-ultra/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-ultra/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "oppai-stream-online-streaming",
@@ -1425,7 +1627,9 @@
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/oppai-stream/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/oppai-stream/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "anime-sama-online-streaming",
@@ -1439,7 +1643,9 @@
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-sama/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-sama/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "french-anime-online-streaming",
@@ -1453,7 +1659,9 @@
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/french-anime/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/french-anime/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "mangalivre-tv",
@@ -1467,7 +1675,9 @@
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/src/icon/mangalivre.tv.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mangalivre.tv/mangalivre-tv.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mangalivre.tv/mangalivre-provider.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "Tokyo-Toshokan-Provider",
@@ -1481,7 +1691,9 @@
     "icon": "https://raw.githubusercontent.com/Bas1874/Tokyotosho-Torrent-Provider-Seanime/main/src/icons/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/Tokyotosho-Torrent-Provider-Seanime/main/src/tokyotosho/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Tokyotosho-Torrent-Provider-Seanime/main/src/tokyotosho/Tokyo-Toshokan.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/62",
+    "flaggedBy": []
   },
   {
     "id": "acg-rip-provider",
@@ -1495,7 +1707,9 @@
     "icon": "https://raw.githubusercontent.com/Bas1874/ACG.RIP-Torrent-Provider-Seanime/main/src/icons/images.jpeg",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/ACG.RIP-Torrent-Provider-Seanime/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/ACG.RIP-Torrent-Provider-Seanime/refs/heads/main/src/ACG.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/61",
+    "flaggedBy": []
   },
   {
     "id": "animepahe",
@@ -1509,7 +1723,9 @@
     "icon": "https://raw.githubusercontent.com/Pal-droid/seanime-marketplace/refs/heads/main/animepahe.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/seanime-marketplace/refs/heads/main/manifest.json",
     "payloadURI": "",
-    "website": ""
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": []
   },
   {
     "id": "banner-remover",
@@ -1523,7 +1739,9 @@
     "icon": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/main/src/Icons/Icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/refs/heads/main/src/banner-remover.ts",
-    "website": ""
+    "website": "",
+    "flags": "0/60",
+    "flaggedBy": []
   },
   {
     "id": "my-list-table-view",
@@ -1537,6 +1755,8 @@
     "icon": "https://raw.githubusercontent.com/dadangdut33/seanime-extensions/refs/heads/master/plugins/my-list-table-view/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/dadangdut33/seanime-extensions/refs/heads/master/plugins/my-list-table-view/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dadangdut33/seanime-extensions/refs/heads/master/plugins/my-list-table-view/code.ts",
-    "website": "https://github.com/dadangdut33/seanime-extensions"
+    "website": "https://github.com/dadangdut33/seanime-extensions",
+    "flags": "0/61",
+    "flaggedBy": []
   }
 ]
