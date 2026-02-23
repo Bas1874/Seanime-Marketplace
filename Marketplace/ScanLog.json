@@ -802,14 +802,14 @@
   },
   {
     "id": "banner-remover",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/refs/heads/main/src/banner-remover.ts",
-    "flags": "1/62",
+    "flags": "1/61",
     "flaggedBy": [
       "SUPERAntiSpyware"
     ],
     "permalink": "https://www.virustotal.com/gui/file/8fab2772ab44ec9d8cd9bf811e494e8a944ec7c1c083e537dd9315d0e5fd8822",
-    "timestamp": 1771876052501
+    "timestamp": 1771879377993
   },
   {
     "id": "mangalivre-tv",
