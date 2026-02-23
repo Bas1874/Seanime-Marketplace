@@ -1,7 +1,7 @@
 [
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1359184067915944139",
-    "reason": "This is the example template and is expected to fail.",
+    "reason": "Expected failure (Example template).",
     "originalMessageContent": "> **Extension Name:**\n> Example Name\n> \n> **Version:**\n> 0.69\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Example/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Example/manifest.json```\n> **Description:**\n> Extension for (EXAMPLE), an online streaming provider for subbed/dubbed anime in English, made by Bas1874\n> \n> **Additional Notes:**\n> Share any extra details, acknowledgments, or troubleshooting tips."
   }
 ]
