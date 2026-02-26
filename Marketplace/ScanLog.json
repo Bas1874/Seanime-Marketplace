@@ -298,12 +298,12 @@
   },
   {
     "id": "vault",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/provider.ts",
     "flags": "0/62",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0735c3156ff6e2077ea0a8a5780d84002f4ab51550e5d2344b1e804cc4bfb941",
-    "timestamp": 1771867796448
+    "permalink": "https://www.virustotal.com/gui/file/db30aa2ad8a1a82cc0b0e7423a74345b2266a40deaf33c5911d772bb27c88db7",
+    "timestamp": 1772097348278
   },
   {
     "id": "anilist-watch-order",
