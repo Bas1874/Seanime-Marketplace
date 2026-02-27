@@ -433,12 +433,12 @@
   },
   {
     "id": "anilist-forums",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Forums/provider.ts",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b8f7fa2066f0540b65e7026a59d7c7e9aeb7e78d223e3f1a880e5d63de8e6b4a",
-    "timestamp": 1771869155048
+    "permalink": "https://www.virustotal.com/gui/file/35ecd0c83047be025ac77be8551e53c0637da29a13c77d53f8e9b5cd4f2c0ead",
+    "timestamp": 1772211691763
   },
   {
     "id": "mangaworldadult",
@@ -469,12 +469,12 @@
   },
   {
     "id": "myanimelistsync",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/MyAnimeListSync/provider.ts",
-    "flags": "0/62",
+    "flags": "0/63",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/24769b77489df499ac385f90f0b3549fa4252cf20e609146657ca285aae8b3f5",
-    "timestamp": 1771869633376
+    "permalink": "https://www.virustotal.com/gui/file/b9df1d8fe89a350fa51aab21f73d69a22597999343dee8d35f2e01a9f5c1e87e",
+    "timestamp": 1772211598227
   },
   {
     "id": "kitsusync",
