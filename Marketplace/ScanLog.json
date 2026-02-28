@@ -837,5 +837,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2fe753ac1429c33bfb8326936a2de568956f0be82b9df4388a2ec295bd7bc293",
     "timestamp": 1771874048116
+  },
+  {
+    "id": "account-switcher",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/FracturedSora/Seanime-Account-Switcher/refs/heads/main/AccountSwitcher.js",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3c4ea2c82385e5894241b08054fd051d6161325eaf8c0e312396273d4353a1dd",
+    "timestamp": 1772260703406
   }
 ]
