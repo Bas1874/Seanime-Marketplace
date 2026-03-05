@@ -55,12 +55,12 @@
   },
   {
     "id": "mangabats",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/manganato/provider.js",
     "flags": "0/62",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a5259ccfdf608855b183c5bd5921d5a5a7d7f814bb9ed31483da776e988470a9",
-    "timestamp": 1771865490066
+    "permalink": "https://www.virustotal.com/gui/file/86b53d246829a9c818d307473b123cfaaafc83cd34184b4287db87bb17bf6dc8",
+    "timestamp": 1772685754737
   },
   {
     "id": "delete-watched-episodes",
@@ -855,5 +855,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/70d1df9d7d459d693a868cb96ccc3a85c6e4ca358deb7f4a080cc28b146f5479",
     "timestamp": 1772390388776
+  },
+  {
+    "id": "taiyo",
+    "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/taiyo/provider.js",
+    "flags": "0/62",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3e34d8e0b74554b3acaacd6cfe3982cd0fbe743335f827f37a5529e10f24f92a",
+    "timestamp": 1772685693385
   }
 ]
