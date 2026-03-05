@@ -604,12 +604,12 @@
   },
   {
     "id": "hentaiworld",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/hentaiworld/provider.ts",
     "flags": "0/62",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/abb6e47366e14f1e59b2203ba9a32c736f2449a478e7f055a91bc5c268be1d21",
-    "timestamp": 1771870898489
+    "permalink": "https://www.virustotal.com/gui/file/9f6accbeec948ce3bd061641152681ea25db528f9c36f6441159b7c4815f162e",
+    "timestamp": 1772728895537
   },
   {
     "id": "mangafreak",
