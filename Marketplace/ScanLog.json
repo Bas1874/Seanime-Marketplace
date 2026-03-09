@@ -523,12 +523,12 @@
   },
   {
     "id": "anilist-private",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Private/provider.ts",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ed7faf8f05581dfa452c3b7e47ba44e3c1d7b049f4b973a0cbbcf590e7b5f04e",
-    "timestamp": 1771869988194
+    "permalink": "https://www.virustotal.com/gui/file/cb4b76770ec0572a900f718ffb83da25cf6a036a3dc007bd9a8b7cb68314881d",
+    "timestamp": 1773074741898
   },
   {
     "id": "notes",
