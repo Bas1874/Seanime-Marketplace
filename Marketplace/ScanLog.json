@@ -469,12 +469,12 @@
   },
   {
     "id": "myanimelistsync",
-    "version": "1.0.14",
+    "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/MyAnimeListSync/provider.ts",
-    "flags": "0/63",
+    "flags": "0/62",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b9df1d8fe89a350fa51aab21f73d69a22597999343dee8d35f2e01a9f5c1e87e",
-    "timestamp": 1772211598227
+    "permalink": "https://www.virustotal.com/gui/file/26bc108e086447ac67a7b4fbaf6ff67f2e746e6d1f6eaa9baaf462456c816ea0",
+    "timestamp": 1773420785475
   },
   {
     "id": "kitsusync",
