@@ -864,5 +864,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/3e34d8e0b74554b3acaacd6cfe3982cd0fbe743335f827f37a5529e10f24f92a",
     "timestamp": 1772685693385
+  },
+  {
+    "id": "animesamamanga",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/animesama/provider.js",
+    "flags": "0/62",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1ebf32fc5867547a2dad9b23eb557288c085f9835f4a9a773f444aa8483828ef",
+    "timestamp": 1774133740033
   }
 ]
