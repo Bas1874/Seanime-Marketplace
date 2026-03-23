@@ -873,5 +873,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/1ebf32fc5867547a2dad9b23eb557288c085f9835f4a9a773f444aa8483828ef",
     "timestamp": 1774133740033
+  },
+  {
+    "id": "lelmanga",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/lelmanga/provider.js",
+    "flags": "0/59",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b778638c6ac1e03ffac5914573bf4b1a2d6773afb274a742d8c736068b869433",
+    "timestamp": 1774230107118
   }
 ]
