@@ -882,5 +882,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/b778638c6ac1e03ffac5914573bf4b1a2d6773afb274a742d8c736068b869433",
     "timestamp": 1774230107118
+  },
+  {
+    "id": "animapper-niniyo",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/SinonCute/seanime-extensions/main/animapper-niniyo/provider.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1344474aeb3608819f7077ffd879a9fcc113b9aee71bd2d39cd41683f2730616",
+    "timestamp": 1774575931292
   }
 ]
