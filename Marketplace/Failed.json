@@ -3,10 +3,5 @@
     "threadURL": "https://discord.com/channels/1224767201551192224/1359184067915944139",
     "reason": "Expected failure.",
     "originalMessageContent": "> **Extension Name:**\n> Example Name\n> \n> **Version:**\n> 0.69\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Example/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Example/manifest.json```\n> **Description:**\n> Extension for (EXAMPLE), an online streaming provider for subbed/dubbed anime in English, made by Bas1874\n> \n> **Additional Notes:**\n> Share any extra details, acknowledgments, or troubleshooting tips."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1396125150142791722",
-    "reason": "timeout of 5000ms exceeded",
-    "originalMessageContent": "> **Extension Name:**\n> Anime Notes\n> \n> **Version:**\n> 1.1.8\n> \n> **MInimum Server version:**\n> 2.9.3\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/faddix/anime-notes/main/anime-notes.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/faddix/anime-notes/main/anime-notes.json```\n> \n> **Description:**\n> Add local notes to your anime\n> \n> **Additional Notes:**\n> This plugin is very basic at them moment, if you have any suggestions feel free to recommend them under this post.\n> If you need help or would like to check the features click [here](https://github.com/faddix/anime-notes/tree/main#-anime-notes--a-seanime-plugin)"
   }
 ]
