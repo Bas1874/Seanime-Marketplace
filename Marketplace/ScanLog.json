@@ -891,5 +891,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/1344474aeb3608819f7077ffd879a9fcc113b9aee71bd2d39cd41683f2730616",
     "timestamp": 1774575931292
+  },
+  {
+    "id": "animekai",
+    "version": "1.2.0",
+    "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeKai/provider.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0262581c12e55e8aa042665c57fdee9a06c181837750c56af6a51a95d229c352",
+    "timestamp": 1774748885754
   }
 ]
