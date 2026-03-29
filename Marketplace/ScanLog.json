@@ -334,12 +334,12 @@
   },
   {
     "id": "asurascans",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/asurascans/provider.js",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/126b7697d679d36ec07c8f19a07f2bc1218681c3b87c914491be28d0ec236287",
-    "timestamp": 1771868198038
+    "permalink": "https://www.virustotal.com/gui/file/0e5da53bb95a3780813d67dd1ccba027e08d5a80612833f43c76b36768c41536",
+    "timestamp": 1774792135993
   },
   {
     "id": "animegg",
@@ -894,11 +894,20 @@
   },
   {
     "id": "animekai",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeKai/provider.ts",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/01cd3f120276fd50ccd2a2dea54085a365c86c54c34e2da56aa4d17bfca68035",
+    "timestamp": 1774792228218
+  },
+  {
+    "id": "gojowtf",
+    "version": "1.1.3",
+    "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/GojoWtf/provider.ts",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0262581c12e55e8aa042665c57fdee9a06c181837750c56af6a51a95d229c352",
-    "timestamp": 1774748885754
+    "permalink": "https://www.virustotal.com/gui/file/b81e58f17229e5b28c0e74786f7ac4f12fbc6d62c1484b617760c2438ae8004d",
+    "timestamp": 1774792274179
   }
 ]
