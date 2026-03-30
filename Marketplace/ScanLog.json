@@ -136,12 +136,12 @@
   },
   {
     "id": "LN-reader",
-    "version": "1.5.4",
+    "version": "1.5.5",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/main.ts",
-    "flags": "0/60",
+    "flags": "0/58",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/6c765cc11dd74210aba9179827d2a7d88d1eda7a8582ad732d9b603b12b3fbfa",
-    "timestamp": 1771866269016
+    "timestamp": 1774835662729
   },
   {
     "id": "animeheaven",
@@ -388,12 +388,12 @@
   },
   {
     "id": "mynimeku",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/mynimeku/provider.ts",
-    "flags": "0/62",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/05df956bea478398d2a2de17dd1f8da6d40a27517abc35c4af6c1b836c4b7760",
-    "timestamp": 1771868708499
+    "permalink": "https://www.virustotal.com/gui/file/2c4e2b2ea81556f15897a3036f432c055c58b50f3e09b665df831bfd997fd459",
+    "timestamp": 1774835431640
   },
   {
     "id": "weebdex",
@@ -631,12 +631,12 @@
   },
   {
     "id": "hentaisaturn",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/hentaisaturn/provider.ts",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8b7a6946b4fe3c370debc720cdaded3081d290a8fbe52c8bae9c1fc6d467bdc7",
-    "timestamp": 1771871068353
+    "permalink": "https://www.virustotal.com/gui/file/bcc8199802daa5524a523d86ffca7366061d05307ca4dedaa9ecdc649b257cb6",
+    "timestamp": 1774835477735
   },
   {
     "id": "mangabuddy",
