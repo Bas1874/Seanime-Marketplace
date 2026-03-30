@@ -469,21 +469,21 @@
   },
   {
     "id": "myanimelistsync",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/MyAnimeListSync/provider.ts",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/26bc108e086447ac67a7b4fbaf6ff67f2e746e6d1f6eaa9baaf462456c816ea0",
-    "timestamp": 1773420785475
+    "permalink": "https://www.virustotal.com/gui/file/53ee3b1b456f162d11a203fae724e9f6686a56ecc5bdbfa6473dadf52634f2b1",
+    "timestamp": 1774878639664
   },
   {
     "id": "kitsusync",
-    "version": "1.2.2",
+    "version": "1.3.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/KitsuSync/provider.ts",
-    "flags": "0/63",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6c7b7fdef7d7b145863417cd28b6791dee5027fe40174a616c64d7f50b8e689a",
-    "timestamp": 1771869679683
+    "permalink": "https://www.virustotal.com/gui/file/82fa9232ecd9ed478d2a75f44526faa706f1e98f8dd7a964f27352817627b9ef",
+    "timestamp": 1774878731766
   },
   {
     "id": "thepiratebay",
