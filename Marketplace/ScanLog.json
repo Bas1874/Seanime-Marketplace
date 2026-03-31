@@ -909,5 +909,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/b81e58f17229e5b28c0e74786f7ac4f12fbc6d62c1484b617760c2438ae8004d",
     "timestamp": 1774792274179
+  },
+  {
+    "id": "atsumaru",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/atsumaru/provider.js",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/7098f42e25001e3ca8322b300a3a93274212b739c97291c8182d05df72b4ad13",
+    "timestamp": 1774965094744
   }
 ]
