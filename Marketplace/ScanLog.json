@@ -918,5 +918,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7098f42e25001e3ca8322b300a3a93274212b739c97291c8182d05df72b4ad13",
     "timestamp": 1774965094744
+  },
+  {
+    "id": "mynimekumanga",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/provider.js",
+    "flags": "0/55",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1f870f072317d90900018c931b3d47fe59f32a4fffa15c84efd89e92a747fbe0",
+    "timestamp": 1775008415718
   }
 ]
