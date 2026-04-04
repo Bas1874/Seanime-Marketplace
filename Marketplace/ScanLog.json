@@ -415,12 +415,12 @@
   },
   {
     "id": "animapper-animevietsub",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/SinonCute/seanime-extensions/main/animapper-animevietsub/provider.ts",
-    "flags": "0/61",
+    "flags": "0/62",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/fb27a126b20887dd5198457df1ac0818c1933ebc92f0d91edca921c39c53ef32",
-    "timestamp": 1771869061874
+    "permalink": "https://www.virustotal.com/gui/file/3c597c9a96bb687c0993e0b92c2eb78d538dff12aa4c42941917d28d0ec90175",
+    "timestamp": 1775320992386
   },
   {
     "id": "agefans",
@@ -885,12 +885,12 @@
   },
   {
     "id": "animapper-niniyo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/SinonCute/seanime-extensions/main/animapper-niniyo/provider.ts",
-    "flags": "0/61",
+    "flags": "0/62",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1344474aeb3608819f7077ffd879a9fcc113b9aee71bd2d39cd41683f2730616",
-    "timestamp": 1774575931292
+    "permalink": "https://www.virustotal.com/gui/file/cb0f52fac2c08e44547ce7b30df5fcab68a3fc79da0e0567e03f42d5bd69e8d9",
+    "timestamp": 1775320946105
   },
   {
     "id": "animekai",
