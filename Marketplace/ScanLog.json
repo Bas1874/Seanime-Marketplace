@@ -73,12 +73,12 @@
   },
   {
     "id": "mangabaka",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaBaka/main.ts",
-    "flags": "0/62",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/04ebce201bc3c9fe1f5ef0f456845829472bd7759a78ac8617d63c724dfb8fed",
-    "timestamp": 1771865598559
+    "permalink": "https://www.virustotal.com/gui/file/61c94266f62eeada64aa6a58eeb138e2c612ae90e75826a5429c8a6075aa3448",
+    "timestamp": 1775450812779
   },
   {
     "id": "untracked",
@@ -91,12 +91,12 @@
   },
   {
     "id": "kagane-source",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/KaganeSoruce/main.ts",
     "flags": "0/62",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/798cce7f4c612817db6187f4c7de85d28d24452976834a8bcd8c716df5eb376e",
-    "timestamp": 1771865722410
+    "permalink": "https://www.virustotal.com/gui/file/59eba7f64331a3875f34ea5c61709e9f9f002b9415ecc033f48b7b02f4f8b87e",
+    "timestamp": 1775450874046
   },
   {
     "id": "anilist-activity",
@@ -181,12 +181,12 @@
   },
   {
     "id": "animethemes",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/animethemes.ts",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6dc55f13ea010e487e06d942ee99f31d2a9f0d17a3c6aac03ddcfa77f63bb635",
-    "timestamp": 1771967624005
+    "permalink": "https://www.virustotal.com/gui/file/28eb4b48dbc167ac5fc9b2f7997912594dbadd290299f187ccd0891c50f41cb5",
+    "timestamp": 1775451012006
   },
   {
     "id": "cookie-clicker",
@@ -757,12 +757,12 @@
   },
   {
     "id": "mal-unofficial",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MAL/main.ts",
     "flags": "0/62",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/cc12e1a03cadeb88c0edeb76f7d2326b399f73cb75a72b3e48826979aad4ee1f",
-    "timestamp": 1771873030433
+    "permalink": "https://www.virustotal.com/gui/file/61d1f6dd9d81e29a5b8c7d80352c37dedbd6ef1c6a5700f455905f2173040bad",
+    "timestamp": 1775450705210
   },
   {
     "id": "picked-for-you",
