@@ -936,5 +936,23 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/9f2af04b9c8d1e997125f914ea41c4a3c6316fe7a4bd475f840b5537c5fe10fd",
     "timestamp": 1775191271293
+  },
+  {
+    "id": "olympusbiblioteca",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/faddix/olympusbiblioteca/main/olympusbiblioteca.ts",
+    "flags": "0/62",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e28aeb20a099454ca9f733d818572312f114f481446c2459e167ab5d6e6926be",
+    "timestamp": 1775815963703
+  },
+  {
+    "id": "demoniscans",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/faddix/demonicscans/main/demonicscans.ts",
+    "flags": "0/62",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/15cc462939b495f44227cc8d4fe384e1642411955fa73cfa2571e07abfdccbdc",
+    "timestamp": 1775816055850
   }
 ]
