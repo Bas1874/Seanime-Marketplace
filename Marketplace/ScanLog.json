@@ -954,5 +954,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/15cc462939b495f44227cc8d4fe384e1642411955fa73cfa2571e07abfdccbdc",
     "timestamp": 1775816055850
+  },
+  {
+    "id": "allmangaanime",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/allmanga/provider.js",
+    "flags": "0/52",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b379e7496ecfb17367aef3ec43e82ccd34419f4a4e12b75d0cdadcef3566b93d",
+    "timestamp": 1775910198664
   }
 ]
