@@ -3,5 +3,10 @@
     "threadURL": "https://discord.com/channels/1224767201551192224/1359184067915944139",
     "reason": "Expected failure.",
     "originalMessageContent": "> **Extension Name:**\n> Example Name\n> \n> **Version:**\n> 0.69\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Example/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Example/manifest.json```\n> **Description:**\n> Extension for (EXAMPLE), an online streaming provider for subbed/dubbed anime in English, made by Bas1874\n> \n> **Additional Notes:**\n> Share any extra details, acknowledgments, or troubleshooting tips."
+  },
+  {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1426612290437910600",
+    "reason": "404 Not Found.",
+    "originalMessageContent": "> **Extension Name:**\n> YGG Torrent\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/MLB-11/YGGTorrentSeanime/refs/heads/main/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/MLB-11/YGGTorrentSeanime/refs/heads/main/manifest.json```\n> **Description:**\n> A Seanime extension that Add YGG as an AnimeTorrentProvider, Made By MLB11\n> \n> **Additional Notes:**\n> **[PASSKEY](https://www.yggtorrent.top/user/account) from YGG is required***\n> SmartSearch is bad for now, i'll figure out later how to make it good for ygg."
   }
 ]
