@@ -963,5 +963,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/b379e7496ecfb17367aef3ec43e82ccd34419f4a4e12b75d0cdadcef3566b93d",
     "timestamp": 1775910198664
+  },
+  {
+    "id": "jkanime",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/JkAnime/main.ts",
+    "flags": "0/62",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/cd21ccc91356e312ec7b81765e0e0b3178760245198840e38c4b7d68c3cd6add",
+    "timestamp": 1775953215464
   }
 ]
