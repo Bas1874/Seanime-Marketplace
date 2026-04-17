@@ -181,12 +181,12 @@
   },
   {
     "id": "animethemes",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/animethemes.ts",
-    "flags": "0/61",
+    "flags": "0/55",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/28eb4b48dbc167ac5fc9b2f7997912594dbadd290299f187ccd0891c50f41cb5",
-    "timestamp": 1775451012006
+    "permalink": "https://www.virustotal.com/gui/file/7a99c56136aae0f23fc40c3be77f39f5681c40b192835779c29c1e5f00d70b3b",
+    "timestamp": 1776386546639
   },
   {
     "id": "cookie-clicker",
