@@ -981,5 +981,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2db1d34d9b705d69300d108c9783ac69cbe35c8613f387e068a7e340b3179d99",
     "timestamp": 1776299290117
+  },
+  {
+    "id": "animetoast",
+    "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animetoast/provider.js",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/2038eede87d10744a2ac68f3d76aa6e8d970464dfd759e39e5304049fc16a326",
+    "timestamp": 1776472247923
   }
 ]
