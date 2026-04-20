@@ -966,12 +966,12 @@
   },
   {
     "id": "jkanime",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/JkAnime/main.ts",
     "flags": "0/62",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/cd21ccc91356e312ec7b81765e0e0b3178760245198840e38c4b7d68c3cd6add",
-    "timestamp": 1775953215464
+    "permalink": "https://www.virustotal.com/gui/file/a3a1017351c1652cdb053c48a2a9a1675cabd7c56c2c340b80534ff35fc83578",
+    "timestamp": 1776663474750
   },
   {
     "id": "random-entry",
