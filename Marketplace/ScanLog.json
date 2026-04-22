@@ -1008,5 +1008,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7b964dadae8d19ead09f74ec9db8c58dc5429ca80474a27d924cd085d05f53b6",
     "timestamp": 1776706078054
+  },
+  {
+    "id": "mangaoni",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/MangaOni/main.ts",
+    "flags": "0/62",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/2b066bff180770323c6bc9d63af0d9b5a2c0b1ee4685c7e9d3e3f94c287fe173",
+    "timestamp": 1776879226643
   }
 ]
