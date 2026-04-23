@@ -253,12 +253,12 @@
   },
   {
     "id": "animeflv",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/refs/heads/master/src/AnimeFLV/index.ts",
     "flags": "0/62",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7ef6a4161005a390302120c077077e0444e7eb9eccae795943f65fda7b2e1b75",
-    "timestamp": 1771867283344
+    "permalink": "https://www.virustotal.com/gui/file/6e986e30268ae365f47b9574925798512b3d2ae1a8db03a6a26a7829d6e9e991",
+    "timestamp": 1776965711216
   },
   {
     "id": "custom-episode-metadata",
