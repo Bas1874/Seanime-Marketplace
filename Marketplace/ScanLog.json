@@ -1017,5 +1017,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2b066bff180770323c6bc9d63af0d9b5a2c0b1ee4685c7e9d3e3f94c287fe173",
     "timestamp": 1776879226643
+  },
+  {
+    "id": "leercapitulo",
+    "version": "1.0.2",
+    "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/LeerCapitulo/main.ts",
+    "flags": "0/62",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/403dbfc5ac839775479cad9cffe4cb03a3785687036a5534217ef6f701d8a9a9",
+    "timestamp": 1776922323513
   }
 ]
