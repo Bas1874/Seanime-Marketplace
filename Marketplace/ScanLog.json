@@ -1020,20 +1020,47 @@
   },
   {
     "id": "leercapitulo",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/LeerCapitulo/main.ts",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/403dbfc5ac839775479cad9cffe4cb03a3785687036a5534217ef6f701d8a9a9",
-    "timestamp": 1776922323513
+    "permalink": "https://www.virustotal.com/gui/file/df3d8551717667523d7c3b6a08db3287a26e485653967a174c4ba128484f6128",
+    "timestamp": 1777040021796
   },
   {
     "id": "nartag",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Nartag/main.ts",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d7cc6889ce1a148b5e7b9d816f63c625d64519c801d8e01b04e4d7f59384fd8a",
-    "timestamp": 1776996827876
+    "permalink": "https://www.virustotal.com/gui/file/69385ff775d87f8a3680de1c7b4e4d6477e9eeb621fd49f62fe63b3c9e952e71",
+    "timestamp": 1777040144417
+  },
+  {
+    "id": "uchuujin-projects",
+    "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/UchuujinProjects/main.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c5a33773a538a506173844639f70a9f73d298b48048df414738be616bc4e70bd",
+    "timestamp": 1777040083276
+  },
+  {
+    "id": "mh-scans",
+    "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/MhScans/main.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/9298be0179cff1333d046cc3ba5f88b0e38310525c10aeee89680acc5c01d0c8",
+    "timestamp": 1777040221079
+  },
+  {
+    "id": "mangas-in",
+    "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/master/src/MangasIn/main.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3535fce892905dd36cdaabad7f7266fa15d1137f007b5db3ff0ee1385c284ccd",
+    "timestamp": 1777040282625
   }
 ]
