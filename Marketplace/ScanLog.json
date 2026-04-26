@@ -145,12 +145,12 @@
   },
   {
     "id": "animeheaven",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/080e93d0bba3122bbd545a6a5c19463b6a93f14e6650f4cae021724077d4f58d",
-    "timestamp": 1771866316026
+    "permalink": "https://www.virustotal.com/gui/file/147639943e40fcb857059f51ef02741c5c9af68d4259fecfaf723bf9dafd0016",
+    "timestamp": 1777212987239
   },
   {
     "id": "mangapark",
