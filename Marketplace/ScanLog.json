@@ -388,12 +388,12 @@
   },
   {
     "id": "mynimeku",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/mynimeku/provider.ts",
-    "flags": "0/60",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2c4e2b2ea81556f15897a3036f432c055c58b50f3e09b665df831bfd997fd459",
-    "timestamp": 1774835431640
+    "permalink": "https://www.virustotal.com/gui/file/c26ce7e03ad6ddf129d7fb0d4d850bfbc30ff9329d5c32fcbb69b49fb59d833f",
+    "timestamp": 1777256323901
   },
   {
     "id": "weebdex",
@@ -604,12 +604,12 @@
   },
   {
     "id": "hentaiworld",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/hentaiworld/provider.ts",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9f6accbeec948ce3bd061641152681ea25db528f9c36f6441159b7c4815f162e",
-    "timestamp": 1772728895537
+    "permalink": "https://www.virustotal.com/gui/file/315ca42d481cf67b5bf7d1c33ddb4000bfe0b9b2bc1db57d992af141438e42e0",
+    "timestamp": 1777256385156
   },
   {
     "id": "mangafreak",
@@ -921,12 +921,12 @@
   },
   {
     "id": "mynimekumanga",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/provider.js",
-    "flags": "0/55",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1f870f072317d90900018c931b3d47fe59f32a4fffa15c84efd89e92a747fbe0",
-    "timestamp": 1775008415718
+    "permalink": "https://www.virustotal.com/gui/file/8c8d3fd3463171638cb77c262a5003470ebc2fdbfd93207a922c66c324852fe9",
+    "timestamp": 1777256247219
   },
   {
     "id": "ravenscans",
