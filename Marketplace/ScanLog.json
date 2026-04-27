@@ -757,12 +757,12 @@
   },
   {
     "id": "mal-unofficial",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MAL/main.ts",
-    "flags": "0/62",
+    "flags": "0/55",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/61d1f6dd9d81e29a5b8c7d80352c37dedbd6ef1c6a5700f455905f2173040bad",
-    "timestamp": 1775450705210
+    "permalink": "https://www.virustotal.com/gui/file/78ecb38079a070f179bdac3f399f71d29742ed8d1901d4be716ca7ddd54f3467",
+    "timestamp": 1777299568044
   },
   {
     "id": "picked-for-you",
