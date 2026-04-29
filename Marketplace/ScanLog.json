@@ -640,12 +640,12 @@
   },
   {
     "id": "mangabuddy",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangabuddy/provider.js",
-    "flags": "0/62",
+    "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/1977cac2f8e411d1fac3c58a49d8afefaf8c009e9cd06f6f9057f6725fe5f433",
-    "timestamp": 1771871129948
+    "timestamp": 1777429209965
   },
   {
     "id": "anilist-autopause",
