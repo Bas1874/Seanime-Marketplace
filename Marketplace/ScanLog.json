@@ -1062,5 +1062,23 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/3535fce892905dd36cdaabad7f7266fa15d1137f007b5db3ff0ee1385c284ccd",
     "timestamp": 1777040282625
+  },
+  {
+    "id": "mangacloud",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangacloud/provider.js",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f2676d37f3aa7a35bba25be67b2f902febca409b1c66684924f607433fe3c23c",
+    "timestamp": 1777515701288
+  },
+  {
+    "id": "mangadot",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangadot/provider.js",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/624559bd86a1480701821b456679c6f4650943495dafea6d640c7f09c716db9e",
+    "timestamp": 1777515824151
   }
 ]
