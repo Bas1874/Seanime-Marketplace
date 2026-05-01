@@ -1080,5 +1080,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/624559bd86a1480701821b456679c6f4650943495dafea6d640c7f09c716db9e",
     "timestamp": 1777515824151
+  },
+  {
+    "id": "mangakatana",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangakatana/provider.js",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a053f1d82a31aa72186d371bcb950dc8fae32fc9ae236326e152346835d0434d",
+    "timestamp": 1777602163233
   }
 ]
