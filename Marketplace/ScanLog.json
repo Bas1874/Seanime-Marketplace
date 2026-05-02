@@ -10,21 +10,21 @@
   },
   {
     "id": "al-olympustaff",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/olympustaff/index.ts",
-    "flags": "0/61",
+    "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/09caed6d8fe029d9ca07b2172c21fd7c2f96aa03e49f86540943bc2d84e1e867",
-    "timestamp": 1771865053369
+    "timestamp": 1777688875679
   },
   {
     "id": "al-azoramoon",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/azoramoon/index.ts",
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2f5c5d502a8e4fdf4e70eb1698fe669a88c1a1e8a1fbddf13f14c91d04964eb6",
-    "timestamp": 1771865148010
+    "timestamp": 1777688768365
   },
   {
     "id": "nontonanime",
