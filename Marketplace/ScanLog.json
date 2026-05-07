@@ -136,12 +136,12 @@
   },
   {
     "id": "LN-reader",
-    "version": "1.5.5",
+    "version": "1.6.5",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/main.ts",
-    "flags": "0/58",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6c765cc11dd74210aba9179827d2a7d88d1eda7a8582ad732d9b603b12b3fbfa",
-    "timestamp": 1774835662729
+    "permalink": "https://www.virustotal.com/gui/file/0813faccc6b54f50d4d80030b2f3ba57c94155231494c3fdf1c15f802e9eee91",
+    "timestamp": 1778121175776
   },
   {
     "id": "animeheaven",
@@ -181,12 +181,12 @@
   },
   {
     "id": "animethemes",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/animethemes.ts",
-    "flags": "0/55",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7a99c56136aae0f23fc40c3be77f39f5681c40b192835779c29c1e5f00d70b3b",
-    "timestamp": 1776386546639
+    "permalink": "https://www.virustotal.com/gui/file/44efc43da82a2d6da5d7c3a7100a95de0b9672784dc22dcd64689b4216877281",
+    "timestamp": 1778121221681
   },
   {
     "id": "cookie-clicker",
@@ -903,12 +903,12 @@
   },
   {
     "id": "gojowtf",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/GojoWtf/provider.ts",
-    "flags": "0/61",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b81e58f17229e5b28c0e74786f7ac4f12fbc6d62c1484b617760c2438ae8004d",
-    "timestamp": 1774792274179
+    "permalink": "https://www.virustotal.com/gui/file/cb1d9714c7b2a19f6aa5f8860b4a3324e84bf681e6f82f062683da44e2902ed3",
+    "timestamp": 1778121344178
   },
   {
     "id": "atsumaru",
