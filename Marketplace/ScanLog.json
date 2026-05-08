@@ -55,12 +55,12 @@
   },
   {
     "id": "mangabats",
-    "version": "1.2.1",
+    "version": "1.2.3",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/manganato/provider.js",
-    "flags": "0/62",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/86b53d246829a9c818d307473b123cfaaafc83cd34184b4287db87bb17bf6dc8",
-    "timestamp": 1772685754737
+    "permalink": "https://www.virustotal.com/gui/file/188397f8e18d5f3b79c773ecd155436cdc7513e4e37189347a1963cafc641653",
+    "timestamp": 1778207709073
   },
   {
     "id": "delete-watched-episodes",
@@ -181,12 +181,12 @@
   },
   {
     "id": "animethemes",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/animethemes.ts",
-    "flags": "0/60",
+    "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/44efc43da82a2d6da5d7c3a7100a95de0b9672784dc22dcd64689b4216877281",
-    "timestamp": 1778121221681
+    "permalink": "https://www.virustotal.com/gui/file/52d9bf8e5d8c80e60bc893f27c1f55f98dfd76fe63271ecce806e38c239150e9",
+    "timestamp": 1778207800949
   },
   {
     "id": "cookie-clicker",
