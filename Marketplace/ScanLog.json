@@ -199,12 +199,12 @@
   },
   {
     "id": "darkmahou-provider",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/darkmahou/darkmahou-provider.ts",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f881193690d3e71c02ddefc82b2aaa0791e112460a5919ad65ea8054cb8f15bc",
-    "timestamp": 1771866815441
+    "permalink": "https://www.virustotal.com/gui/file/de226ac917d228afb63aae4a80dfb04a61d79e85eb6e63e12a46f32f051cb0b1",
+    "timestamp": 1778294175499
   },
   {
     "id": "ilcorsaronero",
