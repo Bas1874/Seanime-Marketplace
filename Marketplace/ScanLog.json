@@ -217,21 +217,21 @@
   },
   {
     "id": "alternative-titles",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/provider.ts",
-    "flags": "0/62",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/becaf9c71fe8bd85f4fd5daea73aaea4f815c849216c0c2914de38c996510e64",
-    "timestamp": 1771866970174
+    "permalink": "https://www.virustotal.com/gui/file/876b99ff574106351cd6e82dbff65b63bc91d7ee91a14843e7e4db4e737eb900",
+    "timestamp": 1778348281686
   },
   {
     "id": "comix",
-    "version": "1.2.3",
+    "version": "1.4.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/comix/provider.js",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/851224a5772fe2408e5598bf64425334d22a5d89289bf3f9bc95a8d3989fbbd3",
-    "timestamp": 1771867016277
+    "permalink": "https://www.virustotal.com/gui/file/79e14fadb3d6ce74c2416cf716f280a9fb8522e1c2d38bed72af8556881c793b",
+    "timestamp": 1778348374202
   },
   {
     "id": "animeav1",
@@ -469,12 +469,12 @@
   },
   {
     "id": "myanimelistsync",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/MyAnimeListSync/provider.ts",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/390cb3df1975a29873f91e139c98cf3e554589e0d6c2073787eb4f406afad348",
-    "timestamp": 1776299428254
+    "permalink": "https://www.virustotal.com/gui/file/5b31c3a05d273b382de31724fa333a32a6527638f1d99e90133bafed294ad05b",
+    "timestamp": 1778348435465
   },
   {
     "id": "kitsusync",
@@ -912,12 +912,12 @@
   },
   {
     "id": "atsumaru",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/atsumaru/provider.js",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7098f42e25001e3ca8322b300a3a93274212b739c97291c8182d05df72b4ad13",
-    "timestamp": 1774965094744
+    "permalink": "https://www.virustotal.com/gui/file/2a8538f53c057caea9dce9d527b80bc29928bc48518462e9bced7561e71f707d",
+    "timestamp": 1778348327690
   },
   {
     "id": "mynimekumanga",
