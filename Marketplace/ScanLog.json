@@ -307,12 +307,12 @@
   },
   {
     "id": "anilist-watch-order",
-    "version": "1.1.8",
+    "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/provider.ts",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/da34d96b7b7e17822094f317c8dc49aeb7232237dd2e8a582fa7ff45ed22cf82",
-    "timestamp": 1771867904070
+    "permalink": "https://www.virustotal.com/gui/file/1e7a39e3d4d85f427fa48896caaeb3edf39a7ce0be002cba6cad4cbd587a4f35",
+    "timestamp": 1778434749603
   },
   {
     "id": "mal-button",
