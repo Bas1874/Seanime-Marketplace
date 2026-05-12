@@ -1110,11 +1110,11 @@
   },
   {
     "id": "anilist-notifications",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/anilist-notifications/provider.ts",
-    "flags": "0/61",
+    "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2b4fe18733187cfb15020e6b184e03d763cc1f6daa81c8d0085005deb02982bc",
-    "timestamp": 1778519130302
+    "permalink": "https://www.virustotal.com/gui/file/2d92a5aad240703a394a26020a718111af4cfee6713bfb8e9562dc97817c715a",
+    "timestamp": 1778564530406
   }
 ]
