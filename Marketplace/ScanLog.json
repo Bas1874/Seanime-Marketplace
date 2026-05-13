@@ -849,12 +849,12 @@
   },
   {
     "id": "AnimeUnity",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeUnity/provider.ts",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/70d1df9d7d459d693a868cb96ccc3a85c6e4ca358deb7f4a080cc28b146f5479",
-    "timestamp": 1772390388776
+    "permalink": "https://www.virustotal.com/gui/file/54a3fc874ec355556fdbd21d63ec31b63b8fd6c169c8a401fa1ac42e709a3dcf",
+    "timestamp": 1778694649545
   },
   {
     "id": "taiyo",
@@ -1116,5 +1116,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2d92a5aad240703a394a26020a718111af4cfee6713bfb8e9562dc97817c715a",
     "timestamp": 1778564530406
+  },
+  {
+    "id": "animeunitymirror",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeunitymirror/provider.js",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/eab293afb96b86c1c05dd7d2269361646c972e8cf321a9284022bff7739fddcd",
+    "timestamp": 1778694571514
   }
 ]
