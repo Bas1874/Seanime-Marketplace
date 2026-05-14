@@ -1134,5 +1134,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/44bc975bd3edfa4eaa9a21ba039d5f48894c44b6c8371f9b4b6b9df03b84d846",
     "timestamp": 1778737795977
+  },
+  {
+    "id": "mangahub",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mangahub/provider.js",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/bb4f308fbe1f94dcf1491b80c5533317983ad74980ded692d9311f8527149115",
+    "timestamp": 1778780997647
   }
 ]
