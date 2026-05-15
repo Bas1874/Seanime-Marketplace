@@ -271,12 +271,12 @@
   },
   {
     "id": "debridtoggle",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/DebridToggle/main.ts",
-    "flags": "0/62",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9eddfa7e1fd9a992fc6503f6e41e619d23cc7651c87fce42d41caf3d6fd2c97e",
-    "timestamp": 1771867610443
+    "permalink": "https://www.virustotal.com/gui/file/ed9c6bfe75505e3b98c43148e2642842fff07b7758edfa383284b05edfa27599",
+    "timestamp": 1778824335378
   },
   {
     "id": "anitube",
