@@ -1128,12 +1128,12 @@
   },
   {
     "id": "ranime-discussion",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/ranime-discussion/main.ts",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/44bc975bd3edfa4eaa9a21ba039d5f48894c44b6c8371f9b4b6b9df03b84d846",
-    "timestamp": 1778737795977
+    "permalink": "https://www.virustotal.com/gui/file/0d95b9a894c8229a5f63837928d0e33c41de8dc716ab23f447a463d295a070a5",
+    "timestamp": 1778910778478
   },
   {
     "id": "mangahub",
