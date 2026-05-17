@@ -1152,5 +1152,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/17f449740165ad8e31387a6174cd4e249e5d923669231dc0df094a00ffa0bf38",
     "timestamp": 1778997255341
+  },
+  {
+    "id": "animetosho-new",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e4523d930489f32fd900852b3edbfcd6875bf057ef2c1a5d6730deb736417f8b",
+    "timestamp": 1779021546268
   }
 ]
