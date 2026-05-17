@@ -541,12 +541,12 @@
   },
   {
     "id": "shikimorisync",
-    "version": "1.2.5",
+    "version": "1.3.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/ShikimoriSync/provider.ts",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b731e17f38a9e9c34ab23862398453c6a5bf26e675d81bd7ff46623ea0462074",
-    "timestamp": 1771870251373
+    "permalink": "https://www.virustotal.com/gui/file/9b61f5b886a083e5e1f1562347de5a58bb0eea7925b6426fbbd8e8b8dc5f1c99",
+    "timestamp": 1779040688281
   },
   {
     "id": "anilist-favorites",
@@ -1155,11 +1155,20 @@
   },
   {
     "id": "animetosho-new",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
-    "flags": "0/61",
+    "flags": "0/56",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/e4523d930489f32fd900852b3edbfcd6875bf057ef2c1a5d6730deb736417f8b",
-    "timestamp": 1779021546268
+    "timestamp": 1779040580672
+  },
+  {
+    "id": "animesaturnmirror",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesaturnmirror/provider.js",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/7112be517b302279b415ed0369055b8b903520d9d1668cb7799a8df749f8d404",
+    "timestamp": 1779040626672
   }
 ]
