@@ -1143,5 +1143,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/bb4f308fbe1f94dcf1491b80c5533317983ad74980ded692d9311f8527149115",
     "timestamp": 1778780997647
+  },
+  {
+    "id": "asunatracks-sync",
+    "version": "0.1.12",
+    "payloadURI": "https://raw.githubusercontent.com/Kolex06/asunatracks-seanime-sync/main/plugins/AsunaTracksSync/provider.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/17f449740165ad8e31387a6174cd4e249e5d923669231dc0df094a00ffa0bf38",
+    "timestamp": 1778997255341
   }
 ]
