@@ -235,12 +235,12 @@
   },
   {
     "id": "animeav1",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeAV1/main.ts",
-    "flags": "0/62",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/50888746891fc047b3aac230bf35c9a5edc66c577c66f8222632740511422612",
-    "timestamp": 1771867125349
+    "permalink": "https://www.virustotal.com/gui/file/c5a32272cb1c2171476792ebaf2404497092015b03a2286b0dfd048dbaf9adf1",
+    "timestamp": 1779429726550
   },
   {
     "id": "mangafire",
