@@ -1155,12 +1155,12 @@
   },
   {
     "id": "animetosho-new",
-    "version": "1.0.1",
+    "version": "2.1.0",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
-    "flags": "0/56",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e4523d930489f32fd900852b3edbfcd6875bf057ef2c1a5d6730deb736417f8b",
-    "timestamp": 1779040580672
+    "permalink": "https://www.virustotal.com/gui/file/bc188d8c7c70df6c43ec105ae78a94090f5638361c72e5e76510277e6fd3cc38",
+    "timestamp": 1779506333038
   },
   {
     "id": "animesaturnmirror",
