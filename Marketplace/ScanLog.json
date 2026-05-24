@@ -1170,5 +1170,23 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7112be517b302279b415ed0369055b8b903520d9d1668cb7799a8df749f8d404",
     "timestamp": 1779040626672
+  },
+  {
+    "id": "nhentai-cs",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/nhentai/provider.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/914608f3266202671e51d0f6bd1853101b1373970261be7d805858d424d5ffd2",
+    "timestamp": 1779592749315
+  },
+  {
+    "id": "nhentai",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/manga-provider/nhentai/provider.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/675d3b929a43819a0b2e76389ac6bd8f136c7fde1a53172efeaa00e8c052c615",
+    "timestamp": 1779592831165
   }
 ]
