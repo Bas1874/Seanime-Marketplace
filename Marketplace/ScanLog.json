@@ -271,12 +271,12 @@
   },
   {
     "id": "debridtoggle",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/DebridToggle/main.ts",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/44628a8655c8fd6dfdaea489f56247ac59ae1348f46efb7d1bccb41c237b0a58",
-    "timestamp": 1778867474645
+    "permalink": "https://www.virustotal.com/gui/file/ed9c6bfe75505e3b98c43148e2642842fff07b7758edfa383284b05edfa27599",
+    "timestamp": 1779636134907
   },
   {
     "id": "anitube",
@@ -1147,11 +1147,11 @@
   {
     "id": "asunatracks-sync",
     "version": "0.1.12",
-    "payloadURI": "https://raw.githubusercontent.com/Kolex06/asunatracks-seanime-sync/main/plugins/AsunaTracksSync/provider.ts",
-    "flags": "0/61",
+    "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AsunaTracksSync/provider.ts",
+    "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/17f449740165ad8e31387a6174cd4e249e5d923669231dc0df094a00ffa0bf38",
-    "timestamp": 1778997255341
+    "permalink": "https://www.virustotal.com/gui/file/0fb697652b4af2a668d55f4d7bbefacd17d55f893748760af3c3f0c35341d929",
+    "timestamp": 1779636073142
   },
   {
     "id": "animetosho-new",
@@ -1173,12 +1173,12 @@
   },
   {
     "id": "nhentai-cs",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/nhentai/provider.ts",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/914608f3266202671e51d0f6bd1853101b1373970261be7d805858d424d5ffd2",
-    "timestamp": 1779592749315
+    "permalink": "https://www.virustotal.com/gui/file/d8d5d7f459dfffd108504ef7816d800c2ec3b81bb7d7639d46e88e1bff5df80c",
+    "timestamp": 1779635965916
   },
   {
     "id": "nhentai",
