@@ -1146,12 +1146,12 @@
   },
   {
     "id": "asunatracks-sync",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AsunaTracksSync/provider.ts",
-    "flags": "0/59",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0fb697652b4af2a668d55f4d7bbefacd17d55f893748760af3c3f0c35341d929",
-    "timestamp": 1779636073142
+    "permalink": "https://www.virustotal.com/gui/file/5d3c9ed9b4aa769723fa5c6e89699bc2edce5c6b65c75a21d47e380938381f43",
+    "timestamp": 1779679248380
   },
   {
     "id": "animetosho-new",
