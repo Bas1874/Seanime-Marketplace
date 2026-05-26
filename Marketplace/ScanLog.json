@@ -1146,12 +1146,12 @@
   },
   {
     "id": "asunatracks-sync",
-    "version": "0.1.17",
+    "version": "0.1.19",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AsunaTracksSync/provider.ts",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ee4c8e3eadcde9bcd58c4e768de0d8981f106796f7cae198d57efc163f90163d",
-    "timestamp": 1779765759328
+    "permalink": "https://www.virustotal.com/gui/file/84aba27acffed9f3c6bcdb65cf8420f6215e72b0a4b95913e7b337a857553818",
+    "timestamp": 1779809046927
   },
   {
     "id": "animetosho-new",
@@ -1188,5 +1188,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/675d3b929a43819a0b2e76389ac6bd8f136c7fde1a53172efeaa00e8c052c615",
     "timestamp": 1779592831165
+  },
+  {
+    "id": "SeaUtils-Kolex06-Version",
+    "version": "1.2.66",
+    "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/provider.ts",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/4ee91a39258173fb9da689acb4606152a40718c5a86d38c1b6de1ccd29bf6f20",
+    "timestamp": 1779808999125
   }
 ]
