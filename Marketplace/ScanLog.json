@@ -1197,5 +1197,23 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/4ee91a39258173fb9da689acb4606152a40718c5a86d38c1b6de1ccd29bf6f20",
     "timestamp": 1779808999125
+  },
+  {
+    "id": "mangaupdates-sync",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/code.js",
+    "flags": "0/47",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/85013947e7152e18a38666ca0f18ca00530b2b003a1060a9644c7bb49d3e19ba",
+    "timestamp": 1779939436687
+  },
+  {
+    "id": "mangaupdates",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/custom-source/mangaupdates/code.js",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e3a2cd23134656cad68b99694ee956ca57cebd3f612180df4fe279039678168e",
+    "timestamp": 1779939482690
   }
 ]
