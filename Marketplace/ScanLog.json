@@ -1215,5 +1215,23 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/e3a2cd23134656cad68b99694ee956ca57cebd3f612180df4fe279039678168e",
     "timestamp": 1779939482690
+  },
+  {
+    "id": "leermangaesp",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/LeerMangaEsp/main.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/74d3c22ea01c6dc0ef2a0d3a621a40b70d1c7cf2a6b99ac6ee663cef194da118",
+    "timestamp": 1780025148475
+  },
+  {
+    "id": "anidao",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidao/provider.js",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3e953d668cefb71da4779b41707dd7b02ea3de345ef0828c82bdb77a284f1d74",
+    "timestamp": 1780025210045
   }
 ]
