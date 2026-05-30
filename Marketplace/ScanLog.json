@@ -145,12 +145,12 @@
   },
   {
     "id": "animeheaven",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/147639943e40fcb857059f51ef02741c5c9af68d4259fecfaf723bf9dafd0016",
-    "timestamp": 1777212987239
+    "permalink": "https://www.virustotal.com/gui/file/8d82a982ad4c201ff925db748d659f53a8adae830be2b3014737aaad19f35812",
+    "timestamp": 1780153125579
   },
   {
     "id": "mangapark",
@@ -640,12 +640,12 @@
   },
   {
     "id": "mangabuddy",
-    "version": "2.2.2",
+    "version": "2.3.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangabuddy/provider.js",
-    "flags": "0/61",
+    "flags": "0/50",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7b6e9db254c1b9ce2c02fb5f4568e76b4243a456b15fd1b43ef228b1fb1025b0",
-    "timestamp": 1779766417659
+    "permalink": "https://www.virustotal.com/gui/file/41a2797afd7f9519d8c3d0d7057b6de8e7ad2bf5e7f94cfac1a9a134b9392567",
+    "timestamp": 1780153171886
   },
   {
     "id": "anilist-autopause",
