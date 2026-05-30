@@ -1227,11 +1227,20 @@
   },
   {
     "id": "anidao",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidao/provider.js",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/3e953d668cefb71da4779b41707dd7b02ea3de345ef0828c82bdb77a284f1d74",
-    "timestamp": 1780025210045
+    "permalink": "https://www.virustotal.com/gui/file/4aaeeb726e443b49da9638921dea9746a7560c445f0034cf0902752e343bd5b0",
+    "timestamp": 1780153587206
+  },
+  {
+    "id": "animesalt",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/main.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c7b7011623c0a7465d05c89ef4f61aaed9c00934b9dccbeadb02eccf2d2be11b",
+    "timestamp": 1780153479624
   }
 ]
