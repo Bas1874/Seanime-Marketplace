@@ -1155,12 +1155,12 @@
   },
   {
     "id": "animetosho-new",
-    "version": "2.2.1",
+    "version": "2.3.1",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1d006fc40d5f6ef5a542f779bf214b755ab8de3ec413c3439291cd33a59bec62",
-    "timestamp": 1779981912529
+    "permalink": "https://www.virustotal.com/gui/file/cec338fd6b86eb2b34a82595e6b6f9376867db45d436e58a74cb7a1ce8feb383",
+    "timestamp": 1780240579032
   },
   {
     "id": "animesaturnmirror",
@@ -1242,5 +1242,23 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c7b7011623c0a7465d05c89ef4f61aaed9c00934b9dccbeadb02eccf2d2be11b",
     "timestamp": 1780153479624
+  },
+  {
+    "id": "toonily",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/manga-provider/toonily/provider.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a4297bf021301326284032eb592663744373f0923806d10a021270df229e1b20",
+    "timestamp": 1780239872358
+  },
+  {
+    "id": "anidb",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/provider.js",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8b2f18dfa6ad771d092280a946e1d994a917544f7f483737a08ada19ed30f870",
+    "timestamp": 1780239918490
   }
 ]
