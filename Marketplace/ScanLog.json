@@ -1173,12 +1173,12 @@
   },
   {
     "id": "nhentai-cs",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/nhentai/provider.ts",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d8d5d7f459dfffd108504ef7816d800c2ec3b81bb7d7639d46e88e1bff5df80c",
-    "timestamp": 1779635965916
+    "permalink": "https://www.virustotal.com/gui/file/a1a038dce0f2fccff6edd65685b1991544694cc0dcb57b0c42d62efa440dbb8c",
+    "timestamp": 1780283270031
   },
   {
     "id": "nhentai",
@@ -1200,21 +1200,21 @@
   },
   {
     "id": "mangaupdates-sync",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/code.js",
-    "flags": "0/47",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/85013947e7152e18a38666ca0f18ca00530b2b003a1060a9644c7bb49d3e19ba",
-    "timestamp": 1779939436687
+    "permalink": "https://www.virustotal.com/gui/file/5742498d161bd06920ba375bf97e15e63a51dd070b39095cbb1a995b6ea6ea0c",
+    "timestamp": 1780283162356
   },
   {
     "id": "mangaupdates",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/custom-source/mangaupdates/code.js",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e3a2cd23134656cad68b99694ee956ca57cebd3f612180df4fe279039678168e",
-    "timestamp": 1779939482690
+    "permalink": "https://www.virustotal.com/gui/file/31262fa49d379e2494d68fd9312463bf1221bea5daf5dce9582cd505565b4dc0",
+    "timestamp": 1780283224076
   },
   {
     "id": "leermangaesp",
