@@ -123,7 +123,8 @@
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/4f02b35a1477201dbebcdaca09f206d3d3a01b9af3e8131e737f4f18abca303b",
-    "timestamp": 1771865941910
+    "timestamp": 1771865941910,
+    "lastWorkingVersion": "3.8.3"
   },
   {
     "id": "antiseeding",
