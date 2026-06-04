@@ -277,7 +277,8 @@
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/ed9c6bfe75505e3b98c43148e2642842fff07b7758edfa383284b05edfa27599",
-    "timestamp": 1779636134907
+    "timestamp": 1779636134907,
+    "lastWorkingVersion": "3.8.3"
   },
   {
     "id": "anitube",
@@ -1134,7 +1135,8 @@
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0d95b9a894c8229a5f63837928d0e33c41de8dc716ab23f447a463d295a070a5",
-    "timestamp": 1778910778478
+    "timestamp": 1778910778478,
+    "lastWorkingVersion": "3.8.3"
   },
   {
     "id": "mangahub",
