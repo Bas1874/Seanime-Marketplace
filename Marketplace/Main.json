@@ -1162,8 +1162,8 @@
     "workingTag": true,
     "brokenTag": false,
     "deprecatedTag": false,
-    "scannedOnVersion": "3.8.3",
-    "lastWorkingVersion": "3.8.3"
+    "scannedOnVersion": "3.8.2",
+    "lastWorkingVersion": "3.8.2"
   },
   {
     "id": "MALSync",
