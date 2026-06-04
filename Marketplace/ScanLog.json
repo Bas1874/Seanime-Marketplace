@@ -1191,12 +1191,12 @@
   },
   {
     "id": "SeaUtils-Kolex06-Version",
-    "version": "1.2.67",
+    "version": "1.2.68",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/provider.ts",
-    "flags": "0/61",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7c79cc92e680c5d58b88dd605c896f840396bbb21ad7ca5baff95a87624effb2",
-    "timestamp": 1780542585598
+    "permalink": "https://www.virustotal.com/gui/file/85c6959e6aca73e7f542796605462945130ab8b54b28efd3f073361426695d30",
+    "timestamp": 1780569853844
   },
   {
     "id": "mangaupdates-sync",
@@ -1269,5 +1269,14 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0b4215c7078d84209549f62f6ee509383345497c8b119dbb3fc6bcd90238479e",
     "timestamp": 1780542709059
+  },
+  {
+    "id": "AniList-Notifications-Kolex06-Version",
+    "version": "1.0.12",
+    "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AniListNotificationsKolex06Version/provider.ts",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a38bada61957a822aff5a7ee1007467fab54bea38a99cb710cd3be6d050d0474",
+    "timestamp": 1780569777272
   }
 ]
