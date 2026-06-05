@@ -1195,12 +1195,13 @@
   },
   {
     "id": "SeaUtils-Kolex06-Version",
-    "version": "1.2.68",
+    "version": "1.2.69",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/provider.ts",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/85c6959e6aca73e7f542796605462945130ab8b54b28efd3f073361426695d30",
-    "timestamp": 1780569853844
+    "permalink": "https://www.virustotal.com/gui/file/9275d416ed318594d4afeb62fca4a5c9b5ff1d4f0a24770580c8831b036ea5af",
+    "lastWorkingVersion": null,
+    "timestamp": 1780690159102
   },
   {
     "id": "mangaupdates-sync",
