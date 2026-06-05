@@ -670,12 +670,13 @@
   },
   {
     "id": "Doom",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Doom-Seanime/refs/heads/main/src/Doom.ts",
     "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/81fd30e8e22137c7b9bd10f24e2a96c9d22e451f4ec31a22bd107bf79e497355",
-    "timestamp": 1771871360368
+    "permalink": "https://www.virustotal.com/gui/file/590751a1d8cd18a10bd36ea93a78e6486f5ba909fe5fa82e42fff9f0a2eb0cee",
+    "lastWorkingVersion": "3.8.3",
+    "timestamp": 1780696536973
   },
   {
     "id": "anizone",
@@ -756,7 +757,8 @@
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/b6e3eff0ab73856a374593f4fbec717692cd463e19c350c35e97a9a1c928964b",
-    "timestamp": 1771872968689
+    "timestamp": 1771872968689,
+    "lastWorkingVersion": "3.8.3"
   },
   {
     "id": "mal-unofficial",
