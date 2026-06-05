@@ -169,7 +169,8 @@
     "flags": "0/62",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/b9816323b647e48f4cd7fb06abf5bfcfbc42ab6433a7c505d123b097a15d90fb",
-    "timestamp": 1771866549114
+    "timestamp": 1771866549114,
+    "lastWorkingVersion": "3.8.3"
   },
   {
     "id": "always-advanced-search",
@@ -1154,7 +1155,8 @@
     "flags": "0/53",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/b6022c4d08fbfe5e491857fc3bd6fbb7ce513aad94a7deef79be51dbb62fbd90",
-    "timestamp": 1780543367637
+    "timestamp": 1780543367637,
+    "lastWorkingVersion": "3.8.3"
   },
   {
     "id": "animetosho-new",
@@ -1268,13 +1270,13 @@
   },
   {
     "id": "anikoto",
-    "version": "1.3.16",
+    "version": "1.3.18",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/provider.ts",
-    "flags": "0/57",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c66925117c6459a4d2490510945f0a6587e2d549de92571039107e153572b707",
+    "permalink": "https://www.virustotal.com/gui/file/a18e5bf82eb22408fafbd3003dfe9c75cc5191d2ec3b527e45c800007c46dd8d",
     "lastWorkingVersion": "3.8.3",
-    "timestamp": 1780603820722
+    "timestamp": 1780694866024
   },
   {
     "id": "AniList-Notifications-Kolex06-Version",
@@ -1283,7 +1285,8 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/a38bada61957a822aff5a7ee1007467fab54bea38a99cb710cd3be6d050d0474",
-    "timestamp": 1780569777272
+    "timestamp": 1780569777272,
+    "lastWorkingVersion": "3.8.3"
   },
   {
     "id": "anibd",
