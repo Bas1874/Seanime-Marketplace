@@ -1273,23 +1273,23 @@
   },
   {
     "id": "anikoto",
-    "version": "1.3.23",
+    "version": "1.3.24",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/provider.ts",
-    "flags": "0/60",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/250615dec14097ae4b27537d7c0e81ba6b404c9f6bed65367524e3f059f9c342",
+    "permalink": "https://www.virustotal.com/gui/file/1d4051b16d2bb3db1298c684ae9ab7ad120f0b46fce016c589ae3994712a7525",
     "lastWorkingVersion": "3.8.3",
-    "timestamp": 1780767850038
+    "timestamp": 1780782339980
   },
   {
     "id": "AniList-Notifications-Kolex06-Version",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AniListNotificationsKolex06Version/provider.ts",
-    "flags": "0/60",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/faf30645ef0e159465ef1055f64cbbf88fee4ab1837047ed48a69999b3e8be8b",
+    "permalink": "https://www.virustotal.com/gui/file/abfa35f6c929aeb10ea74d5c64cca1e093b206aa8252942dbc2b28e54b2e32d4",
     "lastWorkingVersion": "3.8.3",
-    "timestamp": 1780752331553
+    "timestamp": 1780782386304
   },
   {
     "id": "anibd",
