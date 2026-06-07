@@ -8,720 +8,638 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <style>
-    /* ─── Seanime color tokens (from globals.css) ─── */
     :root {
-      --background:  #070707;
-      --paper:       rgb(11,11,11);
-      --gray-900:    rgb(16,16,16);
-      --gray-800:    rgb(28,28,28);
-      --gray-700:    rgb(54,54,54);
-      --gray-600:    rgb(72,72,72);
-      --gray-500:    rgb(90,90,90);
-      --gray-400:    rgb(143,143,143);
-      --gray-200:    rgb(209,209,209);
-      --foreground:  rgb(209,209,209);
-      --border:      rgba(255,255,255,0.08);
-      --border-md:   rgba(255,255,255,0.12);
-      --muted:       rgba(255,255,255,0.4);
-      --subtle:      rgba(255,255,255,0.05);
-      --subtle-hi:   rgba(255,255,255,0.08);
+      --bg:          #070707;
+      --paper:       #0b0b0b;
+      --g900:        #101010;
+      --g800:        #1c1c1c;
+      --g700:        #363636;
+      --g600:        #484848;
+      --g500:        #5a5a5a;
+      --g400:        #8f8f8f;
+      --g200:        #d1d1d1;
+      --fg:          #d1d1d1;
+      --border:      rgba(255,255,255,0.07);
+      --border-md:   rgba(255,255,255,0.13);
+      --muted:       rgba(255,255,255,0.38);
+      --subtle:      rgba(255,255,255,0.04);
+      --subtle-hi:   rgba(255,255,255,0.07);
       --brand:       #8b7cf8;
-      --brand-dim:   rgba(97,82,223,0.18);
-      --brand-border:rgba(97,82,223,0.35);
+      --brand-dim:   rgba(97,82,223,0.15);
+      --brand-bdr:   rgba(97,82,223,0.3);
       --green:       #4ade80;
-      --green-dim:   rgba(74,222,128,0.12);
-      --green-border:rgba(74,222,128,0.25);
+      --green-dim:   rgba(74,222,128,0.1);
+      --green-bdr:   rgba(74,222,128,0.22);
       --red:         #f87171;
-      --red-dim:     rgba(248,113,113,0.12);
-      --red-border:  rgba(248,113,113,0.25);
+      --red-dim:     rgba(248,113,113,0.1);
+      --red-bdr:     rgba(248,113,113,0.22);
       --orange:      #fb923c;
-      --orange-dim:  rgba(251,146,60,0.12);
-      --orange-border:rgba(251,146,60,0.25);
+      --orange-dim:  rgba(251,146,60,0.1);
+      --orange-bdr:  rgba(251,146,60,0.22);
       --blue:        #60a5fa;
-      --blue-dim:    rgba(96,165,250,0.12);
-      --blue-border: rgba(96,165,250,0.25);
-      --radius:      0.5rem;
-      --radius-xl:   0.75rem;
+      --blue-dim:    rgba(96,165,250,0.1);
+      --blue-bdr:    rgba(96,165,250,0.22);
+      --r:           0.5rem;
+      --rxl:         0.75rem;
     }
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { background: var(--bg); color: var(--fg); font-family: 'Inter', -apple-system, sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; }
 
-    html { background: var(--background); color: var(--foreground); font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; -webkit-font-smoothing: antialiased; }
-    body { min-height: 100vh; }
-
-    /* ─── Scrollbar ─── */
-    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
     ::-webkit-scrollbar-track { background: transparent; }
-    ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 99px; }
-    ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.25); }
+    ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 99px; }
 
-    /* ─── Nav ─── */
+    /* NAV */
     .nav {
       position: sticky; top: 0; z-index: 50;
-      background: rgba(7,7,7,0.85);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
+      background: rgba(7,7,7,0.88);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border);
-      padding: 0 1.5rem;
-      height: 56px;
-      display: flex; align-items: center; justify-content: space-between;
-    }
-    .nav-brand {
-      display: flex; align-items: center; gap: 10px;
-      font-size: 15px; font-weight: 600; color: var(--foreground);
-      text-decoration: none;
+      height: 52px; padding: 0 1.5rem;
+      display: flex; align-items: center; gap: 12px;
     }
     .nav-logo {
-      width: 28px; height: 28px; border-radius: 7px;
-      background: var(--brand-dim);
-      border: 1px solid var(--brand-border);
+      width: 26px; height: 26px; border-radius: 6px; flex-shrink: 0;
+      background: var(--brand-dim); border: 1px solid var(--brand-bdr);
       display: flex; align-items: center; justify-content: center;
     }
-    .nav-logo svg { width: 16px; height: 16px; fill: var(--brand); }
-    .nav-right { display: flex; align-items: center; gap: 8px; }
+    .nav-logo svg { width: 14px; height: 14px; }
+    .nav-title { font-size: 14px; font-weight: 600; white-space: nowrap; }
+    .nav-spacer { flex: 1; }
     .nav-link {
-      display: flex; align-items: center; gap: 6px;
-      color: var(--muted); font-size: 13px; font-weight: 500;
-      text-decoration: none; padding: 6px 10px; border-radius: 8px;
-      transition: color .15s, background .15s;
-    }
-    .nav-link:hover { color: var(--foreground); background: var(--subtle); }
-    .nav-link svg { width: 16px; height: 16px; }
-
-    /* ─── Page shell ─── */
-    .page { max-width: 1400px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
-
-    /* ─── Page header ─── */
-    .page-header { margin-bottom: 2rem; }
-    .page-header h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: -0.02em; color: var(--foreground); }
-    .page-header p { font-size: 14px; color: var(--muted); margin-top: 4px; }
-
-    /* ─── Stats row ─── */
-    .stats-row { display: flex; gap: 10px; margin-bottom: 1.5rem; flex-wrap: wrap; }
-    .stat-pill {
-      display: inline-flex; align-items: center; gap: 7px;
-      background: var(--subtle); border: 1px solid var(--border);
-      border-radius: 99px; padding: 5px 14px; font-size: 13px;
-    }
-    .stat-dot { width: 7px; height: 7px; border-radius: 50%; }
-    .stat-dot.green { background: var(--green); box-shadow: 0 0 6px var(--green); }
-    .stat-dot.red   { background: var(--red);   box-shadow: 0 0 6px var(--red); }
-    .stat-dot.gray  { background: var(--gray-500); }
-    .stat-count { font-weight: 600; color: var(--foreground); }
-    .stat-label { color: var(--muted); }
-
-    /* ─── Controls bar ─── */
-    .controls { display: flex; flex-direction: column; gap: 12px; margin-bottom: 1.75rem; }
-    .controls-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
-
-    /* Rounded-full pill tabs (Seanime style) */
-    .tab-group {
-      display: inline-flex; align-items: center;
-      background: transparent; border: 1px solid var(--border);
-      border-radius: 99px; padding: 3px; gap: 1px;
-      flex-wrap: wrap;
-    }
-    .tab-btn {
-      display: inline-flex; align-items: center; gap: 6px;
-      font-size: 13px; font-weight: 500; cursor: pointer;
-      padding: 5px 14px; border-radius: 99px;
-      color: var(--muted); background: transparent; border: none;
-      transition: color .15s, background .15s;
+      display: inline-flex; align-items: center; gap: 5px;
+      color: var(--muted); font-size: 12px; font-weight: 500;
+      text-decoration: none; padding: 5px 10px; border-radius: 8px;
+      border: 1px solid transparent;
+      transition: color .15s, background .15s, border-color .15s;
       white-space: nowrap;
     }
-    .tab-btn:hover { color: var(--foreground); background: var(--subtle); }
-    .tab-btn.active { color: var(--foreground); background: var(--subtle-hi); }
-    .tab-btn svg { width: 13px; height: 13px; opacity: 0.7; }
+    .nav-link:hover { color: var(--fg); background: var(--subtle); border-color: var(--border); }
+    .nav-link svg { width: 14px; height: 14px; flex-shrink: 0; }
 
-    /* Status filter pills */
-    .status-group { display: inline-flex; gap: 6px; flex-wrap: wrap; }
-    .status-pill {
+    /* PAGE */
+    .page { max-width: 1440px; margin: 0 auto; padding: 1.75rem 1.5rem 4rem; }
+
+    /* HEADER */
+    .ph { margin-bottom: 1.5rem; }
+    .ph h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; }
+    .ph p  { font-size: 13px; color: var(--muted); margin-top: 3px; }
+
+    /* STATS */
+    .stats { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1.25rem; }
+    .stat-chip {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--subtle); border: 1px solid var(--border);
+      border-radius: 99px; padding: 4px 12px; font-size: 12px; font-weight: 500;
+    }
+    .dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+    .dot-gray  { background: var(--g500); }
+    .dot-green { background: var(--green); box-shadow: 0 0 5px rgba(74,222,128,.5); }
+    .dot-red   { background: var(--red);   box-shadow: 0 0 5px rgba(248,113,113,.5); }
+    .dot-orange{ background: var(--orange); }
+    .sc-val { color: var(--fg); }
+    .sc-lbl { color: var(--muted); }
+
+    /* CONTROLS */
+    .controls { display: flex; flex-direction: column; gap: 10px; margin-bottom: 1.5rem; }
+    .ctrl-row  { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+
+    /* pill tabs */
+    .pill-group {
+      display: inline-flex; align-items: center;
+      border: 1px solid var(--border); border-radius: 99px;
+      padding: 3px; gap: 2px; flex-wrap: wrap;
+    }
+    .pill {
       display: inline-flex; align-items: center; gap: 5px;
-      font-size: 12px; font-weight: 500; cursor: pointer;
-      padding: 4px 12px; border-radius: 99px;
-      border: 1px solid var(--border); background: transparent; color: var(--muted);
+      font-size: 12px; font-weight: 500; white-space: nowrap;
+      padding: 4px 13px; border-radius: 99px; cursor: pointer;
+      background: transparent; border: none; color: var(--muted);
+      transition: color .15s, background .15s;
+    }
+    .pill:hover { color: var(--fg); background: var(--subtle); }
+    .pill.on    { color: var(--fg); background: var(--subtle-hi); }
+    .pill svg   { width: 12px; height: 12px; }
+
+    /* status pills */
+    .spill {
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 12px; font-weight: 500; white-space: nowrap;
+      padding: 4px 12px; border-radius: 99px; cursor: pointer;
+      background: transparent; border: 1px solid var(--border); color: var(--muted);
       transition: all .15s;
     }
-    .status-pill:hover { background: var(--subtle); color: var(--foreground); }
-    .status-pill.active-all      { border-color: var(--border-md); background: var(--subtle-hi); color: var(--foreground); }
-    .status-pill.active-working  { border-color: var(--green-border); background: var(--green-dim); color: var(--green); }
-    .status-pill.active-broken   { border-color: var(--red-border); background: var(--red-dim); color: var(--red); }
-    .status-pill.active-deprecated{ border-color: var(--orange-border); background: var(--orange-dim); color: var(--orange); }
+    .spill:hover { background: var(--subtle); color: var(--fg); }
+    .spill.on-all  { background: var(--subtle-hi); border-color: var(--border-md); color: var(--fg); }
+    .spill.on-w    { background: var(--green-dim); border-color: var(--green-bdr); color: var(--green); }
+    .spill.on-b    { background: var(--red-dim);   border-color: var(--red-bdr);   color: var(--red); }
+    .spill.on-d    { background: var(--orange-dim);border-color: var(--orange-bdr);color: var(--orange); }
+    .spill svg { width: 11px; height: 11px; }
 
     /* Search */
-    .search-wrap { position: relative; flex: 1; min-width: 200px; max-width: 360px; }
-    .search-wrap svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); width: 15px; height: 15px; color: var(--gray-500); pointer-events: none; }
+    .search-wrap { position: relative; flex: 1; min-width: 180px; max-width: 320px; }
+    .search-wrap .si { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); width: 14px; height: 14px; color: var(--g500); pointer-events: none; }
     .search-inp {
-      width: 100%; padding: 7px 12px 7px 34px;
+      width: 100%; padding: 6px 12px 6px 32px;
       background: var(--subtle); border: 1px solid var(--border);
-      border-radius: 99px; color: var(--foreground); font-size: 13px;
-      outline: none; transition: border-color .15s, background .15s;
-      font-family: inherit;
+      border-radius: 99px; color: var(--fg); font-size: 13px;
+      outline: none; font-family: inherit;
+      transition: border-color .15s, background .15s;
     }
-    .search-inp::placeholder { color: var(--gray-500); }
+    .search-inp::placeholder { color: var(--g500); }
     .search-inp:focus { border-color: var(--border-md); background: var(--subtle-hi); }
 
-    /* ─── Section card (groups extensions by type) ─── */
-    .section-card {
-      background: var(--gray-900); border: 1px solid var(--border);
-      border-radius: var(--radius-xl); padding: 1.25rem;
-      margin-bottom: 1.25rem;
+    /* Sort & Lang selects */
+    .sel-wrap { position: relative; }
+    .sel-wrap svg { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); width: 12px; height: 12px; color: var(--muted); pointer-events: none; }
+    .ctrl-select {
+      appearance: none; -webkit-appearance: none;
+      padding: 5px 30px 5px 12px; font-size: 12px; font-weight: 500;
+      background: var(--subtle); border: 1px solid var(--border);
+      border-radius: 99px; color: var(--fg); cursor: pointer;
+      font-family: inherit; outline: none;
+      transition: border-color .15s, background .15s;
     }
-    .section-header {
-      display: flex; align-items: center; gap: 10px;
-      font-size: 1rem; font-weight: 600; color: var(--foreground);
-      margin-bottom: 1.25rem;
-    }
-    .section-header svg { width: 18px; height: 18px; opacity: 0.7; }
-    .section-count {
-      margin-left: auto; font-size: 12px; font-weight: 500;
-      color: var(--muted); background: var(--subtle);
-      border: 1px solid var(--border); border-radius: 99px;
-      padding: 2px 10px;
-    }
+    .ctrl-select:hover, .ctrl-select:focus { border-color: var(--border-md); background: var(--subtle-hi); }
+    .ctrl-select option { background: #1c1c1c; color: var(--fg); }
 
-    /* ─── Extension grid ─── */
-    .ext-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 12px;
-    }
+    /* SECTION */
+    .section { background: var(--g900); border: 1px solid var(--border); border-radius: var(--rxl); padding: 1.1rem; margin-bottom: 1.1rem; }
+    .sec-hdr { display: flex; align-items: center; gap: 9px; font-size: 14px; font-weight: 600; margin-bottom: 1.1rem; }
+    .sec-hdr svg { width: 16px; height: 16px; opacity: 0.65; flex-shrink: 0; }
+    .sec-cnt { margin-left: auto; font-size: 11px; font-weight: 500; color: var(--muted); background: var(--subtle); border: 1px solid var(--border); border-radius: 99px; padding: 1px 9px; }
 
-    /* ─── Extension card ─── */
-    .ext-card {
-      position: relative; overflow: hidden;
-      background: var(--paper); border: 1px solid var(--subtle);
-      border-radius: var(--radius-xl); padding: 14px;
-      display: flex; flex-direction: column; gap: 10px;
+    /* GRID */
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; }
+
+    /* EXT CARD */
+    .xcard {
+      position: relative; background: var(--paper);
+      border: 1px solid rgba(255,255,255,0.05); border-radius: var(--rxl);
+      padding: 13px; display: flex; flex-direction: column; gap: 9px;
       transition: border-color .2s, background .2s;
     }
-    .ext-card:hover { border-color: var(--border-md); background: var(--gray-900); }
-    .ext-card.status-broken { border-color: rgba(248,113,113,0.15); }
-    .ext-card.status-deprecated { border-color: rgba(251,146,60,0.12); }
+    .xcard:hover { border-color: var(--border-md); background: var(--g900); }
+    .xcard.s-broken     { border-color: rgba(248,113,113,0.12); }
+    .xcard.s-deprecated { border-color: rgba(251,146,60,0.1); }
 
-    /* Card top row: icon + title + action */
-    .ext-top { display: flex; align-items: flex-start; gap: 12px; }
-
-    .ext-icon {
-      flex-shrink: 0; width: 46px; height: 46px; border-radius: var(--radius);
-      background: var(--gray-800); overflow: hidden;
+    /* top row */
+    .xt { display: flex; align-items: flex-start; gap: 10px; }
+    .xicon {
+      flex-shrink: 0; width: 44px; height: 44px; border-radius: var(--r);
+      background: var(--g800); overflow: hidden;
       display: flex; align-items: center; justify-content: center;
-      font-size: 20px; font-weight: 700; color: var(--foreground);
-      border: 1px solid var(--border);
+      font-size: 18px; font-weight: 700; border: 1px solid var(--border);
     }
-    .ext-icon img { width: 100%; height: 100%; object-fit: cover; }
+    .xicon img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .xmeta { flex: 1; min-width: 0; }
+    .xname { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .xid   { font-size: 11px; color: rgba(255,255,255,0.2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 1px; }
 
-    .ext-info { flex: 1; min-width: 0; }
-    .ext-name { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--foreground); }
-    .ext-id   { font-size: 11px; color: rgba(255,255,255,0.22); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 1px; }
-
-    .ext-action { flex-shrink: 0; }
-    .copy-btn {
-      display: inline-flex; align-items: center; gap: 5px;
-      font-size: 12px; font-weight: 500; cursor: pointer;
-      padding: 5px 11px; border-radius: var(--radius);
-      background: var(--subtle); border: 1px solid var(--border);
-      color: var(--muted); transition: all .15s; white-space: nowrap;
+    /* copy btn */
+    .cbtn {
+      flex-shrink: 0; display: inline-flex; align-items: center; gap: 4px;
+      font-size: 11px; font-weight: 500; white-space: nowrap; cursor: pointer;
+      padding: 4px 10px; border-radius: var(--r);
+      background: var(--subtle); border: 1px solid var(--border); color: var(--muted);
+      transition: all .15s; font-family: inherit;
     }
-    .copy-btn:hover { background: var(--subtle-hi); border-color: var(--border-md); color: var(--foreground); }
-    .copy-btn.copied { background: var(--green-dim); border-color: var(--green-border); color: var(--green); }
-    .copy-btn svg { width: 12px; height: 12px; }
+    .cbtn:hover { background: var(--subtle-hi); border-color: var(--border-md); color: var(--fg); }
+    .cbtn.copied { background: var(--green-dim); border-color: var(--green-bdr); color: var(--green); }
+    .cbtn svg { width: 11px; height: 11px; }
 
-    /* Description */
-    .ext-desc { font-size: 13px; color: var(--muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    /* desc */
+    .xdesc { font-size: 12px; color: var(--muted); line-height: 1.55; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
-    /* Badge row */
-    .ext-badges { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 2px; }
+    /* badges */
+    .xbadges { display: flex; flex-wrap: wrap; gap: 4px; }
     .badge {
-      display: inline-flex; align-items: center; gap: 4px;
-      font-size: 11px; font-weight: 500; padding: 2px 8px;
-      border-radius: var(--radius); border: 1px solid;
+      display: inline-flex; align-items: center; gap: 3px;
+      font-size: 11px; font-weight: 500; padding: 2px 7px;
+      border-radius: 5px; border: 1px solid; white-space: nowrap;
     }
-    .badge-default    { border-color: var(--border); color: var(--muted); background: var(--subtle); }
-    .badge-working    { border-color: var(--green-border); color: var(--green); background: var(--green-dim); }
-    .badge-broken     { border-color: var(--red-border); color: var(--red); background: var(--red-dim); }
-    .badge-deprecated { border-color: var(--orange-border); color: var(--orange); background: var(--orange-dim); }
-    .badge-official   { border-color: var(--brand-border); color: var(--brand); background: var(--brand-dim); }
-    .badge-blue       { border-color: var(--blue-border); color: var(--blue); background: var(--blue-dim); }
-    .badge-vt-clean   { border-color: var(--green-border); color: var(--green); background: var(--green-dim); }
-    .badge-vt-flagged { border-color: var(--red-border); color: var(--red); background: var(--red-dim); }
-    .badge-vt-unscan  { border-color: var(--border); color: var(--gray-400); background: var(--subtle); }
-    .badge-vt-err     { border-color: var(--orange-border); color: var(--orange); background: var(--orange-dim); }
-
-    .badge svg { width: 10px; height: 10px; }
-
-    /* VT link */
+    .badge svg { width: 9px; height: 9px; flex-shrink: 0; }
     .badge a { color: inherit; text-decoration: none; }
     .badge a:hover { text-decoration: underline; }
+    .bd    { border-color: var(--border);    color: var(--muted);   background: var(--subtle); }
+    .bw    { border-color: var(--green-bdr); color: var(--green);   background: var(--green-dim); }
+    .bb    { border-color: var(--red-bdr);   color: var(--red);     background: var(--red-dim); }
+    .bdep  { border-color: var(--orange-bdr);color: var(--orange);  background: var(--orange-dim); }
+    .boff  { border-color: var(--brand-bdr); color: var(--brand);   background: var(--brand-dim); }
+    .bblue { border-color: var(--blue-bdr);  color: var(--blue);    background: var(--blue-dim); }
 
-    /* Meta line */
-    .ext-meta { font-size: 11px; color: rgba(255,255,255,0.25); display: flex; flex-wrap: wrap; gap: 8px; }
-    .ext-meta span + span::before { content: '·'; margin-right: 8px; }
+    /* meta line */
+    .xfoot { font-size: 11px; color: rgba(255,255,255,0.22); display: flex; flex-wrap: wrap; gap: 4px 10px; }
 
-    /* ─── Empty / loading ─── */
-    .state-msg {
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      gap: 12px; padding: 3rem; color: var(--muted); font-size: 14px; text-align: center;
-    }
-    .state-msg svg { width: 40px; height: 40px; opacity: 0.3; }
-    .spinner {
-      width: 28px; height: 28px; border: 2px solid var(--border);
-      border-top-color: var(--brand); border-radius: 50%;
-      animation: spin .7s linear infinite;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
+    /* STATES */
+    .state-msg { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 3rem; color: var(--muted); font-size: 13px; text-align: center; }
+    .state-msg svg { width: 36px; height: 36px; opacity: 0.25; }
+    .spin { width: 24px; height: 24px; border: 2px solid var(--border); border-top-color: var(--brand); border-radius: 50%; animation: sp .65s linear infinite; }
+    @keyframes sp { to { transform: rotate(360deg); } }
+    @keyframes fi  { from { opacity:0; transform:translateY(5px); } to { opacity:1; transform:none; } }
+    .fi { animation: fi .28s ease-out both; }
 
-    /* ─── Fade in ─── */
-    @keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
-    .fade-in { animation: fadeIn .3s ease-out both; }
+    /* FOOTER */
+    footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; font-size: 11px; color: rgba(255,255,255,0.18); }
 
-    /* ─── Footer ─── */
-    .footer { text-align: center; padding: 2rem; font-size: 12px; color: rgba(255,255,255,0.2); border-top: 1px solid var(--border); margin-top: 2rem; }
-
-    /* ─── Responsive ─── */
-    @media (max-width: 640px) {
-      .page { padding: 1.25rem 1rem 3rem; }
-      .nav { padding: 0 1rem; }
-      .tab-group { gap: 0; }
-      .tab-btn { padding: 5px 10px; font-size: 12px; }
+    @media (max-width: 600px) {
+      .page { padding: 1rem 0.85rem 3rem; }
+      .nav  { padding: 0 0.85rem; }
+      .nav-title { font-size: 13px; }
+      .pill { padding: 4px 10px; }
     }
   </style>
 </head>
 <body>
 
-<!-- NAV -->
 <nav class="nav">
-  <a class="nav-brand" href="#">
-    <div class="nav-logo">
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-      </svg>
-    </div>
-    Seanime Community Marketplace
-  </a>
-  <div class="nav-right">
-    <a class="nav-link" href="https://github.com/Bas1874/Seanime-Marketplace" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.09-.74.08-.73.08-.73 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.82 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013.01-.4c1.02 0 2.05.13 3.01.4 2.28-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12 24 5.37 18.63 0 12 0z"/></svg>
-      GitHub
-    </a>
-    <a class="nav-link" href="https://seanime.app" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
-      Seanime
-    </a>
+  <div class="nav-logo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 2L2 7l10 5 10-5-10-5M2 17l10 5 10-5M2 12l10 5 10-5"/>
+    </svg>
   </div>
+  <span class="nav-title">Seanime Community Marketplace</span>
+  <div class="nav-spacer"></div>
+  <a class="nav-link" href="https://github.com/Bas1874/Seanime-Marketplace" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.09-.74.08-.73.08-.73 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.82 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013.01-.4c1.02 0 2.05.13 3.01.4 2.28-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12 24 5.37 18.63 0 12 0z"/></svg>
+    GitHub
+  </a>
+  <a class="nav-link" href="https://seanime.app" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+    Seanime
+  </a>
 </nav>
 
-<!-- PAGE -->
 <div class="page">
-
-  <!-- Header -->
-  <div class="page-header">
+  <div class="ph">
     <h1>Community Marketplace</h1>
     <p>Browse community-maintained extensions for Seanime.</p>
   </div>
 
-  <!-- Stats row -->
-  <div class="stats-row" id="statsRow">
-    <div class="stat-pill"><span class="stat-dot gray"></span><span class="stat-count" id="statTotal">—</span><span class="stat-label">extensions</span></div>
-    <div class="stat-pill"><span class="stat-dot green"></span><span class="stat-count" id="statWorking">—</span><span class="stat-label">working</span></div>
-    <div class="stat-pill"><span class="stat-dot red"></span><span class="stat-count" id="statBroken">—</span><span class="stat-label">broken</span></div>
-    <div class="stat-pill" id="lastScanPill" style="display:none"><span class="stat-label">Last scan:</span><span class="stat-count" id="statScan">—</span></div>
+  <div class="stats">
+    <div class="stat-chip"><span class="dot dot-gray"></span><span class="sc-val" id="sTotal">—</span><span class="sc-lbl">extensions</span></div>
+    <div class="stat-chip"><span class="dot dot-green"></span><span class="sc-val" id="sWorking">—</span><span class="sc-lbl">working</span></div>
+    <div class="stat-chip"><span class="dot dot-red"></span><span class="sc-val" id="sBroken">—</span><span class="sc-lbl">broken</span></div>
+    <div class="stat-chip"><span class="dot dot-orange"></span><span class="sc-val" id="sDeprecated">—</span><span class="sc-lbl">deprecated</span></div>
   </div>
 
-  <!-- Controls -->
   <div class="controls">
-    <!-- Type tabs -->
-    <div class="controls-row">
-      <div class="tab-group" id="typeTabs">
-        <button class="tab-btn active" data-type="all">
+    <div class="ctrl-row">
+      <!-- Type tabs -->
+      <div class="pill-group" id="typeTabs">
+        <button class="pill on" data-t="all">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
           All
         </button>
-        <button class="tab-btn" data-type="plugin">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.24 12.24a6 6 0 00-8.49-8.49L5 10.5V19h8.5l6.74-6.76z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg>
+        <button class="pill" data-t="plugin">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.24 12.24a6 6 0 00-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/></svg>
           Plugins
         </button>
-        <button class="tab-btn" data-type="onlinestream-provider">
+        <button class="pill" data-t="onlinestream-provider">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
           Streaming
         </button>
-        <button class="tab-btn" data-type="manga-provider">
+        <button class="pill" data-t="manga-provider">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
           Manga
         </button>
-        <button class="tab-btn" data-type="anime-torrent-provider">
+        <button class="pill" data-t="anime-torrent-provider">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"/></svg>
           Torrents
         </button>
-        <button class="tab-btn" data-type="official">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <button class="pill" data-t="official">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
           Official
         </button>
       </div>
-
       <!-- Search -->
       <div class="search-wrap">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <input class="search-inp" id="searchInp" type="search" placeholder="Search extensions…" />
       </div>
     </div>
 
-    <!-- Status pills -->
-    <div class="controls-row">
-      <div class="status-group" id="statusPills">
-        <button class="status-pill active-all" data-status="all">All statuses</button>
-        <button class="status-pill" data-status="Working">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-          Working
+    <div class="ctrl-row">
+      <!-- Status filter -->
+      <div style="display:flex;gap:6px;flex-wrap:wrap;" id="statusPills">
+        <button class="spill on-all" data-s="all">All statuses</button>
+        <button class="spill" data-s="working">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Working
         </button>
-        <button class="status-pill" data-status="Broken">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-          Broken
+        <button class="spill" data-s="broken">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Broken
         </button>
-        <button class="status-pill" data-status="Deprecated">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-          Deprecated
+        <button class="spill" data-s="deprecated">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/></svg>Deprecated
         </button>
+      </div>
+
+      <!-- Language filter -->
+      <div class="sel-wrap">
+        <select class="ctrl-select" id="langSel">
+          <option value="all">All languages</option>
+        </select>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+
+      <!-- Sort -->
+      <div class="sel-wrap">
+        <select class="ctrl-select" id="sortSel">
+          <option value="az">Name A → Z</option>
+          <option value="za">Name Z → A</option>
+          <option value="newest">Newest first</option>
+          <option value="type">By type</option>
+        </select>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </div>
     </div>
   </div>
 
-  <!-- Content -->
   <div id="content">
-    <div class="state-msg">
-      <div class="spinner"></div>
-      <span>Loading extensions…</span>
-    </div>
+    <div class="state-msg"><div class="spin"></div><span>Loading extensions…</span></div>
   </div>
 </div>
 
-<!-- Footer -->
-<div class="footer">
-  Seanime Community Marketplace · Community-maintained · Not affiliated with the official Seanime project
-</div>
+<footer>Seanime Community Marketplace &middot; Community-maintained &middot; Not affiliated with the official Seanime project</footer>
 
 <script>
-const MAIN_URL = 'https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/Marketplace/Main.json';
-const LOG_URL  = 'https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/Marketplace/ScanLog.json';
+const MAIN = 'https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/Marketplace/Main.json';
 
-const TYPE_LABEL = {
-  'plugin':                  { label: 'Plugins',        icon: 'plugin' },
-  'onlinestream-provider':   { label: 'Online Streaming', icon: 'stream' },
-  'manga-provider':          { label: 'Manga',           icon: 'manga' },
-  'anime-torrent-provider':  { label: 'Torrents',        icon: 'torrent' },
+const OFFICIAL_AUTHORS = ['seanime','island'];
+const KNOWN_LANGS = {
+  en:'English', ja:'Japanese', zh:'Chinese', ko:'Korean', de:'German',
+  fr:'French', es:'Spanish', pt:'Portuguese', it:'Italian', ru:'Russian',
+  ar:'Arabic', tr:'Turkish', pl:'Polish', nl:'Dutch', vi:'Vietnamese',
+  id:'Indonesian', th:'Thai', ms:'Malay', multi:'Multi-language'
 };
 
-const ICONS = {
-  plugin:  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.24 12.24a6 6 0 00-8.49-8.49L5 10.5V19h8.5l6.74-6.76z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg>`,
-  stream:  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>`,
-  manga:   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>`,
-  torrent: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"/></svg>`,
-  star:    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>`,
+const TYPE_META = {
+  'plugin':                 { label:'Plugins',         iconKey:'plugin' },
+  'onlinestream-provider':  { label:'Online Streaming', iconKey:'stream' },
+  'manga-provider':         { label:'Manga',            iconKey:'manga'  },
+  'anime-torrent-provider': { label:'Torrents',         iconKey:'torrent'},
 };
 
-const SECTION_ICONS = {
-  plugin:                 ICONS.plugin,
-  'onlinestream-provider':ICONS.stream,
-  'manga-provider':       ICONS.manga,
-  'anime-torrent-provider':ICONS.torrent,
-  official:               ICONS.star,
+const SVG = {
+  plugin:  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 00-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/></svg>`,
+  stream:  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>`,
+  manga:   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>`,
+  torrent: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"/></svg>`,
+  star:    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
+  copy:    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>`,
+  check:   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`,
+  shield:  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
+  ok:      `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`,
+  x:       `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`,
+  warn:    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/></svg>`,
 };
-
-const COPY_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>`;
-const CHECK_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`;
-const SHIELD_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`;
 
 let allData = [];
-let scanLog = {};
 let activeType   = 'all';
 let activeStatus = 'all';
+let activeLang   = 'all';
+let activeSort   = 'az';
 let searchTerm   = '';
 
-async function load() {
-  try {
-    const [mainRes, logRes] = await Promise.allSettled([
-      fetch(MAIN_URL), fetch(LOG_URL)
-    ]);
-
-    if (mainRes.status === 'fulfilled' && mainRes.value.ok) {
-      allData = await mainRes.value.json();
-    } else {
-      throw new Error('Failed to load extensions');
-    }
-
-    if (logRes.status === 'fulfilled' && logRes.value.ok) {
-      const log = await logRes.value.json();
-      // scanLog keyed by pluginId
-      if (Array.isArray(log)) {
-        log.forEach(e => { if (e.pluginId) scanLog[e.pluginId] = e; });
-      } else if (log && typeof log === 'object') {
-        Object.assign(scanLog, log);
-      }
-    }
-
-    updateStats();
-    render();
-  } catch (e) {
-    document.getElementById('content').innerHTML = `
-      <div class="state-msg">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
-        </svg>
-        <span>Could not load extensions. Check back later.</span>
-      </div>`;
-  }
+function isOfficial(item) {
+  return item.isOfficial || OFFICIAL_AUTHORS.includes((item.author || '').toLowerCase());
 }
 
 function getStatus(item) {
-  // Check for tags field first, then fall back to 'status'
-  if (item.tags && Array.isArray(item.tags)) {
-    if (item.tags.some(t => /working/i.test(t))) return 'Working';
-    if (item.tags.some(t => /broken/i.test(t))) return 'Broken';
-    if (item.tags.some(t => /deprecated/i.test(t))) return 'Deprecated';
-  }
-  if (item.status) return item.status;
+  if (item.workingTag)    return 'working';
+  if (item.brokenTag)     return 'broken';
+  if (item.deprecatedTag) return 'deprecated';
   return null;
 }
 
-function getVT(item) {
-  const log = scanLog[item.id];
-  if (!log) return null;
-  return { clean: log.vtClean, flagged: log.vtFlagged, permalink: log.vtPermalink };
+function parseVT(item) {
+  // flags field is like "0/62" — first number is flagged count
+  const f = item.flags;
+  if (!f) return null;
+  const parts = String(f).split('/');
+  const flagged = parseInt(parts[0], 10);
+  const total   = parseInt(parts[1], 10);
+  return { flagged, total, permalink: item.permalink || null };
+}
+
+function h(str) {
+  return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function langLabel(code) {
+  if (!code) return null;
+  const c = code.toLowerCase();
+  return KNOWN_LANGS[c] || code.toUpperCase();
+}
+
+async function load() {
+  try {
+    const res = await fetch(MAIN);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    allData = await res.json();
+    buildLangOptions();
+    updateStats();
+    render();
+  } catch(e) {
+    document.getElementById('content').innerHTML = `
+      <div class="state-msg">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <span>Could not load extensions. Please try again later.</span>
+      </div>`;
+  }
+}
+
+function buildLangOptions() {
+  const langs = new Set();
+  allData.forEach(item => { if (item.lang) langs.add(item.lang.toLowerCase()); });
+  const sel = document.getElementById('langSel');
+  [...langs].sort().forEach(code => {
+    const opt = document.createElement('option');
+    opt.value = code;
+    opt.textContent = langLabel(code) + (code !== 'multi' ? ' (' + code.toUpperCase() + ')' : '');
+    sel.appendChild(opt);
+  });
 }
 
 function updateStats() {
-  let working = 0, broken = 0;
+  let w=0, b=0, d=0;
   allData.forEach(item => {
     const s = getStatus(item);
-    if (s === 'Working') working++;
-    if (s === 'Broken') broken++;
+    if (s === 'working')    w++;
+    if (s === 'broken')     b++;
+    if (s === 'deprecated') d++;
   });
-  document.getElementById('statTotal').textContent = allData.length;
-  document.getElementById('statWorking').textContent = working;
-  document.getElementById('statBroken').textContent = broken;
-
-  // Last scan
-  const dates = Object.values(scanLog).map(e => e.lastScan || e.scannedAt).filter(Boolean);
-  if (dates.length) {
-    dates.sort();
-    const d = new Date(dates[dates.length - 1]);
-    if (!isNaN(d)) {
-      document.getElementById('statScan').textContent = d.toLocaleDateString();
-      document.getElementById('lastScanPill').style.display = '';
-    }
-  }
+  document.getElementById('sTotal').textContent     = allData.length;
+  document.getElementById('sWorking').textContent   = w;
+  document.getElementById('sBroken').textContent    = b;
+  document.getElementById('sDeprecated').textContent = d;
 }
 
-function filtered() {
-  return allData.filter(item => {
-    // Type
+function getFiltered() {
+  let items = allData.filter(item => {
     if (activeType === 'official') {
-      if (!item.isOfficial && !/^(seanime|island)$/i.test(item.author || '')) return false;
+      if (!isOfficial(item)) return false;
     } else if (activeType !== 'all') {
       if (item.type !== activeType) return false;
     }
-
-    // Status
-    if (activeStatus !== 'all') {
-      if (getStatus(item) !== activeStatus) return false;
-    }
-
-    // Search
+    if (activeStatus !== 'all' && getStatus(item) !== activeStatus) return false;
+    if (activeLang !== 'all' && (item.lang || '').toLowerCase() !== activeLang) return false;
     if (searchTerm) {
       const q = searchTerm.toLowerCase();
-      if (!(
-        (item.name || '').toLowerCase().includes(q) ||
-        (item.id   || '').toLowerCase().includes(q) ||
-        (item.description || '').toLowerCase().includes(q) ||
-        (item.author || '').toLowerCase().includes(q)
-      )) return false;
+      if (!((item.name||'').toLowerCase().includes(q) ||
+            (item.id||'').toLowerCase().includes(q) ||
+            (item.description||'').toLowerCase().includes(q) ||
+            (item.author||'').toLowerCase().includes(q))) return false;
     }
-
     return true;
   });
+
+  if (activeSort === 'az') items.sort((a,b)=>(a.name||'').localeCompare(b.name||''));
+  else if (activeSort === 'za') items.sort((a,b)=>(b.name||'').localeCompare(a.name||''));
+  else if (activeSort === 'type') items.sort((a,b)=>((a.type||'')).localeCompare(b.type||'') || (a.name||'').localeCompare(b.name||''));
+  else if (activeSort === 'newest') items.sort((a,b)=> (b.version||'0').localeCompare(a.version||'0'));
+
+  return items;
 }
 
-function copyUrl(url, btn) {
+function vtBadge(item) {
+  const vt = parseVT(item);
+  if (!vt) return `<span class="badge bd">${SVG.shield} Unscanned</span>`;
+  if (vt.flagged > 0) {
+    const inner = vt.permalink
+      ? `<a href="${h(vt.permalink)}" target="_blank" rel="noopener">${SVG.shield} ${vt.flagged}/${vt.total} flags</a>`
+      : `${SVG.shield} ${vt.flagged} flag${vt.flagged>1?'s':''}`;
+    return `<span class="badge bb">${inner}</span>`;
+  }
+  const inner = vt.permalink
+    ? `<a href="${h(vt.permalink)}" target="_blank" rel="noopener">${SVG.shield} Clean</a>`
+    : `${SVG.shield} Clean`;
+  return `<span class="badge bw">${inner}</span>`;
+}
+
+function statusBadge(status) {
+  if (!status) return '';
+  if (status === 'working')    return `<span class="badge bw">${SVG.ok} Working</span>`;
+  if (status === 'broken')     return `<span class="badge bb">${SVG.x} Broken</span>`;
+  if (status === 'deprecated') return `<span class="badge bdep">${SVG.warn} Deprecated</span>`;
+  return '';
+}
+
+function card(item) {
+  const status   = getStatus(item);
+  const official = isOfficial(item);
+  const sc = status === 'broken' ? 's-broken' : status === 'deprecated' ? 's-deprecated' : '';
+
+  const init = h((item.name || item.id || '?')[0].toUpperCase());
+  const iconHtml = item.icon
+    ? `<img src="${h(item.icon)}" alt="" loading="lazy" onerror="this.style.display='none';this.nextSibling.style.display='flex'">`
+      + `<span style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:18px;font-weight:700">${init}</span>`
+    : `<span style="font-size:18px;font-weight:700">${init}</span>`;
+
+  const url = h(item.manifestURI || item.manifestUrl || item.url || '');
+  const url64 = btoa(unescape(encodeURIComponent(url)));
+
+  const verBadge  = item.version ? `<span class="badge bd">${h(item.version)}</span>` : '';
+  const authBadge = item.author  ? `<span class="badge bd">${h(item.author)}</span>`  : '';
+  const lc        = (item.lang||'').toLowerCase();
+  const langBadge = item.lang && lc !== 'multi'
+    ? `<span class="badge bblue">${h(item.lang.toUpperCase())}</span>` : '';
+  const offBadge  = official ? `<span class="badge boff">${SVG.star} Official</span>` : '';
+
+  const sver = item.scannedOnVersion  ? `<span>Scanned on v${h(item.scannedOnVersion)}</span>`    : '';
+  const lwv  = item.lastWorkingVersion? `<span>Last OK: v${h(item.lastWorkingVersion)}</span>`     : '';
+
+  return `<div class="xcard ${sc}" data-u="${url64}">
+    <div class="xt">
+      <div class="xicon">${iconHtml}</div>
+      <div class="xmeta">
+        <div class="xname">${h(item.name || item.id || 'Unknown')}</div>
+        <div class="xid">${h(item.id || '')}</div>
+      </div>
+      <button class="cbtn" onclick="doCopy(this)">${SVG.copy} Copy URL</button>
+    </div>
+    ${item.description ? `<div class="xdesc">${h(item.description)}</div>` : ''}
+    <div class="xbadges">
+      ${offBadge}${statusBadge(status)}${vtBadge(item)}${verBadge}${authBadge}${langBadge}
+    </div>
+    ${(sver||lwv) ? `<div class="xfoot">${sver}${lwv}</div>` : ''}
+  </div>`;
+}
+
+function doCopy(btn) {
+  const url = decodeURIComponent(escape(atob(btn.closest('.xcard').dataset.u || '')));
+  if (!url) return;
   navigator.clipboard.writeText(url).then(() => {
     btn.classList.add('copied');
-    btn.innerHTML = CHECK_SVG + ' Copied!';
-    setTimeout(() => {
-      btn.classList.remove('copied');
-      btn.innerHTML = COPY_SVG + ' Copy URL';
-    }, 2000);
+    btn.innerHTML = SVG.check + ' Copied!';
+    setTimeout(() => { btn.classList.remove('copied'); btn.innerHTML = SVG.copy + ' Copy URL'; }, 2000);
   });
 }
 
-function badgeStatus(status) {
-  if (!status) return '';
-  const cls = status === 'Working' ? 'badge-working' : status === 'Broken' ? 'badge-broken' : 'badge-deprecated';
-  const icon = status === 'Working'
-    ? `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`
-    : status === 'Broken'
-    ? `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`
-    : `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/></svg>`;
-  return `<span class="badge ${cls}">${icon}${status}</span>`;
-}
-
-function badgeVT(vt, permalink) {
-  if (!vt) return `<span class="badge badge-vt-unscan">${SHIELD_SVG} Unscanned</span>`;
-  if (vt.flagged > 0) {
-    const tag = permalink
-      ? `<a href="${permalink}" target="_blank" rel="noopener">${SHIELD_SVG} ${vt.flagged} flag${vt.flagged > 1 ? 's' : ''}</a>`
-      : `${SHIELD_SVG} ${vt.flagged} flag${vt.flagged > 1 ? 's' : ''}`;
-    return `<span class="badge badge-vt-flagged">${tag}</span>`;
-  }
-  const tag = permalink
-    ? `<a href="${permalink}" target="_blank" rel="noopener">${SHIELD_SVG} Clean</a>`
-    : `${SHIELD_SVG} Clean`;
-  return `<span class="badge badge-vt-clean">${tag}</span>`;
-}
-
-function extCard(item) {
-  const status = getStatus(item);
-  const vt = getVT(item);
-  const vtPermalink = vt ? vt.permalink : null;
-  const isOfficial = item.isOfficial || /^(seanime|island)$/i.test(item.author || '');
-
-  const statusClass = status === 'Broken' ? 'status-broken' : status === 'Deprecated' ? 'status-deprecated' : '';
-
-  const initials = (item.name || '?')[0].toUpperCase();
-  const iconHtml = item.icon
-    ? `<img src="${escHtml(item.icon)}" alt="" loading="lazy" onerror="this.style.display='none';this.parentNode.textContent='${initials}'">`
-    : escHtml(initials);
-
-  const copyUrl64 = btoa(item.manifestURI || item.manifestUrl || item.url || '');
-
-  const versionBadge = item.version ? `<span class="badge badge-default">${escHtml(item.version)}</span>` : '';
-  const authorBadge  = item.author  ? `<span class="badge badge-default">${escHtml(item.author)}</span>`  : '';
-  const langBadge    = item.lang && item.lang.toLowerCase() !== 'multi'
-    ? `<span class="badge badge-blue">${escHtml(item.lang.toUpperCase())}</span>` : '';
-  const officialBadge = isOfficial ? `<span class="badge badge-official">${ICONS.star} Official</span>` : '';
-  const seanimeVer = item.seanimeVersion ? `<span>Seanime ${escHtml(item.seanimeVersion)}</span>` : '';
-  const lastOk = item.lastWorkingVersion ? `<span>Last OK: ${escHtml(item.lastWorkingVersion)}</span>` : '';
-
-  return `
-    <div class="ext-card ${statusClass}" data-url64="${copyUrl64}">
-      <div class="ext-top">
-        <div class="ext-icon">${iconHtml}</div>
-        <div class="ext-info">
-          <div class="ext-name">${escHtml(item.name || item.id || 'Unknown')}</div>
-          <div class="ext-id">${escHtml(item.id || '')}</div>
-        </div>
-        <div class="ext-action">
-          <button class="copy-btn" onclick="handleCopy(this)">${COPY_SVG} Copy URL</button>
-        </div>
-      </div>
-      ${item.description ? `<div class="ext-desc">${escHtml(item.description)}</div>` : ''}
-      <div class="ext-badges">
-        ${officialBadge}
-        ${badgeStatus(status)}
-        ${badgeVT(vt, vtPermalink)}
-        ${versionBadge}
-        ${authorBadge}
-        ${langBadge}
-      </div>
-      ${(seanimeVer || lastOk) ? `<div class="ext-meta">${seanimeVer}${lastOk}</div>` : ''}
-    </div>`;
-}
-
-function handleCopy(btn) {
-  const card = btn.closest('.ext-card');
-  const url = atob(card.dataset.url64 || '');
-  if (!url) return;
-  copyUrl(url, btn);
-}
-
-function sectionHTML(label, iconKey, items, delay) {
+function section(label, iconKey, items, delay) {
   if (!items.length) return '';
-  const icon = SECTION_ICONS[iconKey] || SECTION_ICONS.plugin;
-  return `
-    <div class="section-card fade-in" style="animation-delay:${delay}ms">
-      <div class="section-header">
-        ${icon}
-        ${escHtml(label)}
-        <span class="section-count">${items.length}</span>
-      </div>
-      <div class="ext-grid">
-        ${items.map(extCard).join('')}
-      </div>
-    </div>`;
+  const icon = SVG[iconKey] || SVG.plugin;
+  return `<div class="section fi" style="animation-delay:${delay}ms">
+    <div class="sec-hdr">${icon}${h(label)}<span class="sec-cnt">${items.length}</span></div>
+    <div class="grid">${items.map(card).join('')}</div>
+  </div>`;
 }
 
 function render() {
-  const items = filtered();
-  const content = document.getElementById('content');
-
+  const items = getFiltered();
+  const el = document.getElementById('content');
   if (!items.length) {
-    content.innerHTML = `
-      <div class="state-msg">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <span>No extensions match your filters.</span>
-      </div>`;
+    el.innerHTML = `<div class="state-msg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>No extensions match your filters.</span></div>`;
     return;
   }
 
   let html = '';
-  const isOfficial = item => item.isOfficial || /^(seanime|island)$/i.test(item.author || '');
+  const off = i => isOfficial(i);
 
   if (activeType === 'all') {
-    const plugins    = items.filter(i => i.type === 'plugin' && !isOfficial(i));
-    const streaming  = items.filter(i => i.type === 'onlinestream-provider' && !isOfficial(i));
-    const manga      = items.filter(i => i.type === 'manga-provider' && !isOfficial(i));
-    const torrents   = items.filter(i => i.type === 'anime-torrent-provider' && !isOfficial(i));
-    const official   = items.filter(isOfficial);
-    const other      = items.filter(i => !['plugin','onlinestream-provider','manga-provider','anime-torrent-provider'].includes(i.type) && !isOfficial(i));
-
-    html += sectionHTML('Plugins', 'plugin', plugins, 0);
-    html += sectionHTML('Online Streaming', 'onlinestream-provider', streaming, 40);
-    html += sectionHTML('Manga', 'manga-provider', manga, 80);
-    html += sectionHTML('Torrents', 'anime-torrent-provider', torrents, 120);
-    html += sectionHTML('Official Extensions', 'official', official, 160);
-    if (other.length) html += sectionHTML('Other', 'plugin', other, 200);
+    html += section('Plugins',         'plugin',  items.filter(i=>i.type==='plugin'&&!off(i)),                  0);
+    html += section('Online Streaming','stream',  items.filter(i=>i.type==='onlinestream-provider'&&!off(i)),  40);
+    html += section('Manga',           'manga',   items.filter(i=>i.type==='manga-provider'&&!off(i)),         80);
+    html += section('Torrents',        'torrent', items.filter(i=>i.type==='anime-torrent-provider'&&!off(i)),120);
+    html += section('Official',        'star',    items.filter(off),                                           160);
+    const known = ['plugin','onlinestream-provider','manga-provider','anime-torrent-provider'];
+    html += section('Other',           'plugin',  items.filter(i=>!known.includes(i.type)&&!off(i)),          200);
   } else if (activeType === 'official') {
-    const official = items.filter(isOfficial);
-    html += sectionHTML('Official Extensions', 'official', official, 0);
+    html += section('Official Extensions','star', items.filter(off), 0);
+    const nonOff = items.filter(i=>!off(i));
+    if (nonOff.length) html += section('Community (official authors)','plugin',nonOff,40);
   } else {
-    const meta = TYPE_LABEL[activeType] || { label: activeType };
-    html += sectionHTML(meta.label, activeType, items, 0);
+    const meta = TYPE_META[activeType] || {label:activeType,iconKey:'plugin'};
+    html += section(meta.label, meta.iconKey, items, 0);
   }
 
-  content.innerHTML = html || `<div class="state-msg"><span>No extensions found.</span></div>`;
+  el.innerHTML = html || `<div class="state-msg"><span>No extensions found.</span></div>`;
 }
 
-function escHtml(str) {
-  return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
-
-// ─── Controls wiring ───
+// Wire controls
 document.getElementById('typeTabs').addEventListener('click', e => {
-  const btn = e.target.closest('.tab-btn');
-  if (!btn) return;
-  activeType = btn.dataset.type;
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b === btn));
+  const btn = e.target.closest('.pill'); if (!btn) return;
+  activeType = btn.dataset.t;
+  document.querySelectorAll('.pill').forEach(b => b.classList.toggle('on', b===btn));
   render();
 });
 
 document.getElementById('statusPills').addEventListener('click', e => {
-  const btn = e.target.closest('.status-pill');
-  if (!btn) return;
-  activeStatus = btn.dataset.status;
-  document.querySelectorAll('.status-pill').forEach(b => {
-    b.className = 'status-pill';
-    if (b === btn) {
-      if (activeStatus === 'all')         b.classList.add('active-all');
-      else if (activeStatus === 'Working')    b.classList.add('active-working');
-      else if (activeStatus === 'Broken')     b.classList.add('active-broken');
-      else if (activeStatus === 'Deprecated') b.classList.add('active-deprecated');
+  const btn = e.target.closest('.spill'); if (!btn) return;
+  activeStatus = btn.dataset.s;
+  document.querySelectorAll('.spill').forEach(b => {
+    b.className = 'spill';
+    if (b===btn) {
+      const map = {all:'on-all',working:'on-w',broken:'on-b',deprecated:'on-d'};
+      b.classList.add(map[activeStatus]||'on-all');
     }
   });
   render();
 });
 
-document.getElementById('searchInp').addEventListener('input', e => {
-  searchTerm = e.target.value.trim();
-  render();
-});
+document.getElementById('searchInp').addEventListener('input', e => { searchTerm = e.target.value.trim(); render(); });
+document.getElementById('langSel').addEventListener('change',  e => { activeLang = e.target.value; render(); });
+document.getElementById('sortSel').addEventListener('change',  e => { activeSort = e.target.value; render(); });
 
 load();
 </script>
