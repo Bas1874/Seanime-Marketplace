@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Android/main/images/seanime.png" width="90px" alt="Seanime Logo"/>
 
-  <h1>Community Seanime Marketplace</h1>
+  <h1>Seanime Community Marketplace</h1>
 
   <p>
     <a href="https://github.com/Bas1874/Seanime-Marketplace/commits/main">
