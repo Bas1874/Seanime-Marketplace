@@ -8,7 +8,7 @@
       <img src="https://img.shields.io/github/last-commit/Bas1874/Seanime-Marketplace?style=for-the-badge&logo=git&logoColor=white&labelColor=2d3748&color=805ad5" alt="Last Commit" />
     </a>
     <a href="https://github.com/Bas1874/Seanime-Marketplace/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/Bas1874/Seanime-Marketplace?style=for-the-badge&labelColor=2d3748&color=805ad5" alt="License" />
+      <img src="https://img.shields.io/badge/License-Custom_Dual-805ad5?style=for-the-badge&labelColor=2d3748" alt="License" />
     </a>
     <a href="https://discord.gg/vKPhNTesWx">
       <img src="https://img.shields.io/discord/1224767201551192224?style=for-the-badge&color=5865F2&labelColor=2d3748&label=Discord&logo=discord&logoColor=white" alt="Discord Server" />
@@ -82,6 +82,17 @@ Wondering where to find the manifest URLs?
 
 <br>
 
-<div align="center">
-  <em>Released under the <a href="./LICENSE">MIT License</a>.</em>
-</div>
+## ⚖️ Terms of Use & Data Licensing
+
+This repository provides a curated, enhanced marketplace dataset. To ensure compliance with Discord's Terms of Service, this data is gathered using an authorized, fully-permissioned Discord Bot. Because of this, strict usage rules apply to the data.
+
+**✅ What you CAN do:**
+You are fully allowed (and encouraged!) to use this marketplace data in your plugins, apps, or extensions by fetching the data via the raw GitHub link. As long as this repository remains the host, you are free to consume the data.
+*Example:* `https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/Marketplace/Main.json`
+
+**❌ What you CANNOT do:**
+You may **not** scrape, clone, or copy the JSON files located in the `/Marketplace` folder to host them on your own GitHub repository, server, or alternative marketplace. 
+
+⚠️ *Note: Any developers found illegally scraping or re hosting this repository's JSON files to bypass access restrictions will have their plugins permanently blacklisted from this marketplace.*
+
+For full details, please read the [LICENSE](LICENSE) file. The HTML/code outside the `/Marketplace` folder is licensed under MIT, but the marketplace data itself is strictly restricted.
