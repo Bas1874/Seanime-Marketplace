@@ -144,10 +144,10 @@
           <button class="tab px-4 h-full text-[13px] font-medium whitespace-nowrap" data-tab="official">Official</button>
         </div>
 
-        <!-- Gear -->
-        <button id="settings-btn" title="Server settings" class="flex-shrink-0 p-2 rounded-lg transition hover:bg-white/5" style="color:#8b949e">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-        </button>
+        <!-- GitHub link -->
+        <a href="https://github.com/Bas1874/Seanime-Marketplace" target="_blank" rel="noopener noreferrer" title="GitHub" class="flex-shrink-0 p-2 rounded-lg transition hover:bg-white/5" style="color:#8b949e">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        </a>
       </div>
 
       <!-- Tabs (mobile) -->
@@ -198,39 +198,6 @@
     <span id="toast-msg"></span>
   </div>
 
-  <!-- ── Settings modal ── -->
-  <div id="settings-modal" class="overlay fixed inset-0 z-[80] hidden flex items-center justify-center p-4">
-    <div id="settings-box" class="card w-full max-w-md p-6 scale-95 opacity-0 transition-all duration-200" style="background:var(--surface2)">
-      <div class="flex items-center justify-between mb-1">
-        <h3 class="text-base font-semibold text-white">Server Settings</h3>
-        <button id="settings-close-x" class="p-1 rounded hover:bg-white/5 transition" style="color:#6e7681">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
-        </button>
-      </div>
-      <p class="text-xs mb-6" style="color:#6e7681">Configure your local Seanime instance to enable one-click installs.</p>
-
-      <div class="space-y-4">
-        <div>
-          <label class="block text-xs font-medium mb-1.5" style="color:#8b949e">Server URI</label>
-          <input id="setting-uri" type="text" placeholder="http://localhost" class="inp" />
-        </div>
-        <div>
-          <label class="block text-xs font-medium mb-1.5" style="color:#8b949e">Server Port</label>
-          <input id="setting-port" type="text" placeholder="43211" class="inp" />
-        </div>
-        <div>
-          <label class="block text-xs font-medium mb-1.5" style="color:#8b949e">API Key <span style="color:#484f58;font-weight:400">(if authentication is enabled in Seanime settings)</span></label>
-          <input id="setting-key" type="password" placeholder="Leave blank if no auth" class="inp" />
-          <p class="text-xs mt-1.5" style="color:#484f58">Found in Seanime → Settings → General → API Key</p>
-        </div>
-      </div>
-
-      <div class="mt-6 flex justify-end gap-2">
-        <button id="settings-close" class="px-4 py-2 text-sm rounded-lg transition hover:bg-white/5" style="color:#8b949e">Cancel</button>
-        <button id="settings-save" class="btn-primary">Save</button>
-      </div>
-    </div>
-  </div>
 
   <!-- ── Skeleton template ── -->
   <template id="tpl-skeleton">
@@ -293,7 +260,6 @@
 
   <script>
     const MAIN_JSON = 'https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/Marketplace/Main.json';
-    const DEF_URI = 'http://localhost', DEF_PORT = '43211';
 
     const placeholderSvg = "data:image/svg+xml;utf8," + encodeURIComponent(
       `<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'>` +
@@ -304,26 +270,6 @@
 
     const $ = s => document.querySelector(s);
     const $$ = s => [...document.querySelectorAll(s)];
-
-    // ── Settings ──────────────────────────────────────────────────────────────
-    const getSettings = () => ({
-      uri:  localStorage.getItem('sm_uri')  || DEF_URI,
-      port: localStorage.getItem('sm_port') || DEF_PORT,
-      key:  localStorage.getItem('sm_key')  || '',
-    });
-    const saveSettingsData = (uri, port, key) => {
-      if (uri.endsWith('/')) uri = uri.slice(0,-1);
-      localStorage.setItem('sm_uri', uri);
-      localStorage.setItem('sm_port', port);
-      localStorage.setItem('sm_key', key);
-    };
-    const getInstallUrl = () => { const {uri,port} = getSettings(); return `${uri}:${port}/api/v1/extensions/external/install`; };
-    const getHeaders    = () => {
-      const { key } = getSettings();
-      const h = { 'Content-Type': 'application/json' };
-      if (key) h['Authorization'] = `Bearer ${key}`;
-      return h;
-    };
 
     // ── Toast ─────────────────────────────────────────────────────────────────
     let toastTimer;
@@ -428,43 +374,24 @@
       const wsEl = n.querySelector('.c-website');
       if (item.website) { wsEl.href = item.website; wsEl.classList.remove('hidden'); wsEl.classList.add('flex'); }
 
-      // Install button
+      // Copy manifest URL button (direct API install is blocked by Seanime's CORS policy)
       const instEl = n.querySelector('.c-install');
       if (item.manifestURI) {
         instEl.classList.remove('hidden');
-        instEl.addEventListener('click', async () => {
-          instEl.disabled = true;
-          instEl.innerHTML = `<svg class="animate-spin w-3 h-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>`;
-          try {
-            const res = await fetch(getInstallUrl(), {
-              method: 'POST',
-              headers: getHeaders(),
-              body: JSON.stringify({ manifestUri: item.manifestURI }),
-            });
-            let result = {};
-            try { result = await res.json(); } catch {}
-            if (res.ok && (result.success ?? true)) {
-              instEl.textContent = '✓ Installed';
-              instEl.style.background = 'rgba(63,185,80,.15)';
-              instEl.style.color = '#3fb950';
-              instEl.style.border = '1px solid rgba(63,185,80,.3)';
-              showToast(`${item.name} installed!`);
-            } else if (res.status === 401) {
-              throw new Error('401 — add your API key in ⚙ settings');
-            } else {
-              throw new Error(`${res.status}`);
-            }
-          } catch (e) {
-            instEl.textContent = 'Failed';
-            instEl.style.background = 'rgba(248,81,73,.15)';
-            instEl.style.color = '#f85149';
-            showToast(e.message || 'Install failed', false);
-            setTimeout(() => {
-              instEl.textContent = 'Install';
-              instEl.style = '';
-              instEl.disabled = false;
-            }, 3000);
-          }
+        instEl.textContent = 'Copy URL';
+        instEl.addEventListener('click', () => {
+          const ta = document.createElement('textarea');
+          ta.value = item.manifestURI;
+          ta.style.position = 'fixed'; ta.style.left = '-9999px';
+          document.body.appendChild(ta); ta.select();
+          try { document.execCommand('copy'); } catch {}
+          document.body.removeChild(ta);
+          instEl.textContent = '✓ Copied!';
+          instEl.style.background = 'rgba(63,185,80,.15)';
+          instEl.style.color = '#3fb950';
+          instEl.style.border = '1px solid rgba(63,185,80,.3)';
+          showToast('Manifest URL copied — paste it in Seanime → Extensions → Install from URL');
+          setTimeout(() => { instEl.textContent = 'Copy URL'; instEl.style = ''; }, 2500);
         });
       }
 
@@ -559,32 +486,6 @@
       renderItems();
     });
 
-    // ── Settings modal ────────────────────────────────────────────────────────
-    function openSettings() {
-      const { uri, port, key } = getSettings();
-      $('#setting-uri').value  = uri;
-      $('#setting-port').value = port;
-      $('#setting-key').value  = key;
-      const m = $('#settings-modal'), b = $('#settings-box');
-      m.classList.remove('hidden');
-      requestAnimationFrame(() => { m.style.opacity = 1; b.classList.remove('scale-95','opacity-0'); b.classList.add('scale-100','opacity-100'); });
-    }
-    function closeSettings() {
-      const m = $('#settings-modal'), b = $('#settings-box');
-      b.classList.add('scale-95','opacity-0'); b.classList.remove('scale-100','opacity-100');
-      setTimeout(() => { m.classList.add('hidden'); m.style.opacity = ''; }, 200);
-    }
-
-    $('#settings-btn').addEventListener('click', openSettings);
-    $('#settings-close').addEventListener('click', closeSettings);
-    $('#settings-close-x').addEventListener('click', closeSettings);
-    $('#settings-modal').addEventListener('click', e => { if (e.target === $('#settings-modal')) closeSettings(); });
-    $('#settings-save').addEventListener('click', () => {
-      saveSettingsData($('#setting-uri').value.trim(), $('#setting-port').value.trim(), $('#setting-key').value.trim());
-      showToast('Settings saved!');
-      closeSettings();
-    });
-
     // ── Init ──────────────────────────────────────────────────────────────────
     window.addEventListener('DOMContentLoaded', () => {
       $$('.tab').forEach(btn => btn.addEventListener('click', () => setTab(btn.dataset.tab)));
@@ -592,7 +493,6 @@
 
       let t;
       $('#search').addEventListener('input', e => { clearTimeout(t); t = setTimeout(() => applySearch(e.target.value), 100); });
-      document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSettings(); });
 
       loadPlugins();
     });
