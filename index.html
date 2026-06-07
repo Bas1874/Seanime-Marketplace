@@ -1,447 +1,601 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Seanime Community Marketplace</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            fontFamily: { sans: ['Inter', 'sans-serif'] },
-            colors: { gray: { 850: '#1f2937', 900: '#111827', 950: '#030712' } },
-            animation: {
-              'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-              'fade-in': 'fadeIn 0.5s ease-out',
-            },
-            keyframes: {
-              fadeIn: {
-                '0%': { opacity: '0', transform: 'translateY(10px)' },
-                '100%': { opacity: '1', transform: 'translateY(0)' },
-              }
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Seanime Community Marketplace</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+          animation: { 'fade-in': 'fadeIn 0.4s ease-out' },
+          keyframes: { fadeIn: { '0%': { opacity:'0', transform:'translateY(8px)' }, '100%': { opacity:'1', transform:'translateY(0)' } } }
+        }
+      }
+    };
+  </script>
+  <style>
+    :root {
+      --surface:   #0d1117;
+      --surface2:  #161b22;
+      --surface3:  #1c2128;
+      --border:    rgba(255,255,255,0.07);
+      --border2:   rgba(255,255,255,0.12);
+      --blue:      #388bfd;
+      --blue-dim:  rgba(56,139,253,0.15);
+      --blue-border: rgba(56,139,253,0.3);
+    }
+
+    * { box-sizing: border-box; }
+    body { background: var(--surface); }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
+    .no-scroll::-webkit-scrollbar { display: none; }
+    .no-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+
+    /* Glass nav */
+    .nav-glass {
+      background: rgba(13,17,23,0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Cards */
+    .card {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      transition: border-color .2s, transform .2s, box-shadow .2s;
+    }
+    .card:hover {
+      border-color: var(--blue-border);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px -8px rgba(56,139,253,0.15), 0 4px 16px -4px rgba(0,0,0,0.4);
+    }
+
+    /* Tabs */
+    .tab { color: #8b949e; border-bottom: 2px solid transparent; transition: color .15s, border-color .15s; }
+    .tab:hover { color: #c9d1d9; }
+    .tab.active { color: #c9d1d9; border-bottom-color: var(--blue); }
+
+    /* Badges */
+    .badge { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 20px; border: 1px solid; }
+    .badge-working    { background: rgba(63,185,80,.12);  border-color: rgba(63,185,80,.3);  color: #3fb950; }
+    .badge-broken     { background: rgba(248,81,73,.12);  border-color: rgba(248,81,73,.3);  color: #f85149; }
+    .badge-deprecated { background: rgba(210,153,34,.12); border-color: rgba(210,153,34,.3); color: #d29922; }
+    .badge-official   { background: rgba(139,100,253,.12);border-color: rgba(139,100,253,.3);color: #a371f7; }
+    .badge-vt-clean   { background: rgba(63,185,80,.1);   border-color: rgba(63,185,80,.25); color: #3fb950; }
+    .badge-vt-flagged { background: rgba(248,81,73,.1);   border-color: rgba(248,81,73,.25); color: #f85149; }
+    .badge-vt-unscan  { background: rgba(110,118,129,.1); border-color: rgba(110,118,129,.2);color: #6e7681; }
+
+    /* Input */
+    .inp {
+      width: 100%; padding: 8px 12px; border-radius: 8px;
+      background: var(--surface); border: 1px solid #30363d;
+      color: #c9d1d9; outline: none; font-size: 14px; transition: border-color .15s;
+    }
+    .inp:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(56,139,253,.12); }
+    .inp::placeholder { color: #484f58; }
+
+    /* Buttons */
+    .btn-primary { background: var(--blue); color: #fff; border-radius: 8px; padding: 7px 16px; font-size: 13px; font-weight: 500; transition: opacity .15s, transform .1s; }
+    .btn-primary:hover { opacity: .88; }
+    .btn-primary:active { transform: scale(.97); }
+    .btn-install { background: linear-gradient(135deg, #1f6feb, #388bfd); color: #fff; border-radius: 8px; padding: 6px 16px; font-size: 12px; font-weight: 500; transition: opacity .2s, transform .1s; }
+    .btn-install:hover { opacity: .85; }
+    .btn-install:active { transform: scale(.96); }
+    .btn-install:disabled { opacity: .5; cursor: not-allowed; }
+
+    /* Stat cards */
+    .stat { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; }
+
+    /* Modal overlay */
+    .overlay { background: rgba(1,4,9,.85); backdrop-filter: blur(4px); }
+
+    /* Type icon bg */
+    .type-icon { width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .type-plugin      { background: rgba(56,139,253,.15); }
+    .type-online      { background: rgba(63,185,80,.12);  }
+    .type-manga       { background: rgba(210,153,34,.12); }
+    .type-torrent     { background: rgba(248,81,73,.12);  }
+    .type-official    { background: rgba(139,100,253,.12);}
+
+    /* Glow at top */
+    .hero-glow {
+      position: fixed; top: 0; left: 0; right: 0; height: 320px;
+      background: radial-gradient(ellipse 70% 200px at 50% -60px, rgba(56,139,253,.12), transparent);
+      pointer-events: none; z-index: 0;
+    }
+  </style>
+</head>
+<body class="text-[#c9d1d9] font-sans antialiased min-h-screen flex flex-col" style="background:var(--surface)">
+  <div class="hero-glow"></div>
+
+  <!-- ── Nav ── -->
+  <nav class="nav-glass sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-14 gap-4">
+
+        <!-- Logo -->
+        <div class="flex items-center gap-2.5 flex-shrink-0">
+          <div class="w-7 h-7 rounded-lg flex items-center justify-center" style="background:linear-gradient(135deg,#388bfd,#a371f7)">
+            <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+          </div>
+          <span class="text-[15px] font-semibold text-white">Seanime <span style="color:#8b949e;font-weight:400">Marketplace</span></span>
+        </div>
+
+        <!-- Tabs (desktop) -->
+        <div class="hidden md:flex items-end gap-1 h-14 overflow-x-auto no-scroll">
+          <button class="tab px-4 h-full text-[13px] font-medium whitespace-nowrap" data-tab="all">All</button>
+          <button class="tab px-4 h-full text-[13px] font-medium whitespace-nowrap" data-tab="plugin">Plugins</button>
+          <button class="tab px-4 h-full text-[13px] font-medium whitespace-nowrap" data-tab="onlinestream-provider">Online Streams</button>
+          <button class="tab px-4 h-full text-[13px] font-medium whitespace-nowrap" data-tab="manga-provider">Manga</button>
+          <button class="tab px-4 h-full text-[13px] font-medium whitespace-nowrap" data-tab="anime-torrent-provider">Torrents</button>
+          <button class="tab px-4 h-full text-[13px] font-medium whitespace-nowrap" data-tab="official">Official</button>
+        </div>
+
+        <!-- Gear -->
+        <button id="settings-btn" title="Server settings" class="flex-shrink-0 p-2 rounded-lg transition hover:bg-white/5" style="color:#8b949e">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </button>
+      </div>
+
+      <!-- Tabs (mobile) -->
+      <div class="flex md:hidden gap-1 overflow-x-auto no-scroll pb-px">
+        <button class="tab px-3 h-10 text-[12px] font-medium whitespace-nowrap" data-tab="all">All</button>
+        <button class="tab px-3 h-10 text-[12px] font-medium whitespace-nowrap" data-tab="plugin">Plugins</button>
+        <button class="tab px-3 h-10 text-[12px] font-medium whitespace-nowrap" data-tab="onlinestream-provider">Streams</button>
+        <button class="tab px-3 h-10 text-[12px] font-medium whitespace-nowrap" data-tab="manga-provider">Manga</button>
+        <button class="tab px-3 h-10 text-[12px] font-medium whitespace-nowrap" data-tab="anime-torrent-provider">Torrents</button>
+        <button class="tab px-3 h-10 text-[12px] font-medium whitespace-nowrap" data-tab="official">Official</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Search + stats bar ── -->
+  <div class="relative z-10 sticky top-14" style="background:rgba(13,17,23,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex flex-col sm:flex-row gap-3 items-start sm:items-center">
+      <!-- Search -->
+      <div class="relative w-full sm:max-w-sm">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none" style="color:#484f58" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        <input id="search" type="search" placeholder="Search plugins, authors..." class="inp pl-9 py-2 text-sm" />
+      </div>
+      <!-- Filter pills -->
+      <div class="flex gap-2 flex-wrap">
+        <button class="filter-btn badge badge-working" data-filter="working" style="cursor:pointer;font-size:11px">✓ Working</button>
+        <button class="filter-btn badge badge-broken" data-filter="broken" style="cursor:pointer;font-size:11px">✗ Broken</button>
+        <button class="filter-btn badge badge-deprecated" data-filter="deprecated" style="cursor:pointer;font-size:11px">⚠ Deprecated</button>
+        <button id="clear-filter" class="badge" style="cursor:pointer;font-size:11px;display:none;background:rgba(110,118,129,.1);border-color:rgba(110,118,129,.2);color:#8b949e">✕ Clear</button>
+      </div>
+      <!-- Stats -->
+      <div id="stats-line" class="ml-auto text-xs whitespace-nowrap" style="color:#6e7681"></div>
+    </div>
+  </div>
+
+  <!-- ── Content ── -->
+  <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 py-6 w-full relative z-10">
+    <div id="grid-all"                    class="tab-content grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></div>
+    <div id="grid-plugin"                 class="tab-content hidden grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></div>
+    <div id="grid-onlinestream-provider"  class="tab-content hidden grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></div>
+    <div id="grid-manga-provider"         class="tab-content hidden grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></div>
+    <div id="grid-anime-torrent-provider" class="tab-content hidden grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></div>
+    <div id="grid-official"               class="tab-content hidden grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></div>
+  </main>
+
+  <!-- ── Toast ── -->
+  <div id="toast" class="fixed bottom-6 right-6 z-[60] px-4 py-3 rounded-xl shadow-2xl flex items-center gap-2.5 translate-y-24 transition-transform duration-300 text-sm font-medium" style="background:var(--surface3);border:1px solid var(--border2)">
+    <svg id="toast-icon" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"></svg>
+    <span id="toast-msg"></span>
+  </div>
+
+  <!-- ── Settings modal ── -->
+  <div id="settings-modal" class="overlay fixed inset-0 z-[80] hidden flex items-center justify-center p-4">
+    <div id="settings-box" class="card w-full max-w-md p-6 scale-95 opacity-0 transition-all duration-200" style="background:var(--surface2)">
+      <div class="flex items-center justify-between mb-1">
+        <h3 class="text-base font-semibold text-white">Server Settings</h3>
+        <button id="settings-close-x" class="p-1 rounded hover:bg-white/5 transition" style="color:#6e7681">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <p class="text-xs mb-6" style="color:#6e7681">Configure your local Seanime instance to enable one-click installs.</p>
+
+      <div class="space-y-4">
+        <div>
+          <label class="block text-xs font-medium mb-1.5" style="color:#8b949e">Server URI</label>
+          <input id="setting-uri" type="text" placeholder="http://localhost" class="inp" />
+        </div>
+        <div>
+          <label class="block text-xs font-medium mb-1.5" style="color:#8b949e">Server Port</label>
+          <input id="setting-port" type="text" placeholder="43211" class="inp" />
+        </div>
+        <div>
+          <label class="block text-xs font-medium mb-1.5" style="color:#8b949e">API Key <span style="color:#484f58;font-weight:400">(if authentication is enabled in Seanime settings)</span></label>
+          <input id="setting-key" type="password" placeholder="Leave blank if no auth" class="inp" />
+          <p class="text-xs mt-1.5" style="color:#484f58">Found in Seanime → Settings → General → API Key</p>
+        </div>
+      </div>
+
+      <div class="mt-6 flex justify-end gap-2">
+        <button id="settings-close" class="px-4 py-2 text-sm rounded-lg transition hover:bg-white/5" style="color:#8b949e">Cancel</button>
+        <button id="settings-save" class="btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Skeleton template ── -->
+  <template id="tpl-skeleton">
+    <div class="card p-5 flex flex-col gap-4 animate-pulse">
+      <div class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-lg flex-shrink-0" style="background:var(--surface3)"></div>
+        <div class="flex-1 space-y-2">
+          <div class="h-3.5 rounded w-3/4" style="background:var(--surface3)"></div>
+          <div class="h-3 rounded w-1/2" style="background:var(--surface3)"></div>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <div class="h-3 rounded w-full" style="background:var(--surface3)"></div>
+        <div class="h-3 rounded w-5/6" style="background:var(--surface3)"></div>
+      </div>
+      <div class="flex gap-2 mt-auto pt-4" style="border-top:1px solid var(--border)">
+        <div class="h-6 w-16 rounded-full" style="background:var(--surface3)"></div>
+        <div class="h-6 w-20 rounded-lg ml-auto" style="background:var(--surface3)"></div>
+      </div>
+    </div>
+  </template>
+
+  <!-- ── Card template ── -->
+  <template id="tpl-card">
+    <div class="card p-5 flex flex-col gap-0 animate-fade-in">
+      <!-- Header -->
+      <div class="flex items-start gap-3 mb-3">
+        <img class="c-icon w-11 h-11 rounded-xl object-cover flex-shrink-0" style="background:var(--surface3);border:1px solid var(--border)" loading="lazy" />
+        <div class="flex-1 min-w-0">
+          <div class="flex items-start justify-between gap-2">
+            <h2 class="c-name text-sm font-semibold leading-snug truncate" style="color:#e6edf3"></h2>
+            <div class="c-status flex flex-col items-end gap-1 flex-shrink-0"></div>
+          </div>
+          <p class="c-author text-xs mt-0.5 flex items-center gap-1" style="color:#6e7681">
+            <svg class="w-3 h-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+            <span class="c-author-text truncate"></span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Description -->
+      <p class="c-desc text-xs leading-relaxed flex-grow line-clamp-3 mb-3" style="color:#8b949e"></p>
+
+      <!-- Meta -->
+      <p class="c-meta text-[11px] mb-3" style="color:#484f58"></p>
+
+      <!-- Footer -->
+      <div class="flex flex-wrap items-center gap-2 pt-3" style="border-top:1px solid var(--border)">
+        <div class="c-vt"></div>
+        <div class="flex items-center gap-2 ml-auto">
+          <a class="c-website hidden items-center gap-1 text-xs px-3 py-1.5 rounded-lg transition" style="color:var(--blue);background:var(--blue-dim);border:1px solid var(--blue-border)" target="_blank" rel="noopener noreferrer">
+            <span>Website</span>
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          </a>
+          <button class="c-install btn-install hidden">Install</button>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <script>
+    const MAIN_JSON = 'https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/Marketplace/Main.json';
+    const DEF_URI = 'http://localhost', DEF_PORT = '43211';
+
+    const placeholderSvg = "data:image/svg+xml;utf8," + encodeURIComponent(
+      `<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'>` +
+      `<rect width='80' height='80' rx='10' fill='#161b22'/>` +
+      `<path d='M40 28v24M28 40h24' stroke='#30363d' stroke-width='2.5' stroke-linecap='round'/>` +
+      `</svg>`
+    );
+
+    const $ = s => document.querySelector(s);
+    const $$ = s => [...document.querySelectorAll(s)];
+
+    // ── Settings ──────────────────────────────────────────────────────────────
+    const getSettings = () => ({
+      uri:  localStorage.getItem('sm_uri')  || DEF_URI,
+      port: localStorage.getItem('sm_port') || DEF_PORT,
+      key:  localStorage.getItem('sm_key')  || '',
+    });
+    const saveSettingsData = (uri, port, key) => {
+      if (uri.endsWith('/')) uri = uri.slice(0,-1);
+      localStorage.setItem('sm_uri', uri);
+      localStorage.setItem('sm_port', port);
+      localStorage.setItem('sm_key', key);
+    };
+    const getInstallUrl = () => { const {uri,port} = getSettings(); return `${uri}:${port}/api/v1/extensions/external/install`; };
+    const getHeaders    = () => {
+      const { key } = getSettings();
+      const h = { 'Content-Type': 'application/json' };
+      if (key) h['Authorization'] = `Bearer ${key}`;
+      return h;
+    };
+
+    // ── Toast ─────────────────────────────────────────────────────────────────
+    let toastTimer;
+    function showToast(msg, ok = true) {
+      const t = $('#toast'), m = $('#toast-msg'), ic = $('#toast-icon');
+      m.textContent = msg;
+      ic.innerHTML = ok
+        ? '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>'
+        : '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>';
+      ic.style.color = ok ? '#3fb950' : '#f85149';
+      t.classList.remove('translate-y-24');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => t.classList.add('translate-y-24'), 3000);
+    }
+
+    // ── Tabs ──────────────────────────────────────────────────────────────────
+    let currentTab = 'all';
+    function setTab(id) {
+      currentTab = id;
+      $$('.tab').forEach(b => b.classList.toggle('active', b.dataset.tab === id));
+      $$('.tab-content').forEach(el => el.classList.add('hidden'));
+      const el = document.getElementById('grid-' + id);
+      if (el) { el.classList.remove('hidden'); }
+      applySearch($('#search').value);
+    }
+
+    // ── Skeletons ─────────────────────────────────────────────────────────────
+    function renderSkeletons(id, n = 8) {
+      const c = document.getElementById('grid-' + id);
+      if (!c) return;
+      c.innerHTML = '';
+      const tpl = document.getElementById('tpl-skeleton');
+      for (let i = 0; i < n; i++) c.appendChild(tpl.content.cloneNode(true));
+    }
+
+    // ── Type helpers ──────────────────────────────────────────────────────────
+    const TYPE_LABELS = {
+      'plugin': 'Plugin',
+      'onlinestream-provider': 'Online Stream',
+      'manga-provider': 'Manga',
+      'anime-torrent-provider': 'Torrent',
+    };
+    const TYPE_ICON_SVG = {
+      'plugin': '<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>',
+      'onlinestream-provider': '<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10,8 16,12 10,16"/></svg>',
+      'manga-provider': '<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
+      'anime-torrent-provider': '<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>',
+    };
+    const TYPE_ICON_COLOR = {
+      'plugin': '#388bfd', 'onlinestream-provider': '#3fb950',
+      'manga-provider': '#d29922', 'anime-torrent-provider': '#f85149',
+    };
+
+    // ── Build one card ────────────────────────────────────────────────────────
+    function buildCard(item) {
+      const tpl = document.getElementById('tpl-card');
+      const n = tpl.content.cloneNode(true);
+
+      // Icon
+      const ic = n.querySelector('.c-icon');
+      ic.src = item.icon || placeholderSvg;
+      ic.onerror = () => { ic.src = placeholderSvg; };
+
+      // Name + author
+      n.querySelector('.c-name').textContent  = item.name   || item.id || 'Unnamed';
+      n.querySelector('.c-author-text').textContent = item.author || 'Unknown';
+
+      // Description
+      n.querySelector('.c-desc').textContent = item.description || 'No description available.';
+
+      // Status badges (top right)
+      const statusEl = n.querySelector('.c-status');
+      if (item.official)      statusEl.insertAdjacentHTML('beforeend', `<span class="badge badge-official">★ Official</span>`);
+      if (item.workingTag)    statusEl.insertAdjacentHTML('beforeend', `<span class="badge badge-working">✓ Working</span>`);
+      if (item.brokenTag)     statusEl.insertAdjacentHTML('beforeend', `<span class="badge badge-broken">✗ Broken</span>`);
+      if (item.deprecatedTag) statusEl.insertAdjacentHTML('beforeend', `<span class="badge badge-deprecated">⚠ Deprecated</span>`);
+
+      // Meta line
+      const metaParts = [`v${item.version || '?'}`];
+      if (TYPE_LABELS[item.type]) metaParts.push(TYPE_LABELS[item.type]);
+      if (item.scannedOnVersion && item.scannedOnVersion !== 'unknown') metaParts.push(`Seanime v${item.scannedOnVersion}`);
+      if (item.lastWorkingVersion) metaParts.push(`Last OK: v${item.lastWorkingVersion}`);
+      n.querySelector('.c-meta').textContent = metaParts.join(' · ');
+
+      // VT badge
+      const vtEl = n.querySelector('.c-vt');
+      const flags = item.flags;
+      if (!flags || flags === 'Unscanned') {
+        vtEl.innerHTML = `<span class="badge badge-vt-unscan">Unscanned</span>`;
+      } else {
+        const [det] = flags.split('/').map(Number);
+        const cls   = det === 0 ? 'badge-vt-clean' : 'badge-vt-flagged';
+        const lbl   = det === 0 ? `✓ ${flags}` : `⚠ ${flags}`;
+        if (item.permalink && item.permalink !== 'https://www.virustotal.com/') {
+          vtEl.innerHTML = `<a href="${item.permalink}" target="_blank" rel="noopener noreferrer" class="badge ${cls} hover:opacity-80 transition">${lbl}</a>`;
+        } else {
+          vtEl.innerHTML = `<span class="badge ${cls}">${lbl}</span>`;
+        }
+      }
+
+      // Website button
+      const wsEl = n.querySelector('.c-website');
+      if (item.website) { wsEl.href = item.website; wsEl.classList.remove('hidden'); wsEl.classList.add('flex'); }
+
+      // Install button
+      const instEl = n.querySelector('.c-install');
+      if (item.manifestURI) {
+        instEl.classList.remove('hidden');
+        instEl.addEventListener('click', async () => {
+          instEl.disabled = true;
+          instEl.innerHTML = `<svg class="animate-spin w-3 h-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>`;
+          try {
+            const res = await fetch(getInstallUrl(), {
+              method: 'POST',
+              headers: getHeaders(),
+              body: JSON.stringify({ manifestUri: item.manifestURI }),
+            });
+            let result = {};
+            try { result = await res.json(); } catch {}
+            if (res.ok && (result.success ?? true)) {
+              instEl.textContent = '✓ Installed';
+              instEl.style.background = 'rgba(63,185,80,.15)';
+              instEl.style.color = '#3fb950';
+              instEl.style.border = '1px solid rgba(63,185,80,.3)';
+              showToast(`${item.name} installed!`);
+            } else if (res.status === 401) {
+              throw new Error('401 — add your API key in ⚙ settings');
+            } else {
+              throw new Error(`${res.status}`);
             }
+          } catch (e) {
+            instEl.textContent = 'Failed';
+            instEl.style.background = 'rgba(248,81,73,.15)';
+            instEl.style.color = '#f85149';
+            showToast(e.message || 'Install failed', false);
+            setTimeout(() => {
+              instEl.textContent = 'Install';
+              instEl.style = '';
+              instEl.disabled = false;
+            }, 3000);
           }
-        }
-      };
-    </script>
-    <style>
-      .no-scrollbar::-webkit-scrollbar { display: none; }
-      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-
-      .glass-panel {
-        background: rgba(17, 24, 39, 0.7);
-        backdrop-filter: blur(12px);
-        -webkit-backdrop-filter: blur(12px);
-        border: 1px solid rgba(255, 255, 255, 0.08);
-      }
-      .glass-card {
-        background: rgba(31, 41, 55, 0.4);
-        backdrop-filter: blur(8px);
-        border: 1px solid rgba(255, 255, 255, 0.05);
-        transition: all 0.3s ease;
-      }
-      .glass-card:hover {
-        border-color: rgba(59, 130, 246, 0.3);
-        transform: translateY(-2px);
-        box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
-        background: rgba(31, 41, 55, 0.6);
-      }
-      .tab-active {
-        background: rgba(59, 130, 246, 0.15);
-        color: #60a5fa;
-        border-color: rgba(59, 130, 246, 0.3);
-      }
-    </style>
-  </head>
-  <body class="bg-gray-950 text-gray-200 font-sans antialiased min-h-screen flex flex-col">
-
-    <div class="fixed top-0 left-0 w-full h-96 bg-gradient-to-b from-blue-900/10 to-transparent pointer-events-none z-0"></div>
-
-    <!-- Nav -->
-    <nav class="glass-panel sticky top-0 z-50 border-b-0 shadow-lg shadow-black/20">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3">
-        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div class="flex items-center gap-3">
-            <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center shadow-lg shadow-blue-500/20">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
-            </div>
-            <h1 class="text-xl font-bold tracking-tight text-white">
-              Seanime <span class="text-gray-500 font-normal">Marketplace</span>
-            </h1>
-          </div>
-
-          <div class="flex items-center gap-2 overflow-x-auto no-scrollbar">
-            <button class="tab-btn whitespace-nowrap px-4 py-1.5 text-sm font-medium rounded-full border border-transparent hover:bg-gray-800 transition" data-tab="all">All</button>
-            <button class="tab-btn whitespace-nowrap px-4 py-1.5 text-sm font-medium rounded-full border border-transparent hover:bg-gray-800 transition" data-tab="community">Community</button>
-            <button class="tab-btn whitespace-nowrap px-4 py-1.5 text-sm font-medium rounded-full border border-transparent hover:bg-gray-800 transition" data-tab="official">Official</button>
-          </div>
-
-          <!-- Settings gear -->
-          <button id="settings-btn" class="hidden md:flex p-2 text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition border border-gray-700/50" title="Seanime server settings">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-          </button>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Search -->
-    <div class="relative z-10 border-b border-gray-800/50 bg-gray-950/50 backdrop-blur-sm">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6">
-        <div class="relative group">
-          <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-            <svg class="h-5 w-5 text-gray-500 group-focus-within:text-blue-400 transition-colors" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-          </div>
-          <input id="search" type="search" placeholder="Search plugins, authors..."
-            class="w-full pl-11 pr-4 py-3 rounded-xl bg-gray-900/50 border border-gray-800 text-gray-200 placeholder-gray-500 focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 focus:bg-gray-900 outline-none transition-all shadow-inner" />
-        </div>
-      </div>
-    </div>
-
-    <!-- Content -->
-    <main class="flex-grow max-w-7xl mx-auto p-4 sm:p-6 w-full relative z-10">
-      <section id="all"       class="tab-content grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></section>
-      <section id="community" class="tab-content hidden grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></section>
-      <section id="official"  class="tab-content hidden grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></section>
-    </main>
-
-    <!-- Toast -->
-    <div id="toast" class="fixed bottom-6 right-6 bg-gray-900 border border-gray-700 text-white px-4 py-3 rounded-lg shadow-2xl transform translate-y-24 transition-transform duration-300 flex items-center gap-3 z-[60]">
-      <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-      <span id="toast-msg" class="text-sm font-medium">Done</span>
-    </div>
-
-    <!-- Settings Modal -->
-    <div id="settings-modal" class="fixed inset-0 bg-black/90 backdrop-blur-sm hidden flex items-center justify-center z-[80] p-4 transition-opacity opacity-0">
-      <div class="glass-card bg-gray-900 rounded-2xl border border-gray-700 shadow-2xl max-w-md w-full p-6 transform scale-95 transition-transform duration-200" id="settings-content">
-        <h3 class="text-lg font-bold text-white mb-1">Server Settings</h3>
-        <p class="text-sm text-gray-500 mb-6">Configure where extensions are installed.</p>
-        <div class="space-y-4">
-          <div>
-            <label class="block text-xs font-medium text-gray-400 mb-1.5 uppercase">Server URI</label>
-            <input type="text" id="setting-uri" placeholder="http://localhost" class="w-full px-4 py-2.5 rounded-lg bg-gray-950 border border-gray-700 text-gray-200 focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 outline-none transition" />
-          </div>
-          <div>
-            <label class="block text-xs font-medium text-gray-400 mb-1.5 uppercase">Server Port</label>
-            <input type="text" id="setting-port" placeholder="43211" class="w-full px-4 py-2.5 rounded-lg bg-gray-950 border border-gray-700 text-gray-200 focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 outline-none transition" />
-          </div>
-        </div>
-        <div class="mt-8 flex justify-end gap-3">
-          <button id="settings-close" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white transition">Cancel</button>
-          <button id="settings-save" class="px-5 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-500 rounded-lg shadow-lg shadow-blue-500/20 transition">Save Changes</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Skeleton template -->
-    <template id="skeleton-template">
-      <div class="glass-card rounded-xl p-5 flex flex-col h-full animate-pulse">
-        <div class="flex items-center mb-4">
-          <div class="w-12 h-12 rounded-lg bg-gray-800"></div>
-          <div class="ml-3 flex-1 space-y-2">
-            <div class="h-4 bg-gray-800 rounded w-3/4"></div>
-            <div class="h-3 bg-gray-800 rounded w-1/2"></div>
-          </div>
-        </div>
-        <div class="space-y-2 flex-grow">
-          <div class="h-3 bg-gray-800 rounded w-full"></div>
-          <div class="h-3 bg-gray-800 rounded w-5/6"></div>
-        </div>
-        <div class="mt-5 flex gap-2">
-          <div class="h-8 w-20 bg-gray-800 rounded-lg"></div>
-        </div>
-      </div>
-    </template>
-
-    <!-- Card template -->
-    <template id="card-template">
-      <div class="glass-card rounded-xl p-5 flex flex-col h-full group animate-fade-in">
-        <div class="flex items-start justify-between mb-3">
-          <div class="flex items-center gap-3 min-w-0">
-            <img class="card-icon w-12 h-12 rounded-xl bg-gray-800 border border-gray-700 object-cover shadow-sm flex-shrink-0" loading="lazy" />
-            <div class="min-w-0">
-              <h2 class="card-name text-base font-bold leading-tight text-gray-100 group-hover:text-blue-400 transition-colors truncate"></h2>
-              <p class="text-xs text-gray-500 mt-0.5 flex items-center gap-1">
-                <svg class="w-3 h-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
-                <span class="card-author truncate"></span>
-              </p>
-            </div>
-          </div>
-          <div class="card-badges flex flex-col items-end gap-1 ml-2 flex-shrink-0"></div>
-        </div>
-
-        <p class="card-desc text-sm text-gray-400 leading-relaxed flex-grow line-clamp-3"></p>
-
-        <div class="card-meta mt-3 text-xs text-gray-600 space-y-0.5"></div>
-
-        <div class="mt-4 flex flex-wrap items-center gap-2 pt-3 border-t border-gray-800/50 card-buttons"></div>
-      </div>
-    </template>
-
-    <script>
-      const MAIN_JSON_URL = 'https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/Marketplace/Main.json';
-      const DEFAULT_URI   = 'http://localhost';
-      const DEFAULT_PORT  = '43211';
-
-      const placeholderSvg = `data:image/svg+xml;utf8,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><rect width='100' height='100' fill='#1f2937'/><path d='M50 35 L50 65 M35 50 L65 50' stroke='#374151' stroke-width='3' stroke-linecap='round'/></svg>`)}`;
-
-      const $ = s => document.querySelector(s);
-      const $$ = s => Array.from(document.querySelectorAll(s));
-
-      // ── Settings ─────────────────────────────────────────────────────────────
-      function getSettings() {
-        return {
-          uri:  localStorage.getItem('seanime_uri')  || DEFAULT_URI,
-          port: localStorage.getItem('seanime_port') || DEFAULT_PORT,
-        };
-      }
-      function saveSettings(uri, port) {
-        if (uri.endsWith('/')) uri = uri.slice(0, -1);
-        localStorage.setItem('seanime_uri', uri);
-        localStorage.setItem('seanime_port', port);
-        showToast('Settings saved!');
-      }
-      function getInstallUrl() {
-        const { uri, port } = getSettings();
-        return `${uri}:${port}/api/v1/extensions/external/install`;
-      }
-
-      // ── Toast ─────────────────────────────────────────────────────────────────
-      function showToast(msg, isError = false) {
-        const toast = $('#toast'), msgEl = $('#toast-msg'), icon = toast.querySelector('svg');
-        msgEl.textContent = msg;
-        icon.classList.toggle('text-green-400', !isError);
-        icon.classList.toggle('text-red-400', isError);
-        icon.innerHTML = isError
-          ? '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>'
-          : '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>';
-        toast.classList.remove('translate-y-24');
-        setTimeout(() => toast.classList.add('translate-y-24'), 3000);
-      }
-
-      // ── Tabs ──────────────────────────────────────────────────────────────────
-      function setActiveTab(id) {
-        $$('.tab-btn').forEach(b => {
-          b.classList.remove('tab-active');
-          b.classList.add('text-gray-400');
         });
-        const active = $$('.tab-btn').find(b => b.dataset.tab === id);
-        if (active) { active.classList.add('tab-active'); active.classList.remove('text-gray-400'); }
-        $$('.tab-content').forEach(el => el.classList.add('hidden'));
-        const el = document.getElementById(id);
-        if (el) { el.classList.remove('hidden'); el.classList.add('animate-fade-in'); }
       }
 
-      // ── Skeleton ──────────────────────────────────────────────────────────────
-      function renderSkeletons(id, count = 8) {
-        const c = document.getElementById(id);
+      return n;
+    }
+
+    // ── Load ──────────────────────────────────────────────────────────────────
+    const TABS = ['all','plugin','onlinestream-provider','manga-provider','anime-torrent-provider','official'];
+    let allItems = [];
+    let activeFilter = null;
+
+    async function loadPlugins() {
+      TABS.forEach(id => renderSkeletons(id));
+
+      try {
+        const res = await fetch(MAIN_JSON);
+        if (!res.ok) throw new Error('fetch failed');
+        allItems = await res.json();
+        if (!Array.isArray(allItems)) throw new Error('not array');
+      } catch (e) {
+        TABS.forEach(id => {
+          const c = document.getElementById('grid-' + id);
+          if (c) c.innerHTML = `<div class="col-span-full text-center py-16"><p class="text-sm px-5 py-2.5 rounded-xl inline-block" style="color:#f85149;background:rgba(248,81,73,.1);border:1px solid rgba(248,81,73,.2)">Failed to load marketplace data. Try refreshing.</p></div>`;
+        });
+        return;
+      }
+
+      renderItems();
+      updateStats();
+    }
+
+    function renderItems() {
+      TABS.forEach(id => {
+        const c = document.getElementById('grid-' + id);
+        if (!c) return;
         c.innerHTML = '';
-        const tpl = document.getElementById('skeleton-template');
-        for (let i = 0; i < count; i++) c.appendChild(tpl.content.cloneNode(true));
-      }
 
-      // ── Status badges ─────────────────────────────────────────────────────────
-      function buildBadges(item) {
-        const frags = [];
+        let filtered = allItems;
+        if (id === 'official') filtered = allItems.filter(x => x.official);
+        else if (id !== 'all') filtered = allItems.filter(x => x.type === id);
 
-        if (item.official) {
-          frags.push(`<span class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/30">Official</span>`);
-        }
-        if (item.workingTag) {
-          frags.push(`<span class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-green-500/20 text-green-300 border border-green-500/30">✓ Working</span>`);
-        }
-        if (item.brokenTag) {
-          frags.push(`<span class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-red-500/20 text-red-300 border border-red-500/30">✗ Broken</span>`);
-        }
-        if (item.deprecatedTag) {
-          frags.push(`<span class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-yellow-500/20 text-yellow-300 border border-yellow-500/30">⚠ Deprecated</span>`);
-        }
-        return frags.join('');
-      }
+        if (activeFilter === 'working')    filtered = filtered.filter(x => x.workingTag);
+        if (activeFilter === 'broken')     filtered = filtered.filter(x => x.brokenTag);
+        if (activeFilter === 'deprecated') filtered = filtered.filter(x => x.deprecatedTag);
 
-      // ── VT badge ─────────────────────────────────────────────────────────────
-      function buildVTBadge(flags, permalink) {
-        if (!flags || flags === 'Unscanned') {
-          return `<span class="text-[10px] px-2 py-0.5 rounded bg-gray-700/50 text-gray-500 border border-gray-700">Unscanned</span>`;
-        }
-        const [det, total] = flags.split('/').map(Number);
-        const safe = det === 0;
-        const cls = safe
-          ? 'bg-green-500/10 text-green-400 border-green-500/20'
-          : 'bg-red-500/10 text-red-400 border-red-500/20';
-        const label = safe ? `✓ ${flags}` : `⚠ ${flags}`;
-        const inner = permalink && permalink !== 'https://www.virustotal.com/'
-          ? `<a href="${permalink}" target="_blank" rel="noopener noreferrer" class="text-[10px] px-2 py-0.5 rounded border ${cls} hover:opacity-80 transition">${label}</a>`
-          : `<span class="text-[10px] px-2 py-0.5 rounded border ${cls}">${label}</span>`;
-        return inner;
-      }
-
-      // ── Build one card ────────────────────────────────────────────────────────
-      function buildCard(item) {
-        const tpl = document.getElementById('card-template');
-        const node = tpl.content.cloneNode(true);
-
-        const icon = node.querySelector('.card-icon');
-        icon.src = item.icon || placeholderSvg;
-        icon.onerror = () => { icon.src = placeholderSvg; };
-
-        node.querySelector('.card-name').textContent   = item.name   || item.id || 'Unnamed';
-        node.querySelector('.card-author').textContent = item.author || 'Unknown';
-        node.querySelector('.card-desc').textContent   = item.description || 'No description available.';
-
-        // Badges (top-right)
-        node.querySelector('.card-badges').innerHTML = buildBadges(item);
-
-        // Meta line: version + scan version
-        const meta = node.querySelector('.card-meta');
-        const metaParts = [`v${item.version || '?'}`];
-        if (item.scannedOnVersion && item.scannedOnVersion !== 'unknown') metaParts.push(`Scanned on Seanime v${item.scannedOnVersion}`);
-        if (item.lastWorkingVersion) metaParts.push(`Last working: v${item.lastWorkingVersion}`);
-        meta.textContent = metaParts.join(' · ');
-
-        // Buttons
-        const btns = node.querySelector('.card-buttons');
-
-        // VT badge
-        btns.insertAdjacentHTML('beforeend', buildVTBadge(item.flags, item.permalink));
-
-        // Website button
-        if (item.website) {
-          const a = document.createElement('a');
-          a.href = item.website;
-          a.target = '_blank';
-          a.rel = 'noopener noreferrer';
-          a.className = 'px-3 py-1.5 text-xs font-medium text-blue-400 bg-blue-500/10 border border-blue-500/20 rounded-lg hover:bg-blue-500/20 transition flex items-center gap-1';
-          a.innerHTML = `<span>Website</span><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>`;
-          btns.appendChild(a);
-        }
-
-        // Install button
-        if (item.manifestURI) {
-          const btn = document.createElement('button');
-          btn.className = 'px-4 py-1.5 text-xs font-medium text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 rounded-lg transition shadow-lg shadow-blue-500/20 ml-auto flex items-center gap-1';
-          btn.textContent = 'Install';
-
-          btn.addEventListener('click', async () => {
-            btn.disabled = true;
-            const origText = btn.textContent;
-            btn.innerHTML = `<svg class="animate-spin h-3 w-3 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg> Installing`;
-            try {
-              const res = await fetch(getInstallUrl(), {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ manifestUri: item.manifestURI }),
-              });
-              let result = {};
-              try { result = await res.json(); } catch {}
-              if (res.ok && (result.success ?? true)) {
-                btn.className = 'px-4 py-1.5 text-xs font-medium text-green-400 bg-green-500/10 border border-green-500/20 rounded-lg ml-auto';
-                btn.textContent = 'Installed ✓';
-              } else throw new Error('failed');
-            } catch {
-              btn.textContent = 'Failed';
-              btn.classList.add('bg-red-600');
-              setTimeout(() => {
-                btn.textContent = origText;
-                btn.disabled = false;
-                btn.classList.remove('bg-red-600');
-              }, 2000);
-            }
-          });
-          btns.appendChild(btn);
-        }
-
-        return node;
-      }
-
-      // ── Load & render ─────────────────────────────────────────────────────────
-      async function loadPlugins() {
-        ['all', 'community', 'official'].forEach(id => renderSkeletons(id));
-
-        let items;
-        try {
-          const res = await fetch(MAIN_JSON_URL);
-          if (!res.ok) throw new Error('fetch failed');
-          items = await res.json();
-          if (!Array.isArray(items)) throw new Error('not an array');
-        } catch (e) {
-          ['all', 'community', 'official'].forEach(id => {
-            document.getElementById(id).innerHTML = `<div class="col-span-full text-center py-12"><p class="text-red-400 bg-red-500/10 px-4 py-2 rounded-lg inline-block">Failed to load marketplace data.</p></div>`;
-          });
+        if (!filtered.length) {
+          c.innerHTML = `<div class="col-span-full text-center py-12 text-sm" style="color:#6e7681">No plugins match this filter.</div>`;
           return;
         }
-
-        ['all', 'community', 'official'].forEach(id => document.getElementById(id).innerHTML = '');
-
-        if (!items.length) {
-          ['all', 'community', 'official'].forEach(id => {
-            document.getElementById(id).innerHTML = `<div class="col-span-full text-center text-gray-500 py-10">No plugins found.</div>`;
-          });
-          return;
-        }
-
-        const allEl       = document.getElementById('all');
-        const communityEl = document.getElementById('community');
-        const officialEl  = document.getElementById('official');
-
-        items.forEach(item => {
-          if (!item || !item.id) return;
-          allEl.appendChild(buildCard(item));
-          if (item.official) officialEl.appendChild(buildCard(item));
-          else               communityEl.appendChild(buildCard(item));
-        });
-
-        // Empty states
-        if (!communityEl.children.length) communityEl.innerHTML = `<div class="col-span-full text-center text-gray-500 py-10">No community plugins found.</div>`;
-        if (!officialEl.children.length)  officialEl.innerHTML  = `<div class="col-span-full text-center text-gray-500 py-10">No official plugins found.</div>`;
-      }
-
-      // ── Search ────────────────────────────────────────────────────────────────
-      function applySearch(term) {
-        const q = term.trim().toLowerCase();
-        document.querySelectorAll('.tab-content > div').forEach(card => {
-          if (card.querySelector('.animate-pulse')) return;
-          card.style.display = (!q || card.innerText.toLowerCase().includes(q)) ? '' : 'none';
-        });
-      }
-
-      // ── Settings modal ────────────────────────────────────────────────────────
-      function openSettings() {
-        const { uri, port } = getSettings();
-        $('#setting-uri').value = uri;
-        $('#setting-port').value = port;
-        const m = $('#settings-modal'), c = $('#settings-content');
-        m.classList.remove('hidden');
-        requestAnimationFrame(() => { m.classList.remove('opacity-0'); c.classList.remove('scale-95'); c.classList.add('scale-100'); });
-      }
-      function closeSettings() {
-        const m = $('#settings-modal'), c = $('#settings-content');
-        m.classList.add('opacity-0'); c.classList.remove('scale-100'); c.classList.add('scale-95');
-        setTimeout(() => m.classList.add('hidden'), 200);
-      }
-
-      // ── Init ──────────────────────────────────────────────────────────────────
-      window.addEventListener('DOMContentLoaded', () => {
-        $$('.tab-btn').forEach(btn => btn.addEventListener('click', () => setActiveTab(btn.dataset.tab)));
-        setActiveTab('all');
-
-        let t;
-        $('#search').addEventListener('input', e => { clearTimeout(t); t = setTimeout(() => applySearch(e.target.value), 120); });
-
-        $('#settings-btn').addEventListener('click', openSettings);
-        $('#settings-close').addEventListener('click', closeSettings);
-        $('#settings-save').addEventListener('click', () => { saveSettings($('#setting-uri').value.trim(), $('#setting-port').value.trim()); closeSettings(); });
-        $('#settings-modal').addEventListener('click', e => { if (e.target === $('#settings-modal')) closeSettings(); });
-        document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSettings(); });
-
-        loadPlugins();
+        filtered.forEach(item => c.appendChild(buildCard(item)));
       });
-    </script>
-  </body>
+    }
+
+    // ── Search ────────────────────────────────────────────────────────────────
+    function applySearch(term) {
+      const q = term.trim().toLowerCase();
+      const activeGrid = document.getElementById('grid-' + currentTab);
+      if (!activeGrid) return;
+      activeGrid.querySelectorAll('.card:not(.animate-pulse)').forEach(card => {
+        card.style.display = (!q || card.innerText.toLowerCase().includes(q)) ? '' : 'none';
+      });
+    }
+
+    function updateStats() {
+      const total   = allItems.length;
+      const working = allItems.filter(x => x.workingTag).length;
+      const broken  = allItems.filter(x => x.brokenTag).length;
+      $('#stats-line').textContent = `${total} extensions · ${working} working · ${broken} broken`;
+    }
+
+    // ── Filter pills ──────────────────────────────────────────────────────────
+    $$('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const f = btn.dataset.filter;
+        if (activeFilter === f) {
+          activeFilter = null;
+          $$('.filter-btn').forEach(b => b.style.opacity = '1');
+          $('#clear-filter').style.display = 'none';
+        } else {
+          activeFilter = f;
+          $$('.filter-btn').forEach(b => b.style.opacity = b.dataset.filter === f ? '1' : '.4');
+          $('#clear-filter').style.display = 'inline-flex';
+        }
+        renderItems();
+        applySearch($('#search').value);
+      });
+    });
+    $('#clear-filter').addEventListener('click', () => {
+      activeFilter = null;
+      $$('.filter-btn').forEach(b => b.style.opacity = '1');
+      $('#clear-filter').style.display = 'none';
+      renderItems();
+    });
+
+    // ── Settings modal ────────────────────────────────────────────────────────
+    function openSettings() {
+      const { uri, port, key } = getSettings();
+      $('#setting-uri').value  = uri;
+      $('#setting-port').value = port;
+      $('#setting-key').value  = key;
+      const m = $('#settings-modal'), b = $('#settings-box');
+      m.classList.remove('hidden');
+      requestAnimationFrame(() => { m.style.opacity = 1; b.classList.remove('scale-95','opacity-0'); b.classList.add('scale-100','opacity-100'); });
+    }
+    function closeSettings() {
+      const m = $('#settings-modal'), b = $('#settings-box');
+      b.classList.add('scale-95','opacity-0'); b.classList.remove('scale-100','opacity-100');
+      setTimeout(() => { m.classList.add('hidden'); m.style.opacity = ''; }, 200);
+    }
+
+    $('#settings-btn').addEventListener('click', openSettings);
+    $('#settings-close').addEventListener('click', closeSettings);
+    $('#settings-close-x').addEventListener('click', closeSettings);
+    $('#settings-modal').addEventListener('click', e => { if (e.target === $('#settings-modal')) closeSettings(); });
+    $('#settings-save').addEventListener('click', () => {
+      saveSettingsData($('#setting-uri').value.trim(), $('#setting-port').value.trim(), $('#setting-key').value.trim());
+      showToast('Settings saved!');
+      closeSettings();
+    });
+
+    // ── Init ──────────────────────────────────────────────────────────────────
+    window.addEventListener('DOMContentLoaded', () => {
+      $$('.tab').forEach(btn => btn.addEventListener('click', () => setTab(btn.dataset.tab)));
+      setTab('all');
+
+      let t;
+      $('#search').addEventListener('input', e => { clearTimeout(t); t = setTimeout(() => applySearch(e.target.value), 100); });
+      document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSettings(); });
+
+      loadPlugins();
+    });
+  </script>
+</body>
 </html>
