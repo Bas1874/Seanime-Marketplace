@@ -1152,13 +1152,13 @@
   },
   {
     "id": "asunatracks-sync",
-    "version": "0.1.21",
+    "version": "0.1.22",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AsunaTracksSync/provider.ts",
-    "flags": "0/53",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b6022c4d08fbfe5e491857fc3bd6fbb7ce513aad94a7deef79be51dbb62fbd90",
-    "timestamp": 1780543367637,
-    "lastWorkingVersion": "3.8.3"
+    "permalink": "https://www.virustotal.com/gui/file/fe67076d5b5ee19009e386dcf2483d9d80eb5e154584894cee8108da2cebb309",
+    "lastWorkingVersion": "3.8.3",
+    "timestamp": 1780811220020
   },
   {
     "id": "animetosho-new",
@@ -1199,13 +1199,13 @@
   },
   {
     "id": "SeaUtils-Kolex06-Version",
-    "version": "1.2.69",
+    "version": "1.2.70",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/provider.ts",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9275d416ed318594d4afeb62fca4a5c9b5ff1d4f0a24770580c8831b036ea5af",
+    "permalink": "https://www.virustotal.com/gui/file/b1a69aea990cd7870601e062aa064387a44b83db8f7ebc12995b4f3c9f29ec29",
     "lastWorkingVersion": null,
-    "timestamp": 1780690159102
+    "timestamp": 1780811174009
   },
   {
     "id": "mangaupdates-sync",
@@ -1320,5 +1320,15 @@
     "permalink": "https://www.virustotal.com/gui/file/89dee05b029b9d1b34e1f96d60841e7b296abae2bdacdd399b8a18eec7b52099",
     "lastWorkingVersion": null,
     "timestamp": 1780752469518
+  },
+  {
+    "id": "mediocrescan",
+    "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mediocrescan/mediocrescan-provider.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3d55a403b035b2498d0c69ba772981a1066c40f7a5d9894828a1545226bc11d4",
+    "lastWorkingVersion": "3.8.3",
+    "timestamp": 1780811127855
   }
 ]
