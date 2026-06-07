@@ -406,9 +406,9 @@ function isOfficial(item) {
 }
 
 function getStatus(item) {
-  if (item.workingTag)    return 'working';
-  if (item.brokenTag)     return 'broken';
   if (item.deprecatedTag) return 'deprecated';
+  if (item.brokenTag)     return 'broken';
+  if (item.workingTag)    return 'working';
   return null;
 }
 
