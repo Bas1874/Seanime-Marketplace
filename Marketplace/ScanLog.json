@@ -1283,13 +1283,13 @@
   },
   {
     "id": "AniList-Notifications-Kolex06-Version",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AniListNotificationsKolex06Version/provider.ts",
-    "flags": "0/61",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/abfa35f6c929aeb10ea74d5c64cca1e093b206aa8252942dbc2b28e54b2e32d4",
+    "permalink": "https://www.virustotal.com/gui/file/978f103132674612a9dcb657ce50136dbd0eec51b29a3efcaa1374ca998c1311",
     "lastWorkingVersion": "3.8.3",
-    "timestamp": 1780782386304
+    "timestamp": 1780796743711
   },
   {
     "id": "anibd",
