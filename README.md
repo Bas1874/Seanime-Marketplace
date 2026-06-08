@@ -82,6 +82,7 @@ Wondering where to find the manifest URLs?
 - **Direct:** [Contact me on Discord!](https://discord.com/users/345994349966000128)
 - **Community:** Join the official [Seanime Discord Server](https://discord.gg/vKPhNTesWx)
 
+<br>
 
 ## Other Community Members Marketplaces
 
