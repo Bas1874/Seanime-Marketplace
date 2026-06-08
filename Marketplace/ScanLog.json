@@ -666,7 +666,8 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7a77c34b81b3187bb81af89aeb410411034eb944d20bd3f7c96d4fe79147dda5",
-    "timestamp": 1771871268140
+    "timestamp": 1771871268140,
+    "lastWorkingVersion": "3.8.4"
   },
   {
     "id": "Doom",
@@ -832,7 +833,8 @@
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/6b4bd41c16ec2b0c20794aa04cb6fd9e693de7248becb09c7ad195d193d94e81",
-    "timestamp": 1771873986694
+    "timestamp": 1771873986694,
+    "lastWorkingVersion": "3.8.4"
   },
   {
     "id": "Tokyo-Toshokan-Provider",
@@ -841,7 +843,8 @@
     "flags": "0/62",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2fe753ac1429c33bfb8326936a2de568956f0be82b9df4388a2ec295bd7bc293",
-    "timestamp": 1771874048116
+    "timestamp": 1771874048116,
+    "lastWorkingVersion": "3.8.4"
   },
   {
     "id": "account-switcher",
@@ -1349,7 +1352,7 @@
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/ca18e5b2a7e93aefc6d13f2249e2e8e7a4f4975f5f4ec4d4a01ad3938cb020d2",
-    "lastWorkingVersion": null,
+    "lastWorkingVersion": "3.8.4",
     "timestamp": 1780942349509
   }
 ]
