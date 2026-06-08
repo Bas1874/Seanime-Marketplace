@@ -45,7 +45,7 @@
    <br>
    <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/first_step.jpg" width="700" alt="Step 1" />
 
-3. Select **Add extensions**.  
+3. Select **Change repository**.  
    <br>
    <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/second_step.jpg" width="700" alt="Step 2" />
 
