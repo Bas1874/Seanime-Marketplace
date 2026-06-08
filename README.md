@@ -77,10 +77,6 @@ Wondering where to find the manifest URLs?
 
 <br>
 
----
-
-<br>
-
 ## 💬 Questions & Support
 
 - **Direct:** [Contact me on Discord!](https://discord.com/users/345994349966000128)
