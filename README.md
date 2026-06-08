@@ -23,7 +23,7 @@
   </p>
 </div>
 
-<br><br>
+<br>
 
 ---
 
@@ -68,18 +68,18 @@
 
 ---
 
-<br><br>
+<br>
 
 ## 🔗 Available Extensions
 
 Wondering where to find the manifest URLs?  
 👉 **[Click here to see the full list of available extensions](https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json)**
 
-<br><br>
+<br>
 
 ---
 
-<br><br>
+<br>
 
 ## 💬 Questions & Support
 
@@ -110,11 +110,11 @@ Wondering where to find the manifest URLs?
 
 Want your own marketplaces here? [Contact me on Discord!](https://discord.com/users/345994349966000128)
 
-<br><br>
+<br>
 
 ---
 
-<br><br>
+<br>
 
 ## ❤️ Credits
 
