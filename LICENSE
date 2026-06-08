@@ -4,23 +4,41 @@ This repository contains two distinct licensing models depending on the director
 
 -------------------------------------------------------------------------
 PART 1: THE MARKETPLACE DATA DIRECTORY (Proprietary / Restricted)
-Applies to: All files and subdirectories within the `/Marketplace` directory (e.g., Main.json, Blacklist.json, ScanLog.json, etc.).
+Applies to: All files and subdirectories within the /Marketplace directory (e.g., Main.json, Blacklist.json, ScanLog.json, etc.).
 
-Copyright (c) [2026] Bas1874
+Copyright (c) 2026 Bas1874. All Rights Reserved.
 
-The data contained within the `/Marketplace` directory is curated and compiled using authorized Discord bot access in compliance with Discord's Terms of Service. 
+The data contained within the /Marketplace directory is a curated, compiled dataset gathered via authorized Discord bot access. It represents significant effort and curation. While this repository is public, the data within this specific directory is not open-source.
 
-1. PERMITTED USAGE:
-Developers and users are granted permission to read, consume, and utilize the data within these files strictly by fetching it directly from this repository via GitHub's raw URLs (e.g., raw.githubusercontent.com/.../Marketplace/Main.json). 
+1. PERMITTED USAGE (End Users & App Integration):
+Users and third-party applications (such as the Seanime client) are granted explicit permission to fetch, read, and consume the JSON files within this directory during runtime via direct, raw URLs (e.g., raw.githubusercontent.com/Bas1874/.../Main.json). You are encouraged to link to this repository as a marketplace source.
 
-2. PROHIBITED USAGE:
-You are STRICTLY PROHIBITED from copying, cloning, scraping, downloading, or reproducing the files within the `/Marketplace` directory for the purpose of hosting them elsewhere. Creating derivative marketplaces, re-hosting the compiled JSON files on other repositories, or using automated scripts to clone this specific dataset into your own infrastructure is not allowed under any circumstances.
+2. PROHIBITED USAGE (Redistribution & Re-hosting):
+You are STRICTLY PROHIBITED from downloading, copying, cloning, or scraping the files within the /Marketplace directory for the purpose of re-hosting them. Specifically, you may not:
+- Copy the JSON files to your own GitHub repository to act as a mirror or competing marketplace endpoint.
+- Host the compiled data on external servers or alternative marketplace platforms.
+- Claim the curated dataset as your own work.
+
+3. MODIFICATIONS AND CONTINUITY:
+The author reserves the right to modify the dataset structure, update the contents, or completely terminate access to these files at any time without prior notice.
+
+NOTE ON GITHUB TERMS OF SERVICE: 
+While GitHub's Terms of Service grant users the technical ability to "fork" this repository, you are expressly prohibited from publishing, distributing, or utilizing the /Marketplace data from that fork to operate a public, competing Seanime marketplace. 
+
+ENFORCEMENT: 
+Any developers found illegally scraping or re-hosting this repository's proprietary JSON files to bypass access restrictions will have their plugins permanently blacklisted from this marketplace.
+
+COPYRIGHT AND THIRD-PARTY CONTENT DISCLAIMER:
+This marketplace dataset acts solely as an informational directory of community-created plugins and extensions. This repository does NOT host, upload, or distribute any copyrighted media, video files, or torrents. The author has no control over the actions, sources, or content retrieved by third-party plugins listed in this directory. Any copyright infringement or illegal activity facilitated by these extensions is the sole responsibility of the extension creator and the end-user. The author of this repository disclaims all liability for any copyright-related claims arising from the use of third-party plugins.
+
+DISCLAIMER OF LIABILITY FOR MARKETPLACE DATA:
+THE DATA IN THIS DIRECTORY IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE AUTHOR IS NOT RESPONSIBLE FOR THE CONTENT, SAFETY, OR FUNCTIONALITY OF ANY THIRD-PARTY PLUGINS OR EXTENSIONS LISTED WITHIN THIS DATASET. USERS CONSUME THIS DATA AND INSTALL LISTED PLUGINS ENTIRELY AT THEIR OWN RISK.
 
 -------------------------------------------------------------------------
 PART 2: REPOSITORY CODE (MIT License)
-Applies to: All files OUTSIDE of the `/Marketplace` directory (e.g., index.html, scripts, etc.).
+Applies to: All files OUTSIDE of the /Marketplace directory (e.g., index.html, visual marketplace source code, etc.).
 
-Copyright (c) [2026] Bas1874
+Copyright (c) 2026 Bas1874
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
