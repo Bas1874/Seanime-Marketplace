@@ -1273,13 +1273,13 @@
   },
   {
     "id": "anikoto",
-    "version": "1.3.24",
+    "version": "1.3.25",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/provider.ts",
-    "flags": "0/61",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9035f3076f3b7059ef82e274c614fad76b916e4704ce745e90d589cc89fbce6e",
+    "permalink": "https://www.virustotal.com/gui/file/380f51def3cba3990cf695dab22e932cb0ee9862aa806cdf0db9969a08ce3425",
     "lastWorkingVersion": "3.8.3",
-    "timestamp": 1780845081637
+    "timestamp": 1780877148146
   },
   {
     "id": "AniList-Notifications-Kolex06-Version",
