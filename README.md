@@ -33,6 +33,8 @@
 │   ├── ScanLog.json
 │   ├── SeanimeDefaults.json
 │   └── UserCache.json
+├── index.html
+├── LICENSE
 └── README.md
 ```
 
