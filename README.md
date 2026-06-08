@@ -10,7 +10,7 @@
     <a href="https://github.com/Bas1874/Seanime-Marketplace/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/License-Custom_Dual-805ad5?style=for-the-badge&labelColor=2d3748" alt="License" />
     </a>
-    <a href="https://github.com/Bas1874/Seanime-Marketplace/blob/main/LICENSE">
+    <a href="https://bas1874.github.io/Seanime-Marketplace/">
         <img src="https://img.shields.io/website?url=https%3A%2F%2Fbas1874.github.io%2FSeanime-Marketplace%2F&label=Marketplace&logoColor=white&color=2ea44f&style=for-the-badge" />
     </a>
     <a href="https://discord.gg/vKPhNTesWx">
