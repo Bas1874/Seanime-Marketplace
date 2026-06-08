@@ -23,6 +23,8 @@
   </p>
 </div>
 
+<br><br>
+
 ---
 
 ## 📂 Repository Structure
@@ -62,18 +64,26 @@
 
 5. Seanime will automatically fetch and register the extension/provider.
 
+   <br><br>
+
 ---
+
+<br><br>
 
 ## 🔗 Available Extensions
 
 Wondering where to find the manifest URLs?  
 👉 **[Click here to see the full list of available extensions](https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json)**
 
+<br><br>
+
 ---
+
+<br><br>
 
 ## 💬 Questions & Support
 
-- **Direct:** [Hit me up on Discord!](https://discord.com/users/345994349966000128)
+- **Direct:** [Contact me on Discord!](https://discord.com/users/345994349966000128)
 - **Community:** Join the official [Seanime Discord Server](https://discord.gg/vKPhNTesWx)
 
 
@@ -96,10 +106,15 @@ Wondering where to find the manifest URLs?
 
   
 
-*More community marketplaces coming soon.*
+* *More community marketplaces coming soon.*
 
+Want your own marketplaces here? [Contact me on Discord!](https://discord.com/users/345994349966000128)
+
+<br><br>
 
 ---
+
+<br><br>
 
 ## ❤️ Credits
 
