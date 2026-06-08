@@ -73,6 +73,29 @@ Wondering where to find the manifest URLs?
 - **Direct:** [Hit me up on Discord!](https://discord.com/users/345994349966000128)
 - **Community:** Join the official [Seanime Discord Server](https://discord.gg/vKPhNTesWx)
 
+
+## Other Community Members Marketplaces
+
+
+* **ASleepyDrink Marketplace**
+
+  ```text
+  https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/marketplace.json
+  ```
+  This marketplace is up to date and consists of only working extensions. All extensions get tested frequently to see if they are working or not.
+
+* **Pal-droid Marketplace**
+
+  ```text
+  https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/marketplace/main.json
+  ```
+  This repository contains custom Seanime plugins and extensions for adding support to various manga and anime sources created by Pal-droid
+
+  
+
+*More community marketplaces coming soon.*
+
+
 ---
 
 ## ❤️ Credits
