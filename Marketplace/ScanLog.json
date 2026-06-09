@@ -1374,5 +1374,15 @@
     "permalink": "https://www.virustotal.com/gui/file/2b785b50f5a10aee34f61ea24848285ee237b0025b1efa5c85a809710002d65f",
     "lastWorkingVersion": "3.8.4",
     "timestamp": 1780971444348
+  },
+  {
+    "id": "torrentclaw",
+    "version": "1.0.2",
+    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/src/torrentclaw/torrentclaw-provider.ts",
+    "flags": "0/49",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/482cf071608215d87e2d64d997da32be43ffc297f5cdba5ac0c743f360d8b8c5",
+    "lastWorkingVersion": "3.8.4",
+    "timestamp": 1780986093765
   }
 ]
