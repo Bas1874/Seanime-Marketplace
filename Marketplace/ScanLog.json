@@ -1277,13 +1277,13 @@
   },
   {
     "id": "anikoto",
-    "version": "1.3.27",
+    "version": "1.3.29",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/provider.ts",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/af278678f1d21c54216c12be082bf9f8d50543a4b3170218f5e6b350f487d4bd",
+    "permalink": "https://www.virustotal.com/gui/file/6c8e83a0685ffdabc4038e4c9e7bb2b1aa72324d63be8519fa7ff67b4c430d04",
     "lastWorkingVersion": "3.8.3",
-    "timestamp": 1780971490649
+    "timestamp": 1781029738653
   },
   {
     "id": "AniList-Notifications-Kolex06-Version",
@@ -1377,12 +1377,22 @@
   },
   {
     "id": "torrentclaw",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/src/torrentclaw/torrentclaw-provider.ts",
-    "flags": "0/49",
+    "flags": "0/46",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/482cf071608215d87e2d64d997da32be43ffc297f5cdba5ac0c743f360d8b8c5",
+    "permalink": "https://www.virustotal.com/gui/file/36c8d0a5edbeb857924e8cec76ad37179241a16642cb2948d56ac09c76ceecbc",
     "lastWorkingVersion": "3.8.4",
-    "timestamp": 1780986093765
+    "timestamp": 1781029538093
+  },
+  {
+    "id": "torrentio",
+    "version": "0.1.0",
+    "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-Torrentio/main/torrentio.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d8713cdbda7c44a4e8061420572ffd61f0001b70543d6b35def1e4c77eddf2bf",
+    "lastWorkingVersion": "3.8.6",
+    "timestamp": 1781029584998
   }
 ]
