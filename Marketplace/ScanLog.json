@@ -1202,13 +1202,13 @@
   },
   {
     "id": "SeaUtils-Kolex06-Version",
-    "version": "1.2.71",
+    "version": "1.2.73",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/provider.ts",
-    "flags": "0/59",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/3eff8fe43daa413d2aa5aefe3a820d4418d121528c1b54b4900ad70e921bab89",
+    "permalink": "https://www.virustotal.com/gui/file/e05682ed019b07a2974d99a821b7ddb526c3da702b8705a6422d261f2631d6fc",
     "lastWorkingVersion": "3.8.4",
-    "timestamp": 1780942303574
+    "timestamp": 1780971567449
   },
   {
     "id": "mangaupdates-sync",
@@ -1277,13 +1277,13 @@
   },
   {
     "id": "anikoto",
-    "version": "1.3.26",
+    "version": "1.3.27",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/provider.ts",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/52a546abcf3ec9dcfd98e0bfaf31e334a4c60e82c797275f34beccdcdaec780d",
+    "permalink": "https://www.virustotal.com/gui/file/af278678f1d21c54216c12be082bf9f8d50543a4b3170218f5e6b350f487d4bd",
     "lastWorkingVersion": "3.8.3",
-    "timestamp": 1780942195883
+    "timestamp": 1780971490649
   },
   {
     "id": "AniList-Notifications-Kolex06-Version",
@@ -1354,5 +1354,25 @@
     "permalink": "https://www.virustotal.com/gui/file/ca18e5b2a7e93aefc6d13f2249e2e8e7a4f4975f5f4ec4d4a01ad3938cb020d2",
     "lastWorkingVersion": "3.8.4",
     "timestamp": 1780942349509
+  },
+  {
+    "id": "Account-Switcher-Kolex06-Version",
+    "version": "1.0.10",
+    "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AccountSwitcherKolex06Version/provider.ts",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/19f5e1723557e53f94d5e85899e0546fa725ff69716227c510137d0e29e7cff9",
+    "lastWorkingVersion": "3.8.4",
+    "timestamp": 1780971382798
+  },
+  {
+    "id": "Watch-Next-Kolex06-Version",
+    "version": "1.0.5",
+    "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/WatchNextKolex06Version/provider.ts",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/2b785b50f5a10aee34f61ea24848285ee237b0025b1efa5c85a809710002d65f",
+    "lastWorkingVersion": "3.8.4",
+    "timestamp": 1780971444348
   }
 ]
