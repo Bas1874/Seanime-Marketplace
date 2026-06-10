@@ -151,13 +151,13 @@
   },
   {
     "id": "anikoto",
-    "version": "1.3.29",
+    "version": "1.3.32",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/provider.ts",
-    "flags": "0/60",
+    "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6c8e83a0685ffdabc4038e4c9e7bb2b1aa72324d63be8519fa7ff67b4c430d04",
+    "permalink": "https://www.virustotal.com/gui/file/394927b3b8bf0f8015adcee0d2d685fe848987682ead3f4a3c27c5e7d21094c3",
     "lastWorkingVersion": "3.8.6",
-    "timestamp": 1781029738653
+    "timestamp": 1781060626685
   },
   {
     "id": "AniLiberty",
