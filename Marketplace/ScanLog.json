@@ -673,6 +673,16 @@
     "timestamp": 1771869942010
   },
   {
+    "id": "horizontal-scroll",
+    "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/horizontal-scroll/main.ts",
+    "flags": "0/52",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/dafb1e0dbfb2684da2341c3f49271608334cb71645f528e729a242a7dc0ad03c",
+    "lastWorkingVersion": "3.8.6",
+    "timestamp": 1781118737513
+  },
+  {
     "id": "ilcorsaronero",
     "version": "2.0.0",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-iCN/main/iCN.ts",
