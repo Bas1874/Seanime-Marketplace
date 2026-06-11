@@ -698,7 +698,7 @@
   {
     "id": "AniList-Notifications-Kolex06-Version",
     "name": "AniList Notifications Kolex06-Version",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "author": "Kolex06",
     "description": "A Seanime sidebar panel for AniList notifications with larger cards and click-through detail popups.",
     "type": "plugin",
@@ -710,7 +710,7 @@
     "website": "https://anilist.co",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/978f103132674612a9dcb657ce50136dbd0eec51b29a3efcaa1374ca998c1311",
+    "permalink": "https://www.virustotal.com/gui/file/b8b504bfffa61bd22f731a0e939dff3c3168e381fb0bac468d003ed6d0c6964d",
     "workingTag": true,
     "brokenTag": false,
     "deprecatedTag": false,
