@@ -1870,6 +1870,34 @@
     "threadId": "1495719071998541866"
   },
   {
+    "id": "cerberus-series",
+    "name": "Cerberus Series (LegionScans)",
+    "version": "1.0.0",
+    "author": "branrgx",
+    "description": "Cerberus Series (LegionScans) as a Spanish manga provider for Seanime, primarily focused on manga but also supporting manhwa/manhua.",
+    "type": "manga-provider",
+    "language": "typescript",
+    "lang": "es",
+    "icon": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/CerberusSeries/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/CerberusSeries/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/CerberusSeries/main.ts",
+    "website": "",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0c46c547596e97040ea03c62f968158cc7f2d31c770c0c8c1dc1befbaf1a6330",
+    "workingTag": false,
+    "brokenTag": false,
+    "deprecatedTag": false,
+    "tags": [
+      "1359183211099459916",
+      "1360636715643179231"
+    ],
+    "scannedOnVersion": "3.8.6",
+    "lastWorkingVersion": null,
+    "stars": 0,
+    "threadId": "1514915058054991972"
+  },
+  {
     "id": "comix",
     "name": "Comix",
     "version": "1.4.0",
