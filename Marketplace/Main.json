@@ -454,7 +454,7 @@
     ],
     "scannedOnVersion": "3.8.6",
     "lastWorkingVersion": null,
-    "stars": 2,
+    "stars": 3,
     "threadId": "1510577432560926720"
   },
   {
@@ -489,7 +489,7 @@
   {
     "id": "anikoto",
     "name": "Anikoto",
-    "version": "1.3.38",
+    "version": "1.3.39",
     "author": "aquaryuo",
     "description": "Only anikoto compatibility layer you'll ever need",
     "type": "onlinestream-provider",
@@ -499,9 +499,9 @@
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/provider.ts",
     "website": "https://anikototv.to",
-    "flags": "0/59",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2906028cf5e5314f5628de8567c269f85963e38be4e06bf827dcaf3628cfd080",
+    "permalink": "https://www.virustotal.com/gui/file/0f7894805c5a33059bb20b10908515658c0ea45d8854e36d805e85fc2d42aa70",
     "workingTag": true,
     "brokenTag": false,
     "deprecatedTag": false,
@@ -4620,7 +4620,7 @@
   {
     "id": "seastats",
     "name": "SeaStats",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "author": "Crashdaemon",
     "description": "AniList statistics inside Seanime: stats strips on the home and manga pages, a full dashboard with genre, studio, format and status breakdowns, and a favorite heart button on media pages.",
     "type": "plugin",
@@ -4632,7 +4632,7 @@
     "website": "",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a24741c51458cb2c6b5bec5c9c5415c19d2aeeb26a68b4bd906d5d321197bf95",
+    "permalink": "https://www.virustotal.com/gui/file/79769c696d4e4aa445b9ef89a05b252999630c9cd061006ed64a6f4c93446a37",
     "workingTag": true,
     "brokenTag": false,
     "deprecatedTag": false,
@@ -4641,7 +4641,7 @@
     ],
     "scannedOnVersion": "3.8.6",
     "lastWorkingVersion": "3.8.6",
-    "stars": 0,
+    "stars": 4,
     "threadId": "1514810175322587248"
   },
   {
@@ -5240,7 +5240,7 @@
     ],
     "scannedOnVersion": "3.8.6",
     "lastWorkingVersion": "3.8.6",
-    "stars": 1,
+    "stars": 2,
     "threadId": "1513853305615421560"
   },
   {
