@@ -151,13 +151,13 @@
   },
   {
     "id": "anikoto",
-    "version": "1.3.38",
+    "version": "1.3.39",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/provider.ts",
-    "flags": "0/59",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2906028cf5e5314f5628de8567c269f85963e38be4e06bf827dcaf3628cfd080",
+    "permalink": "https://www.virustotal.com/gui/file/0f7894805c5a33059bb20b10908515658c0ea45d8854e36d805e85fc2d42aa70",
     "lastWorkingVersion": "3.8.6",
-    "timestamp": 1781210736524
+    "timestamp": 1781294020264
   },
   {
     "id": "AniLiberty",
@@ -1215,13 +1215,13 @@
   },
   {
     "id": "seastats",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-SeaStats/main/seastats.ts",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a24741c51458cb2c6b5bec5c9c5415c19d2aeeb26a68b4bd906d5d321197bf95",
+    "permalink": "https://www.virustotal.com/gui/file/79769c696d4e4aa445b9ef89a05b252999630c9cd061006ed64a6f4c93446a37",
     "lastWorkingVersion": "3.8.6",
-    "timestamp": 1781239583084
+    "timestamp": 1781293928150
   },
   {
     "id": "SeaUtils-Kolex06-Version",
