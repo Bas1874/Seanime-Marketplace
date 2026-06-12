@@ -508,6 +508,16 @@
     "timestamp": 1776706078054
   },
   {
+    "id": "cerberus-series",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/CerberusSeries/main.ts",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0c46c547596e97040ea03c62f968158cc7f2d31c770c0c8c1dc1befbaf1a6330",
+    "lastWorkingVersion": null,
+    "timestamp": 1781268381029
+  },
+  {
     "id": "comix",
     "version": "1.4.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/comix/provider.js",
