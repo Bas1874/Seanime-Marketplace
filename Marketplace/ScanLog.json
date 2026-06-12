@@ -1047,12 +1047,13 @@
   },
   {
     "id": "nartag",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Nartag/main.ts",
-    "flags": "0/61",
+    "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/69385ff775d87f8a3680de1c7b4e4d6477e9eeb621fd49f62fe63b3c9e952e71",
-    "timestamp": 1777040144417
+    "lastWorkingVersion": null,
+    "timestamp": 1781254179457
   },
   {
     "id": "nhentai",
@@ -1108,6 +1109,16 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/e28aeb20a099454ca9f733d818572312f114f481446c2459e167ab5d6e6926be",
     "timestamp": 1775815963703
+  },
+  {
+    "id": "olympusscanlation",
+    "version": "1.1.0",
+    "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/master/src/OlympusScanlation/main.ts",
+    "flags": "0/59",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/6279a0b70350cd3d95a6cf388bd092a7c653feb15e921efee7c0dc32dad87622",
+    "lastWorkingVersion": null,
+    "timestamp": 1781254133356
   },
   {
     "id": "oneko",
@@ -1172,6 +1183,16 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d31d0209a91b2a03be49220bdcb4d687f53d18d4f9d90e3e065dcc3581ff4791",
     "timestamp": 1778034786276
+  },
+  {
+    "id": "rncanlation",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/master/src/RNcalation/main.ts",
+    "flags": "0/59",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/06e280f7b47652df42d856cc4a4de8aabc1ce072e6222fe9c03920734124f19f",
+    "lastWorkingVersion": null,
+    "timestamp": 1781254041330
   },
   {
     "id": "scanita",
