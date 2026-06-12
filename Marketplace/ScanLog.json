@@ -1183,6 +1183,16 @@
     "timestamp": 1771870790153
   },
   {
+    "id": "seastats",
+    "version": "0.1.0",
+    "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-SeaStats/main/seastats.ts",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a24741c51458cb2c6b5bec5c9c5415c19d2aeeb26a68b4bd906d5d321197bf95",
+    "lastWorkingVersion": "3.8.6",
+    "timestamp": 1781239583084
+  },
+  {
     "id": "SeaUtils-Kolex06-Version",
     "version": "1.2.73",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/provider.ts",
