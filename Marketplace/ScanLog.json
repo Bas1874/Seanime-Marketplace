@@ -1305,13 +1305,13 @@
   },
   {
     "id": "torrentio",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-Torrentio/main/torrentio.ts",
-    "flags": "0/49",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/cd4f404793b579e758cb3b83b01356b171e192c52cf23fb77be2d66a9fdbb8a4",
+    "permalink": "https://www.virustotal.com/gui/file/bf00f85782bd552060ea4ced2475fc31f40a98f1c47450616357f0c0e92bfcc3",
     "lastWorkingVersion": "3.8.6",
-    "timestamp": 1781075225247
+    "timestamp": 1781225149061
   },
   {
     "id": "traktsync",
