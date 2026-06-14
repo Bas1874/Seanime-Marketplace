@@ -151,13 +151,13 @@
   },
   {
     "id": "anikoto",
-    "version": "1.3.41",
+    "version": "1.3.42",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/provider.ts",
-    "flags": "0/52",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/fd6ab8d854bc7b6f17968ebb680bbb3cf56c3402bf93cba2968335bb71a3b1f7",
+    "permalink": "https://www.virustotal.com/gui/file/d01f492c0cace7054081a3b2584e8953927a301bfa5416293c542d1736c400f5",
     "lastWorkingVersion": "3.8.6",
-    "timestamp": 1781368448341
+    "timestamp": 1781440509506
   },
   {
     "id": "AniLiberty",
@@ -500,13 +500,13 @@
   },
   {
     "id": "bokugents",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Bokugents/main.ts",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8ebc41062355fe6e971de5c28ee695aacd4a2699fc094014ebf2f21cbdec6910",
+    "permalink": "https://www.virustotal.com/gui/file/9f22e8e6b64b55e079ab1ca14862badc085aadabb81433197394a81f859f73f8",
     "lastWorkingVersion": null,
-    "timestamp": 1781368140980
+    "timestamp": 1781440325692
   },
   {
     "id": "capibaratraductor",
@@ -694,13 +694,13 @@
   },
   {
     "id": "horizontal-scroll",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/horizontal-scroll/main.ts",
-    "flags": "0/52",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/dafb1e0dbfb2684da2341c3f49271608334cb71645f528e729a242a7dc0ad03c",
+    "permalink": "https://www.virustotal.com/gui/file/e79289ab71858cd7f4e5a1aad79293396c545f7636c3e9ade38e3407ec99626d",
     "lastWorkingVersion": "3.8.6",
-    "timestamp": 1781118737513
+    "timestamp": 1781440402253
   },
   {
     "id": "ilcorsaronero",
@@ -1226,13 +1226,13 @@
   },
   {
     "id": "seastats",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-SeaStats/main/seastats.ts",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e615fb31328a4468559fbc1853625dc72c2a3b88f633b451051619527bc0d6ab",
+    "permalink": "https://www.virustotal.com/gui/file/44fc86be75c5a147c4aa98e03bc748c1df2c5e149881d8fec159298c75c5141e",
     "lastWorkingVersion": "3.8.6",
-    "timestamp": 1781368202585
+    "timestamp": 1781440448205
   },
   {
     "id": "SeaUtils-Kolex06-Version",
@@ -1299,6 +1299,16 @@
     "timestamp": 1771871575979
   },
   {
+    "id": "sushiscan",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/SushiScan/main.ts",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8f6b4343ee08c63fb45d3fb019810b340bb99d7602f28e01957a08ddd79780ac",
+    "lastWorkingVersion": null,
+    "timestamp": 1781440187291
+  },
+  {
     "id": "taiyo",
     "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/taiyo/provider.js",
@@ -1338,13 +1348,13 @@
   },
   {
     "id": "toongod",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Toongod/main.ts",
-    "flags": "0/61",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/845120ba3a3ba28461a0509323d9ca8366fd55953f3fe6e7a6b0f99f3649b359",
+    "permalink": "https://www.virustotal.com/gui/file/0a11acb4bde2f4c7a7e5e13c0aa70a792b61fba6c34ddce19d3defcf1996d57c",
     "lastWorkingVersion": null,
-    "timestamp": 1781368094796
+    "timestamp": 1781440264328
   },
   {
     "id": "toonily",
