@@ -21,7 +21,7 @@
     "tags": [
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1477141384917029026"
@@ -48,8 +48,8 @@
     "tags": [
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 1,
     "threadId": "1513612769063338064"
   },
@@ -77,7 +77,7 @@
       "1359183147123867881",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.4",
     "stars": 2,
     "threadId": "1405889827651457127"
@@ -105,7 +105,7 @@
       "1359259206880067784",
       "1359183147123867881"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1437482418511806575"
@@ -134,7 +134,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 5,
     "threadId": "1455897158254461061"
@@ -162,7 +162,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1467746874336477225"
@@ -190,7 +190,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1469511496814821478"
@@ -218,7 +218,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1513403105365065748"
@@ -246,7 +246,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1467966592590807151"
@@ -275,7 +275,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1492477178271629313"
@@ -304,7 +304,7 @@
       "1359183211099459916",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 7,
     "threadId": "1463411423051776067"
@@ -333,7 +333,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1429927199317688471"
@@ -363,7 +363,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.3",
     "stars": 0,
     "threadId": "1512176296829128794"
@@ -392,7 +392,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 7,
     "threadId": "1400546132240633916"
@@ -422,7 +422,7 @@
       "1505937222891733062",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.4",
     "stars": 2,
     "threadId": "1509586816582287511"
@@ -452,7 +452,7 @@
       "1505937222891733062",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1510577432560926720"
@@ -481,7 +481,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1431744765656961144"
@@ -489,7 +489,7 @@
   {
     "id": "anikoto",
     "name": "Anikoto",
-    "version": "1.3.42",
+    "version": "1.3.43",
     "author": "aquaryuo",
     "description": "Only anikoto compatibility layer you'll ever need",
     "type": "onlinestream-provider",
@@ -499,9 +499,9 @@
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/provider.ts",
     "website": "https://anikototv.to",
-    "flags": "0/60",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d01f492c0cace7054081a3b2584e8953927a301bfa5416293c542d1736c400f5",
+    "permalink": "https://www.virustotal.com/gui/file/c033fbad4ac61ecb6130b92e39d51a3cf367206849326f074d3e47e58fccd857",
     "workingTag": true,
     "brokenTag": false,
     "deprecatedTag": false,
@@ -511,8 +511,8 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 6,
     "threadId": "1511800062689411232"
   },
@@ -539,7 +539,7 @@
       "1359183147123867881",
       "1359183296591823124"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1505372332682776649"
@@ -568,7 +568,7 @@
       "1359183147123867881",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1452741478706053342"
@@ -598,7 +598,7 @@
       "1359183211099459916",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 12,
     "threadId": "1445123413277413507"
@@ -626,7 +626,7 @@
       "1359183147123867881",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1442364686199951432"
@@ -655,7 +655,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 7,
     "threadId": "1394438391696982046"
@@ -685,7 +685,7 @@
       "1359183394512048148",
       "1359183296591823124"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 7,
     "threadId": "1455276575023960331"
@@ -713,7 +713,7 @@
       "1359183147123867881",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1441727384914235473"
@@ -742,7 +742,7 @@
       "1359183211099459916",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1458586898921427047"
@@ -770,7 +770,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1503440679299448963"
@@ -798,8 +798,8 @@
       "1359183394512048148",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 5,
     "threadId": "1512020271224062012"
   },
@@ -826,7 +826,7 @@
       "1359183147123867881",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 5,
     "threadId": "1441399163517538355"
@@ -854,7 +854,7 @@
       "1359183147123867881",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 11,
     "threadId": "1445002690106097757"
@@ -883,7 +883,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1459395120100278517"
@@ -912,7 +912,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1486874317777273027"
@@ -941,7 +941,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 5,
     "threadId": "1407549113611849842"
@@ -962,15 +962,15 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7a77c34b81b3187bb81af89aeb410411034eb944d20bd3f7c96d4fe79147dda5",
-    "workingTag": false,
+    "workingTag": true,
     "brokenTag": false,
     "deprecatedTag": false,
     "tags": [
       "1359183147123867881",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.4",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 4,
     "threadId": "1396125150142791722"
   },
@@ -998,7 +998,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1412209065957789737"
@@ -1027,7 +1027,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1499546191929544845"
@@ -1056,7 +1056,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1417542074907234345"
@@ -1085,7 +1085,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1433178980625944757"
@@ -1114,7 +1114,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1434990488301342792"
@@ -1143,7 +1143,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1430252871240253500"
@@ -1173,7 +1173,7 @@
       "1505937222891733062",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1460250402812461171"
@@ -1203,7 +1203,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1442565716028162180"
@@ -1232,7 +1232,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 13,
     "threadId": "1359262826606362784"
@@ -1259,7 +1259,7 @@
     "tags": [
       "1359183296591823124"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 5,
     "threadId": "1431807801444925540"
@@ -1288,7 +1288,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1509989485843185735"
@@ -1316,7 +1316,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1484987717359112353"
@@ -1345,7 +1345,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 7,
     "threadId": "1362859772474560693"
@@ -1375,7 +1375,7 @@
       "1505937222891733062",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1505611334652395582"
@@ -1403,8 +1403,8 @@
       "1359183147123867881",
       "1359183296591823124"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 0,
     "threadId": "1516049025797853285"
   },
@@ -1431,7 +1431,7 @@
       "1359183147123867881",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 13,
     "threadId": "1432823765565440030"
@@ -1460,7 +1460,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1494704345487380602"
@@ -1488,8 +1488,8 @@
       "1359259206880067784",
       "1359183147123867881"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 6,
     "threadId": "1505548228865687562"
   },
@@ -1517,7 +1517,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 5,
     "threadId": "1428028775689621615"
@@ -1547,7 +1547,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1504154200358260836"
@@ -1576,7 +1576,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 9,
     "threadId": "1361802639926624518"
@@ -1605,8 +1605,8 @@
       "1359183296591823124",
       "1505937222891733062"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 0,
     "threadId": "1515974530282160293"
   },
@@ -1632,7 +1632,7 @@
     "tags": [
       "1359259206880067784"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1506593058404175993"
@@ -1661,7 +1661,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1461429630023242005"
@@ -1690,7 +1690,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1495056725835911190"
@@ -1719,7 +1719,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 7,
     "threadId": "1454098914352304233"
@@ -1748,7 +1748,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1430593283947761827"
@@ -1776,7 +1776,7 @@
       "1359259206880067784",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1434990527354376325"
@@ -1806,8 +1806,8 @@
       "1359183211099459916",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 4,
     "threadId": "1505394749128048692"
   },
@@ -1834,7 +1834,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1459989841243803885"
@@ -1862,7 +1862,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1488456218048462878"
@@ -1893,7 +1893,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1400449705816883272"
@@ -1921,7 +1921,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1515180622509773011"
@@ -1949,7 +1949,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1495719071998541866"
@@ -1977,7 +1977,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1514915058054991972"
@@ -2005,7 +2005,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 11,
     "threadId": "1440425091707175012"
@@ -2032,7 +2032,7 @@
     "tags": [
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1506880206651265104"
@@ -2060,7 +2060,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 6,
     "threadId": "1366838781264531526"
@@ -2123,7 +2123,7 @@
     "tags": [
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 6,
     "threadId": "1452965857821986859"
@@ -2151,7 +2151,7 @@
       "1359183147123867881",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1450351740929970310"
@@ -2180,10 +2180,40 @@
       "1359183147123867881",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1406862398715072542"
+  },
+  {
+    "id": "dattebayobr-provider",
+    "name": "Dattebayo BR",
+    "version": "1.0.0",
+    "author": "Jhoorodr",
+    "description": "Provedor de streaming de animes do Dattebayo BR.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "lang": "pt-BR",
+    "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/dattebayobr.png",
+    "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/dattebayobr/dattebayobr.json",
+    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/dattebayobr/dattebayobr.ts",
+    "website": "",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c683659edef21a2c75d677b932855a9fb66cea299b5b7cefe6b0247947099a8a",
+    "workingTag": true,
+    "brokenTag": false,
+    "deprecatedTag": false,
+    "tags": [
+      "1505937222891733062",
+      "1359183147123867881",
+      "1359183296591823124",
+      "1360636715643179231"
+    ],
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
+    "stars": 0,
+    "threadId": "1516087913799094364"
   },
   {
     "id": "debridtoggle",
@@ -2208,8 +2238,8 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 4,
     "threadId": "1461773447746158603"
   },
@@ -2237,7 +2267,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 8,
     "threadId": "1460945559887024139"
@@ -2265,7 +2295,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1492074297726992504"
@@ -2312,7 +2342,7 @@
       "1359183211099459916",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1442187212858069043"
@@ -2340,7 +2370,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.3",
     "stars": 7,
     "threadId": "1441246280255799416"
@@ -2369,7 +2399,7 @@
       "1505936927189110988",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.3",
     "stars": 5,
     "threadId": "1412165513777254570"
@@ -2397,7 +2427,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 7,
     "threadId": "1366810284831801434"
@@ -2425,7 +2455,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 6,
     "threadId": "1442100026137641072"
@@ -2454,7 +2484,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1495339042819014678"
@@ -2483,7 +2513,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1408504187507048508"
@@ -2512,7 +2542,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 9,
     "threadId": "1364875763739922452"
@@ -2540,8 +2570,8 @@
       "1359183147123867881",
       "1359183296591823124"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 0,
     "threadId": "1516019217319723139"
   },
@@ -2569,7 +2599,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 10,
     "threadId": "1404264498134782073"
@@ -2596,7 +2626,7 @@
     "tags": [
       "1359183211099459916"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1507481043752452097"
@@ -2623,7 +2653,7 @@
     "tags": [
       "1437869415344377887"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1507491769661522152"
@@ -2650,7 +2680,7 @@
     "tags": [
       "1359183211099459916"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1507496007980814366"
@@ -2679,7 +2709,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1499541991435014249"
@@ -2708,7 +2738,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1441782637743181935"
@@ -2737,7 +2767,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1441749702734385263"
@@ -2766,7 +2796,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 9,
     "threadId": "1405395450680447039"
@@ -2794,7 +2824,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1495448515072233572"
@@ -2822,8 +2852,8 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 1,
     "threadId": "1514285000395329729"
   },
@@ -2851,7 +2881,7 @@
       "1359183147123867881",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 5,
     "threadId": "1424454605147996181"
@@ -2880,7 +2910,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1492520080989491333"
@@ -2909,8 +2939,8 @@
       "1359183296591823124",
       "1505937222891733062"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 4,
     "threadId": "1407866604762566706"
   },
@@ -2937,7 +2967,7 @@
       "1359183211099459916",
       "1437869415344377887"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1441522773745860800"
@@ -2967,7 +2997,7 @@
       "1359183394512048148",
       "1359183211099459916"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1446934454797860955"
@@ -2995,7 +3025,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 6,
     "threadId": "1439671111557054528"
@@ -3023,7 +3053,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 5,
     "threadId": "1439637348169027626"
@@ -3051,7 +3081,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1496723415388786748"
@@ -3079,7 +3109,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1509689914189545683"
@@ -3107,7 +3137,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1485292014735065320"
@@ -3135,7 +3165,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 23,
     "threadId": "1433173588470661180"
@@ -3165,7 +3195,7 @@
       "1359183394512048148",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.3",
     "stars": 0,
     "threadId": "1512128627997675803"
@@ -3193,7 +3223,7 @@
       "1359183394512048148",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1459672111160234118"
@@ -3222,7 +3252,7 @@
       "1359183394512048148",
       "1359183211099459916"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1437829066597204042"
@@ -3251,7 +3281,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 8,
     "threadId": "1444037428007669983"
@@ -3279,7 +3309,7 @@
       "1359183211099459916",
       "1437869415344377887"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1439348217463439451"
@@ -3307,7 +3337,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 8,
     "threadId": "1456041776615002306"
@@ -3335,7 +3365,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 7,
     "threadId": "1429860669502783651"
@@ -3363,7 +3393,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1499066794231468133"
@@ -3390,7 +3420,7 @@
     "tags": [
       "1359183211099459916"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1436152509885448322"
@@ -3418,7 +3448,7 @@
       "1359183211099459916",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1437863059556143184"
@@ -3446,7 +3476,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1499113353254273024"
@@ -3474,7 +3504,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 7,
     "threadId": "1433927730399023174"
@@ -3502,7 +3532,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1496899012962553887"
@@ -3530,7 +3560,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 8,
     "threadId": "1428453575734067210"
@@ -3558,7 +3588,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1504517120476708924"
@@ -3586,7 +3616,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1499455893635469343"
@@ -3614,7 +3644,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1407944055026880572"
@@ -3641,7 +3671,7 @@
     "tags": [
       "1359183211099459916"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1496554802883072110"
@@ -3668,7 +3698,7 @@
     "tags": [
       "1359183211099459916"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1430638767667937454"
@@ -3714,7 +3744,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1497148622620328006"
@@ -3743,7 +3773,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1509323088251195533"
@@ -3773,7 +3803,7 @@
       "1359183394512048148",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1509327418685395095"
@@ -3801,7 +3831,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 6,
     "threadId": "1359432599935651861"
@@ -3829,7 +3859,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 5,
     "threadId": "1441502445787418624"
@@ -3857,7 +3887,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1429972238374797384"
@@ -3885,7 +3915,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.3",
     "stars": 1,
     "threadId": "1513000078078513213"
@@ -3913,7 +3943,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1497093864585039924"
@@ -3942,7 +3972,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 6,
     "threadId": "1472303380503199921"
@@ -3972,7 +4002,7 @@
       "1359183211099459916",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 7,
     "threadId": "1449622275044147210"
@@ -4002,7 +4032,7 @@
       "1505936927189110988",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.2",
     "stars": 6,
     "threadId": "1445070621309538586"
@@ -4031,7 +4061,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 5,
     "threadId": "1459253757207515197"
@@ -4059,7 +4089,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1488609005155913888"
@@ -4087,7 +4117,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1497001381897310238"
@@ -4116,7 +4146,7 @@
       "1359183147123867881",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 6,
     "threadId": "1493206877335588894"
@@ -4143,7 +4173,7 @@
     "tags": [
       "1359183211099459916"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1507914243658354689"
@@ -4171,7 +4201,7 @@
       "1359183211099459916",
       "1437869415344377887"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1507909761130041404"
@@ -4200,7 +4230,7 @@
       "1359183211099459916",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1512747633377022022"
@@ -4229,7 +4259,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1469643019480338473"
@@ -4258,7 +4288,7 @@
       "1359183211099459916",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1451408804242788352"
@@ -4340,7 +4370,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1492104499609993409"
@@ -4368,7 +4398,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1514856677609050203"
@@ -4395,7 +4425,7 @@
     "tags": [
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1441114950557761576"
@@ -4424,7 +4454,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1412517567330779346"
@@ -4452,7 +4482,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 8,
     "threadId": "1369058205660872844"
@@ -4479,7 +4509,7 @@
     "tags": [
       "1437869415344377887"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 9,
     "threadId": "1507022885674287276"
@@ -4507,7 +4537,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1495611401790558379"
@@ -4536,7 +4566,7 @@
       "1359183211099459916",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 5,
     "threadId": "1502787259668365442"
@@ -4565,7 +4595,7 @@
       "1359183211099459916",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 7,
     "threadId": "1492949932221403298"
@@ -4594,8 +4624,8 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 5,
     "threadId": "1504185976866734210"
   },
@@ -4622,7 +4652,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1489303499136041132"
@@ -4651,7 +4681,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1501257561796640789"
@@ -4679,7 +4709,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1514896594313543761"
@@ -4707,7 +4737,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 6,
     "threadId": "1429234443339436162"
@@ -4752,8 +4782,8 @@
     "tags": [
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 4,
     "threadId": "1514810175322587248"
   },
@@ -4779,8 +4809,8 @@
     "tags": [
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 6,
     "threadId": "1506801478239522977"
   },
@@ -4806,8 +4836,8 @@
     "tags": [
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 5,
     "threadId": "1508838426366185724"
   },
@@ -4836,8 +4866,8 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 1,
     "threadId": "1496830248463896647"
   },
@@ -4864,7 +4894,7 @@
       "1359183394512048148",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1402784020739264612"
@@ -4895,7 +4925,7 @@
       "1359183394512048148",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1443847613899210853"
@@ -4924,7 +4954,7 @@
       "1359183211099459916",
       "1437869415344377887"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 9,
     "threadId": "1438609701993447576"
@@ -4953,7 +4983,7 @@
       "1505936178292064266",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1454854331265454152"
@@ -4981,8 +5011,8 @@
       "1359183147123867881",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 9,
     "threadId": "1497940442493485127"
   },
@@ -5009,7 +5039,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1457096606825582828"
@@ -5038,7 +5068,7 @@
       "1359183147123867881",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 4,
     "threadId": "1409580664063267023"
@@ -5066,7 +5096,7 @@
       "1359183147123867881",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 11,
     "threadId": "1462667157585530942"
@@ -5095,7 +5125,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1452248873295810712"
@@ -5123,7 +5153,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1515441632437211246"
@@ -5151,7 +5181,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1478816312879878205"
@@ -5179,7 +5209,7 @@
       "1359259206880067784",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 5,
     "threadId": "1438953916183089244"
@@ -5206,7 +5236,7 @@
     "tags": [
       "1437869415344377887"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1507030122820141197"
@@ -5235,7 +5265,7 @@
       "1359183147123867881",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.4",
     "stars": 3,
     "threadId": "1405912585957806191"
@@ -5264,7 +5294,7 @@
       "1359183147123867881",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.4",
     "stars": 3,
     "threadId": "1405912585957806191"
@@ -5293,7 +5323,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 6,
     "threadId": "1405015716100313139"
@@ -5321,7 +5351,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1515218781742567424"
@@ -5349,7 +5379,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1510606251157885000"
@@ -5378,7 +5408,7 @@
       "1359183147123867881",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.4",
     "stars": 1,
     "threadId": "1513757266187128943"
@@ -5407,8 +5437,8 @@
       "1359183147123867881",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 2,
     "threadId": "1513853305615421560"
   },
@@ -5436,7 +5466,7 @@
       "1505936178292064266",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 2,
     "threadId": "1447662077849370805"
@@ -5464,7 +5494,7 @@
       "1359183211099459916",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1497089617281683546"
@@ -5491,7 +5521,7 @@
     "tags": [
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 9,
     "threadId": "1431350740038717561"
@@ -5519,7 +5549,7 @@
       "1359183147123867881",
       "1359183211099459916"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 5,
     "threadId": "1450902758860525668"
@@ -5547,7 +5577,7 @@
       "1359183147123867881",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 3,
     "threadId": "1443700822121648168"
@@ -5576,7 +5606,7 @@
       "1359183296591823124",
       "1360636715643179231"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1499550391975546900"
@@ -5605,7 +5635,7 @@
       "1359259306087940146",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.3",
     "stars": 9,
     "threadId": "1409962015572885625"
@@ -5632,8 +5662,8 @@
     "tags": [
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
     "stars": 1,
     "threadId": "1513646051125366924"
   },
@@ -5660,7 +5690,7 @@
       "1359183147123867881",
       "1359183394512048148"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 6,
     "threadId": "1412179374429573130"
@@ -5687,7 +5717,7 @@
     "tags": [
       "1437869415344377887"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1507446215137296515"
@@ -5714,7 +5744,7 @@
     "tags": [
       "1359183211099459916"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1507465388223365171"
@@ -5759,7 +5789,7 @@
     "tags": [
       "1359183211099459916"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1435386907013152938"
@@ -5786,7 +5816,7 @@
     "tags": [
       "1437869415344377887"
     ],
-    "scannedOnVersion": "3.8.6",
+    "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": null,
     "stars": 1,
     "threadId": "1507018570071150754"
