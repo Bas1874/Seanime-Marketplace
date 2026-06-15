@@ -1554,6 +1554,35 @@
     "threadId": "1361802639926624518"
   },
   {
+    "id": "animo",
+    "name": "Animo",
+    "version": "1.0.0",
+    "author": "Thekingcrusher",
+    "description": "Animo is an online stream provider for both softsub and dub.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/animo/logo.png",
+    "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/animo/manifest.json",
+    "payloadURI": "",
+    "website": "",
+    "flags": "Unscanned",
+    "flaggedBy": [],
+    "permalink": "",
+    "workingTag": true,
+    "brokenTag": false,
+    "deprecatedTag": false,
+    "tags": [
+      "1359183147123867881",
+      "1359183296591823124",
+      "1505937222891733062"
+    ],
+    "scannedOnVersion": "3.8.6",
+    "lastWorkingVersion": "3.8.6",
+    "stars": 0,
+    "threadId": "1515974530282160293"
+  },
+  {
     "id": "anirena",
     "name": "AniRena",
     "version": "1.0.1",
@@ -2803,7 +2832,7 @@
   {
     "id": "kaa",
     "name": "KickAssAnime",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "author": "Thekingcrusher",
     "description": "KickAssAnime is an online stream provider for both sub and dub with soft subs.",
     "type": "onlinestream-provider",
@@ -2816,16 +2845,16 @@
     "flags": "Unscanned",
     "flaggedBy": [],
     "permalink": "",
-    "workingTag": false,
+    "workingTag": true,
     "brokenTag": false,
     "deprecatedTag": false,
     "tags": [
       "1359183147123867881",
       "1359183296591823124",
-      "1360636715643179231"
+      "1505937222891733062"
     ],
     "scannedOnVersion": "3.8.6",
-    "lastWorkingVersion": null,
+    "lastWorkingVersion": "3.8.6",
     "stars": 4,
     "threadId": "1407866604762566706"
   },
