@@ -15,7 +15,7 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/19f5e1723557e53f94d5e85899e0546fa725ff69716227c510137d0e29e7cff9",
-    "lastWorkingVersion": "3.8.6",
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1780971382798
   },
   {
@@ -151,13 +151,13 @@
   },
   {
     "id": "anikoto",
-    "version": "1.3.42",
+    "version": "1.3.43",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/provider.ts",
-    "flags": "0/60",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d01f492c0cace7054081a3b2584e8953927a301bfa5416293c542d1736c400f5",
-    "lastWorkingVersion": "3.8.6",
-    "timestamp": 1781440509506
+    "permalink": "https://www.virustotal.com/gui/file/c033fbad4ac61ecb6130b92e39d51a3cf367206849326f074d3e47e58fccd857",
+    "lastWorkingVersion": "3.8.7",
+    "timestamp": 1781541137310
   },
   {
     "id": "AniLiberty",
@@ -238,7 +238,7 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d697b32cc97b1ffb596a4f40f7c20a2b93b519ed81f7241383d708ef99a47361",
-    "lastWorkingVersion": "3.8.6",
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1781295575093
   },
   {
@@ -294,7 +294,7 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7a77c34b81b3187bb81af89aeb410411034eb944d20bd3f7c96d4fe79147dda5",
     "timestamp": 1771871268140,
-    "lastWorkingVersion": "3.8.4"
+    "lastWorkingVersion": "3.8.7"
   },
   {
     "id": "anime-uniquestream",
@@ -384,7 +384,7 @@
     "flags": "0/54",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/693beb3cc6e2147e91f1db302ef4f441ca306f258b225f82cbf6ceb82cd0621c",
-    "lastWorkingVersion": "3.8.6",
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1781526812053
   },
   {
@@ -412,7 +412,7 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/f140176290cf75eb0a453a36d57a5158cb7e980316474912a1a304936d4d8b63",
-    "lastWorkingVersion": "3.8.6",
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1781368494444
   },
   {
@@ -476,7 +476,7 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/fe67076d5b5ee19009e386dcf2483d9d80eb5e154584894cee8108da2cebb309",
-    "lastWorkingVersion": "3.8.6",
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1780811220020
   },
   {
@@ -584,6 +584,16 @@
     "timestamp": 1781527213506
   },
   {
+    "id": "dattebayobr-provider",
+    "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/dattebayobr/dattebayobr.ts",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c683659edef21a2c75d677b932855a9fb66cea299b5b7cefe6b0247947099a8a",
+    "lastWorkingVersion": "3.8.7",
+    "timestamp": 1781541091282
+  },
+  {
     "id": "debridtoggle",
     "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/DebridToggle/main.ts",
@@ -591,7 +601,7 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/ed9c6bfe75505e3b98c43148e2642842fff07b7758edfa383284b05edfa27599",
     "timestamp": 1779636134907,
-    "lastWorkingVersion": "3.8.6"
+    "lastWorkingVersion": "3.8.7"
   },
   {
     "id": "delete-watched-episodes",
@@ -683,7 +693,7 @@
     "flags": "0/58",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/f76fb9bd23f855aef0e98fdef0e2d45622f6efe9c864c6cd9a51c8a8094ee544",
-    "lastWorkingVersion": "3.8.6",
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1781526966773
   },
   {
@@ -720,7 +730,7 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/e79289ab71858cd7f4e5a1aad79293396c545f7636c3e9ade38e3407ec99626d",
-    "lastWorkingVersion": "3.8.6",
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1781440402253
   },
   {
@@ -1207,7 +1217,7 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0d95b9a894c8229a5f63837928d0e33c41de8dc716ab23f447a463d295a070a5",
     "timestamp": 1778910778478,
-    "lastWorkingVersion": "3.8.6"
+    "lastWorkingVersion": "3.8.7"
   },
   {
     "id": "ravenscans",
@@ -1253,7 +1263,7 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/44fc86be75c5a147c4aa98e03bc748c1df2c5e149881d8fec159298c75c5141e",
-    "lastWorkingVersion": "3.8.6",
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1781440448205
   },
   {
@@ -1263,7 +1273,7 @@
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/e05682ed019b07a2974d99a821b7ddb526c3da702b8705a6422d261f2631d6fc",
-    "lastWorkingVersion": "3.8.6",
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1780971567449
   },
   {
@@ -1404,7 +1414,7 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/bf00f85782bd552060ea4ced2475fc31f40a98f1c47450616357f0c0e92bfcc3",
-    "lastWorkingVersion": "3.8.6",
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1781225149061
   },
   {
@@ -1469,7 +1479,7 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2b785b50f5a10aee34f61ea24848285ee237b0025b1efa5c85a809710002d65f",
-    "lastWorkingVersion": "3.8.6",
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1780971444348
   },
   {
