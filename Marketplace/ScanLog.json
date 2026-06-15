@@ -378,6 +378,16 @@
     "timestamp": 1779040626672
   },
   {
+    "id": "animesonlinecc-provider",
+    "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesonlinecc/animesonlinecc.ts",
+    "flags": "0/54",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/693beb3cc6e2147e91f1db302ef4f441ca306f258b225f82cbf6ceb82cd0621c",
+    "lastWorkingVersion": "3.8.6",
+    "timestamp": 1781526812053
+  },
+  {
     "id": "animethemes",
     "version": "2.0.4",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/animethemes.ts",
@@ -565,12 +575,13 @@
   },
   {
     "id": "darkmahou-provider",
-    "version": "1.0.6",
+    "version": "1.0.8",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/darkmahou/darkmahou-provider.ts",
-    "flags": "0/60",
+    "flags": "0/58",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/86f1f1dddbf6f49e8c8dd7e61465277290a33680f6f82896e3c2152a1ac153ff",
-    "timestamp": 1778391749014
+    "permalink": "https://www.virustotal.com/gui/file/19fec0afe0d219e389c7d1697ec243bd91390679a608c6d210c72760bee3cf37",
+    "lastWorkingVersion": null,
+    "timestamp": 1781527213506
   },
   {
     "id": "debridtoggle",
@@ -664,6 +675,16 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/cb1d9714c7b2a19f6aa5f8860b4a3324e84bf681e6f82f062683da44e2902ed3",
     "timestamp": 1778121344178
+  },
+  {
+    "id": "goyabu-provider",
+    "version": "1.0.5",
+    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/goyabu/goyabu.ts",
+    "flags": "0/58",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f76fb9bd23f855aef0e98fdef0e2d45622f6efe9c864c6cd9a51c8a8094ee544",
+    "lastWorkingVersion": "3.8.6",
+    "timestamp": 1781526966773
   },
   {
     "id": "hentaisaturn",
@@ -930,12 +951,13 @@
   },
   {
     "id": "mangalivre-tv",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mangalivre.tv/mangalivre-provider.ts",
-    "flags": "0/61",
+    "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e07067ae6bb6b3cfdfb11d471ec5107f186e4b34ed54fdf6afee280013739e6f",
-    "timestamp": 1778391794948
+    "permalink": "https://www.virustotal.com/gui/file/cb4a4d018d71d7cb25b927ef0fe3c0b773158362960132389a82074d3fc57712",
+    "lastWorkingVersion": null,
+    "timestamp": 1781527290381
   },
   {
     "id": "mangaoni",
@@ -1002,13 +1024,13 @@
   },
   {
     "id": "mediocrescan",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mediocrescan/mediocrescan-provider.ts",
-    "flags": "0/61",
+    "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/3d55a403b035b2498d0c69ba772981a1066c40f7a5d9894828a1545226bc11d4",
     "lastWorkingVersion": "3.8.3",
-    "timestamp": 1780811127855
+    "timestamp": 1781527043779
   },
   {
     "id": "mh-scans",
@@ -1367,13 +1389,13 @@
   },
   {
     "id": "torrentclaw",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/src/torrentclaw/torrentclaw-provider.ts",
-    "flags": "0/46",
+    "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/36c8d0a5edbeb857924e8cec76ad37179241a16642cb2948d56ac09c76ceecbc",
     "lastWorkingVersion": "3.8.4",
-    "timestamp": 1781029538093
+    "timestamp": 1781527105129
   },
   {
     "id": "torrentio",
