@@ -325,12 +325,13 @@
   },
   {
     "id": "animegg",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animegg/provider.js",
-    "flags": "0/60",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/fe5664798a36ad28ecced5ec5095f7da99c819ec5be09d26542898142b2e8307",
-    "timestamp": 1771868337734
+    "permalink": "https://www.virustotal.com/gui/file/ce22db09a72d81908fc14f35b271491bd7045020009af23863aec79f029e4127",
+    "lastWorkingVersion": null,
+    "timestamp": 1781613145012
   },
   {
     "id": "animeheaven",
