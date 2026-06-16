@@ -900,12 +900,13 @@
   },
   {
     "id": "mangabuddy",
-    "version": "2.3.2",
+    "version": "2.4.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangabuddy/provider.js",
-    "flags": "0/50",
+    "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/41a2797afd7f9519d8c3d0d7057b6de8e7ad2bf5e7f94cfac1a9a134b9392567",
-    "timestamp": 1780153171886
+    "permalink": "https://www.virustotal.com/gui/file/dc27171769b9c47e6bc4da07704c33fc4aaa16d1d11045b4575c9d2548496d97",
+    "lastWorkingVersion": "3.8.7",
+    "timestamp": 1781598744904
   },
   {
     "id": "mangacloud",
