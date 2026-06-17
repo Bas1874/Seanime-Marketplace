@@ -800,13 +800,13 @@
   },
   {
     "id": "kuromangas",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.ts",
-    "flags": "0/60",
+    "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/38bee5ae0f528ea12af6c44eff9205a2e3c12d540c9bd9bfc3c82bb0584e5849",
+    "permalink": "https://www.virustotal.com/gui/file/7d99a710da5794e7db7df820e0e393bd3ed770cfbce83894df37775ac14984ce",
     "lastWorkingVersion": "3.8.7",
-    "timestamp": 1781584602929
+    "timestamp": 1781671091967
   },
   {
     "id": "leercapitulo",
