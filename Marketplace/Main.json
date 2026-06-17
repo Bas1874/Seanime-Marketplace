@@ -4241,7 +4241,7 @@
     "id": "nexustoons",
     "name": "Nexus Toons",
     "version": "1.0.0",
-    "author": "Jhoorodre",
+    "author": "Jhoorodr",
     "description": "Provedor de mangás do Nexus Toons.",
     "type": "manga-provider",
     "language": "typescript",
