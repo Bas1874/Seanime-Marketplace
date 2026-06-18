@@ -1471,6 +1471,16 @@
     "timestamp": 1778391671730
   },
   {
+    "id": "tsukihime",
+    "version": "0.1.0",
+    "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-Tsukihime/main/tsukihime.ts",
+    "flags": "0/59",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b0b07f9764f155896c0f243ca3c645aa37d89f01cf64ab7b183cd81058a8a35b",
+    "lastWorkingVersion": "3.8.7",
+    "timestamp": 1781800557054
+  },
+  {
     "id": "uchuujin-projects",
     "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/UchuujinProjects/main.ts",
