@@ -810,12 +810,13 @@
   },
   {
     "id": "leercapitulo",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/LeerCapitulo/main.ts",
-    "flags": "0/61",
+    "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/df3d8551717667523d7c3b6a08db3287a26e485653967a174c4ba128484f6128",
-    "timestamp": 1777040021796
+    "permalink": "https://www.virustotal.com/gui/file/ff237d979f5f0a46582902831a2736c15514e1c075e993ef9599339d8a1f855d",
+    "lastWorkingVersion": null,
+    "timestamp": 1781771879989
   },
   {
     "id": "leermangaesp",
@@ -1011,12 +1012,13 @@
   },
   {
     "id": "mangas-in",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/master/src/MangasIn/main.ts",
-    "flags": "0/61",
+    "flags": "0/56",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/3535fce892905dd36cdaabad7f7266fa15d1137f007b5db3ff0ee1385c284ccd",
-    "timestamp": 1777040282625
+    "permalink": "https://www.virustotal.com/gui/file/c835de90f8f7bebf540bd6b8893220284d006c70b6e6cfb8af3a745766fbd391",
+    "lastWorkingVersion": null,
+    "timestamp": 1781771834103
   },
   {
     "id": "mangaupdates",
