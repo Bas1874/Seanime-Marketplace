@@ -1209,13 +1209,13 @@
   },
   {
     "id": "olympusscanlation",
-    "version": "1.1.0",
+    "version": "1.1.3",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/master/src/OlympusScanlation/main.ts",
     "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6279a0b70350cd3d95a6cf388bd092a7c653feb15e921efee7c0dc32dad87622",
+    "permalink": "https://www.virustotal.com/gui/file/5cdf4e2ed86ca97cd5f584df19fd142cf5c8b9872efc8a6cc4e97adf190a8415",
     "lastWorkingVersion": null,
-    "timestamp": 1781254133356
+    "timestamp": 1781814959723
   },
   {
     "id": "oneko",
