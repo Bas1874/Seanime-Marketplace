@@ -5586,6 +5586,35 @@
     "threadId": "1447662077849370805"
   },
   {
+    "id": "tsukihime",
+    "name": "Tsukihime",
+    "version": "0.1.0",
+    "author": "Crashdaemon",
+    "description": "Uses the Tsukihime API to find anime torrents.",
+    "type": "anime-torrent-provider",
+    "language": "typescript",
+    "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/Crashdaemon/Seanime-Tsukihime/main/tsukihime.png",
+    "manifestURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-Tsukihime/main/tsukihime.json",
+    "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-Tsukihime/main/tsukihime.ts",
+    "website": "",
+    "flags": "0/59",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b0b07f9764f155896c0f243ca3c645aa37d89f01cf64ab7b183cd81058a8a35b",
+    "workingTag": true,
+    "brokenTag": false,
+    "deprecatedTag": false,
+    "tags": [
+      "1359259206880067784",
+      "1359183147123867881",
+      "1360636715643179231"
+    ],
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
+    "stars": 0,
+    "threadId": "1517157611693281401"
+  },
+  {
     "id": "uchuujin-projects",
     "name": "Uchuujin Projects",
     "version": "1.0.1",
