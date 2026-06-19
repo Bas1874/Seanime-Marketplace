@@ -2159,7 +2159,7 @@
   {
     "id": "darkmahou-provider",
     "name": "DarkMahou",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "author": "jhoorodr",
     "description": "Provedor de torrents de anime do site DarkMahou.org com busca inteligente e detecção corrigida de batches",
     "type": "anime-torrent-provider",
@@ -2169,9 +2169,9 @@
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/darkmahou/darkmahou-provider.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/darkmahou/darkmahou-provider.ts",
     "website": "",
-    "flags": "0/58",
+    "flags": "0/57",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/19fec0afe0d219e389c7d1697ec243bd91390679a608c6d210c72760bee3cf37",
+    "permalink": "https://www.virustotal.com/gui/file/1a8d1b4da4344b77148e5d9d9a4452d4bc2f48085b4dedff75127a20424db3c0",
     "workingTag": false,
     "brokenTag": true,
     "deprecatedTag": false,
@@ -2804,7 +2804,7 @@
   {
     "id": "hinatasoul-provider",
     "name": "Hinata Soul",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "author": "Jhoorodr",
     "description": "Provedor de streaming de animes do Hinata Soul.",
     "type": "onlinestream-provider",
@@ -2814,7 +2814,7 @@
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/hinatasoul/hinatasoul.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/hinatasoul/hinatasoul.ts",
     "website": "",
-    "flags": "0/60",
+    "flags": "0/59",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/71f77e195a769366795c4f205ae940d8a92bd1f33ce6adcd08fc30806d75e2ad",
     "workingTag": true,
@@ -3199,6 +3199,34 @@
     "lastWorkingVersion": null,
     "stars": 0,
     "threadId": "1485292014735065320"
+  },
+  {
+    "id": "library-grid-layout",
+    "name": "Library Grid Layout",
+    "version": "1.0.0",
+    "author": "Carloss616",
+    "description": "Adjust how many cards per row the manga & anime library grids show, from a tray stepper.",
+    "type": "plugin",
+    "language": "typescript",
+    "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/library-grid-layout/assets/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/library-grid-layout/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/library-grid-layout/code.js",
+    "website": "https://github.com/Carloss616/seanime-extensions",
+    "flags": "0/59",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/36de9894fef05a0caafde7f1727109e4f423dc0dac15b8e92b9797f233ed1efb",
+    "workingTag": true,
+    "brokenTag": false,
+    "deprecatedTag": false,
+    "tags": [
+      "1359183394512048148",
+      "1360636715643179231"
+    ],
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
+    "stars": 0,
+    "threadId": "1517287039651811400"
   },
   {
     "id": "LN-reader",
@@ -3823,7 +3851,7 @@
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/31262fa49d379e2494d68fd9312463bf1221bea5daf5dce9582cd505565b4dc0",
-    "workingTag": false,
+    "workingTag": true,
     "brokenTag": false,
     "deprecatedTag": false,
     "tags": [
@@ -3832,7 +3860,7 @@
       "1360636715643179231"
     ],
     "scannedOnVersion": "3.8.7",
-    "lastWorkingVersion": null,
+    "lastWorkingVersion": "3.8.7",
     "stars": 2,
     "threadId": "1509323088251195533"
   },
@@ -3852,7 +3880,7 @@
     "flags": "0/59",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d310c4e55b0b79af12fd659b704f0f672ee8fffd4a62f168533d19665e3f0e06",
-    "workingTag": false,
+    "workingTag": true,
     "brokenTag": false,
     "deprecatedTag": false,
     "tags": [
@@ -3862,7 +3890,7 @@
       "1360636715643179231"
     ],
     "scannedOnVersion": "3.8.7",
-    "lastWorkingVersion": null,
+    "lastWorkingVersion": "3.8.7",
     "stars": 2,
     "threadId": "1509327418685395095"
   },
@@ -4492,7 +4520,7 @@
   {
     "id": "olympusscanlation",
     "name": "Olympus Scanlation",
-    "version": "1.1.3",
+    "version": "1.2.0",
     "author": "branrgx",
     "description": "Olympus scanlation manga provider.",
     "type": "manga-provider",
@@ -4502,9 +4530,9 @@
     "manifestURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/master/src/OlympusScanlation/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/master/src/OlympusScanlation/main.ts",
     "website": "",
-    "flags": "0/59",
+    "flags": "0/58",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5cdf4e2ed86ca97cd5f584df19fd142cf5c8b9872efc8a6cc4e97adf190a8415",
+    "permalink": "https://www.virustotal.com/gui/file/7062b9ba0d25be6ee06e56eaa3e58a241b17f3aac12706cc78f895cf931b5552",
     "workingTag": false,
     "brokenTag": false,
     "deprecatedTag": false,
