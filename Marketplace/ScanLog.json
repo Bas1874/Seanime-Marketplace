@@ -1494,13 +1494,13 @@
   },
   {
     "id": "tsukihime",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-Tsukihime/main/tsukihime.ts",
-    "flags": "0/59",
+    "flags": "0/58",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/77bdc3d4a2079994721f50148f798881e7e404305f9af2e6e4a097868924e940",
+    "permalink": "https://www.virustotal.com/gui/file/bd674a14dccee1d00c8c9f4e3a431eecc9c29ca0e8d7746fe2641d754593b04e",
     "lastWorkingVersion": "3.8.7",
-    "timestamp": 1782088780088
+    "timestamp": 1782132032390
   },
   {
     "id": "uchuujin-projects",
