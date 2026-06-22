@@ -1584,7 +1584,7 @@
   {
     "id": "animo",
     "name": "Animo",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Thekingcrusher",
     "description": "Animo is an online stream provider for both softsub and dub.",
     "type": "onlinestream-provider",
