@@ -746,13 +746,13 @@
   },
   {
     "id": "horizontal-scroll",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/horizontal-scroll/main.ts",
-    "flags": "0/60",
+    "flags": "0/56",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/e79289ab71858cd7f4e5a1aad79293396c545f7636c3e9ade38e3407ec99626d",
     "lastWorkingVersion": "3.8.7",
-    "timestamp": 1781440402253
+    "timestamp": 1782146512251
   },
   {
     "id": "ilcorsaronero",
