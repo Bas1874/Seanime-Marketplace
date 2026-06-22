@@ -151,13 +151,13 @@
   },
   {
     "id": "anikoto",
-    "version": "1.3.49",
+    "version": "1.3.55",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/3e6e8703d4749d33002d4b36824d10eef75a44ac5a265484091308c22a051271",
+    "permalink": "https://www.virustotal.com/gui/file/ecea9991c68b8f4060c3724b81d72e0a67fc83e43f12fa86faef018793e79e13",
     "lastWorkingVersion": "3.8.7",
-    "timestamp": 1781786111315
+    "timestamp": 1782088872424
   },
   {
     "id": "AniLiberty",
@@ -1494,13 +1494,13 @@
   },
   {
     "id": "tsukihime",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-Tsukihime/main/tsukihime.ts",
     "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b0b07f9764f155896c0f243ca3c645aa37d89f01cf64ab7b183cd81058a8a35b",
+    "permalink": "https://www.virustotal.com/gui/file/77bdc3d4a2079994721f50148f798881e7e404305f9af2e6e4a097868924e940",
     "lastWorkingVersion": "3.8.7",
-    "timestamp": 1781800557054
+    "timestamp": 1782088780088
   },
   {
     "id": "uchuujin-projects",
@@ -1550,13 +1550,13 @@
   },
   {
     "id": "Watch-Next-Kolex06-Version",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/WatchNextKolex06Version/provider.ts",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2b785b50f5a10aee34f61ea24848285ee237b0025b1efa5c85a809710002d65f",
+    "permalink": "https://www.virustotal.com/gui/file/8f574770078ea592eb11d4f04f77424086ff0edf32d80b607a8abb544153146d",
     "lastWorkingVersion": "3.8.7",
-    "timestamp": 1780971444348
+    "timestamp": 1782088826319
   },
   {
     "id": "watch-order",
