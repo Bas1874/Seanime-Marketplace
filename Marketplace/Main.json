@@ -2891,7 +2891,7 @@
   {
     "id": "horizontal-scroll",
     "name": "Horizontal Scroll",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "Kaktus",
     "description": "Enables horizontal scrolling on the carousel element.",
     "type": "plugin",
@@ -2901,7 +2901,7 @@
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/horizontal-scroll/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/horizontal-scroll/main.ts",
     "website": "",
-    "flags": "0/60",
+    "flags": "0/56",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/e79289ab71858cd7f4e5a1aad79293396c545f7636c3e9ade38e3407ec99626d",
     "workingTag": true,
