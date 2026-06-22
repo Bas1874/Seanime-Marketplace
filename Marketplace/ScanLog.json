@@ -482,12 +482,13 @@
   },
   {
     "id": "asurascans",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/asurascans/provider.js",
-    "flags": "0/61",
+    "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0e5da53bb95a3780813d67dd1ccba027e08d5a80612833f43c76b36768c41536",
-    "timestamp": 1774792135993
+    "permalink": "https://www.virustotal.com/gui/file/4fe406989eb3039c21c08ab7ec084d9ead92fdccaae88a019d99d5eaa1e3be33",
+    "lastWorkingVersion": null,
+    "timestamp": 1782160847130
   },
   {
     "id": "atsumaru",
