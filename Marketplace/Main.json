@@ -2990,7 +2990,7 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/59eba7f64331a3875f34ea5c61709e9f9f002b9415ecc033f48b7b02f4f8b87e",
     "workingTag": false,
-    "brokenTag": false,
+    "brokenTag": true,
     "deprecatedTag": false,
     "tags": [
       "1359183211099459916",
@@ -5954,8 +5954,8 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/26a4dd8248562df28eaee1aa20621ae54feffd1868e2a35704187b64a534e96b",
     "workingTag": false,
-    "brokenTag": false,
-    "deprecatedTag": false,
+    "brokenTag": true,
+    "deprecatedTag": true,
     "tags": [
       "1359183211099459916"
     ],
