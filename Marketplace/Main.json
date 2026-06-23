@@ -1814,7 +1814,7 @@
   {
     "id": "asurascans",
     "name": "AsuraScans",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "Pal",
     "description": "AsuraScans is a manga provider for Seanime",
     "type": "manga-provider",
@@ -1826,7 +1826,7 @@
     "website": "",
     "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/4fe406989eb3039c21c08ab7ec084d9ead92fdccaae88a019d99d5eaa1e3be33",
+    "permalink": "https://www.virustotal.com/gui/file/f50eb061da0e8531fe0e985c93990ccd531718b548066f275eb18eee840ff1c7",
     "workingTag": false,
     "brokenTag": false,
     "deprecatedTag": false,
