@@ -481,6 +481,16 @@
     "timestamp": 1782420623994
   },
   {
+    "id": "aq-animepahe-beta",
+    "version": "0.2.21",
+    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/9eb74a6688e270223f1989de4f18c9272c73a85914785ed8400a12320e6b2b43",
+    "lastWorkingVersion": "3.8.7",
+    "timestamp": 1782434752550
+  },
+  {
     "id": "aq-anizone",
     "version": "1.1.4",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
