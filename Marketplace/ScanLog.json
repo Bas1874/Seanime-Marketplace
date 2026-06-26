@@ -492,13 +492,13 @@
   },
   {
     "id": "aq-anizone",
-    "version": "1.1.4",
+    "version": "1.1.8",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/280813c99ca2094e7c6ce991cba90f24085132687fcf9d3d0c2ccfd546e977d7",
+    "permalink": "https://www.virustotal.com/gui/file/4e84f88ad58b9dc38a8778b2ab9e93d59299b440651f7fbc7eed722deb00e3c6",
     "lastWorkingVersion": "3.8.7",
-    "timestamp": 1782420332694
+    "timestamp": 1782506818893
   },
   {
     "id": "aq-aquaprefs",
@@ -797,13 +797,13 @@
   },
   {
     "id": "horizontal-scroll",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/horizontal-scroll/main.ts",
-    "flags": "0/56",
+    "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e79289ab71858cd7f4e5a1aad79293396c545f7636c3e9ade38e3407ec99626d",
+    "permalink": "https://www.virustotal.com/gui/file/b18a06424a327db47086ed05473efaec0fc843fae6ac09bbcf38aaebf3c5a94b",
     "lastWorkingVersion": "3.8.7",
-    "timestamp": 1782146512251
+    "timestamp": 1782506956944
   },
   {
     "id": "ilcorsaronero",
