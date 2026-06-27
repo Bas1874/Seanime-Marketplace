@@ -1422,12 +1422,13 @@
   },
   {
     "id": "simklsync",
-    "version": "1.0.2",
+    "version": "2.0.1",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/SimklSync/provider.ts",
-    "flags": "0/62",
+    "flags": "0/58",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/4cac48c85962492fe64992e8e9d249e820103951735866691e1b1a84ea1c8973",
-    "timestamp": 1771869447691
+    "permalink": "https://www.virustotal.com/gui/file/8babe25712bf66e8014c08469408e1bd887f718b41683ef460f7afcc1bbfdd4b",
+    "lastWorkingVersion": null,
+    "timestamp": 1782564546504
   },
   {
     "id": "snow-effect",
@@ -1536,12 +1537,13 @@
   },
   {
     "id": "traktsync",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/TraktSync/provider.ts",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/fdacaddd496e78b77947901464f96691813118f4ffdcbc6fec6192ab8a1d119f",
-    "timestamp": 1778391671730
+    "permalink": "https://www.virustotal.com/gui/file/a5b671e5f364991d3686f7d330ae868ffa58ab7f551739f1ea1e2cf005de4eab",
+    "lastWorkingVersion": null,
+    "timestamp": 1782564592583
   },
   {
     "id": "tsukihime",
