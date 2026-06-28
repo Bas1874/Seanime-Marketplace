@@ -117,7 +117,7 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0f105502803230080c007fed3a2a935efaf5237ac3e7bc75f7782849119945e0",
-    "lastWorkingVersion": "3.8.3",
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1780603650257
   },
   {
@@ -137,7 +137,7 @@
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/065ec31a990f7196605f4a7ab67b5441d2c709a3f28e9272752c104c6f90502d",
-    "lastWorkingVersion": null,
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1780752515687
   },
   {
@@ -312,7 +312,8 @@
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c5a32272cb1c2171476792ebaf2404497092015b03a2286b0dfd048dbaf9adf1",
-    "timestamp": 1779429726550
+    "timestamp": 1779429726550,
+    "lastWorkingVersion": "3.8.7"
   },
   {
     "id": "animeflv",
@@ -330,7 +331,7 @@
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/ce22db09a72d81908fc14f35b271491bd7045020009af23863aec79f029e4127",
-    "lastWorkingVersion": null,
+    "lastWorkingVersion": "3.8.7",
     "timestamp": 1781613145012
   },
   {
@@ -358,7 +359,8 @@
     "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c7b7011623c0a7465d05c89ef4f61aaed9c00934b9dccbeadb02eccf2d2be11b",
-    "timestamp": 1780153479624
+    "timestamp": 1780153479624,
+    "lastWorkingVersion": "3.8.7"
   },
   {
     "id": "animesamamanga",
@@ -746,7 +748,8 @@
     "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/cb1d9714c7b2a19f6aa5f8860b4a3324e84bf681e6f82f062683da44e2902ed3",
-    "timestamp": 1778121344178
+    "timestamp": 1778121344178,
+    "lastWorkingVersion": "3.8.7"
   },
   {
     "id": "goyabu-provider",
