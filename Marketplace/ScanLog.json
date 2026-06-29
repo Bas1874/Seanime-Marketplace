@@ -336,12 +336,13 @@
   },
   {
     "id": "animeheaven",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js",
-    "flags": "0/61",
+    "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8d82a982ad4c201ff925db748d659f53a8adae830be2b3014737aaad19f35812",
-    "timestamp": 1780153125579
+    "permalink": "https://www.virustotal.com/gui/file/7bb0772f9af42dceb34f794884fdf8f12497135b4750a3d41ab09fd0865bd794",
+    "lastWorkingVersion": "3.8.7",
+    "timestamp": 1782737451554
   },
   {
     "id": "animekai",
