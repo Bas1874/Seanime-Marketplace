@@ -1151,7 +1151,7 @@
   {
     "id": "animeheaven",
     "name": "AnimeHeaven",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "Pal",
     "description": "AnimeHeaven is an online streaming provider for subbed anime in english",
     "type": "onlinestream-provider",
@@ -1161,11 +1161,11 @@
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js",
     "website": "",
-    "flags": "0/61",
+    "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8d82a982ad4c201ff925db748d659f53a8adae830be2b3014737aaad19f35812",
-    "workingTag": false,
-    "brokenTag": true,
+    "permalink": "https://www.virustotal.com/gui/file/7bb0772f9af42dceb34f794884fdf8f12497135b4750a3d41ab09fd0865bd794",
+    "workingTag": true,
+    "brokenTag": false,
     "deprecatedTag": false,
     "tags": [
       "1505936860441083904",
@@ -1174,7 +1174,7 @@
       "1360636715643179231"
     ],
     "scannedOnVersion": "3.8.7",
-    "lastWorkingVersion": null,
+    "lastWorkingVersion": "3.8.7",
     "stars": 3,
     "threadId": "1442565716028162180"
   },
