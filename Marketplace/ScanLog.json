@@ -112,13 +112,13 @@
   },
   {
     "id": "anibd",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anibd/provider.js",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0f105502803230080c007fed3a2a935efaf5237ac3e7bc75f7782849119945e0",
+    "permalink": "https://www.virustotal.com/gui/file/5521e40e14d1a85513d08cf03fc36a8d65a6524f437cd5e8602b70e7806e93f1",
     "lastWorkingVersion": "3.8.7",
-    "timestamp": 1780603650257
+    "timestamp": 1782809532521
   },
   {
     "id": "anidao",
