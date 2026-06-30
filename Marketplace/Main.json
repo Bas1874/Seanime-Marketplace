@@ -1495,7 +1495,7 @@
   {
     "id": "animeunitymirror",
     "name": "AnimeUnity (Mirror)",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Pal",
     "description": "AnimeUnity mirror",
     "type": "onlinestream-provider",
@@ -1507,7 +1507,7 @@
     "website": "",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/eab293afb96b86c1c05dd7d2269361646c972e8cf321a9284022bff7739fddcd",
+    "permalink": "https://www.virustotal.com/gui/file/5e0a89edfa34d8a41a845892a69a4eca636e92d98461fac6bf1a833b395371cb",
     "workingTag": false,
     "brokenTag": false,
     "deprecatedTag": false,
