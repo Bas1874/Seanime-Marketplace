@@ -903,13 +903,13 @@
   },
   {
     "id": "library-grid-layout",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/library-grid-layout/code.js",
-    "flags": "0/61",
+    "flags": "0/59",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ad29b81e1a20617803dd3bde31c4c0378fad5da7896add9533bc05ee9dfaf0aa",
+    "permalink": "https://www.virustotal.com/gui/file/885cef8995452df932c4711ca6cf7622f86581ae42a63cf3e68bd8b763177d4e",
     "lastWorkingVersion": "3.8.7",
-    "timestamp": 1782780633748
+    "timestamp": 1782795238387
   },
   {
     "id": "LN-reader",
@@ -1107,13 +1107,13 @@
   },
   {
     "id": "mangaupdates-sync",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/code.js",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/521b084bd112b5c563941b66e984c37b96bdc7bc8323f195ae3a6230ce213486",
+    "permalink": "https://www.virustotal.com/gui/file/5ca45e3b9003b8b799619ebacbc46adf2fbdc194e5a3f29b88962bc871f05c6d",
     "lastWorkingVersion": "3.8.7",
-    "timestamp": 1782780771744
+    "timestamp": 1782795299870
   },
   {
     "id": "mangaworldadult",
