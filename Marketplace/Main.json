@@ -341,7 +341,7 @@
   {
     "id": "anibd",
     "name": "AniBD",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Pal",
     "description": "AniBD is an online streaming provider for subbed BD anime in english",
     "type": "onlinestream-provider",
@@ -353,7 +353,7 @@
     "website": "",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0f105502803230080c007fed3a2a935efaf5237ac3e7bc75f7782849119945e0",
+    "permalink": "https://www.virustotal.com/gui/file/5521e40e14d1a85513d08cf03fc36a8d65a6524f437cd5e8602b70e7806e93f1",
     "workingTag": true,
     "brokenTag": false,
     "deprecatedTag": false,
