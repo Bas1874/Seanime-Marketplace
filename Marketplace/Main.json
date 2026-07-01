@@ -1898,7 +1898,7 @@
   {
     "id": "aq-aquatils",
     "name": "Aqua's Utils",
-    "version": "0.8.53",
+    "version": "0.8.67",
     "author": "aquaryuo",
     "description": "Toolbox plugin: surfaces compatible extension errors, launches a self-contained solver (or connects to a remote one you run) to reach guarded sites, and more.",
     "type": "plugin",
@@ -1910,7 +1910,7 @@
     "website": "https://github.com/aquaryuo/seanime",
     "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/3bbbba180ac2310e8ae3162b9ba810987299dd224ecb58eddbb4153aa693e2ab",
+    "permalink": "https://www.virustotal.com/gui/file/15aa37727ce3d932764948c7677e4b46294d08ba75349b661ab3e1919fa1578f",
     "workingTag": true,
     "brokenTag": false,
     "deprecatedTag": false,
