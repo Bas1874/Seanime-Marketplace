@@ -1552,6 +1552,36 @@
     "threadId": "1361802639926624518"
   },
   {
+    "id": "animeyabu",
+    "name": "Anime Yabu",
+    "version": "1.0.1",
+    "author": "Jhoorodr",
+    "description": "Provider de streaming de animes do Anime Yabu",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "lang": "pt-BR",
+    "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/animeyabu.png",
+    "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animeyabu/animeyabu.json",
+    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animeyabu/animeyabu.ts",
+    "website": "",
+    "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/946007201afbadb4ccb7d84bdbebcff295cadf811865b32f9c6ba066a044e325",
+    "workingTag": true,
+    "brokenTag": false,
+    "deprecatedTag": false,
+    "tags": [
+      "1505937222891733062",
+      "1359183147123867881",
+      "1359183296591823124",
+      "1360636715643179231"
+    ],
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
+    "stars": 0,
+    "threadId": "1521955672873242694"
+  },
+  {
     "id": "animo",
     "name": "Animo",
     "version": "1.0.2",
@@ -1922,6 +1952,35 @@
     "lastWorkingVersion": "3.8.7",
     "stars": 0,
     "threadId": "1519785888400277574"
+  },
+  {
+    "id": "aq-seatags",
+    "name": "SeaTags",
+    "version": "1.7.7",
+    "author": "aquaryuo",
+    "description": "Plugin dedicated to displaying status of plugins/extensions within installed/marketplace pages; as well as filter based on author & show score",
+    "type": "plugin",
+    "language": "typescript",
+    "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/seatags/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/seatags/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/seatags/plugin.ts",
+    "website": "https://github.com/aquaryuo/seanime",
+    "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/adbc33aa2cafa9d3ded948f1a7b96fa7f17be6569a22da85c761c3e2ef19c00e",
+    "workingTag": true,
+    "brokenTag": false,
+    "deprecatedTag": false,
+    "tags": [
+      "1359259306087940146",
+      "1505936178292064266",
+      "1359183394512048148"
+    ],
+    "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7",
+    "stars": 0,
+    "threadId": "1521950051880927263"
   },
   {
     "id": "asunatracks-sync",
