@@ -1969,7 +1969,7 @@
     "flags": "0/59",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/f50eb061da0e8531fe0e985c93990ccd531718b548066f275eb18eee840ff1c7",
-    "workingTag": false,
+    "workingTag": true,
     "brokenTag": false,
     "deprecatedTag": false,
     "tags": [
@@ -1977,7 +1977,7 @@
       "1360636715643179231"
     ],
     "scannedOnVersion": "3.8.7",
-    "lastWorkingVersion": null,
+    "lastWorkingVersion": "3.8.7",
     "stars": 4,
     "threadId": "1459989841243803885"
   },
