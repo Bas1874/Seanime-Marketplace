@@ -697,7 +697,7 @@
     "icon": "https://island.clap.ing/api/extensions/icons/animetosho.png",
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/animetosho/animetosho.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
-    "addedAt": "2026-07-03T13:55:37.422Z", "updatedAt": "2026-07-03T13:55:37.422Z"
+    "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
     "id": "animetosho-new", "name": "AnimeTosho (NEW)", "version": "2.3.5", "author": "Faddix, Island",
@@ -1008,7 +1008,7 @@
     "language": "typescript", "lang": "multi", "icon": "",
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/basic-nyaa/basic-nyaa.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
-    "addedAt": "2026-07-03T13:55:37.422Z", "updatedAt": "2026-07-03T13:55:37.422Z"
+    "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
     "id": "bokugents", "name": "Bokugents", "version": "1.0.4", "author": "branrgx",
@@ -1110,7 +1110,7 @@
     "manifestURI": "https://raw.githubusercontent.com/5rahim/seanime-extensions/main/plugins/custom-banner-images/custom-banner-images.json",
     "payloadURI": "https://raw.githubusercontent.com/5rahim/seanime-extensions/main/plugins/custom-banner-images/code.ts",
     "website": "https://github.com/5rahim/seanime-extensions", "flags": "0/0", "flaggedBy": [], "permalink": "",
-    "official": true, "addedAt": "2026-07-03T13:55:37.422Z", "updatedAt": "2026-07-03T13:55:37.422Z"
+    "official": true, "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
     "id": "custom-cover-images", "name": "Custom Cover Images", "version": "1.0.1", "author": "Seanime",
@@ -1120,7 +1120,7 @@
     "manifestURI": "https://raw.githubusercontent.com/5rahim/seanime-extensions/main/plugins/custom-cover-images/custom-cover-images.json",
     "payloadURI": "https://raw.githubusercontent.com/5rahim/seanime-extensions/main/plugins/custom-cover-images/code.ts",
     "website": "https://github.com/5rahim/seanime-extensions", "flags": "0/0", "flaggedBy": [], "permalink": "",
-    "official": true, "addedAt": "2026-07-03T13:55:37.422Z", "updatedAt": "2026-07-03T13:55:37.422Z"
+    "official": true, "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
     "id": "custom-css-manager", "name": "Custom CSS Manager", "version": "1.0.10", "author": "nnotwen",
@@ -1177,18 +1177,18 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "debridtoggle", "name": "Debrid Toggle", "version": "1.1.2", "author": "Kaktus",
-    "description": "Lets you switch between multiple debrid provider API keys (RealDebrid, Torbox and AllDebrid)",
+    "id": "debridtoggle", "name": "Debrid Toggle", "version": "1.2.1", "author": "Kaktus",
+    "description": "Lets you switch between multiple debrid provider API keys (RealDebrid, Torbox, AllDebrid and Premiumize)",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/DebridToggle/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/DebridToggle/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/DebridToggle/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ed9c6bfe75505e3b98c43148e2642842fff07b7758edfa383284b05edfa27599",
+    "website": "", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8a4e4906958a0aaa62118d45b0e5c740a04718cf32f7ffff481ce1fe2d701d5c",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.7", "stars": 4, "threadId": "1461773447746158603",
-    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T16:21:00.916Z"
   },
   {
     "id": "delete-watched-episodes", "name": "Delete Watched Episodes", "version": "1.1.0", "author": "Dadangdut33",
@@ -1226,7 +1226,7 @@
     "manifestURI": "https://raw.githubusercontent.com/5rahim/seanime-extensions/main/plugins/discord-rpc-hide-logo/discord-rpc-hide-logo.json",
     "payloadURI": "https://raw.githubusercontent.com/5rahim/seanime-extensions/main/plugins/discord-rpc-hide-logo/code.ts",
     "website": "https://github.com/5rahim/seanime-extensions", "flags": "0/0", "flaggedBy": [], "permalink": "",
-    "official": true, "addedAt": "2026-07-03T13:55:37.422Z", "updatedAt": "2026-07-03T13:55:37.422Z"
+    "official": true, "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
     "id": "discord-rpc-hide-nsfw", "name": "Discord RPC Hide NSFW", "version": "1.0.4", "author": "nnotwen",
@@ -1925,7 +1925,7 @@
     "icon": "https://island.clap.ing/api/extensions/icons/mangapill.png",
     "manifestURI": "https://island.clap.ing/api/extensions/manga-providers/mangapill/mangapill.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
-    "addedAt": "2026-07-03T13:55:37.422Z", "updatedAt": "2026-07-03T13:55:37.422Z"
+    "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
     "id": "mangas-in", "name": "Mangas.in", "version": "1.0.2", "author": "branrgx",
@@ -2020,6 +2020,20 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.8.7", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1429972238374797384", "addedAt": "2026-07-03T13:57:01.706Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "Marketplace+", "name": "Marketplace+", "version": "1.0.0", "author": "bas1874",
+    "description": "Improve Seanime's Extensions marketplace with live status badges (Working/Broken/Deprecated), star counts, sorting by most stars or recent updates, author search, sub/dub tags, and per-extension Discord support buttons.",
+    "type": "plugin", "language": "javascript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Icons/Icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace%2B.json",
+    "payloadURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace%2B.js",
+    "website": "https://github.com/Bas1874/Seanime-Marketplace/tree/main", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/55ebcd3073108e639b43cf121ffb2ae87aef535bcd929a98aa83c5a366919f77",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.8.7",
+    "lastWorkingVersion": "3.8.7", "stars": 1, "threadId": "1522636904766505030",
+    "addedAt": "2026-07-03T16:21:00.916Z", "updatedAt": "2026-07-03T16:21:00.916Z"
   },
   {
     "id": "mediocrescan", "name": "MediocreScan", "version": "1.0.5", "author": "jhoorodr",
@@ -2233,8 +2247,8 @@
     "icon": "https://island.clap.ing/api/extensions/icons/nyaa.png",
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/nyaa/nyaa.json",
     "payloadURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/nyaa/nyaa.ts", "website": "",
-    "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true, "addedAt": "2026-07-03T13:55:37.422Z",
-    "updatedAt": "2026-07-03T13:55:37.422Z"
+    "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true, "addedAt": "2026-07-03T16:17:46.582Z",
+    "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
     "id": "nyaa-non-eng", "name": "Nyaa (Non-English)", "version": "1.0.0", "author": "Island",
@@ -2242,7 +2256,7 @@
     "language": "typescript", "lang": "multi", "icon": "https://island.clap.ing/api/extensions/icons/nyaa.png",
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/nyaa/nyaa-non-eng.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
-    "addedAt": "2026-07-03T13:55:37.422Z", "updatedAt": "2026-07-03T13:55:37.422Z"
+    "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
     "id": "nyaa-sukebei", "name": "Nyaa Sukebei", "version": "1.1.0", "author": "Island",
@@ -2251,7 +2265,7 @@
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/nyaa-sukebei/nyaa-sukebei.json",
     "payloadURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/nyaa-sukebei/nyaa-sukebei.ts",
     "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
-    "addedAt": "2026-07-03T13:55:37.422Z", "updatedAt": "2026-07-03T13:55:37.422Z"
+    "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
     "id": "olympusbiblioteca", "name": "Olympus Biblioteca", "version": "1.0.0", "author": "Faddix",
@@ -2444,7 +2458,7 @@
     "language": "typescript", "lang": "multi", "icon": "https://island.clap.ing/api/extensions/icons/seadex.png",
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/seadex/seadex.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
-    "addedAt": "2026-07-03T13:55:37.422Z", "updatedAt": "2026-07-03T13:55:37.422Z"
+    "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
     "id": "seastats", "name": "SeaStats", "version": "0.1.4", "author": "Crashdaemon",
@@ -2934,7 +2948,7 @@
     "lang": "en", "icon": "https://island.clap.ing/api/extensions/icons/weebcentral.png",
     "manifestURI": "https://island.clap.ing/api/extensions/manga-providers/weebcentral/weebcentral.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
-    "addedAt": "2026-07-03T13:55:37.422Z", "updatedAt": "2026-07-03T13:55:37.422Z"
+    "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
     "id": "weebdex", "name": "WeebDex", "version": "1.0.2", "author": "ari___",
