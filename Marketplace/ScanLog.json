@@ -406,11 +406,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1782895986492
   },
   {
-    "id": "aq-seatags", "version": "1.7.7",
+    "id": "aq-seatags", "version": "1.7.12",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/seatags/plugin.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/adbc33aa2cafa9d3ded948f1a7b96fa7f17be6569a22da85c761c3e2ef19c00e",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782939268962
+    "flags": "0/54", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/715361c80d289638973fc9224e8b20bdc9ccd6b0bd547907b8b02f4248265113",
+    "lastWorkingVersion": "3.8.7", "timestamp": 1783110611130
   },
   {
     "id": "asunatracks-sync", "version": "0.1.22",
