@@ -934,18 +934,18 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "aq-seatags", "name": "SeaTags", "version": "1.7.7", "author": "aquaryuo",
+    "id": "aq-seatags", "name": "SeaTags", "version": "1.7.12", "author": "aquaryuo",
     "description": "Plugin dedicated to displaying status of plugins/extensions within installed/marketplace pages; as well as filter based on author & show score",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/seatags/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/seatags/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/seatags/plugin.ts",
-    "website": "https://github.com/aquaryuo/seanime", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/adbc33aa2cafa9d3ded948f1a7b96fa7f17be6569a22da85c761c3e2ef19c00e",
+    "website": "https://github.com/aquaryuo/seanime", "flags": "0/54", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/715361c80d289638973fc9224e8b20bdc9ccd6b0bd547907b8b02f4248265113",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1505936178292064266","1359183394512048148"], "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.7", "stars": 3, "threadId": "1521950051880927263",
-    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T20:30:11.367Z"
   },
   {
     "id": "asunatracks-sync", "name": "AsunaTracks Sync", "version": "0.1.22", "author": "Kolex06",
