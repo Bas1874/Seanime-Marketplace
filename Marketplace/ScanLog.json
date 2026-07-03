@@ -875,6 +875,13 @@
     "timestamp": 1771873231120
   },
   {
+    "id": "Marketplace-Plus", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.js",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/55ebcd3073108e639b43cf121ffb2ae87aef535bcd929a98aa83c5a366919f77",
+    "lastWorkingVersion": "3.8.7", "timestamp": 1783099327659
+  },
+  {
     "id": "Marketplace+", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace%2B.js",
     "flags": "0/60", "flaggedBy": [],
