@@ -1,0 +1,29 @@
+{
+    "id": "Marketplace+",
+    "name": "Marketplace+",
+    "version": "1.0.0",
+    "manifestURI": "",
+    "language": "javascript",
+    "type": "plugin",
+    "description": "Improve Seanime's Extensions marketplace with live status badges (Working/Broken/Deprecated), star counts, sorting by most stars or recent updates, author search, sub/dub tags, and per-extension Discord support buttons.",
+    "author": "bas1874",
+    "icon": "",
+    "website": "",
+    "readme": "",
+    "notes": "Add the custom marketplace URL in Settings → Extensions → Marketplace Sources, then open the Extensions page — badges, filters, sorting, and Support buttons appear directly on the marketplace cards.",
+    "lang": "multi",
+    "payloadURI": "",
+    "isDevelopment": true,
+    "plugin": {
+        "version": "1",
+        "permissions": {
+            "scopes": ["storage"],
+            "allow": {
+                "networkAccess": {
+                    "allowedDomains": ["raw.githubusercontent.com"],
+                    "reasoning": "Required to fetch extension metadata from the custom Seanime marketplace hosted on GitHub."
+                }
+            }
+        }
+    }
+}
