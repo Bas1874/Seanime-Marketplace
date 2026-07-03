@@ -2,7 +2,7 @@
     "id": "Marketplace-Plus",
     "name": "Marketplace+",
     "version": "1.0.0",
-    "manifestURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace%2B.json",
+    "manifestURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.json",
     "language": "javascript",
     "type": "plugin",
     "description": "Improve Seanime's Extensions marketplace with live status badges (Working/Broken/Deprecated), star counts, sorting by most stars or recent updates, author search, sub/dub tags, and per-extension Discord support buttons.",
