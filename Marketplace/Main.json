@@ -2022,18 +2022,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "Marketplace+", "name": "Marketplace+", "version": "1.0.0", "author": "bas1874",
+    "id": "Marketplace-Plus", "name": "Marketplace+", "version": "1.0.0", "author": "bas1874",
     "description": "Improve Seanime's Extensions marketplace with live status badges (Working/Broken/Deprecated), star counts, sorting by most stars or recent updates, author search, sub/dub tags, and per-extension Discord support buttons.",
     "type": "plugin", "language": "javascript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Icons/Icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace%2B.json",
-    "payloadURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace%2B.js",
+    "manifestURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.json",
+    "payloadURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.js",
     "website": "https://github.com/Bas1874/Seanime-Marketplace/tree/main", "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/55ebcd3073108e639b43cf121ffb2ae87aef535bcd929a98aa83c5a366919f77",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.8.7",
     "lastWorkingVersion": "3.8.7", "stars": 1, "threadId": "1522636904766505030",
-    "addedAt": "2026-07-03T16:21:00.916Z", "updatedAt": "2026-07-03T16:21:00.916Z"
+    "addedAt": "2026-07-03T17:22:07.900Z", "updatedAt": "2026-07-03T17:22:07.900Z"
   },
   {
     "id": "mediocrescan", "name": "MediocreScan", "version": "1.0.5", "author": "jhoorodr",
