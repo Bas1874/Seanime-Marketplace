@@ -2088,7 +2088,7 @@
     "permalink": "https://www.virustotal.com/gui/file/d71b2c05e33e2fdabcf23e0764600058b847eb41fbed2852ad2e0e42c75af6ac",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183211099459916","1359183394512048148"],
-    "scannedOnVersion": "3.9.0", "lastWorkingVersion": null, "stars": 7, "threadId": "1449622275044147210",
+    "scannedOnVersion": "3.9.0", "lastWorkingVersion": null, "stars": 8, "threadId": "1449622275044147210",
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
@@ -2101,7 +2101,7 @@
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/4f02b35a1477201dbebcdaca09f206d3d3a01b9af3e8131e737f4f18abca303b",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1505936927189110988","1359259306087940146","1359183394512048148"],
+    "tags": ["1359183147123867881","1359259306087940146","1505936927189110988","1359183394512048148"],
     "scannedOnVersion": "3.9.0", "lastWorkingVersion": "3.8.2", "stars": 6, "threadId": "1445070621309538586",
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
@@ -2785,18 +2785,18 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "traktsync", "name": "TraktSync", "version": "1.2.1", "author": "nnotwen",
+    "id": "traktsync", "name": "TraktSync", "version": "1.2.5", "author": "nnotwen",
     "description": "Sync your AniList progress to Trakt.tv", "type": "plugin", "language": "typescript",
     "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/refs/heads/master/plugins/TraktSync/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/TraktSync/traktsync.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/TraktSync/provider.ts",
     "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a5b671e5f364991d3686f7d330ae868ffa58ab7f551739f1ea1e2cf005de4eab",
+    "permalink": "https://www.virustotal.com/gui/file/4acffcda2cba0a823fb025d6c24d094a4b630584c102e9bd25855af4c9f213e0",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183394512048148"], "scannedOnVersion": "3.9.0",
     "lastWorkingVersion": null, "stars": 2, "threadId": "1447662077849370805", "addedAt": "2026-07-03T13:57:01.706Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-07-05T17:01:24.159Z"
   },
   {
     "id": "tsukihime", "name": "Tsukihime", "version": "0.1.2", "author": "Crashdaemon",
