@@ -378,11 +378,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1782420623994
   },
   {
-    "id": "aq-animepahe-beta", "version": "0.2.24",
+    "id": "aq-animepahe-beta", "version": "0.2.26",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
-    "flags": "0/56", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e49238fcbdc11be04df2f112c88e2598bc011bef47e913f23d77edaf257f8c00",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1783138959140
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/416ca9d9cb07c8ce79d273dbbd794f21cef9556199ea768d57c20247d07c6544",
+    "lastWorkingVersion": "3.8.7", "timestamp": 1783213763188
   },
   {
     "id": "aq-anizone", "version": "1.1.8",
