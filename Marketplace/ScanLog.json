@@ -1190,11 +1190,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1781225149061
   },
   {
-    "id": "traktsync", "version": "1.2.1",
+    "id": "traktsync", "version": "1.2.5",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/TraktSync/provider.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a5b671e5f364991d3686f7d330ae868ffa58ab7f551739f1ea1e2cf005de4eab",
-    "lastWorkingVersion": null, "timestamp": 1782564592583
+    "permalink": "https://www.virustotal.com/gui/file/4acffcda2cba0a823fb025d6c24d094a4b630584c102e9bd25855af4c9f213e0",
+    "lastWorkingVersion": null, "timestamp": 1783270883917
   },
   {
     "id": "tsukihime", "version": "0.1.2",
