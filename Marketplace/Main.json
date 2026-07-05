@@ -294,10 +294,10 @@
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/refs/heads/main/src/my-plugin.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/fe4427867f3b46cf2c5d33dfac8e08aab48a51c1eac40029267078ab205142fa",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.9.0",
-    "lastWorkingVersion": null, "stars": 7, "threadId": "1394438391696982046", "addedAt": "2026-07-03T13:57:01.706Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "lastWorkingVersion": "3.9.0", "stars": 7, "threadId": "1394438391696982046",
+    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "AniList-Discussions-Integrated-Player", "name": "AniList Discussions (Integrated Player)",
@@ -1256,18 +1256,18 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "Dub-Schedule", "name": "Dub Schedule", "version": "1.4.2", "author": "Bas1874",
+    "id": "Dub-Schedule", "name": "Dub Schedule", "version": "1.5.0", "author": "Bas1874",
     "description": "Adds dubbed anime to the schedule page.", "type": "plugin", "language": "typescript",
     "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Bas1874/Dub-Schedule-Seanime/refs/heads/main/src/icons/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/Dub-Schedule-Seanime/refs/heads/main/src/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Dub-Schedule-Seanime/refs/heads/main/src/Dub-Schedule.ts",
-    "website": "", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b9816323b647e48f4cd7fb06abf5bfcfbc42ab6433a7c505d123b097a15d90fb",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/89e7cee1a9f15eb235fa985d879386ff1109f164b423d551084c0633de99e6b5",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936927189110988","1359183394512048148"], "scannedOnVersion": "3.9.0",
     "lastWorkingVersion": "3.8.3", "stars": 5, "threadId": "1412165513777254570",
-    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-05T10:49:24.575Z"
   },
   {
     "id": "episodeshistory", "name": "Episodes History", "version": "1.3.0", "author": "kRYstall9",
@@ -2101,7 +2101,7 @@
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/4f02b35a1477201dbebcdaca09f206d3d3a01b9af3e8131e737f4f18abca303b",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359259306087940146","1505936927189110988","1359183394512048148"],
+    "tags": ["1359183147123867881","1505936927189110988","1359259306087940146","1359183394512048148"],
     "scannedOnVersion": "3.9.0", "lastWorkingVersion": "3.8.2", "stars": 6, "threadId": "1445070621309538586",
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
