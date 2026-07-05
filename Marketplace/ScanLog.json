@@ -144,7 +144,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/refs/heads/main/src/my-plugin.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/fe4427867f3b46cf2c5d33dfac8e08aab48a51c1eac40029267078ab205142fa",
-    "timestamp": 1771871021968
+    "timestamp": 1771871021968, "lastWorkingVersion": "3.9.0"
   },
   {
     "id": "AniList-Discussions-Integrated-Player", "version": "0.1.2",
@@ -546,11 +546,11 @@
     "lastWorkingVersion": "3.8.3", "timestamp": 1780696536973
   },
   {
-    "id": "Dub-Schedule", "version": "1.4.2",
+    "id": "Dub-Schedule", "version": "1.5.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Dub-Schedule-Seanime/refs/heads/main/src/Dub-Schedule.ts",
-    "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b9816323b647e48f4cd7fb06abf5bfcfbc42ab6433a7c505d123b097a15d90fb",
-    "timestamp": 1771866549114, "lastWorkingVersion": "3.8.3"
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/89e7cee1a9f15eb235fa985d879386ff1109f164b423d551084c0633de99e6b5",
+    "lastWorkingVersion": "3.8.3", "timestamp": 1783248564341
   },
   {
     "id": "episodeshistory", "version": "1.3.0",
