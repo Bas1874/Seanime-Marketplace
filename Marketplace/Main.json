@@ -879,18 +879,18 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.24", "author": "aquaryuo",
+    "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.26", "author": "aquaryuo",
     "description": "Only animepahe compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
-    "website": "https://animepahe.pw", "flags": "0/56", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e49238fcbdc11be04df2f112c88e2598bc011bef47e913f23d77edaf257f8c00",
+    "website": "https://animepahe.pw", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/416ca9d9cb07c8ce79d273dbbd794f21cef9556199ea768d57c20247d07c6544",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.9.0",
     "lastWorkingVersion": "3.8.7", "stars": 2, "threadId": "1519818667720966174",
-    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-04T04:22:39.365Z"
+    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-05T01:09:23.418Z"
   },
   {
     "id": "aq-anizone", "name": "AniZone", "version": "1.1.8", "author": "aquaryuo",
