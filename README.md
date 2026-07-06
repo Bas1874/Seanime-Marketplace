@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Android/main/images/seanime.png" width="90px" alt="Seanime Logo"/>
+  <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Icons/seanime.png" width="90px" alt="Seanime Logo"/>
 
   <h1>Seanime Community Marketplace</h1>
 
