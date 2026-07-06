@@ -611,15 +611,17 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "animesaturn", "name": "AnimeSaturn", "version": "1.0.2", "author": "kRYstall9",
+    "id": "animesaturn", "name": "AnimeSaturn", "version": "1.0.3", "author": "kRYstall9",
     "description": "AnimeSaturn is an online streaming provider for subbed/dubbed animes in Italian",
     "type": "onlinestream-provider", "language": "typescript", "lang": "it", "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeSaturn/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": true, "deprecatedTag": false,
+    "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeSaturn/provider.ts",
+    "website": "", "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5cef465865e9528f6df21a04b69aff099058b48e1b4072b4d26ee6e9dedf403a",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.9.0",
     "lastWorkingVersion": null, "stars": 8, "threadId": "1362859772474560693", "addedAt": "2026-07-03T13:57:01.706Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-07-06T01:05:59.524Z"
   },
   {
     "id": "animesaturnmirror", "name": "AnimeSaturn (Mirror)", "version": "1.0.0", "author": "Pal",
@@ -2484,16 +2486,16 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "SeaUtils-Kolex06-Version", "name": "SeaUtils Kolex06-Version", "version": "1.2.74", "author": "Kolex06",
+    "id": "SeaUtils-Kolex06-Version", "name": "SeaUtils Kolex06-Version", "version": "1.2.75", "author": "Kolex06",
     "description": "A utility plugin to enhance seanime.", "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/main/icons/SeaUtils-Kolex06-Version.png",
     "manifestURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtils-Kolex06-Version.json",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/provider.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c0df4b213960dee5569f89178ad3a5a13deab328178eaff0fb700a8a054ab3a5",
+    "website": "", "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/36144a1817a39554ce805d06c91dcb5438b56b41ac71a3dd6c0d029983e643b4",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.9.0", "lastWorkingVersion": "3.8.7", "stars": 5, "threadId": "1508838426366185724",
-    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-06T01:05:59.524Z"
   },
   {
     "id": "senshi", "name": "Senshi", "version": "1.0.2", "author": "Thekingcrusher",
