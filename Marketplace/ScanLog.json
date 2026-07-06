@@ -280,6 +280,13 @@
     "timestamp": 1774133740033
   },
   {
+    "id": "animesaturn", "version": "1.0.3",
+    "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeSaturn/provider.ts",
+    "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5cef465865e9528f6df21a04b69aff099058b48e1b4072b4d26ee6e9dedf403a",
+    "lastWorkingVersion": null, "timestamp": 1783299959288
+  },
+  {
     "id": "animesaturnmirror", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesaturnmirror/provider.js",
     "flags": "0/61", "flaggedBy": [],
@@ -1071,11 +1078,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1781440448205
   },
   {
-    "id": "SeaUtils-Kolex06-Version", "version": "1.2.74",
+    "id": "SeaUtils-Kolex06-Version", "version": "1.2.75",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c0df4b213960dee5569f89178ad3a5a13deab328178eaff0fb700a8a054ab3a5",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781642025600
+    "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/36144a1817a39554ce805d06c91dcb5438b56b41ac71a3dd6c0d029983e643b4",
+    "lastWorkingVersion": "3.8.7", "timestamp": 1783299758923
   },
   {
     "id": "setwatched", "version": "1.0.0",
