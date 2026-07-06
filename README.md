@@ -64,8 +64,8 @@ Connecting this marketplace to your seanime client is quick and easy. Follow the
    ```text
    https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json
   	```
-<br>
-<img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step4.png" width="500" alt="Paste repository URL and Save" />
+    <br>
+    <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step4.png" width="500" alt="Paste repository URL and Save" />
     
 ---
 
