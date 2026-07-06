@@ -284,7 +284,7 @@
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeSaturn/provider.ts",
     "flags": "0/58", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5cef465865e9528f6df21a04b69aff099058b48e1b4072b4d26ee6e9dedf403a",
-    "lastWorkingVersion": null, "timestamp": 1783299959288
+    "lastWorkingVersion": "3.9.0", "timestamp": 1783299959288
   },
   {
     "id": "animesaturnmirror", "version": "1.0.0",
