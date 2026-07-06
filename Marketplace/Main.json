@@ -68,6 +68,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "aiostreams-plugin", "name": "AIOStreams", "version": "0.8.3", "author": "Viren070",
+    "description": "Stream content from AIOStreams directly in Seanime. Supports all streams with URLs.",
+    "type": "plugin", "language": "javascript", "lang": "multi",
+    "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/aiostreams-light.png",
+    "manifestURI": "https://github.com/Viren070/AIOStreams/releases/download/seanime-extensions-latest/aiostreams-plugin-manifest.json",
+    "payloadURI": "", "website": "https://docs.aiostreams.viren070.me", "flags": "Unscanned", "flaggedBy": [],
+    "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.9.0",
+    "lastWorkingVersion": "3.9.0", "stars": 10, "threadId": "1499798502086017024",
+    "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
     "id": "al-3asq", "name": "3asq", "version": "1.0.0", "author": "Bruuhim",
     "description": "Manga provider for 3asq.org", "type": "manga-provider", "language": "typescript", "lang": "ar",
     "icon": "https://3asq.org/wp-content/uploads/2021/06/cropped-ICON-192x192.png",
@@ -134,6 +146,20 @@
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.9.0",
     "lastWorkingVersion": null, "stars": 3, "threadId": "1492477178271629313", "addedAt": "2026-07-03T13:57:01.706Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "alternative-titles", "name": "Alternative Titles", "version": "1.0.2", "author": "nnotwen",
+    "description": "Choose how anime and manga titles are displayed in their respective pages.", "type": "plugin",
+    "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/alternative-titles.json",
+    "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/provider.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/876b99ff574106351cd6e82dbff65b63bc91d7ee91a14843e7e4db4e737eb900",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.9.0",
+    "lastWorkingVersion": null, "stars": 7, "threadId": "1463411423051776067", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "always-advanced-search", "name": "Always Advanced Search", "version": "1.0.2",
@@ -651,6 +677,20 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "animethemes", "name": "AnimeThemes Player", "version": "2.0.4", "author": "jabifx",
+    "description": "Displays an anime’s openings and endings (using animethemes.moe) directly on its page.",
+    "type": "plugin", "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/animethemes.ts",
+    "website": "", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/52d9bf8e5d8c80e60bc893f27c1f55f98dfd76fe63271ecce806e38c239150e9",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
+    "stars": 13, "threadId": "1432823765565440030", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
     "id": "animetoast", "name": "AnimeToast", "version": "1.0.1", "author": "Pal",
     "description": "AnimeToast is an online streaming provider for german sub/dubs.",
     "type": "onlinestream-provider", "language": "javascript", "lang": "de",
@@ -672,6 +712,20 @@
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/animetosho/animetosho.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
+  },
+  {
+    "id": "animetosho-new", "name": "AnimeTosho (NEW)", "version": "2.3.5", "author": "Faddix, Island",
+    "description": "Integrates Anime Tosho (NEW) as a torrent streaming provider for Seanime.",
+    "type": "anime-torrent-provider", "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/src/animetosho-new-logo.png",
+    "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.json",
+    "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/7e4a6a608e73564bdb6bdfa3e35ded09712d7058d4f5c2d489f171069350dada",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259206880067784","1359183147123867881"], "scannedOnVersion": "3.9.0",
+    "lastWorkingVersion": "3.8.7", "stars": 6, "threadId": "1505548228865687562",
+    "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "AnimeUnity", "name": "AnimeUnity", "version": "1.1.3", "author": "kRYstall9",
@@ -760,6 +814,32 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "anitube", "name": "AniTube", "version": "1.0.0", "author": "Pal",
+    "description": "AniTube is an online streaming provider for portugese subs.", "type": "onlinestream-provider",
+    "language": "typescript", "lang": "pt",
+    "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/anitube.png",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anitube/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anitube/provider.ts",
+    "website": "", "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/dc1a0badc3a3520e300981e905143c2c83ee5dc584493fc3838f0f2a332e19f9",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.9.0",
+    "lastWorkingVersion": null, "stars": 2, "threadId": "1461429630023242005", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
+    "id": "aniwatchtv", "name": "AniWatch", "version": "1.0.0", "author": "Thekingcrusher",
+    "description": "AniWatch is an online stream provider for both sub and dub with soft subs.",
+    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/aniwatchtv/logo.png",
+    "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/aniwatchtv/manifest.json",
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
+    "brokenTag": true, "deprecatedTag": true,
+    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.9.0",
+    "lastWorkingVersion": null, "stars": 4, "threadId": "1495056725835911190", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
     "id": "aniworld", "name": "AniWorld", "version": "1.2.0", "author": "Pal",
     "description": "AniWorld is an online streaming provider for german dubs.", "type": "onlinestream-provider",
     "language": "javascript", "lang": "de",
@@ -772,6 +852,19 @@
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.9.0",
     "lastWorkingVersion": null, "stars": 7, "threadId": "1454098914352304233", "addedAt": "2026-07-03T13:57:01.706Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "anizone", "name": "AniZone", "version": "1.0.1", "author": "jabifx",
+    "description": "Online streaming provider with soft subs and dubs.", "type": "onlinestream-provider",
+    "language": "typescript", "lang": "multi", "icon": "",
+    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AniZone/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/refs/heads/master/src/AniZone/index.ts",
+    "website": "", "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/289376c583dad130d616bcee0a2e832e2a866060802fd6236e0b9b45e87431de",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.9.0",
+    "lastWorkingVersion": null, "stars": 4, "threadId": "1430593283947761827", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "antiseeding", "name": "Anti-Seeding", "version": "1.0.0", "author": "ItsSkaiya & Pal-droid",
@@ -972,6 +1065,19 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1514915058054991972", "addedAt": "2026-07-03T13:57:01.706Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "comix", "name": "Comix", "version": "1.4.0", "author": "Pal & Ari-03",
+    "description": "Comix is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
+    "lang": "en", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/comix.png",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-providers/refs/heads/main/src/manga/comix/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/comix/provider.js",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/79e14fadb3d6ce74c2416cf716f280a9fb8522e1c2d38bed72af8556881c793b",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
+    "stars": 10, "threadId": "1440425091707175012", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "contranime", "name": "Contranime", "version": "1.0.0", "author": "eepyboba",
@@ -1178,6 +1284,20 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-05T10:49:24.575Z"
   },
   {
+    "id": "episodeshistory", "name": "Episodes History", "version": "1.3.0", "author": "kRYstall9",
+    "description": "A plugin that shows the episodes watch history", "type": "plugin", "language": "typescript",
+    "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/kRYstall9/EpisodesHistory-Plugin/refs/heads/main/src/icons/double-check.png",
+    "manifestURI": "https://raw.githubusercontent.com/kRYstall9/EpisodesHistory-Plugin/refs/heads/main/src/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/kRYstall9/EpisodesHistory-Plugin/refs/heads/main/src/provider.ts",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/445af6333a09b4c7bc2e72d1284745d7521c825fca7d46b1a0cbeddb06084675",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
+    "stars": 7, "threadId": "1366810284831801434", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
     "id": "fancy-fonts", "name": "Fancy Fonts", "version": "1.0.2", "author": "nnotwen",
     "description": "Change the Seanime's app font.", "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Fancy%20Fonts/icon.png",
@@ -1359,6 +1479,31 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "hipercool-provider-v3", "name": "HiperCool", "version": "1.0.1", "author": "Skrapt",
+    "description": "Manga provider for HiperCool - Portuguese manga/manhwa site", "type": "manga-provider",
+    "language": "typescript", "lang": "pt",
+    "icon": "https://raw.githubusercontent.com/SKRAPT/Hipercool-Seanime/main/hipercool.png",
+    "manifestURI": "https://raw.githubusercontent.com/SKRAPT/Hipercool-Seanime/main/hipercool-provider.json",
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
+    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
+    "scannedOnVersion": "3.9.0", "lastWorkingVersion": null, "stars": 1, "threadId": "1495448515072233572",
+    "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
+    "id": "horizontal-scroll", "name": "Horizontal Scroll", "version": "1.1.0", "author": "Kaktus",
+    "description": "Enables horizontal scrolling on the carousel element.", "type": "plugin",
+    "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/horizontal-scroll/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/horizontal-scroll/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/horizontal-scroll/main.ts",
+    "website": "", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b18a06424a327db47086ed05473efaec0fc843fae6ac09bbcf38aaebf3c5a94b",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.9.0",
+    "lastWorkingVersion": "3.8.7", "stars": 3, "threadId": "1514285000395329729",
+    "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
     "id": "ilcorsaronero", "name": "IlCorsaroNero", "version": "2.0.0", "author": "Faddix",
     "description": "Integrates IlCorsaroNero as a torrent streaming provider for Seanime.",
     "type": "anime-torrent-provider", "language": "typescript", "lang": "it",
@@ -1452,18 +1597,46 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "kuromangas", "name": "Kuro Mangas", "version": "1.0.5", "author": "jhoorodr",
+    "id": "kuromangas", "name": "Kuro Mangas", "version": "1.0.6", "author": "jhoorodr",
     "description": "Provedor de leitura de mangás do Kuro Mangas. OBS: Requer uma conta criada no site para funcionar.",
     "type": "manga-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/kuromangas.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.ts",
-    "website": "", "flags": "0/56", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2a7ec93b59b685c459fcaf99f3aee56b7f3343dc898318c5c04d27847068b558",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a52bfdbe72d9c300c0e4c4631857f3c54ab2f39ccdc4ef3198cee51e6cb3e818",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.0",
     "lastWorkingVersion": "3.8.7", "stars": 0, "threadId": "1516231576378413158",
-    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
+    "id": "latanime-online-provider", "name": "Latanime", "version": "0.1.11", "author": "lens7y",
+    "description": "Latanime online streaming provider for Seanime (Spanish dub; Latino preferred, sub fallback).",
+    "type": "onlinestream-provider", "language": "typescript", "lang": "es",
+    "icon": "https://raw.githubusercontent.com/lens7y/seanime-ext-latanime/main/public/icon.png",
+    "manifestURI": "https://github.com/lens7y/seanime-ext-latanime/releases/latest/download/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/lens7y/seanime-ext-latanime/v0.1.11/src/provider.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d45a1632455c3aeaa06a93634cba7b52e69738cd8ba139632eaa393e70e9a569",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.9.0",
+    "lastWorkingVersion": null, "stars": 1, "threadId": "1509322165013577899", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
+    "id": "leercapitulo", "name": "LeerCapitulo", "version": "1.1.0", "author": "branrgx",
+    "description": "LeerCapitulo as a Spanish-language manga provider for Seanime, supporting manga, manhwa, and manhua.",
+    "type": "manga-provider", "language": "typescript", "lang": "es",
+    "icon": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/LeerCapitulo/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/LeerCapitulo/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/LeerCapitulo/main.ts",
+    "website": "", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/ff237d979f5f0a46582902831a2736c15514e1c075e993ef9599339d8a1f855d",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
+    "stars": 0, "threadId": "1496723415388786748", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "leermangaesp", "name": "LeerMangaEsp", "version": "1.0.0", "author": "mohaisreal",
@@ -1506,6 +1679,20 @@
     "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.9.0",
     "lastWorkingVersion": "3.8.7", "stars": 2, "threadId": "1517287039651811400",
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "LN-reader", "name": "Light Novel Reader", "version": "1.6.5", "author": "Pal",
+    "description": "A simple plugin for reading Light Novels inside Seanime.", "type": "plugin",
+    "language": "typescript", "lang": "EN",
+    "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/ln.png",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/main.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0813faccc6b54f50d4d80030b2f3ba57c94155231494c3fdf1c15f802e9eee91",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
+    "stars": 23, "threadId": "1433173588470661180", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "lst", "name": "LST", "version": "1.0.2", "author": "Sharky",
@@ -1562,6 +1749,20 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "mangabaka", "name": "MangaBaka", "version": "1.0.1", "author": "jabifx",
+    "description": "Implements MangaBaka as a custom source.", "type": "custom-source", "language": "typescript",
+    "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaBaka/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaBaka/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaBaka/main.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/61c94266f62eeada64aa6a58eeb138e2c612ae90e75826a5429c8a6075aa3448",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1437869415344377887"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
+    "stars": 3, "threadId": "1439348217463439451", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
     "id": "mangabats", "name": "MangaBats", "version": "1.2.3", "author": "Pal",
     "description": "MangaBats is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "en", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/mangabats.png",
@@ -1589,6 +1790,31 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "mangacloud", "name": "MangaCloud", "version": "1.0.0", "author": "Pal",
+    "description": "MangaCloud is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
+    "lang": "en", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/mangacloud.png",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangacloud/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangacloud/provider.js",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f2676d37f3aa7a35bba25be67b2f902febca409b1c66684924f607433fe3c23c",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
+    "stars": 0, "threadId": "1499066794231468133", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
+    "id": "mangadex", "name": "Mangadex", "version": "1.0.0", "author": "kiko",
+    "description": "No description provided.", "type": "manga-provider", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/5rahim/hibike/main/icons/mangadex.png",
+    "manifestURI": "https://raw.githubusercontent.com/HyperKiko/seanime-extensions/main/src/mangadex/mangadex.json",
+    "payloadURI": "https://raw.githubusercontent.com/HyperKiko/seanime-extensions/main/src/mangadex/mangadex.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c73c2ce2438e8e9fd4924f72d8f5f27d09dc744f39af761cff9ede3c5aa132d6",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
+    "scannedOnVersion": "3.9.0", "lastWorkingVersion": null, "stars": 2, "threadId": "1436152509885448322",
+    "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
     "id": "mangadex-source", "name": "MangaDex", "version": "1.0.1", "author": "jabifx",
     "description": "Implements MangaDex as a custom source.", "type": "custom-source", "language": "typescript",
     "lang": "multi",
@@ -1614,6 +1840,20 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1499113353254273024", "addedAt": "2026-07-03T13:57:01.706Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "mangafire", "name": "MangaFire", "version": "1.0.3", "author": "jabifx",
+    "description": "Multi language manga provider.", "type": "manga-provider", "language": "typescript",
+    "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaFire/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaFire/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaFire/main.ts",
+    "website": "", "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8bd869cd78e69a5e1cc127ce6476e090e275f1ee5bdff59740ed97fe7d20ad71",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
+    "stars": 7, "threadId": "1433927730399023174", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "mangaflix-ptbr", "name": "MangaFlix", "version": "1.0.0", "author": "Skrapt",
@@ -1653,6 +1893,20 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1504517120476708924", "addedAt": "2026-07-03T13:57:01.706Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "mangakatana", "name": "MangaKatana", "version": "1.0.0", "author": "Pal",
+    "description": "MangaKatana is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
+    "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/mangakatana.png",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangakatana/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangakatana/provider.js",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a053f1d82a31aa72186d371bcb950dc8fae32fc9ae236326e152346835d0434d",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
+    "stars": 0, "threadId": "1499455893635469343", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "mangalivre-tv", "name": "MangaLivre.tv", "version": "1.1.7", "author": "jhoorodr",
@@ -1806,7 +2060,7 @@
     "permalink": "https://www.virustotal.com/gui/file/55ebcd3073108e639b43cf121ffb2ae87aef535bcd929a98aa83c5a366919f77",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.9.0",
-    "lastWorkingVersion": "3.8.7", "stars": 5, "threadId": "1522636904766505030",
+    "lastWorkingVersion": "3.8.7", "stars": 7, "threadId": "1522636904766505030",
     "addedAt": "2026-07-03T17:22:07.900Z", "updatedAt": "2026-07-03T17:22:07.900Z"
   },
   {
@@ -1875,7 +2129,7 @@
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/4f02b35a1477201dbebcdaca09f206d3d3a01b9af3e8131e737f4f18abca303b",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1505936927189110988","1359259306087940146","1359183394512048148"],
+    "tags": ["1359183147123867881","1359259306087940146","1505936927189110988","1359183394512048148"],
     "scannedOnVersion": "3.9.0", "lastWorkingVersion": "3.8.2", "stars": 6, "threadId": "1445070621309538586",
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
@@ -1892,6 +2146,33 @@
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.9.0",
     "lastWorkingVersion": null, "stars": 5, "threadId": "1459253757207515197", "addedAt": "2026-07-03T13:57:01.706Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "mynimekumanga", "name": "MyNimeKu (Manga)", "version": "1.1.0", "author": "Pal",
+    "description": "MyNimeKu is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
+    "lang": "id", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/mynimeku.jpg",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/provider.js",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8c8d3fd3463171638cb77c262a5003470ebc2fdbfd93207a922c66c324852fe9",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
+    "stars": 1, "threadId": "1488609005155913888", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
+    "id": "nartag", "name": "Nartag (Discontinued)", "version": "1.1.0", "author": "branrgx",
+    "description": "This extension is no longer supported. migrate to RN Scanlation(rnscanlation).",
+    "type": "manga-provider", "language": "typescript", "lang": "es",
+    "icon": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Nartag/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Nartag/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Nartag/main.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/69385ff775d87f8a3680de1c7b4e4d6477e9eeb621fd49f62fe63b3c9e952e71",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
+    "stars": 0, "threadId": "1497001381897310238", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "nekobt", "name": "nekoBT", "version": "1.0.1", "author": "bruuhim",
@@ -2221,6 +2502,16 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "seautils", "name": "SeaUtils", "version": "1.3.2", "author": "eepyboba",
+    "description": "A utility plugin to enhance seanime.", "type": "plugin", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/icons/seautils.png",
+    "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/plugins/SeaUtils.json",
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"], "scannedOnVersion": "3.9.0",
+    "lastWorkingVersion": "3.9.0", "stars": 7, "threadId": "1506801478239522977",
+    "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
     "id": "SeaUtils-Kolex06-Version", "name": "SeaUtils Kolex06-Version", "version": "1.2.75", "author": "Kolex06",
     "description": "A utility plugin to enhance seanime.", "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/main/icons/SeaUtils-Kolex06-Version.png",
@@ -2271,6 +2562,19 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "simkl", "name": "Simkl", "version": "1.1.2", "author": "jabifx",
+    "description": "Implements SIMKL as a custom source.", "type": "custom-source", "language": "typescript",
+    "lang": "multi", "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/SIMKL/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/SIMKL/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/SIMKL/main.ts",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d00ff99e4707240f33437426e33541569e8d533d0988135c5e796607e90583e4",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183211099459916","1437869415344377887"], "scannedOnVersion": "3.9.0",
+    "lastWorkingVersion": null, "stars": 9, "threadId": "1438609701993447576", "addedAt": "2026-07-06T15:13:11.445Z",
+    "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
     "id": "simklsync", "name": "SimklSync", "version": "2.0.1", "author": "nnotwen",
     "description": "Synchronize entry progress seamlessly with SIMKL", "type": "plugin", "language": "typescript",
     "lang": "en", "icon": "https://eu.simkl.in/img_favicon/v2/favicon-192x192.png",
@@ -2307,6 +2611,18 @@
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
     "stars": 4, "threadId": "1457096606825582828", "addedAt": "2026-07-03T13:57:01.706Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "stremio-custom-source", "name": "Stremio Catalog", "version": "0.8.3", "author": "Viren070",
+    "description": "Exposes a Stremio addon catalog as a Seanime custom source. Intended to be paired with an AIOStreams stream provider.",
+    "type": "custom-source", "language": "javascript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/Stremio/stremio-brand/refs/heads/master/logos/PNG/stremio-logo-800px.png",
+    "manifestURI": "https://github.com/Viren070/AIOStreams/releases/download/seanime-extensions-latest/stremio-custom-source-manifest.json",
+    "payloadURI": "", "website": "https://docs.aiostreams.viren070.me", "flags": "Unscanned", "flaggedBy": [],
+    "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1437869415344377887"], "scannedOnVersion": "3.9.0",
+    "lastWorkingVersion": "3.9.0", "stars": 4, "threadId": "1499809709073367070",
+    "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "SubsPlease-Provider", "name": "SubsPlease", "version": "1.0.1", "author": "Bas1874",
@@ -2465,6 +2781,20 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.0", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1510606251157885000", "addedAt": "2026-07-03T13:57:01.706Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "topanimes", "name": "Top Animes", "version": "1.0.3", "author": "Jhoorodr",
+    "description": "Provider de streaming de animes do Top Animes", "type": "onlinestream-provider",
+    "language": "typescript", "lang": "pt-BR",
+    "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/topanimes.png",
+    "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/topanimes/topanimes.json",
+    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/topanimes/topanimes.ts",
+    "website": "", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/23178839122b088f677254ff1753f9ce31181d2dd6aca4c891567d0ab32a20f5",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1505937222891733062","1360636715643179231"],
+    "scannedOnVersion": "3.9.0", "lastWorkingVersion": "3.8.7", "stars": 0, "threadId": "1522046875581026364",
+    "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "torrentclaw", "name": "TorrentClaw (anime)", "version": "1.0.5", "author": "jhoorodr",
