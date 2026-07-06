@@ -19,7 +19,7 @@
   </p>
 
   <p>
-    This repository contains custom <strong><a href="https://github.com/5rahim/seanime">Seanime</a></strong> plugins and extensions created by the Seanime Community.
+    This repository serves as a massive, continuously updated database of custom plugins, manga readers, and anime extensions. Instead of manually searching for add ons, this marketplace automatically gathers, curates, and categorizes every working provider and plugin shared across the official <strong><a href="https://github.com/5rahim/seanime">Seanime</a></strong> Discord forum.
   </p>
 </div>
 
@@ -43,29 +43,30 @@
 └── README.md
 ```
 
-## ⚙️ Installation
+## ⚙️ How to Install the Marketplace
 
-1. Open Seanime on your device.  
-2. Navigate to the **Extensions** tab.  
+Connecting this marketplace to your seanime client is quick and easy. Follow these steps to access the full list of scraped Discord community extensions:
+
+1. Open Seanime and click on the **Extensions** (puzzle piece) icon in the bottom left sidebar menu.  
    <br>
-   <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/first_step.jpg" width="700" alt="Step 1" />
+   <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step1.png" width="250" alt="Navigate to Extensions" />
 
-3. Select **Change repository**.  
+2. At the top of the Extensions page, click on the **Marketplace** tab.  
    <br>
-   <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/second_step.jpg" width="700" alt="Step 2" />
+   <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step2.png" width="700" alt="Click on the Marketplace tab" />
 
-4. Paste the **raw GitHub URL** of the desired `manifest.json` file.  
-   *(Example:)*
+3. On the top right side of the screen, click the **Change repository** button.  
+   <br>
+   <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step3.png" width="700" alt="Change marketplace repository" />
+
+4. Paste the **raw GitHub URL** of our JSON manifest into the "Marketplace URL" field and click **Save**.  
+   *(Copy the link below:)*
    ```text
    https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json
-   ```
-   <br>
-   <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/last_step.jpg" width="700" alt="Step 3" />
-
-5. Seanime will automatically fetch and register the extension/provider.
-
-   <br><br>
-
+  	```
+<br>
+<img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step4.png" width="500" alt="Paste repository URL and Save" />
+    
 ---
 
 <br>
