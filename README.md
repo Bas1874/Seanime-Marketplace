@@ -1,115 +1,90 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Icons/seanime.png" width="90px" alt="Seanime Logo"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Android/main/images/seanime.png" alt="Seanime" width="140">
+</p>
 
-  <h1>Seanime Community Marketplace</h1>
+<h1 align="center">Seanime Community Marketplace</h1>
 
-  <p>
-    <a href="https://github.com/Bas1874/Seanime-Marketplace/commits/main">
-      <img src="https://img.shields.io/github/last-commit/Bas1874/Seanime-Marketplace?style=for-the-badge&logo=git&logoColor=white&labelColor=2d3748&color=805ad5" alt="Last Commit" />
-    </a>
-    <a href="https://github.com/Bas1874/Seanime-Marketplace/blob/main/LICENSE">
-      <img src="https://img.shields.io/badge/License-Custom_Dual-805ad5?style=for-the-badge&labelColor=2d3748" alt="License" />
-    </a>
-    <a href="https://bas1874.github.io/Seanime-Marketplace/">
-        <img src="https://img.shields.io/website?url=https%3A%2F%2Fbas1874.github.io%2FSeanime-Marketplace%2F&label=Marketplace&logoColor=white&color=2ea44f&style=for-the-badge" />
-    </a>
-    <a href="https://discord.gg/vKPhNTesWx">
-      <img src="https://img.shields.io/discord/1224767201551192224?style=for-the-badge&color=5865F2&labelColor=2d3748&label=Discord&logo=discord&logoColor=white" alt="Discord Server" />
-    </a>
-  </p>
+<p align="center">
+  Community-made extensions, plugins and providers for <a href="https://github.com/5rahim/seanime">Seanime</a>:
+  anime streaming sources, manga sources, torrent providers and UI plugins, all in one place.
+</p>
 
-  <p>
-    This repository serves as a massive, continuously updated database of custom plugins, manga readers, and anime extensions. Instead of manually searching for add ons, this marketplace automatically gathers, curates, and categorizes every working provider and plugin shared across the official <strong><a href="https://github.com/5rahim/seanime">Seanime</a></strong> Discord forum.
-  </p>
-</div>
-
-<br>
+<p align="center">
+  <a href="https://bas1874.github.io/Seanime-Marketplace/"><img src="https://img.shields.io/website?url=https%3A%2F%2Fbas1874.github.io%2FSeanime-Marketplace%2F&label=Marketplace&color=2ea44f&style=for-the-badge" alt="Marketplace"></a>
+  <a href="https://github.com/Bas1874/Seanime-Marketplace/commits/main"><img src="https://img.shields.io/github/last-commit/Bas1874/Seanime-Marketplace?style=for-the-badge&logo=git&logoColor=white&labelColor=2d3748&color=805ad5" alt="Last Commit"></a>
+  <a href="https://discord.gg/vKPhNTesWx"><img src="https://img.shields.io/discord/1224767201551192224?style=for-the-badge&color=5865F2&labelColor=2d3748&label=Discord&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Custom_Dual-805ad5?style=for-the-badge&labelColor=2d3748" alt="License"></a>
+</p>
 
 ---
 
-## 📂 Repository Structure
+The easiest way to browse everything is the **[visual marketplace](https://bas1874.github.io/Seanime-Marketplace/)**. It shows every extension with its status (working / broken / deprecated), type and language, and lets you copy install links directly.
 
-```text
-├── Marketplace/
-│   ├── Blacklist.json
-│   ├── Blocked.json
-│   ├── Failed.json
-│   ├── Main.json
-│   ├── ScanLog.json
-│   ├── SeanimeDefaults.json
-│   └── UserCache.json
-├── index.html
-├── LICENSE
-└── README.md
+Prefer raw JSON? The full list lives in [`Marketplace/Main.json`](https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json).
+
+## Installation
+
+1. Open Seanime and go to the **Extensions** tab
+
+   <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/first_step.jpg" width="600">
+
+2. Select **Change repository**
+
+   <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/second_step.jpg" width="600">
+
+3. Paste the marketplace URL:
+
+   ```
+   https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json
+   ```
+
+   <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/last_step.jpg" width="600">
+
+4. That's it. Seanime fetches and registers everything automatically.
+
+## What's in here
+
+```
+Marketplace/   Extension index (Main.json) plus status tracking
+Plugin/        Plugin sources
+Icons/         Extension icons
+index.html     The visual marketplace site
 ```
 
-## ⚙️ How to Install the Marketplace
+The marketplace data is kept up to date automatically and extensions are flagged when they break, so you don't have to guess which providers still work.
 
-Connecting this marketplace to your seanime client is quick and easy. Follow these steps to access the full list of scraped Discord community extensions:
+## Other community marketplaces
 
-1. Open Seanime and click on the **Extensions** (puzzle piece) icon in the bottom left sidebar menu.  
-   <br>
-   <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step1.png" width="250" alt="Navigate to Extensions" />
+A few other people maintain their own Seanime extension repos worth checking out:
 
-2. At the top of the Extensions page, click on the **Marketplace** tab.  
-   <br>
-   <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step2.png" width="700" alt="Click on the Marketplace tab" />
+| Marketplace | Notes |
+|---|---|
+| [ASleepyDrink](https://github.com/ASleepyDrink/Seanime-Stuff) | Only working extensions, tested frequently. `https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/marketplace.json` |
+| [Pal-droid](https://github.com/Pal-droid/Seanime-Providers) | Providers for various manga and anime sources. `https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/marketplace/main.json` |
+| [Jhoorodre](https://github.com/Jhoorodre/seanime-provider) | Portuguese (PT-BR) anime and manga extensions. `https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/marketplace.json` |
+| [Carloss616](https://github.com/Carloss616/seanime-extensions) | Manga-focused: custom catalogs, metadata, progress sync. `https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/marketplace.json` |
 
-3. On the top right side of the screen, click the **Change repository** button.  
-   <br>
-   <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step3.png" width="700" alt="Change marketplace repository" />
+Run your own marketplace and want it listed? [Message me on Discord](https://discord.com/users/345994349966000128).
 
-4. Paste the **raw GitHub URL** of our JSON manifest into the "Marketplace URL" field and click **Save**.  
-   *(Copy the link below:)*
-   ```text
-   https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json
-  	```
-    <br>
-    <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step4.png" width="500" alt="Paste repository URL and Save" />
-    
----
+## Support
 
-## Other Community Marketplaces
+For questions, broken extensions or requests, [message me directly](https://discord.com/users/345994349966000128) or ask in the [Seanime Discord](https://discord.gg/vKPhNTesWx).
 
-Looking for other specific curated lists? There are several other fantastic marketplaces created by the Seanime community! 
+## Using the marketplace data
 
-👉 **[Click here to view the list of other Community Marketplaces](OTHER_MARKETPLACES.md)**
-<br>
+You're welcome to consume the data in your own plugins by fetching it from the raw GitHub link, as long as this repo stays the host:
 
-## 🔗 Available Extensions
+```
+https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/Marketplace/Main.json
+```
 
-Wondering where to find the manifest URLs?  
-👉 **[Click here to see the full list of available extensions](https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json)**
+What you can't do is scrape or re-host the JSON files from `/Marketplace` on your own repo or server. The data is gathered through an authorized Discord bot, and re-hosting it breaks the access rules it operates under. Developers caught re-hosting the data get their plugins blacklisted from this marketplace.
 
-<br>
+Code outside `/Marketplace` is MIT. Full details in [LICENSE](LICENSE).
 
-## 💬 Questions & Support
+## Credits
 
-- **Direct:** [Contact me on Discord!](https://discord.com/users/345994349966000128)
-- **Community:** Join the official [Seanime Discord Server](https://discord.gg/vKPhNTesWx)
-
-<br>
-
-## ❤️ Credits
-
-* **[5rahim](https://github.com/5rahim)** — Creator of the amazing [Seanime](https://github.com/5rahim/seanime) project.
-* **[Sleepy / ASleepyDrink](https://github.com/ASleepyDrink)** — Source code for the visual marketplace, original owner of the Anime News, Always Advanced Search, Cookie clicker, Anti-Seeding plugins, and Animepahe extension.
-* **[Pal-droid](https://github.com/Pal-droid)** — Contributions to the project.
-* **[Seanime Community](https://discord.gg/vKPhNTesWx)** — For creating all the amazing plugins and extensions.
-
-<br>
-
-## ⚖️ Terms of Use & Data Licensing
-
-This repository provides a curated, enhanced marketplace dataset. To ensure compliance with Discord's Terms of Service, this data is gathered using an authorized, fully-permissioned Discord Bot. Because of this, strict usage rules apply to the data.
-
-**✅ What you CAN do:**
-You are fully allowed (and encouraged!) to use this marketplace data in your plugins, apps, or extensions by fetching the data via the raw GitHub link. As long as this repository remains the host, you are free to consume the data.
-*Example:* `https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/Marketplace/Main.json`
-
-**❌ What you CANNOT do:**
-You may **not** scrape, clone, or copy the JSON files located in the `/Marketplace` folder to host them on your own GitHub repository, server, or alternative marketplace. 
-
-⚠️ *Note: Any developers found illegally scraping or re hosting this repository's JSON files to bypass access restrictions will have their plugins permanently blacklisted from this marketplace.*
-
-For full details, please read the [LICENSE](LICENSE) file. The HTML/code outside the `/Marketplace` folder is licensed under MIT, but the marketplace data itself is strictly restricted.
+- [5rahim](https://github.com/5rahim), creator of [Seanime](https://github.com/5rahim/seanime)
+- [ASleepyDrink](https://github.com/ASleepyDrink) whose marketplace served as an early reference for the visual marketplace
+- [Pal-droid](https://github.com/Pal-droid) for contributions to the project
+- The [Seanime community](https://discord.gg/vKPhNTesWx) for building all of these extensions in the first place
