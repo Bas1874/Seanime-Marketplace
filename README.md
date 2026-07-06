@@ -69,6 +69,11 @@ Connecting this marketplace to your seanime client is quick and easy. Follow the
     
 ---
 
+## Other Community Marketplaces
+
+Looking for other specific curated lists? There are several other fantastic marketplaces created by the Seanime community! 
+
+👉 **[Click here to view the list of other Community Marketplaces](OTHER_MARKETPLACES.md)**
 <br>
 
 ## 🔗 Available Extensions
