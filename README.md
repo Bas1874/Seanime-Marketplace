@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Android/main/images/seanime.png" alt="Seanime" width="140">
+  <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Icons/seanime.png" alt="Seanime" width="140">
 </p>
 
 <h1 align="center">Seanime Community Marketplace</h1>
@@ -22,25 +22,29 @@ The easiest way to browse everything is the **[visual marketplace](https://bas18
 
 Prefer raw JSON? The full list lives in [`Marketplace/Main.json`](https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json).
 
-## Installation
+## How to Install the Marketplace in seanime
 
-1. Open Seanime and go to the **Extensions** tab
+Connecting this database to your client is quick and easy. Follow these steps to access the full list of scraped Discord community extensions:
 
-   <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/first_step.jpg" width="600">
+1. Open Seanime and click on the **Extensions** (puzzle piece) icon in the left sidebar menu.  
+   <br>
+   <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step1.png" width="250" alt="Navigate to Extensions" />
 
-2. Select **Change repository**
+2. At the top of the Extensions page, click on the **Marketplace** tab.  
+   <br>
+   <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step2.png" width="700" alt="Click on the Marketplace tab" />
 
-   <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/second_step.jpg" width="600">
+3. On the right side of the screen, click the **Change repository** button.  
+   <br>
+   <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step3.png" width="700" alt="Change marketplace repository" />
 
-3. Paste the marketplace URL:
-
-   ```
+4. Paste the **raw GitHub URL** of our JSON manifest into the "Marketplace URL" field and click **Save**.  
+   *(Copy the link below:)*
+   ```text
    https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json
-   ```
-
-   <img src="https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/last_step.jpg" width="600">
-
-4. That's it. Seanime fetches and registers everything automatically.
+     ``` 
+     <br>
+    <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step4.png" width="500" alt="Paste repository URL and Save" />```
 
 ## What's in here
 
