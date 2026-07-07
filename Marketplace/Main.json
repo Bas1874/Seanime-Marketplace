@@ -1998,18 +1998,18 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mangaupdates-sync", "name": "MangaUpdates Sync", "version": "1.1.2", "author": "Carloss616",
+    "id": "mangaupdates-sync", "name": "MangaUpdates Sync", "version": "1.2.0", "author": "Carloss616",
     "description": "Syncs your manga reading progress with MangaUpdates whenever you mark a chapter in seanime.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/assets/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/code.js",
     "website": "https://www.mangaupdates.com/", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5ca45e3b9003b8b799619ebacbc46adf2fbdc194e5a3f29b88962bc871f05c6d",
+    "permalink": "https://www.virustotal.com/gui/file/46eea59c78e359862d4d6a8b3261a928b601a88ae8fdc8b829ea28013f60beba",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505936178292064266","1359183211099459916","1359183394512048148","1360636715643179231"],
     "scannedOnVersion": "3.9.0", "lastWorkingVersion": "3.8.7", "stars": 3, "threadId": "1509327418685395095",
-    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-07T23:20:39.817Z"
   },
   {
     "id": "mangaworld", "name": "MangaWorld", "version": "1.0.1", "author": "kRYstall9",
