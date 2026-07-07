@@ -868,11 +868,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1782780695133
   },
   {
-    "id": "mangaupdates-sync", "version": "1.1.2",
+    "id": "mangaupdates-sync", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/code.js",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5ca45e3b9003b8b799619ebacbc46adf2fbdc194e5a3f29b88962bc871f05c6d",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782795299870
+    "permalink": "https://www.virustotal.com/gui/file/46eea59c78e359862d4d6a8b3261a928b601a88ae8fdc8b829ea28013f60beba",
+    "lastWorkingVersion": "3.8.7", "timestamp": 1783466439480
   },
   {
     "id": "mangaworldadult", "version": "1.0.0",
