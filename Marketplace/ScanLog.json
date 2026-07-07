@@ -273,6 +273,13 @@
     "timestamp": 1780153479624, "lastWorkingVersion": "3.8.7"
   },
   {
+    "id": "animesamaanime", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesama/provider.js",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d285ec3197b711f4948c161cde085cf36ff6c538116ae4618d84372b59e4c881",
+    "lastWorkingVersion": "3.9.0", "timestamp": 1783452043851
+  },
+  {
     "id": "animesamamanga", "version": "2.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/animesama/provider.js",
     "flags": "0/60", "flaggedBy": [],
