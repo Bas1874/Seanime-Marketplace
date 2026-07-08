@@ -68,7 +68,7 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "aiostreams-plugin", "name": "AIOStreams", "version": "0.8.3", "author": "Viren070",
+    "id": "aiostreams-plugin", "name": "AIOStreams", "version": "0.9.0", "author": "Viren070",
     "description": "Stream content from AIOStreams directly in Seanime. Supports all streams with URLs.",
     "type": "plugin", "language": "javascript", "lang": "multi",
     "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/aiostreams-light.png",
@@ -77,7 +77,7 @@
     "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.9.1",
     "lastWorkingVersion": "3.9.1", "stars": 10, "threadId": "1499798502086017024",
-    "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-06T15:13:11.445Z"
+    "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-08T23:21:03.658Z"
   },
   {
     "id": "al-3asq", "name": "3asq", "version": "1.0.0", "author": "Bruuhim",
@@ -2614,7 +2614,7 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "stremio-custom-source", "name": "Stremio Catalog", "version": "0.8.3", "author": "Viren070",
+    "id": "stremio-custom-source", "name": "Stremio Catalog", "version": "0.9.0", "author": "Viren070",
     "description": "Exposes a Stremio addon catalog as a Seanime custom source. Intended to be paired with an AIOStreams stream provider.",
     "type": "custom-source", "language": "javascript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Stremio/stremio-brand/refs/heads/master/logos/PNG/stremio-logo-800px.png",
@@ -2623,7 +2623,7 @@
     "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1437869415344377887"], "scannedOnVersion": "3.9.1",
     "lastWorkingVersion": "3.9.1", "stars": 4, "threadId": "1499809709073367070",
-    "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-06T15:13:11.445Z"
+    "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-08T23:21:03.658Z"
   },
   {
     "id": "SubsPlease-Provider", "name": "SubsPlease", "version": "1.0.1", "author": "Bas1874",
