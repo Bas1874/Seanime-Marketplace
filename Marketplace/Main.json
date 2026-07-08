@@ -1851,7 +1851,7 @@
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaFire/main.ts",
     "website": "", "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/8bd869cd78e69a5e1cc127ce6476e090e275f1ee5bdff59740ed97fe7d20ad71",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.1", "lastWorkingVersion": null,
     "stars": 7, "threadId": "1433927730399023174", "addedAt": "2026-07-06T15:13:11.445Z",
     "updatedAt": "2026-07-06T15:13:11.445Z"
