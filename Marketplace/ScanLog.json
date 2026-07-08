@@ -144,14 +144,14 @@
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/refs/heads/main/src/my-plugin.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/fe4427867f3b46cf2c5d33dfac8e08aab48a51c1eac40029267078ab205142fa",
-    "timestamp": 1771871021968, "lastWorkingVersion": "3.9.0"
+    "timestamp": 1771871021968, "lastWorkingVersion": "3.9.1"
   },
   {
     "id": "AniList-Discussions-Integrated-Player", "version": "0.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/refs/heads/main/src/Integrated%20Player/Anilist%20Discussions%20(Integrated%20Player).ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/39c899b3a59cf85149b1931d961048c3aa5618cca25e2a2c04e2c1edce751619",
-    "timestamp": 1771868908014, "lastWorkingVersion": "3.9.0"
+    "timestamp": 1771868908014, "lastWorkingVersion": "3.9.1"
   },
   {
     "id": "anilist-favorites", "version": "1.2.2",
@@ -277,28 +277,28 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesama/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d285ec3197b711f4948c161cde085cf36ff6c538116ae4618d84372b59e4c881",
-    "lastWorkingVersion": "3.9.0", "timestamp": 1783452043851
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783452043851
   },
   {
     "id": "animesamamanga", "version": "2.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/animesama/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/ec58d1d0804eecca98a3b5dc1b3c8adc8fe0033f6ae3f79750b8da32da4f2440",
-    "lastWorkingVersion": "3.9.0", "timestamp": 1783343151811
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783343151811
   },
   {
     "id": "animesaturn", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeSaturn/provider.ts",
     "flags": "0/58", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5cef465865e9528f6df21a04b69aff099058b48e1b4072b4d26ee6e9dedf403a",
-    "lastWorkingVersion": "3.9.0", "timestamp": 1783299959288
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783299959288
   },
   {
     "id": "animesaturnmirror", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesaturnmirror/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7112be517b302279b415ed0369055b8b903520d9d1668cb7799a8df749f8d404",
-    "timestamp": 1779040626672, "lastWorkingVersion": "3.9.0"
+    "timestamp": 1779040626672, "lastWorkingVersion": "3.9.1"
   },
   {
     "id": "animesdigital", "version": "1.0.3",
@@ -347,7 +347,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeunitymirror/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5e0a89edfa34d8a41a845892a69a4eca636e92d98461fac6bf1a833b395371cb",
-    "lastWorkingVersion": "3.9.0", "timestamp": 1782838347601
+    "lastWorkingVersion": "3.9.1", "timestamp": 1782838347601
   },
   {
     "id": "animeyabu", "version": "1.0.1",
