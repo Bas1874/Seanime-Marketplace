@@ -7,5 +7,9 @@
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1426612290437910600", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension Name:**\n> YGG Torrent\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/MLB-11/YGGTorrentSeanime/refs/heads/main/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/MLB-11/YGGTorrentSeanime/refs/heads/main/manifest.json```\n> **Description:**\n> A Seanime extension that Add YGG as an AnimeTorrentProvider, Made By MLB11\n> \n> **Additional Notes:**\n> **[PASSKEY](https://www.yggtorrent.top/user/account) from YGG is required***\n> SmartSearch is bad for now, i'll figure out later how to make it good for ygg."
+  },
+  {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1495339042819014678", "reason": "404 Not Found.",
+    "originalMessageContent": "> **Extension Name:**\n> 4Anime.gg\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/KoDevV2/online-streaming-providers/refs/heads/main/4anime/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/KoDevV2/online-streaming-providers/refs/heads/main/4anime/manifest.json```\n> **Description:**\n> Use 4anime.gg as an online streaming provider, with subs and dubs support and blazing fast streaming.\n> \n> **Additional Notes:**\n> This is my first extension, so if you find bugs or errors please tell me and I will try to fix it as soon as possible, thank you!"
   }
 ]
