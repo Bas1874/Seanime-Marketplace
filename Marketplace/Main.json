@@ -1413,7 +1413,7 @@
     "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/hentai2read.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"], "scannedOnVersion": "3.9.1",
-    "lastWorkingVersion": null, "stars": 1, "threadId": "1507481043752452097", "addedAt": "2026-07-03T13:57:01.706Z",
+    "lastWorkingVersion": null, "stars": 2, "threadId": "1507481043752452097", "addedAt": "2026-07-03T13:57:01.706Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
@@ -1696,18 +1696,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "library-grid-layout", "name": "Library Grid Layout", "version": "1.1.1", "author": "Carloss616",
+    "id": "library-grid-layout", "name": "Library Grid Layout", "version": "1.1.2", "author": "Carloss616",
     "description": "Adjust how many cards per row the manga & anime library grids show, from a tray stepper.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/library-grid-layout/assets/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/library-grid-layout/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/library-grid-layout/code.js",
-    "website": "https://github.com/Carloss616/seanime-extensions", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/885cef8995452df932c4711ca6cf7622f86581ae42a63cf3e68bd8b763177d4e",
+    "website": "https://github.com/Carloss616/seanime-extensions", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/6c8ff422ace00cc6e693b6db13d136fa01df7152abcb5a9dbe9b68e3e12d0421",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.9.1",
     "lastWorkingVersion": "3.8.7", "stars": 2, "threadId": "1517287039651811400",
-    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-09T23:36:51.758Z"
   },
   {
     "id": "LN-reader", "name": "Light Novel Reader", "version": "1.6.5", "author": "Pal",
@@ -2013,18 +2013,18 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mangaupdates-sync", "name": "MangaUpdates Sync", "version": "1.2.0", "author": "Carloss616",
+    "id": "mangaupdates-sync", "name": "MangaUpdates Sync", "version": "1.2.1", "author": "Carloss616",
     "description": "Syncs your manga reading progress with MangaUpdates whenever you mark a chapter in seanime.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/assets/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/code.js",
-    "website": "https://www.mangaupdates.com/", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/46eea59c78e359862d4d6a8b3261a928b601a88ae8fdc8b829ea28013f60beba",
+    "website": "https://www.mangaupdates.com/", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/7fff4f9969b7ff9df2017c0d941c7c13c21c18518c1e8403bf1902f7ef64cd6f",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505936178292064266","1359183211099459916","1359183394512048148","1360636715643179231"],
     "scannedOnVersion": "3.9.1", "lastWorkingVersion": "3.8.7", "stars": 3, "threadId": "1509327418685395095",
-    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-07T23:20:39.817Z"
+    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-09T23:36:51.758Z"
   },
   {
     "id": "mangaworld", "name": "MangaWorld", "version": "1.0.1", "author": "kRYstall9",
@@ -2158,7 +2158,7 @@
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/4f02b35a1477201dbebcdaca09f206d3d3a01b9af3e8131e737f4f18abca303b",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1505936927189110988","1359259306087940146","1359183394512048148"],
+    "tags": ["1359183147123867881","1359259306087940146","1505936927189110988","1359183394512048148"],
     "scannedOnVersion": "3.9.1", "lastWorkingVersion": "3.8.2", "stars": 6, "threadId": "1445070621309538586",
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
@@ -2239,7 +2239,7 @@
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/675d3b929a43819a0b2e76389ac6bd8f136c7fde1a53172efeaa00e8c052c615",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
-    "scannedOnVersion": "3.9.1", "lastWorkingVersion": null, "stars": 1, "threadId": "1507914243658354689",
+    "scannedOnVersion": "3.9.1", "lastWorkingVersion": null, "stars": 2, "threadId": "1507914243658354689",
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
@@ -2253,7 +2253,7 @@
     "permalink": "https://www.virustotal.com/gui/file/a1a038dce0f2fccff6edd65685b1991544694cc0dcb57b0c42d62efa440dbb8c",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1437869415344377887"], "scannedOnVersion": "3.9.1", "lastWorkingVersion": null,
-    "stars": 2, "threadId": "1507909761130041404", "addedAt": "2026-07-03T13:57:01.706Z",
+    "stars": 3, "threadId": "1507909761130041404", "addedAt": "2026-07-03T13:57:01.706Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
