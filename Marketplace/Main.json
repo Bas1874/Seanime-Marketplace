@@ -2576,17 +2576,17 @@
     "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
-    "id": "simklsync", "name": "SimklSync", "version": "2.0.1", "author": "nnotwen",
+    "id": "simklsync", "name": "SimklSync", "version": "2.0.2", "author": "nnotwen",
     "description": "Synchronize entry progress seamlessly with SIMKL", "type": "plugin", "language": "typescript",
     "lang": "en", "icon": "https://eu.simkl.in/img_favicon/v2/favicon-192x192.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/SimklSync/simklsync.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/SimklSync/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/58", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8babe25712bf66e8014c08469408e1bd887f718b41683ef460f7afcc1bbfdd4b",
+    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5db155eaad27ab97c3f2d649cdb3e49e964841a522f0d00f24c8c77d39f5f955",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183394512048148"], "scannedOnVersion": "3.9.1",
     "lastWorkingVersion": null, "stars": 3, "threadId": "1454854331265454152", "addedAt": "2026-07-03T13:57:01.706Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-07-09T11:26:20.896Z"
   },
   {
     "id": "skip-data-manager", "name": "Skip Data Manager", "version": "1.1.0", "author": "Thekingcrusher",
