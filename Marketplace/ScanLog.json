@@ -1120,11 +1120,11 @@
     "timestamp": 1771869834200
   },
   {
-    "id": "simklsync", "version": "2.0.1",
+    "id": "simklsync", "version": "2.0.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/SimklSync/provider.ts",
-    "flags": "0/58", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8babe25712bf66e8014c08469408e1bd887f718b41683ef460f7afcc1bbfdd4b",
-    "lastWorkingVersion": null, "timestamp": 1782564546504
+    "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5db155eaad27ab97c3f2d649cdb3e49e964841a522f0d00f24c8c77d39f5f955",
+    "lastWorkingVersion": null, "timestamp": 1783596380590
   },
   {
     "id": "snow-effect", "version": "1.1.1",
