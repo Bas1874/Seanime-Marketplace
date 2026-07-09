@@ -546,11 +546,25 @@
     "timestamp": 1775816055850
   },
   {
+    "id": "discord-rpc-episode-title", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-rpc-episode-title.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/2b6680dce8530459c84de7141d7aa0c867d0fc23699e10cec423278d95dfaab2",
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783610607797
+  },
+  {
     "id": "discord-rpc-hide-nsfw", "version": "1.0.4",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Hide%20NSFW/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2837deeaf5b26b9f364eec912aecb18f57ae31eef6755cfb798671ff114a7e1e",
     "timestamp": 1771870574708
+  },
+  {
+    "id": "donghuastream", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/donghuastream/provider.js",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/daf63e45d0d2fffeefdf1de6ab4dd8f69e560475d6a14a431290ebd3aab82492",
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783610669132
   },
   {
     "id": "Doom", "version": "1.0.3",
@@ -1211,11 +1225,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1781225149061
   },
   {
-    "id": "traktsync", "version": "1.2.5",
+    "id": "traktsync", "version": "1.2.6",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/TraktSync/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/4acffcda2cba0a823fb025d6c24d094a4b630584c102e9bd25855af4c9f213e0",
-    "lastWorkingVersion": null, "timestamp": 1783270883917
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c4b5a2bec0622b93b2a86d0d50e7c07a6d8626d409c0f415887ae77f87ed2368",
+    "lastWorkingVersion": null, "timestamp": 1783610730671
   },
   {
     "id": "tsukihime", "version": "0.1.2",
