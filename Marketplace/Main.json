@@ -459,9 +459,9 @@
     "payloadURI": "https://raw.githubusercontent.com/faddix/anime-notes/main/AnimeNotes.ts",
     "website": "https://github.com/faddix/anime-notes", "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7a77c34b81b3187bb81af89aeb410411034eb944d20bd3f7c96d4fe79147dda5",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.9.1",
-    "lastWorkingVersion": "3.8.7", "stars": 4, "threadId": "1396125150142791722",
+    "lastWorkingVersion": "3.9.1", "stars": 4, "threadId": "1396125150142791722",
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
@@ -736,9 +736,9 @@
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7e4a6a608e73564bdb6bdfa3e35ded09712d7058d4f5c2d489f171069350dada",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881"], "scannedOnVersion": "3.9.1",
-    "lastWorkingVersion": "3.8.7", "stars": 6, "threadId": "1505548228865687562",
+    "lastWorkingVersion": "3.9.1", "stars": 6, "threadId": "1505548228865687562",
     "addedAt": "2026-07-06T15:13:11.445Z", "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
