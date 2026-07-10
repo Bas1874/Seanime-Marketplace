@@ -221,7 +221,7 @@
     "payloadURI": "https://raw.githubusercontent.com/faddix/anime-notes/main/AnimeNotes.ts", "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7a77c34b81b3187bb81af89aeb410411034eb944d20bd3f7c96d4fe79147dda5",
-    "timestamp": 1771871268140, "lastWorkingVersion": "3.8.7", "hadWorkingTag": false
+    "timestamp": 1771871268140, "lastWorkingVersion": "3.9.1", "hadWorkingTag": true
   },
   {
     "id": "anime-uniquestream", "version": "1.0.0",
@@ -333,7 +333,7 @@
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7e4a6a608e73564bdb6bdfa3e35ded09712d7058d4f5c2d489f171069350dada",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781642102854, "hadWorkingTag": false
+    "lastWorkingVersion": "3.9.1", "timestamp": 1781642102854, "hadWorkingTag": true
   },
   {
     "id": "AnimeUnity", "version": "1.1.3",
