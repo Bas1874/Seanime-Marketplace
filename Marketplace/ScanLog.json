@@ -4,112 +4,112 @@
     "payloadURI": "https://raw.githubusercontent.com/FracturedSora/Seanime-Account-Switcher/refs/heads/main/AccountSwitcher.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/3c4ea2c82385e5894241b08054fd051d6161325eaf8c0e312396273d4353a1dd",
-    "timestamp": 1772260703406
+    "timestamp": 1772260703406, "hadWorkingTag": false
   },
   {
     "id": "Account-Switcher-Kolex06-Version", "version": "1.0.10",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AccountSwitcherKolex06Version/provider.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/19f5e1723557e53f94d5e85899e0546fa725ff69716227c510137d0e29e7cff9",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1780971382798
+    "lastWorkingVersion": "3.8.7", "timestamp": 1780971382798, "hadWorkingTag": false
   },
   {
     "id": "acg-rip-provider", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/ACG.RIP-Torrent-Provider-Seanime/refs/heads/main/src/ACG.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/6b4bd41c16ec2b0c20794aa04cb6fd9e693de7248becb09c7ad195d193d94e81",
-    "timestamp": 1771873986694, "lastWorkingVersion": "3.8.4"
+    "timestamp": 1771873986694, "lastWorkingVersion": "3.8.4", "hadWorkingTag": false
   },
   {
     "id": "Acgnx", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Acgnx-Seanime/refs/heads/main/src/Acgnx.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/a2682aadd568006a325d56a2197ba2112e889cd3b062b15f2e3ba4e90cc3a467",
-    "timestamp": 1771872921274
+    "timestamp": 1771872921274, "hadWorkingTag": false
   },
   {
     "id": "agefans", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/agefans/provider.js",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/72362d1b5e7d4aa9cc5c161409ad055a0c3c6512a17f22e0d3cdfecdf651bd6b",
-    "timestamp": 1771869107968
+    "timestamp": 1771869107968, "hadWorkingTag": false
   },
   {
     "id": "al-3asq", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/3asq-extension/main/src/index.ts", "flags": "0/62",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/615e9651941c353a80e0602b68f26cf1dc53120c639164e5893b26cb5ab845a5",
-    "timestamp": 1771864940251
+    "timestamp": 1771864940251, "hadWorkingTag": false
   },
   {
     "id": "al-azoramoon", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/azoramoon/index.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2f5c5d502a8e4fdf4e70eb1698fe669a88c1a1e8a1fbddf13f14c91d04964eb6",
-    "timestamp": 1777688768365
+    "timestamp": 1777688768365, "hadWorkingTag": false
   },
   {
     "id": "al-mangatuk", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/mangatuk/index.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/fc3cd7d6975bb708b3552016c6e7456c2941bb8f35c5fb5ffbcea7f2e2dfee09",
-    "lastWorkingVersion": null, "timestamp": 1780942119237
+    "lastWorkingVersion": null, "timestamp": 1780942119237, "hadWorkingTag": false
   },
   {
     "id": "al-olympustaff", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/olympustaff/index.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/09caed6d8fe029d9ca07b2172c21fd7c2f96aa03e49f86540943bc2d84e1e867",
-    "timestamp": 1777688875679
+    "timestamp": 1777688875679, "hadWorkingTag": false
   },
   {
     "id": "allmangaanime", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/allmanga/provider.js",
     "flags": "0/52", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/b379e7496ecfb17367aef3ec43e82ccd34419f4a4e12b75d0cdadcef3566b93d",
-    "timestamp": 1775910198664
+    "timestamp": 1775910198664, "hadWorkingTag": false
   },
   {
     "id": "alternative-titles", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/provider.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/876b99ff574106351cd6e82dbff65b63bc91d7ee91a14843e7e4db4e737eb900",
-    "timestamp": 1778348281686
+    "timestamp": 1778348281686, "hadWorkingTag": false
   },
   {
     "id": "always-advanced-search", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/advanced-search/refs/heads/main/advsearch.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/141bd6a2f93b87dbc734323a5af1512b4bb1f572c6eee8ac8c5387bfdcac4fff",
-    "timestamp": 1771873662665
+    "timestamp": 1771873662665, "hadWorkingTag": false
   },
   {
     "id": "anibd", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anibd/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5521e40e14d1a85513d08cf03fc36a8d65a6524f437cd5e8602b70e7806e93f1",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782809532521
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782809532521, "hadWorkingTag": false
   },
   {
     "id": "anidao", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidao/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/4aaeeb726e443b49da9638921dea9746a7560c445f0034cf0902752e343bd5b0",
-    "timestamp": 1780153587206, "lastWorkingVersion": "3.8.4"
+    "timestamp": 1780153587206, "lastWorkingVersion": "3.8.4", "hadWorkingTag": false
   },
   {
     "id": "anidb", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/065ec31a990f7196605f4a7ab67b5441d2c709a3f28e9272752c104c6f90502d",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1780752515687
+    "lastWorkingVersion": "3.8.7", "timestamp": 1780752515687, "hadWorkingTag": false
   },
   {
     "id": "anidream", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AniDream/main.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/003c94154ec832bc739740d3f2d1dfc2e6a06453637cffdc3b6639d33ff887d1",
-    "timestamp": 1771871714308
+    "timestamp": 1771871714308, "hadWorkingTag": false
   },
   {
     "id": "anikoto", "version": "1.3.55",
@@ -123,476 +123,476 @@
     "payloadURI": "https://raw.githubusercontent.com/vsecoder/AniLiberty-Seanime/main/src/AniLiberty.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/396d7f28016845ee0ff9677bbb5f61f2d434625c02340f7fbb5f9fbe8d784f54",
-    "timestamp": 1771870620962
+    "timestamp": 1771870620962, "hadWorkingTag": false
   },
   {
     "id": "anilist-activity", "version": "1.1.4",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/anilist-activities/main.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/eee531618c09c59d13061d2c0328f5a1c5a979f95cf76da6a72c61ca9238e5f9",
-    "timestamp": 1778519222787
+    "timestamp": 1778519222787, "hadWorkingTag": false
   },
   {
     "id": "anilist-autopause", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Autopause/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d77e1f6e36f74a3cf241c1e23c251bbccdffc9908c29fe74de47a82f59f80d66",
-    "timestamp": 1771871191417
+    "timestamp": 1771871191417, "hadWorkingTag": false
   },
   {
     "id": "anilist-discussions", "version": "1.5.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/refs/heads/main/src/my-plugin.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/fe4427867f3b46cf2c5d33dfac8e08aab48a51c1eac40029267078ab205142fa",
-    "timestamp": 1771871021968, "lastWorkingVersion": "3.9.1"
+    "timestamp": 1771871021968, "lastWorkingVersion": "3.9.1", "hadWorkingTag": true
   },
   {
     "id": "AniList-Discussions-Integrated-Player", "version": "0.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/refs/heads/main/src/Integrated%20Player/Anilist%20Discussions%20(Integrated%20Player).ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/39c899b3a59cf85149b1931d961048c3aa5618cca25e2a2c04e2c1edce751619",
-    "timestamp": 1771868908014, "lastWorkingVersion": "3.9.1"
+    "timestamp": 1771868908014, "lastWorkingVersion": "3.9.1", "hadWorkingTag": true
   },
   {
     "id": "anilist-favorites", "version": "1.2.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Favorites/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/8ac3d18b2494d61bcb154f4a5a5fbefd65bf42a2e989aff307bfb79a2149ef86",
-    "timestamp": 1771870328426
+    "timestamp": 1771870328426, "hadWorkingTag": false
   },
   {
     "id": "anilist-forums", "version": "0.1.5",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Forums/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/35ecd0c83047be025ac77be8551e53c0637da29a13c77d53f8e9b5cd4f2c0ead",
-    "timestamp": 1772211691763
+    "timestamp": 1772211691763, "hadWorkingTag": false
   },
   {
     "id": "anilist-notifications", "version": "2.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/anilist-notifications/provider.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2d92a5aad240703a394a26020a718111af4cfee6713bfb8e9562dc97817c715a",
-    "timestamp": 1778564530406
+    "timestamp": 1778564530406, "hadWorkingTag": false
   },
   {
     "id": "AniList-Notifications-Kolex06-Version", "version": "1.0.18",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AniListNotificationsKolex06Version/provider.ts",
     "flags": "0/56", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/52f02f1cba966bef0b683cfff95d28a876315333760852126eb4487502ce2ae2",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782953878597
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782953878597, "hadWorkingTag": false
   },
   {
     "id": "anilist-private", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Private/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/cb4b76770ec0572a900f718ffb83da25cf6a036a3dc007bd9a8b7cb68314881d",
-    "timestamp": 1773074741898
+    "timestamp": 1773074741898, "hadWorkingTag": false
   },
   {
     "id": "anilist-watch-order", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/1e7a39e3d4d85f427fa48896caaeb3edf39a7ce0be002cba6cad4cbd587a4f35",
-    "timestamp": 1778434749603
+    "timestamp": 1778434749603, "hadWorkingTag": false
   },
   {
     "id": "animapper-animevietsub", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/SinonCute/seanime-extensions/main/animapper-animevietsub/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/3c597c9a96bb687c0993e0b92c2eb78d538dff12aa4c42941917d28d0ec90175",
-    "timestamp": 1775320992386
+    "timestamp": 1775320992386, "hadWorkingTag": false
   },
   {
     "id": "animapper-niniyo", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/SinonCute/seanime-extensions/main/animapper-niniyo/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/cb0f52fac2c08e44547ce7b30df5fcab68a3fc79da0e0567e03f42d5bd69e8d9",
-    "timestamp": 1775320946105
+    "timestamp": 1775320946105, "hadWorkingTag": false
   },
   {
     "id": "anime-news", "version": "1.2.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/aninewsnet-seanime/refs/heads/main/animenews.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5a3d4ebfaae0aeee9c348e70eef9ea6ea4eeaf9b11ae9b471ce4a86262b41aa0",
-    "timestamp": 1771868584596
+    "timestamp": 1771868584596, "hadWorkingTag": false
   },
   {
     "id": "anime-notes", "version": "2.0.2",
     "payloadURI": "https://raw.githubusercontent.com/faddix/anime-notes/main/AnimeNotes.ts", "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7a77c34b81b3187bb81af89aeb410411034eb944d20bd3f7c96d4fe79147dda5",
-    "timestamp": 1771871268140, "lastWorkingVersion": "3.8.7"
+    "timestamp": 1771871268140, "lastWorkingVersion": "3.8.7", "hadWorkingTag": false
   },
   {
     "id": "anime-uniquestream", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeUniqueStream/main.ts",
     "flags": "0/54", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/87c462cb03bdb9ec3905c733da1e936ee4ba277a88a8be16193540928fffe606",
-    "timestamp": 1771872489448
+    "timestamp": 1771872489448, "hadWorkingTag": false
   },
   {
     "id": "animeav1", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeAV1/main.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c5a32272cb1c2171476792ebaf2404497092015b03a2286b0dfd048dbaf9adf1",
-    "timestamp": 1779429726550, "lastWorkingVersion": "3.8.7"
+    "timestamp": 1779429726550, "lastWorkingVersion": "3.8.7", "hadWorkingTag": false
   },
   {
     "id": "animeflv", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/refs/heads/master/src/AnimeFLV/index.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/6e986e30268ae365f47b9574925798512b3d2ae1a8db03a6a26a7829d6e9e991",
-    "timestamp": 1776965711216
+    "timestamp": 1776965711216, "hadWorkingTag": false
   },
   {
     "id": "animegg", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animegg/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/ce22db09a72d81908fc14f35b271491bd7045020009af23863aec79f029e4127",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781613145012
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781613145012, "hadWorkingTag": false
   },
   {
     "id": "animeheaven", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7bb0772f9af42dceb34f794884fdf8f12497135b4750a3d41ab09fd0865bd794",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782737451554
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782737451554, "hadWorkingTag": false
   },
   {
     "id": "animekai", "version": "1.2.1",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeKai/provider.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/01cd3f120276fd50ccd2a2dea54085a365c86c54c34e2da56aa4d17bfca68035",
-    "timestamp": 1774792228218
+    "timestamp": 1774792228218, "hadWorkingTag": false
   },
   {
     "id": "animesalt", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/main.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c7b7011623c0a7465d05c89ef4f61aaed9c00934b9dccbeadb02eccf2d2be11b",
-    "timestamp": 1780153479624, "lastWorkingVersion": "3.8.7"
+    "timestamp": 1780153479624, "lastWorkingVersion": "3.9.1", "hadWorkingTag": true
   },
   {
     "id": "animesamaanime", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesama/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d285ec3197b711f4948c161cde085cf36ff6c538116ae4618d84372b59e4c881",
-    "lastWorkingVersion": "3.9.1", "timestamp": 1783452043851
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783452043851, "hadWorkingTag": true
   },
   {
     "id": "animesamamanga", "version": "2.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/animesama/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/ec58d1d0804eecca98a3b5dc1b3c8adc8fe0033f6ae3f79750b8da32da4f2440",
-    "lastWorkingVersion": "3.9.1", "timestamp": 1783343151811
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783343151811, "hadWorkingTag": true
   },
   {
     "id": "animesaturn", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeSaturn/provider.ts",
     "flags": "0/58", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5cef465865e9528f6df21a04b69aff099058b48e1b4072b4d26ee6e9dedf403a",
-    "lastWorkingVersion": "3.9.1", "timestamp": 1783299959288
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783299959288, "hadWorkingTag": true
   },
   {
     "id": "animesaturnmirror", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesaturnmirror/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7112be517b302279b415ed0369055b8b903520d9d1668cb7799a8df749f8d404",
-    "timestamp": 1779040626672, "lastWorkingVersion": "3.9.1"
+    "timestamp": 1779040626672, "lastWorkingVersion": "3.9.1", "hadWorkingTag": true
   },
   {
     "id": "animesdigital", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesdigital/animesdigital.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/396f2f0ef947da232c1aacfd6b43f63c366511684e26a3c21fa8d6a999b2c5bf",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782968838403
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782968838403, "hadWorkingTag": false
   },
   {
     "id": "animesonlinecc-provider", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesonlinecc/animesonlinecc.ts",
     "flags": "0/54", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/693beb3cc6e2147e91f1db302ef4f441ca306f258b225f82cbf6ceb82cd0621c",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781526812053
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781526812053, "hadWorkingTag": false
   },
   {
     "id": "animethemes", "version": "2.0.4",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/animethemes.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/52d9bf8e5d8c80e60bc893f27c1f55f98dfd76fe63271ecce806e38c239150e9",
-    "timestamp": 1778207800949
+    "timestamp": 1778207800949, "hadWorkingTag": false
   },
   {
     "id": "animetoast", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animetoast/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2038eede87d10744a2ac68f3d76aa6e8d970464dfd759e39e5304049fc16a326",
-    "timestamp": 1776472247923
+    "timestamp": 1776472247923, "hadWorkingTag": false
   },
   {
     "id": "animetosho-new", "version": "2.3.5",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7e4a6a608e73564bdb6bdfa3e35ded09712d7058d4f5c2d489f171069350dada",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781642102854
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781642102854, "hadWorkingTag": false
   },
   {
     "id": "AnimeUnity", "version": "1.1.3",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeUnity/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/54a3fc874ec355556fdbd21d63ec31b63b8fd6c169c8a401fa1ac42e709a3dcf",
-    "timestamp": 1778694649545
+    "timestamp": 1778694649545, "hadWorkingTag": false
   },
   {
     "id": "animeunitymirror", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeunitymirror/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5e0a89edfa34d8a41a845892a69a4eca636e92d98461fac6bf1a833b395371cb",
-    "lastWorkingVersion": "3.9.1", "timestamp": 1782838347601
+    "lastWorkingVersion": "3.9.1", "timestamp": 1782838347601, "hadWorkingTag": true
   },
   {
     "id": "animeyabu", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animeyabu/animeyabu.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/946007201afbadb4ccb7d84bdbebcff295cadf811865b32f9c6ba066a044e325",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782939222971
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782939222971, "hadWorkingTag": false
   },
   {
     "id": "anitube", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anitube/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/dc1a0badc3a3520e300981e905143c2c83ee5dc584493fc3838f0f2a332e19f9",
-    "timestamp": 1771867656905
+    "timestamp": 1771867656905, "hadWorkingTag": false
   },
   {
     "id": "aniworld", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/aniworld/provider.js",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/023ae561db52641d8afeba90366e243790e57c6d749de8b185188ec72778a92f",
-    "timestamp": 1771865304049
+    "timestamp": 1771865304049, "hadWorkingTag": false
   },
   {
     "id": "anizone", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/refs/heads/master/src/AniZone/index.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/289376c583dad130d616bcee0a2e832e2a866060802fd6236e0b9b45e87431de",
-    "timestamp": 1771871468452
+    "timestamp": 1771871468452, "hadWorkingTag": false
   },
   {
     "id": "antiseeding", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/pal-droid/seanime-marketplace/refs/heads/main/antiseeding.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0d61bbde2ffadb85841e22f5b07a7e7120860fbf200a60d6bb0ae6bed49716ac",
-    "timestamp": 1771866081063
+    "timestamp": 1771866081063, "hadWorkingTag": false
   },
   {
     "id": "aq-anikoto", "version": "1.3.56",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/386ba5190f39c1fea9d710a5467ee3a3902ee7988cabcdae20af4ab99756d601",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782420623994
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782420623994, "hadWorkingTag": false
   },
   {
     "id": "aq-animepahe-beta", "version": "0.2.26",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/416ca9d9cb07c8ce79d273dbbd794f21cef9556199ea768d57c20247d07c6544",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1783213763188
+    "lastWorkingVersion": "3.8.7", "timestamp": 1783213763188, "hadWorkingTag": false
   },
   {
     "id": "aq-anizone", "version": "1.1.8",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/4e84f88ad58b9dc38a8778b2ab9e93d59299b440651f7fbc7eed722deb00e3c6",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782506818893
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782506818893, "hadWorkingTag": false
   },
   {
     "id": "aq-aquaprefs", "version": "1.1.53",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquaprefs/plugin.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/dcf30b10829697ceff33300bde739f24bbc64c956bcdedf8c634efc7fa135559",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782420532175
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782420532175, "hadWorkingTag": false
   },
   {
     "id": "aq-aquatils", "version": "0.8.67",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquatils/plugin.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/15aa37727ce3d932764948c7677e4b46294d08ba75349b661ab3e1919fa1578f",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782895986492
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782895986492, "hadWorkingTag": false
   },
   {
     "id": "aq-seatags", "version": "1.7.12",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/seatags/plugin.ts",
     "flags": "0/54", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/715361c80d289638973fc9224e8b20bdc9ccd6b0bd547907b8b02f4248265113",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1783110611130
+    "lastWorkingVersion": "3.8.7", "timestamp": 1783110611130, "hadWorkingTag": false
   },
   {
     "id": "asunatracks-sync", "version": "0.1.22",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AsunaTracksSync/provider.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/fe67076d5b5ee19009e386dcf2483d9d80eb5e154584894cee8108da2cebb309",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1780811220020
+    "lastWorkingVersion": "3.9.1", "timestamp": 1780811220020, "hadWorkingTag": true
   },
   {
     "id": "asurascans", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/asurascans/provider.js",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/f50eb061da0e8531fe0e985c93990ccd531718b548066f275eb18eee840ff1c7",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782204112427
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782204112427, "hadWorkingTag": false
   },
   {
     "id": "atsumaru", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/atsumaru/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2a8538f53c057caea9dce9d527b80bc29928bc48518462e9bced7561e71f707d",
-    "timestamp": 1778348327690
+    "timestamp": 1778348327690, "hadWorkingTag": false
   },
   {
     "id": "banner-remover", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/refs/heads/main/src/banner-remover.ts",
     "flags": "1/61", "flaggedBy": ["SUPERAntiSpyware"],
     "permalink": "https://www.virustotal.com/gui/file/8fab2772ab44ec9d8cd9bf811e494e8a944ec7c1c083e537dd9315d0e5fd8822",
-    "timestamp": 1771880015497
+    "timestamp": 1771880015497, "hadWorkingTag": false
   },
   {
     "id": "bokugents", "version": "1.0.4",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Bokugents/main.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/9f22e8e6b64b55e079ab1ca14862badc085aadabb81433197394a81f859f73f8",
-    "lastWorkingVersion": null, "timestamp": 1781440325692
+    "lastWorkingVersion": null, "timestamp": 1781440325692, "hadWorkingTag": false
   },
   {
     "id": "capibaratraductor", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/main.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7b964dadae8d19ead09f74ec9db8c58dc5429ca80474a27d924cd085d05f53b6",
-    "timestamp": 1776706078054
+    "timestamp": 1776706078054, "hadWorkingTag": false
   },
   {
     "id": "cerberus-series", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/CerberusSeries/main.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7303776d4e8801d803fa0ebe62a68f592ae05c4b1c1ee60fb7f5e44a99706446",
-    "lastWorkingVersion": null, "timestamp": 1781368264365
+    "lastWorkingVersion": null, "timestamp": 1781368264365, "hadWorkingTag": false
   },
   {
     "id": "comix", "version": "1.4.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/comix/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/79e14fadb3d6ce74c2416cf716f280a9fb8522e1c2d38bed72af8556881c793b",
-    "timestamp": 1778348374202
+    "timestamp": 1778348374202, "hadWorkingTag": false
   },
   {
     "id": "cookie-clicker", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Cookie-Clicker/refs/heads/main/cookie-clicker.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/4cb7b5a5fd99d8d93f2eab444aa848413680a19467f2c8cc3d8565f32461d930",
-    "timestamp": 1771866767985
+    "timestamp": 1771866767985, "hadWorkingTag": false
   },
   {
     "id": "cubari", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/cubari/cubari.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5eb18b9b477720aa4ebe6e8898a631b14be7ff126a78690afdb2061d7411a97f",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781872625410
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781872625410, "hadWorkingTag": false
   },
   {
     "id": "custom-css-manager", "version": "1.0.10",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Custom%20CSS%20Manager/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/3fbf6f2d8d333318eb4e6fdb524936d652cbd507643f5a9e26b79bdb01882444",
-    "timestamp": 1771868507440
+    "timestamp": 1771868507440, "hadWorkingTag": false
   },
   {
     "id": "custom-episode-metadata", "version": "1.0.7",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Custom%20Episode%20Metadata/provider.ts",
     "flags": "0/56", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5408e15b12ada9ebcaecec75caa512c0b72b6cc250d7ea5e5eeb93065cb18580",
-    "timestamp": 1771867501803
+    "timestamp": 1771867501803, "hadWorkingTag": false
   },
   {
     "id": "darkmahou-provider", "version": "1.0.9",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/darkmahou/darkmahou-provider.ts",
     "flags": "0/57", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/1a8d1b4da4344b77148e5d9d9a4452d4bc2f48085b4dedff75127a20424db3c0",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781829865330
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781829865330, "hadWorkingTag": false
   },
   {
     "id": "dattebayobr-provider", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/dattebayobr/dattebayobr.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c683659edef21a2c75d677b932855a9fb66cea299b5b7cefe6b0247947099a8a",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781541091282
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781541091282, "hadWorkingTag": false
   },
   {
     "id": "debridtoggle", "version": "1.2.1",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/DebridToggle/main.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/8a4e4906958a0aaa62118d45b0e5c740a04718cf32f7ffff481ce1fe2d701d5c",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1783095660692
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783095660692, "hadWorkingTag": true
   },
   {
     "id": "delete-watched-episodes", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/dadangdut33/seanime-extensions/refs/heads/master/plugins/delete-watched-episodes/code.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/3664043eb70e23f5d6276d6c3fa8ad2e8886d32205481a1cda124dc6559a6d15",
-    "timestamp": 1771865537122
+    "timestamp": 1771865537122, "hadWorkingTag": false
   },
   {
     "id": "demoniscans", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/faddix/demonicscans/main/demonicscans.ts", "flags": "0/62",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/15cc462939b495f44227cc8d4fe384e1642411955fa73cfa2571e07abfdccbdc",
-    "timestamp": 1775816055850
+    "timestamp": 1775816055850, "hadWorkingTag": false
   },
   {
     "id": "discord-rpc-episode-title", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-rpc-episode-title.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2b6680dce8530459c84de7141d7aa0c867d0fc23699e10cec423278d95dfaab2",
-    "lastWorkingVersion": "3.9.1", "timestamp": 1783610607797
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783610607797, "hadWorkingTag": true
   },
   {
     "id": "discord-rpc-hide-nsfw", "version": "1.0.4",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Hide%20NSFW/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2837deeaf5b26b9f364eec912aecb18f57ae31eef6755cfb798671ff114a7e1e",
-    "timestamp": 1771870574708
+    "timestamp": 1771870574708, "hadWorkingTag": false
   },
   {
     "id": "donghuastream", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/donghuastream/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/daf63e45d0d2fffeefdf1de6ab4dd8f69e560475d6a14a431290ebd3aab82492",
-    "lastWorkingVersion": "3.9.1", "timestamp": 1783610669132
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783610669132, "hadWorkingTag": true
   },
   {
     "id": "Doom", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Doom-Seanime/refs/heads/main/src/Doom.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/590751a1d8cd18a10bd36ea93a78e6486f5ba909fe5fa82e42fff9f0a2eb0cee",
-    "lastWorkingVersion": "3.8.3", "timestamp": 1780696536973
+    "lastWorkingVersion": "3.8.3", "timestamp": 1780696536973, "hadWorkingTag": false
   },
   {
     "id": "Dub-Schedule", "version": "1.5.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Dub-Schedule-Seanime/refs/heads/main/src/Dub-Schedule.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/89e7cee1a9f15eb235fa985d879386ff1109f164b423d551084c0633de99e6b5",
-    "lastWorkingVersion": "3.8.3", "timestamp": 1783248564341
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783248564341, "hadWorkingTag": true
   },
   {
     "id": "episodeshistory", "version": "1.3.0",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/EpisodesHistory-Plugin/refs/heads/main/src/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/445af6333a09b4c7bc2e72d1284745d7521c825fca7d46b1a0cbeddb06084675",
-    "timestamp": 1771873431222
+    "timestamp": 1771873431222, "hadWorkingTag": false
   },
   {
     "id": "fancy-fonts", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Fancy%20Fonts/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/1ba13d0530f226d2cc1cef4c2b67c0a50fc8c3c9353231419d4933473706a11c",
-    "timestamp": 1771870405562
+    "timestamp": 1771870405562, "hadWorkingTag": false
   },
   {
     "id": "fouranimegg", "version": "1.1.0",
@@ -606,315 +606,315 @@
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/GojoWtf/provider.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/cb1d9714c7b2a19f6aa5f8860b4a3324e84bf681e6f82f062683da44e2902ed3",
-    "timestamp": 1778121344178, "lastWorkingVersion": "3.8.7"
+    "timestamp": 1778121344178, "lastWorkingVersion": "3.8.7", "hadWorkingTag": false
   },
   {
     "id": "goyabu-provider", "version": "1.0.5",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/goyabu/goyabu.ts",
     "flags": "0/58", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/f76fb9bd23f855aef0e98fdef0e2d45622f6efe9c864c6cd9a51c8a8094ee544",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781526966773
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781526966773, "hadWorkingTag": false
   },
   {
     "id": "hentaisaturn", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/hentaisaturn/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/bcc8199802daa5524a523d86ffca7366061d05307ca4dedaa9ecdc649b257cb6",
-    "timestamp": 1774835477735
+    "timestamp": 1774835477735, "hadWorkingTag": false
   },
   {
     "id": "hentaiworld", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/hentaiworld/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/315ca42d481cf67b5bf7d1c33ddb4000bfe0b9b2bc1db57d992af141438e42e0",
-    "timestamp": 1777256385156
+    "timestamp": 1777256385156, "hadWorkingTag": false
   },
   {
     "id": "hianime", "version": "1.1.3",
     "payloadURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/hianime/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/f4de84df7740af06cfc171a86fb2a28be9b0698daaccd9fa3f8814f9eb039ec0",
-    "timestamp": 1771869942010
+    "timestamp": 1771869942010, "hadWorkingTag": false
   },
   {
     "id": "hinatasoul-provider", "version": "1.1.5",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/hinatasoul/hinatasoul.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/71f77e195a769366795c4f205ae940d8a92bd1f33ce6adcd08fc30806d75e2ad",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781829480910
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781829480910, "hadWorkingTag": false
   },
   {
     "id": "horizontal-scroll", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/horizontal-scroll/main.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/b18a06424a327db47086ed05473efaec0fc843fae6ac09bbcf38aaebf3c5a94b",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782506956944
+    "lastWorkingVersion": "3.9.1", "timestamp": 1782506956944, "hadWorkingTag": true
   },
   {
     "id": "ilcorsaronero", "version": "2.0.0",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-iCN/main/iCN.ts", "flags": "0/62",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/79f92ffd2211c3f94d434f47927cda9b4fd5356176425bf1898568d8d6c475c3",
-    "timestamp": 1771866877055
+    "timestamp": 1771866877055, "hadWorkingTag": false
   },
   {
     "id": "jkanime", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/JkAnime/main.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/a3a1017351c1652cdb053c48a2a9a1675cabd7c56c2c340b80534ff35fc83578",
-    "timestamp": 1776663474750
+    "timestamp": 1776663474750, "hadWorkingTag": false
   },
   {
     "id": "kagane-source", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/KaganeSoruce/main.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/59eba7f64331a3875f34ea5c61709e9f9f002b9415ecc033f48b7b02f4f8b87e",
-    "timestamp": 1775450874046
+    "timestamp": 1775450874046, "hadWorkingTag": false
   },
   {
     "id": "kitsusync", "version": "1.3.1",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/KitsuSync/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/48812b33d5a4deaec2caadee1c83adc29a2c73d6274315d0f5a5b49dd07b6914",
-    "timestamp": 1776299336355
+    "timestamp": 1776299336355, "hadWorkingTag": false
   },
   {
     "id": "komikcast", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/komikcast/provider.js",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/73b22cb77cb2f943b99407390a4cbb122ef2e3d84b6bc8964de8c5afe0bc47f6",
-    "timestamp": 1771865863676
+    "timestamp": 1771865863676, "hadWorkingTag": false
   },
   {
     "id": "komiku", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/komiku/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/9783eb6b10c264b75fad16a40fddfb0f4b89614db8d56299cbb3b6f98bef4b19",
-    "timestamp": 1771872642749
+    "timestamp": 1771872642749, "hadWorkingTag": false
   },
   {
     "id": "kuromangas", "version": "1.0.6",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/a52bfdbe72d9c300c0e4c4631857f3c54ab2f39ccdc4ef3198cee51e6cb3e818",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1783350729174
+    "lastWorkingVersion": "3.8.7", "timestamp": 1783350729174, "hadWorkingTag": false
   },
   {
     "id": "latanime-online-provider", "version": "0.1.11",
     "payloadURI": "https://raw.githubusercontent.com/lens7y/seanime-ext-latanime/v0.1.11/src/provider.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d45a1632455c3aeaa06a93634cba7b52e69738cd8ba139632eaa393e70e9a569",
-    "lastWorkingVersion": null, "timestamp": 1783350791099
+    "lastWorkingVersion": null, "timestamp": 1783350791099, "hadWorkingTag": false
   },
   {
     "id": "leercapitulo", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/LeerCapitulo/main.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/ff237d979f5f0a46582902831a2736c15514e1c075e993ef9599339d8a1f855d",
-    "lastWorkingVersion": null, "timestamp": 1781771879989
+    "lastWorkingVersion": null, "timestamp": 1781771879989, "hadWorkingTag": false
   },
   {
     "id": "leermangaesp", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/LeerMangaEsp/main.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/74d3c22ea01c6dc0ef2a0d3a621a40b70d1c7cf2a6b99ac6ee663cef194da118",
-    "timestamp": 1780025148475
+    "timestamp": 1780025148475, "hadWorkingTag": false
   },
   {
     "id": "lelmanga", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/lelmanga/provider.js",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/b778638c6ac1e03ffac5914573bf4b1a2d6773afb274a742d8c736068b869433",
-    "timestamp": 1774230107118
+    "timestamp": 1774230107118, "hadWorkingTag": false
   },
   {
     "id": "library-grid-layout", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/library-grid-layout/code.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/6c8ff422ace00cc6e693b6db13d136fa01df7152abcb5a9dbe9b68e3e12d0421",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1783639380941
+    "lastWorkingVersion": "3.8.7", "timestamp": 1783639380941, "hadWorkingTag": false
   },
   {
     "id": "LN-reader", "version": "1.6.5",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/main.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0813faccc6b54f50d4d80030b2f3ba57c94155231494c3fdf1c15f802e9eee91",
-    "timestamp": 1778121175776
+    "timestamp": 1778121175776, "hadWorkingTag": false
   },
   {
     "id": "lst", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/SamF-Web/LST-Seanime-Extension/refs/heads/main/provider.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0b87220ee29d2383c9d025adb463eee232975280e6c344d6abd7b62104a74c99",
-    "lastWorkingVersion": "3.8.3", "timestamp": 1780603989909
+    "lastWorkingVersion": "3.8.3", "timestamp": 1780603989909, "hadWorkingTag": false
   },
   {
     "id": "mal-button", "version": "1.0.18",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/MAL-Button-Seanime/refs/heads/main/src/MAL.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/842d065c90dc2fa36de005436acc4b2a440b9f61b99dc4d8d3430c56d526c98a",
-    "timestamp": 1771867997959
+    "timestamp": 1771867997959, "hadWorkingTag": false
   },
   {
     "id": "mal-unofficial", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MAL/main.ts",
     "flags": "0/55", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/78ecb38079a070f179bdac3f399f71d29742ed8d1901d4be716ca7ddd54f3467",
-    "timestamp": 1777299568044
+    "timestamp": 1777299568044, "hadWorkingTag": false
   },
   {
     "id": "MALSync", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/MALSync-Seanime/refs/heads/main/src/MALSync.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/483672be191a98fd3c7cc86305c030e69b7687568108bed2f89f55397c2d5c8f",
-    "timestamp": 1771869278116
+    "timestamp": 1771869278116, "hadWorkingTag": false
   },
   {
     "id": "mangabaka", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaBaka/main.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/61c94266f62eeada64aa6a58eeb138e2c612ae90e75826a5429c8a6075aa3448",
-    "timestamp": 1775450812779
+    "timestamp": 1775450812779, "hadWorkingTag": false
   },
   {
     "id": "mangabats", "version": "1.2.3",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/manganato/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/188397f8e18d5f3b79c773ecd155436cdc7513e4e37189347a1963cafc641653",
-    "timestamp": 1778207709073
+    "timestamp": 1778207709073, "hadWorkingTag": false
   },
   {
     "id": "mangabuddy", "version": "2.4.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangabuddy/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/dc27171769b9c47e6bc4da07704c33fc4aaa16d1d11045b4575c9d2548496d97",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781598744904
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781598744904, "hadWorkingTag": false
   },
   {
     "id": "mangacloud", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangacloud/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/f2676d37f3aa7a35bba25be67b2f902febca409b1c66684924f607433fe3c23c",
-    "timestamp": 1777515701288
+    "timestamp": 1777515701288, "hadWorkingTag": false
   },
   {
     "id": "mangadex", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/HyperKiko/seanime-extensions/main/src/mangadex/mangadex.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c73c2ce2438e8e9fd4924f72d8f5f27d09dc744f39af761cff9ede3c5aa132d6",
-    "timestamp": 1771872812894
+    "timestamp": 1771872812894, "hadWorkingTag": false
   },
   {
     "id": "mangadex-source", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaDexSource/main.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/bdad53639e88d5ca370327ba4e56d871cb7aa1ce0afe5d11662e328dd4106655",
-    "timestamp": 1771872704692
+    "timestamp": 1771872704692, "hadWorkingTag": false
   },
   {
     "id": "mangadot", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangadot/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/624559bd86a1480701821b456679c6f4650943495dafea6d640c7f09c716db9e",
-    "timestamp": 1777515824151
+    "timestamp": 1777515824151, "hadWorkingTag": false
   },
   {
     "id": "mangafire", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaFire/main.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/8bd869cd78e69a5e1cc127ce6476e090e275f1ee5bdff59740ed97fe7d20ad71",
-    "timestamp": 1771867220980
+    "timestamp": 1771867220980, "hadWorkingTag": false
   },
   {
     "id": "mangafreak", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mangafreak/provider.js",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/cd548c38cf6fa4d0c0b94951a7170fa49273b09c2f5891350788c5e9a359ab56",
-    "timestamp": 1771870944725
+    "timestamp": 1771870944725, "hadWorkingTag": false
   },
   {
     "id": "mangahub", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mangahub/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/bb4f308fbe1f94dcf1491b80c5533317983ad74980ded692d9311f8527149115",
-    "timestamp": 1778780997647
+    "timestamp": 1778780997647, "hadWorkingTag": false
   },
   {
     "id": "mangakatana", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangakatana/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/a053f1d82a31aa72186d371bcb950dc8fae32fc9ae236326e152346835d0434d",
-    "timestamp": 1777602163233
+    "timestamp": 1777602163233, "hadWorkingTag": false
   },
   {
     "id": "mangalivre-tv", "version": "1.1.7",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mangalivre.tv/mangalivre-tv.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/e6f61b19c8687d6b19820ceac685f1d54346a99605bd6320a0ab821903fc2b75",
-    "lastWorkingVersion": null, "timestamp": 1783343198437
+    "lastWorkingVersion": null, "timestamp": 1783343198437, "hadWorkingTag": false
   },
   {
     "id": "mangaoni", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/MangaOni/main.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2b066bff180770323c6bc9d63af0d9b5a2c0b1ee4685c7e9d3e3f94c287fe173",
-    "timestamp": 1776879226643
+    "timestamp": 1776879226643, "hadWorkingTag": false
   },
   {
     "id": "mangapark", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Ari-03/mangapark/refs/heads/main/provider.ts", "flags": "0/61",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/e18ce244821562b06c653d57c247bfe2ad38a9a440a27de26a0dfce28c3f08f9",
-    "timestamp": 1771866456161
+    "timestamp": 1771866456161, "hadWorkingTag": false
   },
   {
     "id": "mangas-in", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/master/src/MangasIn/main.ts",
     "flags": "0/56", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c835de90f8f7bebf540bd6b8893220284d006c70b6e6cfb8af3a745766fbd391",
-    "lastWorkingVersion": null, "timestamp": 1781771834103
+    "lastWorkingVersion": null, "timestamp": 1781771834103, "hadWorkingTag": false
   },
   {
     "id": "mangaupdates", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/custom-source/mangaupdates/code.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/31262fa49d379e2494d68fd9312463bf1221bea5daf5dce9582cd505565b4dc0",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782780695133
+    "lastWorkingVersion": "3.9.1", "timestamp": 1782780695133, "hadWorkingTag": true
   },
   {
     "id": "mangaupdates-sync", "version": "1.2.1",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/code.js",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7fff4f9969b7ff9df2017c0d941c7c13c21c18518c1e8403bf1902f7ef64cd6f",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1783640208435
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783640208435, "hadWorkingTag": true
   },
   {
     "id": "mangaworldadult", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/MangaWorldAdult/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/8d36e66211e937363e91a2a083b61ad552bff75e49b201bc34a2973d02442481",
-    "timestamp": 1771869231822
+    "timestamp": 1771869231822, "hadWorkingTag": false
   },
   {
     "id": "manhastro", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/manhastro/manhastro.ts",
     "flags": "0/58", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7da6576456d0f07791104519379f0ae29c4ac1d87983ca2e7dfd23e3a483897d",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781858269692
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781858269692, "hadWorkingTag": false
   },
   {
     "id": "manhwaweb", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/ManhwaWeb/index.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/f6ed434c98b0221adb49431e32d2db66040073e322aafa461584351eaaf14b5d",
-    "timestamp": 1771873231120
+    "timestamp": 1771873231120, "hadWorkingTag": false
   },
   {
     "id": "Marketplace-Plus", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/55ebcd3073108e639b43cf121ffb2ae87aef535bcd929a98aa83c5a366919f77",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1783099327659
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783099327659, "hadWorkingTag": true
   },
   {
     "id": "Marketplace+", "version": "1.0.0",
@@ -928,371 +928,371 @@
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mediocrescan/mediocrescan.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/1b0c83a77ff535706f6739c4f6bdcbd3f7a1b0de640da306c518bce679620712",
-    "lastWorkingVersion": "3.8.3", "timestamp": 1783343012293
+    "lastWorkingVersion": "3.8.3", "timestamp": 1783343012293, "hadWorkingTag": false
   },
   {
     "id": "mh-scans", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/MhScans/main.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d5236c60eb31ad6181e83c053dcc8edb4e2ed1bcc4ff00c1639a2917df2b0dda",
-    "lastWorkingVersion": null, "timestamp": 1781368540573
+    "lastWorkingVersion": null, "timestamp": 1781368540573, "hadWorkingTag": false
   },
   {
     "id": "my-list-table-view", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/dadangdut33/seanime-extensions/refs/heads/master/plugins/my-list-table-view/code.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/46083ab7158a4f5fee184098375228e9176ddc896dc09a01a5d18be625c6c3bc",
-    "timestamp": 1771865427648
+    "timestamp": 1771865427648, "hadWorkingTag": false
   },
   {
     "id": "myanimelistsync", "version": "1.1.4",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/MyAnimeListSync/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d71b2c05e33e2fdabcf23e0764600058b847eb41fbed2852ad2e0e42c75af6ac",
-    "timestamp": 1778519176581
+    "timestamp": 1778519176581, "hadWorkingTag": false
   },
   {
     "id": "MyDubList", "version": "1.1.3",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/MyDubList-Seanime/refs/heads/main/src/MyDubList.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/4f02b35a1477201dbebcdaca09f206d3d3a01b9af3e8131e737f4f18abca303b",
-    "timestamp": 1771865941910, "lastWorkingVersion": "3.8.2"
+    "timestamp": 1771865941910, "lastWorkingVersion": "3.9.1", "hadWorkingTag": true
   },
   {
     "id": "mynimeku", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/mynimeku/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c26ce7e03ad6ddf129d7fb0d4d850bfbc30ff9329d5c32fcbb69b49fb59d833f",
-    "timestamp": 1777256323901
+    "timestamp": 1777256323901, "hadWorkingTag": false
   },
   {
     "id": "mynimekumanga", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/8c8d3fd3463171638cb77c262a5003470ebc2fdbfd93207a922c66c324852fe9",
-    "timestamp": 1777256247219
+    "timestamp": 1777256247219, "hadWorkingTag": false
   },
   {
     "id": "nartag", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Nartag/main.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/69385ff775d87f8a3680de1c7b4e4d6477e9eeb621fd49f62fe63b3c9e952e71",
-    "lastWorkingVersion": null, "timestamp": 1781254179457
+    "lastWorkingVersion": null, "timestamp": 1781254179457, "hadWorkingTag": false
   },
   {
     "id": "nexustoons", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/nexustoons/nexustoons.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/6c148fe078ebabf7005bd68851944b0eb09dfcda015f224423dcc6760698139d",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781627580734
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781627580734, "hadWorkingTag": false
   },
   {
     "id": "nhentai", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/manga-provider/nhentai/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/675d3b929a43819a0b2e76389ac6bd8f136c7fde1a53172efeaa00e8c052c615",
-    "timestamp": 1779592831165
+    "timestamp": 1779592831165, "hadWorkingTag": false
   },
   {
     "id": "nhentai-cs", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/nhentai/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/a1a038dce0f2fccff6edd65685b1991544694cc0dcb57b0c42d62efa440dbb8c",
-    "timestamp": 1780283270031
+    "timestamp": 1780283270031, "hadWorkingTag": false
   },
   {
     "id": "no-cap-ratings", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/No%20Cap%20Ratings/provider.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/89dee05b029b9d1b34e1f96d60841e7b296abae2bdacdd399b8a18eec7b52099",
-    "lastWorkingVersion": null, "timestamp": 1780752469518
+    "lastWorkingVersion": null, "timestamp": 1780752469518, "hadWorkingTag": false
   },
   {
     "id": "nontonanime", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/nontonanime/provider.js",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c7bffe81aee5f43dff05513a1975020f761c440bbeafbcbda3ce81aab280e7cd",
-    "timestamp": 1771865194992
+    "timestamp": 1771865194992, "hadWorkingTag": false
   },
   {
     "id": "notes", "version": "1.0.5",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/refs/heads/master/plugins/Notes/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/bfec1fe79fb076e8303cca285c66ad529a4fb2921749945759eedafd1a565fc7",
-    "timestamp": 1771870097102
+    "timestamp": 1771870097102, "hadWorkingTag": false
   },
   {
     "id": "olympusbiblioteca", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/faddix/olympusbiblioteca/main/olympusbiblioteca.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/e28aeb20a099454ca9f733d818572312f114f481446c2459e167ab5d6e6926be",
-    "timestamp": 1775815963703
+    "timestamp": 1775815963703, "hadWorkingTag": false
   },
   {
     "id": "olympusscanlation", "version": "1.2.1",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/master/src/OlympusScanlation/main.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/56a300e12fdb7f2de5e083348c1ab61215af24c0e7581db080742b990ed1af8f",
-    "lastWorkingVersion": null, "timestamp": 1781987933996
+    "lastWorkingVersion": null, "timestamp": 1781987933996, "hadWorkingTag": false
   },
   {
     "id": "oneko", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/oneko/main.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/330a4dfa9135974055c8e052404189b8173a1ae8259268980286669bbef8e644",
-    "timestamp": 1771868662009
+    "timestamp": 1771868662009, "hadWorkingTag": false
   },
   {
     "id": "picked-for-you", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Picked-For-You/refs/heads/main/src/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/49a9a82f3fe050433e9a9dc278d7f0243e49cc69635ae3ca90952060e573dfe6",
-    "timestamp": 1771873076725
+    "timestamp": 1771873076725, "hadWorkingTag": false
   },
   {
     "id": "quick-access", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0c612838e96acccd51dc8dc6e5af12f38f73cc17a9e7f260ede699fb55ddb576",
-    "timestamp": 1778391533562
+    "timestamp": 1778391533562, "hadWorkingTag": false
   },
   {
     "id": "random-entry", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Random%20Entry/provider.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/1ba8ddc58541d7cbe101fd08ce2635f331734affb050e86d9ed731dd2c6d36d7",
-    "timestamp": 1778391579517
+    "timestamp": 1778391579517, "hadWorkingTag": false
   },
   {
     "id": "ranime-discussion", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/ranime-discussion/main.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0d95b9a894c8229a5f63837928d0e33c41de8dc716ab23f447a463d295a070a5",
-    "timestamp": 1778910778478, "lastWorkingVersion": "3.8.7"
+    "timestamp": 1778910778478, "lastWorkingVersion": "3.9.1", "hadWorkingTag": true
   },
   {
     "id": "ravenscans", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/ravenscans/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/9f2af04b9c8d1e997125f914ea41c4a3c6316fe7a4bd475f840b5537c5fe10fd",
-    "timestamp": 1775191271293
+    "timestamp": 1775191271293, "hadWorkingTag": false
   },
   {
     "id": "reanime", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/ReAnime/main.ts",
     "flags": "0/54", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d31d0209a91b2a03be49220bdcb4d687f53d18d4f9d90e3e065dcc3581ff4791",
-    "timestamp": 1778034786276
+    "timestamp": 1778034786276, "hadWorkingTag": false
   },
   {
     "id": "rncanlation", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/master/src/RNcalation/main.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0314b2053e28c67414f740c37c5e2c412e774d0d178835b3d2f36be854db5e34",
-    "lastWorkingVersion": null, "timestamp": 1781368310609
+    "lastWorkingVersion": null, "timestamp": 1781368310609, "hadWorkingTag": false
   },
   {
     "id": "scanita", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/scanita/provider.js",
     "flags": "0/58", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5eaa566e863850dad5559b37ea0bf78884803f6ddc1f0a0cab33b068a3abb3ab",
-    "timestamp": 1771870790153
+    "timestamp": 1771870790153, "hadWorkingTag": false
   },
   {
     "id": "seastats", "version": "0.1.4",
     "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-SeaStats/main/seastats.ts", "flags": "0/60",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/44fc86be75c5a147c4aa98e03bc748c1df2c5e149881d8fec159298c75c5141e",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781440448205
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781440448205, "hadWorkingTag": false
   },
   {
     "id": "SeaUtils-Kolex06-Version", "version": "1.2.75",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/provider.ts",
     "flags": "0/58", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/36144a1817a39554ce805d06c91dcb5438b56b41ac71a3dd6c0d029983e643b4",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1783299758923
+    "lastWorkingVersion": "3.8.7", "timestamp": 1783299758923, "hadWorkingTag": false
   },
   {
     "id": "setwatched", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/RhythmParadox/SetWatched/refs/heads/master/setwatched.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/4715c987daf886ba2eead0c5960cb0df99da3bfdb8a458de7e0e93133b6e7e43",
-    "timestamp": 1771867749457
+    "timestamp": 1771867749457, "hadWorkingTag": false
   },
   {
     "id": "shikimorisync", "version": "1.3.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/ShikimoriSync/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/9b61f5b886a083e5e1f1562347de5a58bb0eea7925b6426fbbd8e8b8dc5f1c99",
-    "timestamp": 1779040688281
+    "timestamp": 1779040688281, "hadWorkingTag": false
   },
   {
     "id": "simkl", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/SIMKL/main.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d00ff99e4707240f33437426e33541569e8d533d0988135c5e796607e90583e4",
-    "timestamp": 1771869834200
+    "timestamp": 1771869834200, "hadWorkingTag": false
   },
   {
     "id": "simklsync", "version": "2.0.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/SimklSync/provider.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5db155eaad27ab97c3f2d649cdb3e49e964841a522f0d00f24c8c77d39f5f955",
-    "lastWorkingVersion": null, "timestamp": 1783596380590
+    "lastWorkingVersion": null, "timestamp": 1783596380590, "hadWorkingTag": false
   },
   {
     "id": "snow-effect", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/effects/provider.js",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/474c41989889fa66e0b0470937130a78bef4b3b5cd30e83e58024f23f03ee647",
-    "timestamp": 1771868151983
+    "timestamp": 1771868151983, "hadWorkingTag": false
   },
   {
     "id": "SubsPlease-Provider", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/SubsPleaseSeanime/refs/heads/main/src/SubsPlease.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7c0e1249b8e1bed1e598ea1c375a034f845e7bae8b6bf84c7cf63d46621ee38b",
-    "timestamp": 1771871575979
+    "timestamp": 1771871575979, "hadWorkingTag": false
   },
   {
     "id": "sushiscan", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/SushiScan/main.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/8f6b4343ee08c63fb45d3fb019810b340bb99d7602f28e01957a08ddd79780ac",
-    "lastWorkingVersion": null, "timestamp": 1781440187291
+    "lastWorkingVersion": null, "timestamp": 1781440187291, "hadWorkingTag": false
   },
   {
     "id": "taiyo", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/taiyo/provider.js",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/3e34d8e0b74554b3acaacd6cfe3982cd0fbe743335f827f37a5529e10f24f92a",
-    "timestamp": 1772685693385
+    "timestamp": 1772685693385, "hadWorkingTag": false
   },
   {
     "id": "thepiratebay", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/TPB/main.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/8919651cebea8e15bcb3a6ee819a22752bbe3b09d0028e90e5f029c1f2bff334",
-    "timestamp": 1771869725912
+    "timestamp": 1771869725912, "hadWorkingTag": false
   },
   {
     "id": "Tokyo-Toshokan-Provider", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Tokyotosho-Torrent-Provider-Seanime/main/src/tokyotosho/Tokyo-Toshokan.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2fe753ac1429c33bfb8326936a2de568956f0be82b9df4388a2ec295bd7bc293",
-    "timestamp": 1771874048116, "lastWorkingVersion": "3.8.4"
+    "timestamp": 1771874048116, "lastWorkingVersion": "3.8.4", "hadWorkingTag": false
   },
   {
     "id": "Tokyo-Toshokan-Raws-Provider", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Tokyotosho-Torrent-Provider-Seanime/main/src/tokyotosho-raw/Tokyo-Toshokan-Raw.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/ca18e5b2a7e93aefc6d13f2249e2e8e7a4f4975f5f4ec4d4a01ad3938cb020d2",
-    "lastWorkingVersion": "3.8.4", "timestamp": 1780942349509
+    "lastWorkingVersion": "3.8.4", "timestamp": 1780942349509, "hadWorkingTag": false
   },
   {
     "id": "toongod", "version": "1.0.5",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Toongod/main.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0a11acb4bde2f4c7a7e5e13c0aa70a792b61fba6c34ddce19d3defcf1996d57c",
-    "lastWorkingVersion": null, "timestamp": 1781440264328
+    "lastWorkingVersion": null, "timestamp": 1781440264328, "hadWorkingTag": false
   },
   {
     "id": "toonily", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/manga-provider/toonily/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/a4297bf021301326284032eb592663744373f0923806d10a021270df229e1b20",
-    "timestamp": 1780239872358
+    "timestamp": 1780239872358, "hadWorkingTag": false
   },
   {
     "id": "topanimes", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/topanimes/topanimes.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/23178839122b088f677254ff1753f9ce31181d2dd6aca4c891567d0ab32a20f5",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782968195319
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782968195319, "hadWorkingTag": false
   },
   {
     "id": "torrentclaw", "version": "1.0.5",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/src/torrentclaw/torrentclaw-provider.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/36c8d0a5edbeb857924e8cec76ad37179241a16642cb2948d56ac09c76ceecbc",
-    "lastWorkingVersion": "3.8.4", "timestamp": 1781527105129
+    "lastWorkingVersion": "3.8.4", "timestamp": 1781527105129, "hadWorkingTag": false
   },
   {
     "id": "torrentio", "version": "0.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-Torrentio/main/torrentio.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/bf00f85782bd552060ea4ced2475fc31f40a98f1c47450616357f0c0e92bfcc3",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1781225149061
+    "lastWorkingVersion": "3.8.7", "timestamp": 1781225149061, "hadWorkingTag": false
   },
   {
     "id": "traktsync", "version": "1.2.6",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/TraktSync/provider.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c4b5a2bec0622b93b2a86d0d50e7c07a6d8626d409c0f415887ae77f87ed2368",
-    "lastWorkingVersion": null, "timestamp": 1783610730671
+    "lastWorkingVersion": null, "timestamp": 1783610730671, "hadWorkingTag": false
   },
   {
     "id": "tsukihime", "version": "0.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-Tsukihime/main/tsukihime.ts",
     "flags": "0/58", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/bd674a14dccee1d00c8c9f4e3a431eecc9c29ca0e8d7746fe2641d754593b04e",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782132032390
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782132032390, "hadWorkingTag": false
   },
   {
     "id": "uchuujin-projects", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/UchuujinProjects/main.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c5a33773a538a506173844639f70a9f73d298b48048df414738be616bc4e70bd",
-    "timestamp": 1777040083276
+    "timestamp": 1777040083276, "hadWorkingTag": false
   },
   {
     "id": "ui-translation", "version": "1.4.4",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/UI-Translation/ui-translation.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0850046b77e42f3149c7a3dd5709db4960c292d3f4c9e83db0edd5e0826afab1",
-    "timestamp": 1771868384265
+    "timestamp": 1771868384265, "hadWorkingTag": false
   },
   {
     "id": "untracked", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Untracked/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/64590e62a5a2f79fcb9be2a9a3a42cee0945c7f933403f3361dc4005b7547662",
-    "timestamp": 1771865660365
+    "timestamp": 1771865660365, "hadWorkingTag": false
   },
   {
     "id": "vault", "version": "1.2.5",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/provider.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/db30aa2ad8a1a82cc0b0e7423a74345b2266a40deaf33c5911d772bb27c88db7",
-    "timestamp": 1772097348278
+    "timestamp": 1772097348278, "hadWorkingTag": false
   },
   {
     "id": "Watch-Next", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Watch-Next-Seanime/refs/heads/main/src/Watch-Next.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/b6e3eff0ab73856a374593f4fbec717692cd463e19c350c35e97a9a1c928964b",
-    "timestamp": 1771872968689, "lastWorkingVersion": "3.8.3"
+    "timestamp": 1771872968689, "lastWorkingVersion": "3.8.3", "hadWorkingTag": false
   },
   {
     "id": "Watch-Next-Kolex06-Version", "version": "1.0.7",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/WatchNextKolex06Version/provider.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c2e31cf17437008c9c436256b025813c6a4343b0f0a611f0735459ec055fc87e",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782261760836
+    "lastWorkingVersion": "3.8.7", "timestamp": 1782261760836, "hadWorkingTag": false
   },
   {
     "id": "watch-order", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Watch-Order-Seanime/refs/heads/main/src/Watch-Order.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7a0bcec9a8677ce1e3ca3bad83fec8c0d8daa3a704a01b39bb8fc099051ec894",
-    "timestamp": 1771870851904
+    "timestamp": 1771870851904, "hadWorkingTag": false
   },
   {
     "id": "weebdex", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Ari-03/weebdex/refs/heads/main/provider.ts", "flags": "0/58",
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/26a4dd8248562df28eaee1aa20621ae54feffd1868e2a35704187b64a534e96b",
-    "timestamp": 1771868846482
+    "timestamp": 1771868846482, "hadWorkingTag": false
   },
   {
     "id": "YGG-Provider", "version": "1.0.0",
