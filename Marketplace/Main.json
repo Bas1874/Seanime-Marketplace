@@ -907,18 +907,18 @@
     "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.26", "author": "aquaryuo",
+    "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.27", "author": "aquaryuo",
     "description": "Only animepahe compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
     "website": "https://animepahe.pw", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/416ca9d9cb07c8ce79d273dbbd794f21cef9556199ea768d57c20247d07c6544",
+    "permalink": "https://www.virustotal.com/gui/file/276fd6cf194592227f4b3a22cbdcd0a871458a4504aae72158c4ffb37b8a62ca",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.9.1",
     "lastWorkingVersion": "3.8.7", "stars": 2, "threadId": "1519818667720966174",
-    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-05T01:09:23.418Z"
+    "addedAt": "2026-07-03T13:57:01.706Z", "updatedAt": "2026-07-11T02:26:19.201Z"
   },
   {
     "id": "aq-anizone", "name": "AniZone", "version": "1.1.8", "author": "aquaryuo",
@@ -2508,6 +2508,20 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.1", "lastWorkingVersion": null,
     "stars": 6, "threadId": "1429234443339436162", "addedAt": "2026-07-03T13:57:01.706Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "schedule-editor", "name": "Schedule Editor", "version": "1.1.1", "author": "Kaktus",
+    "description": "Adds a tray item that allows you to edit the offset of an anime in the schedule calendar view.",
+    "type": "plugin", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/schedule-editor/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/schedule-editor/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/schedule-editor/main.ts",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/75735233bdd4cdd15605344e1902000bee6a7d6f623c10a2070ce3f7b38cd2cf",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.9.1",
+    "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1525301921919795411",
+    "addedAt": "2026-07-11T02:26:19.201Z", "updatedAt": "2026-07-11T02:26:19.201Z"
   },
   {
     "id": "seadex", "name": "SeaDex", "version": "1.0.4", "author": "Island",
