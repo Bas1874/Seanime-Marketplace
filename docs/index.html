@@ -129,6 +129,7 @@
     }
     .nav-link:hover { color: var(--fg); background: var(--subtle); border-color: var(--border); }
     .nav-link svg { width: 14px; height: 14px; flex-shrink: 0; }
+    button.nav-link { background: transparent; cursor: pointer; font-family: inherit; }
     /* PAGE */
     .page { max-width: 1440px; margin: 0 auto; padding: 1.75rem 1.5rem 4rem; }
     /* HEADER */
@@ -387,6 +388,10 @@
   </div>
   <span class="nav-title">Seanime Community Marketplace</span>
   <div class="nav-spacer"></div>
+  <button class="nav-link" id="howtoBtn" type="button" aria-haspopup="dialog">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+    How to use
+  </button>
   <a class="nav-link" href="https://github.com/Bas1874/Seanime-Marketplace" target="_blank" rel="noopener">
     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.09-.74.08-.73.08-.73 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.82 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013.01-.4c1.02 0 2.05.13 3.01.4 2.28-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12 24 5.37 18.63 0 12 0z"/></svg>
     GitHub
@@ -477,7 +482,10 @@
     </div>
   </div>
   <!-- CUSTOM FEED PANEL -->
-  <section class="setup" id="feedPanel" hidden style="margin-top:-0.5rem">
+  <section class="setup" id="feedPanel" hidden style="margin-top:-0.5rem;position:relative">
+    <button class="modal-close" id="feedClose" aria-label="Close feed settings">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
     <div class="setup-hdr">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
       Marketplace feed
@@ -496,27 +504,34 @@
     <div class="state-msg"><div class="spin"></div><span>Loading extensions…</span></div>
     <!-- PRERENDER:END -->
   </main>
-  <!-- SETUP -->
-  <section class="setup">
-    <div class="setup-hdr">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
-      How to use this marketplace in Seanime
-    </div>
-    <ol>
-      <li>Open Seanime and go to the <b>Extensions</b> tab</li>
-      <li>Click <b>Change repository</b></li>
-      <li>Paste this exact link:</li>
-    </ol>
-    <div class="repo-line">
-      <div class="repo-url" id="repoUrl">https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json</div>
-      <button class="repo-copy" id="repoCopy" onclick="copyRepo(this)">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
-        Copy link
-      </button>
-    </div>
-    <p class="setup-note">You can revert to the official repo anytime by clicking <b style="color:var(--fg)">Apply Default</b>.</p>
-    <p class="setup-note"><span class="warn-ico">&#9888;</span> This marketplace is community-run — plugins are not manually reviewed. Everything is scanned by VirusTotal, but only install extensions from creators you trust.</p>
-  </section>
+</div>
+<!-- HOW-TO POPUP -->
+<div class="modal" id="howto" role="dialog" aria-modal="true" aria-label="How to use this marketplace in Seanime">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeHowto()" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <section class="setup" style="background:transparent;border:none;padding:0;margin:0">
+      <div class="setup-hdr" style="padding-right:28px">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+        How to use this marketplace in Seanime
+      </div>
+      <ol>
+        <li>Open Seanime and go to the <b>Extensions</b> tab</li>
+        <li>Click <b>Change repository</b></li>
+        <li>Paste this exact link:</li>
+      </ol>
+      <div class="repo-line">
+        <div class="repo-url" id="repoUrl">https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json</div>
+        <button class="repo-copy" id="repoCopy" onclick="copyRepo(this)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copy link
+        </button>
+      </div>
+      <p class="setup-note">You can revert to the official repo anytime by clicking <b style="color:var(--fg)">Apply Default</b>.</p>
+      <p class="setup-note"><span class="warn-ico">&#9888;</span> This marketplace is community-run — plugins are not manually reviewed. Everything is scanned by VirusTotal, but only install extensions from creators you trust.</p>
+    </section>
+  </div>
 </div>
 <div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Extension details">
   <div class="modal-box">
@@ -1168,7 +1183,28 @@ document.getElementById('content').addEventListener('keydown', e => {
   if (c && c.dataset.id && e.target === c) openDetail(c.dataset.id);
 });
 document.getElementById('modal').addEventListener('click', e => { if (e.target === e.currentTarget) closeDetail(); });
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeDetail(); closeHowto(); } });
+
+// how-to popup: shown once on first visit, reopenable from the nav
+const HOWTO_KEY = 'seanime-marketplace:howto-seen';
+function openHowto() {
+  document.getElementById('howto').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+function closeHowto() {
+  const m = document.getElementById('howto');
+  if (m.style.display !== 'flex') return;
+  m.style.display = 'none';
+  document.body.style.overflow = '';
+}
+document.getElementById('howtoBtn').addEventListener('click', openHowto);
+document.getElementById('howto').addEventListener('click', e => { if (e.target === e.currentTarget) closeHowto(); });
+try {
+  if (!localStorage.getItem(HOWTO_KEY)) {
+    localStorage.setItem(HOWTO_KEY, '1');
+    openHowto();
+  }
+} catch (e) { /* private browsing: just skip the auto-popup */ }
 
 // custom marketplace feed
 function updateFeedUI() {
@@ -1208,6 +1244,10 @@ document.getElementById('feedReset').addEventListener('click', () => {
   document.getElementById('feedInp').value = '';
   reloadFeed();
 });
+document.getElementById('feedClose').addEventListener('click', () => {
+  document.getElementById('feedPanel').hidden = true;
+  document.getElementById('feedBtn').setAttribute('aria-expanded', 'false');
+});
 
 applyURL();
 updateFeedUI();
@@ -1216,4 +1256,3 @@ load();
 <script data-goatcounter="https://bas1874.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
-
