@@ -13,6 +13,7 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 // works whether the site lives at the repo root or in /docs
 const FILE  = existsSync('docs/index.html') ? 'docs/index.html' : 'index.html';
 const FEED  = 'https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/Marketplace/Main.json';
+const LOCAL = 'Marketplace/Main.json';
 const START = '<!-- PRERENDER:START -->';
 const END   = '<!-- PRERENDER:END -->';
 
@@ -27,14 +28,23 @@ const cut = m[1].indexOf('// ---------------- wiring');
 if (cut < 0) throw new Error('Wiring marker not found in script');
 const core = m[1].slice(0, cut);
 
-// 3. Fetch the feed (or read a local file when testing)
+// 3. Read the feed. Prefer the file from this checkout - it is the EXACT
+//    version that triggered this workflow run. Fetching it over
+//    raw.githubusercontent.com instead hits a ~5-minute CDN cache, which
+//    serves the PREVIOUS version right after a push and makes the
+//    prerendered catalog lag one update behind. Remote fetch is kept
+//    only as a fallback for running the script outside the repo.
 let data;
 if (process.env.FEED_FILE) {
   data = JSON.parse(readFileSync(process.env.FEED_FILE, 'utf8'));
+} else if (existsSync(LOCAL)) {
+  data = JSON.parse(readFileSync(LOCAL, 'utf8'));
+  console.log('Feed: local checkout (' + LOCAL + ')');
 } else {
-  const res = await fetch(FEED);
+  const res = await fetch(FEED, { headers: { 'Cache-Control': 'no-cache' } });
   if (!res.ok) throw new Error('Feed fetch failed: HTTP ' + res.status);
   data = await res.json();
+  console.log('Feed: remote fetch (fallback)');
 }
 if (!Array.isArray(data) || data.length === 0) throw new Error('Feed is empty or not an array — refusing to prerender');
 
