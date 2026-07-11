@@ -735,6 +735,13 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1783639380941, "hadWorkingTag": false
   },
   {
+    "id": "livechart-schedule", "version": "0.2.1",
+    "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/main.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/47e3f64caff86c53b650c47d1caba8b18f226d8bda449549e14a1ccb10218b76",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783789686563
+  },
+  {
     "id": "LN-reader", "version": "1.6.5",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/main.ts",
     "flags": "0/60", "flaggedBy": [],
