@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Page not found — Seanime Community Marketplace</title>
+  <link rel="icon" type="image/svg+xml" href="/Seanime-Marketplace/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #070707; --fg: #d1d1d1;
+      --border: rgba(255,255,255,0.07);
+      --muted: rgba(255,255,255,0.38);
+      --subtle: rgba(255,255,255,0.04);
+      --brand: #8b7cf8;
+      --brand-dim: rgba(97,82,223,0.15);
+      --brand-bdr: rgba(97,82,223,0.3);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      background: var(--bg); color: var(--fg);
+      font-family: 'Inter', -apple-system, sans-serif; -webkit-font-smoothing: antialiased;
+      display: flex; align-items: center; justify-content: center; padding: 1.5rem;
+    }
+    .box { text-align: center; max-width: 420px; }
+    .logo {
+      width: 52px; height: 52px; border-radius: 12px; margin: 0 auto 1.25rem;
+      background: var(--brand-dim); border: 1px solid var(--brand-bdr);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .logo svg { width: 26px; height: 26px; }
+    .code { font-size: 13px; font-weight: 600; color: var(--brand); letter-spacing: 0.1em; margin-bottom: 6px; }
+    h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
+    p { font-size: 13px; color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem; }
+    a.btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 13px; font-weight: 500; text-decoration: none;
+      padding: 8px 16px; border-radius: 8px;
+      background: var(--brand-dim); border: 1px solid var(--brand-bdr); color: var(--brand);
+      transition: background .15s;
+    }
+    a.btn:hover { background: rgba(97,82,223,0.28); }
+    a.btn svg { width: 14px; height: 14px; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="logo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#8b7cf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2L2 7l10 5 10-5-10-5M2 17l10 5 10-5M2 12l10 5 10-5"/>
+      </svg>
+    </div>
+    <div class="code">404</div>
+    <h1>Page not found</h1>
+    <p>This page doesn't exist — maybe the extension was removed, or the link is outdated.</p>
+    <a class="btn" href="/Seanime-Marketplace/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Back to the marketplace
+    </a>
+  </div>
+  <script data-goatcounter="https://bas1874.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="OjsfFU4u8yFxQDW9nUymHlZZtCGr_j_jLiYLow35sSI" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seanime Plugins &amp; Extensions — Community Marketplace</title>
+  <meta name="description" content="Community marketplace for Seanime plugins and extensions: online streaming providers, manga sources, anime torrent providers and custom sources. Live working/broken status, VirusTotal scans, star ratings and Discord support threads." />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+  <link rel="canonical" href="https://bas1874.github.io/Seanime-Marketplace/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Seanime Community Marketplace" />
+  <meta property="og:title" content="Seanime Plugins & Extensions — Community Marketplace" />
+  <meta property="og:description" content="Community plugins and extensions for Seanime: streaming, manga, torrent providers and custom sources — with live status, VirusTotal scans and star ratings." />
+  <meta property="og:url" content="https://bas1874.github.io/Seanime-Marketplace/" />
+  <meta property="og:image" content="https://bas1874.github.io/Seanime-Marketplace/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Seanime Plugins & Extensions — Community Marketplace" />
+  <meta name="twitter:description" content="Community plugins and extensions for Seanime with live status, VirusTotal scans and star ratings." />
+  <meta name="twitter:image" content="https://bas1874.github.io/Seanime-Marketplace/og-image.png" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://bas1874.github.io/Seanime-Marketplace/#website",
+        "url": "https://bas1874.github.io/Seanime-Marketplace/",
+        "name": "Seanime Community Marketplace",
+        "description": "Community-maintained plugins and extensions for the Seanime media server."
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://bas1874.github.io/Seanime-Marketplace/#page",
+        "url": "https://bas1874.github.io/Seanime-Marketplace/",
+        "name": "Seanime Plugins & Extensions — Community Marketplace",
+        "isPartOf": { "@id": "https://bas1874.github.io/Seanime-Marketplace/#website" },
+        "about": {
+          "@type": "SoftwareApplication",
+          "name": "Seanime",
+          "applicationCategory": "MultimediaApplication",
+          "operatingSystem": "Windows, macOS, Linux",
+          "url": "https://seanime.app"
+        }
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg:          #070707;
+      --paper:       #0b0b0b;
+      --g900:        #101010;
+      --g800:        #1c1c1c;
+      --g700:        #363636;
+      --g600:        #484848;
+      --g500:        #5a5a5a;
+      --g400:        #8f8f8f;
+      --g200:        #d1d1d1;
+      --fg:          #d1d1d1;
+      --border:      rgba(255,255,255,0.07);
+      --border-md:   rgba(255,255,255,0.13);
+      --muted:       rgba(255,255,255,0.38);
+      --subtle:      rgba(255,255,255,0.04);
+      --subtle-hi:   rgba(255,255,255,0.07);
+      --brand:       #8b7cf8;
+      --brand-dim:   rgba(97,82,223,0.15);
+      --brand-bdr:   rgba(97,82,223,0.3);
+      --green:       #4ade80;
+      --green-dim:   rgba(74,222,128,0.1);
+      --green-bdr:   rgba(74,222,128,0.22);
+      --red:         #f87171;
+      --red-dim:     rgba(248,113,113,0.1);
+      --red-bdr:     rgba(248,113,113,0.22);
+      --orange:      #fb923c;
+      --orange-dim:  rgba(251,146,60,0.1);
+      --orange-bdr:  rgba(251,146,60,0.22);
+      --blue:        #60a5fa;
+      --blue-dim:    rgba(96,165,250,0.1);
+      --blue-bdr:    rgba(96,165,250,0.22);
+      --purple:      #c4b5fd;
+      --purple-dim:  rgba(167,139,250,0.12);
+      --purple-bdr:  rgba(167,139,250,0.3);
+      --teal:        #5eead4;
+      --teal-dim:    rgba(45,212,191,0.1);
+      --teal-bdr:    rgba(45,212,191,0.28);
+      --disc:        #a5b0ff;
+      --disc-dim:    rgba(88,101,242,0.14);
+      --disc-bdr:    rgba(88,101,242,0.4);
+      --gold:        #fcd34d;
+      --r:           0.5rem;
+      --rxl:         0.75rem;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { background: var(--bg); color: var(--fg); font-family: 'Inter', -apple-system, sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; }
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 99px; }
+    /* NAV */
+    .nav {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(7,7,7,0.88);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      height: 52px; padding: 0 1.5rem;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .nav-logo {
+      width: 26px; height: 26px; border-radius: 6px; flex-shrink: 0;
+      background: var(--brand-dim); border: 1px solid var(--brand-bdr);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .nav-logo svg { width: 14px; height: 14px; }
+    .nav-title { font-size: 14px; font-weight: 600; white-space: nowrap; }
+    .nav-spacer { flex: 1; }
+    .nav-link {
+      display: inline-flex; align-items: center; gap: 5px;
+      color: var(--muted); font-size: 12px; font-weight: 500;
+      text-decoration: none; padding: 5px 10px; border-radius: 8px;
+      border: 1px solid transparent;
+      transition: color .15s, background .15s, border-color .15s;
+      white-space: nowrap;
+    }
+    .nav-link:hover { color: var(--fg); background: var(--subtle); border-color: var(--border); }
+    .nav-link svg { width: 14px; height: 14px; flex-shrink: 0; }
+    /* PAGE */
+    .page { max-width: 1440px; margin: 0 auto; padding: 1.75rem 1.5rem 4rem; }
+    /* HEADER */
+    .ph { margin-bottom: 1.5rem; }
+    .ph h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; }
+    .ph p  { font-size: 13px; color: var(--muted); margin-top: 3px; }
+    /* SETUP */
+    .setup {
+      background: var(--g900); border: 1px solid var(--border); border-radius: var(--rxl);
+      padding: 1rem 1.1rem; margin-bottom: 1.25rem;
+    }
+    .setup-hdr { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; margin-bottom: 8px; }
+    .setup-hdr svg { width: 15px; height: 15px; opacity: .65; flex-shrink: 0; }
+    .setup ol { margin: 0 0 10px 1.2rem; font-size: 12.5px; color: var(--muted); line-height: 1.9; }
+    .setup ol b { color: var(--fg); font-weight: 600; }
+    .repo-line { display: flex; gap: 8px; align-items: stretch; flex-wrap: wrap; }
+    .repo-url {
+      flex: 1; min-width: 240px; display: flex; align-items: center;
+      background: var(--paper); border: 1px solid var(--border); border-radius: var(--r);
+      padding: 7px 11px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 11.5px; color: var(--g200); overflow-x: auto; white-space: nowrap;
+    }
+    .repo-copy {
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 12px; font-weight: 500; white-space: nowrap; cursor: pointer;
+      padding: 7px 13px; border-radius: var(--r); font-family: inherit;
+      background: var(--brand-dim); border: 1px solid var(--brand-bdr); color: var(--brand);
+      transition: all .15s;
+    }
+    .repo-copy:hover { background: rgba(97,82,223,0.28); }
+    .repo-copy.copied { background: var(--green-dim); border-color: var(--green-bdr); color: var(--green); }
+    .repo-copy svg { width: 12px; height: 12px; }
+    .setup-note { font-size: 11.5px; color: var(--muted); margin-top: 9px; line-height: 1.6; }
+    .setup-note .warn-ico { color: var(--orange); }
+    /* STATS */
+    .stats { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1.25rem; }
+    .stat-chip {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--subtle); border: 1px solid var(--border);
+      border-radius: 99px; padding: 4px 12px; font-size: 12px; font-weight: 500;
+    }
+    .dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+    .dot-gray  { background: var(--g500); }
+    .dot-green { background: var(--green); box-shadow: 0 0 5px rgba(74,222,128,.5); }
+    .dot-red   { background: var(--red);   box-shadow: 0 0 5px rgba(248,113,113,.5); }
+    .dot-orange{ background: var(--orange); }
+    .sc-val { color: var(--fg); }
+    .sc-lbl { color: var(--muted); }
+    /* CONTROLS */
+    .controls { display: flex; flex-direction: column; gap: 10px; margin-bottom: 1.5rem; }
+    .ctrl-row  { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .pill-group {
+      display: inline-flex; align-items: center;
+      border: 1px solid var(--border); border-radius: 99px;
+      padding: 3px; gap: 2px; flex-wrap: wrap;
+    }
+    .pill {
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 12px; font-weight: 500; white-space: nowrap;
+      padding: 4px 13px; border-radius: 99px; cursor: pointer;
+      background: transparent; border: none; color: var(--muted);
+      transition: color .15s, background .15s; font-family: inherit;
+    }
+    .pill:hover { color: var(--fg); background: var(--subtle); }
+    .pill.on    { color: var(--fg); background: var(--subtle-hi); }
+    .pill svg   { width: 12px; height: 12px; }
+    .spill {
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 12px; font-weight: 500; white-space: nowrap;
+      padding: 4px 12px; border-radius: 99px; cursor: pointer;
+      background: transparent; border: 1px solid var(--border); color: var(--muted);
+      transition: all .15s; font-family: inherit;
+    }
+    .spill:hover { background: var(--subtle); color: var(--fg); }
+    .spill.on-all  { background: var(--subtle-hi); border-color: var(--border-md); color: var(--fg); }
+    .spill.on-w    { background: var(--green-dim); border-color: var(--green-bdr); color: var(--green); }
+    .spill.on-b    { background: var(--red-dim);   border-color: var(--red-bdr);   color: var(--red); }
+    .spill.on-d    { background: var(--orange-dim);border-color: var(--orange-bdr);color: var(--orange); }
+    .spill.on-u    { background: var(--subtle-hi); border-color: var(--border-md); color: var(--fg); }
+    .spill svg { width: 11px; height: 11px; }
+    .search-wrap { position: relative; flex: 1; min-width: 180px; max-width: 320px; }
+    .search-wrap .si, .author-wrap .si { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); width: 14px; height: 14px; color: var(--g500); pointer-events: none; }
+    .author-wrap { position: relative; min-width: 150px; max-width: 210px; }
+    .search-inp {
+      width: 100%; padding: 6px 12px 6px 32px;
+      background: var(--subtle); border: 1px solid var(--border);
+      border-radius: 99px; color: var(--fg); font-size: 13px;
+      outline: none; font-family: inherit;
+      transition: border-color .15s, background .15s;
+    }
+    .search-inp::placeholder { color: var(--g500); }
+    .search-inp:focus { border-color: var(--border-md); background: var(--subtle-hi); }
+    /* custom dropdowns (replaces native <select>) */
+    .dd { position: relative; }
+    .dd-btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 5px 12px; font-size: 12px; font-weight: 500; white-space: nowrap;
+      background: var(--subtle); border: 1px solid var(--border);
+      border-radius: 99px; color: var(--fg); cursor: pointer; font-family: inherit;
+      transition: border-color .15s, background .15s;
+    }
+    .dd-btn:hover, .dd-btn[aria-expanded="true"] { border-color: var(--border-md); background: var(--subtle-hi); }
+    .dd-btn > svg { width: 12px; height: 12px; color: var(--muted); transition: transform .15s; flex-shrink: 0; }
+    .dd-btn[aria-expanded="true"] > svg { transform: rotate(180deg); }
+    .dd-menu {
+      position: absolute; top: calc(100% + 6px); left: 0; z-index: 60;
+      min-width: 100%; width: max-content; max-height: 280px; overflow-y: auto;
+      background: #161616; border: 1px solid var(--border-md); border-radius: var(--r);
+      padding: 4px; box-shadow: 0 8px 24px rgba(0,0,0,.5);
+      animation: fi .12s ease-out;
+    }
+    .dd-item {
+      display: flex; align-items: center; gap: 7px; width: 100%;
+      padding: 6px 10px 6px 8px; font-size: 12px; font-weight: 500; text-align: left;
+      background: transparent; border: none; border-radius: 6px; color: var(--muted);
+      cursor: pointer; font-family: inherit; white-space: nowrap;
+    }
+    .dd-item:hover { background: var(--subtle-hi); color: var(--fg); }
+    .dd-item.on { color: var(--fg); }
+    .dd-tick { width: 14px; display: inline-flex; visibility: hidden; color: var(--brand); flex-shrink: 0; }
+    .dd-item.on .dd-tick { visibility: visible; }
+    .dd-tick svg { width: 11px; height: 11px; }
+    /* SECTION */
+    .section { background: var(--g900); border: 1px solid var(--border); border-radius: var(--rxl); padding: 1.1rem; margin-bottom: 1.1rem; }
+    .sec-hdr { display: flex; align-items: center; gap: 9px; font-size: 14px; font-weight: 600; margin-bottom: 1.1rem; }
+    .sec-hdr svg { width: 16px; height: 16px; opacity: 0.65; flex-shrink: 0; }
+    .sec-cnt { margin-left: auto; font-size: 11px; font-weight: 500; color: var(--muted); background: var(--subtle); border: 1px solid var(--border); border-radius: 99px; padding: 1px 9px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 10px; }
+    /* EXT CARD */
+    .xcard {
+      position: relative; background: var(--paper);
+      border: 1px solid rgba(255,255,255,0.05); border-radius: var(--rxl);
+      padding: 13px; display: flex; flex-direction: column; gap: 9px;
+      transition: border-color .2s, background .2s;
+    }
+    .xcard:hover { border-color: var(--border-md); background: var(--g900); }
+    .xcard.s-broken     { border-color: rgba(248,113,113,0.12); }
+    .xcard.s-deprecated { border-color: rgba(251,146,60,0.1); }
+    .xt { display: flex; align-items: flex-start; gap: 10px; }
+    .xicon {
+      flex-shrink: 0; width: 44px; height: 44px; border-radius: var(--r);
+      background: var(--g800); overflow: hidden;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; font-weight: 700; border: 1px solid var(--border);
+    }
+    .xicon img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .xmeta { flex: 1; min-width: 0; }
+    .xname { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; align-items: center; gap: 5px; }
+    .xname .off-star { color: var(--gold); flex-shrink: 0; width: 11px; height: 11px; }
+    .xid   { font-size: 11px; color: rgba(255,255,255,0.2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 1px; }
+    .cbtn {
+      flex-shrink: 0; display: inline-flex; align-items: center; gap: 4px;
+      font-size: 11px; font-weight: 500; white-space: nowrap; cursor: pointer;
+      padding: 4px 10px; border-radius: var(--r);
+      background: var(--subtle); border: 1px solid var(--border); color: var(--muted);
+      transition: all .15s; font-family: inherit;
+    }
+    .cbtn:hover { background: var(--subtle-hi); border-color: var(--border-md); color: var(--fg); }
+    .cbtn.copied { background: var(--green-dim); border-color: var(--green-bdr); color: var(--green); }
+    .cbtn svg { width: 11px; height: 11px; }
+    .xdesc { font-size: 12px; color: var(--muted); line-height: 1.55; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    /* badges */
+    .xbadges { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+    .badge {
+      display: inline-flex; align-items: center; gap: 3px;
+      font-size: 11px; font-weight: 500; padding: 2px 7px;
+      border-radius: 5px; border: 1px solid; white-space: nowrap;
+      text-decoration: none;
+    }
+    .badge svg { width: 9px; height: 9px; flex-shrink: 0; }
+    a.badge:hover { filter: brightness(1.3); }
+    .bd    { border-color: var(--border);    color: var(--muted);   background: var(--subtle); }
+    .bw    { border-color: var(--green-bdr); color: var(--green);   background: var(--green-dim); }
+    .bb    { border-color: var(--red-bdr);   color: var(--red);     background: var(--red-dim); }
+    .bdep  { border-color: var(--orange-bdr);color: var(--orange);  background: var(--orange-dim); }
+    .boff  { border-color: var(--brand-bdr); color: var(--brand);   background: var(--brand-dim); }
+    .bblue { border-color: var(--blue-bdr);  color: var(--blue);    background: var(--blue-dim); }
+    .bnew  { border-color: var(--purple-bdr);color: var(--purple);  background: var(--purple-dim); }
+    .baud  { border-color: var(--teal-bdr);  color: var(--teal);    background: var(--teal-dim); }
+    .bstar { border-color: transparent;      color: var(--gold);    background: transparent; padding: 2px 0; }
+    .bpl   { border-color: transparent;      color: rgba(255,255,255,0.32); background: transparent; padding: 2px 0; }
+    .bdisc {
+      border-color: var(--disc-bdr); color: var(--disc); background: var(--disc-dim);
+      margin-left: auto; cursor: pointer; transition: background .15s;
+    }
+    .bdisc:hover { background: rgba(88,101,242,.3); filter: none; }
+    .bdisc-mini { margin-left: 0; }
+    /* compact card extras */
+    .xspacer { flex: 1; }
+    .vt {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 22px; height: 20px; border-radius: 5px;
+      border: 1px solid var(--border); background: var(--subtle); color: var(--g500);
+    }
+    .vt svg { width: 11px; height: 11px; }
+    .vt-ok  { color: var(--green); border-color: var(--green-bdr); background: var(--green-dim); }
+    .vt-bad { color: var(--red);   border-color: var(--red-bdr);   background: var(--red-dim); }
+    a.vt:hover { filter: brightness(1.3); }
+    .xsub { font-size: 11px; color: rgba(255,255,255,0.25); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    /* meta line */
+    .xfoot { font-size: 11px; color: rgba(255,255,255,0.22); display: flex; flex-wrap: wrap; gap: 4px 10px; }
+    /* DETAIL MODAL */
+    .xcard { cursor: pointer; }
+    .xcard:focus-visible { outline: 1px solid var(--brand-bdr); }
+    .modal {
+      position: fixed; inset: 0; z-index: 100; display: none;
+      align-items: flex-start; justify-content: center;
+      padding: 6vh 1rem; overflow-y: auto;
+      background: rgba(0,0,0,0.65);
+      backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+    }
+    .modal-box {
+      background: var(--g900); border: 1px solid var(--border-md); border-radius: var(--rxl);
+      max-width: 580px; width: 100%; padding: 1.25rem; position: relative;
+      animation: fi .18s ease-out;
+    }
+    .modal-close {
+      position: absolute; top: 10px; right: 10px; cursor: pointer;
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 28px; height: 28px; border-radius: var(--r);
+      background: var(--subtle); border: 1px solid var(--border); color: var(--muted);
+      transition: all .15s; font-family: inherit;
+    }
+    .modal-close:hover { background: var(--subtle-hi); color: var(--fg); }
+    .modal-close svg { width: 13px; height: 13px; }
+    .drow { display: flex; gap: 12px; font-size: 12px; padding: 6px 0; border-bottom: 1px solid var(--border); }
+    .drow:last-of-type { border-bottom: none; }
+    .drow dt { width: 110px; flex-shrink: 0; color: var(--muted); }
+    .drow dd { color: var(--g200); word-break: break-all; min-width: 0; }
+    .drow dd a { color: var(--brand); text-decoration: none; }
+    .drow dd a:hover { text-decoration: underline; }
+    /* STATES */
+    .state-msg { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 3rem; color: var(--muted); font-size: 13px; text-align: center; }
+    .state-msg svg { width: 36px; height: 36px; opacity: 0.25; }
+    .spin { width: 24px; height: 24px; border: 2px solid var(--border); border-top-color: var(--brand); border-radius: 50%; animation: sp .65s linear infinite; }
+    @keyframes sp { to { transform: rotate(360deg); } }
+    @keyframes fi  { from { opacity:0; transform:translateY(5px); } to { opacity:1; transform:none; } }
+    .fi { animation: fi .28s ease-out both; }
+    /* FOOTER */
+    footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; font-size: 11px; color: rgba(255,255,255,0.18); }
+    footer a { color: rgba(255,255,255,0.3); }
+    @media (max-width: 600px) {
+      .page { padding: 1rem 0.85rem 3rem; }
+      .nav  { padding: 0 0.85rem; }
+      .nav-title { font-size: 13px; }
+      .pill { padding: 4px 10px; }
+    }
+  </style>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-logo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 2L2 7l10 5 10-5-10-5M2 17l10 5 10-5M2 12l10 5 10-5"/>
+    </svg>
+  </div>
+  <span class="nav-title">Seanime Community Marketplace</span>
+  <div class="nav-spacer"></div>
+  <a class="nav-link" href="https://github.com/Bas1874/Seanime-Marketplace" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.09-.74.08-.73.08-.73 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.82 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013.01-.4c1.02 0 2.05.13 3.01.4 2.28-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12 24 5.37 18.63 0 12 0z"/></svg>
+    GitHub
+  </a>
+  <a class="nav-link" href="https://seanime.app" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+    Seanime
+  </a>
+</nav>
+<div class="page">
+  <header class="ph">
+    <h1>Community Marketplace</h1>
+    <p>Browse community-maintained plugins and extensions for Seanime — streaming, manga, torrent providers and custom sources.</p>
+  </header>
+  <noscript>
+    <p style="padding:1rem;border:1px solid rgba(255,255,255,0.07);border-radius:8px;font-size:13px">
+      This marketplace lists community plugins and extensions for Seanime. Enable JavaScript to browse the catalog,
+      or view the raw list in <a href="https://github.com/Bas1874/Seanime-Marketplace/blob/main/Marketplace/Main.json" style="color:#8b7cf8">Main.json on GitHub</a>.
+    </p>
+  </noscript>
+  <div class="stats">
+    <div class="stat-chip"><span class="dot dot-gray"></span><span class="sc-val" id="sTotal">—</span><span class="sc-lbl">extensions</span></div>
+    <div class="stat-chip"><span class="dot dot-green"></span><span class="sc-val" id="sWorking">—</span><span class="sc-lbl">working</span></div>
+    <div class="stat-chip"><span class="dot dot-red"></span><span class="sc-val" id="sBroken">—</span><span class="sc-lbl">broken</span></div>
+    <div class="stat-chip"><span class="dot dot-orange"></span><span class="sc-val" id="sDeprecated">—</span><span class="sc-lbl">deprecated</span></div>
+  </div>
+  <div class="controls">
+    <div class="ctrl-row">
+      <div class="pill-group" id="typeTabs" role="group" aria-label="Filter by extension type">
+        <button class="pill on" data-t="all">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          All
+        </button>
+        <button class="pill" data-t="plugin">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.24 12.24a6 6 0 00-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/></svg>
+          Plugins
+        </button>
+        <button class="pill" data-t="onlinestream-provider">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          Streaming
+        </button>
+        <button class="pill" data-t="manga-provider">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+          Manga
+        </button>
+        <button class="pill" data-t="anime-torrent-provider">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"/></svg>
+          Torrents
+        </button>
+        <button class="pill" data-t="custom-source">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          Custom Sources
+        </button>
+        <button class="pill" data-t="official">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Official
+        </button>
+      </div>
+      <div class="search-wrap">
+        <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input class="search-inp" id="searchInp" type="search" placeholder="Search extensions…" aria-label="Search extensions" />
+      </div>
+    </div>
+    <div class="ctrl-row">
+      <div style="display:flex;gap:6px;flex-wrap:wrap;" id="statusPills" role="group" aria-label="Filter by status">
+        <button class="spill on-all" data-s="all">Any status</button>
+        <button class="spill" data-s="working">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Working
+        </button>
+        <button class="spill" data-s="broken">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Broken
+        </button>
+        <button class="spill" data-s="deprecated">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/></svg>Deprecated
+        </button>
+        <button class="spill" data-s="untagged">Untagged</button>
+      </div>
+      <div class="author-wrap">
+        <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21v-2a4 4 0 00-4-4H9a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <input class="search-inp" id="authorInp" type="search" placeholder="Filter by author…" aria-label="Filter by author" />
+      </div>
+      <div class="dd" id="langDD"></div>
+      <div class="dd" id="sortDD"></div>
+      <button class="spill" id="feedBtn" aria-label="Marketplace feed settings" aria-expanded="false" title="Load a different marketplace feed">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+        <span id="feedBtnLbl">Feed</span>
+      </button>
+    </div>
+  </div>
+  <!-- CUSTOM FEED PANEL -->
+  <section class="setup" id="feedPanel" hidden style="margin-top:-0.5rem">
+    <div class="setup-hdr">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+      Marketplace feed
+    </div>
+    <p class="setup-note" style="margin-top:0;margin-bottom:9px">Load extensions from a different marketplace file (same JSON format as Main.json). The URL is saved in your browser only.</p>
+    <div class="repo-line">
+      <input class="search-inp" id="feedInp" type="url" placeholder="https://…/Main.json" aria-label="Custom marketplace feed URL" style="flex:1;min-width:240px;max-width:none;border-radius:var(--r)" />
+      <button class="repo-copy" id="feedSave" aria-label="Save custom feed URL">Save &amp; load</button>
+      <button class="cbtn" id="feedReset" style="padding:7px 13px" aria-label="Reset to the default feed">Reset to default</button>
+    </div>
+    <p class="setup-note" id="feedActive"></p>
+    <p class="setup-note"><span class="warn-ico">&#9888;</span> Only use feeds from sources you trust — this page will display whatever that file contains.</p>
+  </section>
+  <main id="content">
+    <!-- PRERENDER:START -->
+    <div class="state-msg"><div class="spin"></div><span>Loading extensions…</span></div>
+    <!-- PRERENDER:END -->
+  </main>
+  <!-- SETUP -->
+  <section class="setup">
+    <div class="setup-hdr">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+      How to use this marketplace in Seanime
+    </div>
+    <ol>
+      <li>Open Seanime and go to the <b>Extensions</b> tab</li>
+      <li>Click <b>Change repository</b></li>
+      <li>Paste this exact link:</li>
+    </ol>
+    <div class="repo-line">
+      <div class="repo-url" id="repoUrl">https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json</div>
+      <button class="repo-copy" id="repoCopy" onclick="copyRepo(this)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+        Copy link
+      </button>
+    </div>
+    <p class="setup-note">You can revert to the official repo anytime by clicking <b style="color:var(--fg)">Apply Default</b>.</p>
+    <p class="setup-note"><span class="warn-ico">&#9888;</span> This marketplace is community-run — plugins are not manually reviewed. Everything is scanned by VirusTotal, but only install extensions from creators you trust.</p>
+  </section>
+</div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Extension details">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeDetail()" aria-label="Close details">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+<footer>Seanime Community Marketplace &middot; Community-maintained &middot; Not affiliated with the official <a href="https://github.com/5rahim/seanime" target="_blank" rel="noopener">Seanime</a> project</footer>
+<script>
+const MAIN = 'https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/Marketplace/Main.json';
+// backup: same file served through the jsDelivr CDN, in case raw.githubusercontent.com is down or blocked
+const MAIN_BACKUP = 'https://cdn.jsdelivr.net/gh/Bas1874/Seanime-Marketplace@main/Marketplace/Main.json';
+const REPO_URL = 'https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json';
+const FEED_KEY = 'seanime-marketplace:feed-url';
+function getCustomFeed() {
+  try { return (localStorage.getItem(FEED_KEY) || '').trim(); } catch (e) { return ''; }
+}
+function setCustomFeed(url) {
+  try { url ? localStorage.setItem(FEED_KEY, url) : localStorage.removeItem(FEED_KEY); } catch (e) {}
+}
+let activeFeed = '';
+const OFFICIAL_AUTHORS = ['seanime', 'island', '5rahim'];
+const DISCORD_GUILD = '1224767201551192224';
+const NEW_FOR = 14 * 86400000; // "New" badge window: 14 days
+const KNOWN_LANGS = {
+  en:'English', ja:'Japanese', zh:'Chinese', ko:'Korean', de:'German',
+  fr:'French', es:'Spanish', pt:'Portuguese', 'pt-br':'Portuguese (BR)', it:'Italian', ru:'Russian',
+  ar:'Arabic', tr:'Turkish', pl:'Polish', nl:'Dutch', vi:'Vietnamese',
+  id:'Indonesian', th:'Thai', ms:'Malay', multi:'Multi-language'
+};
+// Discord forum tag IDs worth showing as chips (same map as Marketplace+)
+const TAG_CHIPS = {
+  '1505936860441083904': ['Sub only', 'baud'],
+  '1505936927189110988': ['Dub only', 'baud'],
+  '1505937222891733062': ['Sub & Dub', 'baud'],
+  '1359259306087940146': ['Other', 'bpl'],
+};
+const TYPE_META = {
+  'plugin':                 { label:'Plugins',          iconKey:'plugin' },
+  'onlinestream-provider':  { label:'Online Streaming', iconKey:'stream' },
+  'manga-provider':         { label:'Manga',            iconKey:'manga'  },
+  'anime-torrent-provider': { label:'Torrents',         iconKey:'torrent'},
+  'custom-source':          { label:'Custom Sources',   iconKey:'source' },
+};
+const SVG = {
+  plugin:  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 00-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/></svg>`,
+  stream:  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>`,
+  manga:   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>`,
+  torrent: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"/></svg>`,
+  source:  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>`,
+  star:    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
+  starFill:`<svg viewBox="0 0 24 24" fill="currentColor" class="off-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
+  copy:    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>`,
+  check:   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`,
+  shield:  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
+  ok:      `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`,
+  x:       `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`,
+  warn:    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/></svg>`,
+  chat:    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>`,
+  app:     `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>`,
+  globe:   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>`,
+};
+
+let allData      = [];
+let activeType   = 'all';
+let activeStatus = 'all';
+let activeLang   = 'all';
+let activeSort   = 'default';
+let searchTerm   = '';
+let authorTerm   = '';
+let byId         = {};
+
+// ---------------- helpers (mirrors Marketplace+ logic) ----------------
+function h(str) {
+  return String(str == null ? '' : str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function b64e(s) { return btoa(unescape(encodeURIComponent(s))); }
+function b64d(s) { try { return decodeURIComponent(escape(atob(s))); } catch (e) { return ''; } }
+function fmtDate(t) {
+  return t ? new Date(t).toLocaleDateString(undefined, { year:'numeric', month:'short', day:'numeric' }) : null;
+}
+function isOfficial(item) {
+  return item.isOfficial || OFFICIAL_AUTHORS.includes(String(item.author || '').toLowerCase());
+}
+function getStatus(item) {
+  if (!item) return 'untagged';
+  // deprecated wins over broken: the bot tags deprecated extensions with both flags
+  if (item.deprecatedTag) return 'deprecated';
+  if (item.brokenTag)     return 'broken';
+  if (item.workingTag)    return 'working';
+  return 'untagged';
+}
+function starsOf(item) {
+  return (item && typeof item.stars === 'number' && item.stars > 0) ? item.stars : 0;
+}
+function rankOf(status) {
+  if (status === 'working')   return 0;
+  if (status === 'untagged')  return 1;
+  if (status === 'deprecated')return 2;
+  return 3;
+}
+function whenOf(v) {
+  if (!v) return 0;
+  const t = Date.parse(String(v));
+  return isNaN(t) ? 0 : t;
+}
+function agoText(t) {
+  const d = Math.floor((Date.now() - t) / 86400000);
+  if (d <= 0)  return 'today';
+  if (d === 1) return 'yesterday';
+  if (d < 7)   return d + 'd ago';
+  if (d < 30)  return Math.floor(d / 7) + 'w ago';
+  if (d < 365) return Math.floor(d / 30) + 'mo ago';
+  return Math.floor(d / 365) + 'y ago';
+}
+function isNew(item) {
+  const t = whenOf(item.addedAt);
+  return t && (Date.now() - t) < NEW_FOR;
+}
+function cap(s) { s = String(s == null ? '' : s); return s ? s.charAt(0).toUpperCase() + s.slice(1) : ''; }
+function langLabel(code) {
+  if (!code) return null;
+  const c = String(code).toLowerCase();
+  return KNOWN_LANGS[c] || code.toUpperCase();
+}
+function parseVT(item) {
+  const f = item.flags;
+  if (!f) return null;
+  const parts = String(f).split('/');
+  const flagged = parseInt(parts[0], 10);
+  const total   = parseInt(parts[1], 10);
+  if (isNaN(flagged)) return null;
+  return { flagged, total: isNaN(total) ? null : total, permalink: item.permalink || null };
+}
+
+// ---------------- data ----------------
+// Tries the custom feed first (if set), then the default raw URL,
+// then the jsDelivr CDN mirror as a backup.
+async function fetchFeed() {
+  const custom = getCustomFeed();
+  const candidates = custom ? [custom, MAIN, MAIN_BACKUP] : [MAIN, MAIN_BACKUP];
+  for (const url of candidates) {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) continue;
+      const data = await res.json();
+      if (Array.isArray(data) && data.length) return { url, data };
+    } catch (e) { /* try the next source */ }
+  }
+  return null;
+}
+async function load() {
+  try {
+    const got = await fetchFeed();
+    if (!got) throw new Error('All feed sources failed');
+    activeFeed = got.url;
+    allData = got.data;
+    byId = {};
+    allData.forEach(i => { if (i.id) byId[i.id] = i; });
+    buildLangOptions();
+    // apply ?lang= from the URL now that options exist
+    if (!langDD.has(activeLang)) activeLang = 'all';
+    langDD.set(activeLang);
+    updateStats();
+    if (activeFeed === MAIN || activeFeed === MAIN_BACKUP) injectItemListLD();
+    render();
+    updateFeedUI();
+    // deep link: #extension-id opens the detail view
+    const hid = decodeURIComponent((location.hash || '').slice(1));
+    if (hid && byId[hid]) openDetail(hid, false);
+  } catch(e) {
+    // keep prerendered content if the live fetch fails
+    if (document.querySelector('#content .section')) return;
+    document.getElementById('content').innerHTML = `
+      <div class="state-msg">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <span>Could not load extensions. Please try again later.</span>
+      </div>`;
+  }
+}
+function buildLangOptions() {
+  const langs = new Set();
+  allData.forEach(item => { if (item.lang) langs.add(String(item.lang).toLowerCase()); });
+  const items = [['all', 'All languages']];
+  [...langs].sort().forEach(code => {
+    items.push([code, langLabel(code) + (code !== 'multi' ? ' (' + code.toUpperCase() + ')' : '')]);
+  });
+  langDD.setItems(items);
+}
+function updateStats() {
+  let w = 0, b = 0, d = 0;
+  allData.forEach(item => {
+    const s = getStatus(item);
+    if (s === 'working')    w++;
+    if (s === 'broken')     b++;
+    if (s === 'deprecated') d++;
+  });
+  document.getElementById('sTotal').textContent      = allData.length;
+  document.getElementById('sWorking').textContent    = w;
+  document.getElementById('sBroken').textContent     = b;
+  document.getElementById('sDeprecated').textContent = d;
+}
+
+// ---------------- filtering & sorting ----------------
+function getFiltered() {
+  let items = allData.filter(item => {
+    if (activeType === 'official') {
+      if (!isOfficial(item)) return false;
+    } else if (activeType !== 'all') {
+      if (item.type !== activeType) return false;
+    }
+    if (activeStatus !== 'all' && getStatus(item) !== activeStatus) return false;
+    if (activeLang !== 'all' && String(item.lang || '').toLowerCase() !== activeLang) return false;
+    if (authorTerm) {
+      if (!String(item.author || '').toLowerCase().includes(authorTerm.toLowerCase())) return false;
+    }
+    if (searchTerm) {
+      const q = searchTerm.toLowerCase();
+      if (!((item.name||'').toLowerCase().includes(q) ||
+            (item.id||'').toLowerCase().includes(q) ||
+            (item.description||'').toLowerCase().includes(q) ||
+            (item.author||'').toLowerCase().includes(q))) return false;
+    }
+    return true;
+  });
+  const byName = (a,b) => (a.name||'').localeCompare(b.name||'');
+  if (activeSort === 'default') {
+    // Marketplace+ default: working → untagged → deprecated → broken, then stars, then name
+    items.sort((a,b) =>
+      rankOf(getStatus(a)) - rankOf(getStatus(b)) ||
+      starsOf(b) - starsOf(a) ||
+      byName(a,b));
+  }
+  else if (activeSort === 'stars')   items.sort((a,b) => starsOf(b) - starsOf(a) || byName(a,b));
+  else if (activeSort === 'updated') items.sort((a,b) => whenOf(b.updatedAt) - whenOf(a.updatedAt) || byName(a,b));
+  else if (activeSort === 'newest')  items.sort((a,b) => whenOf(b.addedAt)   - whenOf(a.addedAt)   || byName(a,b));
+  else if (activeSort === 'az')      items.sort(byName);
+  else if (activeSort === 'za')      items.sort((a,b) => byName(b,a));
+  return items;
+}
+
+// ---------------- badges ----------------
+function badge(inner, cls, title) {
+  return `<span class="badge ${cls}"${title ? ` title="${h(title)}"` : ''}>${inner}</span>`;
+}
+function vtBadge(item) {
+  const vt = parseVT(item);
+  if (!vt) return badge(SVG.shield + ' Unscanned', 'bd', 'Not yet scanned on VirusTotal');
+  const label = vt.flagged > 0
+    ? `${vt.flagged}${vt.total ? '/' + vt.total : ''} flags`
+    : 'Clean';
+  const cls = vt.flagged > 0 ? 'bb' : 'bw';
+  const title = 'VirusTotal scan' + (item.scannedOnVersion ? ' · scanned on v' + item.scannedOnVersion : '');
+  if (vt.permalink) {
+    return `<a class="badge ${cls}" href="${h(vt.permalink)}" target="_blank" rel="noopener" title="${h(title)} — view report">${SVG.shield} ${h(label)}</a>`;
+  }
+  return badge(SVG.shield + ' ' + h(label), cls, title);
+}
+function statusBadge(status) {
+  if (status === 'working')    return badge(SVG.ok + ' Working', 'bw');
+  if (status === 'broken')     return badge(SVG.x + ' Broken', 'bb');
+  if (status === 'deprecated') return badge(SVG.warn + ' Deprecated', 'bdep');
+  return '';
+}
+function supportBadges(threadId) {
+  const tid = h(String(threadId));
+  const web = `https://discord.com/channels/${DISCORD_GUILD}/${tid}`;
+  const app = `discord://-/channels/${DISCORD_GUILD}/${tid}`;
+  return `<a class="badge bdisc" href="${web}" target="_blank" rel="noreferrer" title="Open the support thread — opens the Discord app on mobile, or the browser on desktop">${SVG.chat} Support</a>` +
+         `<a class="badge bdisc bdisc-mini" href="${app}" title="Open in the Discord desktop app">${SVG.app}</a>`;
+}
+
+// ---------------- card ----------------
+function card(item) {
+  const status   = getStatus(item);
+  const official = isOfficial(item);
+  const sc = status === 'broken' ? 's-broken' : status === 'deprecated' ? 's-deprecated' : '';
+  const init = h(String(item.name || item.id || '?').charAt(0).toUpperCase());
+  const iconHtml = item.icon
+    ? `<img src="${h(item.icon)}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
+      + `<span style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:18px;font-weight:700">${init}</span>`
+    : `<span style="font-size:18px;font-weight:700">${init}</span>`;
+  const url = String(item.manifestURI || item.manifestUrl || item.url || '');
+  const url64 = url ? btoa(unescape(encodeURIComponent(url))) : '';
+
+  // single, light badge line — everything else lives in the detail view (click the card)
+  let chips = '';
+  if (official) chips += badge(SVG.star + ' Official', 'boff');
+  chips += statusBadge(status);
+  if (isNew(item)) chips += badge('New', 'bnew', 'Added ' + agoText(whenOf(item.addedAt)));
+  if (Array.isArray(item.tags)) {
+    item.tags.forEach(t => {
+      const tc = TAG_CHIPS[String(t)];
+      if (tc && tc[1] === 'baud') chips += badge(h(tc[0]), tc[1]);
+    });
+  }
+  const lc = String(item.lang || '').toLowerCase();
+  if (item.lang && lc !== 'multi') chips += badge(h(String(item.lang).toUpperCase()), 'bblue');
+  const n = starsOf(item);
+  if (n > 0) chips += badge('★ ' + n, 'bstar', n + ' star' + (n > 1 ? 's' : '') + ' on the community Discord');
+
+  // right side: VirusTotal as a small colored shield icon + Support
+  const vt = parseVT(item);
+  const vtCls   = !vt ? '' : vt.flagged > 0 ? 'vt-bad' : 'vt-ok';
+  const vtTitle = !vt ? 'Not yet scanned on VirusTotal'
+    : vt.flagged > 0 ? 'VirusTotal: ' + vt.flagged + (vt.total ? '/' + vt.total : '') + ' flags — click for the report'
+    : 'VirusTotal: clean — click for the report';
+  let right = (vt && vt.permalink)
+    ? `<a class="vt ${vtCls}" href="${h(vt.permalink)}" target="_blank" rel="noopener" title="${h(vtTitle)}" aria-label="${h(vtTitle)}">${SVG.shield}</a>`
+    : `<span class="vt ${vtCls}" title="${h(vtTitle)}">${SVG.shield}</span>`;
+  if (item.threadId) {
+    right += `<a class="badge bdisc" style="margin-left:0" href="https://discord.com/channels/${DISCORD_GUILD}/${h(String(item.threadId))}" target="_blank" rel="noreferrer" title="Open the Discord support thread">${SVG.chat} Support</a>`;
+  }
+
+  // muted one-line meta
+  const meta = [];
+  if (item.author) meta.push('by ' + h(item.author));
+  if (item.version) meta.push('v' + h(item.version));
+  const up = whenOf(item.updatedAt);
+  if (up) meta.push('updated ' + agoText(up));
+
+  return `<div class="xcard ${sc}" data-u="${url64}" data-id="${h(item.id || '')}" tabindex="0" aria-label="View details for ${h(item.name || item.id || 'extension')}">
+    <div class="xt">
+      <div class="xicon">${iconHtml}</div>
+      <div class="xmeta">
+        <div class="xname">${h(item.name || item.id || 'Unknown')}</div>
+        <div class="xid">${h(item.id || '')}</div>
+      </div>
+      <button class="cbtn" onclick="doCopy(this)" title="Copy the manifest URL to add this extension in Seanime">${SVG.copy} Copy URL</button>
+    </div>
+    ${item.description ? `<div class="xdesc">${h(item.description)}</div>` : ''}
+    <div class="xbadges">${chips}<span class="xspacer"></span>${right}</div>
+    ${meta.length ? `<div class="xsub">${meta.join(' · ')}</div>` : ''}
+  </div>`;
+}
+function doCopy(btn) {
+  const url = b64d(btn.closest('.xcard').dataset.u || '');
+  if (!url) return;
+  navigator.clipboard.writeText(url).then(() => {
+    btn.classList.add('copied');
+    btn.innerHTML = SVG.check + ' Copied!';
+    setTimeout(() => { btn.classList.remove('copied'); btn.innerHTML = SVG.copy + ' Copy URL'; }, 2000);
+  });
+}
+function copyText(btn) {
+  const t = b64d(btn.dataset.c || '');
+  if (!t) return;
+  navigator.clipboard.writeText(t).then(() => {
+    const old = btn.innerHTML;
+    btn.classList.add('copied');
+    btn.innerHTML = SVG.check + ' Copied!';
+    setTimeout(() => { btn.classList.remove('copied'); btn.innerHTML = old; }, 2000);
+  });
+}
+
+// ---------------- detail view ----------------
+function detailHtml(item) {
+  const status   = getStatus(item);
+  const init = h(String(item.name || item.id || '?').charAt(0).toUpperCase());
+  const iconHtml = item.icon
+    ? `<img src="${h(item.icon)}" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
+      + `<span style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:18px;font-weight:700">${init}</span>`
+    : `<span style="font-size:18px;font-weight:700">${init}</span>`;
+  const manifest = String(item.manifestURI || item.manifestUrl || item.url || '');
+
+  const rows = [];
+  const add = (k, v) => { if (v) rows.push(`<div class="drow"><dt>${k}</dt><dd>${v}</dd></div>`); };
+  add('Type', h((TYPE_META[item.type] || {}).label || item.type || ''));
+  add('Version', item.version ? 'v' + h(item.version) : '');
+  add('Author', h(item.author || ''));
+  add('Language', item.lang ? h(langLabel(item.lang)) : '');
+  add('Written in', item.language ? h(cap(item.language)) : '');
+  add('Stars', starsOf(item) ? '★ ' + starsOf(item) : '');
+  add('Added', fmtDate(whenOf(item.addedAt)));
+  add('Updated', fmtDate(whenOf(item.updatedAt)));
+  add('Scanned on', item.scannedOnVersion ? 'Seanime v' + h(item.scannedOnVersion) : '');
+  add('Last working', item.lastWorkingVersion ? 'v' + h(item.lastWorkingVersion) : '');
+  const vt = parseVT(item);
+  if (vt) add('VirusTotal', (vt.flagged > 0 ? vt.flagged + (vt.total ? '/' + vt.total : '') + ' flags' : 'Clean')
+    + (vt.permalink ? ` — <a href="${h(vt.permalink)}" target="_blank" rel="noopener">view report</a>` : ''));
+  if (Array.isArray(item.flaggedBy) && item.flaggedBy.length) add('Flagged by', h(item.flaggedBy.join(', ')));
+  add('Manifest', manifest ? h(manifest) : '');
+  add('Payload', item.payloadURI ? h(item.payloadURI) : '');
+
+  let btns = '';
+  if (manifest) btns += `<button class="cbtn" data-c="${b64e(manifest)}" onclick="copyText(this)" aria-label="Copy manifest URL">${SVG.copy} Copy manifest URL</button>`;
+  if (item.website) btns += `<a class="cbtn" href="${h(item.website)}" target="_blank" rel="noopener">${SVG.globe} Website</a>`;
+  if (item.threadId) btns += supportBadges(item.threadId);
+
+  return `
+    <div class="xt" style="margin-bottom:10px;padding-right:28px">
+      <div class="xicon">${iconHtml}</div>
+      <div class="xmeta">
+        <div class="xname" style="white-space:normal">${h(item.name || item.id || 'Unknown')}</div>
+        <div class="xid">${h(item.id || '')}</div>
+      </div>
+    </div>
+    <div class="xbadges" style="margin-bottom:10px">
+      ${isOfficial(item) ? badge(SVG.star + ' Official', 'boff') : ''}${statusBadge(status)}${isNew(item) ? badge('New', 'bnew') : ''}${vtBadge(item)}
+    </div>
+    ${item.description ? `<p style="font-size:12.5px;color:var(--muted);line-height:1.6;margin-bottom:10px">${h(item.description)}</p>` : ''}
+    <dl>${rows.join('')}</dl>
+    <div class="xbadges" style="margin-top:14px;gap:6px">${btns}</div>`;
+}
+function openDetail(id, push) {
+  const item = byId[id];
+  if (!item) return;
+  document.getElementById('modalBody').innerHTML = detailHtml(item);
+  document.getElementById('modal').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  if (push !== false) history.replaceState(null, '', location.pathname + location.search + '#' + encodeURIComponent(id));
+}
+function closeDetail() {
+  const m = document.getElementById('modal');
+  if (m.style.display !== 'flex') return;
+  m.style.display = 'none';
+  document.body.style.overflow = '';
+  if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+}
+function copyRepo(btn) {
+  navigator.clipboard.writeText(REPO_URL).then(() => {
+    btn.classList.add('copied');
+    btn.innerHTML = SVG.check + ' Copied!';
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.innerHTML = SVG.copy + ' Copy link';
+    }, 2000);
+  });
+}
+
+// Google renders JS, so structured data for the catalog is injected once the
+// feed loads — gives each extension a chance to appear in search results.
+function injectItemListLD() {
+  try {
+    if (document.getElementById('ld-itemlist')) return; // only once
+    const ld = {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: 'Seanime community plugins and extensions',
+      numberOfItems: allData.length,
+      itemListElement: allData.slice(0, 200).map((item, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        item: {
+          '@type': 'SoftwareApplication',
+          name: item.name || item.id,
+          description: item.description || undefined,
+          softwareVersion: item.version || undefined,
+          author: item.author ? { '@type': 'Person', name: item.author } : undefined,
+          applicationCategory: 'BrowserApplication',
+          operatingSystem: 'Windows, macOS, Linux',
+          offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+          url: 'https://bas1874.github.io/Seanime-Marketplace/'
+        }
+      }))
+    };
+    const s = document.createElement('script');
+    s.id = 'ld-itemlist';
+    s.type = 'application/ld+json';
+    s.textContent = JSON.stringify(ld);
+    document.head.appendChild(s);
+  } catch (e) { /* non-fatal */ }
+}
+
+// ---------------- render ----------------
+function section(label, iconKey, items, delay) {
+  if (!items.length) return '';
+  const icon = SVG[iconKey] || SVG.plugin;
+  return `<div class="section fi" style="animation-delay:${delay}ms">
+    <div class="sec-hdr">${icon}${h(label)}<span class="sec-cnt">${items.length}</span></div>
+    <div class="grid">${items.map(card).join('')}</div>
+  </div>`;
+}
+// Pure builder — also used by scripts/prerender.mjs at build time,
+// so the static HTML in the repo is byte-identical to the runtime render.
+function buildCatalogHtml(items) {
+  let html = '';
+  const off = i => isOfficial(i);
+  if (activeType === 'all') {
+    html += section('Plugins',          'plugin',  items.filter(i=>i.type==='plugin'&&!off(i)),                   0);
+    html += section('Online Streaming', 'stream',  items.filter(i=>i.type==='onlinestream-provider'&&!off(i)),   40);
+    html += section('Manga',            'manga',   items.filter(i=>i.type==='manga-provider'&&!off(i)),          80);
+    html += section('Torrents',         'torrent', items.filter(i=>i.type==='anime-torrent-provider'&&!off(i)), 120);
+    html += section('Custom Sources',   'source',  items.filter(i=>i.type==='custom-source'&&!off(i)),          160);
+    html += section('Official',         'star',    items.filter(off),                                           200);
+    const known = Object.keys(TYPE_META);
+    html += section('Other',            'plugin',  items.filter(i=>!known.includes(i.type)&&!off(i)),           240);
+  } else if (activeType === 'official') {
+    html += section('Official Extensions', 'star', items, 0);
+  } else {
+    const meta = TYPE_META[activeType] || { label: activeType, iconKey: 'plugin' };
+    html += section(meta.label, meta.iconKey, items, 0);
+  }
+  return html;
+}
+function render() {
+  const items = getFiltered();
+  const el = document.getElementById('content');
+  if (!items.length) {
+    el.innerHTML = `<div class="state-msg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>No extensions match your filters.</span></div>`;
+    return;
+  }
+  el.innerHTML = buildCatalogHtml(items) || `<div class="state-msg"><span>No extensions found.</span></div>`;
+}
+
+// ---------------- wiring ----------------
+const TYPE_KEYS   = ['all','plugin','onlinestream-provider','manga-provider','anime-torrent-provider','custom-source','official'];
+const STATUS_KEYS = ['all','working','broken','deprecated','untagged'];
+const SORT_KEYS   = ['default','stars','updated','newest','az','za'];
+
+function setTypeUI() {
+  document.querySelectorAll('#typeTabs .pill').forEach(b => b.classList.toggle('on', b.dataset.t === activeType));
+}
+function setStatusUI() {
+  document.querySelectorAll('#statusPills .spill').forEach(b => {
+    b.className = 'spill';
+    if (b.dataset.s === activeStatus) {
+      const map = { all:'on-all', working:'on-w', broken:'on-b', deprecated:'on-d', untagged:'on-u' };
+      b.classList.add(map[activeStatus] || 'on-all');
+    }
+  });
+}
+// keep filters in the URL so views are shareable / bookmarkable
+function syncURL() {
+  const p = new URLSearchParams();
+  if (activeType   !== 'all')     p.set('type',   activeType);
+  if (activeStatus !== 'all')     p.set('status', activeStatus);
+  if (activeLang   !== 'all')     p.set('lang',   activeLang);
+  if (activeSort   !== 'default') p.set('sort',   activeSort);
+  if (searchTerm) p.set('q', searchTerm);
+  if (authorTerm) p.set('author', authorTerm);
+  const qs = p.toString();
+  history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
+}
+function applyURL() {
+  const p = new URLSearchParams(location.search);
+  activeType   = TYPE_KEYS.includes(p.get('type'))     ? p.get('type')   : 'all';
+  activeStatus = STATUS_KEYS.includes(p.get('status')) ? p.get('status') : 'all';
+  activeSort   = SORT_KEYS.includes(p.get('sort'))     ? p.get('sort')   : 'default';
+  activeLang   = (p.get('lang') || 'all').toLowerCase(); // validated once options load
+  searchTerm   = (p.get('q') || '').trim();
+  authorTerm   = (p.get('author') || '').trim();
+  setTypeUI();
+  setStatusUI();
+  document.getElementById('searchInp').value = searchTerm;
+  document.getElementById('authorInp').value = authorTerm;
+  sortDD.set(activeSort);
+  langDD.set(langDD.has(activeLang) ? activeLang : 'all');
+}
+
+document.getElementById('typeTabs').addEventListener('click', e => {
+  const btn = e.target.closest('.pill'); if (!btn) return;
+  activeType = btn.dataset.t;
+  setTypeUI(); syncURL(); render();
+});
+document.getElementById('statusPills').addEventListener('click', e => {
+  const btn = e.target.closest('.spill'); if (!btn) return;
+  activeStatus = btn.dataset.s;
+  setStatusUI(); syncURL(); render();
+});
+document.getElementById('searchInp').addEventListener('input', e => { searchTerm = e.target.value.trim(); syncURL(); render(); });
+document.getElementById('authorInp').addEventListener('input', e => { authorTerm = e.target.value.trim(); syncURL(); render(); });
+
+// custom dropdowns — native <select> menus can't be themed
+function makeDropdown(rootId, opts) {
+  const root = document.getElementById(rootId);
+  let items = opts.items || [];
+  let value = opts.value || (items[0] ? items[0][0] : '');
+  root.innerHTML =
+    `<button type="button" class="dd-btn" aria-haspopup="listbox" aria-expanded="false" aria-label="${h(opts.label)}">` +
+    `<span class="dd-lbl"></span>` +
+    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>` +
+    `</button><div class="dd-menu" role="listbox" hidden></div>`;
+  const btn  = root.querySelector('.dd-btn');
+  const lbl  = root.querySelector('.dd-lbl');
+  const menu = root.querySelector('.dd-menu');
+  function labelFor(v) {
+    const it = items.find(i => i[0] === v);
+    return it ? it[1] : (items[0] ? items[0][1] : '');
+  }
+  function sync() {
+    lbl.textContent = labelFor(value);
+    menu.innerHTML = items.map(([v, t]) =>
+      `<button type="button" class="dd-item${v === value ? ' on' : ''}" role="option" aria-selected="${v === value}" data-v="${h(v)}">` +
+      `<span class="dd-tick">${SVG.check}</span>${h(t)}</button>`
+    ).join('');
+  }
+  function close() { menu.hidden = true; btn.setAttribute('aria-expanded', 'false'); }
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const willOpen = menu.hidden;
+    closeAllDropdowns();
+    if (willOpen) { menu.hidden = false; btn.setAttribute('aria-expanded', 'true'); }
+  });
+  menu.addEventListener('click', e => {
+    const it = e.target.closest('.dd-item');
+    if (!it) return;
+    value = it.dataset.v;
+    sync();
+    close();
+    opts.onChange(value);
+  });
+  root.addEventListener('keydown', e => { if (e.key === 'Escape') { close(); btn.focus(); e.stopPropagation(); } });
+  sync();
+  return {
+    set(v)         { value = v; sync(); },
+    has(v)         { return items.some(i => i[0] === v); },
+    setItems(list) { items = list; if (!items.some(i => i[0] === value)) value = items[0] ? items[0][0] : ''; sync(); },
+    close
+  };
+}
+function closeAllDropdowns() {
+  document.querySelectorAll('.dd-menu:not([hidden])').forEach(m => { m.hidden = true; });
+  document.querySelectorAll('.dd-btn[aria-expanded="true"]').forEach(b => b.setAttribute('aria-expanded', 'false'));
+}
+document.addEventListener('click', closeAllDropdowns);
+
+const langDD = makeDropdown('langDD', {
+  label: 'Filter by language',
+  items: [['all', 'All languages']],
+  value: 'all',
+  onChange: v => { activeLang = v; syncURL(); render(); }
+});
+const sortDD = makeDropdown('sortDD', {
+  label: 'Sort extensions',
+  items: [
+    ['default', 'Default order'],
+    ['stars',   'Most stars'],
+    ['updated', 'Recently updated'],
+    ['newest',  'Recently added'],
+    ['az',      'Name A → Z'],
+    ['za',      'Name Z → A'],
+  ],
+  value: 'default',
+  onChange: v => { activeSort = v; syncURL(); render(); }
+});
+
+// detail view: click or Enter on a card (links/buttons inside still work normally)
+document.getElementById('content').addEventListener('click', e => {
+  if (e.target.closest('a, button')) return;
+  const c = e.target.closest('.xcard');
+  if (c && c.dataset.id) openDetail(c.dataset.id);
+});
+document.getElementById('content').addEventListener('keydown', e => {
+  if (e.key !== 'Enter') return;
+  const c = e.target.closest('.xcard');
+  if (c && c.dataset.id && e.target === c) openDetail(c.dataset.id);
+});
+document.getElementById('modal').addEventListener('click', e => { if (e.target === e.currentTarget) closeDetail(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
+
+// custom marketplace feed
+function updateFeedUI() {
+  const custom = getCustomFeed();
+  const btn = document.getElementById('feedBtn');
+  btn.classList.toggle('on-all', !!custom);
+  document.getElementById('feedBtnLbl').textContent = custom ? 'Custom feed' : 'Feed';
+  document.getElementById('feedInp').value = custom;
+  document.getElementById('feedActive').textContent = 'Currently loading from: ' + (activeFeed || (custom || MAIN));
+}
+function reloadFeed() {
+  document.getElementById('content').innerHTML =
+    '<div class="state-msg"><div class="spin"></div><span>Loading extensions…</span></div>';
+  updateFeedUI();
+  load();
+}
+document.getElementById('feedBtn').addEventListener('click', () => {
+  const p = document.getElementById('feedPanel');
+  p.hidden = !p.hidden;
+  document.getElementById('feedBtn').setAttribute('aria-expanded', String(!p.hidden));
+  if (!p.hidden) document.getElementById('feedInp').focus();
+});
+document.getElementById('feedSave').addEventListener('click', () => {
+  const v = document.getElementById('feedInp').value.trim();
+  if (v && !/^https?:\/\//i.test(v)) {
+    document.getElementById('feedActive').textContent = 'The URL must start with http:// or https://';
+    return;
+  }
+  setCustomFeed(v);
+  reloadFeed();
+});
+document.getElementById('feedInp').addEventListener('keydown', e => {
+  if (e.key === 'Enter') document.getElementById('feedSave').click();
+});
+document.getElementById('feedReset').addEventListener('click', () => {
+  setCustomFeed('');
+  document.getElementById('feedInp').value = '';
+  reloadFeed();
+});
+
+applyURL();
+updateFeedUI();
+load();
+</script>
+<script data-goatcounter="https://bas1874.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,43 @@
+name: Prerender catalog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Marketplace/Main.json'
+      - 'scripts/prerender.mjs'
+  schedule:
+    - cron: '17 4 * * *'   # daily, keeps "updated Xd ago" text fresh
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prerender
+  cancel-in-progress: true
+
+jobs:
+  prerender:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Prerender index.html
+        run: node scripts/prerender.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit."
+          else
+            git commit -m "chore: prerender extension catalog"
+            git push
+          fi

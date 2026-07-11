@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bas1874.github.io/Seanime-Marketplace/sitemap.xml
