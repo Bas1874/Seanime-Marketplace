@@ -34,7 +34,7 @@
     "description": "Manga provider for Mangapill.", "type": "manga-provider", "language": "typescript", "lang": "en",
     "icon": "https://island.clap.ing/api/extensions/icons/mangapill.png",
     "manifestURI": "https://island.clap.ing/api/extensions/manga-providers/mangapill/mangapill.json",
-    "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
+    "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
@@ -42,7 +42,7 @@
     "description": "Manga provider for WeebCentral.", "type": "manga-provider", "language": "typescript",
     "lang": "en", "icon": "https://island.clap.ing/api/extensions/icons/weebcentral.png",
     "manifestURI": "https://island.clap.ing/api/extensions/manga-providers/weebcentral/weebcentral.json",
-    "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
+    "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
@@ -51,7 +51,7 @@
     "lang": "multi", "icon": "https://island.clap.ing/api/extensions/icons/nyaa.png",
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/nyaa-sukebei/nyaa-sukebei.json",
     "payloadURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/nyaa-sukebei/nyaa-sukebei.ts",
-    "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
+    "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
@@ -59,7 +59,7 @@
     "description": "Nyaa all categories with search only", "type": "anime-torrent-provider",
     "language": "typescript", "lang": "multi", "icon": "",
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/basic-nyaa/basic-nyaa.json",
-    "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
+    "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
@@ -67,7 +67,7 @@
     "description": "SeaDex provider for high quality torrents", "type": "anime-torrent-provider",
     "language": "typescript", "lang": "multi", "icon": "https://island.clap.ing/api/extensions/icons/seadex.png",
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/seadex/seadex.json",
-    "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
+    "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
@@ -77,7 +77,7 @@
     "icon": "https://island.clap.ing/api/extensions/icons/nyaa.png",
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/nyaa/nyaa.json",
     "payloadURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/nyaa/nyaa.ts", "website": "",
-    "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true, "addedAt": "2026-07-03T16:17:46.582Z",
+    "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false, "addedAt": "2026-07-03T16:17:46.582Z",
     "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
@@ -85,7 +85,7 @@
     "description": "Nyaa provider for non-english torrents", "type": "anime-torrent-provider",
     "language": "typescript", "lang": "multi", "icon": "https://island.clap.ing/api/extensions/icons/nyaa.png",
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/nyaa/nyaa-non-eng.json",
-    "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
+    "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
@@ -94,7 +94,7 @@
     "type": "anime-torrent-provider", "language": "typescript", "lang": "multi",
     "icon": "https://island.clap.ing/api/extensions/icons/animetosho.png",
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/animetosho/animetosho.json",
-    "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": true,
+    "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   }
 ]
