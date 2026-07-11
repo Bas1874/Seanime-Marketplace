@@ -392,11 +392,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1782420623994, "hadWorkingTag": false
   },
   {
-    "id": "aq-animepahe-beta", "version": "0.2.26",
+    "id": "aq-animepahe-beta", "version": "0.2.27",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/416ca9d9cb07c8ce79d273dbbd794f21cef9556199ea768d57c20247d07c6544",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1783213763188, "hadWorkingTag": false
+    "permalink": "https://www.virustotal.com/gui/file/276fd6cf194592227f4b3a22cbdcd0a871458a4504aae72158c4ffb37b8a62ca",
+    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1783736778893
   },
   {
     "id": "aq-anizone", "version": "1.1.8",
@@ -1097,6 +1097,13 @@
     "flags": "0/58", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5eaa566e863850dad5559b37ea0bf78884803f6ddc1f0a0cab33b068a3abb3ab",
     "timestamp": 1771870790153, "hadWorkingTag": false
+  },
+  {
+    "id": "schedule-editor", "version": "1.1.1",
+    "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/schedule-editor/main.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/75735233bdd4cdd15605344e1902000bee6a7d6f623c10a2070ce3f7b38cd2cf",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783736701699
   },
   {
     "id": "seastats", "version": "0.1.4",
