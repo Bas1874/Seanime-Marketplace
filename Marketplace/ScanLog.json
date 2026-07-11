@@ -644,11 +644,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1781829480910, "hadWorkingTag": false
   },
   {
-    "id": "horizontal-scroll", "version": "1.1.0",
+    "id": "horizontal-scroll", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/horizontal-scroll/main.ts",
     "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b18a06424a327db47086ed05473efaec0fc843fae6ac09bbcf38aaebf3c5a94b",
-    "lastWorkingVersion": "3.9.1", "timestamp": 1782506956944, "hadWorkingTag": true
+    "permalink": "https://www.virustotal.com/gui/file/942e9099655fb0205edf9bc64a2051a553ed8acf1a198d1ff79f39da4cde0c0e",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783804194839
   },
   {
     "id": "ilcorsaronero", "version": "2.0.0",
@@ -735,11 +735,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1783639380941, "hadWorkingTag": false
   },
   {
-    "id": "livechart-schedule", "version": "0.2.1",
+    "id": "livechart-schedule", "version": "0.2.6",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/main.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/47e3f64caff86c53b650c47d1caba8b18f226d8bda449549e14a1ccb10218b76",
-    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783789686563
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8369e387ca4cadc222bdb81314053b366a54d4475b358f3d12897aa20337299c",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783804102863
   },
   {
     "id": "LN-reader", "version": "1.6.5",
