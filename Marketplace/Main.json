@@ -1247,18 +1247,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "discord-rpc-episode-title", "name": "Discord RPC Episode Title", "version": "1.0.0",
+    "id": "discord-rpc-episode-title", "name": "Discord RPC Episode Title", "version": "1.0.1",
     "author": "S1lent999", "description": "Shows anime episode title with SXXEXX format in Discord RPC",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-logo.jpg",
     "manifestURI": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-rpc-episode-title.json",
     "payloadURI": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-rpc-episode-title.ts",
     "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2b6680dce8530459c84de7141d7aa0c867d0fc23699e10cec423278d95dfaab2",
+    "permalink": "https://www.virustotal.com/gui/file/42c3ce3dc92e1384c1e319601adbf9f8dc7aab34d2d42998b5fc367ad99d3d30",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.9.1",
     "lastWorkingVersion": "3.9.1", "stars": 7, "threadId": "1524795196007645304",
-    "addedAt": "2026-07-09T15:25:31.098Z", "updatedAt": "2026-07-09T15:25:31.098Z"
+    "addedAt": "2026-07-09T15:25:31.098Z", "updatedAt": "2026-07-12T05:09:29.660Z"
   },
   {
     "id": "discord-rpc-hide-logo", "name": "Discord RPC Hide Logo", "version": "1.0.1", "author": "Seanime",
