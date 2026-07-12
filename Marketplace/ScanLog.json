@@ -546,11 +546,11 @@
     "timestamp": 1775816055850, "hadWorkingTag": false
   },
   {
-    "id": "discord-rpc-episode-title", "version": "1.0.1",
+    "id": "discord-rpc-episode-title", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-rpc-episode-title.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/42c3ce3dc92e1384c1e319601adbf9f8dc7aab34d2d42998b5fc367ad99d3d30",
-    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783832969379
+    "permalink": "https://www.virustotal.com/gui/file/fac6191b2a9d25a3ce6d6f4d3d3b1b4e54e48edc050885d79cff0628a167f3a6",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783868294025
   },
   {
     "id": "discord-rpc-hide-nsfw", "version": "1.0.4",
@@ -1071,11 +1071,11 @@
     "timestamp": 1778391579517, "hadWorkingTag": false
   },
   {
-    "id": "ranime-discussion", "version": "1.1.2",
+    "id": "ranime-discussion", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/ranime-discussion/main.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0d95b9a894c8229a5f63837928d0e33c41de8dc716ab23f447a463d295a070a5",
-    "timestamp": 1778910778478, "lastWorkingVersion": "3.9.1", "hadWorkingTag": true
+    "permalink": "https://www.virustotal.com/gui/file/115724cb95eb0c7cea76edd18857a435a90bf3c031085d9b1d61d7b36dd9ffbb",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783868339958
   },
   {
     "id": "ravenscans", "version": "1.0.0",
