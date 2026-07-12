@@ -546,11 +546,11 @@
     "timestamp": 1775816055850, "hadWorkingTag": false
   },
   {
-    "id": "discord-rpc-episode-title", "version": "1.0.0",
+    "id": "discord-rpc-episode-title", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-rpc-episode-title.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2b6680dce8530459c84de7141d7aa0c867d0fc23699e10cec423278d95dfaab2",
-    "lastWorkingVersion": "3.9.1", "timestamp": 1783610607797, "hadWorkingTag": true
+    "permalink": "https://www.virustotal.com/gui/file/42c3ce3dc92e1384c1e319601adbf9f8dc7aab34d2d42998b5fc367ad99d3d30",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783832969379
   },
   {
     "id": "discord-rpc-hide-nsfw", "version": "1.0.4",
