@@ -13,7 +13,7 @@
   ```text
   https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/marketplace/main.json
   ```
-  This repository contains custom Seanime plugins and extensions for adding support to various manga and anime sources created by Pal-droid
+  This repository contains providers for various manga and anime sources, as well as a few plugins to enhance your Seanime experience
 
 * **Jhoorodre Marketplace**
 
