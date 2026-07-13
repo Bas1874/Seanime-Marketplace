@@ -217,6 +217,18 @@
     "addedAt": "2026-05-28T15:59:03.840Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "anidap", "name": "Anidap", "version": "1.0.3", "author": "Fup-1",
+    "description": "Anidap online stream provider for sub and dub with subtitle support.",
+    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Fup-1/seanime-anidap-provider/refs/heads/main/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/Fup-1/seanime-anidap-provider/refs/heads/main/manifest.json",
+    "payloadURI": "", "website": "https://anidap.se", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1505937222891733062"], "scannedOnVersion": "3.9.1",
+    "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1526165777185509497",
+    "addedAt": "2026-07-13T09:57:56.070Z", "updatedAt": "2026-07-13T11:04:36.467Z"
+  },
+  {
     "id": "anidb", "name": "AniDB", "version": "1.0.1", "author": "Pal",
     "description": "AniDB is an online streaming provider for subbed & dubbed anime in english",
     "type": "onlinestream-provider", "language": "javascript", "lang": "en",
@@ -728,18 +740,18 @@
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
-    "id": "animetosho-new", "name": "AnimeTosho (NEW)", "version": "2.4.0", "author": "Faddix, Island",
+    "id": "animetosho-new", "name": "AnimeTosho (NEW)", "version": "2.4.1", "author": "Faddix, Island",
     "description": "Integrates Anime Tosho (NEW) as a torrent streaming provider for Seanime.",
     "type": "anime-torrent-provider", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/src/animetosho-new-logo.png",
     "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.json",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
-    "website": "", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5d03ba2e62d3064dd07b528ebfe12d4d918099bae7245cd154fefa6842448a19",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0a01499ef33ea150c4d406689def839bc490196c41a7f6ec98d86e2aff2cd0ef",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881"], "scannedOnVersion": "3.9.1",
     "lastWorkingVersion": "3.9.1", "stars": 6, "threadId": "1505548228865687562",
-    "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-07-12T19:06:26.022Z"
+    "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-07-13T11:04:36.467Z"
   },
   {
     "id": "AnimeUnity", "name": "AnimeUnity", "version": "1.1.3", "author": "kRYstall9",
