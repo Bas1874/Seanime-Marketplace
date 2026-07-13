@@ -217,18 +217,6 @@
     "addedAt": "2026-05-28T15:59:03.840Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anidap", "name": "Anidap", "version": "1.0.3", "author": "Fup-1",
-    "description": "Anidap online stream provider for sub and dub with subtitle support.",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/Fup-1/seanime-anidap-provider/refs/heads/main/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/Fup-1/seanime-anidap-provider/refs/heads/main/manifest.json",
-    "payloadURI": "", "website": "https://anidap.se", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1505937222891733062"], "scannedOnVersion": "3.9.1",
-    "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1526165777185509497",
-    "addedAt": "2026-07-13T09:57:56.070Z", "updatedAt": "2026-07-13T11:04:36.467Z"
-  },
-  {
     "id": "anidb", "name": "AniDB", "version": "1.0.1", "author": "Pal",
     "description": "AniDB is an online streaming provider for subbed & dubbed anime in english",
     "type": "onlinestream-provider", "language": "javascript", "lang": "en",
@@ -2440,18 +2428,18 @@
     "addedAt": "2026-04-20T02:25:45.303Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "quick-access", "name": "Quick Access", "version": "1.0.3", "author": "nnotwen",
+    "id": "quick-access", "name": "Quick Access", "version": "1.0.4", "author": "nnotwen",
     "description": "Adds quick-access links to external anime databases and tracking sites.", "type": "plugin",
     "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/quick-access.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/provider.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0c612838e96acccd51dc8dc6e5af12f38f73cc17a9e7f260ede699fb55ddb576",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1e57ed7c8548e247b82b97856718f398ffef3cac4805e8b145e00425be42547d",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.9.1",
     "lastWorkingVersion": null, "stars": 5, "threadId": "1502787259668365442", "addedAt": "2026-05-09T21:40:03.142Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-07-13T15:04:29.608Z"
   },
   {
     "id": "random-entry", "name": "Random Entry", "version": "1.1.1", "author": "nnotwen",
