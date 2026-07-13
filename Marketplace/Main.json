@@ -185,9 +185,9 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anibd/provider.js",
     "website": "", "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5521e40e14d1a85513d08cf03fc36a8d65a6524f437cd5e8602b70e7806e93f1",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505936860441083904","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.9.1", "lastWorkingVersion": "3.8.7", "stars": 1, "threadId": "1512176296829128794",
+    "scannedOnVersion": "3.9.1", "lastWorkingVersion": "3.9.1", "stars": 1, "threadId": "1512176296829128794",
     "addedAt": "2026-06-04T19:28:44.041Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
@@ -1261,6 +1261,19 @@
     "addedAt": "2026-07-09T15:11:44.053Z", "updatedAt": "2026-07-12T23:17:56.963Z"
   },
   {
+    "id": "discord-rpc-extended", "name": "Discord RPC Extended", "version": "1.0.4", "author": "nnotwen",
+    "description": "Provide more info for Discord RPC.", "type": "plugin", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Extended/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Extended/discord-rpc-extended.json",
+    "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Extended/provider.ts",
+    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/56", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a41ee15676981b05f094693cfc3aee0580f8845270e9bf07cd456ce930d86ee4",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.9.1", "lastWorkingVersion": null,
+    "stars": 0, "threadId": "1526254094568652891", "addedAt": "2026-07-13T15:48:52.575Z",
+    "updatedAt": "2026-07-13T19:10:32.857Z"
+  },
+  {
     "id": "discord-rpc-hide-logo", "name": "Discord RPC Hide Logo", "version": "1.0.1", "author": "Seanime",
     "description": "Hide the Seanime logo in Discord Rich Presence.", "type": "plugin", "language": "typescript",
     "lang": "multi",
@@ -1710,18 +1723,18 @@
     "addedAt": "2026-06-18T21:57:00.083Z", "updatedAt": "2026-07-09T23:36:51.758Z"
   },
   {
-    "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.3.0", "author": "Kaktus",
+    "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.4.2", "author": "Kaktus",
     "description": "Overrides Seanime's schedule times using LiveChart's data, with a choice between Japanese broadcast and simulcast/dub schedules per anime or globally.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/843d72cf96da5620ebcc8fc46ed671b67c812c8a0324cfea7f809a93e1492d7e",
+    "website": "", "flags": "0/57", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8d9243665fb90665d9100ec1ef51159467f12cb84404fa8c74717065aad06077",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.9.1",
     "lastWorkingVersion": "3.9.1", "stars": 4, "threadId": "1525547132885401751",
-    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-07-12T23:17:56.963Z"
+    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-07-13T19:10:32.857Z"
   },
   {
     "id": "LN-reader", "name": "Light Novel Reader", "version": "1.6.5", "author": "Pal",
