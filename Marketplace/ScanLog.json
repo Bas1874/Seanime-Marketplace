@@ -312,7 +312,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesonlinecc/animesonlinecc.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/693beb3cc6e2147e91f1db302ef4f441ca306f258b225f82cbf6ceb82cd0621c",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1783898026600
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783898026600
   },
   {
     "id": "animethemes", "version": "2.0.4",
@@ -354,7 +354,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animeyabu/animeyabu.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/946007201afbadb4ccb7d84bdbebcff295cadf811865b32f9c6ba066a044e325",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1783897535837
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783897535837
   },
   {
     "id": "anitube", "version": "1.0.0",
@@ -522,7 +522,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/dattebayobr/dattebayobr.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c683659edef21a2c75d677b932855a9fb66cea299b5b7cefe6b0247947099a8a",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1783897934524
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783897934524
   },
   {
     "id": "debridtoggle", "version": "1.2.1",
@@ -641,7 +641,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/hinatasoul/hinatasoul.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/71f77e195a769366795c4f205ae940d8a92bd1f33ce6adcd08fc30806d75e2ad",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1783898088201
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783898088201
   },
   {
     "id": "horizontal-scroll", "version": "1.2.0",
@@ -662,7 +662,7 @@
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/JkAnime/main.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/a3a1017351c1652cdb053c48a2a9a1675cabd7c56c2c340b80534ff35fc83578",
-    "timestamp": 1776663474750, "hadWorkingTag": false
+    "timestamp": 1776663474750, "hadWorkingTag": true, "lastWorkingVersion": "3.9.1"
   },
   {
     "id": "kagane-source", "version": "1.0.2",
@@ -1222,7 +1222,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/topanimes/topanimes.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/23178839122b088f677254ff1753f9ce31181d2dd6aca4c891567d0ab32a20f5",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1783897674291
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1783897674291
   },
   {
     "id": "torrentclaw", "version": "1.0.5",
