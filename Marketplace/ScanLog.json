@@ -739,7 +739,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/library-grid-layout/code.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/6c8ff422ace00cc6e693b6db13d136fa01df7152abcb5a9dbe9b68e3e12d0421",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1783639380941, "hadWorkingTag": false
+    "lastWorkingVersion": "3.9.1", "timestamp": 1783639380941, "hadWorkingTag": true
   },
   {
     "id": "livechart-schedule", "version": "0.5.0",
@@ -782,6 +782,13 @@
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/483672be191a98fd3c7cc86305c030e69b7687568108bed2f89f55397c2d5c8f",
     "timestamp": 1771869278116, "hadWorkingTag": false
+  },
+  {
+    "id": "manga-source-updates", "version": "1.8.3",
+    "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/manga-source-updates/code.js",
+    "flags": "0/56", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/98b81acb95ed6a7bc6e6427ee88396a5677a9116bbb3a09f45cbeeca643ad320",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1784012847725
   },
   {
     "id": "mangabaka", "version": "1.0.1",
@@ -896,11 +903,11 @@
     "lastWorkingVersion": "3.9.1", "timestamp": 1782780695133, "hadWorkingTag": true
   },
   {
-    "id": "mangaupdates-sync", "version": "1.2.1",
+    "id": "mangaupdates-sync", "version": "1.2.3",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/code.js",
-    "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7fff4f9969b7ff9df2017c0d941c7c13c21c18518c1e8403bf1902f7ef64cd6f",
-    "lastWorkingVersion": "3.9.1", "timestamp": 1783640208435, "hadWorkingTag": true
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a1a39cb605ad66be1bc0670e80bbbdc7bf4189d5e442fff0c1155d219ef90a0b",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1784012940100
   },
   {
     "id": "mangaworldadult", "version": "1.0.0",
