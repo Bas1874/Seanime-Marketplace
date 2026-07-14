@@ -2469,17 +2469,17 @@
     "updatedAt": "2026-07-13T15:04:29.608Z"
   },
   {
-    "id": "random-entry", "name": "Random Entry", "version": "1.1.1", "author": "nnotwen",
+    "id": "random-entry", "name": "Random Entry", "version": "1.1.2", "author": "nnotwen",
     "description": "Open a random media entry.", "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Random%20Entry/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Random%20Entry/re.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Random%20Entry/provider.ts",
     "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1ba8ddc58541d7cbe101fd08ce2635f331734affb050e86d9ed731dd2c6d36d7",
+    "permalink": "https://www.virustotal.com/gui/file/44e0f499a4a78276a849052e5dfdce50d6f84bd796c87612618a81e519bffdf2",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.9.1",
     "lastWorkingVersion": null, "stars": 7, "threadId": "1492949932221403298", "addedAt": "2026-04-12T18:10:01.510Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-07-14T11:06:23.114Z"
   },
   {
     "id": "ranime-discussion", "name": "r/anime Discussion", "version": "1.2.0", "author": "Kaktus",
