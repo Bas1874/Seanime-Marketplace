@@ -1717,9 +1717,9 @@
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/library-grid-layout/code.js",
     "website": "https://github.com/Carloss616/seanime-extensions", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/6c8ff422ace00cc6e693b6db13d136fa01df7152abcb5a9dbe9b68e3e12d0421",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.9.1",
-    "lastWorkingVersion": "3.8.7", "stars": 2, "threadId": "1517287039651811400",
+    "lastWorkingVersion": "3.9.1", "stars": 2, "threadId": "1517287039651811400",
     "addedAt": "2026-06-18T21:57:00.083Z", "updatedAt": "2026-07-09T23:36:51.758Z"
   },
   {
@@ -1803,6 +1803,20 @@
     "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.9.1",
     "lastWorkingVersion": null, "stars": 8, "threadId": "1444037428007669983", "addedAt": "2025-11-28T18:49:11.755Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "manga-source-updates", "name": "Manga Source Updates", "version": "1.8.3", "author": "Carloss616",
+    "description": "Refresh a manga's chapters across providers and list the sources that have new chapters.",
+    "type": "plugin", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/manga-source-updates/assets/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/manga-source-updates/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/manga-source-updates/code.js",
+    "website": "https://github.com/Carloss616/seanime-extensions", "flags": "0/56", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/98b81acb95ed6a7bc6e6427ee88396a5677a9116bbb3a09f45cbeeca643ad320",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.9.1",
+    "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1526465762573680720",
+    "addedAt": "2026-07-14T05:49:58.160Z", "updatedAt": "2026-07-14T07:09:00.353Z"
   },
   {
     "id": "mangabaka", "name": "MangaBaka", "version": "1.0.1", "author": "jabifx",
@@ -2040,18 +2054,18 @@
     "addedAt": "2026-05-27T22:31:06.106Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mangaupdates-sync", "name": "MangaUpdates Sync", "version": "1.2.1", "author": "Carloss616",
+    "id": "mangaupdates-sync", "name": "MangaUpdates Sync", "version": "1.2.3", "author": "Carloss616",
     "description": "Syncs your manga reading progress with MangaUpdates whenever you mark a chapter in seanime.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/assets/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/mangaupdates-sync/code.js",
-    "website": "https://www.mangaupdates.com/", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7fff4f9969b7ff9df2017c0d941c7c13c21c18518c1e8403bf1902f7ef64cd6f",
+    "website": "https://www.mangaupdates.com/", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a1a39cb605ad66be1bc0670e80bbbdc7bf4189d5e442fff0c1155d219ef90a0b",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505936178292064266","1359183211099459916","1359183394512048148","1360636715643179231"],
     "scannedOnVersion": "3.9.1", "lastWorkingVersion": "3.9.1", "stars": 3, "threadId": "1509327418685395095",
-    "addedAt": "2026-05-27T22:48:18.562Z", "updatedAt": "2026-07-09T23:36:51.758Z"
+    "addedAt": "2026-05-27T22:48:18.562Z", "updatedAt": "2026-07-14T07:09:00.353Z"
   },
   {
     "id": "mangaworld", "name": "MangaWorld", "version": "1.0.1", "author": "kRYstall9",
