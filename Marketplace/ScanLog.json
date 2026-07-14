@@ -1078,11 +1078,11 @@
     "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1783955069358
   },
   {
-    "id": "random-entry", "version": "1.1.1",
+    "id": "random-entry", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Random%20Entry/provider.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1ba8ddc58541d7cbe101fd08ce2635f331734affb050e86d9ed731dd2c6d36d7",
-    "timestamp": 1778391579517, "hadWorkingTag": false
+    "permalink": "https://www.virustotal.com/gui/file/44e0f499a4a78276a849052e5dfdce50d6f84bd796c87612618a81e519bffdf2",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1784027182841
   },
   {
     "id": "ranime-discussion", "version": "1.2.0",
