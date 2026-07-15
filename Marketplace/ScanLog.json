@@ -455,6 +455,13 @@
     "timestamp": 1771880015497, "hadWorkingTag": false
   },
   {
+    "id": "baozimh-manga-provider", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/baozimh/provider.js",
+    "flags": "0/57", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c2cdab2c2e25f8c1b642992303ba0047be956c9e9a5dff3877e37007c94257b8",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1784099654294
+  },
+  {
     "id": "bokugents", "version": "1.0.4",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Bokugents/main.ts",
     "flags": "0/60", "flaggedBy": [],
@@ -957,6 +964,13 @@
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d5236c60eb31ad6181e83c053dcc8edb4e2ed1bcc4ff00c1639a2917df2b0dda",
     "lastWorkingVersion": null, "timestamp": 1781368540573, "hadWorkingTag": false
+  },
+  {
+    "id": "mikan-project", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/provider.js",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/06bc9742603cb50a21c45f2457861c25c235811143b957d8a7fe584b4b1380c0",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1784099560968
   },
   {
     "id": "my-list-table-view", "version": "1.0.0",
