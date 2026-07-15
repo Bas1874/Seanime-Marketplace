@@ -1,5 +1,5 @@
 // ================================================================
-//  Marketplace+ v1.0.1  ·  by bas1874
+//  Marketplace+ v1.0.2  ·  by bas1874
 //  Based on original seatags concept by Aqua
 // ================================================================
 
@@ -67,7 +67,15 @@ function init() {
             ".mplus-chat{margin-left:auto;background:rgba(88,101,242,.16);color:#a5b0ff;border-color:rgba(88,101,242,.5);cursor:pointer;text-decoration:none;transition:background .15s}" +
             ".mplus-chat:hover{background:rgba(88,101,242,.34)}" +
             ".mplus-mini{margin-left:0;padding:0 7px}" +
-            ".mplus-row:hover{background-color:var(--subtle)}"
+            ".mplus-row:hover{background-color:var(--subtle)}" +
+            ".mplus-info{margin-top:12px;padding-top:4px;border-top:1px solid rgba(255,255,255,.06);font-size:13px}" +
+            ".mplus-info-row{display:flex;align-items:center;gap:12px;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.05)}" +
+            ".mplus-info-row:last-child{border-bottom:0}" +
+            ".mplus-info-k{color:rgba(255,255,255,.45);width:110px;flex:none}" +
+            ".mplus-info-v{color:#dedede;display:flex;align-items:center;gap:6px;flex-wrap:wrap;min-width:0;word-break:break-word}" +
+            ".mplus-info-v .mplus-chat{margin-left:0}" +
+            ".mplus-info-v a.mplus-vt{color:#93c5fd;text-decoration:none}" +
+            ".mplus-info-v a.mplus-vt:hover{text-decoration:underline}"
 
         // ------------------------------------------------ state
         var stash = loadStash()
@@ -85,11 +93,13 @@ function init() {
         var seenInputs = {}
         var nativeBoxClass = ""
         var marks = {}              // element-id → { el, stars, status } for sorting
+        var modalMarks = {}         // element-id → extension key, guards double-decoration
         var sheetEl = null          // static stylesheet
         var filterEl = null         // dynamic filter stylesheet
         var bodyEl = null
         var stopCards = null
         var stopControls = null
+        var stopModals = null
 
         function loadStash() {
             try {
@@ -151,6 +161,13 @@ function init() {
             if (d < 30) return Math.floor(d / 7) + "w ago"
             if (d < 365) return Math.floor(d / 30) + "mo ago"
             return Math.floor(d / 365) + "y ago"
+        }
+        var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+        function dateText(v) {
+            var t = whenOf(v)
+            if (!t) return ""
+            var d = new Date(t)
+            return MONTHS[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear()
         }
         function orderFor(entry, status) {
             var mode = sortPick.get()
@@ -279,17 +296,23 @@ function init() {
             // Synchronous guard: the observer can fire several times before
             // the (async) decoration below lands, so the innerHTML alone
             // can't be trusted to know whether a card was already handled.
-            // A card decorated before React rendered its version badge is
-            // allowed through again once the badge text becomes readable.
+            // Re-decoration is allowed whenever the readable native version
+            // changes — e.g. a badge that rendered late, or "1.0.0 → 1.0.1"
+            // becoming "1.0.1" after an update installs.
             if (cid) {
                 var prev = marks[cid]
-                if (prev && prev.key === key && (prev.ver || !ver)) return
+                if (prev && prev.key === key && prev.ver === ver) return
                 marks[cid] = { el: card, entry: entry, status: st, key: key, ver: ver }
             }
-            // plugin restarted but the DOM still carries the right strip
-            // (re-decorate anyway if a version is now readable but missing)
+            // Plugin restarted but the DOM still carries the right strip.
+            // Only skip when the version chip also matches the (hidden but
+            // still readable) native badge, so stale chips get refreshed.
             var m = html.match(/data-for=["']([^"']*)["']/)
-            if (m && m[1] === key && (!ver || html.indexOf("mplus-ver") !== -1)) return
+            if (m && m[1] === key) {
+                var cm = html.match(/mplus-ver["'][^>]*>v?([^<]*)</)
+                var shown = cm ? cm[1].trim() : ""
+                if (shown === (ver ? ver.replace(/^v/i, "") : "")) return
+            }
 
             try { card.setAttribute("data-mplus", st) } catch (e) { }
             try { card.setAttribute("data-mplus-by", entry && entry.author ? String(entry.author).toLowerCase() : "") } catch (e) { }
@@ -342,6 +365,92 @@ function init() {
                 if (i < cards.length) { try { ctx.setTimeout(tick, 20) } catch (e) { } }
             }
             tick()
+        }
+
+        // ------------------------------------------------ details modal
+        // Seanime's extension info dialog only shows what the client knows
+        // (name, version, author, …). This appends the extra marketplace
+        // data — status, stars, dates, scan results, support thread — the
+        // same info the website's info box shows. Rows are only added when
+        // the feed actually has the data.
+        function infoRow(label, valueHtml) {
+            return "<div class='mplus-info-row'><span class='mplus-info-k'>" + xml(label) + "</span><span class='mplus-info-v'>" + valueHtml + "</span></div>"
+        }
+        function infoHtml(entry) {
+            var rows = ""
+            var st = statusOf(entry)
+            var chips = ""
+            if (STATUS_TEXT[st]) chips += chip(STATUS_TEXT[st], "mplus-" + st)
+            if (!entry.flags) chips += chip("Unscanned", "mplus-ver")
+            if (chips) rows += infoRow("Status", chips)
+            var n = starsOf(entry)
+            if (n > 0) rows += infoRow("Stars", xml("★ " + n))
+            var added = dateText(entry.addedAt)
+            if (added) rows += infoRow("Added", xml(added))
+            var up = dateText(entry.updatedAt)
+            if (up) rows += infoRow("Updated", xml(up))
+            if (entry.scannedOnVersion) rows += infoRow("Scanned on", xml("Seanime v" + String(entry.scannedOnVersion)))
+            if (entry.lastWorkingVersion) rows += infoRow("Last working", xml("v" + String(entry.lastWorkingVersion)))
+            if (entry.flags) {
+                var flags = xml(String(entry.flags)) + " detections"
+                if (entry.permalink) flags = "<a class='mplus-vt' href='" + xml(String(entry.permalink)) + "' target='_blank' rel='noreferrer'>" + flags + "</a>"
+                rows += infoRow("VirusTotal", flags)
+            }
+            if (entry.threadId) rows += infoRow("Support", chatHtml(entry.threadId))
+            return rows
+        }
+
+        async function decorateModal(modal) {
+            var html = (modal && modal.innerHTML) ? String(modal.innerHTML) : ""
+            // identify the extension from the "ID: …" badge, falling back to the title
+            var entry = null
+            var m = html.match(/ID:\s*([^<]+)</)
+            if (m && lookup.id[m[1].trim()]) entry = lookup.id[m[1].trim()]
+            if (!entry) {
+                m = html.match(/font-semibold[^>]*>\s*([^<]+?)\s*</)
+                if (m && lookup.name[m[1].trim().toLowerCase()]) entry = lookup.name[m[1].trim().toLowerCase()]
+            }
+            if (!entry) return // not an extension details dialog (or unknown extension)
+            var key = String(entry.id || entry.name || "")
+
+            // Synchronous guard: the observer fires several times while the
+            // dialog opens, and each async run would otherwise pass the
+            // innerHTML check below before the first one has appended.
+            var mid = (modal && modal.id != null) ? String(modal.id) : ""
+            if (mid) {
+                if (modalMarks[mid] === key) return
+                modalMarks[mid] = key
+            }
+
+            // already decorated for this extension
+            var dm = html.match(/mplus-info[^>]*data-for=["']([^"']*)["']/)
+            if (dm && dm[1] === key) return
+
+            // drop leftovers from a previous extension (reused dialog)
+            try {
+                var olds = await modal.query(".mplus-info")
+                for (var i = 0; i < (olds || []).length; i++) { try { olds[i].remove() } catch (e) { } }
+            } catch (e) { }
+
+            var rows = infoHtml(entry)
+            if (!rows) return
+            var box = null
+            try { box = await ctx.dom.createElement("div") } catch (e) { }
+            if (!box) return
+            try { box.setAttribute("class", "mplus-info") } catch (e) { }
+            try { box.setAttribute("data-for", key) } catch (e) { }
+            try { box.setInnerHTML(rows) } catch (e) { }
+            var hosts = []
+            try { hosts = await modal.query(".space-y-2") } catch (e) { }
+            if (hosts && hosts.length) {
+                try { hosts[0].append(box) } catch (e) { }
+            } else {
+                try { modal.append(box) } catch (e) { }
+            }
+        }
+        function dressModals(modals) {
+            if (!modals || !modals.length) return
+            for (var i = 0; i < modals.length; i++) decorateModal(modals[i]).catch(function () { })
         }
 
         // ------------------------------------------------ filtering / sorting
@@ -590,6 +699,7 @@ function init() {
                 }
                 fetching = false
                 watchCards()
+                watchModals()
             }).catch(function () { fetching = false })
         }
 
@@ -613,6 +723,14 @@ function init() {
             } catch (e) { }
             refreshFilter().catch(function () { })
         }
+        function watchModals() {
+            if (!pageReady || catalog.get().length === 0) return
+            if (stopModals) { try { stopModals() } catch (e) { } stopModals = null }
+            try {
+                var obs = ctx.dom.observe(".UI-Modal__content", dressModals, { withInnerHTML: true })
+                stopModals = (obs && obs.length) ? obs[0] : null
+            } catch (e) { }
+        }
         function wipeHandles() {
             // A client reload resets the frontend element-id counter, so any
             // held handles go stale — drop everything and rebuild fresh.
@@ -622,18 +740,20 @@ function init() {
             bodyEl = null
             seenInputs = {}
             marks = {}
+            modalMarks = {}
         }
         function boot() {
             pageReady = true
             mountStyle(SHEET).then(function (el) { sheetEl = el }).catch(function () { })
             watchControls()
             watchCards()
+            watchModals()
             syncFeed(false)
         }
 
         try { ctx.dom.onReady(function () { wipeHandles(); boot() }) } catch (e) { }
         try { ctx.dom.onMainTabReady(function () { wipeHandles(); boot() }) } catch (e) { }
-        try { ctx.screen.onNavigate(function () { watchControls(); watchCards() }) } catch (e) { }
+        try { ctx.screen.onNavigate(function () { watchControls(); watchCards(); watchModals() }) } catch (e) { }
         ctx.setTimeout(function () { if (!pageReady) boot() }, 3000)
     })
 }
