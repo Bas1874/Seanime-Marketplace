@@ -1031,6 +1031,19 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "baozimh-manga-provider", "name": "Baozi Manhua", "version": "1.0.0", "author": "Elisoar",
+    "description": "Baozimanhua is a manhua provider for Seanime", "type": "manga-provider",
+    "language": "javascript", "lang": "zh",
+    "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/baozimh/Cover.png",
+    "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/baozimh/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/baozimh/provider.js",
+    "website": "", "flags": "0/57", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c2cdab2c2e25f8c1b642992303ba0047be956c9e9a5dff3877e37007c94257b8",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
+    "scannedOnVersion": "3.9.1", "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1526796637433892935",
+    "addedAt": "2026-07-15T03:44:44.874Z", "updatedAt": "2026-07-15T07:14:14.553Z"
+  },
+  {
     "id": "basic-nyaa-seanime", "name": "Basic Nyaa", "version": "1.0.2", "author": "Island",
     "description": "Nyaa all categories with search only", "type": "anime-torrent-provider",
     "language": "typescript", "lang": "multi", "icon": "",
@@ -2160,6 +2173,20 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.9.1", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1497093864585039924", "addedAt": "2026-04-24T04:36:31.976Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "mikan-project", "name": "Mikan Project", "version": "1.0.0", "author": "Elisoar",
+    "description": "Mikan Project provides accurate, real-time Chinese subtitles for torrent-streamed Japanese animations.",
+    "type": "anime-torrent-provider", "language": "javascript", "lang": "zh",
+    "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/Cover.png",
+    "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/provider.js",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/06bc9742603cb50a21c45f2457861c25c235811143b957d8a7fe584b4b1380c0",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1505936860441083904","1359259206880067784","1359183147123867881","1360636715643179231"],
+    "scannedOnVersion": "3.9.1", "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1526790354408439839",
+    "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-07-15T07:14:14.553Z"
   },
   {
     "id": "my-list-table-view", "name": "My List Table View", "version": "1.0.0", "author": "Dadangdut33",
