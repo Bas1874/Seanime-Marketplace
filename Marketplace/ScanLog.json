@@ -966,11 +966,11 @@
     "lastWorkingVersion": null, "timestamp": 1781368540573, "hadWorkingTag": false
   },
   {
-    "id": "mikan-project", "version": "1.0.0",
+    "id": "mikan-project", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/provider.js",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/06bc9742603cb50a21c45f2457861c25c235811143b957d8a7fe584b4b1380c0",
-    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1784099560968
+    "permalink": "https://www.virustotal.com/gui/file/bcc5959ba099d934a5805c7c0bc22de023b86762dbbb4476217310411f637ea3",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": true, "timestamp": 1784128882277
   },
   {
     "id": "my-list-table-view", "version": "1.0.0",
