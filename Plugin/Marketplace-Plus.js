@@ -1,7 +1,8 @@
 // ================================================================
-//  Marketplace+ v1.0.0  ·  by bas1874
+//  Marketplace+ v1.0.1  ·  by bas1874
 //  Based on original seatags concept by Aqua
 // ================================================================
+
 
 function init() {
     $ui.register(function (ctx) {
@@ -47,6 +48,7 @@ function init() {
         var SVG_DOWN = "<svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='m6 9 6 6 6-6'/></svg>"
         var SVG_USER = "<svg width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/><circle cx='12' cy='7' r='4'/></svg>"
         var SVG_CHAT = "<svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><path d='M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z'/></svg>"
+        var SVG_APP = "<svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><rect x='2' y='3' width='20' height='14' rx='2'/><path d='M8 21h8M12 17v4'/></svg>"
 
         var SHEET =
             ".mplus-strip{display:flex;flex-direction:column;gap:6px;margin-top:8px}" +
@@ -64,7 +66,7 @@ function init() {
             ".mplus-audio{background:rgba(45,212,191,.12);color:#5eead4;border-color:rgba(45,212,191,.35)}" +
             ".mplus-chat{margin-left:auto;background:rgba(88,101,242,.16);color:#a5b0ff;border-color:rgba(88,101,242,.5);cursor:pointer;text-decoration:none;transition:background .15s}" +
             ".mplus-chat:hover{background:rgba(88,101,242,.34)}" +
-            ".mplus-web{margin-left:0;padding:0 7px}" +
+            ".mplus-mini{margin-left:0;padding:0 7px}" +
             ".mplus-row:hover{background-color:var(--subtle)}"
 
         // ------------------------------------------------ state
@@ -186,21 +188,26 @@ function init() {
         }
         function chatHtml(threadId) {
             var tid = xml(String(threadId))
-            var app = "discord://-/channels/" + DISCORD_GUILD + "/" + tid
             var web = "https://discord.com/channels/" + DISCORD_GUILD + "/" + tid
-            // Main chip opens the Discord app directly; the small companion
-            // chip opens the thread in the browser instead. No scripting —
-            // plain links keep us clear of the dom-script-manipulation flag.
-            return "<a class='mplus-chip mplus-chat' href='" + app + "' title='Open the support thread in the Discord app'>" + SVG_CHAT + " Support</a>" +
-                "<a class='mplus-chip mplus-chat mplus-web' href='" + web + "' target='_blank' rel='noreferrer' title='Open the support thread in the browser'>↗</a>"
+            var app = "discord://-/channels/" + DISCORD_GUILD + "/" + tid
+            // Primary "Support" chip uses the universal discord.com link. This
+            // works on every platform: on Android/iOS the Discord app registers
+            // it as a verified app link and opens directly; on desktop it opens
+            // the thread in the browser. The old discord:// scheme only worked
+            // on Windows (and some Mac), never on Linux/Android.
+            // The small companion chip keeps the discord:// scheme to jump into
+            // the Discord *desktop* app (Windows/macOS/Linux) when it's set up.
+            // No scripting is used, so we stay clear of dom-script-manipulation.
+            return "<a class='mplus-chip mplus-chat' href='" + web + "' target='_blank' rel='noreferrer' title='Open the support thread — opens the Discord app on mobile, or the browser on desktop'>" + SVG_CHAT + " Support</a>" +
+                "<a class='mplus-chip mplus-chat mplus-mini' href='" + app + "' title='Open in the Discord desktop app'>" + SVG_APP + "</a>"
         }
 
         // Mirrors Seanime's own badge look: two compact rows of chips.
         //   row 1 → version · status · lang code
         //   row 2 → author · language · stars · support (right)
-        function stripHtml(entry, key) {
+        function stripHtml(entry, key, ver) {
             var top = ""
-            if (entry.version) top += chip("v" + String(entry.version), "mplus-ver")
+            if (ver) top += chip("v" + ver.replace(/^v/i, ""), "mplus-ver")
             var st = statusOf(entry)
             if (STATUS_TEXT[st]) top += chip(STATUS_TEXT[st], "mplus-" + st)
             var added = whenOf(entry.addedAt)
@@ -226,6 +233,29 @@ function init() {
             return "<div class='mplus-line'>" + top + "</div><div class='mplus-line'>" + bottom + "</div>"
         }
 
+        // The version chip reuses the number the client itself rendered on
+        // the card (Seanime shows its own version as a plain badge, e.g.
+        // "0.5.0", or "0.5.0 → 0.5.1" when an update is pending) instead of
+        // the marketplace feed's cached version, so the chip never disagrees
+        // with what the user actually has. No feed fallback: if the badge
+        // can't be read, no version chip is shown.
+        var VERSION_RE = /^v?\d+(?:\.\d+)+(?:[-+][\w.]+)?(?:\s*(?:→|->)\s*v?\d+(?:\.\d+)+(?:[-+][\w.]+)?)?$/
+        function nativeVersion(html) {
+            // ignore our own strip from a previous pass — it also holds "vX.Y.Z"
+            var cut = html.indexOf("mplus-strip")
+            if (cut !== -1) html = html.slice(0, cut)
+            var parts = html.split("UI-Badge__root")
+            for (var i = 1; i < parts.length; i++) {
+                var texts = parts[i].match(/>([^<>]+)</g) || []
+                // only look at the first few text nodes of each badge
+                for (var j = 0; j < texts.length && j < 4; j++) {
+                    var t = texts[j].slice(1, -1).replace(/&gt;/g, ">").trim()
+                    if (VERSION_RE.test(t)) return t
+                }
+            }
+            return ""
+        }
+
         function matchEntry(html) {
             var m = html.match(/opacity-30[^>]*>([^<]+)</)
             if (m && lookup.id[m[1].trim()]) return lookup.id[m[1].trim()]
@@ -241,6 +271,7 @@ function init() {
         async function dressCard(card) {
             var html = (card && card.innerHTML) ? String(card.innerHTML) : ""
             var entry = matchEntry(html)
+            var ver = nativeVersion(html)
             var st = statusOf(entry)
             var key = entry ? String(entry.id || entry.name || "") : ""
             var cid = (card && card.id != null) ? String(card.id) : ""
@@ -248,14 +279,17 @@ function init() {
             // Synchronous guard: the observer can fire several times before
             // the (async) decoration below lands, so the innerHTML alone
             // can't be trusted to know whether a card was already handled.
+            // A card decorated before React rendered its version badge is
+            // allowed through again once the badge text becomes readable.
             if (cid) {
                 var prev = marks[cid]
-                if (prev && prev.key === key) return // already decorated for this extension
-                marks[cid] = { el: card, entry: entry, status: st, key: key }
+                if (prev && prev.key === key && (prev.ver || !ver)) return
+                marks[cid] = { el: card, entry: entry, status: st, key: key, ver: ver }
             }
             // plugin restarted but the DOM still carries the right strip
+            // (re-decorate anyway if a version is now readable but missing)
             var m = html.match(/data-for=["']([^"']*)["']/)
-            if (m && m[1] === key) return
+            if (m && m[1] === key && (!ver || html.indexOf("mplus-ver") !== -1)) return
 
             try { card.setAttribute("data-mplus", st) } catch (e) { }
             try { card.setAttribute("data-mplus-by", entry && entry.author ? String(entry.author).toLowerCase() : "") } catch (e) { }
@@ -286,7 +320,7 @@ function init() {
                 try { card.append(strip) } catch (e) { }
                 return
             }
-            try { strip.setInnerHTML(stripHtml(entry, key)) } catch (e) { }
+            try { strip.setInnerHTML(stripHtml(entry, key, ver)) } catch (e) { }
 
             var anchor = null
             if (oldBadges.length) { try { anchor = await oldBadges[0].getParent() } catch (e) { } }
