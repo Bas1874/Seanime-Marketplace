@@ -1,7 +1,7 @@
 {
     "id": "Marketplace-Plus",
     "name": "Marketplace+",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "manifestURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.json",
     "language": "javascript",
     "type": "plugin",
