@@ -3076,10 +3076,10 @@
     "lang": "multi",
     "icon": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/icons/webtoons.png",
     "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/webtoons.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1437869415344377887"], "scannedOnVersion": "3.10.0",
-    "lastWorkingVersion": null, "stars": 0, "threadId": "1507446215137296515", "addedAt": "2026-05-22T18:13:04.685Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "lastWorkingVersion": "3.10.0", "stars": 0, "threadId": "1507446215137296515",
+    "addedAt": "2026-05-22T18:13:04.685Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "webtoons-manhua", "name": "WebToons", "version": "1.0.0", "author": "eepyboba",
@@ -3087,10 +3087,10 @@
     "lang": "en",
     "icon": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/icons/webtoons.png",
     "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/webtoons-manhua.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"], "scannedOnVersion": "3.10.0",
-    "lastWorkingVersion": "3.10.0", "stars": 0, "threadId": "1507465388223365171",
-    "addedAt": "2026-05-22T19:29:15.905Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "lastWorkingVersion": null, "stars": 0, "threadId": "1507465388223365171", "addedAt": "2026-05-22T19:29:15.905Z",
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "weebcentral", "name": "WeebCentral", "version": "1.0.1", "author": "Island",
