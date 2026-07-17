@@ -2522,17 +2522,17 @@
     "addedAt": "2026-05-13T18:18:03.309Z", "updatedAt": "2026-07-12T14:59:00.373Z"
   },
   {
-    "id": "ravenscans", "name": "RavenScans", "version": "1.0.0", "author": "Pal",
+    "id": "ravenscans", "name": "RavenScans", "version": "1.0.1", "author": "Pal",
     "description": "RavenScans is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "en", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/ravenscans.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/ravenscans/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/ravenscans/provider.js",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9f2af04b9c8d1e997125f914ea41c4a3c6316fe7a4bd475f840b5537c5fe10fd",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c9fea916cc18f4e9fb74e82f602b970ef9d2d19466be182f5e202078f33f2588",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.1", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1489303499136041132", "addedAt": "2026-04-02T16:40:24.115Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-07-17T16:40:36.034Z"
   },
   {
     "id": "reanime", "name": "Re:ANIME", "version": "1.0.0", "author": "mohaisreal",
