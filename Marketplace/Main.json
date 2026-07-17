@@ -1784,10 +1784,10 @@
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/MAL-Button-Seanime/refs/heads/main/src/MAL.ts",
     "website": "https://github.com/bruuhim/MAL-Button-Seanime", "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/842d065c90dc2fa36de005436acc4b2a440b9f61b99dc4d8d3430c56d526c98a",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": true,
-    "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.1", "lastWorkingVersion": null,
-    "stars": 4, "threadId": "1459672111160234118", "addedAt": "2026-01-10T22:15:50.697Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.1",
+    "lastWorkingVersion": "3.10.1", "stars": 4, "threadId": "1459672111160234118",
+    "addedAt": "2026-01-10T22:15:50.697Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mal-unofficial", "name": "MyAnimeList", "version": "1.0.2", "author": "jabifx",
