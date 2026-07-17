@@ -774,7 +774,7 @@
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/MAL-Button-Seanime/refs/heads/main/src/MAL.ts",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/842d065c90dc2fa36de005436acc4b2a440b9f61b99dc4d8d3430c56d526c98a",
-    "timestamp": 1771867997959, "hadWorkingTag": false
+    "timestamp": 1771867997959, "hadWorkingTag": true, "lastWorkingVersion": "3.10.1"
   },
   {
     "id": "mal-unofficial", "version": "1.0.2",
