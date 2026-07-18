@@ -749,11 +749,11 @@
     "lastWorkingVersion": "3.9.1", "timestamp": 1783639380941, "hadWorkingTag": false
   },
   {
-    "id": "livechart-schedule", "version": "0.5.0",
+    "id": "livechart-schedule", "version": "0.6.1",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/main.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/138ed7d54112365fa4e9c16847dd6310ecfc84c3709123b40fba0032feb340ea",
-    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1783983863636
+    "permalink": "https://www.virustotal.com/gui/file/90d52f460157e7cde96690d9ee17a168f666589427d6139b838e3445aa2d7f6d",
+    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784378525878
   },
   {
     "id": "LN-reader", "version": "1.6.5",
@@ -1139,6 +1139,13 @@
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/75735233bdd4cdd15605344e1902000bee6a7d6f623c10a2070ce3f7b38cd2cf",
     "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1783736701699
+  },
+  {
+    "id": "seanime-download-notifier", "version": "1.0.0",
+    "payloadURI": "https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/plugin.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b68ad2b299d347f499ba59fb8e7afb87e6d0fb89d37ae915166cc668c5c8cff5",
+    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784378602566
   },
   {
     "id": "seastats", "version": "0.1.4",
