@@ -1735,18 +1735,18 @@
     "addedAt": "2026-06-18T21:57:00.083Z", "updatedAt": "2026-07-09T23:36:51.758Z"
   },
   {
-    "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.5.0", "author": "Kaktus",
+    "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.6.1", "author": "Kaktus",
     "description": "Overrides Seanime's schedule times using LiveChart's data, with a choice between Japanese broadcast and simulcast/dub schedules per anime or globally.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/main.ts",
     "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/138ed7d54112365fa4e9c16847dd6310ecfc84c3709123b40fba0032feb340ea",
+    "permalink": "https://www.virustotal.com/gui/file/90d52f460157e7cde96690d9ee17a168f666589427d6139b838e3445aa2d7f6d",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.1",
     "lastWorkingVersion": "3.10.1", "stars": 4, "threadId": "1525547132885401751",
-    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-07-13T23:04:23.874Z"
+    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-07-18T12:43:22.786Z"
   },
   {
     "id": "LN-reader", "name": "Light Novel Reader", "version": "1.6.5", "author": "Pal",
@@ -2597,6 +2597,20 @@
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/seadex/seadex.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
+  },
+  {
+    "id": "seanime-download-notifier", "name": "Seanime Download Notifier", "version": "1.0.0",
+    "author": "Hyperclaw79", "description": "Sends notifications when Seanime-tracked torrent downloads complete.",
+    "type": "plugin", "language": "javascript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Hyperclaw79/seanime-download-notifier/main/assets/logo.png",
+    "manifestURI": "https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/seanime-download-notifier.json",
+    "payloadURI": "https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/plugin.js",
+    "website": "https://github.com/Hyperclaw79/seanime-download-notifier", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b68ad2b299d347f499ba59fb8e7afb87e6d0fb89d37ae915166cc668c5c8cff5",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.1",
+    "lastWorkingVersion": "3.10.1", "stars": 0, "threadId": "1527972253126361118",
+    "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-07-18T12:43:22.786Z"
   },
   {
     "id": "seastats", "name": "SeaStats", "version": "0.1.4", "author": "Crashdaemon",
