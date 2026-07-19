@@ -210,6 +210,13 @@
     "timestamp": 1775320946105, "hadWorkingTag": false
   },
   {
+    "id": "Anime-Garden", "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/provider.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/aab5df093fc500698578f882b3cbcc38865461cc88e041172116be40914e9363",
+    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784450603311
+  },
+  {
     "id": "anime-news", "version": "1.2.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/aninewsnet-seanime/refs/heads/main/animenews.ts",
     "flags": "0/62", "flaggedBy": [],
