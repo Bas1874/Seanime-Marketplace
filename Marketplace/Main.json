@@ -438,6 +438,20 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "Anime-Garden", "name": "Anime Garden", "version": "1.0.1", "author": "Elisoar",
+    "description": "AnimeGarden provides accurate, real-time Chinese subtitles for torrent-streamed Japanese animations",
+    "type": "anime-torrent-provider", "language": "typescript", "lang": "zh",
+    "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/Cover.png",
+    "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/provider.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/aab5df093fc500698578f882b3cbcc38865461cc88e041172116be40914e9363",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259206880067784","1359183147123867881","1505936860441083904"], "scannedOnVersion": "3.10.1",
+    "lastWorkingVersion": "3.10.1", "stars": 0, "threadId": "1528284315950252082",
+    "addedAt": "2026-07-19T06:16:15.072Z", "updatedAt": "2026-07-19T08:43:23.550Z"
+  },
+  {
     "id": "anime-news", "name": "Anime News", "version": "1.2.2", "author": "SyntaxSama & Pal",
     "description": "Get anime news in your Seanime instance!", "type": "plugin", "language": "typescript",
     "lang": "EN",
