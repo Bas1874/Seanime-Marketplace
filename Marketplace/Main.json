@@ -742,18 +742,18 @@
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
-    "id": "animetosho-new", "name": "AnimeTosho (NEW)", "version": "2.4.2", "author": "Faddix, Island",
+    "id": "animetosho-new", "name": "AnimeTosho (NEW)", "version": "2.4.3", "author": "Faddix, Island",
     "description": "Integrates Anime Tosho (NEW) as a torrent streaming provider for Seanime.",
     "type": "anime-torrent-provider", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/src/animetosho-new-logo.png",
     "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.json",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d9ce80fedd2172cc5ea1512fc856e577e80b53fe8bb977be58d6c7ef79bf665a",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/717ccb46dd948f5f09b6c1d5ce447ae9f6e64744755bbb456985f89e37c8fc23",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881"], "scannedOnVersion": "3.10.1",
     "lastWorkingVersion": "3.10.1", "stars": 8, "threadId": "1505548228865687562",
-    "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-07-17T12:39:53.098Z"
+    "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-07-19T20:42:53.134Z"
   },
   {
     "id": "AnimeUnity", "name": "AnimeUnity", "version": "1.1.3", "author": "kRYstall9",
