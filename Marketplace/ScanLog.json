@@ -623,6 +623,13 @@
     "timestamp": 1776602134471
   },
   {
+    "id": "friend-stats", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/friend-stats/main.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5bbf075daa147fee2cba71d3208ff323a9598b3592a0fbacacc2e0be74e088cc",
+    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784575686791
+  },
+  {
     "id": "gojowtf", "version": "1.1.4",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/GojoWtf/provider.ts",
     "flags": "0/60", "flaggedBy": [],
