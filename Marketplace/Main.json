@@ -1405,6 +1405,20 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "friend-stats", "name": "Friend stats", "version": "1.0.0", "author": "Kaktus",
+    "description": "Shows which of your followed AniList users are watching or have rated the anime you're viewing",
+    "type": "plugin", "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/friend-stats/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/friend-stats/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/friend-stats/main.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5bbf075daa147fee2cba71d3208ff323a9598b3592a0fbacacc2e0be74e088cc",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.1",
+    "lastWorkingVersion": "3.10.1", "stars": 0, "threadId": "1528805611351969913",
+    "addedAt": "2026-07-20T16:47:41.581Z", "updatedAt": "2026-07-20T19:28:07.044Z"
+  },
+  {
     "id": "gojowtf", "name": "GojoWtf", "version": "1.1.4", "author": "kRYstall9",
     "description": "GojoWtf is an online streaming platform for English-subbed and dubbed anime. It supports multiple providers, including Pahe and Zaza — all of which offer both subbed and dubbed content",
     "type": "onlinestream-provider", "language": "typescript", "lang": "en", "icon": "",
