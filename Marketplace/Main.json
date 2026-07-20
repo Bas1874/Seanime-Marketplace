@@ -1749,18 +1749,18 @@
     "addedAt": "2026-06-18T21:57:00.083Z", "updatedAt": "2026-07-09T23:36:51.758Z"
   },
   {
-    "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.6.1", "author": "Kaktus",
+    "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.6.2", "author": "Kaktus",
     "description": "Overrides Seanime's schedule times using LiveChart's data, with a choice between Japanese broadcast and simulcast/dub schedules per anime or globally.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/main.ts",
     "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/90d52f460157e7cde96690d9ee17a168f666589427d6139b838e3445aa2d7f6d",
+    "permalink": "https://www.virustotal.com/gui/file/c58287ff7e8cda696d8b16edc08dafeb84d4e6e3639cec48587f0048bd5bc686",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.1",
     "lastWorkingVersion": "3.10.1", "stars": 4, "threadId": "1525547132885401751",
-    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-07-18T12:43:22.786Z"
+    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-07-20T16:44:58.846Z"
   },
   {
     "id": "LN-reader", "name": "Light Novel Reader", "version": "1.6.5", "author": "Pal",
