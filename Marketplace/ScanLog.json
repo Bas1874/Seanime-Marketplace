@@ -396,7 +396,7 @@
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/386ba5190f39c1fea9d710a5467ee3a3902ee7988cabcdae20af4ab99756d601",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782420623994, "hadWorkingTag": false
+    "lastWorkingVersion": "3.10.1", "timestamp": 1782420623994, "hadWorkingTag": true
   },
   {
     "id": "aq-animepahe-beta", "version": "0.2.28",
