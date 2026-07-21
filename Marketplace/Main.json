@@ -915,9 +915,9 @@
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
     "website": "https://anikototv.to", "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/386ba5190f39c1fea9d710a5467ee3a3902ee7988cabcdae20af4ab99756d601",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.1",
-    "lastWorkingVersion": "3.8.7", "stars": 2, "threadId": "1519763403483381810",
+    "lastWorkingVersion": "3.10.1", "stars": 2, "threadId": "1519763403483381810",
     "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
