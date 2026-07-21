@@ -952,11 +952,11 @@
     "timestamp": 1771873231120, "hadWorkingTag": false
   },
   {
-    "id": "Marketplace-Plus", "version": "1.0.2",
+    "id": "Marketplace-Plus", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.js",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/defa8d0c79e2a309cb43f168b064176c94205ff68cd97767e432de5efafb352d",
-    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784161503313
+    "permalink": "https://www.virustotal.com/gui/file/3a23494baf256b4cefa69167ac862be4a3f4be1f875a69a6ff8132b41098bdc6",
+    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784638005366
   },
   {
     "id": "Marketplace+", "version": "1.0.0",
