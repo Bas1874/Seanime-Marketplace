@@ -9,7 +9,7 @@
     "author": "bas1874",
     "icon": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Icons/favicon.png",
     "website": "https://github.com/Bas1874/Seanime-Marketplace/tree/main",
-    "readme": "",
+    "readme": "https://github.com/Bas1874/Seanime-Marketplace/tree/main#how-to-install-the-marketplace-in-seanime",
     "notes": "Add the custom marketplace URL in Settings → Extensions → Marketplace Sources, then open the Extensions page — badges, filters, sorting, and Support buttons appear directly on the marketplace cards. https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json",
     "lang": "multi",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.js",
