@@ -806,11 +806,10 @@ function init() {
         // debrid false-positive.
         var OS_MARKERS = ["try all available providers"]
         // Fallback link when the stuck provider isn't in the marketplace feed
-        // (so there's no support thread to point at). The marketplace website
-        // is used rather than the Discord guild root, which lands on the
-        // server's default channel. TODO(bas1874): swap in a direct
-        // plugin-forum channel URL if you'd rather send people to Discord.
-        var FORUM_URL = "https://bas1874.github.io/Seanime-Marketplace/"
+        // (so there's no support thread to point at). Invite link to the
+        // Discord server rather than the guild root, which lands on the
+        // server's default channel.
+        var FORUM_URL = "https://discord.gg/4KQ7QRAV6j"
 
         var wVideos = {}    // element-id → video element handle
         var wBadSince = 0   // when readyState 0 was first seen (0 = healthy)
@@ -901,11 +900,11 @@ function init() {
                         : "may be having issues") +
                     " — check its support thread:"
             } else {
-                text = "The player has been loading for a while — the selected streaming provider may be broken. Check the marketplace for its status:"
+                text = "The player has been loading for a while — the selected streaming provider may be broken. Ask on the Discord server:"
             }
             var buttons = ""
             if (entry && entry.threadId) buttons += chatHtml(entry.threadId)
-            else buttons += "<a class='mplus-chip mplus-chat' href='" + FORUM_URL + "' target='_blank' rel='noreferrer' title='Open the Seanime community marketplace'>" + SVG_CHAT + " Marketplace</a>"
+            else buttons += "<a class='mplus-chip mplus-chat' href='" + FORUM_URL + "' target='_blank' rel='noreferrer' title='Open the Seanime marketplace Discord server'>" + SVG_CHAT + " Discord</a>"
             buttons += "<span class='mplus-chip mplus-ver mplus-alert-x'>Dismiss</span>"
 
             try {
