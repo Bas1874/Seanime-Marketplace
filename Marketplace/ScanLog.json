@@ -630,11 +630,11 @@
     "timestamp": 1776602134471
   },
   {
-    "id": "friend-stats", "version": "1.0.0",
+    "id": "friend-stats", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/friend-stats/main.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5bbf075daa147fee2cba71d3208ff323a9598b3592a0fbacacc2e0be74e088cc",
-    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784575686791
+    "permalink": "https://www.virustotal.com/gui/file/8b18b53f0d23f2598a11b869069e289d7e6d296e11b4c7375bd5c09080cb1808",
+    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784738853539
   },
   {
     "id": "gojowtf", "version": "1.1.4",
@@ -959,11 +959,11 @@
     "timestamp": 1771873231120, "hadWorkingTag": false
   },
   {
-    "id": "Marketplace-Plus", "version": "1.1.0",
+    "id": "Marketplace-Plus", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.js",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/3a23494baf256b4cefa69167ac862be4a3f4be1f875a69a6ff8132b41098bdc6",
-    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784638005366
+    "permalink": "https://www.virustotal.com/gui/file/371df33003e15adaa5a5c65e0621cd3f5443c38d78db572f4944a496f007265a",
+    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784738900142
   },
   {
     "id": "Marketplace+", "version": "1.0.0",
