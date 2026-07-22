@@ -46,6 +46,10 @@ Connecting this database to your client is quick and easy. Follow these steps to
      <br>
     <img src="https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/main/images/step4.png" width="500" alt="Paste repository URL and Save" />```
 
+
+    💡 Pro-Tip: Install the Marketplace Plus Plugin
+                  Once you've successfully added the repository, I highly recommend installing the Marketplace Plus plugin! It upgrades your native Seanime extensions page to display much more detailed information, statuses, and better                       formatting for all plugins directly inside the app.
+
 ## What's in here
 
 ```
