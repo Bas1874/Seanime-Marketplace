@@ -1,5 +1,5 @@
 // ================================================================
-//  Marketplace+ v1.1.0  ·  by bas1874
+//  Marketplace+ v1.1.1  ·  by bas1874
 //  Based on original seatags concept by Aqua
 // ================================================================
 
@@ -799,9 +799,18 @@ function init() {
         // If the ui-translation plugin localises this string the match fails
         // and detection falls back to the <video> readyState check.
         var W_LOADING_TEXT = "loading stream"
-        // Fallback when the provider can't be identified. TODO(bas1874):
-        // append the plugin-forum channel ID for a direct forum link.
-        var FORUM_URL = "https://discord.com/channels/" + DISCORD_GUILD
+        // Lower-case text unique to the online-streaming player toolbar. Its
+        // presence is what tells the watchdog it's looking at online streaming
+        // and not debrid/torrent/local playback. Keep these specific — a
+        // marker that also appears in other players would re-introduce the
+        // debrid false-positive.
+        var OS_MARKERS = ["try all available providers"]
+        // Fallback link when the stuck provider isn't in the marketplace feed
+        // (so there's no support thread to point at). The marketplace website
+        // is used rather than the Discord guild root, which lands on the
+        // server's default channel. TODO(bas1874): swap in a direct
+        // plugin-forum channel URL if you'd rather send people to Discord.
+        var FORUM_URL = "https://bas1874.github.io/Seanime-Marketplace/"
 
         var wVideos = {}    // element-id → video element handle
         var wBadSince = 0   // when readyState 0 was first seen (0 = healthy)
@@ -892,11 +901,11 @@ function init() {
                         : "may be having issues") +
                     " — check its support thread:"
             } else {
-                text = "The player has been loading for a while — the selected streaming provider may be broken. Check the plugin forum on Discord:"
+                text = "The player has been loading for a while — the selected streaming provider may be broken. Check the marketplace for its status:"
             }
             var buttons = ""
             if (entry && entry.threadId) buttons += chatHtml(entry.threadId)
-            else buttons += "<a class='mplus-chip mplus-chat' href='" + FORUM_URL + "' target='_blank' rel='noreferrer' title='Open the Seanime plugin forum on Discord'>" + SVG_CHAT + " Plugin forum</a>"
+            else buttons += "<a class='mplus-chip mplus-chat' href='" + FORUM_URL + "' target='_blank' rel='noreferrer' title='Open the Seanime community marketplace'>" + SVG_CHAT + " Marketplace</a>"
             buttons += "<span class='mplus-chip mplus-ver mplus-alert-x'>Dismiss</span>"
 
             try {
@@ -915,19 +924,29 @@ function init() {
             } catch (e) { }
         }
 
-        // Case 2: the client is still showing its "Loading stream"
-        // placeholder, so no <video> has been created yet. Only called
-        // when nothing is playing, to keep the text read off the hot path.
-        async function wLoadingPlaceholder() {
-            // reading the whole page's text isn't free — skip it on routes
-            // that can't be streaming (unknown route still gets checked)
-            if (wPath && wPath.indexOf("entry") === -1 && wPath.indexOf("onlinestream") === -1) return false
+        // Single page-text read per poll. Reports two things at once:
+        //   placeholder → the "Loading stream" text is on screen
+        //   context     → we're actually in the online-streaming player
+        // The context flag is the important one: debrid, torrent and local
+        // playback also show "Loading stream" (the external MPV overlay sends
+        // exactly that) and mount no <video>, so without a positive
+        // online-stream signal the watchdog fired forever during debrid. The
+        // "Try all available providers" control only exists on the integrated
+        // streaming player, so it's the discriminator.
+        async function wPageProbe() {
+            var out = { placeholder: false, context: false }
+            if (wPath && wPath.indexOf("entry") === -1 && wPath.indexOf("onlinestream") === -1) return out
             var b = await body()
-            if (!b) return false
+            if (!b) return out
             var t = null
-            try { t = await b.getProperty("textContent") } catch (e) { return false }
-            if (t == null) return false
-            return String(t).toLowerCase().indexOf(W_LOADING_TEXT) !== -1
+            try { t = await b.getProperty("textContent") } catch (e) { return out }
+            if (t == null) return out
+            var low = String(t).toLowerCase()
+            out.placeholder = low.indexOf(W_LOADING_TEXT) !== -1
+            for (var i = 0; i < OS_MARKERS.length; i++) {
+                if (low.indexOf(OS_MARKERS[i]) !== -1) { out.context = true; break }
+            }
+            return out
         }
 
         async function wCheck() {
@@ -943,20 +962,29 @@ function init() {
                 if (rs != null && Number(rs) >= 1) anyReady = true
             }
             if (anyReady) { wHealthy(); return }
+
+            var probe = { placeholder: false, context: false }
+            try { probe = await wPageProbe() } catch (e) { }
             // stuck = a video that never got a source, or the placeholder
             // still on screen with no video mounted at all
-            var stuck = anyVideo
-            if (!stuck) {
-                try { stuck = await wLoadingPlaceholder() } catch (e) { stuck = false }
-            }
+            var stuck = anyVideo || probe.placeholder
             if (!stuck) { wHealthy(); return }
+
+            var label = ""
+            try { label = await readProviderLabel() } catch (e) { }
+            var known = entryFromLabel(label)
+
+            // Gate: only the integrated online-streaming player triggers this.
+            // Requires either an online-stream toolbar marker or a recognised
+            // streaming provider selected. Debrid/torrent/local playback (esp.
+            // an external MPV window) satisfies neither, so it never fires.
+            if (!probe.context && !known) { wHealthy(); return }
+
             var now = Date.now()
 
             // Switching provider starts a new attempt: the freshly picked
             // one deserves its own grace period, and any card naming the
             // previous provider is now wrong.
-            var label = ""
-            try { label = await readProviderLabel() } catch (e) { }
             if (wProvLabel !== null && label !== wProvLabel) {
                 if (wCard) { try { wCard.remove() } catch (e) { } wCard = null }
                 wBadSince = now
@@ -969,7 +997,7 @@ function init() {
             if (!wBadSince) { wBadSince = now; return }
             if (now - wBadSince < W_STUCK_AFTER || wShown) return
             wShown = true
-            showStuckCard(entryFromLabel(label)).catch(function () { })
+            showStuckCard(known).catch(function () { })
         }
 
         function wPoll(myEpoch) {
