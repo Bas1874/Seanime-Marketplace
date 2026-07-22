@@ -455,6 +455,13 @@
     "timestamp": 1778348327690, "hadWorkingTag": false
   },
   {
+    "id": "bangumi-ui", "version": "1.1.3",
+    "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Bangumi/bangumi.plugin.js",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c037c2e6d9ee221fe89f912ea96e2585ce7c3725781607fe3b7d7b2dbe443df6",
+    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784724453327
+  },
+  {
     "id": "banner-remover", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Banner-Remover/refs/heads/main/src/banner-remover.ts",
     "flags": "1/61", "flaggedBy": ["SUPERAntiSpyware"],
