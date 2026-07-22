@@ -602,11 +602,11 @@
     "lastWorkingVersion": "3.10.1", "timestamp": 1780696536973, "hadWorkingTag": true
   },
   {
-    "id": "Dub-Schedule", "version": "1.5.0",
+    "id": "Dub-Schedule", "version": "1.6.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Dub-Schedule-Seanime/refs/heads/main/src/Dub-Schedule.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/89e7cee1a9f15eb235fa985d879386ff1109f164b423d551084c0633de99e6b5",
-    "lastWorkingVersion": "3.10.1", "timestamp": 1783248564341, "hadWorkingTag": true
+    "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c67ab04a9facddfd6398ac787d0e1193a6a38e5fa981a71efbf33bd43da7d6f8",
+    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784753449603
   },
   {
     "id": "episodeshistory", "version": "1.3.0",
