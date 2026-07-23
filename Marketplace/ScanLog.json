@@ -812,11 +812,11 @@
     "timestamp": 1771869278116, "hadWorkingTag": false
   },
   {
-    "id": "manga-source-updates", "version": "1.8.7",
+    "id": "manga-source-updates", "version": "1.8.8",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/manga-source-updates/code.js",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ed921c9ece2b537a5f9be71ca5b2e3980d3b091693734171259d9545d0286a3a",
-    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784263214925
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/bd47c6a7271d760fb8e5c7e36d20ef53e307c0d3fa60a6b6e6caa00ebd5728ae",
+    "lastWorkingVersion": "3.10.1", "hadWorkingTag": true, "timestamp": 1784776006290
   },
   {
     "id": "mangabaka", "version": "1.0.1",
