@@ -1574,7 +1574,7 @@
     "addedAt": "2026-06-15T21:26:05.191Z", "updatedAt": "2026-07-12T23:17:56.963Z"
   },
   {
-    "id": "hipercool-provider-v3", "name": "HiperCool", "version": "1.0.1", "author": "Skrapt",
+    "id": "hipercool-provider-v3", "name": "HiperCool", "version": "1.0.2", "author": "Skrapt",
     "description": "Manga provider for HiperCool - Portuguese manga/manhwa site", "type": "manga-provider",
     "language": "typescript", "lang": "pt",
     "icon": "https://raw.githubusercontent.com/SKRAPT/Hipercool-Seanime/main/hipercool.png",
@@ -1582,7 +1582,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": null, "stars": 1, "threadId": "1495448515072233572",
-    "addedAt": "2026-04-19T15:38:30.083Z", "updatedAt": "2026-07-06T15:13:11.445Z"
+    "addedAt": "2026-04-19T15:38:30.083Z", "updatedAt": "2026-07-23T19:06:11.791Z"
   },
   {
     "id": "horizontal-scroll", "name": "Horizontal Scroll", "version": "1.2.0", "author": "Kaktus",
