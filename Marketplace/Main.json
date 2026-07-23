@@ -1040,7 +1040,7 @@
     "website": "https://bgm.tv", "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c037c2e6d9ee221fe89f912ea96e2585ce7c3725781607fe3b7d7b2dbe443df6",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
-    "scannedOnVersion": "3.10.1", "lastWorkingVersion": "3.10.1", "stars": 0, "threadId": "1529440643787653150",
+    "scannedOnVersion": "3.10.1", "lastWorkingVersion": "3.10.1", "stars": 1, "threadId": "1529440643787653150",
     "addedAt": "2026-07-22T10:51:05.112Z", "updatedAt": "2026-07-22T12:47:33.633Z"
   },
   {
@@ -1428,7 +1428,7 @@
     "permalink": "https://www.virustotal.com/gui/file/8b18b53f0d23f2598a11b869069e289d7e6d296e11b4c7375bd5c09080cb1808",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.1",
-    "lastWorkingVersion": "3.10.1", "stars": 7, "threadId": "1528805611351969913",
+    "lastWorkingVersion": "3.10.1", "stars": 8, "threadId": "1528805611351969913",
     "addedAt": "2026-07-20T16:47:41.581Z", "updatedAt": "2026-07-22T16:48:20.393Z"
   },
   {
@@ -1858,18 +1858,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "manga-source-updates", "name": "Manga Source Updates", "version": "1.8.7", "author": "Carloss616",
+    "id": "manga-source-updates", "name": "Manga Source Updates", "version": "1.8.8", "author": "Carloss616",
     "description": "Refresh a manga's chapters across providers and list the sources that have new chapters.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/manga-source-updates/assets/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/manga-source-updates/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/manga-source-updates/code.js",
-    "website": "https://github.com/Carloss616/seanime-extensions", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ed921c9ece2b537a5f9be71ca5b2e3980d3b091693734171259d9545d0286a3a",
+    "website": "https://github.com/Carloss616/seanime-extensions", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/bd47c6a7271d760fb8e5c7e36d20ef53e307c0d3fa60a6b6e6caa00ebd5728ae",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.1",
     "lastWorkingVersion": "3.10.1", "stars": 3, "threadId": "1526465762573680720",
-    "addedAt": "2026-07-14T05:49:58.160Z", "updatedAt": "2026-07-17T04:40:15.165Z"
+    "addedAt": "2026-07-14T05:49:58.160Z", "updatedAt": "2026-07-23T03:06:46.547Z"
   },
   {
     "id": "mangabaka", "name": "MangaBaka", "version": "1.0.1", "author": "jabifx",
@@ -2650,7 +2650,7 @@
     "permalink": "https://www.virustotal.com/gui/file/b68ad2b299d347f499ba59fb8e7afb87e6d0fb89d37ae915166cc668c5c8cff5",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.1",
-    "lastWorkingVersion": "3.10.1", "stars": 3, "threadId": "1527972253126361118",
+    "lastWorkingVersion": "3.10.1", "stars": 4, "threadId": "1527972253126361118",
     "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-07-18T12:43:22.786Z"
   },
   {
