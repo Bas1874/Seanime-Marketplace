@@ -1218,6 +1218,13 @@
     "lastWorkingVersion": "3.10.2", "timestamp": 1783596380590, "hadWorkingTag": true
   },
   {
+    "id": "skip-ahead-video-player", "version": "1.2.2",
+    "payloadURI": "https://raw.githubusercontent.com/EnnioMrk/seanime-skip-extension/refs/heads/main/skip-ahead-video-player.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8354fe78b9036275b90ea6c2c55f637a798f7c29cd620829767dd3f47d85ca82",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1785003005555
+  },
+  {
     "id": "snow-effect", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/effects/provider.js",
     "flags": "0/62", "flaggedBy": [],
