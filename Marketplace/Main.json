@@ -191,6 +191,20 @@
     "addedAt": "2026-06-04T19:28:44.041Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "anibt", "name": "AniBT", "version": "1.0.0", "author": "Elisoar",
+    "description": "Anime torrent search via AniBT. Supports Chinese/English/Japanese title search, Bangumi ID lookup",
+    "type": "anime-torrent-provider", "language": "javascript", "lang": "zh",
+    "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/anibt/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/anibt/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/anibt/provider.js",
+    "website": "https://anibt.net/", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/7300a5346bbdcea59478e93a663ada2bd1f0b4e967d113f7e5f829ffccd67782",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259206880067784","1359183147123867881"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1530499232430035107",
+    "addedAt": "2026-07-25T08:57:32.312Z", "updatedAt": "2026-07-25T10:10:33.380Z"
+  },
+  {
     "id": "anicrush", "name": "Anicrush", "version": "1.1.2", "author": "Thekingcrusher",
     "description": "Anicrush is an online stream provider for both sub and dub with soft subs.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
@@ -2215,18 +2229,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mikan-project", "name": "Mikan Project", "version": "1.0.1", "author": "Elisoar",
+    "id": "mikan-project", "name": "Mikan Project", "version": "1.1.0", "author": "Elisoar",
     "description": "Mikan Project provides accurate, real-time Chinese subtitles for torrent-streamed Japanese animations.",
     "type": "anime-torrent-provider", "language": "javascript", "lang": "zh",
     "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/Cover.png",
     "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/provider.js",
     "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/bcc5959ba099d934a5805c7c0bc22de023b86762dbbb4476217310411f637ea3",
+    "permalink": "https://www.virustotal.com/gui/file/2e33a1699f635538e112f1ddd5f40c0166d80d55e7998f8741356e156d7193af",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1526790354408439839",
-    "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-07-15T15:21:22.533Z"
+    "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-07-25T10:10:33.380Z"
   },
   {
     "id": "my-list-table-view", "name": "My List Table View", "version": "1.0.0", "author": "Dadangdut33",
