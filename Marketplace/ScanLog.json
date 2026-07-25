@@ -91,6 +91,13 @@
     "lastWorkingVersion": "3.9.1", "timestamp": 1782809532521, "hadWorkingTag": false
   },
   {
+    "id": "anibt", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/anibt/provider.js",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/7300a5346bbdcea59478e93a663ada2bd1f0b4e967d113f7e5f829ffccd67782",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1784974186823
+  },
+  {
     "id": "anidao", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidao/provider.js",
     "flags": "0/60", "flaggedBy": [],
@@ -987,11 +994,11 @@
     "lastWorkingVersion": null, "timestamp": 1781368540573, "hadWorkingTag": false
   },
   {
-    "id": "mikan-project", "version": "1.0.1",
+    "id": "mikan-project", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/provider.js",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/bcc5959ba099d934a5805c7c0bc22de023b86762dbbb4476217310411f637ea3",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1784128882277
+    "permalink": "https://www.virustotal.com/gui/file/2e33a1699f635538e112f1ddd5f40c0166d80d55e7998f8741356e156d7193af",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1784974233136
   },
   {
     "id": "my-list-table-view", "version": "1.0.0",
