@@ -2767,6 +2767,20 @@
     "addedAt": "2025-12-28T15:11:42.460Z", "updatedAt": "2026-07-09T11:26:20.896Z"
   },
   {
+    "id": "skip-ahead-video-player", "name": "Skip Ahead", "version": "1.2.2", "author": "EnnioMrk",
+    "description": "Adds a skip-ahead button to the video player control bar with configurable position. Useful for skipping intros or recaps in anime episodes.",
+    "type": "plugin", "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/EnnioMrk/seanime-skip-extension/refs/heads/main/icon-128x128.png",
+    "manifestURI": "https://raw.githubusercontent.com/EnnioMrk/seanime-skip-extension/refs/heads/main/skip-ahead-video-player.json",
+    "payloadURI": "https://raw.githubusercontent.com/EnnioMrk/seanime-skip-extension/refs/heads/main/skip-ahead-video-player.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8354fe78b9036275b90ea6c2c55f637a798f7c29cd620829767dd3f47d85ca82",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1359183394512048148","1360636715643179231"],
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1530607112260948008",
+    "addedAt": "2026-07-25T16:06:12.868Z", "updatedAt": "2026-07-25T18:10:05.814Z"
+  },
+  {
     "id": "skip-data-manager", "name": "Skip Data Manager", "version": "1.1.0", "author": "Thekingcrusher",
     "description": "Fetches intro/outro skip timestamps from other sources and injects them into Seanime's integrated player.",
     "type": "plugin", "language": "typescript", "lang": "multi",
