@@ -93,35 +93,20 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "al-azoramoon", "name": "AzoraMoon", "version": "1.0.1", "author": "Bruuhim",
+    "id": "al-azoramoon", "name": "AzoraMoon", "version": "1.0.0", "author": "Bruuhim",
     "description": "Manga provider for azoramoon.com (Arabic)", "type": "manga-provider", "language": "typescript",
-    "lang": "ar",
-    "icon": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/assets/azoramoon-icon.webp",
+    "lang": "ar", "icon": "https://azoramoon.com/icon-512x512.png",
     "manifestURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/azoramoon/azoramoon.json",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/azoramoon/index.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
+    "website": "", "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2f5c5d502a8e4fdf4e70eb1698fe669a88c1a1e8a1fbddf13f14c91d04964eb6",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 2, "threadId": "1469511496814821478", "addedAt": "2026-02-07T01:54:03.044Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-07-27T18:14:52.641Z"
   },
   {
-    "id": "al-mangatuk", "name": "MangaTuk", "version": "1.0.0", "author": "Bruuhim",
-    "description": "Manga provider for mangatuk.com (Arabic)", "type": "manga-provider", "language": "typescript",
-    "lang": "ar",
-    "icon": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/assets/mangatuk-icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/mangatuk/mangatuk.json",
-    "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/mangatuk/index.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/fc3cd7d6975bb708b3552016c6e7456c2941bb8f35c5fb5ffbcea7f2e2dfee09",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
-    "stars": 0, "threadId": "1513403105365065748", "addedAt": "2026-06-08T04:43:37.989Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
-    "id": "al-olympustaff", "name": "OlympusStaff", "version": "1.0.1", "author": "Bruuhim",
+    "id": "al-olympustaff", "name": "OlympusStaff", "version": "1.0.0", "author": "Bruuhim",
     "description": "Manga provider for olympustaff.com (Arabic)", "type": "manga-provider", "language": "typescript",
     "lang": "ar", "icon": "https://i.imgur.com/ulnGanf.jpeg",
     "manifestURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/olympustaff/olympustaff.json",
@@ -131,7 +116,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 2, "threadId": "1467966592590807151", "addedAt": "2026-02-02T19:35:09.174Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-07-27T18:14:52.641Z"
   },
   {
     "id": "allmangaanime", "name": "AllManga (Anime)", "version": "1.0.0", "author": "Pal",
@@ -2326,18 +2311,6 @@
     "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
-    "id": "nekobt", "name": "nekoBT", "version": "1.0.1", "author": "bruuhim",
-    "description": "nekoBT torrent search provider for Seanime. Uses nekoBT search results and media fallback retries.",
-    "type": "anime-torrent-provider", "language": "typescript", "lang": "multi",
-    "icon": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/assets/nekobt.png",
-    "manifestURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/anime-torrent-providers/nekobt/nekobt.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
-    "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 6, "threadId": "1493206877335588894",
-    "addedAt": "2026-04-13T11:11:01.999Z", "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
     "id": "nexustoons", "name": "Nexus Toons", "version": "1.0.1", "author": "Jhoorodr",
     "description": "Manga provider for Nexus Toons.", "type": "manga-provider", "language": "typescript",
     "lang": "pt-BR",
@@ -3044,6 +3017,19 @@
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 5, "threadId": "1517157611693281401",
     "addedAt": "2026-06-18T13:22:42.053Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "tvmaze-cs", "name": "TVMaze", "version": "1.0.1", "author": "nnotwen",
+    "description": "Implements TVMaze as a custom source. No API Key required!", "type": "custom-source",
+    "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/tvmaze/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/tvmaze/tvmaze-cs.json",
+    "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/tvmaze/provider.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/bdffa5c7a95821e6e733f2c90c2b8fe07256088fceea4594b43fbb09b5325e92",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1437869415344377887"],
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": null, "stars": 0, "threadId": "1531338246678646876",
+    "addedAt": "2026-07-27T16:31:28.897Z", "updatedAt": "2026-07-27T18:14:52.641Z"
   },
   {
     "id": "uchuujin-projects", "name": "Uchuujin Projects", "version": "1.0.1", "author": "branrgx",
