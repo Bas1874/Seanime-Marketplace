@@ -42,11 +42,11 @@
     "timestamp": 1771864940251, "hadWorkingTag": false
   },
   {
-    "id": "al-azoramoon", "version": "1.0.1",
+    "id": "al-azoramoon", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/azoramoon/index.ts",
-    "flags": "0/61", "flaggedBy": [],
+    "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2f5c5d502a8e4fdf4e70eb1698fe669a88c1a1e8a1fbddf13f14c91d04964eb6",
-    "timestamp": 1777688768365, "hadWorkingTag": false
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1785176046233
   },
   {
     "id": "al-mangatuk", "version": "1.0.0",
@@ -56,11 +56,11 @@
     "lastWorkingVersion": null, "timestamp": 1780942119237, "hadWorkingTag": false
   },
   {
-    "id": "al-olympustaff", "version": "1.0.1",
+    "id": "al-olympustaff", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/olympustaff/index.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/09caed6d8fe029d9ca07b2172c21fd7c2f96aa03e49f86540943bc2d84e1e867",
-    "timestamp": 1777688875679, "hadWorkingTag": false
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1785176092379
   },
   {
     "id": "allmangaanime", "version": "1.0.0",
@@ -1321,6 +1321,13 @@
     "flags": "0/58", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/bd674a14dccee1d00c8c9f4e3a431eecc9c29ca0e8d7746fe2641d754593b04e",
     "lastWorkingVersion": "3.10.2", "timestamp": 1782132032390, "hadWorkingTag": true
+  },
+  {
+    "id": "tvmaze-cs", "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/tvmaze/provider.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/bdffa5c7a95821e6e733f2c90c2b8fe07256088fceea4594b43fbb09b5325e92",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1785175984179
   },
   {
     "id": "uchuujin-projects", "version": "1.0.1",
