@@ -1323,11 +1323,11 @@
     "lastWorkingVersion": "3.10.2", "timestamp": 1782132032390, "hadWorkingTag": true
   },
   {
-    "id": "tvmaze-cs", "version": "1.0.1",
+    "id": "tvmaze-cs", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/tvmaze/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/bdffa5c7a95821e6e733f2c90c2b8fe07256088fceea4594b43fbb09b5325e92",
-    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1785175984179
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/bed482379e0ab6efc66246a39c27359a83744043f9e30093b221ac449de6615e",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1785248087391
   },
   {
     "id": "uchuujin-projects", "version": "1.0.1",
