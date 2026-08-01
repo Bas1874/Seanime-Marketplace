@@ -735,11 +735,11 @@
     "timestamp": 1771872642749, "hadWorkingTag": false
   },
   {
-    "id": "kuromangas", "version": "1.0.7",
+    "id": "kuromangas", "version": "1.0.8",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a52bfdbe72d9c300c0e4c4631857f3c54ab2f39ccdc4ef3198cee51e6cb3e818",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1783897857866
+    "permalink": "https://www.virustotal.com/gui/file/e143959780620411aedbe025c7e3b1f690ea60ca89b37fb505e17e5fe1d381d2",
+    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1785560051726
   },
   {
     "id": "latanime-online-provider", "version": "0.1.11",
@@ -952,11 +952,11 @@
     "timestamp": 1771869231822, "hadWorkingTag": false
   },
   {
-    "id": "manhastro", "version": "1.0.1",
+    "id": "manhastro", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/manhastro/manhastro.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7da6576456d0f07791104519379f0ae29c4ac1d87983ca2e7dfd23e3a483897d",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1783898134311
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/66ebce6f0dcea72645338a4c91111b7a9db4bd833efe66a92ae1c8c7b6d0a019",
+    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1785560129170
   },
   {
     "id": "manhwaweb", "version": "1.0.0",
@@ -980,11 +980,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1783095583541
   },
   {
-    "id": "mediocrescan", "version": "1.0.7",
+    "id": "mediocrescan", "version": "1.0.8",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mediocrescan/mediocrescan.ts",
-    "flags": "0/61", "flaggedBy": [],
+    "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/1b0c83a77ff535706f6739c4f6bdcbd3f7a1b0de640da306c518bce679620712",
-    "lastWorkingVersion": "3.8.3", "hadWorkingTag": false, "timestamp": 1783898274082
+    "lastWorkingVersion": "3.8.3", "hadWorkingTag": false, "timestamp": 1785560297833
   },
   {
     "id": "mh-scans", "version": "1.1.1",
