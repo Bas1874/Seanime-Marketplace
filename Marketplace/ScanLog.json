@@ -280,11 +280,11 @@
     "timestamp": 1774792228218, "hadWorkingTag": false
   },
   {
-    "id": "animesalt", "version": "1.0.0",
+    "id": "animesalt", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/main.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c7b7011623c0a7465d05c89ef4f61aaed9c00934b9dccbeadb02eccf2d2be11b",
-    "timestamp": 1780153479624, "lastWorkingVersion": "3.10.2", "hadWorkingTag": true
+    "permalink": "https://www.virustotal.com/gui/file/172ccd55cb4477985d7ed3301b202e6abc8251bdb95a12fcf1fc347fb598c158",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1785545543580
   },
   {
     "id": "animesamaanime", "version": "1.0.0",
