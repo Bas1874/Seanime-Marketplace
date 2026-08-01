@@ -582,18 +582,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "animesalt", "name": "AnimeSalt", "version": "1.0.0", "author": "mohaisreal",
+    "id": "animesalt", "name": "AnimeSalt", "version": "1.0.1", "author": "mohaisreal",
     "description": "AnimeSalt is an online streaming provider for Hindi, Tamil, Telugu, English and Japanese anime streams.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/main.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c7b7011623c0a7465d05c89ef4f61aaed9c00934b9dccbeadb02eccf2d2be11b",
+    "permalink": "https://www.virustotal.com/gui/file/172ccd55cb4477985d7ed3301b202e6abc8251bdb95a12fcf1fc347fb598c158",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1509989485843185735",
-    "addedAt": "2026-05-29T18:39:07.673Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2026-05-29T18:39:07.673Z", "updatedAt": "2026-08-01T00:52:23.839Z"
   },
   {
     "id": "animesamaanime", "name": "AnimeSama (Anime)", "version": "1.0.0", "author": "Pal",
