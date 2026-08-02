@@ -131,8 +131,8 @@
     "website": "", "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/141bd6a2f93b87dbc734323a5af1512b4bb1f572c6eee8ac8c5387bfdcac4fff",
     "workingTag": false, "brokenTag": false, "deprecatedTag": true,
-    "tags": ["1359259306087940146","1359183394512048148","1359183147123867881"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": null, "stars": 3, "threadId": "1429927199317688471", "addedAt": "2025-10-20T20:20:11.080Z",
+    "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": null, "stars": 4, "threadId": "1407469896312553603", "addedAt": "2025-08-19T21:02:52.807Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
