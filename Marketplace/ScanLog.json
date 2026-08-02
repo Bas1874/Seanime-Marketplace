@@ -945,6 +945,13 @@
     "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1784012940100
   },
   {
+    "id": "mangaworld", "version": "1.0.2",
+    "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-manga-providers/refs/heads/main/src/MangaWorld/provider.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/2ac2f21e25e2517afb398d239bf86e09c9f9b68806ee768807c8bbd5b1b23304",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1785675345191
+  },
+  {
     "id": "mangaworldadult", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/MangaWorldAdult/provider.ts",
     "flags": "0/62", "flaggedBy": [],
