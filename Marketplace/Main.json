@@ -2093,14 +2093,17 @@
     "addedAt": "2026-05-27T22:48:18.562Z", "updatedAt": "2026-07-14T07:09:00.353Z"
   },
   {
-    "id": "mangaworld", "name": "MangaWorld", "version": "1.0.1", "author": "kRYstall9",
+    "id": "mangaworld", "name": "MangaWorld", "version": "1.0.2", "author": "kRYstall9",
     "description": "MangaWorld is a manga provider for MangaWorld. It mainly focuses on Italian manga.",
     "type": "manga-provider", "language": "typescript", "lang": "it", "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-manga-providers/refs/heads/main/src/MangaWorld/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
-    "scannedOnVersion": "3.10.2", "lastWorkingVersion": null, "stars": 6, "threadId": "1359432599935651861",
-    "addedAt": "2025-04-09T07:39:48.861Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-manga-providers/refs/heads/main/src/MangaWorld/provider.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/2ac2f21e25e2517afb398d239bf86e09c9f9b68806ee768807c8bbd5b1b23304",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
+    "stars": 6, "threadId": "1359432599935651861", "addedAt": "2025-04-09T07:39:48.861Z",
+    "updatedAt": "2026-08-02T12:55:45.417Z"
   },
   {
     "id": "mangaworldadult", "name": "MangaWorldAdult", "version": "1.0.0", "author": "pal",
