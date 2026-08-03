@@ -294,11 +294,11 @@
     "lastWorkingVersion": "3.9.1", "timestamp": 1783452043851, "hadWorkingTag": false
   },
   {
-    "id": "animesamamanga", "version": "2.0.0",
+    "id": "animesamamanga", "version": "2.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/animesama/provider.js",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ec58d1d0804eecca98a3b5dc1b3c8adc8fe0033f6ae3f79750b8da32da4f2440",
-    "lastWorkingVersion": "3.9.1", "timestamp": 1783343151811, "hadWorkingTag": false
+    "permalink": "https://www.virustotal.com/gui/file/9138b8b40e3112b97e48f3bbd48b6645f0c10ce093c65a6949158931c542f546",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1785776277529
   },
   {
     "id": "animesaturn", "version": "1.0.3",
