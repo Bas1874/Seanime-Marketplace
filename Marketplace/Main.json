@@ -596,20 +596,6 @@
     "addedAt": "2026-05-29T18:39:07.673Z", "updatedAt": "2026-08-01T00:52:23.839Z"
   },
   {
-    "id": "animesamaanime", "name": "AnimeSama (Anime)", "version": "1.0.0", "author": "Pal",
-    "description": "AnimeSama is an online streaming provider for sub & dub anime in french",
-    "type": "onlinestream-provider", "language": "javascript", "lang": "fr",
-    "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/animesama.png",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesama/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesama/provider.js",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d285ec3197b711f4948c161cde085cf36ff6c538116ae4618d84372b59e4c881",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124","1505937222891733062","1360636715643179231"],
-    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.9.1", "stars": 2, "threadId": "1524131015877071180",
-    "addedAt": "2026-07-07T19:12:31.170Z", "updatedAt": "2026-07-07T19:20:44.295Z"
-  },
-  {
     "id": "animesamamanga", "name": "AnimeSama (Manga)", "version": "2.1.0", "author": "pal & Rafou376",
     "description": "AnimeSama is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "fr",
