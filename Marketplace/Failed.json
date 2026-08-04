@@ -31,5 +31,9 @@
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1513403105365065748", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension Name:**\n> MangaTuk\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/mangatuk/mangatuk.json) / Copy the link below: \n> ```\n> https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/mangatuk/mangatuk.json\n> ```\n> \n> **Description:**\n> Extension for [MangaTuk](https://mangatuk.com), an Arabic online manga reading platform, made by Bruuhim\n> \n> **Additional Notes:**\n> Pure API-based provider — fast and reliable. No HTML scraping. Fully Arabic source. Report issues [here](https://github.com/bruuhim/bruuhim-seanime-extensions/issues)"
+  },
+  {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1524131015877071180", "reason": "404 Not Found.",
+    "originalMessageContent": "> **Extension Name:**\n> AnimeSama\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/animesama/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/animesama/manifest.json```\n> **Description:**\n> Extension for french sub & dubs.\n> \n> **Additional Notes:**\n> Read below"
   }
 ]
