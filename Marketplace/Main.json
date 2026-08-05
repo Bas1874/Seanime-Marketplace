@@ -1051,20 +1051,6 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "capibaratraductor", "name": "CapibaraTraductor", "version": "1.0.0", "author": "mohaisreal",
-    "description": "El Hub de tus Scans Favoritos. Proveedor de manga en español.", "type": "manga-provider",
-    "language": "typescript", "lang": "es",
-    "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/faviconcaptrad.png",
-    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/main.ts",
-    "website": "", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7b964dadae8d19ead09f74ec9db8c58dc5429ca80474a27d924cd085d05f53b6",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
-    "stars": 1, "threadId": "1495719071998541866", "addedAt": "2026-04-20T09:33:35.881Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
     "id": "cerberus-series", "name": "Cerberus Series (LegionScans)", "version": "1.0.1", "author": "branrgx",
     "description": "Cerberus Series (LegionScans) as a Spanish manga provider for Seanime, primarily focused on manga but also supporting manhwa/manhua.",
     "type": "manga-provider", "language": "typescript", "lang": "es",
@@ -1245,20 +1231,6 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "discord-rpc-episode-title", "name": "Discord RPC Episode Title", "version": "1.2.0",
-    "author": "S1lent999", "description": "Shows anime episode title with custom formats in Discord RPC",
-    "type": "plugin", "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-logo.jpg",
-    "manifestURI": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-rpc-episode-title.json",
-    "payloadURI": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-rpc-episode-title.ts",
-    "website": "", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/453b3c405c42d3ecca43fb90b573de6063847c761b6a5ab460e921d08e5896d1",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": true,
-    "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.9.1", "stars": 8, "threadId": "1524795196007645304",
-    "addedAt": "2026-07-09T15:11:44.053Z", "updatedAt": "2026-07-12T23:17:56.963Z"
-  },
-  {
     "id": "discord-rpc-extended", "name": "Discord RPC Extended", "version": "1.0.9", "author": "nnotwen",
     "description": "Provide more info for Discord RPC.", "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Extended/icon.png",
@@ -1335,20 +1307,6 @@
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 7, "threadId": "1412165513777254570",
     "addedAt": "2025-09-01T20:01:35.251Z", "updatedAt": "2026-07-22T20:50:49.865Z"
-  },
-  {
-    "id": "episodeshistory", "name": "Episodes History", "version": "1.3.0", "author": "kRYstall9",
-    "description": "A plugin that shows the episodes watch history", "type": "plugin", "language": "typescript",
-    "lang": "multi",
-    "icon": "https://raw.githubusercontent.com/kRYstall9/EpisodesHistory-Plugin/refs/heads/main/src/icons/double-check.png",
-    "manifestURI": "https://raw.githubusercontent.com/kRYstall9/EpisodesHistory-Plugin/refs/heads/main/src/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/kRYstall9/EpisodesHistory-Plugin/refs/heads/main/src/provider.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/445af6333a09b4c7bc2e72d1284745d7521c825fca7d46b1a0cbeddb06084675",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 7, "threadId": "1366810284831801434",
-    "addedAt": "2025-04-29T16:16:06.011Z", "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "fancy-fonts", "name": "Fancy Fonts", "version": "1.0.2", "author": "nnotwen",
@@ -1947,20 +1905,6 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 8, "threadId": "1428453575734067210", "addedAt": "2025-10-16T18:44:31.839Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
-    "id": "mangahub", "name": "MangaHub", "version": "1.0.0", "author": "Pal",
-    "description": "MangaHub is a Russian manga provider for Seanime", "type": "manga-provider",
-    "language": "javascript", "lang": "ru",
-    "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/mangahub.ico",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mangahub/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mangahub/provider.js",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/bb4f308fbe1f94dcf1491b80c5533317983ad74980ded692d9311f8527149115",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
-    "stars": 0, "threadId": "1504517120476708924", "addedAt": "2026-05-14T16:13:54.098Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
