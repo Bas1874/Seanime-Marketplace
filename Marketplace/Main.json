@@ -176,20 +176,6 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anidao", "name": "AniDao", "version": "1.1.0", "author": "Pal",
-    "description": "AniDao is an online streaming provider for subbed & dubbed anime in english",
-    "type": "onlinestream-provider", "language": "javascript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/anidao.png",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidao/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidao/provider.js",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/4aaeeb726e443b49da9638921dea9746a7560c445f0034cf0902752e343bd5b0",
-    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
-    "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.8.4", "stars": 2, "threadId": "1509586816582287511",
-    "addedAt": "2026-05-28T15:59:03.840Z", "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
     "id": "anidb", "name": "AniDB", "version": "1.0.1", "author": "Pal",
     "description": "AniDB is an online streaming provider for subbed & dubbed anime in english",
     "type": "onlinestream-provider", "language": "javascript", "lang": "en",
@@ -1077,19 +1063,6 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1514915058054991972", "addedAt": "2026-06-12T08:51:35.601Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
-    "id": "comix", "name": "Comix", "version": "1.4.0", "author": "Pal & Ari-03",
-    "description": "Comix is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
-    "lang": "en", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/comix.png",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-providers/refs/heads/main/src/manga/comix/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/comix/provider.js",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/79e14fadb3d6ce74c2416cf716f280a9fb8522e1c2d38bed72af8556881c793b",
-    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
-    "stars": 10, "threadId": "1440425091707175012", "addedAt": "2025-11-18T19:35:03.667Z",
-    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "contranime", "name": "Contranime", "version": "1.0.0", "author": "eepyboba",
@@ -2538,20 +2511,6 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1514896594313543761", "addedAt": "2026-06-12T07:38:13.502Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
-    "id": "scanita", "name": "Scanita", "version": "1.1.2", "author": "pal",
-    "description": "Scanita is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
-    "lang": "it",
-    "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/scanita.png",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/scanita/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/scanita/provider.js",
-    "website": "", "flags": "0/58", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5eaa566e863850dad5559b37ea0bf78884803f6ddc1f0a0cab33b068a3abb3ab",
-    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
-    "stars": 6, "threadId": "1429234443339436162", "addedAt": "2025-10-18T22:27:25.184Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
