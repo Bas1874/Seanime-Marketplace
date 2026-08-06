@@ -312,7 +312,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesaturnmirror/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7112be517b302279b415ed0369055b8b903520d9d1668cb7799a8df749f8d404",
-    "timestamp": 1779040626672, "lastWorkingVersion": "3.9.1", "hadWorkingTag": false
+    "timestamp": 1779040626672, "lastWorkingVersion": "3.10.2", "hadWorkingTag": true
   },
   {
     "id": "animesdigital", "version": "1.0.4",
@@ -361,7 +361,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeunitymirror/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5e0a89edfa34d8a41a845892a69a4eca636e92d98461fac6bf1a833b395371cb",
-    "lastWorkingVersion": "3.9.1", "timestamp": 1782838347601, "hadWorkingTag": false
+    "lastWorkingVersion": "3.10.2", "timestamp": 1782838347601, "hadWorkingTag": true
   },
   {
     "id": "animeyabu", "version": "1.0.2",
