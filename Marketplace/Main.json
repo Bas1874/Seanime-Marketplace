@@ -568,20 +568,6 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "animesalt", "name": "AnimeSalt", "version": "1.0.1", "author": "mohaisreal",
-    "description": "AnimeSalt is an online streaming provider for Hindi, Tamil, Telugu, English and Japanese anime streams.",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "multi",
-    "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/172ccd55cb4477985d7ed3301b202e6abc8251bdb95a12fcf1fc347fb598c158",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1509989485843185735",
-    "addedAt": "2026-05-29T18:39:07.673Z", "updatedAt": "2026-08-01T00:52:23.839Z"
-  },
-  {
     "id": "animesamamanga", "name": "AnimeSama (Manga)", "version": "2.1.0", "author": "pal & Rafou376",
     "description": "AnimeSama is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "fr",
@@ -1037,18 +1023,17 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "capibaratraductor", "name": "CapibaraTraductor", "version": "1.0.0", "author": "mohaisreal",
+    "id": "capibaratraductordev", "name": "CapibaraTraductor", "version": "1.0.0", "author": "mohaisreal",
     "description": "El Hub de tus Scans Favoritos. Proveedor de manga en español.", "type": "manga-provider",
-    "language": "typescript", "lang": "es",
-    "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/faviconcaptrad.png",
-    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/main.ts",
-    "website": "", "flags": "0/62", "flaggedBy": [],
+    "language": "typescript", "lang": "es", "icon": "https://capibaratraductor.com/images/faviconcaptrad.png",
+    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/CapibaraTraductor/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/CapibaraTraductor/main.ts",
+    "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/7b964dadae8d19ead09f74ec9db8c58dc5429ca80474a27d924cd085d05f53b6",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 1, "threadId": "1495719071998541866", "addedAt": "2026-04-20T09:33:35.881Z",
-    "updatedAt": "2026-08-05T16:59:38.078Z"
+    "updatedAt": "2026-08-07T13:08:08.627Z"
   },
   {
     "id": "cerberus-series", "name": "Cerberus Series (LegionScans)", "version": "1.0.1", "author": "branrgx",
@@ -1545,18 +1530,17 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "jkanime", "name": "JkAnime", "version": "1.0.1", "author": "mohaisreal",
+    "id": "jkanimedev", "name": "JkAnime - Dev", "version": "1.0.1", "author": "mohaisreal",
     "description": "JkAnime is an online streaming provider for spanish subs.", "type": "onlinestream-provider",
-    "language": "typescript", "lang": "es",
-    "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/JkAnime/favicon.ico",
-    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/JkAnime/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/JkAnime/main.ts", "website": "",
-    "flags": "0/62", "flaggedBy": [],
+    "language": "typescript", "lang": "es", "icon": "https://cdn.jkdesa.com/assets3/css/img/favicon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/JkAnime/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/JkAnime/main.ts", "website": "",
+    "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/a3a1017351c1652cdb053c48a2a9a1675cabd7c56c2c340b80534ff35fc83578",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1492520080989491333",
-    "addedAt": "2026-04-11T13:41:56.990Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "lastWorkingVersion": null, "stars": 0, "threadId": "1492520080989491333", "addedAt": "2026-04-11T13:41:56.990Z",
+    "updatedAt": "2026-08-07T13:08:08.627Z"
   },
   {
     "id": "kaa", "name": "KickAssAnime", "version": "1.0.7", "author": "Thekingcrusher",
@@ -1666,18 +1650,18 @@
     "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
-    "id": "leermangaesp", "name": "LeerMangaEsp", "version": "1.0.0", "author": "mohaisreal",
-    "description": "Proveedor de manga en español para LeerMangaEsp.", "type": "manga-provider",
+    "id": "leermangaesp", "name": "MangaLect", "version": "2.0.0", "author": "mohaisreal",
+    "description": "Proveedor de manga en español para MangaLect.", "type": "manga-provider",
     "language": "typescript", "lang": "es",
     "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/LeerMangaEsp/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/LeerMangaEsp/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/LeerMangaEsp/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/74d3c22ea01c6dc0ef2a0d3a621a40b70d1c7cf2a6b99ac6ee663cef194da118",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/7b97727131068f489b0b6981a5b4e02dbf40c1b61a3c6948d65f38f31731acf3",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 1, "threadId": "1509689914189545683", "addedAt": "2026-05-28T22:48:44.225Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-08-07T13:08:08.627Z"
   },
   {
     "id": "lelmanga", "name": "LelManga", "version": "1.0.0", "author": "pal",
@@ -1963,19 +1947,6 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 4, "threadId": "1407944055026880572", "addedAt": "2025-08-21T04:27:01.054Z",
     "updatedAt": "2026-07-12T23:17:56.963Z"
-  },
-  {
-    "id": "mangaoni", "name": "MangaOni", "version": "1.0.0", "author": "mohaisreal",
-    "description": "Proveedor de manga en español para MangaOni.", "type": "manga-provider",
-    "language": "typescript", "lang": "es",
-    "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/MangaOni/favicon.ico",
-    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/MangaOni/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/MangaOni/main.ts",
-    "website": "", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2b066bff180770323c6bc9d63af0d9b5a2c0b1ee4685c7e9d3e3f94c287fe173",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
-    "scannedOnVersion": "3.10.2", "lastWorkingVersion": null, "stars": 0, "threadId": "1496554802883072110",
-    "addedAt": "2026-04-22T16:54:29.651Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mangapark", "name": "MangaPark", "version": "1.0.3", "author": "ari___",
@@ -2486,18 +2457,18 @@
     "updatedAt": "2026-07-17T16:40:36.034Z"
   },
   {
-    "id": "reanime", "name": "Re:ANIME", "version": "1.0.0", "author": "mohaisreal",
+    "id": "reanimedev", "name": "Re:ANIME", "version": "1.0.5", "author": "mohaisreal",
     "description": "Re:ANIME is an online streaming provider for English subs and dubs.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/ReAnime/favicon.ico",
-    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/ReAnime/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/ReAnime/main.ts", "website": "",
-    "flags": "0/54", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d31d0209a91b2a03be49220bdcb4d687f53d18d4f9d90e3e065dcc3581ff4791",
+    "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/ReAnime/favicon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/ReAnime/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/ReAnime/main.ts", "website": "",
+    "flags": "0/49", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/4e9514275a1baa60490b74870a7a18cfed965714a802dbc46157d3d657a03d9a",
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": null, "stars": 3, "threadId": "1501257561796640789", "addedAt": "2026-05-05T16:21:34.749Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-08-07T13:08:08.627Z"
   },
   {
     "id": "rncanlation", "name": "RNcanlation", "version": "1.0.1", "author": "branrgx",
