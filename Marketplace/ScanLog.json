@@ -497,6 +497,13 @@
     "timestamp": 1776706078054, "hadWorkingTag": false
   },
   {
+    "id": "capibaratraductordev", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/CapibaraTraductor/main.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/7b964dadae8d19ead09f74ec9db8c58dc5429ca80474a27d924cd085d05f53b6",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1786108088351
+  },
+  {
     "id": "cerberus-series", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/CerberusSeries/main.ts",
     "flags": "0/60", "flaggedBy": [],
@@ -707,6 +714,13 @@
     "timestamp": 1776663474750, "hadWorkingTag": false, "lastWorkingVersion": "3.9.1"
   },
   {
+    "id": "jkanimedev", "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/JkAnime/main.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a3a1017351c1652cdb053c48a2a9a1675cabd7c56c2c340b80534ff35fc83578",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1786107980886
+  },
+  {
     "id": "kagane-source", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/KaganeSoruce/main.ts",
     "flags": "0/62", "flaggedBy": [],
@@ -756,11 +770,11 @@
     "lastWorkingVersion": null, "timestamp": 1781771879989, "hadWorkingTag": false
   },
   {
-    "id": "leermangaesp", "version": "1.0.0",
+    "id": "leermangaesp", "version": "2.0.0",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/LeerMangaEsp/main.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/74d3c22ea01c6dc0ef2a0d3a621a40b70d1c7cf2a6b99ac6ee663cef194da118",
-    "timestamp": 1780025148475, "hadWorkingTag": false
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/7b97727131068f489b0b6981a5b4e02dbf40c1b61a3c6948d65f38f31731acf3",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1786108042131
   },
   {
     "id": "lelmanga", "version": "1.0.0",
@@ -1153,6 +1167,13 @@
     "flags": "0/54", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d31d0209a91b2a03be49220bdcb4d687f53d18d4f9d90e3e065dcc3581ff4791",
     "timestamp": 1778034786276, "hadWorkingTag": false
+  },
+  {
+    "id": "reanimedev", "version": "1.0.5",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/ReAnime/main.ts",
+    "flags": "0/49", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/4e9514275a1baa60490b74870a7a18cfed965714a802dbc46157d3d657a03d9a",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1786107934715
   },
   {
     "id": "rncanlation", "version": "1.0.1",
