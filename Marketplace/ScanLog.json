@@ -581,6 +581,13 @@
     "timestamp": 1775816055850, "hadWorkingTag": false
   },
   {
+    "id": "dipland-mangafire", "version": "1.0.2",
+    "payloadURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaFire/payload.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8aa5127080ce2a167ee93faa029f67623f597df3ed83cc1016e2c13669529025",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786179950365
+  },
+  {
     "id": "discord-rpc-episode-title", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-rpc-episode-title.ts",
     "flags": "0/59", "flaggedBy": [],
