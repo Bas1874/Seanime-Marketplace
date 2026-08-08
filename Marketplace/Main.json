@@ -488,18 +488,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "animeav1", "name": "AnimeAV1", "version": "1.1.1", "author": "jabifx",
+    "id": "animeav1", "name": "AnimeAV1", "version": "1.1.2", "author": "jabifx, yerasuu & Pal",
     "description": "Online streaming provider with hard subs and dubs in Spanish.", "type": "onlinestream-provider",
     "language": "typescript", "lang": "es",
-    "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeAV1/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeAV1/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeAV1/main.ts",
+    "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/main/public/animeav1.png",
+    "manifestURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/anime/AnimeAV1/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/anime/AnimeAV1/main.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c5a32272cb1c2171476792ebaf2404497092015b03a2286b0dfd048dbaf9adf1",
+    "permalink": "https://www.virustotal.com/gui/file/9e7da9e4d31d335b8c85679c210fc0799c34db71e91dfb19fe0bfbdd53dd0e3b",
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.8.7", "stars": 3, "threadId": "1434990488301342792",
-    "addedAt": "2025-11-03T19:39:53.245Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2025-11-03T19:39:53.245Z", "updatedAt": "2026-08-08T17:09:12.051Z"
   },
   {
     "id": "animeflv", "name": "AnimeFLV", "version": "1.0.1", "author": "jabifx",
@@ -2065,18 +2065,18 @@
     "addedAt": "2026-06-16T02:51:39.818Z", "updatedAt": "2026-08-01T04:58:18.046Z"
   },
   {
-    "id": "manhwaweb", "name": "ManhwaWeb", "version": "1.0.0", "author": "jabifx",
+    "id": "manhwaweb", "name": "ManhwaWeb", "version": "1.0.1", "author": "jabifx & Pal",
     "description": "Spanish manga and manhwa provider.", "type": "manga-provider", "language": "typescript",
     "lang": "es",
-    "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/ManhwaWeb/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/ManhwaWeb/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/ManhwaWeb/index.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f6ed434c98b0221adb49431e32d2db66040073e322aafa461584351eaaf14b5d",
+    "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/manhwaweb.png",
+    "manifestURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/src/manga/ManhwaWeb/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/src/manga/ManhwaWeb/index.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/58ab9a1ab86820668712cb7d1ff88c77b65a533bcb0c9c25804d516a343f3a2f",
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1429972238374797384", "addedAt": "2025-10-20T23:19:09.228Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-08-08T17:09:12.051Z"
   },
   {
     "id": "Marketplace-Plus", "name": "Marketplace+", "version": "1.1.1", "author": "bas1874",
@@ -2355,16 +2355,16 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "oneko", "name": "Onekojs", "version": "1.0.1", "author": "jabifx",
+    "id": "oneko", "name": "Onekojs", "version": "1.0.1", "author": "jabifx & Pal",
     "description": "Implements the famous Oneko.js script on seanime.", "type": "plugin", "language": "typescript",
-    "lang": "multi", "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/oneko/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/oneko/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/oneko/main.ts",
-    "website": "", "flags": "0/62", "flaggedBy": [],
+    "lang": "multi", "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/main/public/oneko.png",
+    "manifestURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/plugins/oneko/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/plugins/oneko/main.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/330a4dfa9135974055c8e052404189b8173a1ae8259268980286669bbef8e644",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 3, "threadId": "1441114950557761576",
-    "addedAt": "2025-11-20T17:16:18.834Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2025-11-20T17:16:18.834Z", "updatedAt": "2026-08-08T17:09:12.051Z"
   },
   {
     "id": "oppai-stream-online-streaming", "name": "EN | Oppai Stream (18+)", "version": "1.0.3",
@@ -2939,16 +2939,16 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "ui-translation", "name": "UI Translation", "version": "1.4.4", "author": "jabifx",
+    "id": "ui-translation", "name": "UI Translation", "version": "1.4.4", "author": "jabifx & Pal",
     "description": "Translates Seanime UI into +10 different languages.", "type": "plugin", "language": "typescript",
     "lang": "multi", "icon": "",
-    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/UI-Translation/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/UI-Translation/ui-translation.ts",
-    "website": "", "flags": "0/62", "flaggedBy": [],
+    "manifestURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/plugins/UI-Translation/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/plugins/UI-Translation/ui-translation.ts",
+    "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0850046b77e42f3149c7a3dd5709db4960c292d3f4c9e83db0edd5e0826afab1",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 9, "threadId": "1431350740038717561",
-    "addedAt": "2025-10-24T18:36:49.636Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2025-10-24T18:36:49.636Z", "updatedAt": "2026-08-08T17:09:12.051Z"
   },
   {
     "id": "untracked", "name": "Untracked", "version": "1.0.3", "author": "nnotwen",
