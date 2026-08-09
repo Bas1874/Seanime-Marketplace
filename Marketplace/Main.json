@@ -68,7 +68,7 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "aiostreams-plugin", "name": "AIOStreams", "version": "0.9.0", "author": "Viren070",
+    "id": "aiostreams-plugin", "name": "AIOStreams", "version": "0.10.0", "author": "Viren070",
     "description": "Stream content from AIOStreams directly in Seanime. Supports all streams with URLs.",
     "type": "plugin", "language": "javascript", "lang": "multi",
     "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/aiostreams-light.png",
@@ -77,7 +77,7 @@
     "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 10, "threadId": "1499798502086017024",
-    "addedAt": "2026-05-01T15:43:47.806Z", "updatedAt": "2026-07-20T04:43:54.959Z"
+    "addedAt": "2026-05-01T15:43:47.806Z", "updatedAt": "2026-08-09T21:06:28.809Z"
   },
   {
     "id": "al-3asq", "name": "3asq", "version": "1.0.0", "author": "Bruuhim",
@@ -2629,9 +2629,9 @@
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d00ff99e4707240f33437426e33541569e8d533d0988135c5e796607e90583e4",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183211099459916","1437869415344377887"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 9, "threadId": "1438609701993447576",
-    "addedAt": "2025-11-13T19:21:21.031Z", "updatedAt": "2026-07-06T15:13:11.445Z"
+    "tags": ["1360636715643179231","1437869415344377887"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1536115597983621150",
+    "addedAt": "2026-08-09T20:54:58.207Z", "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "simklsync", "name": "SimklSync", "version": "2.0.2", "author": "nnotwen",
@@ -2645,6 +2645,20 @@
     "tags": ["1359183147123867881","1505936178292064266","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 3, "threadId": "1454854331265454152",
     "addedAt": "2025-12-28T15:11:42.460Z", "updatedAt": "2026-07-09T11:26:20.896Z"
+  },
+  {
+    "id": "simklv2", "name": "Simkl V2", "version": "2.4.0", "author": "aor-rex",
+    "description": "Implements SIMKL as a custom source with watchlist support.", "type": "custom-source",
+    "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/main.ts",
+    "website": "https://github.com/aor-rex/seanime-extensions", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5b269053d3285537c76db7c40e99f957bdf36db53d64543a1f607a6d420a4514",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1360636715643179231","1437869415344377887"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1536115597983621150",
+    "addedAt": "2026-08-09T20:54:58.207Z", "updatedAt": "2026-08-09T21:06:28.809Z"
   },
   {
     "id": "skip-ahead-video-player", "name": "Skip Ahead", "version": "1.2.2", "author": "EnnioMrk",
@@ -2686,7 +2700,7 @@
     "addedAt": "2026-01-03T19:41:42.613Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "stremio-custom-source", "name": "Stremio Catalog", "version": "0.9.0", "author": "Viren070",
+    "id": "stremio-custom-source", "name": "Stremio Catalog", "version": "0.10.0", "author": "Viren070",
     "description": "Exposes a Stremio addon catalog as a Seanime custom source. Intended to be paired with an AIOStreams stream provider.",
     "type": "custom-source", "language": "javascript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Stremio/stremio-brand/refs/heads/master/logos/PNG/stremio-logo-800px.png",
@@ -2695,7 +2709,7 @@
     "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1437869415344377887"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 4, "threadId": "1499809709073367070",
-    "addedAt": "2026-05-01T16:28:19.760Z", "updatedAt": "2026-07-08T23:21:03.658Z"
+    "addedAt": "2026-05-01T16:28:19.760Z", "updatedAt": "2026-08-09T21:06:28.809Z"
   },
   {
     "id": "SubsPlease-Provider", "name": "SubsPlease", "version": "1.0.1", "author": "Bas1874",
