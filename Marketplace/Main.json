@@ -397,18 +397,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "Anime-Garden", "name": "Anime Garden", "version": "1.0.2", "author": "Elisoar",
+    "id": "Anime-Garden", "name": "Anime Garden", "version": "1.0.3", "author": "Elisoar",
     "description": "AnimeGarden provides accurate, real-time Chinese subtitles for torrent-streamed Japanese animations",
     "type": "anime-torrent-provider", "language": "typescript", "lang": "zh",
     "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/Cover.png",
     "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/provider.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/257f49395af0699ec35692e3fd2af9fbdb4206e8d4a3b4312895c908e414934e",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/af134714c0f22f3c517ee3db0abc888ffc797057f8325ee9437ecdbd7dc324f1",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1505936860441083904"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1528284315950252082",
-    "addedAt": "2026-07-19T06:16:15.072Z", "updatedAt": "2026-08-09T13:13:10.440Z"
+    "addedAt": "2026-07-19T06:16:15.072Z", "updatedAt": "2026-08-09T17:08:48.540Z"
   },
   {
     "id": "anime-news", "name": "Anime News", "version": "1.2.2", "author": "SyntaxSama & Pal",
@@ -1322,6 +1322,20 @@
     "addedAt": "2025-04-29T16:16:06.011Z", "updatedAt": "2026-08-05T16:59:38.078Z"
   },
   {
+    "id": "ext", "name": "EXT Torrents", "version": "1.2.1", "author": "aor-rex",
+    "description": "EXT Torrents (extto.com) torrent provider for movies and series.",
+    "type": "anime-torrent-provider", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/EXT/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/EXT/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/EXT/main.ts",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/89a160ee42e56e4310ee84262e52ef44acca584a9fafa9d5de4bc50f3aabb818",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1536042011121946654",
+    "addedAt": "2026-08-09T16:02:33.732Z", "updatedAt": "2026-08-09T17:08:48.540Z"
+  },
+  {
     "id": "fancy-fonts", "name": "Fancy Fonts", "version": "1.0.2", "author": "nnotwen",
     "description": "Change the Seanime's app font.", "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Fancy%20Fonts/icon.png",
@@ -2121,18 +2135,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mikan-project", "name": "Mikan Project", "version": "1.1.1", "author": "Elisoar",
+    "id": "mikan-project", "name": "Mikan Project", "version": "1.1.2", "author": "Elisoar",
     "description": "Mikan Project provides accurate, real-time Chinese subtitles for torrent-streamed Japanese animations.",
     "type": "anime-torrent-provider", "language": "javascript", "lang": "zh",
     "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/Cover.png",
     "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/provider.js",
-    "website": "", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/40a74f6d7f1444c676162ec106a2ad764daa48e23058b015eab6c2e5f50c7a45",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/40f6bc41591b549c02b44bf1213cee09bd0dd60455dbdddd107d059acab3acdc",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1526790354408439839",
-    "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-08-09T13:13:10.440Z"
+    "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-08-09T17:08:48.540Z"
   },
   {
     "id": "my-list-table-view", "name": "My List Table View", "version": "1.0.0", "author": "Dadangdut33",
@@ -2401,7 +2415,7 @@
     "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/pornhub.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1437869415344377887"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 12, "threadId": "1507022885674287276",
+    "lastWorkingVersion": "3.10.2", "stars": 13, "threadId": "1507022885674287276",
     "addedAt": "2026-05-21T14:10:55.076Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
@@ -2772,6 +2786,19 @@
     "brokenTag": false, "deprecatedTag": false, "tags": ["1437869415344377887"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1507030122820141197",
     "addedAt": "2026-05-21T14:39:40.546Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "tmdbv2", "name": "TMDB V2", "version": "1.1.5", "author": "aor-rex",
+    "description": "Implements TMDb as a custom source with per-season media entries.", "type": "custom-source",
+    "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TMDB/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TMDB/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TMDB/main.ts",
+    "website": "https://github.com/aor-rex/seanime-extensions", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/74169ea2c7d4871c60639d0dc826a7ac653223d99089aaab1d9c6146885a86a1",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1437869415344377887"],
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1536052519996882954",
+    "addedAt": "2026-08-09T16:44:19.243Z", "updatedAt": "2026-08-09T17:08:48.540Z"
   },
   {
     "id": "Tokyo-Toshokan-Provider", "name": "Tokyo Toshokan", "version": "1.0.1", "author": "Bas1874",
