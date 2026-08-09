@@ -150,18 +150,18 @@
     "addedAt": "2026-06-04T19:28:44.041Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anibt", "name": "AniBT", "version": "1.0.0", "author": "Elisoar",
+    "id": "anibt", "name": "AniBT", "version": "1.1.1", "author": "Elisoar",
     "description": "Anime torrent search via AniBT. Supports Chinese/English/Japanese title search, Bangumi ID lookup",
     "type": "anime-torrent-provider", "language": "javascript", "lang": "zh",
     "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/anibt/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/anibt/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/anibt/provider.js",
     "website": "https://anibt.net/", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7300a5346bbdcea59478e93a663ada2bd1f0b4e967d113f7e5f829ffccd67782",
+    "permalink": "https://www.virustotal.com/gui/file/a5432b71a1914be14dbf511da42325cc39b0ba02fa2129b6157e8cf280ad808a",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1530499232430035107",
-    "addedAt": "2026-07-25T08:57:32.312Z", "updatedAt": "2026-07-25T10:10:33.380Z"
+    "addedAt": "2026-07-25T08:57:32.312Z", "updatedAt": "2026-08-09T13:13:10.440Z"
   },
   {
     "id": "anicrush", "name": "Anicrush", "version": "1.1.2", "author": "Thekingcrusher",
@@ -397,18 +397,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "Anime-Garden", "name": "Anime Garden", "version": "1.0.1", "author": "Elisoar",
+    "id": "Anime-Garden", "name": "Anime Garden", "version": "1.0.2", "author": "Elisoar",
     "description": "AnimeGarden provides accurate, real-time Chinese subtitles for torrent-streamed Japanese animations",
     "type": "anime-torrent-provider", "language": "typescript", "lang": "zh",
     "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/Cover.png",
     "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/provider.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/aab5df093fc500698578f882b3cbcc38865461cc88e041172116be40914e9363",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/257f49395af0699ec35692e3fd2af9fbdb4206e8d4a3b4312895c908e414934e",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1505936860441083904"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1528284315950252082",
-    "addedAt": "2026-07-19T06:16:15.072Z", "updatedAt": "2026-07-19T08:43:23.550Z"
+    "addedAt": "2026-07-19T06:16:15.072Z", "updatedAt": "2026-08-09T13:13:10.440Z"
   },
   {
     "id": "anime-news", "name": "Anime News", "version": "1.2.2", "author": "SyntaxSama & Pal",
@@ -962,17 +962,17 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "bangumi-ui", "name": "Bangumi 番组计划", "version": "1.2.0", "author": "Elisoar",
+    "id": "bangumi-ui", "name": "Bangumi 番组计划", "version": "1.2.1", "author": "Elisoar",
     "description": "Display Bangumi metadata in the Seanime sidebar: ratings, rank, score distribution, tags, production info, characters, episodes, related entries, and personal collection status. Supports manual binding.",
     "type": "plugin", "language": "javascript", "lang": "zh",
     "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Bangumi/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Bangumi/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Bangumi/bangumi.plugin.js",
-    "website": "https://bgm.tv", "flags": "0/53", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a62d2e4bb1be5ae7182cd3fcf3946397900aea20baeeec82e5f0ea49e86e33ef",
+    "website": "https://bgm.tv", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/ee06605b89dbe830246390270db4f773133099eea113c6e286638569611d9bcb",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1529440643787653150",
-    "addedAt": "2026-07-22T10:51:05.112Z", "updatedAt": "2026-07-27T14:25:01.255Z"
+    "addedAt": "2026-07-22T10:51:05.112Z", "updatedAt": "2026-08-09T13:13:10.440Z"
   },
   {
     "id": "banner-remover", "name": "Banner Remover", "version": "1.0.3", "author": "bas1874",
@@ -988,17 +988,17 @@
     "addedAt": "2025-07-31T12:07:08.964Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "baozimh-manga-provider", "name": "Baozi Manhua", "version": "1.0.0", "author": "Elisoar",
+    "id": "baozimh-manga-provider", "name": "Baozi Manhua", "version": "1.0.1", "author": "Elisoar",
     "description": "Baozimanhua is a manhua provider for Seanime", "type": "manga-provider",
     "language": "javascript", "lang": "zh",
     "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/baozimh/Cover.png",
     "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/baozimh/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/baozimh/provider.js",
-    "website": "", "flags": "0/57", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c2cdab2c2e25f8c1b642992303ba0047be956c9e9a5dff3877e37007c94257b8",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/dc5e5ca50c12af65988315866b7a04728a865764980844a10e75cf4a954d112b",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.9.1", "stars": 1, "threadId": "1526796637433892935",
-    "addedAt": "2026-07-15T03:44:44.874Z", "updatedAt": "2026-07-15T07:14:14.553Z"
+    "addedAt": "2026-07-15T03:44:44.874Z", "updatedAt": "2026-08-09T13:13:10.440Z"
   },
   {
     "id": "basic-nyaa-seanime", "name": "Basic Nyaa", "version": "1.0.2", "author": "Island",
@@ -2121,18 +2121,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mikan-project", "name": "Mikan Project", "version": "1.1.0", "author": "Elisoar",
+    "id": "mikan-project", "name": "Mikan Project", "version": "1.1.1", "author": "Elisoar",
     "description": "Mikan Project provides accurate, real-time Chinese subtitles for torrent-streamed Japanese animations.",
     "type": "anime-torrent-provider", "language": "javascript", "lang": "zh",
     "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/Cover.png",
     "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/provider.js",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2e33a1699f635538e112f1ddd5f40c0166d80d55e7998f8741356e156d7193af",
+    "website": "", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/40a74f6d7f1444c676162ec106a2ad764daa48e23058b015eab6c2e5f50c7a45",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1526790354408439839",
-    "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-07-25T10:10:33.380Z"
+    "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-08-09T13:13:10.440Z"
   },
   {
     "id": "my-list-table-view", "name": "My List Table View", "version": "1.0.0", "author": "Dadangdut33",
