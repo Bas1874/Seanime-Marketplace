@@ -217,11 +217,11 @@
     "timestamp": 1775320946105, "hadWorkingTag": false
   },
   {
-    "id": "Anime-Garden", "version": "1.0.2",
+    "id": "Anime-Garden", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/provider.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/257f49395af0699ec35692e3fd2af9fbdb4206e8d4a3b4312895c908e414934e",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786280989945
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/af134714c0f22f3c517ee3db0abc888ffc797057f8325ee9437ecdbd7dc324f1",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786295282343
   },
   {
     "id": "anime-news", "version": "1.2.2",
@@ -637,6 +637,13 @@
     "timestamp": 1771873431222, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
+    "id": "ext", "version": "1.2.1",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/EXT/main.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/89a160ee42e56e4310ee84262e52ef44acca584a9fafa9d5de4bc50f3aabb818",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786295236379
+  },
+  {
     "id": "fancy-fonts", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Fancy%20Fonts/provider.ts",
     "flags": "0/62", "flaggedBy": [],
@@ -1022,11 +1029,11 @@
     "lastWorkingVersion": null, "timestamp": 1781368540573, "hadWorkingTag": false
   },
   {
-    "id": "mikan-project", "version": "1.1.1",
+    "id": "mikan-project", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/provider.js",
-    "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/40a74f6d7f1444c676162ec106a2ad764daa48e23058b015eab6c2e5f50c7a45",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786281190188
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/40f6bc41591b549c02b44bf1213cee09bd0dd60455dbdddd107d059acab3acdc",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786295328308
   },
   {
     "id": "my-list-table-view", "version": "1.0.0",
@@ -1293,6 +1300,13 @@
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/8919651cebea8e15bcb3a6ee819a22752bbe3b09d0028e90e5f029c1f2bff334",
     "timestamp": 1771869725912, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
+  },
+  {
+    "id": "tmdbv2", "version": "1.1.5",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TMDB/main.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/74169ea2c7d4871c60639d0dc826a7ac653223d99089aaab1d9c6146885a86a1",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786295189994
   },
   {
     "id": "Tokyo-Toshokan-Provider", "version": "1.0.1",
