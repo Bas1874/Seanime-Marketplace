@@ -91,11 +91,11 @@
     "lastWorkingVersion": "3.9.1", "timestamp": 1782809532521, "hadWorkingTag": false
   },
   {
-    "id": "anibt", "version": "1.0.0",
+    "id": "anibt", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/anibt/provider.js",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7300a5346bbdcea59478e93a663ada2bd1f0b4e967d113f7e5f829ffccd67782",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1784974186823
+    "permalink": "https://www.virustotal.com/gui/file/a5432b71a1914be14dbf511da42325cc39b0ba02fa2129b6157e8cf280ad808a",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786281036348
   },
   {
     "id": "anidao", "version": "1.1.0",
@@ -217,11 +217,11 @@
     "timestamp": 1775320946105, "hadWorkingTag": false
   },
   {
-    "id": "Anime-Garden", "version": "1.0.1",
+    "id": "Anime-Garden", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/aab5df093fc500698578f882b3cbcc38865461cc88e041172116be40914e9363",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1784450603311
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/257f49395af0699ec35692e3fd2af9fbdb4206e8d4a3b4312895c908e414934e",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786280989945
   },
   {
     "id": "anime-news", "version": "1.2.2",
@@ -462,11 +462,11 @@
     "timestamp": 1778348327690, "hadWorkingTag": false
   },
   {
-    "id": "bangumi-ui", "version": "1.2.0",
+    "id": "bangumi-ui", "version": "1.2.1",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Bangumi/bangumi.plugin.js",
-    "flags": "0/53", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a62d2e4bb1be5ae7182cd3fcf3946397900aea20baeeec82e5f0ea49e86e33ef",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1785162300899
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/ee06605b89dbe830246390270db4f773133099eea113c6e286638569611d9bcb",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786280943908
   },
   {
     "id": "banner-remover", "version": "1.0.3",
@@ -476,11 +476,11 @@
     "timestamp": 1771880015497, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
-    "id": "baozimh-manga-provider", "version": "1.0.0",
+    "id": "baozimh-manga-provider", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/baozimh/provider.js",
-    "flags": "0/57", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c2cdab2c2e25f8c1b642992303ba0047be956c9e9a5dff3877e37007c94257b8",
-    "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1784099654294
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/dc5e5ca50c12af65988315866b7a04728a865764980844a10e75cf4a954d112b",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1786280851886
   },
   {
     "id": "bokugents", "version": "1.0.4",
@@ -1022,11 +1022,11 @@
     "lastWorkingVersion": null, "timestamp": 1781368540573, "hadWorkingTag": false
   },
   {
-    "id": "mikan-project", "version": "1.1.0",
+    "id": "mikan-project", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/provider.js",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2e33a1699f635538e112f1ddd5f40c0166d80d55e7998f8741356e156d7193af",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1784974233136
+    "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/40a74f6d7f1444c676162ec106a2ad764daa48e23058b015eab6c2e5f50c7a45",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786281190188
   },
   {
     "id": "my-list-table-view", "version": "1.0.0",
