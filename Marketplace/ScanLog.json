@@ -109,7 +109,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/065ec31a990f7196605f4a7ab67b5441d2c709a3f28e9272752c104c6f90502d",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1780752515687, "hadWorkingTag": false
+    "lastWorkingVersion": "3.10.2", "timestamp": 1780752515687, "hadWorkingTag": true
   },
   {
     "id": "anidream", "version": "1.0.1",
@@ -644,11 +644,11 @@
     "timestamp": 1771873431222, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
-    "id": "ext", "version": "1.2.2",
+    "id": "ext", "version": "1.2.4",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/EXT/main.ts",
-    "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/753f47ec9bcb34b176d9eaa29fedc429a89b769b987b5610654eea4b20dc02d5",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786324018296
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f48645d3dd68c24572d7c1253579845993a0bf854835e276e4a38cfcb6010720",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786377484776
   },
   {
     "id": "fancy-fonts", "version": "1.0.2",
@@ -1447,6 +1447,13 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/26a4dd8248562df28eaee1aa20621ae54feffd1868e2a35704187b64a534e96b",
     "timestamp": 1771868846482, "hadWorkingTag": false
+  },
+  {
+    "id": "xanime", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/fampep/extensions/main/seanime/xanime/provider.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/86488398d240162ff5f5aeac482bf54909255ba13a38c3b418ee83c5a47e4d8a",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1786377422727
   },
   {
     "id": "YGG-Provider", "version": "1.0.0",
