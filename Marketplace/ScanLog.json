@@ -399,46 +399,46 @@
     "timestamp": 1771866081063, "hadWorkingTag": false
   },
   {
-    "id": "aq-anikoto", "version": "1.3.71",
+    "id": "aq-anikoto", "version": "1.3.73",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/adac38fa5cdf3f5b603fe865b95040974616e0b6e9493753c913652658c2f68b",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1785992520044
+    "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/99a3555ce3fc039e4d3b8a54327eae15e61f9c554fd4f2e00109ed9212f92f85",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786391949223
   },
   {
-    "id": "aq-animepahe-beta", "version": "0.2.28",
+    "id": "aq-animepahe-beta", "version": "0.2.29",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/dc19eb06bb73a2ecad5ca379b50656d393e4aa194e7b4a94815a0c5f10c76388",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1784349680107
+    "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/271a46514b70d43a22538a7734b4f1bfdcccbb7e3a77734bfa3f6731003fca27",
+    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1786392180546
   },
   {
-    "id": "aq-anizone", "version": "1.1.8",
+    "id": "aq-anizone", "version": "1.1.18",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/4e84f88ad58b9dc38a8778b2ab9e93d59299b440651f7fbc7eed722deb00e3c6",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782506818893, "hadWorkingTag": false
+    "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/468b114bccf7a8e107d9a114148c8ab5fd810b9363a564ccedd56725ec412d0c",
+    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1786392671415
   },
   {
-    "id": "aq-aquaprefs", "version": "1.1.53",
+    "id": "aq-aquaprefs", "version": "1.1.62",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquaprefs/plugin.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/dcf30b10829697ceff33300bde739f24bbc64c956bcdedf8c634efc7fa135559",
-    "lastWorkingVersion": "3.10.2", "timestamp": 1782420532175, "hadWorkingTag": true
+    "permalink": "https://www.virustotal.com/gui/file/97bd3a861a3936acbee967fd967dbba0a4a4a1c374da06193f5a5c243a1079a0",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786392487165
   },
   {
-    "id": "aq-aquatils", "version": "0.8.67",
+    "id": "aq-aquatils", "version": "0.10.4",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquatils/plugin.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/15aa37727ce3d932764948c7677e4b46294d08ba75349b661ab3e1919fa1578f",
-    "lastWorkingVersion": "3.10.2", "timestamp": 1782895986492, "hadWorkingTag": true
+    "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/10e52bb02974dbdbec8ef0a1d0f24e2479bd6128f074d0537954dfcfed043b8d",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786392041874
   },
   {
-    "id": "aq-seatags", "version": "1.7.12",
+    "id": "aq-seatags", "version": "1.7.16",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/seatags/plugin.ts",
-    "flags": "0/54", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/715361c80d289638973fc9224e8b20bdc9ccd6b0bd547907b8b02f4248265113",
-    "lastWorkingVersion": "3.10.2", "timestamp": 1783110611130, "hadWorkingTag": true
+    "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3b1d5ade8743bc50f1e65d5d9c07c6799e37676c969906f2b3b6e6f605590087",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786392379969
   },
   {
     "id": "asunatracks-sync", "version": "0.1.22",
