@@ -217,11 +217,11 @@
     "timestamp": 1775320946105, "hadWorkingTag": false
   },
   {
-    "id": "Anime-Garden", "version": "1.0.3",
+    "id": "Anime-Garden", "version": "1.0.4",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/provider.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/af134714c0f22f3c517ee3db0abc888ffc797057f8325ee9437ecdbd7dc324f1",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786295282343
+    "permalink": "https://www.virustotal.com/gui/file/80bbe4dedf05816eceef4740dc6f01f29a3db8bc23e4ef63cf64cc2c37184116",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786338588180
   },
   {
     "id": "anime-news", "version": "1.2.2",
@@ -1036,11 +1036,11 @@
     "lastWorkingVersion": null, "timestamp": 1781368540573, "hadWorkingTag": false
   },
   {
-    "id": "mikan-project", "version": "1.1.2",
+    "id": "mikan-project", "version": "1.1.3",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/provider.js",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/40f6bc41591b549c02b44bf1213cee09bd0dd60455dbdddd107d059acab3acdc",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786295328308
+    "permalink": "https://www.virustotal.com/gui/file/0348d4a36ab391eabac33722fd21a89dc48895ca351d98635f5dd054d3bd8b0b",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786338649843
   },
   {
     "id": "my-list-table-view", "version": "1.0.0",
