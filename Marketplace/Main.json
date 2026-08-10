@@ -1073,18 +1073,18 @@
     "addedAt": "2025-04-29T18:09:20.090Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "cornhub", "name": "CornHub (18+)", "version": "1.0.2", "author": "aor-rex",
+    "id": "cornhub", "name": "CornHub (18+)", "version": "1.0.3", "author": "aor-rex",
     "description": "Online streaming provider for PornHub (18+) videos.", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Cornhub/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Cornhub/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Cornhub/main.ts",
     "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ff22d56bdf1ba5174706294167c88a51e35fc9a189c518c13f093801ae8ad3aa",
+    "permalink": "https://www.virustotal.com/gui/file/0ebcbac0bfe94454580106c032e7a5913f090ad9431cb4c79e26989b1ed2cd95",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1536131162504699996",
-    "addedAt": "2026-08-09T21:56:49.078Z", "updatedAt": "2026-08-10T01:08:15.241Z"
+    "addedAt": "2026-08-09T21:56:49.078Z", "updatedAt": "2026-08-10T09:11:07.491Z"
   },
   {
     "id": "cubari", "name": "Cubari", "version": "1.0.2", "author": "Jhoorodr",
@@ -2661,10 +2661,10 @@
     "addedAt": "2025-12-28T15:11:42.460Z", "updatedAt": "2026-07-09T11:26:20.896Z"
   },
   {
-    "id": "simklv2", "name": "Simkl V2", "version": "2.4.0", "author": "aor-rex",
+    "id": "simklv2", "name": "Simkl V2", "version": "2.4.1", "author": "aor-rex",
     "description": "Implements SIMKL as a custom source with watchlist support.", "type": "custom-source",
     "language": "typescript", "lang": "multi",
-    "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/icon.ico",
+    "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/main.ts",
     "website": "https://github.com/aor-rex/seanime-extensions", "flags": "0/60", "flaggedBy": [],
@@ -2672,7 +2672,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1360636715643179231","1437869415344377887"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1536115597983621150",
-    "addedAt": "2026-08-09T20:54:58.207Z", "updatedAt": "2026-08-09T21:06:28.809Z"
+    "addedAt": "2026-08-09T20:54:58.207Z", "updatedAt": "2026-08-10T09:11:07.491Z"
   },
   {
     "id": "skip-ahead-video-player", "name": "Skip Ahead", "version": "1.2.2", "author": "EnnioMrk",
@@ -2816,7 +2816,7 @@
     "addedAt": "2026-05-21T14:39:40.546Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "tmdbv2", "name": "TMDB V2", "version": "1.1.5", "author": "aor-rex",
+    "id": "tmdbv2", "name": "TMDB V2", "version": "1.1.6", "author": "aor-rex",
     "description": "Implements TMDb as a custom source with per-season media entries.", "type": "custom-source",
     "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TMDB/icon.png",
@@ -2826,7 +2826,7 @@
     "permalink": "https://www.virustotal.com/gui/file/74169ea2c7d4871c60639d0dc826a7ac653223d99089aaab1d9c6146885a86a1",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1437869415344377887"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1536052519996882954",
-    "addedAt": "2026-08-09T16:44:19.243Z", "updatedAt": "2026-08-09T17:08:48.540Z"
+    "addedAt": "2026-08-09T16:44:19.243Z", "updatedAt": "2026-08-10T09:11:07.491Z"
   },
   {
     "id": "Tokyo-Toshokan-Provider", "name": "Tokyo Toshokan", "version": "1.0.1", "author": "Bas1874",
