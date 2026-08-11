@@ -1009,6 +1009,19 @@
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
+    "id": "batcave", "name": "BatCave", "version": "1.1.0", "author": "aor-rex",
+    "description": "BatCave.biz comics reader ", "type": "manga-provider", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/BatCave/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/BatCave/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/BatCave/main.ts",
+    "website": "https://github.com/aor-rex/seanime-extensions", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8553d7deb69fcc5372e377be36afda5b229036ec064f6d8ac66ee16ba7a91ccb",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259306087940146","1359183211099459916"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1536660651068629012",
+    "addedAt": "2026-08-11T09:00:48.989Z", "updatedAt": "2026-08-11T12:00:56.574Z"
+  },
+  {
     "id": "bokugents", "name": "Bokugents", "version": "1.0.4", "author": "branrgx",
     "description": "Bokugents is a scanlator dedicated to mangas in spanish, providing high-quality scans and translations.",
     "type": "manga-provider", "language": "typescript", "lang": "es",
@@ -1050,18 +1063,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "comicvine", "name": "ComicVine", "version": "1.1.0", "author": "aor-rex",
+    "id": "comicvine", "name": "ComicVine", "version": "1.3.0", "author": "aor-rex",
     "description": "Implements ComicVine as a custom source for Western comics/manga.", "type": "custom-source",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/ComicVine/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/ComicVine/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/ComicVine/main.ts",
-    "website": "https://github.com/aor-rex/seanime-extensions", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5e6f134470f84f8d3a5678c1651c3753227f994d46b427afbc4d3fd2dec6db09",
+    "website": "https://github.com/aor-rex/seanime-extensions", "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d7e4fa6fdf600cf8de20398462c07357d555f8993361f678ed3d0a75a64e5ded",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1437869415344377887","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1536575711584718978",
-    "addedAt": "2026-08-11T03:23:17.838Z", "updatedAt": "2026-08-11T07:58:39.384Z"
+    "addedAt": "2026-08-11T03:23:17.838Z", "updatedAt": "2026-08-11T12:00:56.574Z"
   },
   {
     "id": "contranime", "name": "Contranime", "version": "1.0.0", "author": "eepyboba",
@@ -2675,18 +2688,18 @@
     "addedAt": "2025-12-28T15:11:42.460Z", "updatedAt": "2026-07-09T11:26:20.896Z"
   },
   {
-    "id": "simklv2", "name": "Simkl V2", "version": "2.4.1", "author": "aor-rex",
+    "id": "simklv2", "name": "Simkl V2", "version": "2.5.0", "author": "aor-rex",
     "description": "Implements SIMKL as a custom source with watchlist support.", "type": "custom-source",
     "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/main.ts",
-    "website": "https://github.com/aor-rex/seanime-extensions", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5b269053d3285537c76db7c40e99f957bdf36db53d64543a1f607a6d420a4514",
+    "website": "https://github.com/aor-rex/seanime-extensions", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d2fd158892afd2afaa76f0f462163a4a7795115b167301723c7e5d35780e7090",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1360636715643179231","1437869415344377887"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1536115597983621150",
-    "addedAt": "2026-08-09T20:54:58.207Z", "updatedAt": "2026-08-10T09:11:07.491Z"
+    "addedAt": "2026-08-09T20:54:58.207Z", "updatedAt": "2026-08-11T12:00:56.574Z"
   },
   {
     "id": "skip-ahead-video-player", "name": "Skip Ahead", "version": "1.2.2", "author": "EnnioMrk",
