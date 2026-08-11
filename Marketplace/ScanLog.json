@@ -483,6 +483,13 @@
     "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1786280851886
   },
   {
+    "id": "batcave", "version": "1.1.0",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/BatCave/main.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8553d7deb69fcc5372e377be36afda5b229036ec064f6d8ac66ee16ba7a91ccb",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786449502764
+  },
+  {
     "id": "bokugents", "version": "1.0.4",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Bokugents/main.ts",
     "flags": "0/60", "flaggedBy": [],
@@ -511,11 +518,11 @@
     "lastWorkingVersion": null, "timestamp": 1781368264365, "hadWorkingTag": false
   },
   {
-    "id": "comicvine", "version": "1.1.0",
+    "id": "comicvine", "version": "1.3.0",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/ComicVine/main.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5e6f134470f84f8d3a5678c1651c3753227f994d46b427afbc4d3fd2dec6db09",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786435119141
+    "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d7e4fa6fdf600cf8de20398462c07357d555f8993361f678ed3d0a75a64e5ded",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786449656324
   },
   {
     "id": "comix", "version": "1.4.0",
@@ -1274,11 +1281,11 @@
     "lastWorkingVersion": "3.10.2", "timestamp": 1783596380590, "hadWorkingTag": true
   },
   {
-    "id": "simklv2", "version": "2.4.1",
+    "id": "simklv2", "version": "2.5.0",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/main.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5b269053d3285537c76db7c40e99f957bdf36db53d64543a1f607a6d420a4514",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786352883484
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d2fd158892afd2afaa76f0f462163a4a7795115b167301723c7e5d35780e7090",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786449548939
   },
   {
     "id": "skip-ahead-video-player", "version": "1.2.2",
