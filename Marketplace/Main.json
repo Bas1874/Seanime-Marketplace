@@ -1598,17 +1598,17 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "jkanimedev", "name": "JkAnime - Dev", "version": "1.0.1", "author": "mohaisreal",
+    "id": "jkanime", "name": "JkAnime", "version": "1.0.1", "author": "mohaisreal",
     "description": "JkAnime is an online streaming provider for spanish subs.", "type": "onlinestream-provider",
     "language": "typescript", "lang": "es", "icon": "https://cdn.jkdesa.com/assets3/css/img/favicon.ico",
     "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/JkAnime/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/JkAnime/main.ts", "website": "",
-    "flags": "0/60", "flaggedBy": [],
+    "flags": "0/58", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/a3a1017351c1652cdb053c48a2a9a1675cabd7c56c2c340b80534ff35fc83578",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": null, "stars": 0, "threadId": "1492520080989491333", "addedAt": "2026-04-11T13:41:56.990Z",
-    "updatedAt": "2026-08-07T13:08:08.627Z"
+    "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1492520080989491333",
+    "addedAt": "2026-04-11T13:41:56.990Z", "updatedAt": "2026-08-11T20:01:58.546Z"
   },
   {
     "id": "kaa", "name": "KickAssAnime", "version": "1.0.7", "author": "Thekingcrusher",
@@ -2688,7 +2688,7 @@
     "addedAt": "2025-12-28T15:11:42.460Z", "updatedAt": "2026-07-09T11:26:20.896Z"
   },
   {
-    "id": "simklv2", "name": "Simkl V2", "version": "2.5.3", "author": "aor-rex",
+    "id": "simklv2", "name": "Simkl V2", "version": "2.5.5", "author": "aor-rex",
     "description": "Implements SIMKL as a custom source with watchlist support.", "type": "custom-source",
     "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/icon.png",
@@ -2699,7 +2699,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1360636715643179231","1437869415344377887"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1536115597983621150",
-    "addedAt": "2026-08-09T20:54:58.207Z", "updatedAt": "2026-08-11T15:59:54.866Z"
+    "addedAt": "2026-08-09T20:54:58.207Z", "updatedAt": "2026-08-11T20:01:58.546Z"
   },
   {
     "id": "skip-ahead-video-player", "name": "Skip Ahead", "version": "1.2.2", "author": "EnnioMrk",
