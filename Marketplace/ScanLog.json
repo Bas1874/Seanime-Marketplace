@@ -483,11 +483,11 @@
     "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1786280851886
   },
   {
-    "id": "batcave", "version": "1.1.0",
+    "id": "batcave", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/BatCave/main.ts",
-    "flags": "0/61", "flaggedBy": [],
+    "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/8553d7deb69fcc5372e377be36afda5b229036ec064f6d8ac66ee16ba7a91ccb",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786449502764
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786463917145
   },
   {
     "id": "bokugents", "version": "1.0.4",
@@ -1281,11 +1281,11 @@
     "lastWorkingVersion": "3.10.2", "timestamp": 1783596380590, "hadWorkingTag": true
   },
   {
-    "id": "simklv2", "version": "2.5.0",
+    "id": "simklv2", "version": "2.5.3",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/main.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d2fd158892afd2afaa76f0f462163a4a7795115b167301723c7e5d35780e7090",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786449548939
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/bbe76834f966a068c8923e7cfea3f477cf20f83ddee11bc50a566682473defc7",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786463994616
   },
   {
     "id": "skip-ahead-video-player", "version": "1.2.2",
