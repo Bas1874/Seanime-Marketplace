@@ -743,10 +743,10 @@
   },
   {
     "id": "jkanime", "version": "1.0.1",
-    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/JkAnime/main.ts",
-    "flags": "0/62", "flaggedBy": [],
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/JkAnime/main.ts",
+    "flags": "0/58", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/a3a1017351c1652cdb053c48a2a9a1675cabd7c56c2c340b80534ff35fc83578",
-    "timestamp": 1776663474750, "hadWorkingTag": false, "lastWorkingVersion": "3.9.1"
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1786478518306
   },
   {
     "id": "jkanimedev", "version": "1.0.1",
@@ -1281,11 +1281,11 @@
     "lastWorkingVersion": "3.10.2", "timestamp": 1783596380590, "hadWorkingTag": true
   },
   {
-    "id": "simklv2", "version": "2.5.3",
+    "id": "simklv2", "version": "2.5.5",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/main.ts",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/bbe76834f966a068c8923e7cfea3f477cf20f83ddee11bc50a566682473defc7",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786463994616
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786478334111
   },
   {
     "id": "skip-ahead-video-player", "version": "1.2.2",
