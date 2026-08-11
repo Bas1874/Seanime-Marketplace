@@ -511,6 +511,13 @@
     "lastWorkingVersion": null, "timestamp": 1781368264365, "hadWorkingTag": false
   },
   {
+    "id": "comicvine", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/ComicVine/main.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0dfe0d7d4a65d8d52c8b0b56919e19ac823d6fc86fe3ab4bca6fc4307f2797f1",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786420703333
+  },
+  {
     "id": "comix", "version": "1.4.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/comix/provider.js",
     "flags": "0/61", "flaggedBy": [],
@@ -644,11 +651,11 @@
     "timestamp": 1771873431222, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
-    "id": "ext", "version": "1.2.4",
+    "id": "ext", "version": "1.2.7",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/EXT/main.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f48645d3dd68c24572d7c1253579845993a0bf854835e276e4a38cfcb6010720",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786377484776
+    "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0e844dae76930dde61e63e72cdbf9082232beffb5ca6b142a34ecf045778ddb4",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786420918442
   },
   {
     "id": "fancy-fonts", "version": "1.0.2",
