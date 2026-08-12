@@ -1386,6 +1386,13 @@
     "lastWorkingVersion": "3.10.2", "timestamp": 1781225149061, "hadWorkingTag": true
   },
   {
+    "id": "torrentiov2", "version": "0.2.3",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Torrentio/main.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a97d99f75ee010b70d4a4c514765da895039ecba1240cd38a05d1759d3f1dfc7",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786536275553
+  },
+  {
     "id": "traktsync", "version": "1.2.6",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/TraktSync/provider.ts",
     "flags": "0/61", "flaggedBy": [],
