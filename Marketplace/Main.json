@@ -1690,20 +1690,6 @@
     "addedAt": "2026-06-16T00:02:58.029Z", "updatedAt": "2026-08-01T04:58:18.046Z"
   },
   {
-    "id": "latanime-online-provider", "name": "Latanime", "version": "0.1.11", "author": "lens7y",
-    "description": "Latanime online streaming provider for Seanime (Spanish dub; Latino preferred, sub fallback).",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "es",
-    "icon": "https://raw.githubusercontent.com/lens7y/seanime-ext-latanime/main/public/icon.png",
-    "manifestURI": "https://github.com/lens7y/seanime-ext-latanime/releases/latest/download/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/lens7y/seanime-ext-latanime/v0.1.11/src/provider.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d45a1632455c3aeaa06a93634cba7b52e69738cd8ba139632eaa393e70e9a569",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": null, "stars": 3, "threadId": "1509322165013577899", "addedAt": "2026-05-27T22:27:25.989Z",
-    "updatedAt": "2026-07-20T04:43:54.959Z"
-  },
-  {
     "id": "leercapitulo", "name": "LeerCapitulo", "version": "1.1.0", "author": "branrgx",
     "description": "LeerCapitulo as a Spanish-language manga provider for Seanime, supporting manga, manhwa, and manhua.",
     "type": "manga-provider", "language": "typescript", "lang": "es",
@@ -2586,20 +2572,6 @@
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/seadex/seadex.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
-  },
-  {
-    "id": "seanime-download-notifier", "name": "Seanime Download Notifier", "version": "1.0.0",
-    "author": "Hyperclaw79", "description": "Sends notifications when Seanime-tracked torrent downloads complete.",
-    "type": "plugin", "language": "javascript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/Hyperclaw79/seanime-download-notifier/main/assets/logo.png",
-    "manifestURI": "https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/seanime-download-notifier.json",
-    "payloadURI": "https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/plugin.js",
-    "website": "https://github.com/Hyperclaw79/seanime-download-notifier", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b68ad2b299d347f499ba59fb8e7afb87e6d0fb89d37ae915166cc668c5c8cff5",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 5, "threadId": "1527972253126361118",
-    "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-07-18T12:43:22.786Z"
   },
   {
     "id": "seastats", "name": "SeaStats", "version": "0.1.4", "author": "Crashdaemon",
