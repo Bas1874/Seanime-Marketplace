@@ -1442,6 +1442,13 @@
     "timestamp": 1772097348278, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
+    "id": "vidsrc", "version": "1.0.6",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/vidsrc/main.ts",
+    "flags": "1/59", "flaggedBy": ["Microsoft"],
+    "permalink": "https://www.virustotal.com/gui/file/d4187219f3c1fd13a888aaa1874fee5614221c258acb00939d9c481e4b7e263e",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786709312431
+  },
+  {
     "id": "Watch-Next", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Watch-Next-Seanime/refs/heads/main/src/Watch-Next.ts",
     "flags": "0/61", "flaggedBy": [],
