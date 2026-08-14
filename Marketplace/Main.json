@@ -3088,6 +3088,20 @@
     "addedAt": "2025-11-27T20:31:38.658Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "vidsrc", "name": "VidSrc", "version": "1.0.6", "author": "aor-rex",
+    "description": "Streams anime, series and movies from vidsrc (https://vidsrc.mov/). Requires a SIMKL Client ID for title matching.",
+    "type": "onlinestream-provider", "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/vidsrc/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/vidsrc/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/vidsrc/main.ts",
+    "website": "https://github.com/aor-rex/seanime-extensions", "flags": "1/59", "flaggedBy": ["Microsoft"],
+    "permalink": "https://www.virustotal.com/gui/file/d4187219f3c1fd13a888aaa1874fee5614221c258acb00939d9c481e4b7e263e",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259306087940146","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1537766366797373491",
+    "addedAt": "2026-08-14T10:14:32.162Z", "updatedAt": "2026-08-14T12:08:32.965Z"
+  },
+  {
     "id": "vostfree-online-streaming", "name": "FR | Vostfree", "version": "1.0.0", "author": "TropicalFrog3",
     "description": "Vostfree est une extension Seanime en français qui permet de regarder des anime dans le catalogue du site vostfree.ws.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
