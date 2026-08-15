@@ -852,32 +852,32 @@
     "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-08-10T20:11:11.781Z"
   },
   {
-    "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.29", "author": "aquaryuo",
+    "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.30", "author": "aquaryuo",
     "description": "Only animepahe compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
-    "website": "https://animepahe.pw", "flags": "0/58", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/271a46514b70d43a22538a7734b4f1bfdcccbb7e3a77734bfa3f6731003fca27",
+    "website": "https://animepahe.pw", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/09177ed842ead9171688eebd5c9f4a2a3fc5f55c27ff1976e05bff9f2f5979c8",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.8.7", "stars": 2, "threadId": "1519818667720966174",
-    "addedAt": "2026-06-25T21:36:47.250Z", "updatedAt": "2026-08-10T20:11:11.781Z"
+    "addedAt": "2026-06-25T21:36:47.250Z", "updatedAt": "2026-08-15T00:20:28.660Z"
   },
   {
-    "id": "aq-anizone", "name": "AniZone", "version": "1.1.18", "author": "aquaryuo",
+    "id": "aq-anizone", "name": "AniZone", "version": "1.1.21", "author": "aquaryuo",
     "description": "Only anizone compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
-    "website": "https://anizone.to", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/468b114bccf7a8e107d9a114148c8ab5fd810b9363a564ccedd56725ec412d0c",
+    "website": "https://anizone.to", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1989e05db2f5e6e26679f15c020053d37658db27235db794bd9828cd639866eb",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.8.7", "stars": 1, "threadId": "1519767961026564276",
-    "addedAt": "2026-06-25T18:15:17.832Z", "updatedAt": "2026-08-10T20:11:11.781Z"
+    "addedAt": "2026-06-25T18:15:17.832Z", "updatedAt": "2026-08-15T00:20:28.660Z"
   },
   {
     "id": "aq-aquaprefs", "name": "Aqua's Prefs", "version": "1.1.62", "author": "aquaryuo",
