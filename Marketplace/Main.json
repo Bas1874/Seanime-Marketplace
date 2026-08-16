@@ -2845,6 +2845,20 @@
     "addedAt": "2025-11-14T18:09:08.089Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "thepiratebayv2", "name": "ThePirateBay V2", "version": "3.1.1", "author": "aor-rex",
+    "description": "The Pirate Bay torrent provider for movies and series, with smart search.",
+    "type": "anime-torrent-provider", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TPB/icon.webp",
+    "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TPB/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TPB/main.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/06fbc1f630d0ae68ad71143139c516c62a865bda2e0e073994e2fd7fa2d0d9b0",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259206880067784","1360636715643179231"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1538548008889749726",
+    "addedAt": "2026-08-16T14:00:30.159Z", "updatedAt": "2026-08-16T16:12:19.894Z"
+  },
+  {
     "id": "tmdb", "name": "TMDB", "version": "1.0.0", "author": "eepyboba",
     "description": "Implements TMDb as a custom source.", "type": "custom-source", "language": "typescript",
     "lang": "multi",
