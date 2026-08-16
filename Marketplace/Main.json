@@ -1363,18 +1363,18 @@
     "addedAt": "2025-04-29T16:16:06.011Z", "updatedAt": "2026-08-05T16:59:38.078Z"
   },
   {
-    "id": "ext", "name": "EXT Torrents", "version": "1.2.8", "author": "aor-rex",
+    "id": "ext", "name": "EXT Torrents", "version": "1.2.9", "author": "aor-rex",
     "description": "EXT Torrents (extto.com) torrent provider for movies and series.",
     "type": "anime-torrent-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/EXT/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/EXT/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/EXT/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/01e8f933468287bd980e8d2c945240f994cf02c3b0aa34897cc3cb14f454b359",
+    "website": "", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/298326ecfa3103ebec62b74d9c17e302c5ace91cf1210298ff527854b27ba6f6",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1536042011121946654",
-    "addedAt": "2026-08-09T16:02:33.732Z", "updatedAt": "2026-08-16T08:11:37.577Z"
+    "addedAt": "2026-08-09T16:02:33.732Z", "updatedAt": "2026-08-16T12:21:47.796Z"
   },
   {
     "id": "fancy-fonts", "name": "Fancy Fonts", "version": "1.0.2", "author": "nnotwen",
