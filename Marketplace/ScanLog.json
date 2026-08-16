@@ -1330,6 +1330,13 @@
     "timestamp": 1771869725912, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
+    "id": "thepiratebayv2", "version": "3.1.1",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TPB/main.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/06fbc1f630d0ae68ad71143139c516c62a865bda2e0e073994e2fd7fa2d0d9b0",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786896739658
+  },
+  {
     "id": "tmdbv2", "version": "1.1.6",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TMDB/main.ts",
     "flags": "0/60", "flaggedBy": [],
