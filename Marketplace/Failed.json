@@ -5,11 +5,6 @@
     "originalMessageContent": "> **Extension Name:**\n> Example Name\n> \n> **Version:**\n> 0.69\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Example/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Example/manifest.json```\n> **Description:**\n> Extension for (EXAMPLE), an online streaming provider for subbed/dubbed anime in English, made by Bas1874\n> \n> **Additional Notes:**\n> Share any extra details, acknowledgments, or troubleshooting tips."
   },
   {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1362859772474560693",
-    "reason": "timeout of 10000ms exceeded",
-    "originalMessageContent": "> \n> **Extension Name: **\n> AnimeSaturn\n> \n> **Version:**\n> 1.0.3\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeSaturn/manifest.json) / Copy the link below:\n> ```https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeSaturn/manifest.json```\n> \n> **Description:**\n> Extension for AnimeSaturn, an online streaming provider for subbed/dubbed anime in Italian, made by kRYstall9\n> \n> **Additional Notes:**\n> If any error occurs, please, provide the logs and I'll try to solve the problem as quickly as possible"
-  },
-  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1426612290437910600", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension Name:**\n> YGG Torrent\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/MLB-11/YGGTorrentSeanime/refs/heads/main/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/MLB-11/YGGTorrentSeanime/refs/heads/main/manifest.json```\n> **Description:**\n> A Seanime extension that Add YGG as an AnimeTorrentProvider, Made By MLB11\n> \n> **Additional Notes:**\n> **[PASSKEY](https://www.yggtorrent.top/user/account) from YGG is required***\n> SmartSearch is bad for now, i'll figure out later how to make it good for ygg."
   },
@@ -18,82 +13,11 @@
     "originalMessageContent": "> **Extension name:**\n> Scan Ita \n> \n> **Version:**\n> 1.1.2\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/scanita/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/scanita/manifest.json```\n> **Description:**\n> A manga provider for italian manga, made by pal\n> \n> **Additional Notes:**\n> Chapter pages scraper is a crawler which might be slow."
   },
   {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1429927199317688471",
-    "reason": "Request failed with status code 502",
-    "originalMessageContent": "> **Extension Name:**\n> Advanced Search\n> \n> **Version:**\n> 1.0.2\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/SyntaxSama/advanced-search/refs/heads/main/manifest.json) / Copy the link below:\n> ```https://raw.githubusercontent.com/SyntaxSama/advanced-search/refs/heads/main/manifest.json```\n> \n> **Description:**\n> Always use the advanced search page instead of the default search page.\n> \n> **Additional Notes:**\n> I made this extension because i always end up using the advanced search page instead of the default search page. Just wanted to go to the advanced search page a lot faster."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1431350740038717561",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> UI Translator\n> \n> **Version:**\n> 1.1.0\n> ﻿\n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/plugins/UI-Translation/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/plugins/UI-Translation/manifest.json```\n> **Description:**\n> Translates Seanime UI into 8 different languages: Spanish, French, Italian, German, Portuguese, Japanese, Korean, and Chinese.\n> \n> **Additional Notes:**\n> All translations are AI generated. Let me know if something looks off.\n> Didn't test all languages, some parts of the UI might look weird or broken.\n> Might cause a little lag when loading large pages.\n> Anime and manga metadata are not translated."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1431807801444925540",
-    "reason": "timeout of 10000ms exceeded",
-    "originalMessageContent": "> **Extension Name:**\n> AnimePahe\n> \n> **Version:**\n> v1.0.1\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://github.com/SyntaxSama/seanime-marketplace/blob/main/manifest.json)  / Copy the link below: \n> `@`@`https://raw.githubusercontent.com/SyntaxSama/seanime-marketplace/refs/heads/main/manifest.json`@`@`\n> **Description:**\n> Extension for AnimePahe, an online streaming provider for subbed/dubbed anime in English\n> \n> **Additional Notes:**\n> Rahim has officially handed me the keys to maintaining the AnimePahe extension and it will no longer exist as a default provider. You can read more about this here:\n> [Click Here For Rahim's Statement About AnimePahe.](https://discord.com/channels/1224767201551192224/1224767201551192227/1431629684612923422)"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1431807801444925540",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> AnimePahe\n> \n> **Version:**\n> v1.0.1\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://github.com/SyntaxSama/seanime-marketplace/blob/main/manifest.json)  / Copy the link below: \n> `@`@`https://raw.githubusercontent.com/SyntaxSama/seanime-marketplace/refs/heads/main/manifest.json`@`@`\n> **Description:**\n> Extension for AnimePahe, an online streaming provider for subbed/dubbed anime in English\n> \n> **Additional Notes:**\n> Rahim has officially handed me the keys to maintaining the AnimePahe extension and it will no longer exist as a default provider. You can read more about this here:\n> [Click Here For Rahim's Statement About AnimePahe.](https://discord.com/channels/1224767201551192224/1224767201551192227/1431629684612923422)"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1433173588470661180",
-    "reason": "timeout of 10000ms exceeded",
-    "originalMessageContent": "> **Extension name:**\n> Light novel reader **(WIP)**\n> \n> **Version:**\n> 1.3.3\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/Light%20novel/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/Light%20novel/manifest.json```\n> **Description:**\n> A simple plugin for reading Light novels in Seanime made by Pal.\n> \n> **Additional Notes:**\n> Still a WIP, currently only supports a few providers."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1433178980625944757",
-    "reason": "timeout of 10000ms exceeded",
-    "originalMessageContent": "> **Extension Name:**\n> Anime UniqueStream\n> \n> **Version:**\n> 1.0.0\n> ﻿\n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/jabifx/seanime-extensions/master/src/AnimeUniqueStream/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/jabifx/seanime-extensions/master/src/AnimeUniqueStream/manifest.json```\n> **Description:**\n> Online streaming provider with hard subs and dubs.\n> \n> **Additional Notes:**\n> Takes everything directly from crunchyroll.\n> Is slow and is usually down, ig will improve with time."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1434990488301342792",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> AnimeAV1\n> \n> **Version:**\n> 1.0.0\n> ﻿\n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/anime/AnimeAV1/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/anime/AnimeAV1/manifest.json```\n> **Description:**\n> Online streaming provider with hard subs and dubs in Spanish."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1437829066597204042",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> MyAnimeList\n> \n> **Version:**\n> 1.0.0\n> ﻿\n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/jabifx/seanime-extensions/master/src/MAL/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/jabifx/seanime-extensions/master/src/MAL/manifest.json```\n> **Description:**\n> Implements MyAnimeList as a custom source via the unofficial Jikan API.\n> \n> **Aditional Notes**\n> This source does not interact with or update your MAL account."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1438609701993447576",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Simkl\n> \n> **Version:**\n> 1.0.0\n> ﻿\n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/jabifx/seanime-extensions/master/src/SIMKL/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/jabifx/seanime-extensions/master/src/SIMKL/manifest.json```\n> **Description:**\n> Implements Simkl as a custom source.\n> \n> **Additional Notes:**\n> Requires an API key (easily get one registering on simkl).\n> some metadata is missing, try to fix it."
-  },
-  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1440425091707175012", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension name:**\n> Comix\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/comix/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/comix/manifest.json```\n> **Description:**\n> A manga provider for english manga, made by pal\n> \n> **Additional Notes:**\n> New website"
   },
   {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1441114950557761576",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Oneko.js\n> \n> **Version:**\n> 1.0.0\n> ﻿\n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/plugins/oneko/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/plugins/oneko/manifest.json``\n> **Description:**\n> Implements the famous Oneko.js script on seanime."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1445123413277413507",
-    "reason": "timeout of 10000ms exceeded",
-    "originalMessageContent": "> **Extension name:**\n> Anilist Activity\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/anilist-activities/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/anilist-activities/manifest.json```\n> **Description:**\n> A plugin for viewing your friend's and your Anilist activity in Seanime made by Pal.\n> \n> **Additional Notes:**\n> 1. The manual CSS selector ovverrides whatever you choose in the injection point dropdown selection so unless you want to manually choose where to place the plugin then leave the box empty.\n> \n> 2. Everytime you make changes in the settings tray please remember to refresh the page to apply them."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1460945559887024139",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name**:\n> Delete Watched Episodes\n> \n> **Version**:\n> 1.0\n> \n> GitHub Repository / Download Link:\n> [Click Here](https://raw.githubusercontent.com/Dadangdut33/seanime-extensions/refs/heads/master/plugins/delete-watched-episodes/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Dadangdut33/seanime-extensions/refs/heads/master/plugins/delete-watched-episodes/manifest.json```\n> \n> **Description**:\n> A plugin that will search for episodes that have been marked as watched in your library and then delete them. It works by simply checking for `episode <= progress`\n> \n> **Additional Notes**:\n> I made this because i have low space in my disk and i would usually delete episodes after i watch it. Feel free to use it if you find this useful"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1462667157585530942",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Subtitle Engine\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Thekingcrusher/seanime-plugins/refs/heads/main/subtitle-engine/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Thekingcrusher/seanime-plugins/refs/heads/main/subtitle-engine/manifest.json```\n> **Description:**\n> Add subtitles of your preferred language and format scraped from multiple different sources to your current session.\n> \n> **Additional Notes:**\n> Only compatible with Seanime's built-in player. Only tested with online streaming so let me know if there are any problems or if any languages are missing.\n> \n> Preferences\n> auto select - automatically adds subtitles based on users set preference upon playing episode\n> \n> smart select - If user has a preferred format, CC turned on, or both and don't return any results, it will automatically broaden the search—first by searching all formats, and then by disabling the CC filter—to find the best available match.\n> \n> source/language/format/CC/sign-song/honorifics - sets the default/preferred settings\n> \n> prioritize speed - changes how fast the fetch speed is for AnimeTosho (Integrated) with [drawbacks](https://discord.com/channels/1224767201551192224/1462667157585530942/1466338662034968636)\n> \n> id mapping methods - don't really need to touch this it just sets which id mapping fallback method is used. you can see each methods repo below\n> "
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1467966592590807151",
-    "reason": "timeout of 10000ms exceeded",
-    "originalMessageContent": "> **Extension Name:**\n> OlympusStaff\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/olympustaff/olympustaff.json)  / Copy the link below: \n> ⁨`https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/olympustaff/olympustaff.json`⁩\n> \n> **Description:**\n> Manga provider for olympustaff.com, offering a vast library of Arabic translated manga and manhwa."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1467966592590807151",
-    "reason": "Request failed with status code 429",
+    "threadURL": "https://discord.com/channels/1224767201551192224/1467966592590807151", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension Name:**\n> OlympusStaff\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/olympustaff/olympustaff.json)  / Copy the link below: \n> ⁨`https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/olympustaff/olympustaff.json`⁩\n> \n> **Description:**\n> Manga provider for olympustaff.com, offering a vast library of Arabic translated manga and manhwa."
   },
   {
@@ -101,18 +25,7 @@
     "originalMessageContent": "> **Extension Name:**\n> AzoraMoon\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/azoramoon/azoramoon.json)  / Copy the link below: \n> `https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/azoramoon/azoramoon.json`\n> \n> **Description:**\n> Manga provider for azoramoon.com, offering a vast library of Arabic translated manga and manhwa."
   },
   {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1484987717359112353",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> AnimeSama\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/animesama/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/animesama/manifest.json```\n> **Description:**\n> Extension for french manga scans.\n> \n> **Additional Notes:**\n> None"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1488609005155913888",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension name:**\n> MyNimeKu (Manga)\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/manifest.json```\n> **Description:**\n> MyNimeKu is a manga provider for indonesian scans.\n> \n> **Additional Notes:**\n> None"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1493206877335588894",
-    "reason": "Request failed with status code 429",
+    "threadURL": "https://discord.com/channels/1224767201551192224/1493206877335588894", "reason": "404 Not Found.",
     "originalMessageContent": "> \n> **Extension Name:**\n> nekoBT\n>\n> **Version:**\n> 1.0.0\n>\n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/anime-torrent-providers/nekobt/nekobt.json) / Copy the link below:\n> ```\n> https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/anime-torrent-providers/nekobt/nekobt.json\n> ```\n>\n> **Description:**\n> Anime torrent provider for [nekoBT](https://nekobt.to), a public anime torrent tracker. Made by bruuhim.\n>"
   },
   {
@@ -120,68 +33,12 @@
     "originalMessageContent": "> **Extension Name:**\n> 4Anime.gg\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/KoDevV2/online-streaming-providers/refs/heads/main/4anime/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/KoDevV2/online-streaming-providers/refs/heads/main/4anime/manifest.json```\n> **Description:**\n> Use 4anime.gg as an online streaming provider, with subs and dubs support and blazing fast streaming.\n> \n> **Additional Notes:**\n> This is my first extension, so if you find bugs or errors please tell me and I will try to fix it as soon as possible, thank you!"
   },
   {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1497940442493485127",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Skip Data Manager\n> \n> **Version:**\n> 1.1.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Thekingcrusher/seanime-plugins/refs/heads/main/skip-data-manager/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Thekingcrusher/seanime-plugins/refs/heads/main/skip-data-manager/manifest.json```\n> **Description:**\n> Fetches intro/outro skip timestamps from other sources and injects them into Seanime's integrated player.\n> \n> **Additional Notes:**\n> ~~Currently only has animekai skip data~~, feel free to suggest sources."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1502787259668365442",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Quick Access\n> \n> **Version:**\n> 1.0.2\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/quick-access.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/quick-access.json```\n> **Description:**\n> Adds quick-access links to external anime/manga databases and tracking sites.\n> \n> **Additional Notes:**\n> Manga support is for MAL only"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1504154200358260836",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension name:**\n> AnimeUnity (Mirror)\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animeunitymirror/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animeunitymirror/manifest.json```\n> \n> **Description:**\n> An online-streaming provider italian anime, made by Pal,\n> \n> **Additional Notes:**\n> This extension doesnt scrape the original AnimeUnity website, it relies on ```https://animeunity.ch```"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1505548228865687562",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name: **\n> AnimeTosho (NEW)\n> \n> **Version:**\n> 2.4.4\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.json)  / Copy the link below:\n> ```https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.json```\n> \n> **Description:**\n> Extension for Anime Tosho (NEW), a torrent streaming provider for subbed/dubbed anime [⠀](https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/src/animetosho-new-logo.png)"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1505611334652395582",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension name:**\n> AnimeSaturn (Mirror)\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animesaturnmirror/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animesaturnmirror/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for italian sub & dub anime, made by Pal.\n> \n> **Additional Notes:**\n> This extension doesnt scrape the original AnimeSaturn website, it relies on ```https://animesaturn.ro```"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1506801478239522977",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> SeaUtils\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/plugins/SeaUtils.json) / Copy the link below:\n> ```https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/plugins/SeaUtils.json```\n> \n> **Description:**\n> A plugin that adds new features to seanime to make it more interactive then what it is.\n> \n> **Additional Notes:**\n> There is only some stuff that is currently effected by this plugin. This list will be updated when new stuff gets added / changed / manipulated.\n> \n> **Current Features:**\n> - A fresh new extensions page \n> - A fresh new marketplace page \n> - Carousels for easier section viewing \n> - Dub/Sub Icons \n> - Tray settings menu  \n> - App icon\n> - Hide File Names \n> - Better Episode Cards"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1507022885674287276",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> PornHub (18+)\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/pornhub.json) / Copy the link below:\n> ```https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/pornhub.json```\n> \n> **Description:**\n> A source that adds in PornHub as a custom source... 😐 \n> \n> **Additional Notes:**\n> I made this because it was a cursed thought.. and also i dont know why i decided to.... 😭 🥀 😐"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1508838426366185724",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> SeaUtils Kolex06-Version\n> \n> **Version:**\n> 1.2.75\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtils-Kolex06-Version.json)  / Copy the link below: \n> ``https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtils-Kolex06-Version.json``\n> \n> **Description:**\n> My version of https://discord.com/channels/1224767201551192224/1506801478239522977 \n> \n> **Additional Notes:**\n> - Drag for Carousels and more settings for Carousels\n> - More, Code, Preferences, Documentation buttons in Full Catalog/View all popup, and a Full Catalog/View all popup that show all Plugins, Anime torrents, Manga, Online streaming in one \n> - Blue around Extensions that have a new Version / update\n> - Better Marketplace doesn't mess with Video Playback settings like Sleepy's Version do\n> ...... for now\n> \n> https://github.com/Kolex06/Seanime-Stuff/tree/main/plugins/SeaUtilsKolex06Version\n> for info about the Extension"
-  },
-  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1509586816582287511", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension name:**\n> AniDao\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/anidao/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/anidao/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for english sub & dub anime, made by Pal.\n> \n> **Additional Notes:**\n> None"
   },
   {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1509989485843185735",
-    "reason": "Request failed with status code 429",
+    "threadURL": "https://discord.com/channels/1224767201551192224/1509989485843185735", "reason": "404 Not Found.",
     "originalMessageContent": "> **AnimeSalt:**\n> AnimeSalt\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/manifest.json```\n> **Description:**\n> AnimeSalt is an online streaming provider for Hindi, Tamil, Telugu, English and Japanese anime streaming."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1510577432560926720",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension name:**\n> AniDB\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for english sub/dub anime, made by Pal\n> \n> **Additional Notes:**\n> Content is identical to AnimePahe but they self host it."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1510606251157885000",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Toonily\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/manga-provider/toonily/toonily.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/manga-provider/toonily/toonily.json```\n> **Description:**\n> Manga (Manhwa only) provider for toonily.com."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1512020271224062012",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> AniList Notifications Kolex06-Version\n> \n> **Version:**\n> 1.0.18\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AniList-Notifications-Kolex06-Version.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AniList-Notifications-Kolex06-Version.json```\n> **Description:**\n> Extension for \"Anilist Notifications\" Kolex06 Version\n> \n> **Additional Notes:**\n> Requirements\n> - Sign in to AniList on Seanime first.\n> - The plugin needs AniList token and links access so it can call AniList GraphQL for your notifications\n> - links access for pics, gifs, and stuff\n> \n> https://github.com/Kolex06/Seanime-Stuff/tree/main/plugins/AniListNotificationsKolex06Version\n> for info about the Extension"
   },
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1512128627997675803", "reason": "404 Not Found.",
@@ -192,142 +49,7 @@
     "originalMessageContent": "> **Extension Name:**\n> MangaTuk\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/mangatuk/mangatuk.json) / Copy the link below: \n> ```\n> https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/mangatuk/mangatuk.json\n> ```\n> \n> **Description:**\n> Extension for [MangaTuk](https://mangatuk.com), an Arabic online manga reading platform, made by Bruuhim\n> \n> **Additional Notes:**\n> Pure API-based provider — fast and reliable. No HTML scraping. Fully Arabic source. Report issues [here](https://github.com/bruuhim/bruuhim-seanime-extensions/issues)"
   },
   {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1513853305615421560",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Torrentio\n> \n> **Version:**\n> 0.1.2\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://github.com/Crashdaemon/Seanime-Torrentio)  / Copy the link below: \n> `https://raw.githubusercontent.com/Crashdaemon/Seanime-Torrentio/main/torrentio.json`\n> \n> **Description:**\n> Anime torrent provider that sources torrents from Torrentio. It maps your AniList entry to a Kitsu ID (with relations.yuna.moe and IMDb fallbacks), queries Torrentio, and returns raw torrents (info hash + magnet) for search and smart search. Made by Crashdaemon.\n> \n> **Additional Notes:**\n> Search-only provider with episode, batch, and resolution filters. Returns raw torrents, so Seanime handles torrent-vs-debrid itself (no debrid key required). Optional advanced setting accepts a custom Torrentio options string for sorting, quality filters, providers, or a debrid key; leave it empty for defaults."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1515218781742567424",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Toongod\n> \n> **Version:**\n> 1.0.2\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Toongod/manifest.json) / Copy the link below: \n> ```https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/Toongod/manifest.json```\n> \n> \n> **Description:**\n> Toongod is a website that publishes Korean, Japanese, and Chinese comics in English.\n> \n> **Additional Notes:**\n> This extension allows the use of a proxy bypass for Cloudflare challenges with \"FlareSolverr\". To use it, you must have \"FlareSolverr\" installed. If the website ever stops using Cloudflare Challenges, the extension allows you to disable the proxy bypass."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1517157611693281401",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Tsukihime\n> \n> **Version:**\n> 0.1.1\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://github.com/Crashdaemon/Seanime-Tsukihime)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Crashdaemon/Seanime-Tsukihime/main/tsukihime.json```\n> \n> **Description:**\n> Anime torrent provider that uses the Tsukihime API to find anime torrents aggregated from nyaa, nekobt and sukebei.\n> \n> **Additional Notes:**\n> Check [README.md](https://github.com/Crashdaemon/Seanime-Tsukihime/blob/main/README.md)"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1519767961026564276",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "# Extension Details\n> ## • [AniZone](https://sub.ryuo.to/forum/7)\n> \n> Copy below,\n> ```https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/manifest.json```\n> Subtitles are experimentally fed via cache hits of my domain on toggle, a miss gets stored;\n> \n> If you're looking for more of my extensions/plugins or perhaps support, do check out [my forum](https://sub.ryuo.to/) \n# PLEASE __DO NOT CHAT__ IN HERE \n## ⚠️ EVEN FOR SUPPORT REASONS ❗"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1519785888400277574",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "# Plugin Details\n> ## • [Aqua's Utils](https://sub.ryuo.to/forum/11)\n> \n> Copy below,\n> ```https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquatils/manifest.json```\n> Toolbox plugin dedicated to surface compatible extension errors, able to launch a self-contained solver or remotely connect to your locally hosted instances, in order to get past guarded streaming sites, and more to be added.\n> \n> Solver works best when you're on windows, if you want browser to run headless then It's necessary for you to be on windows, so the plugin can install webview2 to run in a hidden window\n> \n> Compatible list of extension(s) with this plugin's solver is (<#1519818667720966174>)\n> \n> If you're looking for more of my extensions/plugins or perhaps support, do check out [my forum](https://sub.ryuo.to/) \n# PLEASE __DO NOT CHAT__ IN HERE \n## ⚠️ EVEN FOR SUPPORT REASONS ❗"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1519818667720966174",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "# Extension Details\n> ## • [AnimePahe](https://sub.ryuo.to/forum/5)\n> \n> Copy below,\n> ```https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/manifest.json```\n> Extension only works with my plugin installed & solver running, get it here -> <#1519785888400277574> \n> \n> If you're looking for more of my extensions/plugins or perhaps support, do check out [my forum](https://sub.ryuo.to/)\n# PLEASE __DO NOT CHAT__ IN HERE \n## ⚠️ EVEN FOR SUPPORT REASONS ❗"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1522636904766505030",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Marketplace+ \n> \n> **Version:**\n> 1.1.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.json```\n> **Description:**\n> Improve Seanime's Extensions marketplace with live status badges (Working/Broken/Deprecated), star counts, sorting by most stars or recent updates, author search, sub/dub tags, and per-extension Discord support buttons.\n> \n> **Additional Notes:**\n> Plugin still in the works, planning on making an auto switch marketplace fuction. Based on original Seatags concept by Aqua\n> \n\nhttps://cdn.discordapp.com/attachments/1522636904766505030/1529103603409748220/favicon.png?ex=6a60b834&is=6a5f66b4&hm=8a052c9557c314961bd371b86f8b9a908dd670be9156ef2c6152bd3395caed19&"
-  },
-  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1524131015877071180", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension Name:**\n> AnimeSama\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/animesama/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/animesama/manifest.json```\n> **Description:**\n> Extension for french sub & dubs.\n> \n> **Additional Notes:**\n> Read below"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1525301921919795411",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Schedule Editor\n> \n> **Version:**\n> 1.1.1\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/schedule-editor/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/schedule-editor/manifest.json```\n> **Description:**\n> Lets you delay (or advance) an anime's schedule by a custom offset - globally or per-anime. Updates the calendar/schedule page, next-episode countdowns and holds back Continue Watching entries until the adjusted time has passed (experimental).\n> \n> **Additional Notes:**\n> Testing this is quite painful so any bug reports are welcome"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1525547132885401751",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> LiveChart Schedule\n> \n> **Version:**\n> 0.2.6\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/manifest.json```\n> **Description:**\n> Overrides Seanime's schedule times using LiveChart's data, with a choice between Japanese broadcast and simulcast/dub schedules per anime or globally.\n> \n> **Additional Notes:**\n> Thanks to <@445451396624416779> for the API"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1526790354408439839",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Mikan-project\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/manifest.json)  / Copy the link below: \n> https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/mikan-project/manifest.json\n> **Description:**\n> Provides torrent streaming for anime with Chinese subtitles.\n> \n> **Additional Notes:**\n> Search using Chinese keywords for better results."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1528284315950252082",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Anime Garden\n> \n> **Version:**\n> 1.0.1\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/manifest.json)  / Copy the link below: \n> https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Anime-Garden/manifest.json\n> **Description:**\n> AnimeGarden provides accurate, real-time Chinese subtitles for torrent-streamed Japanese animations\n> \n> **Additional Notes:**\n> Search using Chinese keywords for better results."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1528805611351969913",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Friend stats\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/friend-stats/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/friend-stats/manifest.json```\n> **Description:**\n> Shows which of your followed AniList users are watching or have rated the anime you're viewing\n> \n> **Additional Notes:**\n> Disclaimer: does **NOT** come with friends"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1529440643787653150",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Bangumi\n> \n> **Version:**\n> 1.2.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Bangumi/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Bangumi/manifest.json```\n> **Description:**\n> Display Bangumi metadata in the Seanime sidebar: ratings, rank, score distribution, tags, production info, characters, episodes, related entries, and personal collection status. Supports manual binding."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1530499232430035107",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> AniBT\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/anibt/manifest.json)  / Copy the link below:\n> https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/anibt/manifest.json\n> \n> **Description:**\n> Search anime torrents from AniBT subtitle group publishing platform.Provides Chinese sub for anime. Supports Chinese/English/Japanese title search, Bangumi ID lookup.\n> \n> **Additional Notes:**\n> Search by title or use the Bangumi plugin to get the Bangumi ID and enter it directly for precise and better matching."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1530607112260948008",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> Skip Ahead\n> \n> **Version:**\n> 1.2.2\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/EnnioMrk/seanime-skip-extension/refs/heads/main/skip-ahead-video-player.json)  / Copy the link below: \n> `@`@`https://raw.githubusercontent.com/EnnioMrk/seanime-skip-extension/refs/heads/main/skip-ahead-video-player.json`@`@`\n> **Description:**\n> Adds a skip-ahead button to the video player control bar with configurable position. Useful for skipping intros or recaps in anime episodes.\n> \n> **Additional Notes:**\n> Lets you configure the amount of seconds to skip forward (default to 85s because intro is usually 90s) and choose one of three positions to place the skip button."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1531338246678646876",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> TVMaze\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/tvmaze/tvmaze-cs.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/tvmaze/tvmaze-cs.json```\n> **Description:**\n> Implements TVMaze as a custom source. **No API Key required!**\n> \n> **Additional Notes**\n> - Currently aggressive on API requests due to https://discord.com/channels/1224767201551192224/1301952240470327426/1531321599104651384 .If you wish to prevent this while a fix is underway, please comment out `L31-L54` and `L58-L87` (Disables the fetching of character and episode metadata)\n> - If you don't want to comment out these lines, tread the UI carefully and avoid hovering over the media covers unless you want to navigate to that entry."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1535551888580280470",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> MangaFire\n> \n> **Version:**\n> 1.0.2\n> ﻿\n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/dip-land/seanime/refs/heads/main/extensions/MangaFire/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/dip-land/seanime/refs/heads/main/extensions/MangaFire/manifest.json```\n> **Description:**\n> Multi language manga provider.\n> \n> **Additional Notes:**\n> Some mangas may have several duplicate chapters, I only display things the way they are on mangafire (I might add a setting toggle to remove duplicate chapters in the future if yall want that)"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1536042011121946654",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> EXT Torrents\n> \n> **Version:**\n> 1.2.1\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/EXT/manifest.json)  / Copy the link below: \n> \n> `https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/EXT/manifest.json`\n> \n> \n> **Description:**\n> Extension for ext torrent\n> \n> **Additional Notes:**\n> May stop working in the future because it previously used to have cloudflare guard until it didnt."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1536052519996882954",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> TMDB V2\n> \n> **Version:**\n> 1.1.6\n> \n> **GitHub Repository / Download Link:**\n> [Click Here ](https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TMDB/manifest.json) / Copy the link below: \n> \n> https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TMDB/manifest.json\n> \n> \n> **Description:**\n>  Custom Source Extension for TMDB (based on [ASleepyDrink's TMDB](https://github.com/ASleepyDrink))\n> **Additional Notes:**\n> This extension is a direct fork of [ASleepyDrink](https://github.com/ASleepyDrink) TMDB source with;\n> - Support for per season entry to support batch download\n> - a bug that makes series show only one video entry\n> - support episode title and thumbnails"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1536115597983621150",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": ">    **Extension Name:**\n>     Simkl v2\n> \n>     **Version:**\n>     2.4.0\n> \n>     **GitHub Repository / Download Link:**\n>     [Click Here ](https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/manifest.json) / Copy the link below: \n> \n>     `https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/manifest.json`\n> \n> \n>  **Description:**\n>  Implement simkl as a custom source (a direct fork from [jab-fx](https://github.com/9lfx/seanime-extensions))\n> \n>   **Additional Notes:**\n>    credits to [jab-fx](https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/SIMKL/manifest.json) for the original extension. his extension is a direct fork with a little more feature.\n> - Split season entry in multiple movie card\n> - getting user watch list via access token on simkl\n> - Recommendation section and  Relation added\n> - Character details added via tmdb api key"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1536115597983621150",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": ">    **Extension Name:**\n>     Simkl v2\n> \n>     **Version:**\n>     2.4.0\n> \n>     **GitHub Repository / Download Link:**\n>     [Click Here ](https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/manifest.json) / Copy the link below: \n> \n>     `https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/SIMKL/manifest.json`\n> \n> \n>  **Description:**\n>  Implement simkl as a custom source (a direct fork from [jab-fx](https://github.com/9lfx/seanime-extensions))\n> \n>   **Additional Notes:**\n>    credits to [jab-fx](https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/SIMKL/manifest.json) for the original extension. his extension is a direct fork with a little more feature.\n> - Split season entry in multiple movie card\n> - getting user watch list via access token on simkl\n> - Recommendation section and  Relation added\n> - Character details added via tmdb api key"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1536131162504699996",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> CornHub (18+)\n> \n> **Version:**\n> 1.0.2\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Cornhub/manifest.json) / Copy the link below:\n> \n> `https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Cornhub/manifest.json`\n> \n> \n> \n> \n> **Description:**\n> Online streaming provider for watching farm Maize \n> \n> **Additional Notes:**\n> this exist not because of the goon in me, but because a custom source already exist, it only make sense a provider should right?. \n> credits to [ASleepyDrink](https://github.com/ASleepyDrink) for making this possible"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1536389866600931458",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> > **Extension Name:**\n> > XAnime\n> > \n> > **Version:**\n> > 1.0.0\n> > \n> > **GitHub Repository / Download Link:**\n> > [Click Here](https://raw.githubusercontent.com/fampep/extensions/main/seanime/xanime/manifest.json)  / Copy the link below: \n> > `https://raw.githubusercontent.com/fampep/extensions/main/seanime/xanime/manifest.json`\n> > \n> > **Description:**\n> > Extension for XAnime (xanime.me), an online streaming provider for subbed/dubbed anime in English, made by fampep"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1536575711584718978",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> ComicVine\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/ComicVine/manifest.json) / Copy the link below:\n> `https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/ComicVine/manifest.json`\n> \n> \n> **Description:**\n> Implement Comic VIne as a source for westen comic\n> \n> **Additional Notes:**\n> first release so might be buggy, also sign up on [ComicVIne](https://comicvine.gamespot.com/login-signup/) to get your own api key"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1536660651068629012",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": ">    **Extension Name:**\n>    BatCave\n> \n>     **Version:**\n>     1.1.0\n> \n>     **GitHub Repository / Download Link:**\n>    [Click Here](https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/BatCave/manifest.json)  / Copy the link below: \n> \n>     `https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/BatCave/manifest.json`\n> \n> \n>  **Description:**\n> BatCave.biz comics reader\n> \n>   **Additional Notes:**\n>    New Release, Most Likely unstable"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1537766366797373491",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> VidSrc\n> \n> **Version:**\n> 1.0.6\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/vidsrc/manifest.json)  / Copy the link below: \n> `https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/vidsrc/manifest.json`\n> \n> **Description:**\n> Streams anime, series and movies from [vidsrc](https://vidsrc.mov/). Requires a SIMKL Client ID for title matching.\n> \n> **Additional Notes:**\n> requires simkl client id for title matching for most content.\n> also there's a bug where some anime episode(tested with only black torch) provide sub only for some episode and dub only for some. \n> \n> also, one of first release, could have bugs"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1538548008889749726",
-    "reason": "Request failed with status code 429",
-    "originalMessageContent": "> **Extension Name:**\n> The PirateBay V2\n> \n> **Version:**\n> 3.1.1\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TPB/manifest.json)  / Copy the link below: \n> `https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/TPB/manifest.json`\n> \n> **Description:**\n> this is a direct fork from the extension developed by the great [jabifx](https://github.com/9lfx) with more featue, major credit to them for developing it.\n> \n> **Additional Notes:**\n> this tpb fork has;\n> - support for batch\n> - support for smart search\n> - torrent cached availability in debrid service"
   }
 ]
