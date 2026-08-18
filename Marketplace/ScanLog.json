@@ -679,11 +679,11 @@
     "timestamp": 1776602134471
   },
   {
-    "id": "friend-stats", "version": "1.1.0",
+    "id": "friend-stats", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/friend-stats/main.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8b18b53f0d23f2598a11b869069e289d7e6d296e11b4c7375bd5c09080cb1808",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1784738853539
+    "permalink": "https://www.virustotal.com/gui/file/33d58f37cb1996927372879d9d302614f07fba96e807afaf85d1505bbcffdeb7",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787084826584
   },
   {
     "id": "gojowtf", "version": "1.1.4",
@@ -854,11 +854,11 @@
     "timestamp": 1771867997959, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
-    "id": "mal-friend-stats", "version": "1.0.2",
+    "id": "mal-friend-stats", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/mal-friend-stats/main.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f1d68b65fb0b3057222dddf1b49c0b9f6a425f52c42c0b386dcc05f538cd7b88",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787069690477
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/69b6655ca4373bf1aadcdc7da600883b1f8d8a86cb6039ad9e305bfda2f8d475",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787084166269
   },
   {
     "id": "mal-unofficial", "version": "1.0.2",
