@@ -93,17 +93,17 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "al-olympustaff", "name": "OlympusStaff", "version": "1.0.1", "author": "Bruuhim",
+    "id": "al-olympustaff", "name": "OlympusStaff", "version": "1.0.2", "author": "Bruuhim",
     "description": "Manga provider for olympustaff.com (Arabic)", "type": "manga-provider", "language": "typescript",
     "lang": "ar", "icon": "https://i.imgur.com/ulnGanf.jpeg",
     "manifestURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/olympustaff/olympustaff.json",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/olympustaff/index.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f5022035525fe20e10fe16b04e46e43f15d8c0411f9ae5beaa6668048142a66c",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/463ea59666a5720e5edeb723aeb96b72b3e7e0a0d58fc50ad08d49a48d439fb7",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 2, "threadId": "1467966592590807151", "addedAt": "2026-02-02T19:35:09.174Z",
-    "updatedAt": "2026-08-17T20:13:56.938Z"
+    "updatedAt": "2026-08-18T08:14:45.384Z"
   },
   {
     "id": "allmangaanime", "name": "AllManga (Anime)", "version": "1.0.0", "author": "Pal",
@@ -2297,6 +2297,18 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1497001381897310238", "addedAt": "2026-04-23T22:29:02.385Z",
     "updatedAt": "2026-07-06T15:13:11.445Z"
+  },
+  {
+    "id": "nekobt", "name": "nekoBT", "version": "1.0.2", "author": "bruuhim",
+    "description": "nekoBT torrent search provider for Seanime. Uses nekoBT search results and media fallback retries.",
+    "type": "anime-torrent-provider", "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/assets/nekobt.png",
+    "manifestURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/nekobt/nekobt.json",
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 6, "threadId": "1493206877335588894",
+    "addedAt": "2026-04-13T11:11:01.999Z", "updatedAt": "2026-08-18T08:14:45.384Z"
   },
   {
     "id": "nexustoons", "name": "Nexus Toons", "version": "1.0.1", "author": "Jhoorodr",
