@@ -56,11 +56,11 @@
     "lastWorkingVersion": null, "timestamp": 1780942119237, "hadWorkingTag": false
   },
   {
-    "id": "al-olympustaff", "version": "1.0.1",
+    "id": "al-olympustaff", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/olympustaff/index.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f5022035525fe20e10fe16b04e46e43f15d8c0411f9ae5beaa6668048142a66c",
-    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1786997636666
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/463ea59666a5720e5edeb723aeb96b72b3e7e0a0d58fc50ad08d49a48d439fb7",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1787040885136
   },
   {
     "id": "allmangaanime", "version": "1.0.0",
