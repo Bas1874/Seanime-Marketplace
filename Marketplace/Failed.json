@@ -25,10 +25,6 @@
     "originalMessageContent": "> **Extension Name:**\n> AzoraMoon\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/azoramoon/azoramoon.json)  / Copy the link below: \n> `https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/manga-providers/azoramoon/azoramoon.json`\n> \n> **Description:**\n> Manga provider for azoramoon.com, offering a vast library of Arabic translated manga and manhwa."
   },
   {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1493206877335588894", "reason": "404 Not Found.",
-    "originalMessageContent": "> \n> **Extension Name:**\n> nekoBT\n>\n> **Version:**\n> 1.0.0\n>\n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/anime-torrent-providers/nekobt/nekobt.json) / Copy the link below:\n> ```\n> https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/anime-torrent-providers/nekobt/nekobt.json\n> ```\n>\n> **Description:**\n> Anime torrent provider for [nekoBT](https://nekobt.to), a public anime torrent tracker. Made by bruuhim.\n>"
-  },
-  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1495339042819014678", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension Name:**\n> 4Anime.gg\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/KoDevV2/online-streaming-providers/refs/heads/main/4anime/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/KoDevV2/online-streaming-providers/refs/heads/main/4anime/manifest.json```\n> **Description:**\n> Use 4anime.gg as an online streaming provider, with subs and dubs support and blazing fast streaming.\n> \n> **Additional Notes:**\n> This is my first extension, so if you find bugs or errors please tell me and I will try to fix it as soon as possible, thank you!"
   },
