@@ -1416,18 +1416,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "friend-stats", "name": "Friend stats", "version": "1.1.0", "author": "Kaktus",
+    "id": "friend-stats", "name": "Friend stats", "version": "1.2.0", "author": "Kaktus",
     "description": "Shows which of your followed AniList users are watching or have rated the anime you're viewing",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/friend-stats/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/friend-stats/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/friend-stats/main.ts",
     "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8b18b53f0d23f2598a11b869069e289d7e6d296e11b4c7375bd5c09080cb1808",
+    "permalink": "https://www.virustotal.com/gui/file/33d58f37cb1996927372879d9d302614f07fba96e807afaf85d1505bbcffdeb7",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 9, "threadId": "1528805611351969913",
-    "addedAt": "2026-07-20T16:47:41.581Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "addedAt": "2026-07-20T16:47:41.581Z", "updatedAt": "2026-08-18T20:27:06.817Z"
   },
   {
     "id": "gojowtf", "name": "GojoWtf", "version": "1.1.4", "author": "kRYstall9",
@@ -1815,18 +1815,18 @@
     "addedAt": "2026-01-10T22:15:50.697Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mal-friend-stats", "name": "MAL Friend Stats", "version": "1.0.2", "author": "Bruuhim",
+    "id": "mal-friend-stats", "name": "MAL Friend Stats", "version": "1.0.3", "author": "Bruuhim",
     "description": "Shows which of your MyAnimeList friends are watching or have rated the anime you're viewing",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/assets/friend-stats.png",
     "manifestURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/mal-friend-stats/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/mal-friend-stats/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f1d68b65fb0b3057222dddf1b49c0b9f6a425f52c42c0b386dcc05f538cd7b88",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/69b6655ca4373bf1aadcdc7da600883b1f8d8a86cb6039ad9e305bfda2f8d475",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1539285918031024138",
-    "addedAt": "2026-08-18T14:52:41.408Z", "updatedAt": "2026-08-18T16:18:11.633Z"
+    "addedAt": "2026-08-18T14:52:41.408Z", "updatedAt": "2026-08-18T20:27:06.817Z"
   },
   {
     "id": "mal-unofficial", "name": "MyAnimeList", "version": "1.0.2", "author": "jabifx",
