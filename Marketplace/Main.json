@@ -242,18 +242,18 @@
     "addedAt": "2025-12-22T19:15:59.155Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anilist-activity", "name": "Anilist activity", "version": "1.1.4", "author": "Pal",
+    "id": "anilist-activity", "name": "Anilist activity", "version": "1.2.4", "author": "Pal",
     "description": "A plugin for viewing your friend's and your Anilist activities inside Seanime.",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/anilist.ico",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/anilist-activities/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/anilist-activities/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/eee531618c09c59d13061d2c0328f5a1c5a979f95cf76da6a72c61ca9238e5f9",
+    "website": "", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c3ae769e17a2db15a2833de0aac5d5081a5e766e259f8632d86214c99fd6c362",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359259306087940146","1359183394512048148"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 13, "threadId": "1445123413277413507",
-    "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-08-18T16:18:11.633Z"
   },
   {
     "id": "anilist-autopause", "name": "Anilist Autopause", "version": "1.0.1", "author": "nnotwen",
@@ -369,18 +369,18 @@
     "addedAt": "2025-11-21T12:05:40.484Z", "updatedAt": "2026-07-12T13:10:19.472Z"
   },
   {
-    "id": "anilist-watch-order", "name": "Anilist Watch Order", "version": "1.2.0", "author": "nnotwen",
+    "id": "anilist-watch-order", "name": "Anilist Watch Order", "version": "1.2.1", "author": "nnotwen",
     "description": "Get the Anilist-recommended watch order within the anime's page.", "type": "plugin",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/anilist-watch-order.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1e7a39e3d4d85f427fa48896caaeb3edf39a7ce0be002cba6cad4cbd587a4f35",
+    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f7ca47a972715c9a9c21d8391eba607f4b094d81508931fd55a166269c895ae1",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 11, "threadId": "1445002690106097757",
-    "addedAt": "2025-12-01T10:44:48.173Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2025-12-01T10:44:48.173Z", "updatedAt": "2026-08-18T16:18:11.633Z"
   },
   {
     "id": "animapper-animevietsub", "name": "AniMapper AnimeVietSub", "version": "1.0.2",
@@ -1815,6 +1815,20 @@
     "addedAt": "2026-01-10T22:15:50.697Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "mal-friend-stats", "name": "MAL Friend Stats", "version": "1.0.2", "author": "Bruuhim",
+    "description": "Shows which of your MyAnimeList friends are watching or have rated the anime you're viewing",
+    "type": "plugin", "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/assets/friend-stats.png",
+    "manifestURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/mal-friend-stats/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/mal-friend-stats/main.ts",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f1d68b65fb0b3057222dddf1b49c0b9f6a425f52c42c0b386dcc05f538cd7b88",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1539285918031024138",
+    "addedAt": "2026-08-18T14:52:41.408Z", "updatedAt": "2026-08-18T16:18:11.633Z"
+  },
+  {
     "id": "mal-unofficial", "name": "MyAnimeList", "version": "1.0.2", "author": "jabifx",
     "description": "Implements MyAnimeList as a custom source via the unofficial Jikan API.",
     "type": "custom-source", "language": "typescript", "lang": "multi",
@@ -3113,18 +3127,18 @@
     "addedAt": "2025-12-17T17:29:34.182Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "vault", "name": "Vault", "version": "1.2.5", "author": "nnotwen",
+    "id": "vault", "name": "Vault", "version": "1.2.6", "author": "nnotwen",
     "description": "Create, Edit, and View your personal curated lists.", "type": "plugin", "language": "typescript",
     "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/vault.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/db30aa2ad8a1a82cc0b0e7423a74345b2266a40deaf33c5911d772bb27c88db7",
+    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8e83dcaea7b2e89c8489a734e4e4dee70f61ece3bea56b8fcece22a6d7bf0064",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 3, "threadId": "1443700822121648168",
-    "addedAt": "2025-11-27T20:31:38.658Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2025-11-27T20:31:38.658Z", "updatedAt": "2026-08-18T16:18:11.633Z"
   },
   {
     "id": "vidsrc", "name": "VidSrc", "version": "1.0.6", "author": "aor-rex",
