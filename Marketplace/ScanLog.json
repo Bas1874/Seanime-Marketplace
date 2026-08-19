@@ -854,11 +854,11 @@
     "timestamp": 1771867997959, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
-    "id": "mal-friend-stats", "version": "1.0.3",
+    "id": "mal-friend-stats", "version": "1.0.4",
     "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/mal-friend-stats/main.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/69b6655ca4373bf1aadcdc7da600883b1f8d8a86cb6039ad9e305bfda2f8d475",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787084166269
+    "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e08ea954de3e9d5e44931f16d66973dcf83d325bf3dcbdaf26e0aecd75102f64",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787141816658
   },
   {
     "id": "mal-unofficial", "version": "1.0.2",
