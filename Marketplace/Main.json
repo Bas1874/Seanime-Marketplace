@@ -3032,18 +3032,18 @@
     "addedAt": "2026-06-09T10:32:34.093Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
-    "id": "torrentiov2", "name": "Torrentio V2", "version": "0.2.3", "author": "aor-rex",
+    "id": "torrentiov2", "name": "Torrentio V2", "version": "2.2.4", "author": "aor-rex",
     "description": "Uses Torrentio to find anime torrents. Supports TMDB custom-source media via IMDb resolution.",
     "type": "anime-torrent-provider", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Torrentio/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Torrentio/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Torrentio/main.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a97d99f75ee010b70d4a4c514765da895039ecba1240cd38a05d1759d3f1dfc7",
+    "website": "", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d57eed781a0891535f4f21a51ef3f04c6b6153ead8cf057533be544e36335ad9",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1359259306087940146","1360636715643179231"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1537042708848181268",
-    "addedAt": "2026-08-12T10:18:58.662Z", "updatedAt": "2026-08-12T12:04:35.801Z"
+    "addedAt": "2026-08-12T10:18:58.662Z", "updatedAt": "2026-08-19T04:17:44.180Z"
   },
   {
     "id": "traktsync", "name": "TraktSync", "version": "1.2.6", "author": "nnotwen",
