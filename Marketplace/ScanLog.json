@@ -70,11 +70,11 @@
     "timestamp": 1775910198664, "hadWorkingTag": false
   },
   {
-    "id": "alternative-titles", "version": "1.0.3",
+    "id": "alternative-titles", "version": "1.0.4",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/provider.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/832639f70fbce9a0e0c6260fe4b8dd2355f1273a9431aa7cb268125f723515dc",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1783861773201
+    "permalink": "https://www.virustotal.com/gui/file/b1a53b21021202e7b561d662a3f3e4036921728728730f0370a8874e0a04afa6",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787156252080
   },
   {
     "id": "always-advanced-search", "version": "1.0.2",
@@ -140,11 +140,11 @@
     "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787069797938
   },
   {
-    "id": "anilist-autopause", "version": "1.0.1",
+    "id": "anilist-autopause", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Autopause/provider.ts",
-    "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d77e1f6e36f74a3cf241c1e23c251bbccdffc9908c29fe74de47a82f59f80d66",
-    "timestamp": 1771871191417, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/832b138bd46a0a93670f25e60fb630b53c3d5d70826e7c6437d9e5a49089758e",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787156344459
   },
   {
     "id": "anilist-discussions", "version": "1.5.0",
@@ -1176,11 +1176,11 @@
     "timestamp": 1771873076725, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
-    "id": "quick-access", "version": "1.0.4",
+    "id": "quick-access", "version": "1.0.5",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/provider.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1e57ed7c8548e247b82b97856718f398ffef3cac4805e8b145e00425be42547d",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1783955069358
+    "permalink": "https://www.virustotal.com/gui/file/ff562eaf67545a9ce23ed346dca865a65eee901d066f1540a5d21137796a118d",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787156190761
   },
   {
     "id": "random-entry", "version": "1.1.2",
