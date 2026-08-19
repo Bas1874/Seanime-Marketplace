@@ -1400,11 +1400,11 @@
     "lastWorkingVersion": "3.10.2", "timestamp": 1781225149061, "hadWorkingTag": true
   },
   {
-    "id": "torrentiov2", "version": "0.2.3",
+    "id": "torrentiov2", "version": "2.2.4",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Torrentio/main.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a97d99f75ee010b70d4a4c514765da895039ecba1240cd38a05d1759d3f1dfc7",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786536275553
+    "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d57eed781a0891535f4f21a51ef3f04c6b6153ead8cf057533be544e36335ad9",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787113063907
   },
   {
     "id": "traktsync", "version": "1.2.6",
