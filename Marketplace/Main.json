@@ -120,18 +120,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "alternative-titles", "name": "Alternative Titles", "version": "1.0.3", "author": "nnotwen",
+    "id": "alternative-titles", "name": "Alternative Titles", "version": "1.0.4", "author": "nnotwen",
     "description": "Choose how anime and manga titles are displayed in their respective pages.", "type": "plugin",
     "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/alternative-titles.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/provider.ts",
     "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/832639f70fbce9a0e0c6260fe4b8dd2355f1273a9431aa7cb268125f723515dc",
+    "permalink": "https://www.virustotal.com/gui/file/b1a53b21021202e7b561d662a3f3e4036921728728730f0370a8874e0a04afa6",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 9, "threadId": "1463411423051776067",
-    "addedAt": "2026-01-21T05:54:32.125Z", "updatedAt": "2026-07-12T13:10:19.472Z"
+    "addedAt": "2026-01-21T05:54:32.125Z", "updatedAt": "2026-08-19T16:19:04.727Z"
   },
   {
     "id": "always-advanced-search", "name": "Always Advanced Search", "version": "1.0.2",
@@ -256,18 +256,18 @@
     "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-08-18T16:18:11.633Z"
   },
   {
-    "id": "anilist-autopause", "name": "Anilist Autopause", "version": "1.0.1", "author": "nnotwen",
+    "id": "anilist-autopause", "name": "Anilist Autopause", "version": "1.0.2", "author": "nnotwen",
     "description": "Automatically pause your AniList entries when you stop watching for a set time.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Autopause/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Autopause/anilist-autopause.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Autopause/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d77e1f6e36f74a3cf241c1e23c251bbccdffc9908c29fe74de47a82f59f80d66",
+    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/832b138bd46a0a93670f25e60fb630b53c3d5d70826e7c6437d9e5a49089758e",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 3, "threadId": "1442364686199951432",
-    "addedAt": "2025-11-24T04:02:19.030Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2025-11-24T04:02:19.030Z", "updatedAt": "2026-08-19T16:19:04.727Z"
   },
   {
     "id": "anilist-discussions", "name": "AniList Discussions", "version": "1.5.0", "author": "Bas1874",
@@ -2523,18 +2523,18 @@
     "addedAt": "2026-04-20T02:25:45.303Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "quick-access", "name": "Quick Access", "version": "1.0.4", "author": "nnotwen",
+    "id": "quick-access", "name": "Quick Access", "version": "1.0.5", "author": "nnotwen",
     "description": "Adds quick-access links to external anime databases and tracking sites.", "type": "plugin",
     "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/quick-access.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/provider.ts",
     "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1e57ed7c8548e247b82b97856718f398ffef3cac4805e8b145e00425be42547d",
+    "permalink": "https://www.virustotal.com/gui/file/ff562eaf67545a9ce23ed346dca865a65eee901d066f1540a5d21137796a118d",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 6, "threadId": "1502787259668365442",
-    "addedAt": "2026-05-09T21:40:03.142Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "addedAt": "2026-05-09T21:40:03.142Z", "updatedAt": "2026-08-19T16:19:04.727Z"
   },
   {
     "id": "random-entry", "name": "Random Entry", "version": "1.1.2", "author": "nnotwen",
