@@ -63,14 +63,7 @@ The marketplace data is kept up to date automatically and extensions are flagged
 
 ## Other community marketplaces
 
-A few other people maintain their own Seanime extension repos worth checking out:
-
-| Marketplace | Notes |
-|---|---|
-| [ASleepyDrink](https://github.com/ASleepyDrink/Seanime-Stuff) | Only working extensions, tested frequently. `https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/marketplace.json` |
-| [Pal-droid](https://github.com/Pal-droid/Seanime-Providers) | Providers for various manga and anime sources. `https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/marketplace/main.json` |
-| [Jhoorodre](https://github.com/Jhoorodre/seanime-provider) | Portuguese (PT-BR) anime and manga extensions. `https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/marketplace.json` |
-| [Carloss616](https://github.com/Carloss616/seanime-extensions) | Manga-focused: custom catalogs, metadata, progress sync. `https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/marketplace.json` |
+A few other people maintain their own Seanime extension repos worth [checking out](https://github.com/Bas1874/Seanime-Marketplace/blob/main/OTHER_MARKETPLACES.md)
 
 Run your own marketplace and want it listed? [Message me on Discord](https://discord.com/users/345994349966000128).
 
