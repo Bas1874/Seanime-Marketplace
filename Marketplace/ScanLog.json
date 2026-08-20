@@ -249,7 +249,7 @@
     "payloadURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/anime/AnimeAV1/main.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/9e7da9e4d31d335b8c85679c210fc0799c34db71e91dfb19fe0bfbdd53dd0e3b",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1786223286568
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786223286568
   },
   {
     "id": "animeflv", "version": "1.0.1",
