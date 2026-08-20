@@ -38,3 +38,11 @@ Want your own marketplaces here? [Contact me on Discord!](https://discord.com/us
 <br>
 
 ---
+
+
+| Marketplace | Notes |
+|---|---|
+| [ASleepyDrink](https://github.com/ASleepyDrink/Seanime-Stuff) | Only working extensions, tested frequently. `https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/marketplace.json` |
+| [Pal-droid](https://github.com/Pal-droid/Seanime-Providers) | Providers for various manga and anime sources. `https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/marketplace/main.json` |
+| [Jhoorodre](https://github.com/Jhoorodre/seanime-provider) | Portuguese (PT-BR) anime and manga extensions. `https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/marketplace.json` |
+| [Carloss616](https://github.com/Carloss616/seanime-extensions) | Manga-focused: custom catalogs, metadata, progress sync. `https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/marketplace.json` |
