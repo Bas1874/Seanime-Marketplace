@@ -509,9 +509,9 @@
     "payloadURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/anime/AnimeAV1/main.ts",
     "website": "", "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/9e7da9e4d31d335b8c85679c210fc0799c34db71e91dfb19fe0bfbdd53dd0e3b",
-    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.8.7", "stars": 3, "threadId": "1434990488301342792",
+    "lastWorkingVersion": "3.10.2", "stars": 3, "threadId": "1434990488301342792",
     "addedAt": "2025-11-03T19:39:53.245Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
