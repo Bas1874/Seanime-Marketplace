@@ -133,11 +133,11 @@
     "timestamp": 1771870620962, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
-    "id": "anilist-activity", "version": "1.2.4",
+    "id": "anilist-activity", "version": "1.2.5",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/anilist-activities/main.ts",
-    "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c3ae769e17a2db15a2833de0aac5d5081a5e766e259f8632d86214c99fd6c362",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787069797938
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f352478324a76b4737defb07fa856a17c7d3d9317d0b442f6d003d9a48d9ae5b",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787343720881
   },
   {
     "id": "anilist-autopause", "version": "1.0.2",
@@ -826,11 +826,11 @@
     "lastWorkingVersion": "3.9.1", "timestamp": 1783639380941, "hadWorkingTag": false
   },
   {
-    "id": "livechart-schedule", "version": "0.6.2",
+    "id": "livechart-schedule", "version": "0.6.3",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/main.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c58287ff7e8cda696d8b16edc08dafeb84d4e6e3639cec48587f0048bd5bc686",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1784565898561
+    "permalink": "https://www.virustotal.com/gui/file/bf2ef82f803dbb4e6578a79976abdddf518c80a45176869a1cfa4a8f9f65e4c5",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787343674325
   },
   {
     "id": "LN-reader", "version": "1.6.5",
