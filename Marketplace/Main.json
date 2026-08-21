@@ -242,18 +242,18 @@
     "addedAt": "2025-12-22T19:15:59.155Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anilist-activity", "name": "Anilist activity", "version": "1.2.4", "author": "Pal",
+    "id": "anilist-activity", "name": "Anilist activity", "version": "1.2.5", "author": "Pal",
     "description": "A plugin for viewing your friend's and your Anilist activities inside Seanime.",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/anilist.ico",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/anilist-activities/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/anilist-activities/main.ts",
-    "website": "", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c3ae769e17a2db15a2833de0aac5d5081a5e766e259f8632d86214c99fd6c362",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f352478324a76b4737defb07fa856a17c7d3d9317d0b442f6d003d9a48d9ae5b",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359259306087940146","1359183394512048148"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 13, "threadId": "1445123413277413507",
-    "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-08-18T16:18:11.633Z"
+    "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-08-21T20:22:01.129Z"
   },
   {
     "id": "anilist-autopause", "name": "Anilist Autopause", "version": "1.0.2", "author": "nnotwen",
@@ -1773,18 +1773,18 @@
     "addedAt": "2026-06-18T21:57:00.083Z", "updatedAt": "2026-07-09T23:36:51.758Z"
   },
   {
-    "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.6.2", "author": "Kaktus",
+    "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.6.3", "author": "Kaktus",
     "description": "Overrides Seanime's schedule times using LiveChart's data, with a choice between Japanese broadcast and simulcast/dub schedules per anime or globally.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/main.ts",
     "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c58287ff7e8cda696d8b16edc08dafeb84d4e6e3639cec48587f0048bd5bc686",
+    "permalink": "https://www.virustotal.com/gui/file/bf2ef82f803dbb4e6578a79976abdddf518c80a45176869a1cfa4a8f9f65e4c5",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 6, "threadId": "1525547132885401751",
-    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-08-21T20:22:01.129Z"
   },
   {
     "id": "LN-reader", "name": "Light Novel Reader", "version": "1.6.5", "author": "Pal",
