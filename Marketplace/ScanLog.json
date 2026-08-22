@@ -133,11 +133,11 @@
     "timestamp": 1771870620962, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
-    "id": "anilist-activity", "version": "1.2.5",
+    "id": "anilist-activity", "version": "1.2.6",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/anilist-activities/main.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f352478324a76b4737defb07fa856a17c7d3d9317d0b442f6d003d9a48d9ae5b",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787343720881
+    "permalink": "https://www.virustotal.com/gui/file/10831f1359c35b08a71e81322f75e6989fe76b666b3fe07eac843b7c7f0ea4fb",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787415730486
   },
   {
     "id": "anilist-autopause", "version": "1.0.2",
