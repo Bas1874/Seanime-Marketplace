@@ -975,17 +975,17 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "bangumi-ui", "name": "Bangumi 番组计划", "version": "1.2.1", "author": "Elisoar",
+    "id": "bangumi-ui", "name": "Bangumi 番组计划", "version": "1.2.3", "author": "Elisoar",
     "description": "Display Bangumi metadata in the Seanime sidebar: ratings, rank, score distribution, tags, production info, characters, episodes, related entries, and personal collection status. Supports manual binding.",
     "type": "plugin", "language": "javascript", "lang": "zh",
     "icon": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Bangumi/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Bangumi/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Bangumi/bangumi.plugin.js",
-    "website": "https://bgm.tv", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ee06605b89dbe830246390270db4f773133099eea113c6e286638569611d9bcb",
+    "website": "https://bgm.tv", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e081ecd13a57b5ed2853e01ac9c5b012e3f78b1222c2dbfba40166b440835305",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1529440643787653150",
-    "addedAt": "2026-07-22T10:51:05.112Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "addedAt": "2026-07-22T10:51:05.112Z", "updatedAt": "2026-08-23T04:24:17.889Z"
   },
   {
     "id": "banner-remover", "name": "Banner Remover", "version": "1.0.3", "author": "bas1874",
