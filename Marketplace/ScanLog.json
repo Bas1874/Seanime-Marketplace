@@ -462,11 +462,11 @@
     "timestamp": 1778348327690, "hadWorkingTag": false
   },
   {
-    "id": "bangumi-ui", "version": "1.2.1",
+    "id": "bangumi-ui", "version": "1.2.3",
     "payloadURI": "https://raw.githubusercontent.com/Elisoar111/seanime-extensions/main/Bangumi/bangumi.plugin.js",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ee06605b89dbe830246390270db4f773133099eea113c6e286638569611d9bcb",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1786280943908
+    "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e081ecd13a57b5ed2853e01ac9c5b012e3f78b1222c2dbfba40166b440835305",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787459057634
   },
   {
     "id": "banner-remover", "version": "1.0.3",
