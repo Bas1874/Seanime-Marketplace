@@ -270,6 +270,19 @@
     "addedAt": "2025-11-24T04:02:19.030Z", "updatedAt": "2026-08-19T16:19:04.727Z"
   },
   {
+    "id": "anilist-custom-lists", "name": "AniList Custom Lists", "version": "1.0.1", "author": "Faddix",
+    "description": "Create, rename, delete, and manage AniList custom lists without leaving Seanime.",
+    "type": "plugin", "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/faddix/anilist-custom-lists/main/assets/anilist-custom-lists-icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/faddix/anilist-custom-lists/refs/heads/main/anilist-custom-lists.json",
+    "payloadURI": "https://raw.githubusercontent.com/faddix/anilist-custom-lists/refs/heads/main/anilist-custom-lists.ts",
+    "website": "https://github.com/faddix/anilist-custom-lists", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/ddc4b61cd539de20b033a6352281ccc4a2b28bc05879bd25b15aabe6464b8aac",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1541465962992242758",
+    "addedAt": "2026-08-24T15:15:24.630Z", "updatedAt": "2026-08-24T16:25:16.596Z"
+  },
+  {
     "id": "anilist-discussions", "name": "AniList Discussions", "version": "1.5.0", "author": "Bas1874",
     "description": "Read/Post AniList discussions inside Seanime.", "type": "plugin", "language": "typescript",
     "lang": "multi",
