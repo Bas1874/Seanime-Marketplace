@@ -147,11 +147,11 @@
     "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787156344459
   },
   {
-    "id": "anilist-custom-lists", "version": "1.0.1",
+    "id": "anilist-custom-lists", "version": "1.1.0",
     "payloadURI": "https://raw.githubusercontent.com/faddix/anilist-custom-lists/refs/heads/main/anilist-custom-lists.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ddc4b61cd539de20b033a6352281ccc4a2b28bc05879bd25b15aabe6464b8aac",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787588716355
+    "permalink": "https://www.virustotal.com/gui/file/f3cd9ecce43f2e020faa4aa698a063e1d3a2760e4fe9ee41f0c6601620b41907",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787603097713
   },
   {
     "id": "anilist-discussions", "version": "1.5.0",
