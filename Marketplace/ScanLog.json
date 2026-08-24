@@ -147,6 +147,13 @@
     "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787156344459
   },
   {
+    "id": "anilist-custom-lists", "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/faddix/anilist-custom-lists/refs/heads/main/anilist-custom-lists.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/ddc4b61cd539de20b033a6352281ccc4a2b28bc05879bd25b15aabe6464b8aac",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787588716355
+  },
+  {
     "id": "anilist-discussions", "version": "1.5.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/anilist-discussion/refs/heads/main/src/my-plugin.ts",
     "flags": "0/61", "flaggedBy": [],
