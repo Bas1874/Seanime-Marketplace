@@ -93,19 +93,6 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "al-olympustaff", "name": "OlympusStaff", "version": "1.0.2", "author": "Bruuhim",
-    "description": "Manga provider for olympustaff.com (Arabic)", "type": "manga-provider", "language": "typescript",
-    "lang": "ar", "icon": "https://i.imgur.com/ulnGanf.jpeg",
-    "manifestURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/olympustaff/olympustaff.json",
-    "payloadURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/olympustaff/index.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/463ea59666a5720e5edeb723aeb96b72b3e7e0a0d58fc50ad08d49a48d439fb7",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
-    "stars": 4, "threadId": "1467966592590807151", "addedAt": "2026-02-02T19:35:09.174Z",
-    "updatedAt": "2026-08-18T08:14:45.384Z"
-  },
-  {
     "id": "allmangaanime", "name": "AllManga (Anime)", "version": "1.0.0", "author": "Pal",
     "description": "AllManga (Anime) streaming provider for Seanime", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
@@ -134,21 +121,6 @@
     "addedAt": "2026-01-21T05:54:32.125Z", "updatedAt": "2026-08-19T16:19:04.727Z"
   },
   {
-    "id": "always-advanced-search", "name": "Always Advanced Search", "version": "1.0.2",
-    "author": "SyntaxSama & Pal-droid",
-    "description": "Always use advanced search instead of the basic search feature.", "type": "plugin",
-    "language": "typescript", "lang": "EN",
-    "icon": "https://raw.githubusercontent.com/Pal-droid/advanced-search/refs/heads/main/2015046.png",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/advanced-search/refs/heads/main/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/advanced-search/refs/heads/main/advsearch.ts",
-    "website": "", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/141bd6a2f93b87dbc734323a5af1512b4bb1f572c6eee8ac8c5387bfdcac4fff",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": true,
-    "tags": ["1359259306087940146","1359183394512048148","1359183147123867881"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": null, "stars": 3, "threadId": "1429927199317688471", "addedAt": "2025-10-20T20:20:11.080Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
     "id": "anibd", "name": "AniBD", "version": "1.0.1", "author": "Pal",
     "description": "AniBD is an online streaming provider for subbed BD anime in english",
     "type": "onlinestream-provider", "language": "javascript", "lang": "en",
@@ -175,18 +147,6 @@
     "tags": ["1359259206880067784","1359183147123867881"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1530499232430035107",
     "addedAt": "2026-07-25T08:57:32.312Z", "updatedAt": "2026-08-17T20:13:56.938Z"
-  },
-  {
-    "id": "anicrush", "name": "Anicrush", "version": "1.1.2", "author": "Thekingcrusher",
-    "description": "Anicrush is an online stream provider for both sub and dub with soft subs.",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/anicrush/logo.png",
-    "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/anicrush/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": false, "deprecatedTag": true,
-    "tags": ["1359183296591823124","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": null, "stars": 7, "threadId": "1400546132240633916", "addedAt": "2025-07-31T18:30:18.815Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "anidb", "name": "AniDB", "version": "1.0.1", "author": "Pal",
@@ -571,30 +531,6 @@
     "addedAt": "2025-11-24T17:21:08.276Z", "updatedAt": "2026-07-16T12:33:24.314Z"
   },
   {
-    "id": "animekai", "name": "AnimeKai", "version": "1.2.1", "author": "kRYstall9",
-    "description": "AnimeKai is an online streaming provider for subbed/dubbes animes in English",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "en", "icon": "",
-    "manifestURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeKai/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeKai/provider.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/01cd3f120276fd50ccd2a2dea54085a365c86c54c34e2da56aa4d17bfca68035",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": true,
-    "tags": ["1359183296591823124","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": null, "stars": 12, "threadId": "1359262826606362784",
-    "addedAt": "2025-04-08T20:25:11.745Z", "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
-    "id": "animepahe", "name": "Animepahe", "version": "1.0.7", "author": "ItsSkaiya & Pal",
-    "description": "Animepahe streaming provider for Seanime", "type": "onlinestream-provider",
-    "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/Pal-droid/seanime-marketplace/refs/heads/main/animepahe.png",
-    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animepahe/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": true, "deprecatedTag": true, "tags": ["1359183296591823124"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": null, "stars": 5, "threadId": "1431807801444925540", "addedAt": "2025-10-26T00:53:01.567Z",
-    "updatedAt": "2026-08-17T20:13:56.938Z"
-  },
-  {
     "id": "animesamamanga", "name": "AnimeSama (Manga)", "version": "2.1.0", "author": "pal & Rafou376",
     "description": "AnimeSama is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "fr",
@@ -811,18 +747,6 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": null, "stars": 2, "threadId": "1461429630023242005", "addedAt": "2026-01-15T18:39:35.847Z",
-    "updatedAt": "2026-07-06T15:13:11.445Z"
-  },
-  {
-    "id": "aniwatchtv", "name": "AniWatch", "version": "1.0.0", "author": "Thekingcrusher",
-    "description": "AniWatch is an online stream provider for both sub and dub with soft subs.",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/aniwatchtv/logo.png",
-    "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/aniwatchtv/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": false, "deprecatedTag": true,
-    "tags": ["1359183296591823124","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": null, "stars": 4, "threadId": "1495056725835911190", "addedAt": "2026-04-18T13:41:40.250Z",
     "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
@@ -1284,20 +1208,6 @@
     "addedAt": "2026-08-08T07:34:59.412Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
-    "id": "discord-rpc-episode-title", "name": "Discord RPC Episode Title", "version": "1.2.0",
-    "author": "S1lent999", "description": "Shows anime episode title with custom formats in Discord RPC",
-    "type": "plugin", "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-logo.jpg",
-    "manifestURI": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-rpc-episode-title.json",
-    "payloadURI": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-rpc-episode-title.ts",
-    "website": "", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/453b3c405c42d3ecca43fb90b573de6063847c761b6a5ab460e921d08e5896d1",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": true,
-    "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.9.1", "stars": 8, "threadId": "1524795196007645304",
-    "addedAt": "2026-07-09T15:11:44.053Z", "updatedAt": "2026-08-05T16:59:38.078Z"
-  },
-  {
     "id": "discord-rpc-extended", "name": "Discord RPC Extended", "version": "1.0.10", "author": "nnotwen",
     "description": "Provide more info for Discord RPC.", "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Extended/icon.png",
@@ -1609,20 +1519,6 @@
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 3, "threadId": "1514285000395329729",
     "addedAt": "2026-06-10T15:07:58.149Z", "updatedAt": "2026-07-11T21:09:55.985Z"
-  },
-  {
-    "id": "ilcorsaronero", "name": "IlCorsaroNero", "version": "2.0.0", "author": "Faddix",
-    "description": "Integrates IlCorsaroNero as a torrent streaming provider for Seanime.",
-    "type": "anime-torrent-provider", "language": "typescript", "lang": "it",
-    "icon": "https://raw.githubusercontent.com/faddix/seanime-iCN/main/src/iCN-logo.png",
-    "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-iCN/main/ilcorsaronero.json",
-    "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-iCN/main/iCN.ts", "website": "", "flags": "0/62",
-    "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/79f92ffd2211c3f94d434f47927cda9b4fd5356176425bf1898568d8d6c475c3",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": true,
-    "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": null, "stars": 5, "threadId": "1424454605147996181", "addedAt": "2025-10-05T17:54:02.954Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "jkanime", "name": "JkAnime", "version": "1.0.1", "author": "mohaisreal",
@@ -2844,18 +2740,6 @@
     "addedAt": "2026-01-19T04:37:05.410Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
-    "id": "sudatchi", "name": "Sudatchi", "version": "1.0.3", "author": "Thekingcrusher",
-    "description": "Sudatchi is an online stream provider for both sub and dub (mostly sub only), utilizing ASS subtitles",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/sudatchi/logo.ico",
-    "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/sudatchi/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": false, "deprecatedTag": true,
-    "tags": ["1359183296591823124","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": null, "stars": 2, "threadId": "1452248873295810712", "addedAt": "2025-12-21T10:38:32.873Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
     "id": "sushiscan", "name": "SushiScan", "version": "1.0.0", "author": "branrgx",
     "description": "An extension for Seanime for SushiScan, a French platform offering an extensive library of mangas, manhuas, manhwas, comics and BDs in French.",
     "type": "manga-provider", "language": "typescript", "lang": "fr",
@@ -3251,18 +3135,6 @@
     "manifestURI": "https://island.clap.ing/api/extensions/manga-providers/weebcentral/weebcentral.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
-  },
-  {
-    "id": "weebdex", "name": "WeebDex", "version": "1.0.2", "author": "ari___",
-    "description": "WeebDex manga provider for Seanime - access manga from weebdex.org", "type": "manga-provider",
-    "language": "typescript", "lang": "MULTI", "icon": "",
-    "manifestURI": "https://raw.githubusercontent.com/Ari-03/weebdex/refs/heads/main/weebdex.json",
-    "payloadURI": "https://raw.githubusercontent.com/Ari-03/weebdex/refs/heads/main/provider.ts", "website": "",
-    "flags": "0/58", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/26a4dd8248562df28eaee1aa20621ae54feffd1868e2a35704187b64a534e96b",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": true, "tags": ["1359183211099459916"],
-    "scannedOnVersion": "3.10.2", "lastWorkingVersion": null, "stars": 0, "threadId": "1435386907013152938",
-    "addedAt": "2025-11-04T21:55:06.831Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "xanime", "name": "XAnime", "version": "1.0.0", "author": "fampep",
