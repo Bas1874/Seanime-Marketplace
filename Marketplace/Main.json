@@ -531,6 +531,20 @@
     "addedAt": "2025-11-24T17:21:08.276Z", "updatedAt": "2026-07-16T12:33:24.314Z"
   },
   {
+    "id": "animesalt", "name": "AnimeSalt", "version": "1.0.1", "author": "mohaisreal",
+    "description": "AnimeSalt is an online streaming provider for Hindi, Tamil, Telugu, English and Japanese anime streams.",
+    "type": "onlinestream-provider", "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/AnimeSalt/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/AnimeSalt/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/AnimeSalt/main.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f6a9f0b0b08a60c426c7c8dfedab7b1442428029a607730f7c2ab485a45cbc85",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1509989485843185735",
+    "addedAt": "2026-05-29T18:39:07.673Z", "updatedAt": "2026-08-26T15:49:59.907Z"
+  },
+  {
     "id": "animesamamanga", "name": "AnimeSama (Manga)", "version": "2.1.0", "author": "pal & Rafou376",
     "description": "AnimeSama is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "fr",
