@@ -182,10 +182,13 @@
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anikoto/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anikoto/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": true, "deprecatedTag": false, "tags": ["1359183147123867881","1359183296591823124"],
-    "scannedOnVersion": "3.10.2", "lastWorkingVersion": null, "stars": 2, "threadId": "1505372332682776649",
-    "addedAt": "2026-05-17T00:52:12.577Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anikoto/payload.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5ece4f75a9d2ffb1122eaee183335f148f52c78c16653d0d46ad8369c4050676",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
+    "stars": 2, "threadId": "1505372332682776649", "addedAt": "2026-05-17T00:52:12.577Z",
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "AniLiberty", "name": "AniLiberty", "version": "1.0.1", "author": "vsecoder",
@@ -430,11 +433,13 @@
     "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-sama/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-sama/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": false, "deprecatedTag": false,
+    "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-sama/payload.ts",
+    "website": "", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f10bf7aa0dbbab8b8916b6a7acca23c078360ea03960fbb56b97b2c076b74d0f",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": null, "stars": 4, "threadId": "1412209065957789737", "addedAt": "2025-09-01T22:54:38.900Z",
-    "updatedAt": "2026-08-23T20:22:50.635Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "anime-sama-vip-online-streaming", "name": "FR | Anime-Sama VIP", "version": "1.0.1",
@@ -442,11 +447,13 @@
     "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-sama-vip/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-sama-vip/manifest.json",
-    "payloadURI": "", "website": "https://v11.anime-sama.vip/", "flags": "Unscanned", "flaggedBy": [],
-    "permalink": "", "workingTag": false, "brokenTag": true, "deprecatedTag": false,
+    "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-sama-vip/payload.ts",
+    "website": "https://v11.anime-sama.vip/", "flags": "0/55", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/780e89df875d7bd4f0d86c1e1f42a253e84455a364dd499e81a4ff243222fa9a",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1499546191929544845", "addedAt": "2026-04-30T23:01:12.377Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "anime-ultra-online-streaming", "name": "FR | Anime Ultra", "version": "1.0.5", "author": "TropicalFrog3",
@@ -454,11 +461,13 @@
     "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-ultra/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-ultra/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": true, "deprecatedTag": false,
+    "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-ultra/payload.ts",
+    "website": "", "flags": "0/51", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/51d43d339d5c88d9d85f234bd58ce610ec34a6f014b9ec4cc1abc6a71f376516",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1417542074907234345", "addedAt": "2025-09-16T16:06:07.316Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "anime-uniquestream", "name": "Anime UniqueStream", "version": "1.0.0", "author": "jabifx",
@@ -1347,11 +1356,13 @@
     "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/french-anime/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/french-anime/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": true, "deprecatedTag": false,
+    "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/french-anime/payload.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/09bf5a55b744e98dfad6e3a017a13378ce8548561ac23789e7d2287c80814607",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": null, "stars": 4, "threadId": "1408504187507048508", "addedAt": "2025-08-22T17:32:47.044Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "friend-stats", "name": "Friend stats", "version": "1.2.0", "author": "Kaktus",
@@ -1401,11 +1412,13 @@
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hanime/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hanime/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": true, "deprecatedTag": false,
+    "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hanime/payload.ts",
+    "website": "", "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/2686c497015e300ddb392f53fe250e4b390065f6ade7a8b523d69366a8ad0857",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": null, "stars": 10, "threadId": "1404264498134782073",
-    "addedAt": "2025-08-11T00:45:46.328Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2025-08-11T00:45:46.328Z", "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "hentai2read", "name": "Hentai2Read (18+)", "version": "1.0.0", "author": "eepyboba",
@@ -1447,11 +1460,13 @@
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hentaihaven/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hentaihaven/manifest.json",
-    "payloadURI": "", "website": "https://hentaihaven.xxx", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
+    "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hentaihaven/payload.ts",
+    "website": "https://hentaihaven.xxx", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/45319fa2b7d63a105742301f54f741d1474ac75fd3032a35493aa6bef2b6b7fa",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 4, "threadId": "1499541991435014249",
-    "addedAt": "2026-04-30T22:44:30.901Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2026-04-30T22:44:30.901Z", "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "hentaisaturn", "name": "HentaiSaturn", "version": "1.1.1", "author": "Pal",
@@ -2404,11 +2419,13 @@
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/oppai-stream/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/oppai-stream/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": true, "deprecatedTag": false,
+    "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/oppai-stream/payload.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/eb9c6f8b5003983c5c7499d4789fbce873e7684e131c7f443f063de0d4a43b36",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": null, "stars": 2, "threadId": "1412517567330779346", "addedAt": "2025-09-02T19:20:31.359Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "picked-for-you", "name": "Picked For You", "version": "1.2.0", "author": "kRYstall9",
@@ -2867,11 +2884,13 @@
     "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/toonanime/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/toonanime/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": true, "deprecatedTag": false,
+    "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/toonanime/payload.ts",
+    "website": "", "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0ac1f9c4d3735bb369b14ba37987a41fc24ba8984f63cf5ae8e2e329aa030ee5",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": null, "stars": 6, "threadId": "1405015716100313139", "addedAt": "2025-08-13T02:30:50.648Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "toongod", "name": "Toongod", "version": "1.0.5", "author": "branrgx",
@@ -3072,11 +3091,13 @@
     "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/vostfree/favicon.png",
     "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/vostfree/manifest.json",
-    "payloadURI": "", "website": "https://vostfree.ws", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
+    "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/vostfree/payload.ts",
+    "website": "https://vostfree.ws", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5ed2e1ebde1f104c303a8d025ccc130549d22a4f9c7320285c858d7909ead70f",
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1499550391975546900", "addedAt": "2026-04-30T23:17:53.746Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "Watch-Next", "name": "Watch Next", "version": "1.1.0", "author": "bas1874",
