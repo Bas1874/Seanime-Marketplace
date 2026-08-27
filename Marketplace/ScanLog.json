@@ -665,11 +665,11 @@
     "timestamp": 1771870574708, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
-    "id": "donghuastream", "version": "1.0.0",
+    "id": "donghuastream", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/donghuastream/provider.js",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/daf63e45d0d2fffeefdf1de6ab4dd8f69e560475d6a14a431290ebd3aab82492",
-    "lastWorkingVersion": "3.9.1", "timestamp": 1783610669132, "hadWorkingTag": false
+    "permalink": "https://www.virustotal.com/gui/file/9b16c9f75ef9aec40ce7efa4835586cb2cae006ffe5b327e1c4698512e8b7764",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1787831486078
   },
   {
     "id": "Doom", "version": "1.0.3",
