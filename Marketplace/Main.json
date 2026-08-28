@@ -2642,17 +2642,18 @@
     "addedAt": "2025-08-06T22:42:53.011Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "shikimorisync", "name": "ShikimoriSync", "version": "1.3.0", "author": "nnotwen",
+    "id": "shikimorisync", "name": "ShikimoriSync", "version": "1.3.1", "author": "nnotwen",
     "description": "Автоматически синхронизировать прогресс с Shikimori.one", "type": "plugin",
-    "language": "typescript", "lang": "ru", "icon": "https://shikimori.io/favicons/favicon-96x96.png",
+    "language": "typescript", "lang": "ru",
+    "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/ShikimoriSync/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/ShikimoriSync/shikimorisync.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/ShikimoriSync/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9b61f5b886a083e5e1f1562347de5a58bb0eea7925b6426fbbd8e8b8dc5f1c99",
+    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/6186af4a8c61f57f7046c6660122f69636b2071db98bbd8618175e0446c2865c",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183211099459916","1359183394512048148"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1443847613899210853",
-    "addedAt": "2025-11-28T06:14:56.545Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2025-11-28T06:14:56.545Z", "updatedAt": "2026-08-28T15:54:04.369Z"
   },
   {
     "id": "simkl", "name": "Simkl", "version": "1.1.2", "author": "jabifx",
