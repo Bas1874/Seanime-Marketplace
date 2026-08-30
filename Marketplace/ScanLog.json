@@ -252,11 +252,11 @@
     "timestamp": 1771871268140, "lastWorkingVersion": "3.10.2", "hadWorkingTag": true
   },
   {
-    "id": "anime-sama-online-streaming", "version": "3.1.3",
+    "id": "anime-sama-online-streaming", "version": "3.1.4",
     "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-sama/payload.ts",
-    "flags": "0/59", "flaggedBy": [],
+    "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/f10bf7aa0dbbab8b8916b6a7acca23c078360ea03960fbb56b97b2c076b74d0f",
-    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1787788230780
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1788119946318
   },
   {
     "id": "anime-sama-vip-online-streaming", "version": "1.0.1",
