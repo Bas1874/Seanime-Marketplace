@@ -5,37 +5,7 @@
     "originalMessageContent": "> **Extension Name:**\n> Example Name\n> \n> **Version:**\n> 0.69\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Example/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Example/manifest.json```\n> **Description:**\n> Extension for (EXAMPLE), an online streaming provider for subbed/dubbed anime in English, made by Bas1874\n> \n> **Additional Notes:**\n> Share any extra details, acknowledgments, or troubleshooting tips."
   },
   {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1407549113611849842",
-    "reason": "Request failed with status code 400",
-    "originalMessageContent": "> **Extension Name:**\n> Anime News\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/SyntaxSama/aninewsnet-seanime/refs/heads/main/manifest.json) / Copy the link below:\n> ```https://raw.githubusercontent.com/SyntaxSama/aninewsnet-seanime/refs/heads/main/manifest.json```\n> \n> **Description:**\n> Stay up to date on the latest anime news from Anime News Network right inside of your Seanime instance!\n> \n> **Additional Notes:**\n> This is paginated & you can read the articles, this plugin is something you will have in the tray plugins. News gets fetched every 10 minutes to not flood / spam requests."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1407944055026880572",
-    "reason": "Request failed with status code 400",
-    "originalMessageContent": "> **Extension Name:**\n> MangaLivre\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mangalivre.tv/mangalivre-tv.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mangalivre.tv/mangalivre-tv.json```\n> **Description:**\n> Provider de mangás do site MangaLivre.tv - Um site com mangás traduzidos para o português.\n> \n> **Additional Notes:**\n> Brazilian provider - pt-BR"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1441502445787418624",
-    "reason": "Request failed with status code 400",
-    "originalMessageContent": "> **Extension name:**\n> MangaWorldAdult\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/MangaWorldAdult/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/MangaWorldAdult/manifest.json```\n> **Description:**\n> A manga provider for NSFW italian manga, made by pal\n> \n> **Additional Notes:**\n> Literally stole the code from <@189662119598227456> <:CreepySmile:1364280509357625406>"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1499541991435014249",
-    "reason": "Request failed with status code 400",
-    "originalMessageContent": "> **Extension Name:**\n> HentaiHaven\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link**\n> [Click Here](https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hentaihaven/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hentaihaven/manifest.json```\n> **Description:**\n> Provides seamless integration with the HentaiHaven.xxx catalog for online streaming within Seanime, enabling users to browse, search, and watch available titles directly from the platform."
-  },
-  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1512128627997675803", "reason": "404 Not Found.",
     "originalMessageContent": "> **LST Tracker:**\n> LST Tracker Seanime\n> \n> **Version:**\n> 1.0.1\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/SamF-Web/LST-Seanime-Extension/refs/heads/main/manifest.json)  / Copy the link below: \n> https://raw.githubusercontent.com/SamF-Web/LST-Seanime-Extension/refs/heads/main/manifest.json\n> **Description:**\n> Extenstion for LST.gg Private Tracker with a decent anime libary (mainly unmessed with Web-dl and bluray)\n> \n> **Additional Notes:**\n> I will update it as it stops working due to unit3d updates, this is a good template for other PTs.\n> \nChangelog: [MM/DD/YYYY]\n`V1.0.2 | 06/04/2026` : Fixed Single EPs showing in batches search"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1515441632437211246",
-    "reason": "Request failed with status code 400",
-    "originalMessageContent": "> **Extension Name:**\n> SushiScan\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/SushiScan/manifest.json) / Copy the link below: \n> ```https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/SushiScan/manifest.json```\n> \n> **Description:**\n> An extension for Seanime for SushiScan, a French platform offering an extensive library of mangas, manhuas, manhwas, comics and BDs in French.\n> \n> **Additional Notes:**\n> This extension supports bypassing Cloudflare challenges via FlareSolverr. To use it, you must have FlareSolverr installed and running on your machine. Enable the proxy option in the extension settings and set your FlareSolverr URL (default: http://127.0.0.1:8191). If SushiScan stops using Cloudflare challenges, you can disable the bypass from the same settings."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1516049025797853285",
-    "reason": "Request failed with status code 400",
-    "originalMessageContent": "> **Extension Name:**\n> AnimesOnlineCC\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesonlinecc/animesonlinecc.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesonlinecc/animesonlinecc.json```\n> **Description:**\n> AnimesOnlineCC's Anime Streaming Provider\n> \n> **Additional Notes:**\n> pt-BR"
   }
 ]
