@@ -400,20 +400,6 @@
     "addedAt": "2026-07-19T06:16:15.072Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
-    "id": "anime-news", "name": "Anime News", "version": "1.2.2", "author": "SyntaxSama & Pal",
-    "description": "Get anime news in your Seanime instance!", "type": "plugin", "language": "typescript",
-    "lang": "EN",
-    "icon": "https://raw.githubusercontent.com/Pal-droid/aninewsnet-seanime/refs/heads/main/animenewsnetwork.png",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/aninewsnet-seanime/refs/heads/main/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/aninewsnet-seanime/refs/heads/main/animenews.ts",
-    "website": "", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5a3d4ebfaae0aeee9c348e70eef9ea6ea4eeaf9b11ae9b471ce4a86262b41aa0",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 5, "threadId": "1407549113611849842",
-    "addedAt": "2025-08-20T02:17:39.683Z", "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
     "id": "anime-notes", "name": "Anime Notes", "version": "2.0.2", "author": "Faddix, Bas1874",
     "description": "✏️ Add personal notes to anime.", "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/faddix/anime-notes/main/src/notepad.png",
@@ -606,20 +592,6 @@
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062","1360636715643179231"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.8.7", "stars": 0, "threadId": "1522032961845854268",
     "addedAt": "2026-07-02T00:15:36.109Z", "updatedAt": "2026-07-12T23:17:56.963Z"
-  },
-  {
-    "id": "animesonlinecc-provider", "name": "AnimesOnlineCC", "version": "1.0.2", "author": "Jhoorodr",
-    "description": "Anime streaming provider for AnimesOnlineCC. May only work with a Brazil VPN.",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
-    "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/animesonlinecc.png",
-    "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesonlinecc/animesonlinecc.json",
-    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesonlinecc/animesonlinecc.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/693beb3cc6e2147e91f1db302ef4f441ca306f258b225f82cbf6ceb82cd0621c",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1516049025797853285",
-    "addedAt": "2026-06-15T11:57:34.579Z", "updatedAt": "2026-07-12T23:17:56.963Z"
   },
   {
     "id": "animethemes", "name": "AnimeThemes Player", "version": "2.0.4", "author": "jabifx",
@@ -1454,21 +1426,6 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "hentaihaven-online-streaming", "name": "EN | HentaiHaven (18+)", "version": "1.1.0",
-    "author": "TropicalFrog3",
-    "description": "Provides seamless integration with the HentaiHaven.xxx catalog for online streaming within Seanime, enabling users to browse, search, and watch available titles directly from the platform.",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hentaihaven/favicon.png",
-    "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hentaihaven/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hentaihaven/payload.ts",
-    "website": "https://hentaihaven.xxx", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/45319fa2b7d63a105742301f54f741d1474ac75fd3032a35493aa6bef2b6b7fa",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 4, "threadId": "1499541991435014249",
-    "addedAt": "2026-04-30T22:44:30.901Z", "updatedAt": "2026-08-27T00:06:58.007Z"
-  },
-  {
     "id": "hentaisaturn", "name": "HentaiSaturn", "version": "1.1.1", "author": "Pal",
     "description": "HentaiSaturn is an online streaming provider for subbed/dubbed Hentai in Italian",
     "type": "onlinestream-provider", "language": "typescript", "lang": "it",
@@ -1967,20 +1924,6 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1499455893635469343", "addedAt": "2026-04-30T17:02:23.586Z",
     "updatedAt": "2026-07-06T15:13:11.445Z"
-  },
-  {
-    "id": "mangalivre-tv", "name": "MangaLivre.tv", "version": "1.1.9", "author": "jhoorodr",
-    "description": "Manga provider for the MangaLivre.tv site (now ToonLivre) - a site with manga translated into Portuguese",
-    "type": "manga-provider", "language": "typescript", "lang": "pt-BR",
-    "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/mangalivre.tv.png",
-    "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mangalivre.tv/mangalivre-tv.json",
-    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mangalivre.tv/mangalivre-tv.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e4ebc2171ecd8667e259819a159972b5a96226f1cb9e2e0cd2b2d1219a522d72",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
-    "stars": 4, "threadId": "1407944055026880572", "addedAt": "2025-08-21T04:27:01.054Z",
-    "updatedAt": "2026-07-12T23:17:56.963Z"
   },
   {
     "id": "mangaoni", "name": "MangaOni", "version": "1.0.0", "author": "mohaisreal",
@@ -2770,20 +2713,6 @@
     "brokenTag": true, "deprecatedTag": false, "tags": ["1359183147123867881","1359183394512048148"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": null, "stars": 11, "threadId": "1462667157585530942",
     "addedAt": "2026-01-19T04:37:05.410Z", "updatedAt": "2026-08-17T20:13:56.938Z"
-  },
-  {
-    "id": "sushiscan", "name": "SushiScan", "version": "1.0.0", "author": "branrgx",
-    "description": "An extension for Seanime for SushiScan, a French platform offering an extensive library of mangas, manhuas, manhwas, comics and BDs in French.",
-    "type": "manga-provider", "language": "typescript", "lang": "fr",
-    "icon": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/SushiScan/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/SushiScan/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/SushiScan/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8f6b4343ee08c63fb45d3fb019810b340bb99d7602f28e01957a08ddd79780ac",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
-    "stars": 0, "threadId": "1515441632437211246", "addedAt": "2026-06-13T19:44:00.717Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "taiyo", "name": "Taiyo", "version": "1.0.1", "author": "pal",
