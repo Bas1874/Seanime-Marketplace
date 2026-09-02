@@ -669,7 +669,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/donghuastream/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/9b16c9f75ef9aec40ce7efa4835586cb2cae006ffe5b327e1c4698512e8b7764",
-    "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1787831486078
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787831486078
   },
   {
     "id": "Doom", "version": "1.0.3",
