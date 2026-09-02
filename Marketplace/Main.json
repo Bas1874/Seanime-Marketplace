@@ -922,18 +922,18 @@
     "addedAt": "2026-01-11T19:18:23.452Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "atsumaru", "name": "Atsumaru", "version": "1.1.0", "author": "Pal",
+    "id": "atsumaru", "name": "Atsumaru", "version": "1.1.1", "author": "Pal",
     "description": "Atsumaru is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "en",
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/atsumaru.ico",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/atsumaru/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/atsumaru/provider.js",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2a8538f53c057caea9dce9d527b80bc29928bc48518462e9bced7561e71f707d",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
-    "stars": 3, "threadId": "1488456218048462878", "addedAt": "2026-03-31T08:33:36.562Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/9e371c0f5c4b86c63e66441756e4a93f2e969eae39f07546604d3a604ad48b6a",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 3, "threadId": "1488456218048462878",
+    "addedAt": "2026-03-31T08:33:36.562Z", "updatedAt": "2026-09-02T12:01:00.965Z"
   },
   {
     "id": "bangumi-ui", "name": "Bangumi 番组计划", "version": "1.2.3", "author": "Elisoar",
