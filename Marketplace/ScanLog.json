@@ -490,11 +490,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1782204112427, "hadWorkingTag": false
   },
   {
-    "id": "atsumaru", "version": "1.1.0",
+    "id": "atsumaru", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/atsumaru/provider.js",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2a8538f53c057caea9dce9d527b80bc29928bc48518462e9bced7561e71f707d",
-    "timestamp": 1778348327690, "hadWorkingTag": false
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/9e371c0f5c4b86c63e66441756e4a93f2e969eae39f07546604d3a604ad48b6a",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1788350460712
   },
   {
     "id": "bangumi-ui", "version": "1.2.3",
