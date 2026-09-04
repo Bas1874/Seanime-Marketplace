@@ -729,11 +729,11 @@
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/animo/logo.png",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/animo/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
-    "brokenTag": false, "deprecatedTag": false,
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
+    "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1515974530282160293",
-    "addedAt": "2026-06-15T07:01:33.464Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "lastWorkingVersion": null, "stars": 1, "threadId": "1515974530282160293", "addedAt": "2026-06-15T07:01:33.464Z",
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "anineko", "name": "AniNeko", "version": "1.0.0", "author": "Thekingcrusher",
@@ -1363,6 +1363,18 @@
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": null, "stars": 4, "threadId": "1408504187507048508", "addedAt": "2025-08-22T17:32:47.044Z",
     "updatedAt": "2026-08-27T00:06:58.007Z"
+  },
+  {
+    "id": "french-stream", "name": "French Stream", "version": "1.0.0", "author": "Rafou376",
+    "description": "French Stream est une plateforme de streaming supportant séries et films",
+    "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/french-stream/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/french-stream/manifest.json",
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
+    "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": null, "stars": 0, "threadId": "1545383472682635334", "addedAt": "2026-09-04T10:42:11.724Z",
+    "updatedAt": "2026-09-04T12:03:20.355Z"
   },
   {
     "id": "friend-stats", "name": "Friend stats", "version": "1.2.0", "author": "Kaktus",
@@ -2622,10 +2634,10 @@
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/senshi/logo.png",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/senshi/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
-    "brokenTag": false, "deprecatedTag": false,
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
+    "brokenTag": true, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1496830248463896647",
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": null, "stars": 1, "threadId": "1496830248463896647",
     "addedAt": "2026-04-23T11:09:00.995Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
