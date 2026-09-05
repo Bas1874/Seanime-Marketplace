@@ -2572,6 +2572,19 @@
     "addedAt": "2026-07-11T00:45:16.925Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
+    "id": "score-extended", "name": "Score Extended", "version": "1.0.0", "author": "nnotwen",
+    "description": "Extended scoring functionality.", "type": "plugin", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Score%20Extended/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Score%20Extended/score-extended.json",
+    "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Score%20Extended/provider.ts",
+    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/55baddb910ac42722624d1595f72bbe03327d7b5d6c1adcd64b524160c67e31c",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": null, "stars": 0, "threadId": "1545782561492443226", "addedAt": "2026-09-05T13:08:01.911Z",
+    "updatedAt": "2026-09-05T16:05:39.350Z"
+  },
+  {
     "id": "seadex", "name": "SeaDex", "version": "1.0.4", "author": "Island",
     "description": "SeaDex provider for high quality torrents", "type": "anime-torrent-provider",
     "language": "typescript", "lang": "multi", "icon": "https://island.clap.ing/api/extensions/icons/seadex.png",
