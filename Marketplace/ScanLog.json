@@ -1302,6 +1302,13 @@
     "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1783736701699
   },
   {
+    "id": "score-extended", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Score%20Extended/provider.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/55baddb910ac42722624d1595f72bbe03327d7b5d6c1adcd64b524160c67e31c",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1788624339101
+  },
+  {
     "id": "seanime-download-notifier", "version": "1.0.0",
     "payloadURI": "https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/plugin.js",
     "flags": "0/61", "flaggedBy": [],
