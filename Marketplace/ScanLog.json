@@ -721,11 +721,11 @@
     "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1787788847761
   },
   {
-    "id": "friend-stats", "version": "1.2.0",
+    "id": "friend-stats", "version": "1.2.1",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/friend-stats/main.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/33d58f37cb1996927372879d9d302614f07fba96e807afaf85d1505bbcffdeb7",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787084826584
+    "flags": "0/56", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a15cd09d7737b914259586e9bc0b5ef53283d098b295c9a3673fdfd1359e7a4e",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1788566916382
   },
   {
     "id": "gojowtf", "version": "1.1.4",
