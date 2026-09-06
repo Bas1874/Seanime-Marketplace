@@ -1365,16 +1365,16 @@
     "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
-    "id": "french-stream", "name": "French Stream", "version": "1.0.0", "author": "Rafou376",
+    "id": "french-stream", "name": "French Stream", "version": "1.1.0", "author": "Rafou376",
     "description": "French Stream est une plateforme de streaming supportant séries et films",
     "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/french-stream/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/french-stream/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": null, "stars": 0, "threadId": "1545383472682635334", "addedAt": "2026-09-04T10:42:11.724Z",
-    "updatedAt": "2026-09-04T12:03:20.355Z"
+    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1545383472682635334",
+    "addedAt": "2026-09-04T10:42:11.724Z", "updatedAt": "2026-09-06T00:04:52.178Z"
   },
   {
     "id": "friend-stats", "name": "Friend stats", "version": "1.2.1", "author": "Kaktus",
