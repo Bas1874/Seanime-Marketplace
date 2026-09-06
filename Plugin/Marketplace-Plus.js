@@ -755,7 +755,16 @@ function init() {
             fetch(FEED_URL, { timeout: 15 }).then(function (res) {
                 if (res.ok) {
                     var data = res.json()
-                    if (Array.isArray(data)) {
+                    // Integrity check: only accept a well-formed array of plain
+                    // objects from the feed before it is trusted and persisted.
+                    // Rejects non-array payloads, non-object entries, and
+                    // entries carrying dangerous keys (prototype pollution).
+                    if (Array.isArray(data) && data.every(function (it) {
+                        return it && typeof it === "object" && !Array.isArray(it) &&
+                            !Object.prototype.hasOwnProperty.call(it, "__proto__") &&
+                            !Object.prototype.hasOwnProperty.call(it, "constructor") &&
+                            !Object.prototype.hasOwnProperty.call(it, "prototype")
+                    })) {
                         catalog.set(data)
                         indexCatalog()
                         fetchedAt = Date.now()
