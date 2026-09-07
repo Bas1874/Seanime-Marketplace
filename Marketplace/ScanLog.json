@@ -693,11 +693,11 @@
     "timestamp": 1771873431222, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
-    "id": "ext", "version": "1.3.1",
+    "id": "ext", "version": "1.4.1",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/EXT/main.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e7d13f366962f44346939d0f7e491cd97da39c35a4a92998e8c322e728635bc8",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787098479146
+    "permalink": "https://www.virustotal.com/gui/file/ea26feb7c69c69587949dd9cf2732f0ad02a014100fde793a649924e96e49f45",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1788739623168
   },
   {
     "id": "fancy-fonts", "version": "1.0.2",
