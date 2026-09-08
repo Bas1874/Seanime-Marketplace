@@ -826,6 +826,13 @@
     "timestamp": 1776299336355, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
+    "id": "knaben", "version": "1.1.0",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Knaben/main.ts",
+    "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b5a0e696f51fa0fd53559ab146810d30a038e211432f9c3440f8f403ea1c85c3",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1788883867747
+  },
+  {
     "id": "komikcast", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/komikcast/provider.js",
     "flags": "0/62", "flaggedBy": [],
