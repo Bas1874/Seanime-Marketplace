@@ -1614,6 +1614,20 @@
     "addedAt": "2025-12-06T18:40:56.766Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "knaben", "name": "Knaben", "version": "1.1.0", "author": "aor-rex",
+    "description": "Knaben Database torrent provider for anime and more.", "type": "anime-torrent-provider",
+    "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Knaben/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Knaben/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Knaben/main.ts",
+    "website": "", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b5a0e696f51fa0fd53559ab146810d30a038e211432f9c3440f8f403ea1c85c3",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259206880067784","1359183147123867881","1359259306087940146"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1546892179752882298",
+    "addedAt": "2026-09-08T14:37:15.520Z", "updatedAt": "2026-09-08T16:11:07.982Z"
+  },
+  {
     "id": "komikcast", "name": "KomikCast", "version": "1.2.0", "author": "pal",
     "description": "KomikCast is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "id", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/komikcast.png",
