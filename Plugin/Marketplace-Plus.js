@@ -1,5 +1,5 @@
 // ================================================================
-//  Marketplace+ v1.1.1  ·  by bas1874
+//  Marketplace+ v1.1.2  ·  by bas1874
 //  Based on original seatags concept by Aqua
 // ================================================================
 
@@ -8,6 +8,14 @@ function init() {
 
         // ------------------------------------------------ settings
         var FEED_URL = "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json"
+        // Anonymous install counter. One request per Install click, carrying
+        // nothing but the extension id — no account, no device id, no list of
+        // what's installed. The server keeps a daily-salted hash of the IP
+        // just long enough to ignore repeats, then deletes it. Users can turn
+        // this off in the tray. See marketplace-downloads/SETUP.md.
+        // ⚠ Replace the host below with your deployed Worker, and mirror it
+        //   in the manifest's permissions.allow.networkAccess.allowedDomains.
+        var STATS_URL = "https://mplus-stats.YOUR-SUBDOMAIN.workers.dev"
         var DISCORD_GUILD = "1224767201551192224"
         var STORE_KEY = "mplus:feed:v2"
         var FRESH_FOR = 60 * 60 * 1000 // refetch after 1 hour
@@ -23,6 +31,7 @@ function init() {
         var SORT_MENU = [
             ["default", "Default order"],
             ["stars", "Most stars"],
+            ["downloads", "Most downloaded"],
             ["updated", "Recently updated"],
         ]
         var NEW_FOR = 14 * 86400000 // "New" badge window: 14 days
@@ -66,6 +75,7 @@ function init() {
             ".mplus-lang{background:rgba(239,246,255,.10);color:#93c5fd}" +
             ".mplus-plain{background:transparent;color:rgba(255,255,255,.4);padding:0}" +
             ".mplus-stars{background:transparent;color:#fcd34d;padding:0}" +
+            ".mplus-dl{background:transparent;color:#93c5fd;padding:0}" +
             ".mplus-new{font-weight:700;background:rgba(167,139,250,.16);color:#c4b5fd;border-color:rgba(167,139,250,.5)}" +
             ".mplus-audio{background:rgba(45,212,191,.12);color:#5eead4;border-color:rgba(45,212,191,.35)}" +
             ".mplus-chat{background:rgba(88,101,242,.16);color:#a5b0ff;border-color:rgba(88,101,242,.5);cursor:pointer;text-decoration:none;transition:background .15s}" +
@@ -103,6 +113,7 @@ function init() {
         var pageReady = false
         var epoch = 0               // bumped only on client reload
         var seenInputs = {}
+        var onMarketplace = false   // true while the marketplace list is the one on screen
         var nativeBoxClass = ""
         var marks = {}              // element-id → { el, stars, status } for sorting
         var modalMarks = {}         // element-id → extension key, guards double-decoration
@@ -128,11 +139,13 @@ function init() {
             chipAuthor: true,
             chipLanguage: true,
             chipStars: true,
+            chipDownloads: true,
             chipUpdated: true,
             chipSupport: true,
             detailsBox: true,
             hideBroken: true,
             streamAlerts: true,
+            sendStats: true,
         }
         // Needs the "settings" scope. Without it the plugin still runs,
         // just with fixed defaults and no tray.
@@ -186,6 +199,17 @@ function init() {
         function starsOf(entry) {
             return (entry && typeof entry.stars === "number" && entry.stars > 0) ? entry.stars : 0
         }
+        // 30-day install count, written into the feed by the marketplace's
+        // nightly job. Absent for extensions nobody has installed since the
+        // counter went live — those simply get no chip.
+        function downloadsOf(entry) {
+            return (entry && typeof entry.downloads === "number" && entry.downloads > 0) ? entry.downloads : 0
+        }
+        function countText(n) {
+            if (n >= 1000000) return String(Math.round(n / 100000) / 10) + "M"
+            if (n >= 1000) return String(Math.round(n / 100) / 10) + "k"
+            return String(n)
+        }
         // Default layout: working first, then untagged, deprecated, broken.
         // "Most stars" layout: highest star count first.
         function rankOf(status) {
@@ -218,6 +242,9 @@ function init() {
         function orderFor(entry, status) {
             var mode = sortPick.get()
             if (mode === "stars") return String(9999 - starsOf(entry))
+            // Negative order puts counted extensions ahead of the uncounted
+            // ones, which stay at the CSS default of 0.
+            if (mode === "downloads") return String(-downloadsOf(entry))
             if (mode === "updated") {
                 var t = whenOf(entry && entry.updatedAt)
                 return String(t ? Math.floor((Date.now() - t) / 60000) : 99999999)
@@ -293,6 +320,8 @@ function init() {
             if (entry.language && pref("chipLanguage")) bottom += chip(cap(String(entry.language)), "mplus-plain")
             var n = starsOf(entry)
             if (n > 0 && pref("chipStars")) bottom += chip("★ " + n, "mplus-stars")
+            var dl = downloadsOf(entry)
+            if (dl > 0 && pref("chipDownloads")) bottom += chip("↓ " + countText(dl) + "/mo", "mplus-dl")
             var up = whenOf(entry.updatedAt)
             if (up && pref("chipUpdated")) bottom += chip("updated " + agoText(up), "mplus-plain")
 
@@ -340,6 +369,62 @@ function init() {
         // can suddenly represent a different extension. Each card carries a
         // hidden identity marker (data-for) — when it no longer matches the
         // content, the card is re-decorated with the right data.
+        // ------------------------------------------------ install counter
+        // Seanime has no install event a plugin can listen to, so the signal
+        // is the click on the card's own Install button. That's intent, not
+        // outcome — a cancelled or failed install still counts — which is
+        // close enough for a popularity number and avoids polling anything.
+        //
+        // One ping per extension per session; the server discards repeats
+        // from the same address anyway. Failures are ignored on purpose:
+        // a counter is never worth degrading the marketplace over.
+        var pinged = {}
+        var hookedCards = {}
+
+        function pingInstall(key) {
+            if (!key || !STATS_URL || pinged[key]) return
+            if (!pref("sendStats")) return
+            pinged[key] = true
+            try {
+                fetch(STATS_URL + "/c/" + encodeURIComponent(key), { timeout: 8 })
+                    .then(function () { })
+                    .catch(function () { })
+            } catch (e) { }
+        }
+
+        // Finds the Install button among the card's buttons by position:
+        // the innerHTML we already hold tells us which button carries the
+        // word, so no extra getText() roundtrip per card is needed. Cards
+        // without an Install button (already installed, or an update
+        // pending) cost nothing — the regex gate below rejects them first.
+        var INSTALL_RE = /<button\b[^>]*>([\s\S]*?)<\/button>/gi
+        async function hookInstall(card, html, key, cid) {
+            if (!key || !STATS_URL || !pref("sendStats")) return
+            if (!/install/i.test(html)) return
+            var mark = cid + "|" + key
+            if (hookedCards[mark]) return
+
+            var idx = -1, seen = 0, m
+            INSTALL_RE.lastIndex = 0
+            while ((m = INSTALL_RE.exec(html))) {
+                var label = String(m[1]).replace(/<[^>]*>/g, " ").trim()
+                // "Install" only — never "Uninstall", and not the update path,
+                // which is a different action on an extension already counted.
+                if (/(^|\s)install\b/i.test(label) && !/uninstall/i.test(label)) { idx = seen; break }
+                seen++
+            }
+            if (idx < 0) return
+
+            var btns = []
+            try { btns = await card.query("button") } catch (e) { return }
+            if (!btns || idx >= btns.length) return
+
+            hookedCards[mark] = true
+            try {
+                btns[idx].addEventListener("click", function () { pingInstall(key) })
+            } catch (e) { hookedCards[mark] = false }
+        }
+
         async function dressCard(card) {
             var html = (card && card.innerHTML) ? String(card.innerHTML) : ""
             var entry = matchEntry(html)
@@ -347,6 +432,11 @@ function init() {
             var st = statusOf(entry)
             var key = entry ? String(entry.id || entry.name || "") : ""
             var cid = (card && card.id != null) ? String(card.id) : ""
+
+            // Runs before the re-decoration guard below, because a card can
+            // gain its Install button on a later observer pass than the one
+            // that decorated it. Cheap and idempotent, so repeating is fine.
+            hookInstall(card, html, key, cid).catch(function () { })
 
             // Synchronous guard: the observer can fire several times before
             // the (async) decoration below lands, so the innerHTML alone
@@ -440,6 +530,14 @@ function init() {
             if (chips) rows += infoRow("Status", chips)
             var n = starsOf(entry)
             if (n > 0) rows += infoRow("Stars", xml("★ " + n))
+            var dl = downloadsOf(entry)
+            if (dl > 0) {
+                var dlText = countText(dl) + " in the last 30 days"
+                if (typeof entry.downloadsTotal === "number" && entry.downloadsTotal > dl) {
+                    dlText += " · " + countText(entry.downloadsTotal) + " total"
+                }
+                rows += infoRow("Installs", xml(dlText))
+            }
             var added = dateText(entry.addedAt)
             if (added) rows += infoRow("Added", xml(added))
             var up = dateText(entry.updatedAt)
@@ -528,8 +626,10 @@ function init() {
             var searching = searchText.get().length > 0 || by.length > 0
             if (st !== "all") {
                 css += '[class*="extension-card"]:not([data-mplus="' + st + '"]){display:none !important}'
-            } else if (!searching && pref("hideBroken")) {
-                // broken extensions stay hidden until searched for or filtered on
+            } else if (!searching && onMarketplace && pref("hideBroken")) {
+                // Marketplace only: broken extensions stay hidden until searched
+                // for or filtered on. The installed page never hides them —
+                // a card you have to reach to uninstall must stay reachable.
                 css += '[class*="extension-card"][data-mplus="broken"]{display:none !important}'
             }
             if (by) css += '[class*="extension-card"]:not([data-mplus-by*="' + by + '"]){display:none !important}'
@@ -672,9 +772,25 @@ function init() {
             for (var i = 0; i < searchInputs.length; i++) {
                 var field = searchInputs[i]
                 var fid = field && field.id ? String(field.id) : ""
+                try { field.setAttribute("data-mplus-ui", "1") } catch (e) { }
+
+                // Which of the two extension pages is this? The Languages
+                // <Select> sits on the marketplace row and nowhere else, so
+                // its presence is the page test. Run before the seenInputs
+                // guard so a remount that reuses an element id still
+                // refreshes the flag.
+                var holder = null, row = null, langSel = []
+                try { holder = await field.getParent() } catch (e) { }
+                if (holder) { try { row = await holder.getParent() } catch (e) { } }
+                if (row) { try { langSel = await row.query(".UI-Select__root") } catch (e) { } }
+                var isMarket = !!(langSel && langSel.length)
+                if (onMarketplace !== isMarket) {
+                    onMarketplace = isMarket
+                    refreshFilter().catch(function () { })
+                }
+
                 if (fid && seenInputs[fid]) continue
                 if (fid) seenInputs[fid] = true
-                try { field.setAttribute("data-mplus-ui", "1") } catch (e) { }
                 var myEpoch = epoch
 
                 if (!nativeBoxClass) {
@@ -704,12 +820,6 @@ function init() {
                     try { f.addEventListener("input", track) } catch (e) { }
                     try { f.addEventListener("keyup", track) } catch (e) { }
                 })(field, myEpoch)
-
-                // locate the search container + language <Select> on the same row
-                var holder = null, row = null, langSel = []
-                try { holder = await field.getParent() } catch (e) { }
-                if (holder) { try { row = await holder.getParent() } catch (e) { } }
-                if (row) { try { langSel = await row.query(".UI-Select__root") } catch (e) { } }
 
                 var built = [null, null, null]
                 try {
@@ -1122,17 +1232,22 @@ function init() {
                             sw("chipAuthor", "Author"),
                             sw("chipLanguage", "Written language"),
                             sw("chipStars", "Stars"),
+                            sw("chipDownloads", "Install count"),
                             sw("chipUpdated", "Last updated"),
                             sw("chipSupport", "Support buttons"),
                         ]),
 
                         group("Marketplace", [
                             sw("detailsBox", "Extra info in details dialog"),
-                            sw("hideBroken", "Hide broken until searched"),
+                            sw("hideBroken", "Hide broken on marketplace until searched"),
                         ]),
 
                         group("Video player", [
                             sw("streamAlerts", "Warn when a stream is stuck"),
+                        ]),
+
+                        group("Privacy", [
+                            sw("sendStats", "Count my installs anonymously"),
                         ]),
 
                         tray.div([
@@ -1179,8 +1294,10 @@ function init() {
             if (filterEl) { try { filterEl.remove() } catch (e) { } filterEl = null }
             bodyEl = null
             seenInputs = {}
+            onMarketplace = false
             marks = {}
             modalMarks = {}
+            hookedCards = {}   // element ids are reused after a reload, so re-hook
             wVideos = {}
             wCard = null
             wBadSince = 0
@@ -1202,6 +1319,7 @@ function init() {
         try {
             ctx.screen.onNavigate(function (e) {
                 try { wPath = (e && e.pathname) ? String(e.pathname) : "" } catch (er) { wPath = "" }
+                onMarketplace = false   // re-detected when the toolbar mounts
                 wHealthy(); watchControls(); watchCards(); watchModals(); watchVideos()
             })
         } catch (e) { }
