@@ -210,11 +210,11 @@
     "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1783861819234
   },
   {
-    "id": "anilist-watch-order", "version": "1.2.1",
+    "id": "anilist-watch-order", "version": "1.2.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f7ca47a972715c9a9c21d8391eba607f4b094d81508931fd55a166269c895ae1",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787069845026
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/7413caa5c8abfb2dc190ce92d038f2a0e97a49b1d1b73010ccec024b5d945f32",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1788956168670
   },
   {
     "id": "animapper-animevietsub", "version": "1.0.2",
