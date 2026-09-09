@@ -345,18 +345,18 @@
     "addedAt": "2025-11-21T12:05:40.484Z", "updatedAt": "2026-07-12T13:10:19.472Z"
   },
   {
-    "id": "anilist-watch-order", "name": "Anilist Watch Order", "version": "1.2.1", "author": "nnotwen",
+    "id": "anilist-watch-order", "name": "Anilist Watch Order", "version": "1.2.2", "author": "nnotwen",
     "description": "Get the Anilist-recommended watch order within the anime's page.", "type": "plugin",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/anilist-watch-order.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f7ca47a972715c9a9c21d8391eba607f4b094d81508931fd55a166269c895ae1",
+    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/7413caa5c8abfb2dc190ce92d038f2a0e97a49b1d1b73010ccec024b5d945f32",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 12, "threadId": "1445002690106097757",
-    "addedAt": "2025-12-01T10:44:48.173Z", "updatedAt": "2026-08-18T16:18:11.633Z"
+    "addedAt": "2025-12-01T10:44:48.173Z", "updatedAt": "2026-09-09T12:16:08.935Z"
   },
   {
     "id": "animapper-animevietsub", "name": "AniMapper AnimeVietSub", "version": "1.0.2",
@@ -2717,9 +2717,9 @@
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d00ff99e4707240f33437426e33541569e8d533d0988135c5e796607e90583e4",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1360636715643179231","1437869415344377887"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 3, "threadId": "1536115597983621150",
-    "addedAt": "2026-08-09T20:54:58.207Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "tags": ["1359183147123867881","1359183211099459916","1437869415344377887"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 10, "threadId": "1438609701993447576",
+    "addedAt": "2025-11-13T19:21:21.031Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "simklsync", "name": "SimklSync", "version": "2.0.2", "author": "nnotwen",
