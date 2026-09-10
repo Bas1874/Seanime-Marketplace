@@ -602,11 +602,11 @@
     "timestamp": 1771868507440, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
-    "id": "custom-episode-metadata", "version": "1.0.7",
+    "id": "custom-episode-metadata", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Custom%20Episode%20Metadata/provider.ts",
-    "flags": "0/56", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5408e15b12ada9ebcaecec75caa512c0b72b6cc250d7ea5e5eeb93065cb18580",
-    "timestamp": 1771867501803, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c318b85a5cd2a1c0605ac707f64f8efc52c59badc39825f115ced4a9298549e3",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1789058605070
   },
   {
     "id": "darkmahou-provider", "version": "1.0.11",
