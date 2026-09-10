@@ -1668,6 +1668,19 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "kuramanga", "name": "KuraManga", "version": "1.0.0", "author": "Pal",
+    "description": "KuraManga is a Manhwa provider for Seanime", "type": "manga-provider", "language": "javascript",
+    "lang": "en", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/kuramanga.ico",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/kuramanga/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/kuramanga/provider.js",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/475241cd0980f4749a28cf26f9b3ee795e8d6783768bc1fc95a97593652414c2",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1547495647207489656",
+    "addedAt": "2026-09-10T06:35:13.373Z", "updatedAt": "2026-09-10T08:42:56.456Z"
+  },
+  {
     "id": "kuromangas", "name": "Kuro Mangas", "version": "1.0.8", "author": "jhoorodr",
     "description": "Manga reading provider for Kuro Mangas. NOTE: Requires an account created on the site to work.",
     "type": "manga-provider", "language": "typescript", "lang": "pt-BR",
