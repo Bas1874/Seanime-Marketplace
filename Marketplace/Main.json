@@ -1245,17 +1245,17 @@
     "addedAt": "2026-08-08T07:34:59.412Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
-    "id": "discord-rpc-extended", "name": "Discord RPC Extended", "version": "1.0.10", "author": "nnotwen",
+    "id": "discord-rpc-extended", "name": "Discord RPC Extended", "version": "1.0.11", "author": "nnotwen",
     "description": "Provide more info for Discord RPC.", "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Extended/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Extended/discord-rpc-extended.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Extended/provider.ts",
     "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/3abfa6628014b896b3c3ef2268053f1254682e43470a723fdc99b47665e87938",
+    "permalink": "https://www.virustotal.com/gui/file/7973ad7bff1ea479675c08c94859da1c30c840d508b91d5c73f6a471f9c6e0e3",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 9, "threadId": "1526254094568652891",
-    "addedAt": "2026-07-13T15:48:52.575Z", "updatedAt": "2026-08-21T12:20:11.605Z"
+    "addedAt": "2026-07-13T15:48:52.575Z", "updatedAt": "2026-09-11T16:44:27.205Z"
   },
   {
     "id": "discord-rpc-hide-logo", "name": "Discord RPC Hide Logo", "version": "1.0.1", "author": "Seanime",
