@@ -1447,6 +1447,17 @@
     "addedAt": "2025-08-11T00:45:46.328Z", "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
+    "id": "hentai-origines", "name": "Hentai Origines (18+)", "version": "1.0.0", "author": "Rafou376",
+    "description": "Hentai Origines est une plateforme française de scantrad pour adultes", "type": "manga-provider",
+    "language": "typescript", "lang": "fr",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/hentai-origines/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/hentai-origines/manifest.json",
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1547766165139497031",
+    "addedAt": "2026-09-11T00:30:09.874Z", "updatedAt": "2026-09-11T00:42:18.436Z"
+  },
+  {
     "id": "hentai2read", "name": "Hentai2Read (18+)", "version": "1.0.0", "author": "eepyboba",
     "description": "Hentai2Read is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "en",
@@ -2081,6 +2092,17 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1497148622620328006", "addedAt": "2026-04-24T08:14:07.309Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "mangas-origines", "name": "Mangas Origines", "version": "1.0.0", "author": "Rafou376",
+    "description": "Mangas Origines est une plateforme de scantrad française", "type": "manga-provider",
+    "language": "typescript", "lang": "fr",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangas-origines/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangas-origines/manifest.json",
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1547761989194096742",
+    "addedAt": "2026-09-11T00:13:34.251Z", "updatedAt": "2026-09-11T00:42:18.436Z"
   },
   {
     "id": "mangaupdates", "name": "MangaUpdates", "version": "1.0.2", "author": "Carloss616",
