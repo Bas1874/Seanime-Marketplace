@@ -2095,14 +2095,14 @@
   },
   {
     "id": "mangas-origines", "name": "Mangas Origines", "version": "1.0.0", "author": "Rafou376",
-    "description": "Mangas Origines est une plateforme de scantrad française", "type": "manga-provider",
+    "description": "Mangas Origines est une plateforme française de scantrad", "type": "manga-provider",
     "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangas-origines/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangas-origines/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1547761989194096742",
-    "addedAt": "2026-09-11T00:13:34.251Z", "updatedAt": "2026-09-11T00:42:18.436Z"
+    "addedAt": "2026-09-11T00:13:34.251Z", "updatedAt": "2026-09-11T12:43:55.982Z"
   },
   {
     "id": "mangaupdates", "name": "MangaUpdates", "version": "1.0.2", "author": "Carloss616",
