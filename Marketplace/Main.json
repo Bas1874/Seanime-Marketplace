@@ -826,18 +826,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "aq-anikoto", "name": "Anikoto", "version": "1.3.79", "author": "aquaryuo",
+    "id": "aq-anikoto", "name": "Anikoto", "version": "1.3.80", "author": "aquaryuo",
     "description": "Only anikoto compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
     "website": "https://anikototv.to", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2c83c6bceb6c36794063f62c1e4ffd5bdabeaba5282b8e9b3fe003321e21849a",
+    "permalink": "https://www.virustotal.com/gui/file/ff45904d2fd757c4cb27a97b1c988b0d3d506beeb2309c53f56f7b9cbd1d8160",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 3, "threadId": "1519763403483381810",
-    "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-12T12:45:57.608Z"
+    "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-12T16:48:01.699Z"
   },
   {
     "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.30", "author": "aquaryuo",
@@ -1692,18 +1692,18 @@
     "addedAt": "2026-09-10T06:35:13.373Z", "updatedAt": "2026-09-10T08:42:56.456Z"
   },
   {
-    "id": "kuromangas", "name": "Kuro Mangas", "version": "1.0.8", "author": "jhoorodr",
+    "id": "kuromangas", "name": "Kuro Mangas", "version": "1.0.9", "author": "jhoorodr",
     "description": "Manga reading provider for Kuro Mangas. NOTE: Requires an account created on the site to work.",
     "type": "manga-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/kuromangas.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.ts",
     "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e143959780620411aedbe025c7e3b1f690ea60ca89b37fb505e17e5fe1d381d2",
+    "permalink": "https://www.virustotal.com/gui/file/66bf6d74ef01efaed5d8ba203aece8506a9fb81625529a0a22569a354c67ba5d",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.8.7", "stars": 0, "threadId": "1516231576378413158",
-    "addedAt": "2026-06-16T00:02:58.029Z", "updatedAt": "2026-08-01T04:58:18.046Z"
+    "addedAt": "2026-06-16T00:02:58.029Z", "updatedAt": "2026-09-12T16:48:01.699Z"
   },
   {
     "id": "latanime-online-provider", "name": "Latanime", "version": "0.1.11", "author": "lens7y",
@@ -2033,18 +2033,18 @@
     "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
-    "id": "mangalivre-tv", "name": "MangaLivre.tv", "version": "1.1.9", "author": "jhoorodr",
+    "id": "mangalivre-tv", "name": "MangaLivre.tv", "version": "1.1.10", "author": "jhoorodr",
     "description": "Manga provider for the MangaLivre.tv site (now ToonLivre) - a site with manga translated into Portuguese",
     "type": "manga-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/mangalivre.tv.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mangalivre.tv/mangalivre-tv.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mangalivre.tv/mangalivre-tv.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e4ebc2171ecd8667e259819a159972b5a96226f1cb9e2e0cd2b2d1219a522d72",
+    "permalink": "https://www.virustotal.com/gui/file/ca7003784f6af02865fe64ccc0c3516ffae7f624de21f8ce4b8a1678fabe9c32",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.2", "lastWorkingVersion": null,
     "stars": 4, "threadId": "1407944055026880572", "addedAt": "2025-08-21T04:27:01.054Z",
-    "updatedAt": "2026-08-31T11:56:57.153Z"
+    "updatedAt": "2026-09-12T16:48:01.699Z"
   },
   {
     "id": "mangaoni", "name": "MangaOni", "version": "1.0.0", "author": "mohaisreal",
