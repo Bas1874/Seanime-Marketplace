@@ -2968,7 +2968,7 @@
     "addedAt": "2025-08-15T13:54:41.085Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "tomato", "name": "Tomato", "version": "0.0.1", "author": "Jhoorodr",
+    "id": "tomato", "name": "Tomato", "version": "1.0.0", "author": "Jhoorodr",
     "description": "Anime streaming provider for Tomato. Requires a manual Bearer token from a logged-in Tomato account (login uses a captcha that cannot be automated).",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/tomato.png",
@@ -2979,7 +2979,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1547069388954402867",
-    "addedAt": "2026-09-09T02:21:25.486Z", "updatedAt": "2026-09-09T04:28:32.418Z"
+    "addedAt": "2026-09-09T02:21:25.486Z", "updatedAt": "2026-09-12T20:46:21.963Z"
   },
   {
     "id": "toonanime-online-streaming", "name": "FR | ToonAnime", "version": "1.1.4", "author": "TropicalFrog3",
