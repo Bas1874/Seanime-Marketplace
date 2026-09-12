@@ -441,11 +441,11 @@
     "timestamp": 1771866081063, "hadWorkingTag": false
   },
   {
-    "id": "aq-anikoto", "version": "1.3.79",
+    "id": "aq-anikoto", "version": "1.3.80",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2c83c6bceb6c36794063f62c1e4ffd5bdabeaba5282b8e9b3fe003321e21849a",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1789217157379
+    "permalink": "https://www.virustotal.com/gui/file/ff45904d2fd757c4cb27a97b1c988b0d3d506beeb2309c53f56f7b9cbd1d8160",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1789231542116
   },
   {
     "id": "aq-animepahe-beta", "version": "0.2.30",
@@ -861,11 +861,11 @@
     "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1789029775412
   },
   {
-    "id": "kuromangas", "version": "1.0.8",
+    "id": "kuromangas", "version": "1.0.9",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e143959780620411aedbe025c7e3b1f690ea60ca89b37fb505e17e5fe1d381d2",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1785560051726
+    "permalink": "https://www.virustotal.com/gui/file/66bf6d74ef01efaed5d8ba203aece8506a9fb81625529a0a22569a354c67ba5d",
+    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1789231681447
   },
   {
     "id": "latanime-online-provider", "version": "0.1.11",
@@ -1036,11 +1036,11 @@
     "timestamp": 1777602163233, "hadWorkingTag": false
   },
   {
-    "id": "mangalivre-tv", "version": "1.1.9",
+    "id": "mangalivre-tv", "version": "1.1.10",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mangalivre.tv/mangalivre-tv.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e4ebc2171ecd8667e259819a159972b5a96226f1cb9e2e0cd2b2d1219a522d72",
-    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1783898180706
+    "permalink": "https://www.virustotal.com/gui/file/ca7003784f6af02865fe64ccc0c3516ffae7f624de21f8ce4b8a1678fabe9c32",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1789231604030
   },
   {
     "id": "mangaoni", "version": "1.0.0",
