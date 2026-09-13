@@ -918,10 +918,10 @@
   },
   {
     "id": "lst", "version": "1.0.2",
-    "payloadURI": "https://raw.githubusercontent.com/SamF-Web/LST-Seanime-Extension/refs/heads/main/provider.ts",
-    "flags": "0/59", "flaggedBy": [],
+    "payloadURI": "https://git.sharky.systems/idf/LST.GG-Seanime/raw/branch/main/provider.ts", "flags": "0/60",
+    "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0b87220ee29d2383c9d025adb463eee232975280e6c344d6abd7b62104a74c99",
-    "lastWorkingVersion": "3.10.2", "timestamp": 1780603989909, "hadWorkingTag": true
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": false, "timestamp": 1789274881914
   },
   {
     "id": "mal-button", "version": "1.0.18",
