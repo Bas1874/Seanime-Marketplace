@@ -840,18 +840,18 @@
     "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-13T00:46:32.909Z"
   },
   {
-    "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.35", "author": "aquaryuo",
+    "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.37", "author": "aquaryuo",
     "description": "Only animepahe compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
-    "website": "https://animepahe.pw", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/cfd5d46db163bdf29e6c33e999877d9ef8af5ced31787d01acce608b7efaebd9",
+    "website": "https://animepahe.pw", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3e3c6c1601ea9d630ccc6b25939a2e9d9323824627a1f0661c51838a5b6c91e4",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.8.7", "stars": 3, "threadId": "1519818667720966174",
-    "addedAt": "2026-06-25T21:36:47.250Z", "updatedAt": "2026-09-13T10:48:21.322Z"
+    "addedAt": "2026-06-25T21:36:47.250Z", "updatedAt": "2026-09-13T11:17:31.842Z"
   },
   {
     "id": "aq-anizone", "name": "AniZone", "version": "1.1.23", "author": "aquaryuo",
@@ -2606,18 +2606,14 @@
     "updatedAt": "2026-07-17T16:40:36.034Z"
   },
   {
-    "id": "reanimedev", "name": "Re:ANIME", "version": "1.0.5", "author": "mohaisreal",
-    "description": "Re:ANIME is an online streaming provider for English subs and dubs.",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/ReAnime/favicon.ico",
-    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/ReAnime/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/ReAnime/main.ts", "website": "",
-    "flags": "0/49", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/4e9514275a1baa60490b74870a7a18cfed965714a802dbc46157d3d657a03d9a",
-    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": null, "stars": 3, "threadId": "1501257561796640789", "addedAt": "2026-05-05T16:21:34.749Z",
-    "updatedAt": "2026-08-07T13:08:08.627Z"
+    "id": "reanime", "name": "Reanime", "version": "1.0.0", "author": "Sharky",
+    "description": "Plays Anikoto/MegaPlay through reanime_proxy.py. Start the Python proxy first.",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "multi", "icon": "",
+    "manifestURI": "https://reanime.sharky.systems/manifest.json", "payloadURI": "", "website": "",
+    "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true, "brokenTag": false,
+    "deprecatedTag": false, "tags": ["1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 2, "threadId": "1548645673803579503",
+    "addedAt": "2026-09-13T10:45:01.080Z", "updatedAt": "2026-09-13T11:17:31.842Z"
   },
   {
     "id": "rncanlation", "name": "RNcanlation", "version": "1.0.1", "author": "branrgx",
