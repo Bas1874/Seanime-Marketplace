@@ -448,11 +448,11 @@
     "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1789260392657
   },
   {
-    "id": "aq-animepahe-beta", "version": "0.2.30",
+    "id": "aq-animepahe-beta", "version": "0.2.33",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
-    "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/09177ed842ead9171688eebd5c9f4a2a3fc5f55c27ff1976e05bff9f2f5979c8",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1786752538654
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/da9b2f349db82db47448564a051e2efefd162eb381d7bfaf264e00159a884d1d",
+    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1789289236597
   },
   {
     "id": "aq-anizone", "version": "1.1.23",
@@ -1512,11 +1512,11 @@
     "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787113063907
   },
   {
-    "id": "traktsync", "version": "1.2.6",
+    "id": "traktsync", "version": "1.2.7",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/TraktSync/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c4b5a2bec0622b93b2a86d0d50e7c07a6d8626d409c0f415887ae77f87ed2368",
-    "lastWorkingVersion": "3.10.2", "timestamp": 1783610730671, "hadWorkingTag": true
+    "permalink": "https://www.virustotal.com/gui/file/0833c4d24651287765ac7da0a459f9ded68e40e46e60f1b7cd92212a46a02848",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1789289283734
   },
   {
     "id": "tsukihime", "version": "0.1.2",
