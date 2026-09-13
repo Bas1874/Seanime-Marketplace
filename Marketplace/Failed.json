@@ -3,9 +3,5 @@
     "threadURL": "https://discord.com/channels/1224767201551192224/1359184067915944139",
     "reason": "Expected failure.",
     "originalMessageContent": "> **Extension Name:**\n> Example Name\n> \n> **Version:**\n> 0.69\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Example/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Example/manifest.json```\n> **Description:**\n> Extension for (EXAMPLE), an online streaming provider for subbed/dubbed anime in English, made by Bas1874\n> \n> **Additional Notes:**\n> Share any extra details, acknowledgments, or troubleshooting tips."
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1512128627997675803", "reason": "404 Not Found.",
-    "originalMessageContent": "> **LST Tracker:**\n> LST Tracker Seanime\n> \n> **Version:**\n> 1.0.1\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/SamF-Web/LST-Seanime-Extension/refs/heads/main/manifest.json)  / Copy the link below: \n> https://raw.githubusercontent.com/SamF-Web/LST-Seanime-Extension/refs/heads/main/manifest.json\n> **Description:**\n> Extenstion for LST.gg Private Tracker with a decent anime libary (mainly unmessed with Web-dl and bluray)\n> \n> **Additional Notes:**\n> I will update it as it stops working due to unit3d updates, this is a good template for other PTs.\n> \nChangelog: [MM/DD/YYYY]\n`V1.0.2 | 06/04/2026` : Fixed Single EPs showing in batches search"
   }
 ]
