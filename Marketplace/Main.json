@@ -1804,6 +1804,19 @@
     "addedAt": "2025-10-29T19:20:10.569Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
+    "id": "lst", "name": "LST", "version": "1.0.2", "author": "Sharky",
+    "description": "Anime torrents from LST (lst.gg), a private UNIT3D tracker.", "type": "anime-torrent-provider",
+    "language": "typescript", "lang": "en", "icon": "https://img.sharky.systems/u/YuvS9B.ico",
+    "manifestURI": "https://git.sharky.systems/idf/LST.GG-Seanime/raw/branch/main/manifest.json",
+    "payloadURI": "https://git.sharky.systems/idf/LST.GG-Seanime/raw/branch/main/provider.ts",
+    "website": "https://lst.gg", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0b87220ee29d2383c9d025adb463eee232975280e6c344d6abd7b62104a74c99",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
+    "tags": ["1359259206880067784","1359183147123867881","1359183394512048148","1360636715643179231"],
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1512128627997675803",
+    "addedAt": "2026-06-04T16:19:18.906Z", "updatedAt": "2026-09-13T04:48:02.166Z"
+  },
+  {
     "id": "mal-button", "name": "MAL Button", "version": "1.0.18", "author": "bruuhim",
     "description": "Quick access MyAnimeList links directly from Seanime anime details page", "type": "plugin",
     "language": "typescript", "lang": "en",
