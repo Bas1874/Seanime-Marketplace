@@ -840,18 +840,18 @@
     "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-13T00:46:32.909Z"
   },
   {
-    "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.30", "author": "aquaryuo",
+    "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.33", "author": "aquaryuo",
     "description": "Only animepahe compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
-    "website": "https://animepahe.pw", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/09177ed842ead9171688eebd5c9f4a2a3fc5f55c27ff1976e05bff9f2f5979c8",
+    "website": "https://animepahe.pw", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/da9b2f349db82db47448564a051e2efefd162eb381d7bfaf264e00159a884d1d",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.8.7", "stars": 3, "threadId": "1519818667720966174",
-    "addedAt": "2026-06-25T21:36:47.250Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "addedAt": "2026-06-25T21:36:47.250Z", "updatedAt": "2026-09-13T08:48:03.990Z"
   },
   {
     "id": "aq-anizone", "name": "AniZone", "version": "1.1.23", "author": "aquaryuo",
@@ -3093,18 +3093,18 @@
     "addedAt": "2026-08-12T10:18:58.662Z", "updatedAt": "2026-08-19T04:17:44.180Z"
   },
   {
-    "id": "traktsync", "name": "TraktSync", "version": "1.2.6", "author": "nnotwen",
+    "id": "traktsync", "name": "TraktSync", "version": "1.2.7", "author": "nnotwen",
     "description": "Sync your AniList progress to Trakt.tv", "type": "plugin", "language": "typescript",
     "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/refs/heads/master/plugins/TraktSync/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/TraktSync/traktsync.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/TraktSync/provider.ts",
     "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c4b5a2bec0622b93b2a86d0d50e7c07a6d8626d409c0f415887ae77f87ed2368",
+    "permalink": "https://www.virustotal.com/gui/file/0833c4d24651287765ac7da0a459f9ded68e40e46e60f1b7cd92212a46a02848",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 2, "threadId": "1447662077849370805",
-    "addedAt": "2025-12-08T18:52:15.620Z", "updatedAt": "2026-07-09T15:25:31.098Z"
+    "addedAt": "2025-12-08T18:52:15.620Z", "updatedAt": "2026-09-13T08:48:03.990Z"
   },
   {
     "id": "tsukihime", "name": "Tsukihime", "version": "0.1.2", "author": "Crashdaemon",
