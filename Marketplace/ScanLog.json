@@ -448,11 +448,11 @@
     "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1789260392657
   },
   {
-    "id": "aq-animepahe-beta", "version": "0.2.35",
+    "id": "aq-animepahe-beta", "version": "0.2.37",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/cfd5d46db163bdf29e6c33e999877d9ef8af5ced31787d01acce608b7efaebd9",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1789296501068
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3e3c6c1601ea9d630ccc6b25939a2e9d9323824627a1f0661c51838a5b6c91e4",
+    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1789298251584
   },
   {
     "id": "aq-anizone", "version": "1.1.23",
@@ -1292,7 +1292,7 @@
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/ReAnime/main.ts",
     "flags": "0/54", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d31d0209a91b2a03be49220bdcb4d687f53d18d4f9d90e3e065dcc3581ff4791",
-    "timestamp": 1778034786276, "hadWorkingTag": false
+    "timestamp": 1778034786276, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
     "id": "reanimedev", "version": "1.0.5",
