@@ -2606,14 +2606,15 @@
     "updatedAt": "2026-07-17T16:40:36.034Z"
   },
   {
-    "id": "reanime", "name": "Reanime", "version": "1.0.0", "author": "Sharky",
-    "description": "Plays Anikoto/MegaPlay through reanime_proxy.py. Start the Python proxy first.",
-    "type": "onlinestream-provider", "language": "javascript", "lang": "multi", "icon": "",
-    "manifestURI": "https://reanime.sharky.systems/manifest.json", "payloadURI": "", "website": "",
-    "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true, "brokenTag": false,
-    "deprecatedTag": false, "tags": ["1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 2, "threadId": "1548645673803579503",
-    "addedAt": "2026-09-13T10:45:01.080Z", "updatedAt": "2026-09-13T11:17:31.842Z"
+    "id": "reanime", "name": "Reanime", "version": "1.0.2", "author": "Sharky",
+    "description": "Plays Re:ANIME (reanime.to) through the Reanime restream proxy. Start the proxy first.",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "multi",
+    "icon": "https://reanime.sharky.systems/icon.jpg", "manifestURI": "https://reanime.sharky.systems/manifest.json",
+    "payloadURI": "", "website": "https://reanime.to", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 5, "threadId": "1548645673803579503",
+    "addedAt": "2026-09-13T10:45:01.080Z", "updatedAt": "2026-09-13T12:46:42.759Z"
   },
   {
     "id": "rncanlation", "name": "RNcanlation", "version": "1.0.1", "author": "branrgx",
