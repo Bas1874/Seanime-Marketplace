@@ -673,18 +673,18 @@
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
-    "id": "animetosho-new", "name": "AnimeTosho (NEW)", "version": "2.4.4", "author": "Faddix, Island",
+    "id": "animetosho-new", "name": "AnimeTosho (NEW)", "version": "2.4.5", "author": "Faddix, Island",
     "description": "Integrates Anime Tosho (NEW) as a torrent streaming provider for Seanime.",
     "type": "anime-torrent-provider", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/src/animetosho-new-logo.png",
     "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.json",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7a144c8e21d69cb32118a5703f1b4876b5b82b2e4a61fc0aa1dc8cb096b3ba13",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/72f81ef0a05de8f5fd2355ab4073add1b6e0fab8a869e97b7bf6677078b2a86f",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 10, "threadId": "1505548228865687562",
-    "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-09-14T20:50:13.535Z"
   },
   {
     "id": "AnimeUnity", "name": "AnimeUnity", "version": "1.1.3", "author": "kRYstall9",
@@ -1652,6 +1652,19 @@
     "tags": ["1359259206880067784","1359183147123867881","1359259306087940146"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 2, "threadId": "1546892179752882298",
     "addedAt": "2026-09-08T14:37:15.520Z", "updatedAt": "2026-09-08T16:11:07.982Z"
+  },
+  {
+    "id": "kodik-dub", "name": "Kodik Dub", "version": "0.2.1", "author": "Uximy",
+    "description": "Дополнительная вкладка на странице аниме для выбора и просмотра доступных озвучек",
+    "type": "plugin", "language": "typescript", "lang": "ru", "icon": "",
+    "manifestURI": "https://raw.githubusercontent.com/Uximy/kodik-dub/main/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Uximy/kodik-dub/main/main.ts", "website": "", "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/4151e6fa1ab87b310e7a953a68f0da272fc33fc3f00399ce75c7ff1d68c973cd",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183394512048148","1505937222891733062","1360636715643179231"],
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": null, "stars": 0, "threadId": "1549123492094672967",
+    "addedAt": "2026-09-14T18:23:41.838Z", "updatedAt": "2026-09-14T20:50:13.535Z"
   },
   {
     "id": "komikcast", "name": "KomikCast", "version": "1.2.0", "author": "pal",
@@ -2989,7 +3002,7 @@
     "permalink": "https://www.virustotal.com/gui/file/907b59255b6ddeaa26addb72c13ec4b3e680f72d0a671b07724fe0bc355a2535",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1547069388954402867",
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1547069388954402867",
     "addedAt": "2026-09-09T02:21:25.486Z", "updatedAt": "2026-09-12T20:46:21.963Z"
   },
   {
