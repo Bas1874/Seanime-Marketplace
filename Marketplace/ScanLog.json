@@ -385,11 +385,11 @@
     "timestamp": 1776472247923, "hadWorkingTag": false
   },
   {
-    "id": "animetosho-new", "version": "2.4.4",
+    "id": "animetosho-new", "version": "2.4.5",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7a144c8e21d69cb32118a5703f1b4876b5b82b2e4a61fc0aa1dc8cb096b3ba13",
-    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1785660933655
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/72f81ef0a05de8f5fd2355ab4073add1b6e0fab8a869e97b7bf6677078b2a86f",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1789419013254
   },
   {
     "id": "AnimeUnity", "version": "1.1.3",
@@ -838,6 +838,12 @@
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/b5a0e696f51fa0fd53559ab146810d30a038e211432f9c3440f8f403ea1c85c3",
     "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1788883867747
+  },
+  {
+    "id": "kodik-dub", "version": "0.2.1",
+    "payloadURI": "https://raw.githubusercontent.com/Uximy/kodik-dub/main/main.ts", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/4151e6fa1ab87b310e7a953a68f0da272fc33fc3f00399ce75c7ff1d68c973cd",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1789418936167
   },
   {
     "id": "komikcast", "version": "1.2.0",
