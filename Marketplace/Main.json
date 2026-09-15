@@ -470,20 +470,6 @@
     "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
-    "id": "anime-uniquestream", "name": "Anime UniqueStream", "version": "1.0.0", "author": "jabifx",
-    "description": "Online streaming provider with hard subs and dubs.", "type": "onlinestream-provider",
-    "language": "typescript", "lang": "multi",
-    "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeUniqueStream/icon.ico",
-    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeUniqueStream/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeUniqueStream/main.ts",
-    "website": "", "flags": "0/54", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/87c462cb03bdb9ec3905c733da1e936ee4ba277a88a8be16193540928fffe606",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 5, "threadId": "1433178980625944757",
-    "addedAt": "2025-10-29T19:41:36.159Z", "updatedAt": "2026-08-17T20:13:56.938Z"
-  },
-  {
     "id": "animeav1", "name": "AnimeAV1", "version": "1.2.0", "author": "jabifx, yerasuu & Pal",
     "description": "Online streaming provider with hard subs and dubs in Spanish.", "type": "onlinestream-provider",
     "language": "typescript", "lang": "es",
@@ -2833,6 +2819,17 @@
     "addedAt": "2026-04-26T12:40:31.878Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
+    "id": "slashlib", "name": "SlashLib", "version": "1.0.0", "author": "Rafou376",
+    "description": "SlashLib — это русскоязычная платформа сканлейта", "type": "manga-provider",
+    "language": "typescript", "lang": "ru",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/slashlib/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/slashlib/manifest.json",
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1549520251232976966",
+    "addedAt": "2026-09-15T20:40:16.588Z", "updatedAt": "2026-09-15T20:49:42.753Z"
+  },
+  {
     "id": "snow-effect", "name": "Seanime Snow effect", "version": "1.1.1", "author": "Pal",
     "description": "A simple plugin for showing winter effects.", "type": "plugin", "language": "javascript",
     "lang": "EN",
@@ -3169,6 +3166,17 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 10, "threadId": "1431350740038717561",
     "addedAt": "2025-10-24T18:36:49.636Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+  },
+  {
+    "id": "uniquestream", "name": "UniqueStream", "version": "1.1.1", "author": "Sharky",
+    "description": "Plays anime.uniquestream.net through the UniqueStream restream proxy.",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "en", "icon": "https://idf.pics/u/b0bSKf.ico",
+    "manifestURI": "https://uniquestream.sharky.systems/manifest.json", "payloadURI": "",
+    "website": "https://anime.uniquestream.net", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.2",
+    "lastWorkingVersion": "3.10.2", "stars": 5, "threadId": "1433178980625944757",
+    "addedAt": "2025-10-29T19:41:36.159Z", "updatedAt": "2026-09-15T20:49:42.753Z"
   },
   {
     "id": "untracked", "name": "Untracked", "version": "1.0.3", "author": "nnotwen",
