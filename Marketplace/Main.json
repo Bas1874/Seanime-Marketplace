@@ -755,11 +755,11 @@
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/anineko/logo.png",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/anineko/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
-    "brokenTag": false, "deprecatedTag": false,
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
+    "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.2",
-    "lastWorkingVersion": "3.10.2", "stars": 3, "threadId": "1519595535651307611",
-    "addedAt": "2026-06-25T06:50:08.419Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "lastWorkingVersion": null, "stars": 3, "threadId": "1519595535651307611", "addedAt": "2026-06-25T06:50:08.419Z",
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "anirena", "name": "AniRena", "version": "1.0.1", "author": "eepyboba",
@@ -3002,7 +3002,7 @@
     "permalink": "https://www.virustotal.com/gui/file/907b59255b6ddeaa26addb72c13ec4b3e680f72d0a671b07724fe0bc355a2535",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1547069388954402867",
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1547069388954402867",
     "addedAt": "2026-09-09T02:21:25.486Z", "updatedAt": "2026-09-12T20:46:21.963Z"
   },
   {
