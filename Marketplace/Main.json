@@ -2046,6 +2046,17 @@
     "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
+    "id": "mangalib", "name": "MangaLib", "version": "1.0.0", "author": "Rafou376",
+    "description": "MangaLib — это русскоязычная платформа сканлейта", "type": "manga-provider",
+    "language": "typescript", "lang": "ru",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangalib/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangalib/manifest.json",
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1549530163774099537",
+    "addedAt": "2026-09-15T21:19:39.922Z", "updatedAt": "2026-09-16T00:49:37.722Z"
+  },
+  {
     "id": "mangalivre-tv", "name": "MangaLivre.tv", "version": "1.1.10", "author": "jhoorodr",
     "description": "Manga provider for the MangaLivre.tv site (now ToonLivre) - a site with manga translated into Portuguese",
     "type": "manga-provider", "language": "typescript", "lang": "pt-BR",
@@ -2826,7 +2837,7 @@
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/slashlib/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
-    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1549520251232976966",
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1549520251232976966",
     "addedAt": "2026-09-15T20:40:16.588Z", "updatedAt": "2026-09-15T20:49:42.753Z"
   },
   {
