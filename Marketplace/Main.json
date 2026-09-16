@@ -1790,18 +1790,18 @@
     "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-08-23T12:24:20.523Z"
   },
   {
-    "id": "LN-reader", "name": "Light Novel Reader", "version": "1.6.5", "author": "Pal",
+    "id": "LN-reader", "name": "Light Novel Reader", "version": "1.6.6", "author": "Pal & mohaisreal",
     "description": "A simple plugin for reading Light Novels inside Seanime.", "type": "plugin",
     "language": "typescript", "lang": "EN",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/ln.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/main.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0813faccc6b54f50d4d80030b2f3ba57c94155231494c3fdf1c15f802e9eee91",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5623dc4ecbee057e9daf47d4b2a7c5b10b38f2872e86bc1858a7fb84bda981e7",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 27, "threadId": "1433173588470661180",
-    "addedAt": "2025-10-29T19:20:10.569Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "addedAt": "2025-10-29T19:20:10.569Z", "updatedAt": "2026-09-16T16:52:47.591Z"
   },
   {
     "id": "lst", "name": "LST", "version": "1.0.2", "author": "Sharky",
