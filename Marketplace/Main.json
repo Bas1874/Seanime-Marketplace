@@ -3340,5 +3340,16 @@
     "brokenTag": true, "deprecatedTag": false, "tags": ["1437869415344377887"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1507018570071150754", "addedAt": "2026-05-21T13:53:46.156Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "zazaza", "name": "ZazaZa", "version": "1.0.0", "author": "Rafou376",
+    "description": "ZazaZa — это русскоязычная платформа сканлейта", "type": "manga-provider",
+    "language": "typescript", "lang": "ru",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/zazaza/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/zazaza/manifest.json",
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1549761624804429824",
+    "addedAt": "2026-09-16T12:39:24.532Z", "updatedAt": "2026-09-16T12:51:10.038Z"
   }
 ]
