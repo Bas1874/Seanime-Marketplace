@@ -916,11 +916,11 @@
     "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1787487860296
   },
   {
-    "id": "LN-reader", "version": "1.6.5",
+    "id": "LN-reader", "version": "1.6.6",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/main.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0813faccc6b54f50d4d80030b2f3ba57c94155231494c3fdf1c15f802e9eee91",
-    "timestamp": 1778121175776, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5623dc4ecbee057e9daf47d4b2a7c5b10b38f2872e86bc1858a7fb84bda981e7",
+    "lastWorkingVersion": "3.10.2", "hadWorkingTag": true, "timestamp": 1789577567345
   },
   {
     "id": "lst", "version": "1.0.2",
