@@ -812,18 +812,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.0", "author": "aquaryuo",
+    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.1", "author": "aquaryuo",
     "description": "Only anikoto compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
     "website": "https://anikototv.to", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/4ef57f2883a65cf9037e8039aad89de1551e40cfbb73a424ffc3a64054417a0f",
+    "permalink": "https://www.virustotal.com/gui/file/59d1edf3afdad10fe556a00d213953410fcd766d84070d248ff8c74acd5b7a13",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.2",
     "lastWorkingVersion": "3.10.2", "stars": 4, "threadId": "1519763403483381810",
-    "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-13T16:55:15.418Z"
+    "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-17T12:55:04.005Z"
   },
   {
     "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.43", "author": "aquaryuo",
