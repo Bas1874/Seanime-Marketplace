@@ -2053,7 +2053,7 @@
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangalib/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
-    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1549530163774099537",
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 2, "threadId": "1549530163774099537",
     "addedAt": "2026-09-15T21:19:39.922Z", "updatedAt": "2026-09-16T00:49:37.722Z"
   },
   {
@@ -3349,7 +3349,7 @@
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/zazaza/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
-    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1549761624804429824",
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1549761624804429824",
     "addedAt": "2026-09-16T12:39:24.532Z", "updatedAt": "2026-09-16T12:51:10.038Z"
   }
 ]
