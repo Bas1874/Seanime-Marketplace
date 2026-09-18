@@ -7,5 +7,10 @@
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1492477178271629313", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension name:**\n> AllManga (Anime)\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/allmanga/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/allmanga/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for  english anime.\n> \n> **Additional Notes:**\n> It currently supports **only sub anime**"
+  },
+  {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1509322165013577899",
+    "reason": "timeout of 10000ms exceeded",
+    "originalMessageContent": "> **Extension Name:**\n> Latanime\n> \n> **Version:**\n> 0.1.11\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://github.com/lens7y/seanime-ext-latanime) / Copy the link below:\n> `https://github.com/lens7y/seanime-ext-latanime/releases/latest/download/manifest.json`\n> \n> **Description:**\n> Online streaming provider for [Latanime](https://latanime.org/) — Dub preference: Latino, then Castellano; Japanese/sub when no dub is listed. Made by **lens7y**.\n> \n> **Additional Notes:**\n> You can report issues on Github or here."
   }
 ]
