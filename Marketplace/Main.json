@@ -191,18 +191,18 @@
     "addedAt": "2025-12-22T19:15:59.155Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anilist-activity", "name": "Anilist activity", "version": "1.2.8", "author": "Pal",
+    "id": "anilist-activity", "name": "Anilist activity", "version": "1.3.8", "author": "Pal",
     "description": "A plugin for viewing your friend's and your Anilist activities inside Seanime.",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/anilist.ico",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/anilist-activities/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/anilist-activities/main.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e1d2a36e9c716af5118cae2c2c3ba303cae323acd881e5ffa1c529d1d4342e19",
+    "permalink": "https://www.virustotal.com/gui/file/6d45e1f154278f75ccffe73b321e564704c93f2e3dd3148f1d16e0bc2933f641",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359259306087940146","1359183394512048148"],
     "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 17, "threadId": "1445123413277413507",
-    "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-09-18T20:54:45.040Z"
+    "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-09-19T17:50:01.738Z"
   },
   {
     "id": "anilist-autopause", "name": "Anilist Autopause", "version": "1.0.2", "author": "nnotwen",
