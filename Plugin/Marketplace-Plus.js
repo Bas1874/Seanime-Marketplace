@@ -1,5 +1,5 @@
 // ================================================================
-//  Marketplace+ v1.1.2  ·  by bas1874
+//  Marketplace+ v1.2.0  ·  by bas1874
 //  Based on original seatags concept by Aqua
 // ================================================================
 
@@ -8,16 +8,15 @@ function init() {
 
         // ------------------------------------------------ settings
         var FEED_URL = "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Marketplace/Main.json"
-        // Anonymous install counter. One request per Install click, carrying
-        // nothing but the extension id — no account, no device id, no list of
-        // what's installed. The server keeps a daily-salted hash of the IP
-        // just long enough to ignore repeats, then deletes it. Users can turn
-        // this off in the tray. See marketplace-downloads/SETUP.md.
-        // ⚠ Replace the host below with your deployed Worker, and mirror it
-        //   in the manifest's permissions.allow.networkAccess.allowedDomains.
-        var STATS_URL = "https://mplus-stats.YOUR-SUBDOMAIN.workers.dev"
         var DISCORD_GUILD = "1224767201551192224"
         var STORE_KEY = "mplus:feed:v2"
+        // One-shot flag for the first-run "use the recommended marketplace
+        // source?" prompt. Lives in $storage, not settings, so "Reset to
+        // defaults" in the tray never makes the plugin nag again.
+        var ASK_KEY = "mplus:srcprompt:v1"
+        // Last marketplace URL we know about. Cached because reading it back
+        // from Seanime costs the user a permission prompt.
+        var SRC_KEY = "mplus:src:v1"
         var FRESH_FOR = 60 * 60 * 1000 // refetch after 1 hour
         var BATCH = 12                 // cards decorated per tick
 
@@ -28,13 +27,34 @@ function init() {
             ["deprecated", "Deprecated"],
             ["untagged", "Untagged"],
         ]
+        // Installed page only. "Disabled" is Seanime's own state, not a
+        // marketplace tag, so it is a separate attribute and it is never
+        // offered on the marketplace page — nothing there can be disabled,
+        // and picking it would blank the whole list.
+        var STATUS_MENU_INSTALLED = STATUS_MENU.concat([["disabled", "Disabled"]])
         var SORT_MENU = [
             ["default", "Default order"],
             ["stars", "Most stars"],
-            ["downloads", "Most downloaded"],
             ["updated", "Recently updated"],
         ]
         var NEW_FOR = 14 * 86400000 // "New" badge window: 14 days
+
+        // Bulk enable/disable, installed page only. ctx.extensions offers
+        // enable/disable/setDisabled and nothing else — there is no uninstall
+        // and no way to ask Seanime what is installed, so the ids come from
+        // matching the cards on screen against the marketplace feed. An
+        // extension the feed doesn't know simply gets no checkbox.
+        var SELF_ID = "marketplace-enhancer"
+        // "+ <label>" shortcuts that add every card of that type to the
+        // selection. Values are the feed's own `type` field.
+        var TYPE_PICKS = [
+            ["anime-torrent-provider", "Torrent"],
+            ["onlinestream-provider", "Streaming"],
+            ["manga-provider", "Manga"],
+            ["plugin", "Plugins"],
+            ["custom-source", "Sources"],
+        ]
+        var ARM_FOR = 5000 // ms a primed Disable/Enable button stays primed
 
         // Discord forum tag IDs worth showing as chips. Type tags (anime,
         // manga, torrent, …) are skipped — Seanime already displays the type.
@@ -45,7 +65,27 @@ function init() {
             "1359259306087940146": ["Other", "mplus-plain"],
         }
 
-        // Seanime UI classes reused so our controls look native
+        // Seanime UI classes reused so our controls look native.
+        // These come straight from the app's own Button anatomy, so the
+        // Tailwind utilities are already in its stylesheet and the buttons
+        // pick up the current theme instead of approximating it.
+        var K_BTN = "UI-Button_root whitespace-nowrap font-medium rounded-lg inline-flex items-center " +
+            "text-center justify-center cursor-pointer focus-visible:outline-none focus-visible:ring-1 " +
+            "ring-offset-1 ring-offset-[--background] focus-visible:ring-white/40"
+        var K_BTN_MD = "text-sm h-9 px-3"
+        var K_BTN_SM = "text-xs h-8 px-2.5"
+        var K_INTENT = {
+            gray: "text-[--gray] border bg-gray-100 border-transparent hover:bg-gray-200 active:bg-gray-300 dark:text-gray-100 dark:bg-opacity-10 dark:hover:bg-opacity-20",
+            brand: "text-[--brand] border bg-brand-50 border-transparent hover:bg-brand-100 active:bg-brand-200 dark:bg-opacity-10 dark:hover:bg-opacity-20",
+            warn: "text-[--orange] border bg-orange-50 border-transparent hover:bg-orange-100 active:bg-orange-200 dark:bg-opacity-10 dark:hover:bg-opacity-20",
+            warnOn: "text-white border bg-orange-500 border-orange-400/20 active:bg-opacity-100 dark:bg-opacity-85 dark:hover:bg-opacity-90",
+            ok: "text-[--green] border bg-green-50 border-transparent hover:bg-green-100 active:bg-green-200 dark:bg-opacity-10 dark:hover:bg-opacity-20",
+            okOn: "text-white border bg-green-500 border-green-400/20 active:bg-opacity-100 dark:bg-opacity-85 dark:hover:bg-opacity-90",
+        }
+        function btnClass(size, intent, mark) {
+            return K_BTN + " " + size + " " + (K_INTENT[intent] || K_INTENT.gray) + (mark ? " " + mark : "")
+        }
+
         var K_MENU_BOX = "UI-Select__content w-full overflow-hidden rounded-[--radius] shadow-md bg-[--paper] border leading-none z-[100]"
         var K_MENU_PAD = "UI-Select__viewport p-1"
         var K_MENU_ROW = "UI-Select__item mplus-row text-base leading-none rounded-[--radius] flex items-center h-8 pr-2 pl-8 relative select-none"
@@ -75,7 +115,6 @@ function init() {
             ".mplus-lang{background:rgba(239,246,255,.10);color:#93c5fd}" +
             ".mplus-plain{background:transparent;color:rgba(255,255,255,.4);padding:0}" +
             ".mplus-stars{background:transparent;color:#fcd34d;padding:0}" +
-            ".mplus-dl{background:transparent;color:#93c5fd;padding:0}" +
             ".mplus-new{font-weight:700;background:rgba(167,139,250,.16);color:#c4b5fd;border-color:rgba(167,139,250,.5)}" +
             ".mplus-audio{background:rgba(45,212,191,.12);color:#5eead4;border-color:rgba(45,212,191,.35)}" +
             ".mplus-chat{background:rgba(88,101,242,.16);color:#a5b0ff;border-color:rgba(88,101,242,.5);cursor:pointer;text-decoration:none;transition:background .15s}" +
@@ -97,7 +136,21 @@ function init() {
             ".mplus-alert-b b{color:#ff8585}" +
             ".mplus-alert .mplus-chatgrp{margin-left:0}" +
             ".mplus-alert-x{cursor:pointer;margin-left:auto}" +
-            ".mplus-alert-x:hover{background:rgba(225,225,225,.2)}"
+            ".mplus-alert-x:hover{background:rgba(225,225,225,.2)}" +
+            ".mplus-setup{border-color:rgba(88,101,242,.5);width:360px}" +
+            ".mplus-setup .mplus-alert-t{color:#a5b0ff}" +
+            ".mplus-setup .mplus-alert-b b{color:#a5b0ff}" +
+            ".mplus-setup code{display:block;margin-top:6px;font-size:11px;color:rgba(255,255,255,.45);word-break:break-all}" +
+            ".mplus-go{cursor:pointer;background:rgba(88,101,242,.22);color:#c3cbff;border-color:rgba(88,101,242,.6);transition:background .15s}" +
+            ".mplus-go:hover{background:rgba(88,101,242,.4)}" +
+            ".mplus-skip{cursor:pointer}" +
+            ".mplus-skip:hover{background:rgba(225,225,225,.2)}" +
+            // bulk selection
+            ".mplus-off{background:rgba(255,180,60,.14);color:#ffce80;border-color:rgba(255,180,60,.4)}" +
+            ".mplus-selbox{cursor:pointer;background:transparent;color:rgba(255,255,255,.55);border-color:rgba(255,255,255,.18);transition:background .15s}" +
+            ".mplus-selbox:hover{background:rgba(225,225,225,.14)}" +
+            ".mplus-selon{background:rgba(88,101,242,.28);color:#c3cbff;border-color:rgba(88,101,242,.65)}" +
+            ".mplus-bcount{font-size:12px;opacity:.55;white-space:nowrap;padding:0 2px}"
 
         // ------------------------------------------------ state
         var stash = loadStash()
@@ -106,6 +159,10 @@ function init() {
         var sortPick = ctx.state("default")
         var authorNeedle = ctx.state("")
         var searchText = ctx.state("") // mirror of Seanime's own search box
+        var srcUrl = ctx.state(loadSrcUrl()) // last known marketplace source URL
+        var srcCard = null             // first-run prompt element, if on screen
+        var srcOpening = false         // guards the two awaits inside showSrcCard
+        var srcBusy = false
         var fetchedAt = stash.at
         var fetching = false
 
@@ -124,6 +181,21 @@ function init() {
         var stopControls = null
         var stopModals = null
         var stopVideos = null
+        var refetchCards = null     // obs[1] of the card observer, for a forced pass
+
+        // Bulk selection lives on the installed page only and is deliberately
+        // not persisted: it dies with the page, so a stale selection can
+        // never be acted on after a navigation or a reload.
+        var selectMode = false
+        var selected = {}           // extension id → true
+        var bulkBusy = false
+        var bulkArm = 0             // 0 none, 1 disable primed, 2 enable primed
+        var bulkArmAt = 0
+        var selBtnEl = null         // the "Select" toggle
+        var selBarEl = null         // action row, hidden unless select mode
+        var selLblEl = null         // "n selected"
+        var bulkDisEl = null
+        var bulkEnaEl = null
 
         // ------------------------------------------------ user settings
         // Everything Marketplace+ adds is opt-out, so the defaults reproduce
@@ -139,13 +211,12 @@ function init() {
             chipAuthor: true,
             chipLanguage: true,
             chipStars: true,
-            chipDownloads: true,
             chipUpdated: true,
             chipSupport: true,
             detailsBox: true,
             hideBroken: true,
             streamAlerts: true,
-            sendStats: true,
+            bulkTools: true,
         }
         // Needs the "settings" scope. Without it the plugin still runs,
         // just with fixed defaults and no tray.
@@ -160,6 +231,12 @@ function init() {
             } catch (e) { return DEFAULTS[k] }
         }
 
+        function loadSrcUrl() {
+            try {
+                var v = $storage.get(SRC_KEY)
+                return (typeof v === "string") ? v : ""
+            } catch (e) { return "" }
+        }
         function loadStash() {
             try {
                 var raw = $storage.get(STORE_KEY)
@@ -180,6 +257,21 @@ function init() {
         indexCatalog()
 
         // ------------------------------------------------ tiny utils
+        // Always ctx.fetch, never the global one. The global fetch settles
+        // its promise from its own goroutine, so the .then callback runs
+        // JS on the plugin VM while the scheduler may be running a tray
+        // render on another goroutine. goja is not thread-safe: the race
+        // shows up as a "response channel panic: ... not *goja.arrayObject"
+        // warning followed by a nil-pointer panic inside the tray renderer,
+        // at random, usually right after startup when the first feed fetch
+        // lands on top of the first render. ctx.fetch queues the callback
+        // on Seanime's scheduler, which serialises VM access.
+        function http(url, opts) {
+            try {
+                if (ctx && typeof ctx.fetch === "function") return ctx.fetch(url, opts)
+            } catch (e) { }
+            return fetch(url, opts)
+        }
         function xml(v) {
             return (v == null ? "" : String(v))
                 .replace(/&/g, "&amp;").replace(/</g, "&lt;")
@@ -198,17 +290,6 @@ function init() {
         }
         function starsOf(entry) {
             return (entry && typeof entry.stars === "number" && entry.stars > 0) ? entry.stars : 0
-        }
-        // 30-day install count, written into the feed by the marketplace's
-        // nightly job. Absent for extensions nobody has installed since the
-        // counter went live — those simply get no chip.
-        function downloadsOf(entry) {
-            return (entry && typeof entry.downloads === "number" && entry.downloads > 0) ? entry.downloads : 0
-        }
-        function countText(n) {
-            if (n >= 1000000) return String(Math.round(n / 100000) / 10) + "M"
-            if (n >= 1000) return String(Math.round(n / 100) / 10) + "k"
-            return String(n)
         }
         // Default layout: working first, then untagged, deprecated, broken.
         // "Most stars" layout: highest star count first.
@@ -242,9 +323,6 @@ function init() {
         function orderFor(entry, status) {
             var mode = sortPick.get()
             if (mode === "stars") return String(9999 - starsOf(entry))
-            // Negative order puts counted extensions ahead of the uncounted
-            // ones, which stay at the CSS default of 0.
-            if (mode === "downloads") return String(-downloadsOf(entry))
             if (mode === "updated") {
                 var t = whenOf(entry && entry.updatedAt)
                 return String(t ? Math.floor((Date.now() - t) / 60000) : 99999999)
@@ -265,6 +343,39 @@ function init() {
                 return el
             } catch (e) { return null }
         }
+
+        // Seanime renders its own state badges on each card. Marketplace+
+        // hides that row and draws its own chips, so anything only Seanime
+        // knows has to be read back out of the raw innerHTML first —
+        // otherwise a disabled extension would show no sign of it while
+        // this plugin is active.
+        function hasBadge(html, want) {
+            // Cut our own strip off first, exactly as nativeVersion does: it
+            // renders a "Disabled" chip of its own, and on the next pass that
+            // chip would otherwise read back as Seanime's badge and stick.
+            var cut = html.indexOf("mplus-strip")
+            if (cut !== -1) html = html.slice(0, cut)
+            var parts = html.split("UI-Badge__root")
+            for (var i = 1; i < parts.length; i++) {
+                var texts = parts[i].match(/>([^<>]+)</g) || []
+                for (var j = 0; j < texts.length && j < 4; j++) {
+                    if (texts[j].slice(1, -1).trim() === want) return true
+                }
+            }
+            return false
+        }
+
+        // enable/disable are optional in the same way the marketplace-source
+        // calls are: older builds don't have them, and without the
+        // "extensions" scope they throw. No API, no Select button.
+        function extApi() {
+            try {
+                var api = ctx.extensions
+                if (api && typeof api.setDisabled === "function") return api
+            } catch (e) { }
+            return null
+        }
+        function bulkSupported() { return !!extApi() }
 
         // ------------------------------------------------ card badges
         var STATUS_TEXT = { working: "Working", broken: "Broken", deprecated: "Deprecated" }
@@ -299,8 +410,16 @@ function init() {
         //   row 1 → version · status · lang code
         //   row 2 → author · language · stars · updated
         //   right → support (centred across both rows)
-        function stripHtml(entry, key, ver) {
+        function selChipHtml(id) {
+            var on = !!selected[id]
+            return "<span class='mplus-chip mplus-selbox" + (on ? " mplus-selon" : "") + "'>" +
+                (on ? "\u2611" : "\u2610") + " Select</span>"
+        }
+
+        function stripHtml(entry, key, ver, off, selId) {
             var top = ""
+            if (selId) top += selChipHtml(selId)
+            if (off) top += chip("Disabled", "mplus-off")
             if (ver && pref("chipVersion")) top += chip("v" + ver.replace(/^v/i, ""), "mplus-ver")
             var st = statusOf(entry)
             if (STATUS_TEXT[st] && pref("chipStatus")) top += chip(STATUS_TEXT[st], "mplus-" + st)
@@ -320,8 +439,6 @@ function init() {
             if (entry.language && pref("chipLanguage")) bottom += chip(cap(String(entry.language)), "mplus-plain")
             var n = starsOf(entry)
             if (n > 0 && pref("chipStars")) bottom += chip("★ " + n, "mplus-stars")
-            var dl = downloadsOf(entry)
-            if (dl > 0 && pref("chipDownloads")) bottom += chip("↓ " + countText(dl) + "/mo", "mplus-dl")
             var up = whenOf(entry.updatedAt)
             if (up && pref("chipUpdated")) bottom += chip("updated " + agoText(up), "mplus-plain")
 
@@ -369,62 +486,6 @@ function init() {
         // can suddenly represent a different extension. Each card carries a
         // hidden identity marker (data-for) — when it no longer matches the
         // content, the card is re-decorated with the right data.
-        // ------------------------------------------------ install counter
-        // Seanime has no install event a plugin can listen to, so the signal
-        // is the click on the card's own Install button. That's intent, not
-        // outcome — a cancelled or failed install still counts — which is
-        // close enough for a popularity number and avoids polling anything.
-        //
-        // One ping per extension per session; the server discards repeats
-        // from the same address anyway. Failures are ignored on purpose:
-        // a counter is never worth degrading the marketplace over.
-        var pinged = {}
-        var hookedCards = {}
-
-        function pingInstall(key) {
-            if (!key || !STATS_URL || pinged[key]) return
-            if (!pref("sendStats")) return
-            pinged[key] = true
-            try {
-                fetch(STATS_URL + "/c/" + encodeURIComponent(key), { timeout: 8 })
-                    .then(function () { })
-                    .catch(function () { })
-            } catch (e) { }
-        }
-
-        // Finds the Install button among the card's buttons by position:
-        // the innerHTML we already hold tells us which button carries the
-        // word, so no extra getText() roundtrip per card is needed. Cards
-        // without an Install button (already installed, or an update
-        // pending) cost nothing — the regex gate below rejects them first.
-        var INSTALL_RE = /<button\b[^>]*>([\s\S]*?)<\/button>/gi
-        async function hookInstall(card, html, key, cid) {
-            if (!key || !STATS_URL || !pref("sendStats")) return
-            if (!/install/i.test(html)) return
-            var mark = cid + "|" + key
-            if (hookedCards[mark]) return
-
-            var idx = -1, seen = 0, m
-            INSTALL_RE.lastIndex = 0
-            while ((m = INSTALL_RE.exec(html))) {
-                var label = String(m[1]).replace(/<[^>]*>/g, " ").trim()
-                // "Install" only — never "Uninstall", and not the update path,
-                // which is a different action on an extension already counted.
-                if (/(^|\s)install\b/i.test(label) && !/uninstall/i.test(label)) { idx = seen; break }
-                seen++
-            }
-            if (idx < 0) return
-
-            var btns = []
-            try { btns = await card.query("button") } catch (e) { return }
-            if (!btns || idx >= btns.length) return
-
-            hookedCards[mark] = true
-            try {
-                btns[idx].addEventListener("click", function () { pingInstall(key) })
-            } catch (e) { hookedCards[mark] = false }
-        }
-
         async function dressCard(card) {
             var html = (card && card.innerHTML) ? String(card.innerHTML) : ""
             var entry = matchEntry(html)
@@ -432,28 +493,36 @@ function init() {
             var st = statusOf(entry)
             var key = entry ? String(entry.id || entry.name || "") : ""
             var cid = (card && card.id != null) ? String(card.id) : ""
-
-            // Runs before the re-decoration guard below, because a card can
-            // gain its Install button on a later observer pass than the one
-            // that decorated it. Cheap and idempotent, so repeating is fine.
-            hookInstall(card, html, key, cid).catch(function () { })
+            var off = hasBadge(html, "Disabled")
+            var extId = entry ? String(entry.id || "") : ""
+            var extType = entry ? String(entry.type || "") : ""
+            // No checkbox for: the marketplace page, extensions the feed
+            // can't identify, Seanime's built-ins, and Marketplace+ itself —
+            // it would switch itself off half way through its own loop.
+            var selId = (selectMode && !onMarketplace && extId && extId !== SELF_ID &&
+                !hasBadge(html, "Built-in")) ? extId : ""
+            var stamp = key + "|" + (off ? "1" : "0") + "|" + (selId ? "1" : "0")
 
             // Synchronous guard: the observer can fire several times before
             // the (async) decoration below lands, so the innerHTML alone
             // can't be trusted to know whether a card was already handled.
             // Re-decoration is allowed whenever the readable native version
             // changes — e.g. a badge that rendered late, or "1.0.0 → 1.0.1"
-            // becoming "1.0.1" after an update installs.
+            // becoming "1.0.1" after an update installs — and whenever the
+            // disabled state or select mode changes under it.
             if (cid) {
                 var prev = marks[cid]
-                if (prev && prev.key === key && prev.ver === ver) return
-                marks[cid] = { el: card, entry: entry, status: st, key: key, ver: ver }
+                if (prev && prev.key === key && prev.ver === ver && prev.off === off && prev.sel === selId) return
+                marks[cid] = {
+                    el: card, entry: entry, status: st, key: key, ver: ver,
+                    off: off, sel: selId, id: extId, type: extType, selEl: null,
+                }
             }
             // Plugin restarted but the DOM still carries the right strip.
             // Only skip when the version chip also matches the (hidden but
             // still readable) native badge, so stale chips get refreshed.
             var m = html.match(/data-for=["']([^"']*)["']/)
-            if (m && m[1] === key) {
+            if (m && m[1] === stamp) {
                 var cm = html.match(/mplus-ver["'][^>]*>v?([^<]*)</)
                 var shown = cm ? cm[1].trim() : ""
                 if (shown === (ver ? ver.replace(/^v/i, "") : "")) return
@@ -461,6 +530,9 @@ function init() {
 
             try { card.setAttribute("data-mplus", st) } catch (e) { }
             try { card.setAttribute("data-mplus-by", entry && entry.author ? String(entry.author).toLowerCase() : "") } catch (e) { }
+            // Set before the no-entry return below, so extensions the feed
+            // doesn't know can still be filtered by their disabled state.
+            try { card.setAttribute("data-mplus-off", off ? "1" : "0") } catch (e) { }
             try { card.setStyle("order", orderFor(entry, st)) } catch (e) { }
 
             // always drop leftovers from a previous identity or run
@@ -480,7 +552,7 @@ function init() {
             } catch (e) { }
             if (!strip) return
             try { strip.setAttribute("class", "mplus-strip") } catch (e) { }
-            try { strip.setAttribute("data-for", key) } catch (e) { }
+            try { strip.setAttribute("data-for", stamp) } catch (e) { }
 
             if (!entry) {
                 // invisible marker only — remembers this card was processed
@@ -488,7 +560,26 @@ function init() {
                 try { card.append(strip) } catch (e) { }
                 return
             }
-            try { strip.setInnerHTML(stripHtml(entry, key, ver)) } catch (e) { }
+            try { strip.setInnerHTML(stripHtml(entry, key, ver, off, selId)) } catch (e) { }
+            if (selId) {
+                // One extra roundtrip per card, and only while select mode is
+                // on. The handle is kept so ticking a box updates that chip
+                // alone instead of re-decorating the whole page.
+                try {
+                    var boxes = await strip.query(".mplus-selbox")
+                    if (boxes && boxes.length) {
+                        if (cid && marks[cid]) marks[cid].selEl = boxes[0]
+                        ;(function (id, ep) {
+                            try {
+                                boxes[0].addEventListener("click", function () {
+                                    if (ep !== epoch) return
+                                    toggleSel(id)
+                                })
+                            } catch (e) { }
+                        })(selId, epoch)
+                    }
+                } catch (e) { }
+            }
 
             var anchor = null
             if (oldBadges.length) { try { anchor = await oldBadges[0].getParent() } catch (e) { } }
@@ -530,14 +621,6 @@ function init() {
             if (chips) rows += infoRow("Status", chips)
             var n = starsOf(entry)
             if (n > 0) rows += infoRow("Stars", xml("★ " + n))
-            var dl = downloadsOf(entry)
-            if (dl > 0) {
-                var dlText = countText(dl) + " in the last 30 days"
-                if (typeof entry.downloadsTotal === "number" && entry.downloadsTotal > dl) {
-                    dlText += " · " + countText(entry.downloadsTotal) + " total"
-                }
-                rows += infoRow("Installs", xml(dlText))
-            }
             var added = dateText(entry.addedAt)
             if (added) rows += infoRow("Added", xml(added))
             var up = dateText(entry.updatedAt)
@@ -624,7 +707,12 @@ function init() {
             var st = statusPick.get()
             var by = authorNeedle.get().toLowerCase().replace(/["\\]/g, "")
             var searching = searchText.get().length > 0 || by.length > 0
-            if (st !== "all") {
+            // A stale "disabled" pick from the installed page would hide every
+            // card on the marketplace, so it degrades to "any status" there.
+            if (st === "disabled" && onMarketplace) st = "all"
+            if (st === "disabled") {
+                css += '[class*="extension-card"]:not([data-mplus-off="1"]){display:none !important}'
+            } else if (st !== "all") {
                 css += '[class*="extension-card"]:not([data-mplus="' + st + '"]){display:none !important}'
             } else if (!searching && onMarketplace && pref("hideBroken")) {
                 // Marketplace only: broken extensions stay hidden until searched
@@ -766,6 +854,298 @@ function init() {
             return box
         }
 
+        // ------------------------------------------------ bulk enable/disable
+        // Selection is keyed by extension id, never by element, so it
+        // survives Seanime re-rendering the whole list under us — which it
+        // does after every enable/disable.
+        function selIds() {
+            var out = []
+            for (var k in selected) if (selected[k]) out.push(k)
+            return out
+        }
+        function resetSelection() {
+            selectMode = false
+            selected = {}
+            bulkArm = 0
+            selBtnEl = null
+            selBarEl = null
+            selLblEl = null
+            bulkDisEl = null
+            bulkEnaEl = null
+        }
+        function setSelChip(el, on) {
+            try { el.setAttribute("class", "mplus-chip mplus-selbox" + (on ? " mplus-selon" : "")) } catch (e) { }
+            try { el.setText((on ? "\u2611" : "\u2610") + " Select") } catch (e) { }
+        }
+        function disarm() { bulkArm = 0 }
+        // Seanime asks the user to approve every single enable/disable: the
+        // prompt is cached per extension and per direction, and there is no
+        // batch call to ask once for many. "Don't Allow" (or letting the
+        // prompt time out) is therefore the only cancel the user has, so it
+        // is treated as one — the run stops instead of putting the whole
+        // remaining queue of prompts on screen one after another.
+        function isDenial(e) {
+            var m = ""
+            try { m = String((e && e.message) ? e.message : (e || "")) } catch (er) { m = "" }
+            return /denied|deadline|timeout|cancel/i.test(m)
+        }
+        // Current disabled state of every card on screen, by extension id.
+        function cardState() {
+            var state = {}
+            for (var cid in marks) {
+                var m = marks[cid]
+                if (m && m.id) state[m.id] = !!m.off
+            }
+            return state
+        }
+        // How many of the selected extensions that direction would actually
+        // touch — the rest are already there and cost no prompt.
+        function toChange(off) {
+            var state = cardState()
+            var ids = selIds()
+            var n = 0
+            for (var i = 0; i < ids.length; i++) {
+                if (ids[i] === SELF_ID || state[ids[i]] === off) continue
+                n++
+            }
+            return n
+        }
+        function redressCards() {
+            // Dropping the marks clears the re-decoration guard; the
+            // observer's own refetch then redelivers every card.
+            marks = {}
+            if (refetchCards) { try { refetchCards(); return } catch (e) { } }
+            watchCards()
+        }
+        // Two-step confirm without a dialog: the button primes itself, says
+        // so, and un-primes a few seconds later. Cheaper than a modal, and it
+        // keeps the whole feature inside the toolbar.
+        function arm(kind) {
+            bulkArm = kind
+            var mine = ++bulkArmAt
+            try {
+                ctx.setTimeout(function () {
+                    if (bulkArmAt !== mine || bulkArm !== kind) return
+                    bulkArm = 0
+                    refreshBulk()
+                }, ARM_FOR)
+            } catch (e) { }
+            refreshBulk()
+        }
+        function btnLabel(el, kind, word, n, mark) {
+            if (!el) return
+            var armed = bulkArm === kind
+            var intent = (kind === 1) ? (armed ? "warnOn" : "warn") : (armed ? "okOn" : "ok")
+            try { el.setAttribute("class", btnClass(K_BTN_SM, intent, mark)) } catch (e) { }
+            try { el.setText((armed ? "Confirm " + word.toLowerCase() : word) + (n ? " (" + n + ")" : "")) } catch (e) { }
+        }
+        function refreshBulk() {
+            var n = selIds().length
+            if (selLblEl) {
+                // Once a button is primed, stop counting the selection and
+                // start counting what it is about to cost: one permission
+                // prompt per extension, which is the part that surprises people.
+                var txt = n + " selected"
+                if (bulkArm) {
+                    var k = toChange(bulkArm === 1)
+                    txt = k ? ("Seanime will ask " + k + " time" + (k === 1 ? "" : "s")) : "nothing to change"
+                }
+                try { selLblEl.setText(txt) } catch (e) { }
+            }
+            btnLabel(bulkDisEl, 1, "Disable", n, "mplus-bdis")
+            btnLabel(bulkEnaEl, 2, "Enable", n, "mplus-bena")
+        }
+        function toggleSel(id) {
+            if (!id || bulkBusy) return
+            if (selected[id]) delete selected[id]
+            else selected[id] = true
+            disarm()
+            for (var cid in marks) {
+                var m = marks[cid]
+                if (m && m.selEl && m.id === id) setSelChip(m.selEl, !!selected[id])
+            }
+            refreshBulk()
+        }
+        // An empty type means every selectable card currently on the page.
+        // Only cards that got a checkbox are touched, so Marketplace+ itself
+        // and anything the feed can't identify stay out of "All" too.
+        function selectByType(type) {
+            if (bulkBusy) return
+            for (var cid in marks) {
+                var m = marks[cid]
+                if (!m || !m.selEl || !m.id) continue
+                if (type && m.type !== type) continue
+                selected[m.id] = true
+                setSelChip(m.selEl, true)
+            }
+            disarm()
+            refreshBulk()
+        }
+        function selectNone() {
+            if (bulkBusy) return
+            selected = {}
+            for (var cid in marks) {
+                var m = marks[cid]
+                if (m && m.selEl) setSelChip(m.selEl, false)
+            }
+            disarm()
+            refreshBulk()
+        }
+        function setSelectMode(on) {
+            if (bulkBusy || selectMode === on) return
+            selectMode = on
+            if (!on) selected = {}
+            bulkArm = 0
+            if (selBtnEl) {
+                try { selBtnEl.setAttribute("class", btnClass(K_BTN_MD, on ? "brand" : "gray", "mplus-selbtn")) } catch (e) { }
+                try { selBtnEl.setText(on ? "Done" : "Select") } catch (e) { }
+            }
+            if (selBarEl) { try { selBarEl.setStyle("display", on ? "inline-flex" : "none") } catch (e) { } }
+            refreshBulk()
+            // The checkbox lives in the chip strip, so every card has to be
+            // decorated again.
+            redressCards()
+        }
+        async function runBulk(off) {
+            var api = extApi()
+            var ids = selIds()
+            if (bulkBusy || !api || !ids.length) return
+            bulkBusy = true
+            bulkArm = 0
+            refreshBulk()
+
+            // What each id looks like right now, read off the cards. An
+            // extension already in the target state is left alone, so it
+            // costs no prompt and isn't counted as a change.
+            var state = cardState()
+
+            var ok = 0, same = 0, fail = 0, left = 0
+            for (var i = 0; i < ids.length; i++) {
+                var id = ids[i]
+                if (id === SELF_ID || state[id] === off) { same++; continue }
+                var err = null
+                try { await api.setDisabled(id, off) } catch (e) { err = e }
+                if (!err) { ok++; continue }
+                if (isDenial(err)) { left = ids.length - i - 1; break }
+                fail++
+            }
+
+            bulkBusy = false
+            var word = off ? "disabled" : "enabled"
+            var msg = ok + " " + word
+            if (same) msg += ", " + same + " already " + word
+            if (fail) msg += ", " + fail + " failed"
+            try {
+                if (left) ctx.toast.info("Marketplace+: stopped — " + msg + ", " + left + " left")
+                else if (fail && !ok) ctx.toast.alert("Marketplace+: " + msg)
+                else ctx.toast.success("Marketplace+: " + msg)
+            } catch (e) { }
+
+            // A cancelled run keeps select mode and the selection, so the
+            // user can drop a few and try again without starting over.
+            if (left) { refreshBulk(); redressCards() }
+            else setSelectMode(false)
+        }
+
+        // The Select toggle and its action row. Built once per toolbar mount,
+        // installed page only; returns null when the running Seanime has no
+        // enable/disable API to call, so older builds simply don't see it.
+        async function makeBulkBox(myEpoch) {
+            if (!pref("bulkTools") || !bulkSupported()) return null
+            var parts = null
+            try {
+                parts = await Promise.all([
+                    ctx.dom.createElement("div").catch(function () { return null }),
+                    ctx.dom.createElement("div").catch(function () { return null }),
+                ])
+            } catch (e) { return null }
+            if (!parts || !parts[0] || !parts[1]) return null
+            var wrap = parts[0], bar = parts[1]
+
+            // A fresh toolbar means a fresh page; never inherit a selection.
+            resetSelection()
+
+            try { wrap.setCssText("display:inline-flex;align-items:center;gap:6px;flex-wrap:wrap") } catch (e) { }
+            try { wrap.setInnerHTML("<button type='button' class='" + btnClass(K_BTN_MD, "gray", "mplus-selbtn") + "'>Select</button>") } catch (e) { }
+
+            // Action order here is the order the handlers are bound in below.
+            var plan = [["all", ""], ["none", ""]]
+            var actBtn = function (text, mark) {
+                return "<button type='button' class='" + btnClass(K_BTN_SM, "gray", mark) + "'>" + xml(text) + "</button>"
+            }
+            var barHtml = "<span class='mplus-bcount'>0 selected</span>" +
+                actBtn("All", "mplus-act") + actBtn("None", "mplus-act")
+            for (var i = 0; i < TYPE_PICKS.length; i++) {
+                plan.push(["type", TYPE_PICKS[i][0]])
+                barHtml += actBtn("+ " + TYPE_PICKS[i][1], "mplus-act")
+            }
+            barHtml += "<button type='button' class='" + btnClass(K_BTN_SM, "warn", "mplus-bdis") + "'>Disable</button>" +
+                "<button type='button' class='" + btnClass(K_BTN_SM, "ok", "mplus-bena") + "'>Enable</button>"
+            try { bar.setCssText("display:none;align-items:center;gap:6px;flex-wrap:wrap") } catch (e) { }
+            try { bar.setInnerHTML(barHtml) } catch (e) { }
+            try { wrap.append(bar) } catch (e) { }
+
+            var found = null
+            try {
+                found = await Promise.all([
+                    wrap.query(".mplus-selbtn").catch(function () { return [] }),
+                    bar.query(".mplus-bcount").catch(function () { return [] }),
+                    bar.query(".mplus-act").catch(function () { return [] }),
+                    bar.query(".mplus-bdis").catch(function () { return [] }),
+                    bar.query(".mplus-bena").catch(function () { return [] }),
+                ])
+            } catch (e) { }
+            if (!found) return wrap
+
+            selBarEl = bar
+            selBtnEl = (found[0] && found[0].length) ? found[0][0] : null
+            selLblEl = (found[1] && found[1].length) ? found[1][0] : null
+            bulkDisEl = (found[3] && found[3].length) ? found[3][0] : null
+            bulkEnaEl = (found[4] && found[4].length) ? found[4][0] : null
+
+            if (selBtnEl) {
+                try {
+                    selBtnEl.addEventListener("click", function () {
+                        if (myEpoch !== epoch) return
+                        setSelectMode(!selectMode)
+                    })
+                } catch (e) { }
+            }
+            var acts = found[2] || []
+            for (var a = 0; a < acts.length && a < plan.length; a++) {
+                (function (el, kind, val) {
+                    try {
+                        el.addEventListener("click", function () {
+                            if (myEpoch !== epoch) return
+                            if (kind === "all") selectByType("")
+                            else if (kind === "none") selectNone()
+                            else selectByType(val)
+                        })
+                    } catch (e) { }
+                })(acts[a], plan[a][0], plan[a][1])
+            }
+            if (bulkDisEl) {
+                try {
+                    bulkDisEl.addEventListener("click", function () {
+                        if (myEpoch !== epoch || bulkBusy) return
+                        if (bulkArm === 1) runBulk(true).catch(function () { })
+                        else arm(1)
+                    })
+                } catch (e) { }
+            }
+            if (bulkEnaEl) {
+                try {
+                    bulkEnaEl.addEventListener("click", function () {
+                        if (myEpoch !== epoch || bulkBusy) return
+                        if (bulkArm === 2) runBulk(false).catch(function () { })
+                        else arm(2)
+                    })
+                } catch (e) { }
+            }
+            refreshBulk()
+            return wrap
+        }
+
         // ------------------------------------------------ toolbar injection
         async function placeControls(searchInputs) {
             if (!searchInputs || !searchInputs.length) return
@@ -784,6 +1164,9 @@ function init() {
                 if (holder) { try { row = await holder.getParent() } catch (e) { } }
                 if (row) { try { langSel = await row.query(".UI-Select__root") } catch (e) { } }
                 var isMarket = !!(langSel && langSel.length)
+                // Carrying a "Disabled" pick onto the marketplace would leave
+                // the dropdown showing a value its own menu doesn't have.
+                if (isMarket && statusPick.get() === "disabled") statusPick.set("all")
                 if (onMarketplace !== isMarket) {
                     onMarketplace = isMarket
                     refreshFilter().catch(function () { })
@@ -821,15 +1204,16 @@ function init() {
                     try { f.addEventListener("keyup", track) } catch (e) { }
                 })(field, myEpoch)
 
-                var built = [null, null, null]
+                var built = [null, null, null, null]
                 try {
                     built = await Promise.all([
-                        makeDropdown(STATUS_MENU, statusPick, function () { refreshFilter().catch(function () { }) }, myEpoch).catch(function () { return null }),
+                        makeDropdown(isMarket ? STATUS_MENU : STATUS_MENU_INSTALLED, statusPick, function () { refreshFilter().catch(function () { }) }, myEpoch).catch(function () { return null }),
                         makeDropdown(SORT_MENU, sortPick, refreshSort, myEpoch).catch(function () { return null }),
                         makeAuthorBox(myEpoch).catch(function () { return null }),
+                        isMarket ? Promise.resolve(null) : makeBulkBox(myEpoch).catch(function () { return null }),
                     ])
                 } catch (e) { }
-                var ddStatus = built[0], ddSort = built[1], authorBox = built[2]
+                var ddStatus = built[0], ddSort = built[1], authorBox = built[2], bulkBox = built[3]
 
                 if (langSel && langSel.length) {
                     // Marketplace row → [Status][Sort][Languages][Author][Search]
@@ -846,6 +1230,7 @@ function init() {
                         if (ddStatus) { try { group.append(ddStatus) } catch (e) { } }
                         if (ddSort) { try { group.append(ddSort) } catch (e) { } }
                         if (authorBox) { try { group.append(authorBox) } catch (e) { } }
+                        if (bulkBox) { try { group.append(bulkBox) } catch (e) { } }
                         try { holder.setStyle("display", "inline-flex") } catch (e) { }
                         try { holder.setStyle("vertical-align", "top") } catch (e) { }
                         try { holder.setStyle("width", "380px") } catch (e) { }
@@ -862,7 +1247,7 @@ function init() {
             var age = Date.now() - fetchedAt
             if (!force && catalog.get().length > 0 && age < FRESH_FOR) return
             fetching = true
-            fetch(FEED_URL, { timeout: 15 }).then(function (res) {
+            http(FEED_URL, { timeout: 15 }).then(function (res) {
                 if (res.ok) {
                     var data = res.json()
                     if (Array.isArray(data)) {
@@ -1139,6 +1524,161 @@ function init() {
             }
         }
 
+        // ------------------------------------------------ marketplace source
+        // Seanime exposes the marketplace URL to plugins through
+        // ctx.extensions.get/setMarketplaceUrl. Both are optional: older
+        // builds don't have them and the call throws without the
+        // "extensions" scope, so every path here degrades to a no-op and
+        // the tray group simply doesn't render.
+        //
+        // Both calls put a permission prompt in front of the user, and
+        // Seanime's approval cache for them lives on the plugin context, so
+        // it starts empty on every launch. Nothing here may run on its own
+        // at boot: the URL we last set is cached in $storage and the API is
+        // only touched when the user presses something.
+        function srcApi() {
+            try {
+                var api = ctx.extensions
+                if (api && typeof api.setMarketplaceUrl === "function") return api
+            } catch (e) { }
+            return null
+        }
+        function srcSupported() { return !!srcApi() }
+
+        async function readSrcUrl() {
+            var api = srcApi()
+            if (!api || typeof api.getMarketplaceUrl !== "function") return null
+            var v = null
+            try { v = await api.getMarketplaceUrl() } catch (e) { return null }
+            var s = (v == null) ? "" : String(v).trim()
+            srcUrl.set(s)
+            try { $storage.set(SRC_KEY, s) } catch (e) { }
+            try { if (srcInput) srcInput.setValue(s) } catch (e) { }
+            return s
+        }
+
+        // true once the user has answered the prompt, either way
+        function srcAsked() {
+            try { return !!$storage.get(ASK_KEY) } catch (e) { return false }
+        }
+        function markSrcAsked() {
+            try { $storage.set(ASK_KEY, true) } catch (e) { }
+        }
+        // $storage.remove exists on current builds; older ones get a null
+        // write, which reads back falsy just the same.
+        function dropKey(k) {
+            try {
+                if (typeof $storage.remove === "function") { $storage.remove(k); return }
+            } catch (e) { }
+            try { $storage.set(k, null) } catch (e) { }
+        }
+        // Puts the plugin back to how it looks on a fresh install: the
+        // first-run card returns on the next start, the cached URL and the
+        // cached feed are gone. Seanime's own marketplace URL is left alone
+        // - clearing that would need a permission prompt, and the point of
+        // this button is to test the prompt, not to fire one.
+        function forgetSrc() {
+            dropKey(ASK_KEY)
+            dropKey(SRC_KEY)
+            dropKey(STORE_KEY)
+            srcUrl.set("")
+            try { if (srcInput) srcInput.setValue("") } catch (e) { }
+        }
+
+        async function setSrcUrl(url, quiet) {
+            var api = srcApi()
+            if (!api) return false
+            try {
+                await api.setMarketplaceUrl(url)
+                srcUrl.set(url)
+                try { $storage.set(SRC_KEY, url) } catch (e) { }
+                try { if (srcInput) srcInput.setValue(url) } catch (e) { }
+                if (!quiet) {
+                    try {
+                        ctx.toast.success(url
+                            ? "Marketplace source updated \u2014 reopen the Extensions page to load it"
+                            : "Marketplace source cleared")
+                    } catch (e) { }
+                }
+                syncFeed(true)
+                return true
+            } catch (e) {
+                var m = (e && e.message) ? e.message : String(e)
+                try { ctx.toast.alert("Couldn't set the marketplace source: " + m) } catch (er) { }
+                return false
+            }
+        }
+
+        function hideSrcCard() {
+            if (srcCard) { try { srcCard.remove() } catch (e) { } srcCard = null }
+        }
+
+        // One-time offer, bottom-right, same shape as the stuck-stream card.
+        // Answering either way writes the flag, so it is genuinely asked once.
+        async function showSrcCard() {
+            if (srcCard || srcOpening) return
+            srcOpening = true
+            var b = await body()
+            if (!b) { srcOpening = false; return }
+            var card = null
+            try { card = await ctx.dom.createElement("div") } catch (e) { }
+            if (!card) { srcOpening = false; return }
+            try { card.setAttribute("class", "mplus-alert mplus-setup") } catch (e) { }
+
+            // Deliberately doesn't read the URL Seanime currently has:
+            // that read costs a permission prompt, and asking for one before
+            // the user has agreed to anything is exactly the nagging this
+            // card exists to avoid.
+            var text = "Marketplace+ works best with the community marketplace feed. " +
+                "Set it as Seanime's marketplace source? This replaces whatever " +
+                "source is configured now.<code>" + xml(FEED_URL) + "</code>"
+
+            try {
+                card.setInnerHTML(
+                    "<div class='mplus-alert-t'>Marketplace+ setup</div>" +
+                    "<div class='mplus-alert-b'>" + text + "</div>" +
+                    "<div class='mplus-line'>" +
+                    "<span class='mplus-chip mplus-go mplus-src-yes'>Use recommended source</span>" +
+                    "<span class='mplus-chip mplus-ver mplus-skip mplus-src-no'>Not now</span>" +
+                    "</div>"
+                )
+            } catch (e) { }
+            try { b.append(card) } catch (e) { }
+            srcCard = card
+            srcOpening = false
+
+            try {
+                var yes = await card.query(".mplus-src-yes")
+                if (yes && yes.length) {
+                    yes[0].addEventListener("click", function () {
+                        if (srcBusy) return
+                        srcBusy = true
+                        markSrcAsked()
+                        hideSrcCard()
+                        setSrcUrl(FEED_URL, false).then(function () { srcBusy = false })
+                            .catch(function () { srcBusy = false })
+                    })
+                }
+                var no = await card.query(".mplus-src-no")
+                if (no && no.length) {
+                    no[0].addEventListener("click", function () {
+                        markSrcAsked()
+                        hideSrcCard()
+                    })
+                }
+            } catch (e) { }
+        }
+
+        // Runs on every boot, but only ever does something the first time.
+        // Once the user has answered, this returns before touching the
+        // extensions API, so no permission prompt appears at startup again.
+        function checkSrc() {
+            if (!srcSupported()) return
+            if (srcAsked()) return
+            try { if (srcInput) srcInput.setValue(srcUrl.get()) } catch (e) { }
+            showSrcCard().catch(function () { })
+        }
+
         // ------------------------------------------------ settings tray
         // Card decoration is cached per element (marks), so flipping a
         // switch has to drop the cache and re-run the observers before
@@ -1153,6 +1693,8 @@ function init() {
         }
 
         var REFS = {}
+        var srcInput = null
+        try { srcInput = ctx.fieldRef("") } catch (e) { srcInput = null }
         function refFor(key) {
             if (REFS[key] !== undefined) return REFS[key]
             var r = null
@@ -1176,13 +1718,39 @@ function init() {
             ".mpset-sub{font-size:11px;opacity:.5;margin-top:2px}" +
             ".mpset-h{font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;opacity:.45;margin:2px 2px 6px}" +
             ".mpset-card{background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:8px 10px;margin-bottom:12px}" +
-            ".mpset-foot{padding-top:2px}"
+            ".mpset-foot{padding-top:2px}" +
+            ".mpset-note{font-size:11px;opacity:.5;margin:0 2px 6px;word-break:break-all}" +
+            ".mpset-btns{margin-top:6px}"
 
         // One switch row. Falls back to a plain label if the field ref
         // couldn't be created, so a partial failure never breaks render.
         function sw(key, label) {
             var r = refFor(key)
             return r ? tray.switch(label, { fieldRef: r, size: "sm" }) : tray.text(label)
+        }
+        // Line above the URL field in the tray. Shows the cached value,
+        // not a live read - reading costs the user a permission prompt, so
+        // that only happens when they press "Check current".
+        function srcNote() {
+            var u = srcUrl.get()
+            if (!u) return "Not set through Marketplace+."
+            if (u === FEED_URL) return "Set to the recommended source."
+            return "Set to: " + u
+        }
+        // Rows of the "Marketplace source" group. The URL field is only
+        // offered when a field ref could be created; the button that sets
+        // the recommended source always works on its own.
+        function srcRows() {
+            var rows = [tray.text(srcNote(), { className: "mpset-note" })]
+            var btns = []
+            if (srcInput) {
+                rows.push(tray.input("Marketplace URL", { fieldRef: srcInput, placeholder: "https://..." }))
+                btns.push(tray.button("Save", { onClick: "mplus-src-save", size: "sm", intent: "primary-subtle" }))
+            }
+            btns.push(tray.button("Use recommended", { onClick: "mplus-src-default", size: "sm", intent: "gray-subtle" }))
+            btns.push(tray.button("Check current", { onClick: "mplus-src-check", size: "sm", intent: "gray-subtle" }))
+            rows.push(tray.flex(btns, { gap: 1, className: "mpset-btns" }))
+            return rows
         }
         function group(title, rows) {
             return tray.div([
@@ -1203,6 +1771,34 @@ function init() {
             try { tray = ctx.newTray(trayOpts) } catch (e) { tray = null }
         }
         if (tray) {
+            try {
+                ctx.registerEventHandler("mplus-src-default", function () {
+                    markSrcAsked()
+                    setSrcUrl(FEED_URL, false).catch(function () { })
+                })
+                // The only place that reads the URL back, because Seanime
+                // asks the user for permission the first time it is called
+                // each launch. Pressing the button makes that prompt expected.
+                ctx.registerEventHandler("mplus-src-forget", function () {
+                    forgetSrc()
+                    try {
+                        ctx.toast.success("Setup reset \u2014 Marketplace+ will ask about the marketplace source again next time Seanime starts")
+                    } catch (e) { }
+                })
+                ctx.registerEventHandler("mplus-src-check", function () {
+                    readSrcUrl().then(function (u) {
+                        if (u == null) return
+                        try { ctx.toast.info(u ? ("Marketplace source: " + u) : "No marketplace source set") } catch (e) { }
+                    }).catch(function () { })
+                })
+                ctx.registerEventHandler("mplus-src-save", function () {
+                    var v = ""
+                    try { v = srcInput ? String(srcInput.current || "").trim() : "" } catch (e) { v = "" }
+                    markSrcAsked()
+                    setSrcUrl(v, false).catch(function () { })
+                })
+            } catch (e) { }
+
             try {
                 ctx.registerEventHandler("mplus-reset", function () {
                     try { settings.reset() } catch (e) { }
@@ -1232,7 +1828,6 @@ function init() {
                             sw("chipAuthor", "Author"),
                             sw("chipLanguage", "Written language"),
                             sw("chipStars", "Stars"),
-                            sw("chipDownloads", "Install count"),
                             sw("chipUpdated", "Last updated"),
                             sw("chipSupport", "Support buttons"),
                         ]),
@@ -1240,18 +1835,22 @@ function init() {
                         group("Marketplace", [
                             sw("detailsBox", "Extra info in details dialog"),
                             sw("hideBroken", "Hide broken on marketplace until searched"),
+                            sw("bulkTools", "Bulk enable/disable on Installed"),
                         ]),
+
+                        srcSupported() ? group("Marketplace source", srcRows()) : tray.div([]),
 
                         group("Video player", [
                             sw("streamAlerts", "Warn when a stream is stuck"),
                         ]),
 
-                        group("Privacy", [
-                            sw("sendStats", "Count my installs anonymously"),
-                        ]),
-
                         tray.div([
-                            tray.button("Reset to defaults", { onClick: "mplus-reset", size: "sm", intent: "gray-subtle" }),
+                            tray.flex([
+                                tray.button("Reset to defaults", { onClick: "mplus-reset", size: "sm", intent: "gray-subtle" }),
+                                srcSupported()
+                                    ? tray.button("Reset setup", { onClick: "mplus-src-forget", size: "sm", intent: "gray-subtle" })
+                                    : tray.div([]),
+                            ], { gap: 1 }),
                         ], { className: "mpset-foot" }),
                     ], { gap: 0, className: "mpset" })
                 })
@@ -1275,6 +1874,9 @@ function init() {
                 // from Seanime's own filters get picked up and re-decorated
                 var obs = ctx.dom.observe('[class*="extension-card"]', dressCards, { withInnerHTML: true })
                 stopCards = (obs && obs.length) ? obs[0] : null
+                // obs[1] re-delivers every match on demand — used when select
+                // mode toggles, since nothing in the DOM changes on its own.
+                refetchCards = (obs && obs.length > 1 && typeof obs[1] === "function") ? obs[1] : null
             } catch (e) { }
             refreshFilter().catch(function () { })
         }
@@ -1297,8 +1899,10 @@ function init() {
             onMarketplace = false
             marks = {}
             modalMarks = {}
-            hookedCards = {}   // element ids are reused after a reload, so re-hook
+            refetchCards = null
+            resetSelection()
             wVideos = {}
+            srcCard = null
             wCard = null
             wBadSince = 0
             wShown = false
@@ -1312,6 +1916,7 @@ function init() {
             watchModals()
             watchVideos()
             syncFeed(false)
+            try { checkSrc() } catch (e) { }
         }
 
         try { ctx.dom.onReady(function () { wipeHandles(); boot() }) } catch (e) { }
@@ -1320,6 +1925,7 @@ function init() {
             ctx.screen.onNavigate(function (e) {
                 try { wPath = (e && e.pathname) ? String(e.pathname) : "" } catch (er) { wPath = "" }
                 onMarketplace = false   // re-detected when the toolbar mounts
+                resetSelection()        // a selection never crosses a navigation
                 wHealthy(); watchControls(); watchCards(); watchModals(); watchVideos()
             })
         } catch (e) { }
