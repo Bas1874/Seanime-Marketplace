@@ -1219,17 +1219,17 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "dipland-mangafire", "name": "MangaFire", "version": "1.0.2", "author": "dip-land",
+    "id": "dipland-mangafire", "name": "MangaFire", "version": "1.1.1", "author": "dip-land",
     "description": "Multi language manga provider.", "type": "manga-provider", "language": "typescript",
     "lang": "multi", "icon": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaFire/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaFire/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaFire/payload.ts",
-    "website": "https://github.com/dip-land/seanime", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8aa5127080ce2a167ee93faa029f67623f597df3ed83cc1016e2c13669529025",
+    "website": "https://github.com/dip-land/seanime", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8a5735d39ea8f38261507879c7617fc3ac3f61d62c3896188a2285e9e437d588",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1535551888580280470",
-    "addedAt": "2026-08-08T07:34:59.412Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "addedAt": "2026-08-08T07:34:59.412Z", "updatedAt": "2026-09-20T23:02:50.193Z"
   },
   {
     "id": "discord-rpc-extended", "name": "Discord RPC Extended", "version": "1.0.11", "author": "nnotwen",
