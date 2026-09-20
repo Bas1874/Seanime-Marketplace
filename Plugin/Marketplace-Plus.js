@@ -1,5 +1,5 @@
 // ================================================================
-//  Marketplace+ v1.2.0  ·  by bas1874
+//  Marketplace+ v1.2.1  ·  by bas1874
 //  Based on original seatags concept by Aqua
 // ================================================================
 
@@ -44,7 +44,12 @@ function init() {
         // and no way to ask Seanime what is installed, so the ids come from
         // matching the cards on screen against the marketplace feed. An
         // extension the feed doesn't know simply gets no checkbox.
-        var SELF_ID = "marketplace-enhancer"
+        // Every id this plugin ships under. The published marketplace entry
+        // uses "Marketplace-Plus"; the local development copy uses
+        // "marketplace-enhancer". Both must be excluded, or Marketplace+ gets
+        // a checkbox of its own and can switch itself off mid-run.
+        var SELF_IDS = { "Marketplace-Plus": true, "marketplace-enhancer": true }
+        function isSelf(id) { return !!SELF_IDS[id] }
         // "+ <label>" shortcuts that add every card of that type to the
         // selection. Values are the feed's own `type` field.
         var TYPE_PICKS = [
@@ -499,7 +504,7 @@ function init() {
             // No checkbox for: the marketplace page, extensions the feed
             // can't identify, Seanime's built-ins, and Marketplace+ itself —
             // it would switch itself off half way through its own loop.
-            var selId = (selectMode && !onMarketplace && extId && extId !== SELF_ID &&
+            var selId = (selectMode && !onMarketplace && extId && !isSelf(extId) &&
                 !hasBadge(html, "Built-in")) ? extId : ""
             var stamp = key + "|" + (off ? "1" : "0") + "|" + (selId ? "1" : "0")
 
@@ -905,7 +910,7 @@ function init() {
             var ids = selIds()
             var n = 0
             for (var i = 0; i < ids.length; i++) {
-                if (ids[i] === SELF_ID || state[ids[i]] === off) continue
+                if (isSelf(ids[i]) || state[ids[i]] === off) continue
                 n++
             }
             return n
@@ -1022,7 +1027,7 @@ function init() {
             var ok = 0, same = 0, fail = 0, left = 0
             for (var i = 0; i < ids.length; i++) {
                 var id = ids[i]
-                if (id === SELF_ID || state[id] === off) { same++; continue }
+                if (isSelf(id) || state[id] === off) { same++; continue }
                 var err = null
                 try { await api.setDisabled(id, off) } catch (e) { err = e }
                 if (!err) { ok++; continue }
