@@ -696,6 +696,20 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "animex-online-streaming", "name": "AnimeX", "version": "1.0.9", "author": "Jae",
+    "description": "AnimeX online streaming provider for Seanime.", "type": "onlinestream-provider",
+    "language": "javascript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider/refs/heads/main/assets/logo.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider/refs/heads/main/Manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider/refs/heads/main/Provider.js",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/6c0bb50642d24ae18a48641da0e3b226dd5db1f6c86ff70cf9382337014a742c",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
+    "scannedOnVersion": "3.10.2", "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1551072695406428160",
+    "addedAt": "2026-09-20T03:29:08.122Z", "updatedAt": "2026-09-20T05:51:30.950Z"
+  },
+  {
     "id": "animeyabu", "name": "Anime Yabu", "version": "1.0.3", "author": "Jhoorodr",
     "description": "Anime streaming provider for Anime Yabu. May only work with a Brazil VPN.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
