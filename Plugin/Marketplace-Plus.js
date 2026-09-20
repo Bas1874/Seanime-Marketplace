@@ -1,5 +1,5 @@
 // ================================================================
-//  Marketplace+ v1.2.1  ·  by bas1874
+//  Marketplace+ v1.2.2  ·  by bas1874
 //  Based on original seatags concept by Aqua
 // ================================================================
 
@@ -171,7 +171,7 @@ function init() {
         var fetchedAt = stash.at
         var fetching = false
 
-        var lookup = { id: {}, name: {} }
+        var lookup = { id: {}, name: {} }  // name → [entries], several share one
         var pageReady = false
         var epoch = 0               // bumped only on client reload
         var seenInputs = {}
@@ -201,6 +201,7 @@ function init() {
         var selLblEl = null         // "n selected"
         var bulkDisEl = null
         var bulkEnaEl = null
+        var selWrapEl = null        // the Select control itself; outlives a selection
 
         // ------------------------------------------------ user settings
         // Everything Marketplace+ adds is opt-out, so the defaults reproduce
@@ -223,8 +224,12 @@ function init() {
             streamAlerts: true,
             bulkTools: true,
         }
-        // Needs the "settings" scope. Without it the plugin still runs,
-        // just with fixed defaults and no tray.
+        // ctx.settings is plugin-local UI state and needs no scope of its
+        // own — the "settings" scope is for ctx.appSettings, which is
+        // Seanime's own app settings and is not used here. Values are
+        // mirrored in $store and persisted through $storage, which the
+        // "storage" scope covers. Still guarded: a failure here costs the
+        // tray, not the plugin.
         var settings = null
         try { settings = ctx.settings.define("marketplace-plus", DEFAULTS) } catch (e) { settings = null }
 
@@ -256,7 +261,17 @@ function init() {
             for (var i = 0; i < items.length; i++) {
                 var it = items[i]
                 if (it.id) lookup.id[it.id] = it
-                if (it.name) lookup.name[String(it.name).toLowerCase()] = it
+                if (it.name) {
+                    // Display names are not unique in the catalogue — two
+                    // MangaFire, two AniZone, two MangaDex, and so on, often
+                    // with opposite status tags. The cards only show the name,
+                    // so a last-one-wins map silently hands every one of them
+                    // whichever entry came last in the feed. Keep them all and
+                    // let matchEntry pick, or decline to guess.
+                    var nk = String(it.name).trim().toLowerCase()
+                    if (!lookup.name[nk]) lookup.name[nk] = []
+                    lookup.name[nk].push(it)
+                }
             }
         }
         indexCatalog()
@@ -479,11 +494,35 @@ function init() {
             return ""
         }
 
-        function matchEntry(html) {
+        // Resolve a name that more than one catalogue entry answers to. The
+        // version on the card is the only other readable signal, so it breaks
+        // the tie; when it can't, nothing is returned. No badge is better than
+        // a confident wrong one — telling someone their working provider is
+        // Broken is worse than telling them nothing.
+        function nameHit(key, ver) {
+            var list = lookup.name[key]
+            if (!list || !list.length) return null
+            if (list.length === 1) return list[0]
+            if (!ver) return null
+            // "1.0.2" and "1.0.2 → 1.0.3" both mean the installed 1.0.2
+            var want = String(ver).replace(/^v/i, "").split(/\s*(?:→|->)\s*/)[0].trim()
+            var found = null, n = 0
+            for (var i = 0; i < list.length; i++) {
+                var v = String(list[i].version == null ? "" : list[i].version).replace(/^v/i, "").trim()
+                if (v && v === want) { found = list[i]; n++ }
+            }
+            return (n === 1) ? found : null
+        }
+
+        function matchEntry(html, ver) {
+            // An id identifies an extension; a name does not. Try every place
+            // an id can appear before falling back to the name.
             var m = html.match(/opacity-30[^>]*>([^<]+)</)
             if (m && lookup.id[m[1].trim()]) return lookup.id[m[1].trim()]
+            m = html.match(/ID:\s*([^<]+)</)
+            if (m && lookup.id[m[1].trim()]) return lookup.id[m[1].trim()]
             m = html.match(/font-semibold[^>]*>([^<]+)</)
-            if (m && lookup.name[m[1].trim().toLowerCase()]) return lookup.name[m[1].trim().toLowerCase()]
+            if (m) return nameHit(m[1].trim().toLowerCase(), ver)
             return null
         }
 
@@ -493,8 +532,8 @@ function init() {
         // content, the card is re-decorated with the right data.
         async function dressCard(card) {
             var html = (card && card.innerHTML) ? String(card.innerHTML) : ""
-            var entry = matchEntry(html)
             var ver = nativeVersion(html)
+            var entry = matchEntry(html, ver)
             var st = statusOf(entry)
             var key = entry ? String(entry.id || entry.name || "") : ""
             var cid = (card && card.id != null) ? String(card.id) : ""
@@ -649,7 +688,7 @@ function init() {
             if (m && lookup.id[m[1].trim()]) entry = lookup.id[m[1].trim()]
             if (!entry) {
                 m = html.match(/font-semibold[^>]*>\s*([^<]+?)\s*</)
-                if (m && lookup.name[m[1].trim().toLowerCase()]) entry = lookup.name[m[1].trim().toLowerCase()]
+                if (m) entry = nameHit(m[1].trim().toLowerCase(), nativeVersion(html))
             }
             if (!entry) return // not an extension details dialog (or unknown extension)
             var key = String(entry.id || entry.name || "")
@@ -868,6 +907,17 @@ function init() {
             for (var k in selected) if (selected[k]) out.push(k)
             return out
         }
+        // Which of the two extension pages we are on is worked out from the
+        // toolbar, and the marketplace toolbar can mount before the control
+        // that identifies it — so the first pass can read the marketplace as
+        // the installed page and build the Select button there, where there is
+        // nothing to enable or disable. Rather than trusting that one reading,
+        // visibility is re-applied on every pass, so a later, correct one puts
+        // it away.
+        function syncBulkVisible() {
+            if (!selWrapEl) return
+            try { selWrapEl.setStyle("display", onMarketplace ? "none" : "inline-flex") } catch (e) { }
+        }
         function resetSelection() {
             selectMode = false
             selected = {}
@@ -1067,8 +1117,12 @@ function init() {
             if (!parts || !parts[0] || !parts[1]) return null
             var wrap = parts[0], bar = parts[1]
 
-            // A fresh toolbar means a fresh page; never inherit a selection.
+            // A fresh toolbar means a fresh page; never inherit a selection,
+            // and never leave the previous control behind — the handle only
+            // reaches one element, so a second one would be unreachable.
             resetSelection()
+            if (selWrapEl) { try { selWrapEl.remove() } catch (e) { } }
+            selWrapEl = wrap
 
             try { wrap.setCssText("display:inline-flex;align-items:center;gap:6px;flex-wrap:wrap") } catch (e) { }
             try { wrap.setInnerHTML("<button type='button' class='" + btnClass(K_BTN_MD, "gray", "mplus-selbtn") + "'>Select</button>") } catch (e) { }
@@ -1148,6 +1202,7 @@ function init() {
                 } catch (e) { }
             }
             refreshBulk()
+            syncBulkVisible()
             return wrap
         }
 
@@ -1168,7 +1223,21 @@ function init() {
                 try { holder = await field.getParent() } catch (e) { }
                 if (holder) { try { row = await holder.getParent() } catch (e) { } }
                 if (row) { try { langSel = await row.query(".UI-Select__root") } catch (e) { } }
-                var isMarket = !!(langSel && langSel.length)
+                // Page test. The old one keyed off the Languages <Select>,
+                // which only the marketplace row has — but it is a sibling that
+                // can mount after this runs, so the marketplace read as the
+                // installed page often enough to put a Select button there.
+                // The search box names itself instead ("Search installed
+                // extensions…" vs the marketplace's own text) and it is the
+                // element this loop already holds, so there is nothing to wait
+                // for. The Languages select stays as a cross-check, and when
+                // neither says anything the answer is "marketplace", because a
+                // missing Select button is a smaller fault than one that does
+                // nothing where it does not belong.
+                var ph = ""
+                try { ph = String((await field.getAttribute("placeholder")) || "") } catch (e) { ph = "" }
+                var saysInstalled = /installed/i.test(ph)
+                var isMarket = saysInstalled ? false : true
                 // Carrying a "Disabled" pick onto the marketplace would leave
                 // the dropdown showing a value its own menu doesn't have.
                 if (isMarket && statusPick.get() === "disabled") statusPick.set("all")
@@ -1176,6 +1245,11 @@ function init() {
                     onMarketplace = isMarket
                     refreshFilter().catch(function () { })
                 }
+                // Select mode means nothing on the marketplace: the cards there
+                // get no checkbox, so leaving it on would strand the action row
+                // with a selection that can never be made.
+                if (isMarket && selectMode) setSelectMode(false)
+                syncBulkVisible()
 
                 if (fid && seenInputs[fid]) continue
                 if (fid) seenInputs[fid] = true
@@ -1215,7 +1289,7 @@ function init() {
                         makeDropdown(isMarket ? STATUS_MENU : STATUS_MENU_INSTALLED, statusPick, function () { refreshFilter().catch(function () { }) }, myEpoch).catch(function () { return null }),
                         makeDropdown(SORT_MENU, sortPick, refreshSort, myEpoch).catch(function () { return null }),
                         makeAuthorBox(myEpoch).catch(function () { return null }),
-                        isMarket ? Promise.resolve(null) : makeBulkBox(myEpoch).catch(function () { return null }),
+                        saysInstalled ? makeBulkBox(myEpoch).catch(function () { return null }) : Promise.resolve(null),
                     ])
                 } catch (e) { }
                 var ddStatus = built[0], ddSort = built[1], authorBox = built[2], bulkBox = built[3]
@@ -1906,6 +1980,7 @@ function init() {
             modalMarks = {}
             refetchCards = null
             resetSelection()
+            selWrapEl = null
             wVideos = {}
             srcCard = null
             wCard = null
