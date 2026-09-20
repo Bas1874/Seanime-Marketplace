@@ -1,29 +1,35 @@
 {
-    "id": "Marketplace-Plus",
-    "name": "Marketplace+",
-    "version": "1.2.0",
-    "manifestURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.json",
-    "language": "javascript",
-    "type": "plugin",
-    "description": "Improve Seanime's Extensions marketplace with live status badges (Working/Broken/Deprecated), star counts, sorting by most stars or recent updates, author search, sub/dub tags, and per-extension Discord support buttons.",
-    "author": "bas1874",
-    "icon": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Icons/favicon.png",
-    "website": "https://github.com/Bas1874/Seanime-Marketplace/tree/main",
-    "readme": "https://github.com/Bas1874/Seanime-Marketplace/tree/main#how-to-install-the-marketplace-in-seanime",
-    "notes": "On first launch Marketplace+ offers to point Seanime at the community marketplace source, accept it and the Extensions page fills with the full catalogue. You can change or clear that URL any time under Marketplace source in the Marketplace+ tray. Badges, filters, sorting and Support buttons then appear directly on the marketplace cards.",
-    "lang": "multi",
-    "payloadURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.js",
-    "isDevelopment": false,
-    "plugin": {
-        "version": "1",
-        "permissions": {
-            "scopes": ["storage"],
-            "allow": {
-                "networkAccess": {
-                    "allowedDomains": ["raw.githubusercontent.com"],
-                    "reasoning": "Fetches extension metadata (status badges, star counts, tags and support links) from the community Seanime marketplace hosted on GitHub. No other network requests are made, and nothing about you or your installed extensions is sent."
-                }
-            }
+  "id": "Marketplace-Plus",
+  "name": "Marketplace+",
+  "version": "1.2.1",
+  "manifestURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.json",
+  "language": "javascript",
+  "type": "plugin",
+  "description": "Improve Seanime's Extensions marketplace with live status badges (Working/Broken/Deprecated), star counts, sorting by most stars or recent updates, author search, sub/dub tags, and per-extension Discord support buttons. Warns you when an online-streaming provider hangs instead of loading. Also lets you select installed extensions and enable or disable them in bulk.",
+  "author": "bas1874",
+  "icon": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Icons/favicon.png",
+  "website": "https://github.com/Bas1874/Seanime-Marketplace/tree/main",
+  "readme": "https://github.com/Bas1874/Seanime-Marketplace/tree/main#how-to-install-the-marketplace-in-seanime",
+  "notes": "On first launch Marketplace+ offers to point Seanime at the community marketplace source, accept it and the Extensions page fills with the full catalogue. You can change or clear that URL any time under Marketplace source in the Marketplace+ tray. Badges, filters, sorting and Support buttons then appear directly on the marketplace cards. On the Installed page, Select turns the cards into checkboxes so you can enable or disable extensions in bulk; disabled extensions show a Disabled chip and can be filtered with the Disabled status.",
+  "lang": "multi",
+  "payloadURI": "https://raw.githubusercontent.com/Bas1874/Seanime-Marketplace/refs/heads/main/Plugin/Marketplace-Plus.js",
+  "isDevelopment": false,
+  "plugin": {
+    "version": "1",
+    "permissions": {
+      "scopes": [
+        "storage",
+        "settings",
+        "extensions"
+      ],
+      "allow": {
+        "networkAccess": {
+          "allowedDomains": [
+            "raw.githubusercontent.com"
+          ],
+          "reasoning": "Fetches extension metadata (status badges, star counts, tags and support links) from the community Seanime marketplace hosted on GitHub. No other network requests are made, and nothing about you or your installed extensions is sent."
         }
+      }
     }
+  }
 }
