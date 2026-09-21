@@ -651,6 +651,13 @@
     "timestamp": 1775816055850, "hadWorkingTag": false
   },
   {
+    "id": "dipland-mangaball", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaBall/payload.ts",
+    "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c191a9db5e990f97df08215944ccadcc7687ac533000ce7f53e9c39190f44b60",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790017419552
+  },
+  {
     "id": "dipland-mangafire", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaFire/payload.ts",
     "flags": "0/61", "flaggedBy": [],
