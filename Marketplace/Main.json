@@ -2677,20 +2677,6 @@
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
-    "id": "seanime-download-notifier", "name": "Seanime Download Notifier", "version": "1.0.0",
-    "author": "Hyperclaw79", "description": "Sends notifications when Seanime-tracked torrent downloads complete.",
-    "type": "plugin", "language": "javascript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/Hyperclaw79/seanime-download-notifier/main/assets/logo.png",
-    "manifestURI": "https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/seanime-download-notifier.json",
-    "payloadURI": "https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/plugin.js",
-    "website": "https://github.com/Hyperclaw79/seanime-download-notifier", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b68ad2b299d347f499ba59fb8e7afb87e6d0fb89d37ae915166cc668c5c8cff5",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1527972253126361118",
-    "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-08-13T00:04:03.273Z"
-  },
-  {
     "id": "seastats", "name": "SeaStats", "version": "0.1.4", "author": "Crashdaemon",
     "description": "AniList statistics inside Seanime: stats strips on the home and manga pages, a full dashboard with genre, studio, format and status breakdowns, and a favorite heart button on media pages.",
     "type": "plugin", "language": "typescript", "lang": "en",
