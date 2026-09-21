@@ -877,7 +877,7 @@
     "permalink": "https://www.virustotal.com/gui/file/9deb34687445b43eade0bb47f982178b6b4199903f365d01006988cff423201b",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183394512048148","1437869415344377887"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 3, "threadId": "1519785888400277574",
+    "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1519785888400277574",
     "addedAt": "2026-06-25T19:26:32.051Z", "updatedAt": "2026-09-13T16:55:15.418Z"
   },
   {
@@ -1217,6 +1217,20 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3", "lastWorkingVersion": null,
     "stars": 1, "threadId": "1492074297726992504", "addedAt": "2026-04-10T08:10:33.978Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "dipland-mangaball", "name": "MangaBall", "version": "1.0.0", "author": "dip-land",
+    "description": "Multi language manga provider. (Requires Aqua's Utils)", "type": "manga-provider",
+    "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaBall/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaBall/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaBall/payload.ts",
+    "website": "https://github.com/dip-land/seanime", "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c191a9db5e990f97df08215944ccadcc7687ac533000ce7f53e9c39190f44b60",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1551646334757380116",
+    "addedAt": "2026-09-21T17:28:34.401Z", "updatedAt": "2026-09-21T19:03:39.797Z"
   },
   {
     "id": "dipland-mangafire", "name": "MangaFire", "version": "1.1.1", "author": "dip-land",
@@ -2675,6 +2689,20 @@
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/seadex/seadex.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
+  },
+  {
+    "id": "seanime-download-notifier", "name": "Seanime Download Notifier", "version": "1.0.0",
+    "author": "Hyperclaw79", "description": "Sends notifications when Seanime-tracked torrent downloads complete.",
+    "type": "plugin", "language": "javascript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Hyperclaw79/seanime-download-notifier/main/assets/logo.png",
+    "manifestURI": "https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/seanime-download-notifier.json",
+    "payloadURI": "https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/plugin.js",
+    "website": "https://github.com/Hyperclaw79/seanime-download-notifier", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b68ad2b299d347f499ba59fb8e7afb87e6d0fb89d37ae915166cc668c5c8cff5",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1527972253126361118",
+    "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-09-21T19:03:39.797Z"
   },
   {
     "id": "seastats", "name": "SeaStats", "version": "0.1.4", "author": "Crashdaemon",
