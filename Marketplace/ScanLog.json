@@ -406,11 +406,11 @@
     "lastWorkingVersion": "3.10.3", "timestamp": 1782838347601, "hadWorkingTag": true
   },
   {
-    "id": "animex-online-streaming", "version": "1.0.9",
+    "id": "animex-online-streaming", "version": "1.0.10",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider/refs/heads/main/Provider.js",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6c0bb50642d24ae18a48641da0e3b226dd5db1f6c86ff70cf9382337014a742c",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789883490703
+    "flags": "0/39", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f45d2c7e87865c106ced8327e27570c8c10392a6216d9dec10c2e18f62921e74",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789974521165
   },
   {
     "id": "animeyabu", "version": "1.0.3",
