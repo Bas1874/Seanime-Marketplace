@@ -109,7 +109,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/065ec31a990f7196605f4a7ab67b5441d2c709a3f28e9272752c104c6f90502d",
-    "lastWorkingVersion": "3.10.3", "timestamp": 1780752515687, "hadWorkingTag": true
+    "lastWorkingVersion": "3.10.3", "timestamp": 1780752515687, "hadWorkingTag": false
   },
   {
     "id": "anidream", "version": "1.0.1",
