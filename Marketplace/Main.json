@@ -143,7 +143,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/provider.js",
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/065ec31a990f7196605f4a7ab67b5441d2c709a3f28e9272752c104c6f90502d",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1510577432560926720",
     "addedAt": "2026-05-31T09:35:25.094Z", "updatedAt": "2026-08-17T20:13:56.938Z"
