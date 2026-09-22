@@ -923,18 +923,18 @@
     "addedAt": "2026-01-11T19:18:23.452Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "atsumaru", "name": "Atsumaru", "version": "1.1.1", "author": "Pal",
+    "id": "atsumaru", "name": "Atsumaru", "version": "1.1.2", "author": "Pal",
     "description": "Atsumaru is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "en",
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/atsumaru.ico",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/atsumaru/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/atsumaru/provider.js",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9e371c0f5c4b86c63e66441756e4a93f2e969eae39f07546604d3a604ad48b6a",
+    "website": "", "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/605a77d6807f123050405e6136dc19f43aea1680375cecb79572b7352f1a5070",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 3, "threadId": "1488456218048462878",
-    "addedAt": "2026-03-31T08:33:36.562Z", "updatedAt": "2026-09-02T12:01:00.965Z"
+    "addedAt": "2026-03-31T08:33:36.562Z", "updatedAt": "2026-09-22T19:10:06.597Z"
   },
   {
     "id": "bangumi-ui", "name": "Bangumi 番组计划", "version": "1.2.3", "author": "Elisoar",
@@ -1222,28 +1222,29 @@
     "id": "dipland-mangaball", "name": "MangaBall", "version": "1.0.0", "author": "dip-land",
     "description": "Multi language manga provider. (Requires Aqua's Utils)", "type": "manga-provider",
     "language": "typescript", "lang": "multi",
-    "icon": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaBall/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaBall/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaBall/payload.ts",
-    "website": "https://github.com/dip-land/seanime", "flags": "0/58", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c191a9db5e990f97df08215944ccadcc7687ac533000ce7f53e9c39190f44b60",
+    "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/mangaball.png",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangaball/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangaball/provider.ts",
+    "website": "https://mangaball.net/", "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1a139d2752939059c39e34ace147b6e8e32afc7b690b7f74a43f89d249275cb2",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1551646334757380116",
-    "addedAt": "2026-09-21T17:28:34.401Z", "updatedAt": "2026-09-21T19:03:39.797Z"
+    "addedAt": "2026-09-21T17:28:34.401Z", "updatedAt": "2026-09-22T19:10:06.597Z"
   },
   {
     "id": "dipland-mangafire", "name": "MangaFire", "version": "1.1.1", "author": "dip-land",
-    "description": "Multi language manga provider.", "type": "manga-provider", "language": "typescript",
-    "lang": "multi", "icon": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaFire/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaFire/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaFire/payload.ts",
-    "website": "https://github.com/dip-land/seanime", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8a5735d39ea8f38261507879c7617fc3ac3f61d62c3896188a2285e9e437d588",
+    "description": "Multi language manga provider. (Requires Aqua's Utils)", "type": "manga-provider",
+    "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/mangafire.png",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangafire/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangafire/provider.ts",
+    "website": "https://mangafire.to/", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/498826c0531a4079ed5a26d601e966c8cc0db0eaf95e28a1e8e255a05f7e61dd",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1535551888580280470",
-    "addedAt": "2026-08-08T07:34:59.412Z", "updatedAt": "2026-09-20T23:02:50.193Z"
+    "addedAt": "2026-08-08T07:34:59.412Z", "updatedAt": "2026-09-22T19:10:06.597Z"
   },
   {
     "id": "discord-rpc-extended", "name": "Discord RPC Extended", "version": "1.0.11", "author": "nnotwen",
