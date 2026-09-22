@@ -504,11 +504,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1782204112427, "hadWorkingTag": false
   },
   {
-    "id": "atsumaru", "version": "1.1.1",
+    "id": "atsumaru", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/atsumaru/provider.js",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9e371c0f5c4b86c63e66441756e4a93f2e969eae39f07546604d3a604ad48b6a",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1788350460712
+    "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/605a77d6807f123050405e6136dc19f43aea1680375cecb79572b7352f1a5070",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790104206357
   },
   {
     "id": "bangumi-ui", "version": "1.2.3",
@@ -652,17 +652,17 @@
   },
   {
     "id": "dipland-mangaball", "version": "1.0.0",
-    "payloadURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaBall/payload.ts",
-    "flags": "0/58", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c191a9db5e990f97df08215944ccadcc7687ac533000ce7f53e9c39190f44b60",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790017419552
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangaball/provider.ts",
+    "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1a139d2752939059c39e34ace147b6e8e32afc7b690b7f74a43f89d249275cb2",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790104037590
   },
   {
     "id": "dipland-mangafire", "version": "1.1.1",
-    "payloadURI": "https://raw.githubusercontent.com/dip-land/seanime/main/extensions/MangaFire/payload.ts",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangafire/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8a5735d39ea8f38261507879c7617fc3ac3f61d62c3896188a2285e9e437d588",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789945369931
+    "permalink": "https://www.virustotal.com/gui/file/498826c0531a4079ed5a26d601e966c8cc0db0eaf95e28a1e8e255a05f7e61dd",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790104144766
   },
   {
     "id": "discord-rpc-episode-title", "version": "1.2.0",
