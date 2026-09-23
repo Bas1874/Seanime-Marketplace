@@ -191,18 +191,18 @@
     "addedAt": "2025-12-22T19:15:59.155Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anilist-activity", "name": "Anilist activity", "version": "1.3.8", "author": "Pal",
+    "id": "anilist-activity", "name": "Anilist activity", "version": "1.3.9", "author": "Pal",
     "description": "A plugin for viewing your friend's and your Anilist activities inside Seanime.",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/anilist.ico",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/anilist-activities/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/anilist-activities/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6d45e1f154278f75ccffe73b321e564704c93f2e3dd3148f1d16e0bc2933f641",
+    "website": "", "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/6230da93ecb265eba02ebe253d2bcfa548589b17c17b67f7df8853d7baa43159",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359259306087940146","1359183394512048148"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 17, "threadId": "1445123413277413507",
-    "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-09-19T17:50:01.738Z"
+    "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-09-23T19:07:55.982Z"
   },
   {
     "id": "anilist-autopause", "name": "Anilist Autopause", "version": "1.0.2", "author": "nnotwen",
@@ -1229,7 +1229,7 @@
     "permalink": "https://www.virustotal.com/gui/file/1a139d2752939059c39e34ace147b6e8e32afc7b690b7f74a43f89d249275cb2",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1551646334757380116",
+    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1551646334757380116",
     "addedAt": "2026-09-21T17:28:34.401Z", "updatedAt": "2026-09-22T19:10:06.597Z"
   },
   {
@@ -1805,18 +1805,18 @@
     "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-08-23T12:24:20.523Z"
   },
   {
-    "id": "LN-reader", "name": "Light Novel Reader", "version": "1.6.6", "author": "Pal & mohaisreal",
+    "id": "LN-reader", "name": "Light Novel Reader", "version": "1.6.7", "author": "Pal & mohaisreal",
     "description": "A simple plugin for reading Light Novels inside Seanime.", "type": "plugin",
     "language": "typescript", "lang": "EN",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/ln.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5623dc4ecbee057e9daf47d4b2a7c5b10b38f2872e86bc1858a7fb84bda981e7",
+    "website": "", "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f1259d6a3b513e5d99b4dcb5948b97faa1b59bb72a7fdac23339e5586e5008c7",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 27, "threadId": "1433173588470661180",
-    "addedAt": "2025-10-29T19:20:10.569Z", "updatedAt": "2026-09-16T16:52:47.591Z"
+    "addedAt": "2025-10-29T19:20:10.569Z", "updatedAt": "2026-09-23T19:07:55.982Z"
   },
   {
     "id": "lst", "name": "LST", "version": "1.0.2", "author": "Sharky",
@@ -1979,19 +1979,6 @@
     "tags": ["1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1437863059556143184",
     "addedAt": "2025-11-11T17:54:27.602Z", "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
-    "id": "mangadot", "name": "MangaDot", "version": "1.0.0", "author": "Pal",
-    "description": "MangaDot is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
-    "lang": "en", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/mangadot.ico",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangadot/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangadot/provider.js",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/624559bd86a1480701821b456679c6f4650943495dafea6d640c7f09c716db9e",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3", "lastWorkingVersion": null,
-    "stars": 0, "threadId": "1499113353254273024", "addedAt": "2026-04-29T18:21:15.595Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mangafire", "name": "MangaFire", "version": "1.0.3", "author": "jabifx",
@@ -3331,6 +3318,19 @@
     "manifestURI": "https://island.clap.ing/api/extensions/manga-providers/weebcentral/weebcentral.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
+  },
+  {
+    "id": "weebstreak", "name": "WeebStreak", "version": "1.0.0", "author": "Mateus Oliveira",
+    "description": "Never miss a day and keep your anime & manga streak up.", "type": "plugin",
+    "language": "typescript", "lang": "english",
+    "icon": "https://raw.githubusercontent.com/m0liveira/WeebStreak/main/WeebStreak/assets/weebstreak.png",
+    "manifestURI": "https://raw.githubusercontent.com/m0liveira/WeebStreak/main/WeebStreak/weebstreak.json",
+    "payloadURI": "https://raw.githubusercontent.com/m0liveira/WeebStreak/main/WeebStreak/src/main.ts",
+    "website": "https://github.com/m0liveira/WeebStreak", "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e7215ced8700e47fda25237c81d178550bb0fefe6c72586c68e556c896abd538",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 3, "threadId": "1552338497065582715",
+    "addedAt": "2026-09-23T15:18:58.755Z", "updatedAt": "2026-09-23T19:07:55.982Z"
   },
   {
     "id": "xanime", "name": "XAnime", "version": "1.0.0", "author": "fampep",
