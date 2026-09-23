@@ -7,5 +7,9 @@
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1492477178271629313", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension name:**\n> AllManga (Anime)\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/allmanga/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/allmanga/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for  english anime.\n> \n> **Additional Notes:**\n> It currently supports **only sub anime**"
+  },
+  {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1499113353254273024", "reason": "404 Not Found.",
+    "originalMessageContent": "> **Extension name:**\n> MangaDot\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mangadot/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mangadot/manifest.json```\n> **Description:**\n> A manga provider for english manga, made by Pal\n> \n> **Additional Notes:**\n> None"
   }
 ]
