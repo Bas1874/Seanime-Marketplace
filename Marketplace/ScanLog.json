@@ -140,11 +140,11 @@
     "timestamp": 1771870620962, "hadWorkingTag": true, "lastWorkingVersion": "3.10.3"
   },
   {
-    "id": "anilist-activity", "version": "1.3.8",
+    "id": "anilist-activity", "version": "1.3.9",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/anilist-activities/main.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6d45e1f154278f75ccffe73b321e564704c93f2e3dd3148f1d16e0bc2933f641",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789840201499
+    "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/6230da93ecb265eba02ebe253d2bcfa548589b17c17b67f7df8853d7baa43159",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790190429655
   },
   {
     "id": "anilist-autopause", "version": "1.0.2",
@@ -930,11 +930,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1787487860296
   },
   {
-    "id": "LN-reader", "version": "1.6.6",
+    "id": "LN-reader", "version": "1.6.7",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/main.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5623dc4ecbee057e9daf47d4b2a7c5b10b38f2872e86bc1858a7fb84bda981e7",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789577567345
+    "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f1259d6a3b513e5d99b4dcb5948b97faa1b59bb72a7fdac23339e5586e5008c7",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790190475743
   },
   {
     "id": "lst", "version": "1.0.2",
@@ -1621,6 +1621,13 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/26a4dd8248562df28eaee1aa20621ae54feffd1868e2a35704187b64a534e96b",
     "timestamp": 1771868846482, "hadWorkingTag": false
+  },
+  {
+    "id": "weebstreak", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/m0liveira/WeebStreak/main/WeebStreak/src/main.ts",
+    "flags": "0/62", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e7215ced8700e47fda25237c81d178550bb0fefe6c72586c68e556c896abd538",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790190383011
   },
   {
     "id": "xanime", "version": "1.0.0",
