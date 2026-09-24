@@ -1630,11 +1630,11 @@
     "timestamp": 1771868846482, "hadWorkingTag": false
   },
   {
-    "id": "weebstreak", "version": "1.0.0",
+    "id": "weebstreak", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/m0liveira/WeebStreak/main/WeebStreak/src/main.ts",
-    "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e7215ced8700e47fda25237c81d178550bb0fefe6c72586c68e556c896abd538",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790190383011
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/893fac07ba4b0c01479c161371a6fa449bd11800347c637249487991dc23cde5",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790291293938
   },
   {
     "id": "xanime", "version": "1.0.0",
