@@ -3334,17 +3334,17 @@
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
-    "id": "weebstreak", "name": "WeebStreak", "version": "1.0.0", "author": "Mateus Oliveira",
+    "id": "weebstreak", "name": "WeebStreak", "version": "1.0.3", "author": "Mateus Oliveira",
     "description": "Never miss a day and keep your anime & manga streak up.", "type": "plugin",
     "language": "typescript", "lang": "english",
     "icon": "https://raw.githubusercontent.com/m0liveira/WeebStreak/main/WeebStreak/assets/weebstreak.png",
     "manifestURI": "https://raw.githubusercontent.com/m0liveira/WeebStreak/main/WeebStreak/weebstreak.json",
     "payloadURI": "https://raw.githubusercontent.com/m0liveira/WeebStreak/main/WeebStreak/src/main.ts",
-    "website": "https://github.com/m0liveira/WeebStreak", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e7215ced8700e47fda25237c81d178550bb0fefe6c72586c68e556c896abd538",
+    "website": "https://github.com/m0liveira/WeebStreak", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/893fac07ba4b0c01479c161371a6fa449bd11800347c637249487991dc23cde5",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 3, "threadId": "1552338497065582715",
-    "addedAt": "2026-09-23T15:18:58.755Z", "updatedAt": "2026-09-23T19:07:55.982Z"
+    "addedAt": "2026-09-23T15:18:58.755Z", "updatedAt": "2026-09-24T23:08:14.178Z"
   },
   {
     "id": "xanime", "name": "XAnime", "version": "1.0.0", "author": "fampep",
