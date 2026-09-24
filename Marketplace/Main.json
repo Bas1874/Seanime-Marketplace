@@ -143,7 +143,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/provider.js",
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/065ec31a990f7196605f4a7ab67b5441d2c709a3f28e9272752c104c6f90502d",
-    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1510577432560926720",
     "addedAt": "2026-05-31T09:35:25.094Z", "updatedAt": "2026-08-17T20:13:56.938Z"
@@ -1233,18 +1233,18 @@
     "addedAt": "2026-09-21T17:28:34.401Z", "updatedAt": "2026-09-22T19:10:06.597Z"
   },
   {
-    "id": "dipland-mangadot", "name": "MangaDot", "version": "1.0.0", "author": "dip-land",
+    "id": "dipland-mangadot", "name": "MangaDot", "version": "1.0.1", "author": "dip-land",
     "description": "Multi language manga provider. (Requires Aqua's Utils)", "type": "manga-provider",
     "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/mangadot.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangadot/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangadot/provider.ts",
     "website": "https://mangadot.net/", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/889f16ca29f1933c68d471e392f83c5fff99e79b48045b4b0330c06575e52e5f",
-    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3", "lastWorkingVersion": null,
-    "stars": 0, "threadId": "1499113353254273024", "addedAt": "2026-04-29T18:21:15.595Z",
-    "updatedAt": "2026-09-24T11:09:32.462Z"
+    "permalink": "https://www.virustotal.com/gui/file/35b9ae47a5ad2b5f2fb3a26c071c104ebda7b413c09f2e5c83ae149f44e26d16",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1552717267920363580",
+    "addedAt": "2026-09-24T16:24:04.764Z", "updatedAt": "2026-09-24T19:08:29.450Z"
   },
   {
     "id": "dipland-mangafire", "name": "MangaFire", "version": "1.1.1", "author": "dip-land",
