@@ -448,11 +448,11 @@
     "timestamp": 1771866081063, "hadWorkingTag": false
   },
   {
-    "id": "aq-anikoto", "version": "1.4.1",
+    "id": "aq-anikoto", "version": "1.4.3",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/59d1edf3afdad10fe556a00d213953410fcd766d84070d248ff8c74acd5b7a13",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789649703516
+    "permalink": "https://www.virustotal.com/gui/file/8e038f543999346eb18ff1fa70b3df527b24a26080694ba335461f52dada6a72",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790248095025
   },
   {
     "id": "aq-animepahe-beta", "version": "0.2.43",
@@ -656,6 +656,13 @@
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/1a139d2752939059c39e34ace147b6e8e32afc7b690b7f74a43f89d249275cb2",
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790104037590
+  },
+  {
+    "id": "dipland-mangadot", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangadot/provider.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/889f16ca29f1933c68d471e392f83c5fff99e79b48045b4b0330c06575e52e5f",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1790248172206
   },
   {
     "id": "dipland-mangafire", "version": "1.1.1",
