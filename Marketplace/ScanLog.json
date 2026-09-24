@@ -305,7 +305,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js",
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/eca40b8d4c1648ee8b7b41f2a7f5bff0c185c0c9adf3fcb2cc883c3fecade3a1",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1784205204068
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": false, "timestamp": 1784205204068
   },
   {
     "id": "animekai", "version": "1.2.1",
