@@ -109,7 +109,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/065ec31a990f7196605f4a7ab67b5441d2c709a3f28e9272752c104c6f90502d",
-    "lastWorkingVersion": "3.10.3", "timestamp": 1780752515687, "hadWorkingTag": false
+    "lastWorkingVersion": "3.10.3", "timestamp": 1780752515687, "hadWorkingTag": true
   },
   {
     "id": "anidream", "version": "1.0.1",
@@ -658,11 +658,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790104037590
   },
   {
-    "id": "dipland-mangadot", "version": "1.0.0",
+    "id": "dipland-mangadot", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangadot/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/889f16ca29f1933c68d471e392f83c5fff99e79b48045b4b0330c06575e52e5f",
-    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1790248172206
+    "permalink": "https://www.virustotal.com/gui/file/35b9ae47a5ad2b5f2fb3a26c071c104ebda7b413c09f2e5c83ae149f44e26d16",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790276909190
   },
   {
     "id": "dipland-mangafire", "version": "1.1.1",
