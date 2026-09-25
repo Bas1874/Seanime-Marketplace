@@ -1385,6 +1385,13 @@
     "timestamp": 1771867749457, "hadWorkingTag": true, "lastWorkingVersion": "3.10.3"
   },
   {
+    "id": "shademanga", "version": "1.2.0",
+    "payloadURI": "https://raw.githubusercontent.com/yerasuu/My-Seanime-Providers/main/shademanga/main.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5ab8c291da2a5ae61664630aeba9232d70c134f70b13c267a2a5474a6e39c5ce",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790334606472
+  },
+  {
     "id": "shikimorisync", "version": "1.3.1",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/ShikimoriSync/provider.ts",
     "flags": "0/60", "flaggedBy": [],
