@@ -812,59 +812,46 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.3", "author": "aquaryuo",
+    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.4", "author": "aquaryuo",
     "description": "Only anikoto compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
     "website": "https://anikototv.to", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8e038f543999346eb18ff1fa70b3df527b24a26080694ba335461f52dada6a72",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "permalink": "https://www.virustotal.com/gui/file/fb2251e603c865270209decb87b2e2f95b8ada862519569a8073aef1c11cfa25",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1519763403483381810",
-    "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-24T11:09:32.462Z"
+    "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-25T19:13:18.688Z"
   },
   {
-    "id": "aq-animepahe-beta", "name": "AnimePahe - BETA", "version": "0.2.43", "author": "aquaryuo",
+    "id": "aq-animepahe", "name": "AnimePahe", "version": "0.2.43", "author": "aquaryuo",
     "description": "Only animepahe compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/beta/extensions/animepahe/provider.ts",
+    "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/animepahe/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/animepahe/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/animepahe/provider.ts",
     "website": "https://animepahe.pw", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7789d886207591e4937d237ec2b9a7b73d99bb9b343ab7f668a121466df45e87",
+    "permalink": "https://www.virustotal.com/gui/file/a2649dd17fb2eb66e4c9dea1519c11b015bce98e80dd181c8886cf685454d049",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 3, "threadId": "1519818667720966174",
-    "addedAt": "2026-06-25T21:36:47.250Z", "updatedAt": "2026-09-13T16:55:15.418Z"
+    "addedAt": "2026-06-25T21:36:47.250Z", "updatedAt": "2026-09-25T19:13:18.688Z"
   },
   {
-    "id": "aq-anizone", "name": "AniZone", "version": "1.1.36", "author": "aquaryuo",
+    "id": "aq-anizone", "name": "AniZone", "version": "1.1.37", "author": "aquaryuo",
     "description": "Only anizone compatibility layer you'll ever need. Dub streams carry both audio tracks — pick English in the player's audio menu once and Seanime remembers it for that series.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
-    "website": "https://anizone.to", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a6cb4be0b6df60fb26d0dd0d907405befb3f7e9f8a964938e3bb151ef5f6db3f",
+    "website": "https://anizone.to", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8002d7a36d3542b0890be3db63bfc715d2a5dedf03d82474b1236ecb1e8e74ce",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1519767961026564276",
-    "addedAt": "2026-06-25T18:15:17.832Z", "updatedAt": "2026-09-13T16:55:15.418Z"
-  },
-  {
-    "id": "aq-aquaprefs", "name": "Aqua's Prefs", "version": "1.1.66", "author": "aquaryuo",
-    "description": "Remembers one set of player options and reapplies it on local playback. Online streams keep Seanime's own per-series choice.",
-    "type": "plugin", "language": "typescript", "lang": "multi",
-    "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquaprefs/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquaprefs/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquaprefs/plugin.ts",
-    "website": "https://github.com/aquaryuo/seanime", "flags": "0/56", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0253a72c10fd987bd09a5e8a98a8ad36429d3a2742a3ba2e4a2977b30b134dd7",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1519773337989939374",
-    "addedAt": "2026-06-25T18:36:39.800Z", "updatedAt": "2026-09-13T16:55:15.418Z"
+    "addedAt": "2026-06-25T18:15:17.832Z", "updatedAt": "2026-09-25T19:13:18.688Z"
   },
   {
     "id": "aq-aquatils", "name": "Aqua's Utils", "version": "1.0.28", "author": "aquaryuo",
