@@ -448,11 +448,18 @@
     "timestamp": 1771866081063, "hadWorkingTag": false
   },
   {
-    "id": "aq-anikoto", "version": "1.4.3",
+    "id": "aq-anikoto", "version": "1.4.4",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8e038f543999346eb18ff1fa70b3df527b24a26080694ba335461f52dada6a72",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790248095025
+    "permalink": "https://www.virustotal.com/gui/file/fb2251e603c865270209decb87b2e2f95b8ada862519569a8073aef1c11cfa25",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": false, "timestamp": 1790363475917
+  },
+  {
+    "id": "aq-animepahe", "version": "0.2.43",
+    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/animepahe/provider.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a2649dd17fb2eb66e4c9dea1519c11b015bce98e80dd181c8886cf685454d049",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790363598453
   },
   {
     "id": "aq-animepahe-beta", "version": "0.2.43",
@@ -462,11 +469,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789318114984
   },
   {
-    "id": "aq-anizone", "version": "1.1.36",
+    "id": "aq-anizone", "version": "1.1.37",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a6cb4be0b6df60fb26d0dd0d907405befb3f7e9f8a964938e3bb151ef5f6db3f",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789318053601
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8002d7a36d3542b0890be3db63bfc715d2a5dedf03d82474b1236ecb1e8e74ce",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790363413668
   },
   {
     "id": "aq-aquaprefs", "version": "1.1.66",
