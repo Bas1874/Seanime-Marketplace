@@ -812,18 +812,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.5", "author": "aquaryuo",
+    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.6", "author": "aquaryuo",
     "description": "Only anikoto compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "website": "https://anikototv.to", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d0ead9ceb7f0d17559f21b6ced86d35c3fad6c056be5fff828919bc83f9e5403",
+    "website": "https://anikototv.to", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c339844a63371be6ebe10acf881850445b18cdb801a28265bb41e4876121670f",
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1519763403483381810",
-    "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-25T23:16:42.754Z"
+    "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-26T03:14:29.279Z"
   },
   {
     "id": "aq-animepahe", "name": "AnimePahe", "version": "0.2.44", "author": "aquaryuo",
@@ -840,32 +840,32 @@
     "addedAt": "2026-06-25T21:36:47.250Z", "updatedAt": "2026-09-25T23:16:42.754Z"
   },
   {
-    "id": "aq-anizone", "name": "AniZone", "version": "1.1.38", "author": "aquaryuo",
+    "id": "aq-anizone", "name": "AniZone", "version": "1.1.39", "author": "aquaryuo",
     "description": "Only anizone compatibility layer you'll ever need. Dub streams carry both audio tracks — pick English in the player's audio menu once and Seanime remembers it for that series.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
     "website": "https://anizone.to", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/4dfe8275332fe13de334b3e10b4b41c28ed9bb2fb05e0a125061c4f87ddc68b5",
+    "permalink": "https://www.virustotal.com/gui/file/94f11dacb58cda4518acf0bd7779aa5c20ce6fce9fe17398848110a9d30dbc16",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1519767961026564276",
-    "addedAt": "2026-06-25T18:15:17.832Z", "updatedAt": "2026-09-25T23:16:42.754Z"
+    "addedAt": "2026-06-25T18:15:17.832Z", "updatedAt": "2026-09-26T03:14:29.279Z"
   },
   {
-    "id": "aq-aquatils", "name": "Aqua's Utils", "version": "1.0.29", "author": "aquaryuo",
+    "id": "aq-aquatils", "name": "Aqua's Utils", "version": "1.0.30", "author": "aquaryuo",
     "description": "Toolbox plugin: surfaces compatible extension errors, launches a self-contained solver (or connects to a remote one you run) to reach guarded sites, and more.",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquatils/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquatils/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquatils/plugin.ts",
     "website": "https://github.com/aquaryuo/seanime", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e975d1f32cb8ec62c76fe152ee88b84c43d836d05b5f4f36ff3e84e978b352c0",
+    "permalink": "https://www.virustotal.com/gui/file/47b2b9cf3a834cf97a95031f3b531ba3606e3c615d37b598f00bcd03f0fecf6a",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183394512048148","1437869415344377887"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1519785888400277574",
-    "addedAt": "2026-06-25T19:26:32.051Z", "updatedAt": "2026-09-25T23:16:42.754Z"
+    "addedAt": "2026-06-25T19:26:32.051Z", "updatedAt": "2026-09-26T03:14:29.279Z"
   },
   {
     "id": "aq-seatags", "name": "SeaTags", "version": "1.7.25", "author": "aquaryuo",
