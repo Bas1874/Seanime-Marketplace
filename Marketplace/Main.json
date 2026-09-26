@@ -820,7 +820,7 @@
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
     "website": "https://anikototv.to", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/c339844a63371be6ebe10acf881850445b18cdb801a28265bb41e4876121670f",
-    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1519763403483381810",
     "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-26T03:14:29.279Z"
@@ -3342,7 +3342,7 @@
     "website": "https://github.com/m0liveira/WeebStreak", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/893fac07ba4b0c01479c161371a6fa449bd11800347c637249487991dc23cde5",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1552338497065582715",
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1552338497065582715",
     "addedAt": "2026-09-23T15:18:58.755Z", "updatedAt": "2026-09-24T23:08:14.178Z"
   },
   {
