@@ -448,11 +448,11 @@
     "timestamp": 1771866081063, "hadWorkingTag": false
   },
   {
-    "id": "aq-anikoto", "version": "1.4.5",
+    "id": "aq-anikoto", "version": "1.4.6",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d0ead9ceb7f0d17559f21b6ced86d35c3fad6c056be5fff828919bc83f9e5403",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": false, "timestamp": 1790378202519
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c339844a63371be6ebe10acf881850445b18cdb801a28265bb41e4876121670f",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": false, "timestamp": 1790392422796
   },
   {
     "id": "aq-animepahe", "version": "0.2.44",
@@ -469,11 +469,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789318114984
   },
   {
-    "id": "aq-anizone", "version": "1.1.38",
+    "id": "aq-anizone", "version": "1.1.39",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/4dfe8275332fe13de334b3e10b4b41c28ed9bb2fb05e0a125061c4f87ddc68b5",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790378078851
+    "permalink": "https://www.virustotal.com/gui/file/94f11dacb58cda4518acf0bd7779aa5c20ce6fce9fe17398848110a9d30dbc16",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790392313724
   },
   {
     "id": "aq-aquaprefs", "version": "1.1.66",
@@ -483,11 +483,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789318284622
   },
   {
-    "id": "aq-aquatils", "version": "1.0.29",
+    "id": "aq-aquatils", "version": "1.0.30",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquatils/plugin.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e975d1f32cb8ec62c76fe152ee88b84c43d836d05b5f4f36ff3e84e978b352c0",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790377985144
+    "permalink": "https://www.virustotal.com/gui/file/47b2b9cf3a834cf97a95031f3b531ba3606e3c615d37b598f00bcd03f0fecf6a",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790392469035
   },
   {
     "id": "aq-seatags", "version": "1.7.25",
