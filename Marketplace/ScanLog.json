@@ -483,11 +483,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789318284622
   },
   {
-    "id": "aq-aquatils", "version": "1.0.30",
+    "id": "aq-aquatils", "version": "1.0.31",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquatils/plugin.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/47b2b9cf3a834cf97a95031f3b531ba3606e3c615d37b598f00bcd03f0fecf6a",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790392469035
+    "permalink": "https://www.virustotal.com/gui/file/d9c53032045ba6f3bd1e8b5127e3e42731a9efd660e8bfbd5a5d8e91102aede7",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790435499561
   },
   {
     "id": "aq-seatags", "version": "1.7.25",
