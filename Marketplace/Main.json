@@ -2694,6 +2694,19 @@
     "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-09-21T19:03:39.797Z"
   },
   {
+    "id": "seanime-wrapped", "name": "Seanime Wrapped", "version": "1.0.5", "author": "DefnoJae",
+    "description": "A cinematic, private anime recap generated from your Seanime and AniList data.",
+    "type": "plugin", "language": "javascript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/assets/icon.svg",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js",
+    "website": "https://github.com/DefnoJae/Seanime-Wrapped", "flags": "0/57", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/034fb13b2e204b01fa8cf3bd251c712de6fa1e04043407bee4192af14be4729c",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": null, "stars": 2, "threadId": "1553865953186414682",
+    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-09-27T22:39:05.143Z"
+  },
+  {
     "id": "seastats", "name": "SeaStats", "version": "0.1.4", "author": "Crashdaemon",
     "description": "AniList statistics inside Seanime: stats strips on the home and manga pages, a full dashboard with genre, studio, format and status breakdowns, and a favorite heart button on media pages.",
     "type": "plugin", "language": "typescript", "lang": "en",
