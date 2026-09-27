@@ -1371,6 +1371,13 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1784378602566
   },
   {
+    "id": "seanime-wrapped", "version": "1.0.5",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js", "flags": "0/57",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/034fb13b2e204b01fa8cf3bd251c712de6fa1e04043407bee4192af14be4729c",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1790548744857
+  },
+  {
     "id": "seastats", "version": "0.1.4",
     "payloadURI": "https://raw.githubusercontent.com/Crashdaemon/Seanime-SeaStats/main/seastats.ts", "flags": "0/60",
     "flaggedBy": [],
