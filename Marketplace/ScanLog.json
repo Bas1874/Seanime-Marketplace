@@ -280,11 +280,11 @@
     "timestamp": 1771872489448, "hadWorkingTag": true, "lastWorkingVersion": "3.10.2"
   },
   {
-    "id": "animeav1", "version": "1.2.0",
+    "id": "animeav1", "version": "1.2.1",
     "payloadURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/anime/AnimeAV1/main.ts",
-    "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9e7da9e4d31d335b8c85679c210fc0799c34db71e91dfb19fe0bfbdd53dd0e3b",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1786223286568
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/af22d5ad77b2c8af7c46872eb68ee99c318ccc5414bbfcd651ab0e0a5adb4714",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790534255244
   },
   {
     "id": "animeflv", "version": "1.0.1",
