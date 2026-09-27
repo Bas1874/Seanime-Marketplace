@@ -645,18 +645,18 @@
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
-    "id": "animetosho-new", "name": "AnimeTosho (NEW)", "version": "2.4.5", "author": "Faddix, Island",
+    "id": "animetosho-new", "name": "AnimeTosho (NEW)", "version": "2.4.6", "author": "Faddix, Island",
     "description": "Integrates Anime Tosho (NEW) as a torrent streaming provider for Seanime.",
     "type": "anime-torrent-provider", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/src/animetosho-new-logo.png",
     "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.json",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/72f81ef0a05de8f5fd2355ab4073add1b6e0fab8a869e97b7bf6677078b2a86f",
+    "permalink": "https://www.virustotal.com/gui/file/6697d9e1ea8d98fa5b1930fa3744f541ef495e14551adba6e5c4878ad38e605a",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 11, "threadId": "1505548228865687562",
-    "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-09-14T20:50:13.535Z"
+    "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-09-27T14:37:35.373Z"
   },
   {
     "id": "AnimeUnity", "name": "AnimeUnity", "version": "1.1.3", "author": "kRYstall9",
@@ -2729,16 +2729,16 @@
     "addedAt": "2026-05-26T14:25:13.708Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
-    "id": "senshi", "name": "Senshi", "version": "1.0.2", "author": "Thekingcrusher",
+    "id": "senshi", "name": "Senshi", "version": "1.1.0", "author": "Thekingcrusher",
     "description": "Senshi is an online stream provider for both hardsub and dub.", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/senshi/logo.png",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/senshi/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": true, "deprecatedTag": false,
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": null, "stars": 2, "threadId": "1496830248463896647",
-    "addedAt": "2026-04-23T11:09:00.995Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1496830248463896647",
+    "addedAt": "2026-04-23T11:09:00.995Z", "updatedAt": "2026-09-27T14:37:35.373Z"
   },
   {
     "id": "setwatched", "name": "SetWatched", "version": "1.0.0", "author": "./Zzzz",
