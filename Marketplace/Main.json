@@ -787,17 +787,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anizone", "name": "AniZone", "version": "1.0.1", "author": "jabifx",
-    "description": "Online streaming provider with soft subs and dubs.", "type": "onlinestream-provider",
-    "language": "typescript", "lang": "multi", "icon": "",
-    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AniZone/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/refs/heads/master/src/AniZone/index.ts",
-    "website": "", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/289376c583dad130d616bcee0a2e832e2a866060802fd6236e0b9b45e87431de",
-    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": null, "stars": 4, "threadId": "1430593283947761827", "addedAt": "2025-10-22T16:26:58.031Z",
-    "updatedAt": "2026-07-06T15:13:11.445Z"
+    "id": "anizone", "name": "AniZone by Jae", "version": "1.0.4", "author": "Jae",
+    "description": "AniZone by Jae online streaming provider with HLS playback, smarter title matching, and selectable subtitles.",
+    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider-2/main/logo.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider-2/main/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider-2/main/provider.ts", "website": "",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/158a5e46da99311f385407e87ff6953427a4a6609d768eb0b1a80ddb809bcc73",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1505936927189110988","1359183296591823124"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1553943677892562944",
+    "addedAt": "2026-09-28T01:37:23.687Z", "updatedAt": "2026-09-28T02:49:25.811Z"
   },
   {
     "id": "antiseeding", "name": "Anti-Seeding", "version": "1.0.0", "author": "ItsSkaiya & Pal-droid",
@@ -2694,17 +2695,18 @@
     "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-09-21T19:03:39.797Z"
   },
   {
-    "id": "seanime-wrapped", "name": "Seanime Wrapped", "version": "1.0.5", "author": "DefnoJae",
+    "id": "seanime-wrapped", "name": "Seanime Wrapped", "version": "1.0.6", "author": "DefnoJae",
     "description": "A cinematic, private anime recap generated from your Seanime and AniList data.",
     "type": "plugin", "language": "javascript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/assets/icon.svg",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/assets/marketplace-icon.png",
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js",
-    "website": "https://github.com/DefnoJae/Seanime-Wrapped", "flags": "0/57", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/034fb13b2e204b01fa8cf3bd251c712de6fa1e04043407bee4192af14be4729c",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": null, "stars": 2, "threadId": "1553865953186414682",
-    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-09-27T22:39:05.143Z"
+    "website": "https://github.com/DefnoJae/Seanime-Wrapped", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b62b81ad499531fc34c303a7bc6d9957b09d01b690c70357948b45559f9701c5",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1553865953186414682",
+    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-09-28T02:49:25.811Z"
   },
   {
     "id": "seastats", "name": "SeaStats", "version": "0.1.4", "author": "Crashdaemon",
