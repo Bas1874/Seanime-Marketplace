@@ -434,11 +434,11 @@
     "timestamp": 1771865304049, "hadWorkingTag": false
   },
   {
-    "id": "anizone", "version": "1.0.1",
-    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/refs/heads/master/src/AniZone/index.ts",
-    "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/289376c583dad130d616bcee0a2e832e2a866060802fd6236e0b9b45e87431de",
-    "timestamp": 1771871468452, "hadWorkingTag": false
+    "id": "anizone", "version": "1.0.4",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider-2/main/provider.ts", "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/158a5e46da99311f385407e87ff6953427a4a6609d768eb0b1a80ddb809bcc73",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790563765561
   },
   {
     "id": "antiseeding", "version": "1.0.0",
@@ -1371,11 +1371,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1784378602566
   },
   {
-    "id": "seanime-wrapped", "version": "1.0.5",
-    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js", "flags": "0/57",
+    "id": "seanime-wrapped", "version": "1.0.6",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js", "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/034fb13b2e204b01fa8cf3bd251c712de6fa1e04043407bee4192af14be4729c",
-    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1790548744857
+    "permalink": "https://www.virustotal.com/gui/file/b62b81ad499531fc34c303a7bc6d9957b09d01b690c70357948b45559f9701c5",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790563087920
   },
   {
     "id": "seastats", "version": "0.1.4",
