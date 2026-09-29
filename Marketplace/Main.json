@@ -327,7 +327,7 @@
     "permalink": "https://www.virustotal.com/gui/file/7d21d26455062b629dc60f7f7fd062df0c9111d27c0797ade90a9aedf383c0ce",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1441399163517538355",
+    "lastWorkingVersion": "3.10.3", "stars": 6, "threadId": "1441399163517538355",
     "addedAt": "2025-11-21T12:05:40.484Z", "updatedAt": "2026-07-12T13:10:19.472Z"
   },
   {
@@ -2310,7 +2310,7 @@
     "permalink": "https://www.virustotal.com/gui/file/d71b2c05e33e2fdabcf23e0764600058b847eb41fbed2852ad2e0e42c75af6ac",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183211099459916","1359183394512048148"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 10, "threadId": "1449622275044147210",
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 11, "threadId": "1449622275044147210",
     "addedAt": "2025-12-14T04:41:23.050Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
