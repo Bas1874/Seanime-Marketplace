@@ -1420,6 +1420,13 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1787932444095
   },
   {
+    "id": "shiro", "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/shiro/provider.js",
+    "flags": "0/57", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/449ded642c95ad918910a196af76398e2cdb71009a2698aa1c88432dacc9f759",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790793786332
+  },
+  {
     "id": "simkl", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/SIMKL/main.ts",
     "flags": "0/61", "flaggedBy": [],
@@ -1427,11 +1434,11 @@
     "timestamp": 1771869834200, "hadWorkingTag": true, "lastWorkingVersion": "3.10.3"
   },
   {
-    "id": "simklsync", "version": "2.0.2",
+    "id": "simklsync", "version": "3.0.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/SimklSync/provider.ts",
-    "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5db155eaad27ab97c3f2d649cdb3e49e964841a522f0d00f24c8c77d39f5f955",
-    "lastWorkingVersion": "3.10.3", "timestamp": 1783596380590, "hadWorkingTag": true
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d2f18da1231c01b1a8feee1f4f43627b44d478d8f4b4944dc403c8951083fd4d",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790793847902
   },
   {
     "id": "simklv2", "version": "2.5.5",
