@@ -1684,19 +1684,6 @@
     "addedAt": "2026-09-14T18:23:41.838Z", "updatedAt": "2026-09-14T20:50:13.535Z"
   },
   {
-    "id": "komikcast", "name": "KomikCast", "version": "1.2.0", "author": "pal",
-    "description": "KomikCast is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
-    "lang": "id", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/komikcast.png",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/komikcast/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/komikcast/provider.js",
-    "website": "", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/73b22cb77cb2f943b99407390a4cbb122ef2e3d84b6bc8964de8c5afe0bc47f6",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3", "lastWorkingVersion": null,
-    "stars": 6, "threadId": "1439671111557054528", "addedAt": "2025-11-16T17:39:00.791Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
     "id": "komiku", "name": "Komiku", "version": "1.0.0", "author": "pal",
     "description": "Komiku is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "id", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/komiku.png",
