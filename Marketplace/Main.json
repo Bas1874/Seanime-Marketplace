@@ -796,7 +796,7 @@
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/158a5e46da99311f385407e87ff6953427a4a6609d768eb0b1a80ddb809bcc73",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1505936927189110988","1359183296591823124"], "scannedOnVersion": "3.10.3",
+    "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1553943677892562944",
     "addedAt": "2026-09-28T01:37:23.687Z", "updatedAt": "2026-09-28T02:49:25.811Z"
   },
@@ -813,18 +813,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.6", "author": "aquaryuo",
+    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.7", "author": "aquaryuo",
     "description": "Only anikoto compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "website": "https://anikototv.to", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c339844a63371be6ebe10acf881850445b18cdb801a28265bb41e4876121670f",
+    "website": "https://anikototv.to", "flags": "0/56", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/60394f7997e4cb91fac243ba12adb914e85cfd46ec7e6bf5e00d467673edb200",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1519763403483381810",
-    "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-26T03:14:29.279Z"
+    "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-30T06:46:04.141Z"
   },
   {
     "id": "aq-animepahe", "name": "AnimePahe", "version": "0.2.44", "author": "aquaryuo",
@@ -2709,18 +2709,18 @@
     "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-09-21T19:03:39.797Z"
   },
   {
-    "id": "seanime-wrapped", "name": "Seanime Wrapped", "version": "1.0.6", "author": "DefnoJae",
+    "id": "seanime-wrapped", "name": "Seanime Wrapped", "version": "1.0.8", "author": "DefnoJae",
     "description": "A cinematic, private anime recap generated from your Seanime and AniList data.",
     "type": "plugin", "language": "javascript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/assets/marketplace-icon.png",
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js",
     "website": "https://github.com/DefnoJae/Seanime-Wrapped", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b62b81ad499531fc34c303a7bc6d9957b09d01b690c70357948b45559f9701c5",
+    "permalink": "https://www.virustotal.com/gui/file/cebf5bee1f03d34218006f8cbb11fd1304b4dc140185e64183303cf4707bbc48",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1553865953186414682",
-    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-09-28T02:49:25.811Z"
+    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-09-30T06:46:04.141Z"
   },
   {
     "id": "seastats", "name": "SeaStats", "version": "0.1.4", "author": "Crashdaemon",
