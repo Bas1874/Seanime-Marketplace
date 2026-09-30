@@ -301,11 +301,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1781613145012, "hadWorkingTag": false
   },
   {
-    "id": "animeheaven", "version": "1.1.3",
+    "id": "animeheaven", "version": "1.1.4",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/eca40b8d4c1648ee8b7b41f2a7f5bff0c185c0c9adf3fcb2cc883c3fecade3a1",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": false, "timestamp": 1784205204068
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/bd26ab1d453a19694c36da8d9ab54b29aed1d0292d053d4d14b5e7042e2f9452",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790779354423
   },
   {
     "id": "animekai", "version": "1.2.1",
@@ -1670,6 +1670,13 @@
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/86488398d240162ff5f5aeac482bf54909255ba13a38c3b418ee83c5a47e4d8a",
     "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1786377422727
+  },
+  {
+    "id": "xcomic", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/xcomic/provider.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/77693db8106cbfb9f0f26b9c06e23ee4aa01543a34eaab8ee3b7837bf0330176",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790779277554
   },
   {
     "id": "YGG-Provider", "version": "1.0.0",
