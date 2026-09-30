@@ -2782,6 +2782,20 @@
     "addedAt": "2025-11-28T06:14:56.545Z", "updatedAt": "2026-08-28T15:54:04.369Z"
   },
   {
+    "id": "shiro", "name": "Shiro", "version": "1.0.1", "author": "Pal",
+    "description": "Shiro is an AniList-backed online streaming provider for subbed and dubbed anime.",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/main/public/shiro.ico",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/shiro/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/shiro/provider.js",
+    "website": "https://shiro.so/", "flags": "0/57", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/449ded642c95ad918910a196af76398e2cdb71009a2698aa1c88432dacc9f759",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1554882674345381888",
+    "addedAt": "2026-09-30T15:48:37.887Z", "updatedAt": "2026-09-30T18:44:08.172Z"
+  },
+  {
     "id": "simkl", "name": "Simkl", "version": "1.1.2", "author": "jabifx",
     "description": "Implements SIMKL as a custom source.", "type": "custom-source", "language": "typescript",
     "lang": "multi", "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/SIMKL/icon.ico",
@@ -2795,17 +2809,17 @@
     "addedAt": "2025-11-13T19:21:21.031Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
-    "id": "simklsync", "name": "SimklSync", "version": "2.0.2", "author": "nnotwen",
+    "id": "simklsync", "name": "SimklSync", "version": "3.0.0", "author": "nnotwen",
     "description": "Synchronize entry progress seamlessly with SIMKL", "type": "plugin", "language": "typescript",
     "lang": "en", "icon": "https://eu.simkl.in/img_favicon/v2/favicon-192x192.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/SimklSync/simklsync.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/SimklSync/provider.ts",
-    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5db155eaad27ab97c3f2d649cdb3e49e964841a522f0d00f24c8c77d39f5f955",
+    "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d2f18da1231c01b1a8feee1f4f43627b44d478d8f4b4944dc403c8951083fd4d",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1454854331265454152",
-    "addedAt": "2025-12-28T15:11:42.460Z", "updatedAt": "2026-07-09T11:26:20.896Z"
+    "addedAt": "2025-12-28T15:11:42.460Z", "updatedAt": "2026-09-30T18:44:08.172Z"
   },
   {
     "id": "simklv2", "name": "Simkl V2", "version": "2.5.5", "author": "aor-rex",
