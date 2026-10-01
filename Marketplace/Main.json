@@ -1386,13 +1386,13 @@
     "id": "french-stream", "name": "French Stream", "version": "1.1.1", "author": "Rafou376",
     "description": "French Stream est une plateforme de streaming supportant séries et films",
     "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
-    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/french-stream/icon.png",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/french-stream/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/french-stream/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1545383472682635334",
-    "addedAt": "2026-09-04T10:42:11.724Z", "updatedAt": "2026-09-30T22:40:33.785Z"
+    "addedAt": "2026-09-04T10:42:11.724Z", "updatedAt": "2026-10-01T02:40:41.985Z"
   },
   {
     "id": "friend-stats", "name": "Friend stats", "version": "1.2.1", "author": "Kaktus",
@@ -1454,12 +1454,12 @@
     "id": "hentai-origines", "name": "Hentai Origines (18+)", "version": "1.0.0", "author": "Rafou376",
     "description": "Hentai Origines est une plateforme française de scantrad pour adultes", "type": "manga-provider",
     "language": "typescript", "lang": "fr",
-    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/hentai-origines/icon.png",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/hentai-origines/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/hentai-origines/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1547766165139497031",
-    "addedAt": "2026-09-11T00:30:09.874Z", "updatedAt": "2026-09-30T22:40:33.785Z"
+    "addedAt": "2026-09-11T00:30:09.874Z", "updatedAt": "2026-10-01T02:40:41.985Z"
   },
   {
     "id": "hentai2read", "name": "Hentai2Read (18+)", "version": "1.0.0", "author": "eepyboba",
@@ -2040,12 +2040,12 @@
     "id": "mangalib", "name": "MangaLib", "version": "1.0.0", "author": "Rafou376",
     "description": "MangaLib — это русскоязычная платформа сканлейта", "type": "manga-provider",
     "language": "typescript", "lang": "ru",
-    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangalib/icon.png",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangalib/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangalib/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1549530163774099537",
-    "addedAt": "2026-09-15T21:19:39.922Z", "updatedAt": "2026-09-30T22:40:33.785Z"
+    "addedAt": "2026-09-15T21:19:39.922Z", "updatedAt": "2026-10-01T02:40:41.985Z"
   },
   {
     "id": "mangalivre-tv", "name": "MangaLivre.tv", "version": "1.1.10", "author": "jhoorodr",
@@ -2112,12 +2112,12 @@
     "id": "mangas-origines", "name": "Mangas Origines", "version": "1.0.0", "author": "Rafou376",
     "description": "Mangas Origines est une plateforme française de scantrad", "type": "manga-provider",
     "language": "typescript", "lang": "fr",
-    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangas-origines/icon.png",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangas-origines/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangas-origines/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1547761989194096742",
-    "addedAt": "2026-09-11T00:13:34.251Z", "updatedAt": "2026-09-30T22:40:33.785Z"
+    "addedAt": "2026-09-11T00:13:34.251Z", "updatedAt": "2026-10-01T02:40:41.985Z"
   },
   {
     "id": "mangaupdates", "name": "MangaUpdates", "version": "1.0.2", "author": "Carloss616",
@@ -2397,12 +2397,12 @@
   {
     "id": "nihonkuni", "name": "NihonKuni", "version": "1.0.0", "author": "Rafou376",
     "description": "NihonKuniは未加工の生スキャン（raw）を提供するプラットフォームです。", "type": "manga-provider", "language": "typescript",
-    "lang": "ja", "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/nihonkuni/icon.png",
+    "lang": "ja", "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/nihonkuni/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/nihonkuni/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1554959063291400332",
-    "addedAt": "2026-09-30T20:52:10.431Z", "updatedAt": "2026-09-30T22:40:33.785Z"
+    "addedAt": "2026-09-30T20:52:10.431Z", "updatedAt": "2026-10-01T02:40:41.985Z"
   },
   {
     "id": "no-cap-ratings", "name": "No Cap Ratings", "version": "1.0.0", "author": "nnotwen",
@@ -2874,12 +2874,12 @@
     "id": "slashlib", "name": "SlashLib", "version": "1.0.0", "author": "Rafou376",
     "description": "SlashLib — это русскоязычная платформа сканлейта", "type": "manga-provider",
     "language": "typescript", "lang": "ru",
-    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/slashlib/icon.png",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/slashlib/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/slashlib/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1549520251232976966",
-    "addedAt": "2026-09-15T20:40:16.588Z", "updatedAt": "2026-09-30T22:40:33.785Z"
+    "addedAt": "2026-09-15T20:40:16.588Z", "updatedAt": "2026-10-01T02:40:41.985Z"
   },
   {
     "id": "snow-effect", "name": "Seanime Snow effect", "version": "1.1.1", "author": "Pal",
@@ -3412,11 +3412,11 @@
     "id": "zazaza", "name": "ZazaZa", "version": "1.0.0", "author": "Rafou376",
     "description": "ZazaZa — это русскоязычная платформа сканлейта", "type": "manga-provider",
     "language": "typescript", "lang": "ru",
-    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/zazaza/icon.png",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/zazaza/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/zazaza/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1549761624804429824",
-    "addedAt": "2026-09-16T12:39:24.532Z", "updatedAt": "2026-09-30T22:40:33.785Z"
+    "addedAt": "2026-09-16T12:39:24.532Z", "updatedAt": "2026-10-01T02:40:41.985Z"
   }
 ]
