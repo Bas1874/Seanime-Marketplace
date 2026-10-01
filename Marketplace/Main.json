@@ -2401,7 +2401,7 @@
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/nihonkuni/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1554959063291400332",
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1554959063291400332",
     "addedAt": "2026-09-30T20:52:10.431Z", "updatedAt": "2026-10-01T02:40:41.985Z"
   },
   {
