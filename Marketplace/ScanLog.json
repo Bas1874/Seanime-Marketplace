@@ -385,11 +385,11 @@
     "timestamp": 1776472247923, "hadWorkingTag": false
   },
   {
-    "id": "animetosho-new", "version": "2.4.6",
+    "id": "animetosho-new", "version": "2.4.7",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6697d9e1ea8d98fa5b1930fa3744f541ef495e14551adba6e5c4878ad38e605a",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790519855130
+    "permalink": "https://www.virustotal.com/gui/file/5e637627e8cc51502e89e55e61bb5b5db52542eb0290ff0ced79039628e424c5",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790851414693
   },
   {
     "id": "AnimeUnity", "version": "1.1.3",
