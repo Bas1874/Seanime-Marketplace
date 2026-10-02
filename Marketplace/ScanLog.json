@@ -448,11 +448,11 @@
     "timestamp": 1771866081063, "hadWorkingTag": false
   },
   {
-    "id": "aq-anikoto", "version": "1.4.7",
+    "id": "aq-anikoto", "version": "1.4.8",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "flags": "0/56", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/60394f7997e4cb91fac243ba12adb914e85cfd46ec7e6bf5e00d467673edb200",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790750763893
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5f1511bc1c29ecab0335d6c1bb2a7dbb8c8af47927e9d63d34cfbdf94970564c",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790908969353
   },
   {
     "id": "aq-animepahe", "version": "0.2.44",
@@ -469,11 +469,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789318114984
   },
   {
-    "id": "aq-anizone", "version": "1.1.39",
+    "id": "aq-anizone", "version": "1.1.40",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/94f11dacb58cda4518acf0bd7779aa5c20ce6fce9fe17398848110a9d30dbc16",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790392313724
+    "permalink": "https://www.virustotal.com/gui/file/be76c04ab42bbcda55f802c70a35711ad87352ba5c8a4a97f0978f04a78fc05c",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790909016405
   },
   {
     "id": "aq-aquaprefs", "version": "1.1.66",
@@ -902,11 +902,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789029775412
   },
   {
-    "id": "kuromangas", "version": "1.0.9",
+    "id": "kuromangas", "version": "1.0.10",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/66bf6d74ef01efaed5d8ba203aece8506a9fb81625529a0a22569a354c67ba5d",
-    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1789231681447
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8fe96263eb77837b82a6baefd4ef9c6a874022c6f869e10ffecea5b80bdad434",
+    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1790909078355
   },
   {
     "id": "latanime-online-provider", "version": "0.1.11",
