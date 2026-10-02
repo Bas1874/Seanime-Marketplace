@@ -2678,6 +2678,20 @@
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
+    "id": "seakit", "name": "SeaKit", "version": "0.1.11", "author": "DefnoJae",
+    "description": "Adds optional MAL ratings and English dub status to Seanime anime detail pages.",
+    "type": "plugin", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/SeaKit/d78f7da7053ed9d64fe903efd6fb43f5b27917de/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/SeaKit/main/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaKit/7a348e76513757447f07107e45d6ee49af5e7c11/SeaKit.ts",
+    "website": "https://github.com/DefnoJae/SeaKit", "flags": "0/46", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d5daaf50fa3dd83ff420100e783c1ed295856d483d51528e2485c6b52cdf5b87",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1555400322665680996",
+    "addedAt": "2026-10-02T02:05:34.864Z", "updatedAt": "2026-10-02T06:54:02.389Z"
+  },
+  {
     "id": "seanime-download-notifier", "name": "Seanime Download Notifier", "version": "1.0.0",
     "author": "Hyperclaw79", "description": "Sends notifications when Seanime-tracked torrent downloads complete.",
     "type": "plugin", "language": "javascript", "lang": "en",
@@ -2692,18 +2706,18 @@
     "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-09-21T19:03:39.797Z"
   },
   {
-    "id": "seanime-wrapped", "name": "Seanime Wrapped", "version": "1.0.8", "author": "DefnoJae",
+    "id": "seanime-wrapped", "name": "Seanime Wrapped", "version": "1.0.11", "author": "DefnoJae",
     "description": "A cinematic, private anime recap generated from your Seanime and AniList data.",
     "type": "plugin", "language": "javascript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/assets/marketplace-icon.png",
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js",
-    "website": "https://github.com/DefnoJae/Seanime-Wrapped", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/cebf5bee1f03d34218006f8cbb11fd1304b4dc140185e64183303cf4707bbc48",
+    "website": "https://github.com/DefnoJae/Seanime-Wrapped", "flags": "0/56", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/dc1d6c48417d61ef15015fb6ad87dcdef4df0a901a3b7d3fe4c935d2cc0277ae",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1553865953186414682",
-    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-09-30T06:46:04.141Z"
+    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-10-02T06:54:02.389Z"
   },
   {
     "id": "seastats", "name": "SeaStats", "version": "0.1.4", "author": "Crashdaemon",
