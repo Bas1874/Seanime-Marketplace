@@ -799,18 +799,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.7", "author": "aquaryuo",
+    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.8", "author": "aquaryuo",
     "description": "Only anikoto compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "website": "https://anikototv.to", "flags": "0/56", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/60394f7997e4cb91fac243ba12adb914e85cfd46ec7e6bf5e00d467673edb200",
+    "website": "https://anikototv.to", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5f1511bc1c29ecab0335d6c1bb2a7dbb8c8af47927e9d63d34cfbdf94970564c",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1519763403483381810",
-    "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-09-30T06:46:04.141Z"
+    "addedAt": "2026-06-25T17:57:11.229Z", "updatedAt": "2026-10-02T02:44:38.608Z"
   },
   {
     "id": "aq-animepahe", "name": "AnimePahe", "version": "0.2.44", "author": "aquaryuo",
@@ -827,18 +827,18 @@
     "addedAt": "2026-06-25T21:36:47.250Z", "updatedAt": "2026-09-25T23:16:42.754Z"
   },
   {
-    "id": "aq-anizone", "name": "AniZone", "version": "1.1.39", "author": "aquaryuo",
+    "id": "aq-anizone", "name": "AniZone", "version": "1.1.40", "author": "aquaryuo",
     "description": "Only anizone compatibility layer you'll ever need. Dub streams carry both audio tracks — pick English in the player's audio menu once and Seanime remembers it for that series.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
     "website": "https://anizone.to", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/94f11dacb58cda4518acf0bd7779aa5c20ce6fce9fe17398848110a9d30dbc16",
+    "permalink": "https://www.virustotal.com/gui/file/be76c04ab42bbcda55f802c70a35711ad87352ba5c8a4a97f0978f04a78fc05c",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1519767961026564276",
-    "addedAt": "2026-06-25T18:15:17.832Z", "updatedAt": "2026-09-26T03:14:29.279Z"
+    "addedAt": "2026-06-25T18:15:17.832Z", "updatedAt": "2026-10-02T02:44:38.608Z"
   },
   {
     "id": "aq-aquatils", "name": "Aqua's Utils", "version": "1.0.31", "author": "aquaryuo",
@@ -1696,18 +1696,18 @@
     "addedAt": "2026-09-10T06:35:13.373Z", "updatedAt": "2026-09-10T08:42:56.456Z"
   },
   {
-    "id": "kuromangas", "name": "Kuro Mangas", "version": "1.0.9", "author": "jhoorodr",
+    "id": "kuromangas", "name": "Kuro Mangas", "version": "1.0.10", "author": "jhoorodr",
     "description": "Manga reading provider for Kuro Mangas. NOTE: Requires an account created on the site to work.",
     "type": "manga-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/kuromangas.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/66bf6d74ef01efaed5d8ba203aece8506a9fb81625529a0a22569a354c67ba5d",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8fe96263eb77837b82a6baefd4ef9c6a874022c6f869e10ffecea5b80bdad434",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.8.7", "stars": 0, "threadId": "1516231576378413158",
-    "addedAt": "2026-06-16T00:02:58.029Z", "updatedAt": "2026-09-12T16:48:01.699Z"
+    "addedAt": "2026-06-16T00:02:58.029Z", "updatedAt": "2026-10-02T02:44:38.608Z"
   },
   {
     "id": "latanime-online-provider", "name": "Latanime", "version": "0.1.11", "author": "lens7y",
