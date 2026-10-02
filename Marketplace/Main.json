@@ -2670,6 +2670,20 @@
     "updatedAt": "2026-09-05T16:05:39.350Z"
   },
   {
+    "id": "SeaBoost", "name": "SeaBoost", "version": "0.2.3", "author": "Jae",
+    "description": "Extends Seanime's native volume control beyond 100% with a configurable maximum boost.",
+    "type": "plugin", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/Volume-booster/refs/heads/main/assets/iccon.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Volume-booster/refs/heads/main/Manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Volume-booster/refs/heads/main/src/SeaBoost.js",
+    "website": "https://github.com/DefnoJae/Volume-booster", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e7d44448e98c35458935973f3360a5b3f6e03be9e2b6cd1a1ff23eb7e9c96fa6",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1555695375074201764",
+    "addedAt": "2026-10-02T21:38:00.840Z", "updatedAt": "2026-10-02T22:45:11.948Z"
+  },
+  {
     "id": "seadex", "name": "SeaDex", "version": "1.0.4", "author": "Island",
     "description": "SeaDex provider for high quality torrents", "type": "anime-torrent-provider",
     "language": "typescript", "lang": "multi", "icon": "https://island.clap.ing/api/extensions/icons/seadex.png",
@@ -2718,6 +2732,20 @@
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1553865953186414682",
     "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-10-02T06:54:02.389Z"
+  },
+  {
+    "id": "SeaQueue", "name": "SeaQueue", "version": "0.1.6", "author": "Jae",
+    "description": "A lightweight Watch Later queue for Seanime. Save anime from the current detail page and jump back to them anytime.",
+    "type": "plugin", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/SeaQueue/refs/heads/main/assets/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/SeaQueue/refs/heads/main/Manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaQueue/refs/heads/main/src/SeaQueue.js",
+    "website": "https://github.com/DefnoJae/SeaQueue", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/9aa5c3d6f1159966e52449a147391af38bd4c2371cf1d970c5f0366c2f9cb36e",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1555674945059553311",
+    "addedAt": "2026-10-02T20:16:49.945Z", "updatedAt": "2026-10-02T22:45:11.948Z"
   },
   {
     "id": "seastats", "name": "SeaStats", "version": "0.1.4", "author": "Crashdaemon",
