@@ -1371,6 +1371,13 @@
     "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1788624339101
   },
   {
+    "id": "SeaBoost", "version": "0.2.3",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Volume-booster/refs/heads/main/src/SeaBoost.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e7d44448e98c35458935973f3360a5b3f6e03be9e2b6cd1a1ff23eb7e9c96fa6",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790981032905
+  },
+  {
     "id": "seakit", "version": "0.1.11",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaKit/7a348e76513757447f07107e45d6ee49af5e7c11/SeaKit.ts",
     "flags": "0/46", "flaggedBy": [],
@@ -1390,6 +1397,13 @@
     "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/dc1d6c48417d61ef15015fb6ad87dcdef4df0a901a3b7d3fe4c935d2cc0277ae",
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790924042139
+  },
+  {
+    "id": "SeaQueue", "version": "0.1.6",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaQueue/refs/heads/main/src/SeaQueue.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/9aa5c3d6f1159966e52449a147391af38bd4c2371cf1d970c5f0366c2f9cb36e",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790981111698
   },
   {
     "id": "seastats", "version": "0.1.4",
