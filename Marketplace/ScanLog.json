@@ -1371,6 +1371,13 @@
     "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1788624339101
   },
   {
+    "id": "seakit", "version": "0.1.11",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaKit/7a348e76513757447f07107e45d6ee49af5e7c11/SeaKit.ts",
+    "flags": "0/46", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d5daaf50fa3dd83ff420100e783c1ed295856d483d51528e2485c6b52cdf5b87",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790923765074
+  },
+  {
     "id": "seanime-download-notifier", "version": "1.0.0",
     "payloadURI": "https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/plugin.js",
     "flags": "0/61", "flaggedBy": [],
@@ -1378,11 +1385,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1784378602566
   },
   {
-    "id": "seanime-wrapped", "version": "1.0.8",
-    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js", "flags": "0/60",
+    "id": "seanime-wrapped", "version": "1.0.11",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js", "flags": "0/56",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/cebf5bee1f03d34218006f8cbb11fd1304b4dc140185e64183303cf4707bbc48",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790750564644
+    "permalink": "https://www.virustotal.com/gui/file/dc1d6c48417d61ef15015fb6ad87dcdef4df0a901a3b7d3fe4c935d2cc0277ae",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790924042139
   },
   {
     "id": "seastats", "version": "0.1.4",
