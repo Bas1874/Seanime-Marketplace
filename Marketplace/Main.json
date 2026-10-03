@@ -1504,7 +1504,7 @@
     "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hentaihaven/payload.ts",
     "website": "https://hentaihaven.xxx", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/45319fa2b7d63a105742301f54f741d1474ac75fd3032a35493aa6bef2b6b7fa",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": true, "brokenTag": false, "deprecatedTag": true,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1499541991435014249",
     "addedAt": "2026-04-30T22:44:30.901Z", "updatedAt": "2026-08-31T11:56:57.153Z"
