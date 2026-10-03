@@ -2625,7 +2625,7 @@
     "payloadURI": "", "website": "https://reanime.to", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 8, "threadId": "1548645673803579503",
+    "lastWorkingVersion": "3.10.3", "stars": 9, "threadId": "1548645673803579503",
     "addedAt": "2026-09-13T10:45:01.080Z", "updatedAt": "2026-09-14T00:46:43.617Z"
   },
   {
@@ -2680,7 +2680,7 @@
     "permalink": "https://www.virustotal.com/gui/file/e7d44448e98c35458935973f3360a5b3f6e03be9e2b6cd1a1ff23eb7e9c96fa6",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1555695375074201764",
+    "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1555695375074201764",
     "addedAt": "2026-10-02T21:38:00.840Z", "updatedAt": "2026-10-02T22:45:11.948Z"
   },
   {
@@ -2730,7 +2730,7 @@
     "permalink": "https://www.virustotal.com/gui/file/dc1d6c48417d61ef15015fb6ad87dcdef4df0a901a3b7d3fe4c935d2cc0277ae",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1553865953186414682",
+    "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1553865953186414682",
     "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-10-02T06:54:02.389Z"
   },
   {
