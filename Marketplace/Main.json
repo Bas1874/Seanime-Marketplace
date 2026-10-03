@@ -129,7 +129,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/provider.js",
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/065ec31a990f7196605f4a7ab67b5441d2c709a3f28e9272752c104c6f90502d",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1510577432560926720",
     "addedAt": "2026-05-31T09:35:25.094Z", "updatedAt": "2026-08-17T20:13:56.938Z"
@@ -2148,18 +2148,18 @@
     "updatedAt": "2026-08-02T12:55:45.417Z"
   },
   {
-    "id": "mangaworldadult", "name": "MangaWorldAdult", "version": "1.0.0", "author": "pal",
+    "id": "mangaworldadult", "name": "MangaWorldAdult", "version": "1.0.1", "author": "pal",
     "description": "MangaWorldAdult is a manga provider for Seanime", "type": "manga-provider",
     "language": "typescript", "lang": "it",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/MangaWorld.jpeg",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/MangaWorldAdult/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/MangaWorldAdult/provider.ts",
-    "website": "", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8d36e66211e937363e91a2a083b61ad552bff75e49b201bc34a2973d02442481",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/11d0daa03080d0f168dac9ef49085d1d5e751d87df338e11483dad74cdb0fb93",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3", "lastWorkingVersion": null,
     "stars": 5, "threadId": "1441502445787418624", "addedAt": "2025-11-21T18:56:04.896Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-10-03T22:44:51.159Z"
   },
   {
     "id": "manhastro", "name": "Manhastro", "version": "1.0.2", "author": "jhoorodr",
