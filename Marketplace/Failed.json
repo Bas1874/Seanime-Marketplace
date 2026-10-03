@@ -5,12 +5,20 @@
     "originalMessageContent": "> **Extension Name:**\n> Example Name\n> \n> **Version:**\n> 0.69\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Example/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Example/manifest.json```\n> **Description:**\n> Extension for (EXAMPLE), an online streaming provider for subbed/dubbed anime in English, made by Bas1874\n> \n> **Additional Notes:**\n> Share any extra details, acknowledgments, or troubleshooting tips."
   },
   {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1429972238374797384", "reason": "404 Not Found.",
+    "originalMessageContent": "> **Extension Name:**\n> ManhwaWeb\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/src/manga/ManhwaWeb/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/src/manga/ManhwaWeb/manifest.json```\n> **Description:**\n> Spanish manga and manhwa provider."
+  },
+  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1439671111557054528", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension Name:**\n> KomikCast\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/komikcast/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/komikcast/manifest.json```\n> \n> **Description:**\n> Extension for reading manga in indonesian.\n> \n> **Additional Notes:**\n> None"
   },
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1492477178271629313", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension name:**\n> AllManga (Anime)\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/allmanga/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/allmanga/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for  english anime.\n> \n> **Additional Notes:**\n> It currently supports **only sub anime**"
+  },
+  {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1499066794231468133", "reason": "404 Not Found.",
+    "originalMessageContent": "> **Extension name:**\n> MangaCloud\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangacloud/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangacloud/manifest.json```\n> **Description:**\n> A manga provider for english manga, made by Pal\n> \n> **Additional Notes:**\n> None"
   },
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1512176296829128794", "reason": "404 Not Found.",
