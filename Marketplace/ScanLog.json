@@ -109,7 +109,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/065ec31a990f7196605f4a7ab67b5441d2c709a3f28e9272752c104c6f90502d",
-    "lastWorkingVersion": "3.10.3", "timestamp": 1780752515687, "hadWorkingTag": true
+    "lastWorkingVersion": "3.10.3", "timestamp": 1780752515687, "hadWorkingTag": false
   },
   {
     "id": "anidream", "version": "1.0.1",
@@ -1126,11 +1126,11 @@
     "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1785675345191
   },
   {
-    "id": "mangaworldadult", "version": "1.0.0",
+    "id": "mangaworldadult", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/MangaWorldAdult/provider.ts",
-    "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8d36e66211e937363e91a2a083b61ad552bff75e49b201bc34a2973d02442481",
-    "timestamp": 1771869231822, "hadWorkingTag": false
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/11d0daa03080d0f168dac9ef49085d1d5e751d87df338e11483dad74cdb0fb93",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1791067490873
   },
   {
     "id": "manhastro", "version": "1.0.2",
