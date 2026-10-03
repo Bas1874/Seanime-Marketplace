@@ -1441,11 +1441,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1787932444095
   },
   {
-    "id": "shiro", "version": "1.0.1",
+    "id": "shiro", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/shiro/provider.js",
-    "flags": "0/57", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/449ded642c95ad918910a196af76398e2cdb71009a2698aa1c88432dacc9f759",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790793786332
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1027632fff12c8bcab355f411cc7f06fa749216e8acd2b759fe3426231321f13",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791024311740
   },
   {
     "id": "simkl", "version": "1.1.2",
