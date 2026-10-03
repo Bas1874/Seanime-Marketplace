@@ -930,11 +930,11 @@
     "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1786108042131
   },
   {
-    "id": "lelmanga", "version": "1.0.0",
+    "id": "lelmanga", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/lelmanga/provider.js",
-    "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b778638c6ac1e03ffac5914573bf4b1a2d6773afb274a742d8c736068b869433",
-    "timestamp": 1774230107118, "hadWorkingTag": false
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/820508642ffae5afdfef4087ff2c6162d9eb9e78ec2345cf887cf8179e12e7e4",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1791053244045
   },
   {
     "id": "library-grid-layout", "version": "1.1.2",
@@ -1203,18 +1203,18 @@
     "timestamp": 1771865941910, "lastWorkingVersion": "3.10.3", "hadWorkingTag": true
   },
   {
-    "id": "mynimeku", "version": "1.3.0",
+    "id": "mynimeku", "version": "1.3.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/mynimeku/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a460eb8c4bbcafbfa0fb7c38d9bd0fd33768f043c6929ee963879cb40690ac30",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1784205033680
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5ad53e69b7013960021c4956c12b292e4ce416d76acded677b4c0de351c02e49",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791053197818
   },
   {
-    "id": "mynimekumanga", "version": "1.2.0",
+    "id": "mynimekumanga", "version": "1.2.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/provider.js",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b9703a6952fed0812bb36fef0493df23a21fc3e3118babfab70fc23dce93c403",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1784804801181
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/da0de6c8c712f0ba13ed6c085cf817b10452ebb4e1d47915f7f5deda21752988",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791053151414
   },
   {
     "id": "nartag", "version": "1.1.0",
@@ -1320,6 +1320,13 @@
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/115724cb95eb0c7cea76edd18857a435a90bf3c031085d9b1d61d7b36dd9ffbb",
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1783868339958
+  },
+  {
+    "id": "rareanime", "version": "0.3.3",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/RareAnime/main/provider.ts", "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/203d52c8af9e40e6a645c8861a1619348953678128857841fc6aaa476bb3f51d",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791053089557
   },
   {
     "id": "ravenscans", "version": "1.0.1",
@@ -1497,11 +1504,11 @@
     "lastWorkingVersion": null, "timestamp": 1781440187291, "hadWorkingTag": false
   },
   {
-    "id": "taiyo", "version": "1.0.1",
+    "id": "taiyo", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/taiyo/provider.js",
-    "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/3e34d8e0b74554b3acaacd6cfe3982cd0fbe743335f827f37a5529e10f24f92a",
-    "timestamp": 1772685693385, "hadWorkingTag": false
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f444ba9030482bb4e31f82c664a4ed2d8fd267131d974dd0e6ee03a4880eb552",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1791053290458
   },
   {
     "id": "thepiratebay", "version": "1.0.2",
