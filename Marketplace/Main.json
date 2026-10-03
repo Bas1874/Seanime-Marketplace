@@ -1752,18 +1752,18 @@
     "updatedAt": "2026-08-07T13:08:08.627Z"
   },
   {
-    "id": "lelmanga", "name": "LelManga", "version": "1.0.0", "author": "pal",
+    "id": "lelmanga", "name": "LelManga", "version": "1.0.1", "author": "pal",
     "description": "LelManga is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "fr",
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/lelmanga.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/lelmanga/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/lelmanga/provider.js",
-    "website": "", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b778638c6ac1e03ffac5914573bf4b1a2d6773afb274a742d8c736068b869433",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/820508642ffae5afdfef4087ff2c6162d9eb9e78ec2345cf887cf8179e12e7e4",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1485292014735065320", "addedAt": "2026-03-22T15:00:11.704Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-10-03T18:48:10.721Z"
   },
   {
     "id": "library-grid-layout", "name": "Library Grid Layout", "version": "1.1.2", "author": "Carloss616",
@@ -1929,19 +1929,6 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.8.7", "stars": 7, "threadId": "1429860669502783651",
     "addedAt": "2025-10-20T15:55:49.136Z", "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
-    "id": "mangacloud", "name": "MangaCloud", "version": "1.0.0", "author": "Pal",
-    "description": "MangaCloud is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
-    "lang": "en", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/mangacloud.png",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangacloud/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangacloud/provider.js",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f2676d37f3aa7a35bba25be67b2f902febca409b1c66684924f607433fe3c23c",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3", "lastWorkingVersion": null,
-    "stars": 0, "threadId": "1499066794231468133", "addedAt": "2026-04-29T15:16:15.059Z",
-    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "mangadex", "name": "Mangadex", "version": "1.0.0", "author": "kiko",
@@ -2189,20 +2176,6 @@
     "addedAt": "2026-06-16T02:51:39.818Z", "updatedAt": "2026-08-01T04:58:18.046Z"
   },
   {
-    "id": "manhwaweb", "name": "ManhwaWeb", "version": "1.0.1", "author": "jabifx & Pal",
-    "description": "Spanish manga and manhwa provider.", "type": "manga-provider", "language": "typescript",
-    "lang": "es",
-    "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/manhwaweb.png",
-    "manifestURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/src/manga/ManhwaWeb/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/src/manga/ManhwaWeb/index.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/58ab9a1ab86820668712cb7d1ff88c77b65a533bcb0c9c25804d516a343f3a2f",
-    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3", "lastWorkingVersion": null,
-    "stars": 0, "threadId": "1429972238374797384", "addedAt": "2025-10-20T23:19:09.228Z",
-    "updatedAt": "2026-08-08T17:09:12.051Z"
-  },
-  {
     "id": "Marketplace-Plus", "name": "Marketplace+", "version": "1.2.2", "author": "bas1874",
     "description": "Improve Seanime's Extensions marketplace with live status badges (Working/Broken/Deprecated), star counts, sorting by most stars or recent updates, author search, sub/dub tags, and per-extension Discord support buttons. Warns you when an online-streaming provider hangs instead of loading. Also lets you select installed extensions and enable or disable them in bulk.",
     "type": "plugin", "language": "javascript", "lang": "multi",
@@ -2301,31 +2274,31 @@
     "addedAt": "2025-12-01T15:14:44.234Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mynimeku", "name": "MyNimeKu", "version": "1.3.0", "author": "Pal",
+    "id": "mynimeku", "name": "MyNimeKu", "version": "1.3.1", "author": "Pal",
     "description": "MyNimeKu is an online streaming provider for indonesian subs.", "type": "onlinestream-provider",
     "language": "typescript", "lang": "id",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/mynimeku.jpg",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/mynimeku/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/mynimeku/provider.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a460eb8c4bbcafbfa0fb7c38d9bd0fd33768f043c6929ee963879cb40690ac30",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5ad53e69b7013960021c4956c12b292e4ce416d76acded677b4c0de351c02e49",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505936860441083904","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1459253757207515197",
-    "addedAt": "2026-01-09T18:33:27.342Z", "updatedAt": "2026-07-16T12:33:24.314Z"
+    "addedAt": "2026-01-09T18:33:27.342Z", "updatedAt": "2026-10-03T18:48:10.721Z"
   },
   {
-    "id": "mynimekumanga", "name": "MyNimeKu (Manga)", "version": "1.2.0", "author": "Pal",
+    "id": "mynimekumanga", "name": "MyNimeKu (Manga)", "version": "1.2.1", "author": "Pal",
     "description": "MyNimeKu is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "id", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/mynimeku.jpg",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/provider.js",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b9703a6952fed0812bb36fef0493df23a21fc3e3118babfab70fc23dce93c403",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/da0de6c8c712f0ba13ed6c085cf817b10452ebb4e1d47915f7f5deda21752988",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1488609005155913888",
-    "addedAt": "2026-03-31T18:40:43.847Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "addedAt": "2026-03-31T18:40:43.847Z", "updatedAt": "2026-10-03T18:48:10.721Z"
   },
   {
     "id": "nartag", "name": "Nartag (Discontinued)", "version": "1.1.0", "author": "branrgx",
@@ -2603,6 +2576,20 @@
     "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1504185976866734210",
     "addedAt": "2026-05-13T18:18:03.309Z", "updatedAt": "2026-07-12T14:59:00.373Z"
+  },
+  {
+    "id": "rareanime", "name": "RareAnime by Jae", "version": "0.3.3", "author": "Jae",
+    "description": "RareAnimes online streaming provider for Seanime with season stitching, AnimeToon archive parsing, Codedew/Argon stream resolution, and Seanime-safe JuicyCodes decoding.",
+    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/RareAnime/main/assets/icon-v0.3.3.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/RareAnime/main/Manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/RareAnime/main/provider.ts", "website": "",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/203d52c8af9e40e6a645c8861a1619348953678128857841fc6aaa476bb3f51d",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1505936927189110988","1359183296591823124"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1555997747155439626",
+    "addedAt": "2026-10-03T17:39:31.962Z", "updatedAt": "2026-10-03T18:48:10.721Z"
   },
   {
     "id": "ravenscans", "name": "RavenScans", "version": "1.0.1", "author": "Pal",
@@ -2989,18 +2976,18 @@
     "updatedAt": "2026-08-31T11:56:57.153Z"
   },
   {
-    "id": "taiyo", "name": "Taiyo", "version": "1.0.1", "author": "pal",
+    "id": "taiyo", "name": "Taiyo", "version": "1.0.2", "author": "pal",
     "description": "Taiyo is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "pt",
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/taiyo.jpeg",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/taiyo/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/taiyo/provider.js",
-    "website": "", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/3e34d8e0b74554b3acaacd6cfe3982cd0fbe743335f827f37a5529e10f24f92a",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f444ba9030482bb4e31f82c664a4ed2d8fd267131d974dd0e6ee03a4880eb552",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3", "lastWorkingVersion": null,
     "stars": 1, "threadId": "1478816312879878205", "addedAt": "2026-03-04T18:08:04.069Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-10-03T18:48:10.721Z"
   },
   {
     "id": "thepiratebay", "name": "ThePiratebay", "version": "1.0.2", "author": "jabifx",
