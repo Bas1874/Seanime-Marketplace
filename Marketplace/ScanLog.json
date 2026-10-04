@@ -1392,6 +1392,13 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790981032905
   },
   {
+    "id": "SeaFit", "version": "0.1.3",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaFit/refs/heads/main/src/SeaFit.js", "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/7c461f5fc92e150d097100e68a59b09d74b7788adbdd05ac64a12a0bcca16f30",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791139585327
+  },
+  {
     "id": "seakit", "version": "0.1.11",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaKit/7a348e76513757447f07107e45d6ee49af5e7c11/SeaKit.ts",
     "flags": "0/46", "flaggedBy": [],
