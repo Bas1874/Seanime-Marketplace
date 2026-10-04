@@ -574,6 +574,13 @@
     "lastWorkingVersion": null, "timestamp": 1781368264365, "hadWorkingTag": false
   },
   {
+    "id": "characters-info-plus", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/main/src/plugins/characters-info-plus/main.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b8340aded03424e0b89853a8fed7aeb172d25fa0f42d518035605c6e27e1764d",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791125169439
+  },
+  {
     "id": "comicvine", "version": "1.3.0",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/ComicVine/main.ts",
     "flags": "0/58", "flaggedBy": [],
