@@ -850,7 +850,7 @@
     "website": "https://github.com/aquaryuo/seanime", "flags": "0/56", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0253a72c10fd987bd09a5e8a98a8ad36429d3a2742a3ba2e4a2977b30b134dd7",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1519773337989939374",
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1519773337989939374",
     "addedAt": "2026-06-25T18:36:39.800Z", "updatedAt": "2026-10-04T02:46:28.909Z"
   },
   {
@@ -2684,18 +2684,18 @@
     "updatedAt": "2026-09-05T16:05:39.350Z"
   },
   {
-    "id": "SeaBoost", "name": "SeaBoost", "version": "0.2.3", "author": "Jae",
-    "description": "Extends Seanime's native volume control beyond 100% with a configurable maximum boost.",
+    "id": "SeaBoost", "name": "SeaBoost", "version": "0.3.0", "author": "Jae",
+    "description": "Extends Seanime's native volume control beyond 100% with configurable boost for VideoCore, online streaming, and torrent/MpvCore playback.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/DefnoJae/Volume-booster/refs/heads/main/assets/iccon.png",
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Volume-booster/refs/heads/main/Manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Volume-booster/refs/heads/main/src/SeaBoost.js",
     "website": "https://github.com/DefnoJae/Volume-booster", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e7d44448e98c35458935973f3360a5b3f6e03be9e2b6cd1a1ff23eb7e9c96fa6",
+    "permalink": "https://www.virustotal.com/gui/file/e4bec3fb2f8f4395232c40413ef84b8b0401407aabfef4335e2b68d25b55d61a",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1555695375074201764",
-    "addedAt": "2026-10-02T21:38:00.840Z", "updatedAt": "2026-10-02T22:45:11.948Z"
+    "addedAt": "2026-10-02T21:38:00.840Z", "updatedAt": "2026-10-04T22:46:42.022Z"
   },
   {
     "id": "seadex", "name": "SeaDex", "version": "1.0.4", "author": "Island",
