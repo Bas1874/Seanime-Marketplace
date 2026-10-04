@@ -1385,11 +1385,11 @@
     "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1788624339101
   },
   {
-    "id": "SeaBoost", "version": "0.2.3",
+    "id": "SeaBoost", "version": "0.3.0",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Volume-booster/refs/heads/main/src/SeaBoost.js",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e7d44448e98c35458935973f3360a5b3f6e03be9e2b6cd1a1ff23eb7e9c96fa6",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790981032905
+    "permalink": "https://www.virustotal.com/gui/file/e4bec3fb2f8f4395232c40413ef84b8b0401407aabfef4335e2b68d25b55d61a",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791154001789
   },
   {
     "id": "SeaFit", "version": "0.1.3",
