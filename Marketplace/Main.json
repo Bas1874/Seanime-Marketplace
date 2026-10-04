@@ -841,6 +841,19 @@
     "addedAt": "2026-06-25T18:15:17.832Z", "updatedAt": "2026-10-02T02:44:38.608Z"
   },
   {
+    "id": "aq-aquaprefs", "name": "Aqua's Prefs", "version": "1.1.66", "author": "aquaryuo",
+    "description": "Remembers one set of player options and reapplies it on local playback. Online streams keep Seanime's own per-series choice.",
+    "type": "plugin", "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquaprefs/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquaprefs/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/aquaprefs/plugin.ts",
+    "website": "https://github.com/aquaryuo/seanime", "flags": "0/56", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0253a72c10fd987bd09a5e8a98a8ad36429d3a2742a3ba2e4a2977b30b134dd7",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1519773337989939374",
+    "addedAt": "2026-06-25T18:36:39.800Z", "updatedAt": "2026-10-04T02:46:28.909Z"
+  },
+  {
     "id": "aq-aquatils", "name": "Aqua's Utils", "version": "1.0.31", "author": "aquaryuo",
     "description": "Toolbox plugin: surfaces compatible extension errors, launches a self-contained solver (or connects to a remote one you run) to reach guarded sites, and more.",
     "type": "plugin", "language": "typescript", "lang": "multi",
@@ -869,18 +882,18 @@
     "addedAt": "2026-07-01T18:46:08.833Z", "updatedAt": "2026-09-25T23:16:42.754Z"
   },
   {
-    "id": "asunatracks-sync", "name": "AsunaTracks Sync", "version": "0.1.22", "author": "Kolex06",
+    "id": "asunatracks-sync", "name": "AsunaTracks Sync", "version": "0.1.26", "author": "Kolex06",
     "description": "Live-sync Seanime/AniList anime and manga progress to AsunaTracks, with manual full-library sync when you need to catch up.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/icons/asunatracks-logo.png",
     "manifestURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/asunatracks-sync.json",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AsunaTracksSync/provider.ts",
-    "website": "https://asunatracks.space", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/fe67076d5b5ee19009e386dcf2483d9d80eb5e154584894cee8108da2cebb309",
+    "website": "https://asunatracks.space", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a9b78fb61d754cb16256e5bf7c662873f4bfc4be548a9b2398cb5b92dd3605b6",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183211099459916","1359183394512048148"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1505394749128048692",
-    "addedAt": "2026-05-17T02:21:17.074Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2026-05-17T02:21:17.074Z", "updatedAt": "2026-10-04T02:46:28.909Z"
   },
   {
     "id": "asurascans", "name": "AsuraScans", "version": "1.1.2", "author": "Pal",
@@ -2721,18 +2734,18 @@
     "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-10-02T06:54:02.389Z"
   },
   {
-    "id": "SeaQueue", "name": "SeaQueue", "version": "0.1.6", "author": "Jae",
-    "description": "A lightweight Watch Later queue for Seanime. Save anime from the current detail page and jump back to them anytime.",
+    "id": "SeaQueue", "name": "SeaQueue", "version": "0.2.1", "author": "Jae",
+    "description": "A lightweight Watch Later queue for Seanime. Save up to 5 anime, 5 manga, and 5 light novels and jump back to them anytime.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/DefnoJae/SeaQueue/refs/heads/main/assets/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/SeaQueue/refs/heads/main/Manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaQueue/refs/heads/main/src/SeaQueue.js",
     "website": "https://github.com/DefnoJae/SeaQueue", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9aa5c3d6f1159966e52449a147391af38bd4c2371cf1d970c5f0366c2f9cb36e",
+    "permalink": "https://www.virustotal.com/gui/file/488db88dc3cafb889322fbc625d5d70c46871e3268665f755b9cd7b02483cbe4",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1555674945059553311",
-    "addedAt": "2026-10-02T20:16:49.945Z", "updatedAt": "2026-10-02T22:45:11.948Z"
+    "addedAt": "2026-10-02T20:16:49.945Z", "updatedAt": "2026-10-04T02:46:28.909Z"
   },
   {
     "id": "seastats", "name": "SeaStats", "version": "0.1.4", "author": "Crashdaemon",
@@ -2986,7 +2999,7 @@
     "permalink": "https://www.virustotal.com/gui/file/f444ba9030482bb4e31f82c664a4ed2d8fd267131d974dd0e6ee03a4880eb552",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3", "lastWorkingVersion": null,
-    "stars": 1, "threadId": "1478816312879878205", "addedAt": "2026-03-04T18:08:04.069Z",
+    "stars": 2, "threadId": "1478816312879878205", "addedAt": "2026-03-04T18:08:04.069Z",
     "updatedAt": "2026-10-03T18:48:10.721Z"
   },
   {
