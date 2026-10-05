@@ -882,18 +882,18 @@
     "addedAt": "2026-07-01T18:46:08.833Z", "updatedAt": "2026-09-25T23:16:42.754Z"
   },
   {
-    "id": "asunatracks-sync", "name": "AsunaTracks Sync", "version": "0.1.26", "author": "Kolex06",
+    "id": "asunatracks-sync", "name": "AsunaTracks Sync", "version": "0.1.27", "author": "Kolex06",
     "description": "Live-sync Seanime/AniList anime and manga progress to AsunaTracks, with manual full-library sync when you need to catch up.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/icons/asunatracks-logo.png",
     "manifestURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/asunatracks-sync.json",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AsunaTracksSync/provider.ts",
     "website": "https://asunatracks.space", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a9b78fb61d754cb16256e5bf7c662873f4bfc4be548a9b2398cb5b92dd3605b6",
+    "permalink": "https://www.virustotal.com/gui/file/b8addac6604341b6c8e72ea387f367763e67c755497e0aa22e3297aa886e42ee",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183211099459916","1359183394512048148"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1505394749128048692",
-    "addedAt": "2026-05-17T02:21:17.074Z", "updatedAt": "2026-10-04T02:46:28.909Z"
+    "addedAt": "2026-05-17T02:21:17.074Z", "updatedAt": "2026-10-05T02:46:08.969Z"
   },
   {
     "id": "asurascans", "name": "AsuraScans", "version": "1.1.2", "author": "Pal",
