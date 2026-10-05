@@ -497,11 +497,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790377907086
   },
   {
-    "id": "asunatracks-sync", "version": "0.1.26",
+    "id": "asunatracks-sync", "version": "0.1.27",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AsunaTracksSync/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a9b78fb61d754cb16256e5bf7c662873f4bfc4be548a9b2398cb5b92dd3605b6",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791081988660
+    "permalink": "https://www.virustotal.com/gui/file/b8addac6604341b6c8e72ea387f367763e67c755497e0aa22e3297aa886e42ee",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791168368719
   },
   {
     "id": "asurascans", "version": "1.1.2",
