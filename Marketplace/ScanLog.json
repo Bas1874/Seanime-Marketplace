@@ -1483,11 +1483,11 @@
     "timestamp": 1771869834200, "hadWorkingTag": true, "lastWorkingVersion": "3.10.3"
   },
   {
-    "id": "simklsync", "version": "3.0.1",
+    "id": "simklsync", "version": "3.0.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/SimklSync/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6a28db73961b8773dd60c867bf0d0ef2f75c7cc2f6798231da1a3738d6850a9a",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791211657121
+    "permalink": "https://www.virustotal.com/gui/file/4cd81b6ef969b3f8536440e67cb3623bb482831e5ee1fd76c516c021f92c10e4",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791324132944
   },
   {
     "id": "simklv2", "version": "2.5.5",
