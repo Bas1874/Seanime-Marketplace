@@ -1021,7 +1021,7 @@
     "permalink": "https://www.virustotal.com/gui/file/6f491fe7cd5be085749e8a62fa94edb97ff6e18a97e5884fe8cc0f8a6ddc25bc",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359259306087940146","1359183394512048148"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1556284859515797545",
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1556284859515797545",
     "addedAt": "2026-10-04T12:40:24.883Z", "updatedAt": "2026-10-05T18:49:16.916Z"
   },
   {
@@ -1410,7 +1410,7 @@
     "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
-    "id": "french-stream", "name": "French Stream", "version": "1.2.1", "author": "Rafou376",
+    "id": "french-stream", "name": "French Stream", "version": "1.2.2", "author": "Rafou376",
     "description": "French Stream est une plateforme de streaming supportant séries et films",
     "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/french-stream/icon.ico",
@@ -1419,7 +1419,7 @@
     "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1545383472682635334",
-    "addedAt": "2026-09-04T10:42:11.724Z", "updatedAt": "2026-10-06T22:02:13.197Z"
+    "addedAt": "2026-09-04T10:42:11.724Z", "updatedAt": "2026-10-07T10:01:39.534Z"
   },
   {
     "id": "friend-stats", "name": "Friend stats", "version": "1.2.1", "author": "Kaktus",
@@ -1478,7 +1478,7 @@
     "addedAt": "2025-08-11T00:45:46.328Z", "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
-    "id": "hentai-origines", "name": "Hentai Origines (18+)", "version": "1.0.1", "author": "Rafou376",
+    "id": "hentai-origines", "name": "Hentai Origines (18+)", "version": "1.0.2", "author": "Rafou376",
     "description": "Hentai Origines est une plateforme française de scantrad pour adultes", "type": "manga-provider",
     "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/hentai-origines/icon.ico",
@@ -1486,7 +1486,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1547766165139497031",
-    "addedAt": "2026-09-11T00:30:09.874Z", "updatedAt": "2026-10-06T22:02:13.197Z"
+    "addedAt": "2026-09-11T00:30:09.874Z", "updatedAt": "2026-10-07T10:01:39.534Z"
   },
   {
     "id": "hentai2read", "name": "Hentai2Read (18+)", "version": "1.0.0", "author": "eepyboba",
@@ -1631,7 +1631,7 @@
     "addedAt": "2026-04-11T13:41:56.990Z", "updatedAt": "2026-08-11T20:01:58.546Z"
   },
   {
-    "id": "kaa", "name": "KickAssAnime", "version": "1.0.7", "author": "Thekingcrusher",
+    "id": "kaa", "name": "KickAssAnime", "version": "1.0.8", "author": "Thekingcrusher",
     "description": "KickAssAnime is an online stream provider for both sub and dub with soft subs.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/kaa/logo.ico",
@@ -1640,7 +1640,7 @@
     "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 6, "threadId": "1407866604762566706",
-    "addedAt": "2025-08-20T23:19:15.472Z", "updatedAt": "2026-07-15T19:20:20.940Z"
+    "addedAt": "2025-08-20T23:19:15.472Z", "updatedAt": "2026-10-07T10:01:39.534Z"
   },
   {
     "id": "kagane-source", "name": "Kagane", "version": "1.0.2", "author": "jabifx",
@@ -2123,7 +2123,7 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mangas-origines", "name": "Mangas Origines", "version": "1.0.1", "author": "Rafou376",
+    "id": "mangas-origines", "name": "Mangas Origines", "version": "1.0.2", "author": "Rafou376",
     "description": "Mangas Origines est une plateforme française de scantrad", "type": "manga-provider",
     "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangas-origines/icon.ico",
@@ -2131,7 +2131,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1547761989194096742",
-    "addedAt": "2026-09-11T00:13:34.251Z", "updatedAt": "2026-10-06T22:02:13.197Z"
+    "addedAt": "2026-09-11T00:13:34.251Z", "updatedAt": "2026-10-07T10:01:39.534Z"
   },
   {
     "id": "mangaupdates", "name": "MangaUpdates", "version": "1.0.2", "author": "Carloss616",
