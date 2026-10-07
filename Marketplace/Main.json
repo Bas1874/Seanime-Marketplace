@@ -2213,7 +2213,7 @@
     "permalink": "https://www.virustotal.com/gui/file/3a17e6b780c6e52526b44f635a27daa264964f920520debf8560990285fa9f82",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 21, "threadId": "1522636904766505030",
+    "lastWorkingVersion": "3.10.3", "stars": 22, "threadId": "1522636904766505030",
     "addedAt": "2026-07-03T16:15:27.322Z", "updatedAt": "2026-09-20T18:32:55.178Z"
   },
   {
@@ -2587,7 +2587,7 @@
     "permalink": "https://www.virustotal.com/gui/file/44e0f499a4a78276a849052e5dfdce50d6f84bd796c87612618a81e519bffdf2",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 7, "threadId": "1492949932221403298",
+    "lastWorkingVersion": "3.10.3", "stars": 8, "threadId": "1492949932221403298",
     "addedAt": "2026-04-12T18:10:01.510Z", "updatedAt": "2026-07-14T11:06:23.114Z"
   },
   {
@@ -2716,7 +2716,7 @@
     "permalink": "https://www.virustotal.com/gui/file/bfc477cbee5b90be1fe9df3e88c77fa5d1e5e81aca5cff1bc0bde69f9eba3c7d",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148","1505937222891733062"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1557012330292707338",
+    "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1557012330292707338",
     "addedAt": "2026-10-06T12:51:07.432Z", "updatedAt": "2026-10-06T14:49:12.107Z"
   },
   {
@@ -2730,7 +2730,7 @@
     "permalink": "https://www.virustotal.com/gui/file/7c461f5fc92e150d097100e68a59b09d74b7788adbdd05ac64a12a0bcca16f30",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1556341474629652570",
+    "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1556341474629652570",
     "addedAt": "2026-10-04T16:25:22.978Z", "updatedAt": "2026-10-04T18:46:25.555Z"
   },
   {
@@ -3443,17 +3443,17 @@
     "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
   },
   {
-    "id": "weebstreak", "name": "WeebStreak", "version": "1.0.3", "author": "Mateus Oliveira",
+    "id": "weebstreak", "name": "WeebStreak", "version": "1.0.4", "author": "Mateus Oliveira",
     "description": "Never miss a day and keep your anime & manga streak up.", "type": "plugin",
-    "language": "typescript", "lang": "english",
+    "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/m0liveira/WeebStreak/main/WeebStreak/assets/weebstreak.png",
     "manifestURI": "https://raw.githubusercontent.com/m0liveira/WeebStreak/main/WeebStreak/weebstreak.json",
     "payloadURI": "https://raw.githubusercontent.com/m0liveira/WeebStreak/main/WeebStreak/src/main.ts",
-    "website": "https://github.com/m0liveira/WeebStreak", "flags": "0/61", "flaggedBy": [],
+    "website": "https://github.com/m0liveira/WeebStreak", "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/893fac07ba4b0c01479c161371a6fa449bd11800347c637249487991dc23cde5",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1552338497065582715",
-    "addedAt": "2026-09-23T15:18:58.755Z", "updatedAt": "2026-09-24T23:08:14.178Z"
+    "addedAt": "2026-09-23T15:18:58.755Z", "updatedAt": "2026-10-07T18:08:07.438Z"
   },
   {
     "id": "xanime", "name": "XAnime", "version": "1.0.0", "author": "fampep",
