@@ -25,6 +25,10 @@
     "originalMessageContent": "> **Extension name:**\n> MangaCloud\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangacloud/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangacloud/manifest.json```\n> **Description:**\n> A manga provider for english manga, made by Pal\n> \n> **Additional Notes:**\n> None"
   },
   {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1510577432560926720", "reason": "404 Not Found.",
+    "originalMessageContent": "> **Extension name:**\n> AniDB\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for english sub/dub anime, made by Pal\n> \n> **Additional Notes:**\n> Content is identical to AnimePahe but they self host it."
+  },
+  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1512176296829128794", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension name:**\n> AniBD\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/anibd/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/anibd/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for english sub BD anime, made by Pal.\n> \n> **Additional Notes:**\n> Offers Blue Rays"
   },
