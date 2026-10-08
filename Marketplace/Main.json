@@ -682,6 +682,20 @@
     "addedAt": "2026-09-20T03:29:08.122Z", "updatedAt": "2026-09-29T22:41:16.674Z"
   },
   {
+    "id": "animeya", "name": "Animeya", "version": "1.0.1", "author": "DefnoJae",
+    "description": "Animeya anime provider with separate sub/dub selection and labelled subtitle variants.",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/Animeya/main/icon.jpg",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Animeya/main/Manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Animeya/main/provider.js",
+    "website": "https://animeya.cc/home", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d48072c63ce0a70d80eace0e4f80905479fc9a07da0963eff2d10d4288bb7e85",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1557755961488179200",
+    "addedAt": "2026-10-08T14:06:02.925Z", "updatedAt": "2026-10-08T18:05:22.974Z"
+  },
+  {
     "id": "animeyabu", "name": "Anime Yabu", "version": "1.0.3", "author": "Jhoorodr",
     "description": "Anime streaming provider for Anime Yabu. May only work with a Brazil VPN.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
@@ -1393,6 +1407,20 @@
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 7, "threadId": "1442100026137641072",
     "addedAt": "2025-11-23T10:30:39.154Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+  },
+  {
+    "id": "fanfox", "name": "FanFox", "version": "1.0.0", "author": "Pal",
+    "description": "FanFox is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
+    "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/fanfox.png",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/fanfox/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/fanfox/provider.js",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/00a0f1a41debbf91beacc9f6714129ab042eef666b3a1c60aa3b5002ad991af2",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1557806003142008994",
+    "addedAt": "2026-10-08T17:24:53.785Z", "updatedAt": "2026-10-08T18:05:22.974Z"
   },
   {
     "id": "french-anime-online-streaming", "name": "FR | French Anime", "version": "1.0.4",
@@ -2811,9 +2839,9 @@
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaSubs/main/code.ts",
     "website": "https://github.com/DefnoJae/SeaSubs", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/1f297ae69c47b7c07575b7e7b56a31cd7ef95147cc3bd6c06dbf9d4245802f3d",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936927189110988","1359183296591823124","1359183394512048148"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": null, "stars": 0, "threadId": "1557588336183480381",
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1557588336183480381",
     "addedAt": "2026-10-08T02:59:57.938Z", "updatedAt": "2026-10-08T06:02:04.352Z"
   },
   {
