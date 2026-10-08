@@ -802,7 +802,7 @@
     "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/hentaihaven/payload.ts",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/45319fa2b7d63a105742301f54f741d1474ac75fd3032a35493aa6bef2b6b7fa",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1787788277386
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": false, "timestamp": 1787788277386
   },
   {
     "id": "hentaisaturn", "version": "1.1.1",
