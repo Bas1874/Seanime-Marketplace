@@ -107,20 +107,6 @@
     "addedAt": "2026-07-25T08:57:32.312Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
-    "id": "anidb", "name": "AniDB", "version": "1.0.1", "author": "Pal",
-    "description": "AniDB is an online streaming provider for subbed & dubbed anime in english",
-    "type": "onlinestream-provider", "language": "javascript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/anidb.png",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/provider.js",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/065ec31a990f7196605f4a7ab67b5441d2c709a3f28e9272752c104c6f90502d",
-    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
-    "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1510577432560926720",
-    "addedAt": "2026-05-31T09:35:25.094Z", "updatedAt": "2026-08-17T20:13:56.938Z"
-  },
-  {
     "id": "anidream", "name": "AniDream", "version": "1.0.1", "author": "jabifx",
     "description": "Online streaming provider with soft/hard subs and dubs mainly in Italian.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "it",
@@ -2124,7 +2110,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Ari-03/mangapark/refs/heads/main/provider.ts", "website": "",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/e18ce244821562b06c653d57c247bfe2ad38a9a440a27de26a0dfce28c3f08f9",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false, "tags": ["1359183211099459916"],
     "scannedOnVersion": "3.10.3", "lastWorkingVersion": null, "stars": 3, "threadId": "1430638767667937454",
     "addedAt": "2025-10-22T19:27:42.195Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
