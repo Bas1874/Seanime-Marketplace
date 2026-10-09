@@ -861,11 +861,11 @@
     "timestamp": 1771866877055, "hadWorkingTag": false
   },
   {
-    "id": "jkanime", "version": "1.0.1",
-    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/JkAnime/main.ts",
+    "id": "jkanime", "version": "1.0.2",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/JkAnime/main.ts",
     "flags": "0/58", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a3a1017351c1652cdb053c48a2a9a1675cabd7c56c2c340b80534ff35fc83578",
-    "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1786478518306
+    "permalink": "https://www.virustotal.com/gui/file/0b1ff59e2866f74a9de835d1617fe645ec84d2595d06a7ac70f036e8b72a1213",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1791583391478
   },
   {
     "id": "jkanimedev", "version": "1.0.1",
