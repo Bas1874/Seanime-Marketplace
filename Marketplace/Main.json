@@ -2273,6 +2273,18 @@
     "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
+    "id": "mkissa", "name": "MKissa", "version": "0.2.0", "author": "DefnoJae",
+    "description": "MKissa anime streaming provider with direct API requests. No browser or launcher required.",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/MKissa/main/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/MKissa/main/Manifest.json", "payloadURI": "",
+    "website": "https://mkissa.to/anime", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1557990549120880730",
+    "addedAt": "2026-10-09T05:38:12.975Z", "updatedAt": "2026-10-09T06:02:33.300Z"
+  },
+  {
     "id": "my-list-table-view", "name": "My List Table View", "version": "1.0.0", "author": "Dadangdut33",
     "description": "View The My List data in a table view", "type": "plugin", "language": "typescript",
     "lang": "multi",
@@ -2621,7 +2633,7 @@
   {
     "id": "rareanime", "name": "RareAnime by Jae", "version": "0.3.10", "author": "Jae",
     "description": "RareAnimes online streaming provider for Seanime with season stitching, AnimeToon archive parsing, Codedew/Argon stream resolution, and Seanime-safe JuicyCodes decoding.",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
+    "type": "onlinestream-provider", "language": "typescript", "lang": "in",
     "icon": "https://raw.githubusercontent.com/DefnoJae/RareAnime/main/assets/icon-v0.3.3.png",
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/RareAnime/main/Manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/RareAnime/main/provider.ts", "website": "",
@@ -2630,7 +2642,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936927189110988","1359183296591823124"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1555997747155439626",
-    "addedAt": "2026-10-03T17:39:31.962Z", "updatedAt": "2026-10-04T06:46:22.467Z"
+    "addedAt": "2026-10-03T17:39:31.962Z", "updatedAt": "2026-10-09T06:02:33.300Z"
   },
   {
     "id": "ravenscans", "name": "RavenScans", "version": "1.0.1", "author": "Pal",
@@ -2776,18 +2788,18 @@
     "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-09-21T19:03:39.797Z"
   },
   {
-    "id": "seanime-wrapped", "name": "Seanime Wrapped", "version": "1.0.11", "author": "DefnoJae",
+    "id": "seanime-wrapped", "name": "Seanime Wrapped", "version": "1.0.13", "author": "DefnoJae",
     "description": "A cinematic, private anime recap generated from your Seanime and AniList data.",
     "type": "plugin", "language": "javascript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/assets/marketplace-icon.png",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/assets/extension-icon.png",
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js",
-    "website": "https://github.com/DefnoJae/Seanime-Wrapped", "flags": "0/56", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/dc1d6c48417d61ef15015fb6ad87dcdef4df0a901a3b7d3fe4c935d2cc0277ae",
+    "website": "https://github.com/DefnoJae/Seanime-Wrapped", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a795369c4794c47edbcda9fee8de77ca6f87386350a29af2e18d18f589147f59",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1553865953186414682",
-    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-10-02T06:54:02.389Z"
+    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-10-09T06:02:33.300Z"
   },
   {
     "id": "SeaQueue", "name": "SeaQueue", "version": "0.2.1", "author": "Jae",
