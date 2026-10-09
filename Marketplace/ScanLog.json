@@ -1434,11 +1434,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1784378602566
   },
   {
-    "id": "seanime-wrapped", "version": "1.0.11",
-    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js", "flags": "0/56",
+    "id": "seanime-wrapped", "version": "1.0.13",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js", "flags": "0/60",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/dc1d6c48417d61ef15015fb6ad87dcdef4df0a901a3b7d3fe4c935d2cc0277ae",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790924042139
+    "permalink": "https://www.virustotal.com/gui/file/a795369c4794c47edbcda9fee8de77ca6f87386350a29af2e18d18f589147f59",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791525753047
   },
   {
     "id": "SeaQueue", "version": "0.2.1",
