@@ -1632,17 +1632,17 @@
     "addedAt": "2026-06-10T15:07:58.149Z", "updatedAt": "2026-07-11T21:09:55.985Z"
   },
   {
-    "id": "jkanime", "name": "JkAnime", "version": "1.0.1", "author": "mohaisreal",
+    "id": "jkanime", "name": "JkAnime", "version": "1.0.2", "author": "mohaisreal",
     "description": "JkAnime is an online streaming provider for spanish subs.", "type": "onlinestream-provider",
     "language": "typescript", "lang": "es", "icon": "https://cdn.jkdesa.com/assets3/css/img/favicon.ico",
-    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/JkAnime/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/JkAnime/main.ts", "website": "",
+    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/JkAnime/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/JkAnime/main.ts", "website": "",
     "flags": "0/58", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a3a1017351c1652cdb053c48a2a9a1675cabd7c56c2c340b80534ff35fc83578",
+    "permalink": "https://www.virustotal.com/gui/file/0b1ff59e2866f74a9de835d1617fe645ec84d2595d06a7ac70f036e8b72a1213",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1492520080989491333",
-    "addedAt": "2026-04-11T13:41:56.990Z", "updatedAt": "2026-08-11T20:01:58.546Z"
+    "addedAt": "2026-04-11T13:41:56.990Z", "updatedAt": "2026-10-09T22:03:11.746Z"
   },
   {
     "id": "kaa", "name": "KickAssAnime", "version": "1.0.8", "author": "Thekingcrusher",
