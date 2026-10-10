@@ -392,6 +392,13 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791468422505
   },
   {
+    "id": "animeunion", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animeunion/provider.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/55a965f23c3d87bbfcb9d5a3b1442bf8b5307ce15dc2aa58ce99f21edb497cf3",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791669774365
+  },
+  {
     "id": "AnimeUnity", "version": "1.1.3",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeUnity/provider.ts",
     "flags": "0/61", "flaggedBy": [],
@@ -1126,6 +1133,13 @@
     "lastWorkingVersion": null, "timestamp": 1781771834103, "hadWorkingTag": false
   },
   {
+    "id": "mangaunion", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/MangaUnion/main.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/d066db0a190d17938db781473a9ef462ef0e2f41e18c1ceadc1738010b8bee4a",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791669728217
+  },
+  {
     "id": "mangaupdates", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/custom-source/mangaupdates/code.js",
     "flags": "0/60", "flaggedBy": [],
@@ -1446,6 +1460,13 @@
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/488db88dc3cafb889322fbc625d5d70c46871e3268665f755b9cd7b02483cbe4",
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791081942559
+  },
+  {
+    "id": "searoulette", "version": "0.1.19",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaRoulette/main/code.ts", "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/9ffadd7588671ef5a9db74100b2e58694028f6fe7e10b1daae768cdaa4bece2d",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791669821217
   },
   {
     "id": "seastats", "version": "0.1.4",
