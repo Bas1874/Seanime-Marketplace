@@ -1420,11 +1420,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791139585327
   },
   {
-    "id": "seakit", "version": "0.1.11",
-    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaKit/7a348e76513757447f07107e45d6ee49af5e7c11/SeaKit.ts",
-    "flags": "0/46", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d5daaf50fa3dd83ff420100e783c1ed295856d483d51528e2485c6b52cdf5b87",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790923765074
+    "id": "seakit", "version": "0.1.12",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaKit/e587bbab1107ce2c9c46580c7967d07d22decfd9/SeaKit.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5ab3f21bdfdf39421e3f9eb40b934b4733568d04b6ee9f10097abfef9f72ab2b",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791598357441
   },
   {
     "id": "seanime-download-notifier", "version": "1.0.0",
