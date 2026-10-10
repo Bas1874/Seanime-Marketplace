@@ -1409,6 +1409,18 @@
     "addedAt": "2026-10-08T17:24:53.785Z", "updatedAt": "2026-10-08T18:05:22.974Z"
   },
   {
+    "id": "force-op-ed-skip", "name": "Force OP/ED Skip", "version": "1.0.7", "author": "DefnoJae",
+    "description": "Reliably seeks past detected OP/ED ranges, with labelled chapter fallback and retries.",
+    "type": "plugin", "language": "javascript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/ForceAutoSkip/main/releases/v1.0.7/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/ForceAutoSkip/main/releases/v1.0.7/Manifest.json",
+    "payloadURI": "", "website": "https://github.com/DefnoJae/ForceAutoSkip", "flags": "Unscanned", "flaggedBy": [],
+    "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1558252571288670309",
+    "addedAt": "2026-10-09T22:59:23.928Z", "updatedAt": "2026-10-10T02:12:37.697Z"
+  },
+  {
     "id": "french-anime-online-streaming", "name": "FR | French Anime", "version": "1.0.4",
     "author": "TropicalFrog3",
     "description": "French Anime est une extension Seanime en français qui permet de regarder des anime dans le catalogue du site french-anime.com.",
@@ -2760,18 +2772,18 @@
     "addedAt": "2026-10-04T16:25:22.978Z", "updatedAt": "2026-10-04T18:46:25.555Z"
   },
   {
-    "id": "seakit", "name": "SeaKit", "version": "0.1.11", "author": "DefnoJae",
-    "description": "Adds optional MAL ratings and English dub status to Seanime anime detail pages.",
+    "id": "seakit", "name": "SeaKit", "version": "0.1.12", "author": "DefnoJae",
+    "description": "Adds optional MAL ratings, English dub status, and an auto open dub toggle for online streaming.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/DefnoJae/SeaKit/d78f7da7053ed9d64fe903efd6fb43f5b27917de/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/SeaKit/main/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaKit/7a348e76513757447f07107e45d6ee49af5e7c11/SeaKit.ts",
-    "website": "https://github.com/DefnoJae/SeaKit", "flags": "0/46", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d5daaf50fa3dd83ff420100e783c1ed295856d483d51528e2485c6b52cdf5b87",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaKit/e587bbab1107ce2c9c46580c7967d07d22decfd9/SeaKit.ts",
+    "website": "https://github.com/DefnoJae/SeaKit", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5ab3f21bdfdf39421e3f9eb40b934b4733568d04b6ee9f10097abfef9f72ab2b",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1555400322665680996",
-    "addedAt": "2026-10-02T02:05:34.864Z", "updatedAt": "2026-10-02T06:54:02.389Z"
+    "addedAt": "2026-10-02T02:05:34.864Z", "updatedAt": "2026-10-10T02:12:37.697Z"
   },
   {
     "id": "seanime-download-notifier", "name": "Seanime Download Notifier", "version": "1.0.0",
