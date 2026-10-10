@@ -5,8 +5,16 @@
     "originalMessageContent": "> **Extension Name:**\n> Example Name\n> \n> **Version:**\n> 0.69\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Example/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Example/manifest.json```\n> **Description:**\n> Extension for (EXAMPLE), an online streaming provider for subbed/dubbed anime in English, made by Bas1874\n> \n> **Additional Notes:**\n> Share any extra details, acknowledgments, or troubleshooting tips."
   },
   {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1407549113611849842", "reason": "404 Not Found.",
+    "originalMessageContent": "> **Extension Name:**\n> Anime News\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/SyntaxSama/aninewsnet-seanime/refs/heads/main/manifest.json) / Copy the link below:\n> ```https://raw.githubusercontent.com/SyntaxSama/aninewsnet-seanime/refs/heads/main/manifest.json```\n> \n> **Description:**\n> Stay up to date on the latest anime news from Anime News Network right inside of your Seanime instance!\n> \n> **Additional Notes:**\n> This is paginated & you can read the articles, this plugin is something you will have in the tray plugins. News gets fetched every 10 minutes to not flood / spam requests."
+  },
+  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1429972238374797384", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension Name:**\n> ManhwaWeb\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/src/manga/ManhwaWeb/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/src/manga/ManhwaWeb/manifest.json```\n> **Description:**\n> Spanish manga and manhwa provider."
+  },
+  {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1434990527354376325", "reason": "404 Not Found.",
+    "originalMessageContent": "> **Extension Name:**\n> Anti-Seeding\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/SyntaxSama/seanime-marketplace/refs/heads/main/antiseeding.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/SyntaxSama/seanime-marketplace/refs/heads/main/antiseeding.json```\n> **Description:**\n> Prevents you from seeding the content after you're done downloading it. \n> \n> **Additional Notes:**\n> Although i just exist, i thought this plugin would be very helpful for people who don't want to seed after they torrent, this just kills an extra step by automating the removal of the torrent inside of the torrent client.\n> \n> ***(This just stops seeding, and the torrent all together, it doesn't remove the downloaded content.)***"
   },
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1439671111557054528", "reason": "404 Not Found.",
@@ -23,6 +31,10 @@
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1499066794231468133", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension name:**\n> MangaCloud\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangacloud/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangacloud/manifest.json```\n> **Description:**\n> A manga provider for english manga, made by Pal\n> \n> **Additional Notes:**\n> None"
+  },
+  {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1503440679299448963", "reason": "404 Not Found.",
+    "originalMessageContent": "> **Extension name:**\n> Anilist Notifications\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/plugins/anilist-notifications/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/plugins/anilist-notifications/manifest.json```\n> **Description:**\n> A plugin for viewing your Anilist notifications.\n> \n> **Additional Notes:**\n> None"
   },
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1510577432560926720", "reason": "404 Not Found.",
