@@ -735,11 +735,11 @@
     "lastWorkingVersion": "3.10.3", "timestamp": 1780696536973, "hadWorkingTag": true
   },
   {
-    "id": "Dub-Schedule", "version": "1.6.0",
+    "id": "Dub-Schedule", "version": "2.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Bas1874/Dub-Schedule-Seanime/refs/heads/main/src/Dub-Schedule.ts",
-    "flags": "0/58", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c67ab04a9facddfd6398ac787d0e1193a6a38e5fa981a71efbf33bd43da7d6f8",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1784753449603
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3fabb889ecdb2b83ba8119a8bd13c3f28e47cd3ac09713c9f1fe21ebf1a8542a",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791641016336
   },
   {
     "id": "episodeshistory", "version": "1.3.0",
@@ -1420,11 +1420,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791139585327
   },
   {
-    "id": "seakit", "version": "0.1.12",
-    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaKit/e587bbab1107ce2c9c46580c7967d07d22decfd9/SeaKit.ts",
+    "id": "seakit", "version": "0.1.11",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaKit/7a348e76513757447f07107e45d6ee49af5e7c11/SeaKit.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5ab3f21bdfdf39421e3f9eb40b934b4733568d04b6ee9f10097abfef9f72ab2b",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791598357441
+    "permalink": "https://www.virustotal.com/gui/file/d5daaf50fa3dd83ff420100e783c1ed295856d483d51528e2485c6b52cdf5b87",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791640939244
   },
   {
     "id": "seanime-download-notifier", "version": "1.0.0",
