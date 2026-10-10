@@ -247,19 +247,6 @@
     "addedAt": "2026-01-07T22:23:35.937Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anilist-notifications", "name": "AniList Notifications", "version": "2.0.1", "author": "Pal",
-    "description": "View your AniList notifications.", "type": "plugin", "language": "typescript", "lang": "multi",
-    "icon": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/public/anilist.ico",
-    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/plugins/anilist-notifications/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/anilist-notifications/provider.ts",
-    "website": "", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2d92a5aad240703a394a26020a718111af4cfee6713bfb8e9562dc97817c715a",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": true,
-    "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.3", "lastWorkingVersion": null,
-    "stars": 2, "threadId": "1503440679299448963", "addedAt": "2026-05-11T16:56:30.522Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
     "id": "AniList-Notifications-Kolex06-Version", "name": "AniList Notifications Kolex06-Version",
     "version": "1.0.18", "author": "Kolex06",
     "description": "A Seanime sidebar panel for AniList notifications with larger cards and click-through detail popups.",
@@ -342,20 +329,6 @@
     "tags": ["1359259206880067784","1359183147123867881","1505936860441083904"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1528284315950252082",
     "addedAt": "2026-07-19T06:16:15.072Z", "updatedAt": "2026-08-17T20:13:56.938Z"
-  },
-  {
-    "id": "anime-news", "name": "Anime News", "version": "1.2.2", "author": "SyntaxSama & Pal",
-    "description": "Get anime news in your Seanime instance!", "type": "plugin", "language": "typescript",
-    "lang": "EN",
-    "icon": "https://raw.githubusercontent.com/Pal-droid/aninewsnet-seanime/refs/heads/main/animenewsnetwork.png",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/aninewsnet-seanime/refs/heads/main/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/aninewsnet-seanime/refs/heads/main/animenews.ts",
-    "website": "", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5a3d4ebfaae0aeee9c348e70eef9ea6ea4eeaf9b11ae9b471ce4a86262b41aa0",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1407549113611849842",
-    "addedAt": "2025-08-20T02:17:39.683Z", "updatedAt": "2026-08-31T11:56:57.153Z"
   },
   {
     "id": "anime-notes", "name": "Anime Notes", "version": "2.0.2", "author": "Faddix, Bas1874",
@@ -771,18 +744,6 @@
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1553943677892562944",
     "addedAt": "2026-09-28T01:37:23.687Z", "updatedAt": "2026-09-28T02:49:25.811Z"
-  },
-  {
-    "id": "antiseeding", "name": "Anti-Seeding", "version": "1.0.0", "author": "ItsSkaiya & Pal-droid",
-    "description": "Prevents torrent seeding", "type": "plugin", "language": "typescript", "lang": "en", "icon": "",
-    "manifestURI": "https://raw.githubusercontent.com/pal-droid/seanime-marketplace/refs/heads/main/antiseeding.json",
-    "payloadURI": "https://raw.githubusercontent.com/pal-droid/seanime-marketplace/refs/heads/main/antiseeding.ts",
-    "website": "", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0d61bbde2ffadb85841e22f5b07a7e7120860fbf200a60d6bb0ae6bed49716ac",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359259206880067784","1359183394512048148"], "scannedOnVersion": "3.10.3", "lastWorkingVersion": null,
-    "stars": 5, "threadId": "1434990527354376325", "addedAt": "2025-11-03T19:40:02.556Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.8", "author": "aquaryuo",
@@ -1409,16 +1370,16 @@
     "addedAt": "2026-10-08T17:24:53.785Z", "updatedAt": "2026-10-08T18:05:22.974Z"
   },
   {
-    "id": "force-op-ed-skip", "name": "Force OP/ED Skip", "version": "1.0.7", "author": "DefnoJae",
+    "id": "force-op-ed-skip", "name": "Force OP/ED Skip", "version": "1.0.12", "author": "DefnoJae",
     "description": "Reliably seeks past detected OP/ED ranges, with labelled chapter fallback and retries.",
     "type": "plugin", "language": "javascript", "lang": "multi",
-    "icon": "https://raw.githubusercontent.com/DefnoJae/ForceAutoSkip/main/releases/v1.0.7/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/ForceAutoSkip/main/releases/v1.0.7/Manifest.json",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/ForceAutoSkip/main/releases/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/ForceAutoSkip/main/releases/Manifest.json",
     "payloadURI": "", "website": "https://github.com/DefnoJae/ForceAutoSkip", "flags": "Unscanned", "flaggedBy": [],
     "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1558252571288670309",
-    "addedAt": "2026-10-09T22:59:23.928Z", "updatedAt": "2026-10-10T02:12:37.697Z"
+    "addedAt": "2026-10-09T22:59:23.928Z", "updatedAt": "2026-10-10T18:01:36.491Z"
   },
   {
     "id": "french-anime-online-streaming", "name": "FR | French Anime", "version": "1.0.4",
