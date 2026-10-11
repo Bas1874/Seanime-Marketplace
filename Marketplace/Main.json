@@ -812,7 +812,7 @@
     "permalink": "https://www.virustotal.com/gui/file/be76c04ab42bbcda55f802c70a35711ad87352ba5c8a4a97f0978f04a78fc05c",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1519767961026564276",
+    "lastWorkingVersion": "3.10.3", "stars": 6, "threadId": "1519767961026564276",
     "addedAt": "2026-06-25T18:15:17.832Z", "updatedAt": "2026-10-02T02:44:38.608Z"
   },
   {
@@ -1822,18 +1822,18 @@
     "addedAt": "2026-06-18T21:57:00.083Z", "updatedAt": "2026-07-09T23:36:51.758Z"
   },
   {
-    "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.6.4", "author": "Kaktus",
+    "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.7.0", "author": "Kaktus",
     "description": "Overrides Seanime's schedule times using LiveChart's data, with a choice between Japanese broadcast and simulcast/dub schedules per anime or globally.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/main.ts",
-    "website": "", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/66836d88eb26d347deb3ef33f27e85914ab643238b6029304fc9f7815b990d51",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c39cb91216875a065b7a021c1137269bba1832392e0e8ca3dbddc18d12ab6623",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 7, "threadId": "1525547132885401751",
-    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-08-23T12:24:20.523Z"
+    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-10-11T18:02:28.365Z"
   },
   {
     "id": "LN-reader", "name": "Light Novel Reader", "version": "1.6.7", "author": "Pal & mohaisreal",
@@ -2909,10 +2909,10 @@
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/senshi/logo.png",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/senshi/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
-    "brokenTag": false, "deprecatedTag": false,
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
+    "brokenTag": true, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1496830248463896647",
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": null, "stars": 2, "threadId": "1496830248463896647",
     "addedAt": "2026-04-23T11:09:00.995Z", "updatedAt": "2026-09-27T14:37:35.373Z"
   },
   {
