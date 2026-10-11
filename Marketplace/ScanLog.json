@@ -315,6 +315,13 @@
     "timestamp": 1774792228218, "hadWorkingTag": false
   },
   {
+    "id": "animenexus", "version": "0.5.1",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/AnimeNexus/main/payload.ts", "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a090a8e8aeb4fbf3a5a8725118c05c84268297b5ee2f35af4150e9caefd8f131",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791712927475
+  },
+  {
     "id": "animesalt", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/main.ts",
     "flags": "0/60", "flaggedBy": [],
