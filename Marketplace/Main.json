@@ -600,7 +600,7 @@
     "permalink": "https://www.virustotal.com/gui/file/55a965f23c3d87bbfcb9d5a3b1442bf8b5307ce15dc2aa58ce99f21edb497cf3",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1558548384145743882",
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1558548384145743882",
     "addedAt": "2026-10-10T18:34:51.209Z", "updatedAt": "2026-10-10T22:03:41.481Z"
   },
   {
@@ -2145,7 +2145,7 @@
     "permalink": "https://www.virustotal.com/gui/file/d066db0a190d17938db781473a9ef462ef0e2f41e18c1ceadc1738010b8bee4a",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1558597669386059836",
+    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1558597669386059836",
     "addedAt": "2026-10-10T21:50:41.726Z", "updatedAt": "2026-10-10T22:03:41.481Z"
   },
   {
@@ -2723,6 +2723,16 @@
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": "3.10.3", "stars": 5, "threadId": "1555695375074201764",
     "addedAt": "2026-10-02T21:38:00.840Z", "updatedAt": "2026-10-04T22:46:42.022Z"
+  },
+  {
+    "id": "seachat", "name": "SeaChat", "version": "0.6.0", "author": "DefnoJae",
+    "description": "A shared public chat room for Seanime users.", "type": "plugin", "language": "javascript",
+    "lang": "en", "icon": "https://raw.githubusercontent.com/DefnoJae/SeaChat/main/assets/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/SeaChat/main/Manifest.json", "payloadURI": "",
+    "website": "https://github.com/DefnoJae/SeaChat", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1558625818819690578",
+    "addedAt": "2026-10-10T23:42:33.074Z", "updatedAt": "2026-10-11T02:01:32.655Z"
   },
   {
     "id": "seadex", "name": "SeaDex", "version": "1.0.4", "author": "Island",
