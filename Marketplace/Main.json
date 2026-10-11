@@ -443,6 +443,20 @@
     "addedAt": "2025-11-24T17:21:08.276Z", "updatedAt": "2026-09-30T14:42:34.677Z"
   },
   {
+    "id": "animenexus", "name": "Anime Nexus", "version": "0.5.1", "author": "DefnoJae",
+    "description": "Anime Nexus provider using a local live stream resolver.", "type": "onlinestream-provider",
+    "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/AnimeNexus/main/assets/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/AnimeNexus/main/Manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/AnimeNexus/main/payload.ts",
+    "website": "https://anime.nexus/", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a090a8e8aeb4fbf3a5a8725118c05c84268297b5ee2f35af4150e9caefd8f131",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1558775139682881697",
+    "addedAt": "2026-10-11T09:35:53.942Z", "updatedAt": "2026-10-11T10:02:07.735Z"
+  },
+  {
     "id": "animesalt", "name": "AnimeSalt", "version": "1.0.1", "author": "mohaisreal",
     "description": "AnimeSalt is an online streaming provider for Hindi, Tamil, Telugu, English and Japanese anime streams.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "multi",
@@ -1832,7 +1846,7 @@
     "permalink": "https://www.virustotal.com/gui/file/f1259d6a3b513e5d99b4dcb5948b97faa1b59bb72a7fdac23339e5586e5008c7",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 27, "threadId": "1433173588470661180",
+    "lastWorkingVersion": "3.10.3", "stars": 28, "threadId": "1433173588470661180",
     "addedAt": "2025-10-29T19:20:10.569Z", "updatedAt": "2026-09-23T19:07:55.982Z"
   },
   {
@@ -2145,7 +2159,7 @@
     "permalink": "https://www.virustotal.com/gui/file/d066db0a190d17938db781473a9ef462ef0e2f41e18c1ceadc1738010b8bee4a",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1558597669386059836",
+    "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1558597669386059836",
     "addedAt": "2026-10-10T21:50:41.726Z", "updatedAt": "2026-10-10T22:03:41.481Z"
   },
   {
@@ -2731,7 +2745,7 @@
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/SeaChat/main/Manifest.json", "payloadURI": "",
     "website": "https://github.com/DefnoJae/SeaChat", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1558625818819690578",
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 3, "threadId": "1558625818819690578",
     "addedAt": "2026-10-10T23:42:33.074Z", "updatedAt": "2026-10-11T06:02:39.931Z"
   },
   {
@@ -2864,7 +2878,7 @@
     "permalink": "https://www.virustotal.com/gui/file/f2a311a5ce6e120d00038ca1c07abf5500b4dc549538aba33d5e2c55c39a21b3",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936927189110988","1359183296591823124","1359183394512048148"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1557588336183480381",
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 3, "threadId": "1557588336183480381",
     "addedAt": "2026-10-08T02:59:57.938Z", "updatedAt": "2026-10-09T10:02:09.915Z"
   },
   {
@@ -2964,7 +2978,7 @@
     "permalink": "https://www.virustotal.com/gui/file/d00ff99e4707240f33437426e33541569e8d533d0988135c5e796607e90583e4",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1437869415344377887"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 9, "threadId": "1438609701993447576",
+    "lastWorkingVersion": "3.10.3", "stars": 10, "threadId": "1438609701993447576",
     "addedAt": "2025-11-13T19:21:21.031Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
