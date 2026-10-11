@@ -979,11 +979,11 @@
     "lastWorkingVersion": "3.9.1", "timestamp": 1783639380941, "hadWorkingTag": false
   },
   {
-    "id": "livechart-schedule", "version": "0.6.4",
+    "id": "livechart-schedule", "version": "0.7.0",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/main.ts",
-    "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/66836d88eb26d347deb3ef33f27e85914ab643238b6029304fc9f7815b990d51",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1787487860296
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c39cb91216875a065b7a021c1137269bba1832392e0e8ca3dbddc18d12ab6623",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791741748135
   },
   {
     "id": "LN-reader", "version": "1.6.7",
