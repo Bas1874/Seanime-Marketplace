@@ -774,6 +774,48 @@
     "addedAt": "2026-09-28T01:37:23.687Z", "updatedAt": "2026-09-28T02:49:25.811Z"
   },
   {
+    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.10", "author": "aquaryuo",
+    "description": "Only anikoto compatibility layer you'll ever need", "type": "onlinestream-provider",
+    "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
+    "website": "https://anikototv.to", "flags": "0/42", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3bb6b2a932ff39e4519639a1682d6b5a4d22fa49098b28a6fed9231b08aca1d2",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1559282505683574975",
+    "addedAt": "2026-10-12T19:11:59.423Z", "updatedAt": "2026-10-12T22:15:59.671Z"
+  },
+  {
+    "id": "aq-anizone", "name": "AniZone", "version": "1.1.42", "author": "aquaryuo",
+    "description": "Only anizone compatibility layer you'll ever need. Dub streams carry both audio tracks — pick English in the player's audio menu once and Seanime remembers it for that series.",
+    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
+    "website": "https://anizone.to", "flags": "0/27", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/59e76078c0a0db6636e9fd08b7bd915154b1c1cd327738a3210cf754f06b4518",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1559286767331577977",
+    "addedAt": "2026-10-12T19:28:55.479Z", "updatedAt": "2026-10-12T22:15:59.671Z"
+  },
+  {
+    "id": "aq-kickassanime", "name": "KickAssAnime", "version": "0.1.1", "author": "aquaryuo",
+    "description": "Only kickassanime compatibility layer you'll ever need. Dub streams carry both audio tracks — pick English in the player's audio menu once and Seanime remembers it for that series.",
+    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/kickassanime/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/kickassanime/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/kickassanime/provider.ts",
+    "website": "https://kaa.lt", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/4f124ceca306fed776fecfc5b1421b3ded12292e99dc011eacc4fbecfa063b94",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.3",
+    "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1559291171090595861",
+    "addedAt": "2026-10-12T19:46:25.417Z", "updatedAt": "2026-10-12T22:15:59.671Z"
+  },
+  {
     "id": "asunatracks-sync", "name": "AsunaTracks Sync", "version": "0.1.27", "author": "Kolex06",
     "description": "Live-sync Seanime/AniList anime and manga progress to AsunaTracks, with manual full-library sync when you need to catch up.",
     "type": "plugin", "language": "typescript", "lang": "en",
