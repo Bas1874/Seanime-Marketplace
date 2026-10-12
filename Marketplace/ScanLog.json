@@ -1483,11 +1483,11 @@
     "lastWorkingVersion": "3.10.3", "timestamp": 1781440448205, "hadWorkingTag": true
   },
   {
-    "id": "seasubs", "version": "0.15.0",
-    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaSubs/main/code.ts", "flags": "0/57",
+    "id": "seasubs", "version": "0.15.1",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaSubs/main/code.ts", "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f2a311a5ce6e120d00038ca1c07abf5500b4dc549538aba33d5e2c55c39a21b3",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791540129615
+    "permalink": "https://www.virustotal.com/gui/file/c6ead4cb595daf0ecfd32a7bfcf67b0b9c668f37fe892b6df6665359f8a41f42",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791770531529
   },
   {
     "id": "SeaUtils-Kolex06-Version", "version": "1.2.75",
