@@ -469,11 +469,11 @@
     "timestamp": 1771866081063, "hadWorkingTag": false
   },
   {
-    "id": "aq-anikoto", "version": "1.4.8",
+    "id": "aq-anikoto", "version": "1.4.10",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5f1511bc1c29ecab0335d6c1bb2a7dbb8c8af47927e9d63d34cfbdf94970564c",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790908969353
+    "flags": "0/42", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3bb6b2a932ff39e4519639a1682d6b5a4d22fa49098b28a6fed9231b08aca1d2",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791843127513
   },
   {
     "id": "aq-animepahe", "version": "0.2.44",
@@ -490,11 +490,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789318114984
   },
   {
-    "id": "aq-anizone", "version": "1.1.40",
+    "id": "aq-anizone", "version": "1.1.42",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/be76c04ab42bbcda55f802c70a35711ad87352ba5c8a4a97f0978f04a78fc05c",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790909016405
+    "flags": "0/27", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/59e76078c0a0db6636e9fd08b7bd915154b1c1cd327738a3210cf754f06b4518",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791842820358
   },
   {
     "id": "aq-aquaprefs", "version": "1.1.66",
@@ -509,6 +509,13 @@
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/d9c53032045ba6f3bd1e8b5127e3e42731a9efd660e8bfbd5a5d8e91102aede7",
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790435499561
+  },
+  {
+    "id": "aq-kickassanime", "version": "0.1.1",
+    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/kickassanime/provider.ts",
+    "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/4f124ceca306fed776fecfc5b1421b3ded12292e99dc011eacc4fbecfa063b94",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791843359374
   },
   {
     "id": "aq-seatags", "version": "1.7.25",
