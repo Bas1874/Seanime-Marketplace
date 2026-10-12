@@ -2749,7 +2749,7 @@
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/SeaChat/main/Manifest.json", "payloadURI": "",
     "website": "https://github.com/DefnoJae/SeaChat", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
-    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 3, "threadId": "1558625818819690578",
+    "scannedOnVersion": "3.10.3", "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1558625818819690578",
     "addedAt": "2026-10-10T23:42:33.074Z", "updatedAt": "2026-10-11T06:02:39.931Z"
   },
   {
