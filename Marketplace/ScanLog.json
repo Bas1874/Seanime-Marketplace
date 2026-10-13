@@ -518,6 +518,13 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791843359374
   },
   {
+    "id": "aq-mkissa", "version": "0.1.1",
+    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/provider.ts",
+    "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f0938d5695ef24a0019b9df3d337897fac95cabccad2b945aadfc907627a0a1e",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791857254761
+  },
+  {
     "id": "aq-seatags", "version": "1.7.25",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/plugins/seatags/plugin.ts",
     "flags": "0/60", "flaggedBy": [],
@@ -1476,11 +1483,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791081942559
   },
   {
-    "id": "searoulette", "version": "0.1.19",
+    "id": "searoulette", "version": "0.1.20",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaRoulette/main/code.ts", "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9ffadd7588671ef5a9db74100b2e58694028f6fe7e10b1daae768cdaa4bece2d",
-    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791669821217
+    "permalink": "https://www.virustotal.com/gui/file/9108f92c068823f98d5adc3c383f9330b0840ca3e0c900d8af54b71cc3747802",
+    "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1791857021766
   },
   {
     "id": "seastats", "version": "0.1.4",
