@@ -826,7 +826,7 @@
     "permalink": "https://www.virustotal.com/gui/file/f0938d5695ef24a0019b9df3d337897fac95cabccad2b945aadfc907627a0a1e",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1559345374219604079",
+    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1559345374219604079",
     "addedAt": "2026-10-12T23:21:48.450Z", "updatedAt": "2026-10-13T02:07:35.005Z"
   },
   {
