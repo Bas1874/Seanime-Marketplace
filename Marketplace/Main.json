@@ -715,7 +715,7 @@
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/anineko/logo.png",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/anineko/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": true, "deprecatedTag": false,
+    "brokenTag": false, "deprecatedTag": true,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.3",
     "lastWorkingVersion": null, "stars": 3, "threadId": "1519595535651307611", "addedAt": "2026-06-25T06:50:08.419Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
