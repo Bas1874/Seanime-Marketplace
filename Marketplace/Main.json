@@ -453,7 +453,7 @@
     "permalink": "https://www.virustotal.com/gui/file/a090a8e8aeb4fbf3a5a8725118c05c84268297b5ee2f35af4150e9caefd8f131",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 0, "threadId": "1558775139682881697",
+    "lastWorkingVersion": "3.10.3", "stars": 1, "threadId": "1558775139682881697",
     "addedAt": "2026-10-11T09:35:53.942Z", "updatedAt": "2026-10-11T10:02:07.735Z"
   },
   {
@@ -784,7 +784,7 @@
     "permalink": "https://www.virustotal.com/gui/file/3bb6b2a932ff39e4519639a1682d6b5a4d22fa49098b28a6fed9231b08aca1d2",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1559282505683574975",
+    "lastWorkingVersion": "3.10.3", "stars": 3, "threadId": "1559282505683574975",
     "addedAt": "2026-10-12T19:11:59.423Z", "updatedAt": "2026-10-12T22:15:59.671Z"
   },
   {
@@ -798,7 +798,7 @@
     "permalink": "https://www.virustotal.com/gui/file/59e76078c0a0db6636e9fd08b7bd915154b1c1cd327738a3210cf754f06b4518",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 2, "threadId": "1559286767331577977",
+    "lastWorkingVersion": "3.10.3", "stars": 3, "threadId": "1559286767331577977",
     "addedAt": "2026-10-12T19:28:55.479Z", "updatedAt": "2026-10-12T22:15:59.671Z"
   },
   {
@@ -812,7 +812,7 @@
     "permalink": "https://www.virustotal.com/gui/file/4f124ceca306fed776fecfc5b1421b3ded12292e99dc011eacc4fbecfa063b94",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.3",
-    "lastWorkingVersion": "3.10.3", "stars": 3, "threadId": "1559291171090595861",
+    "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1559291171090595861",
     "addedAt": "2026-10-12T19:46:25.417Z", "updatedAt": "2026-10-12T22:15:59.671Z"
   },
   {
