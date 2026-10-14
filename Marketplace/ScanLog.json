@@ -651,6 +651,13 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1781872625410, "hadWorkingTag": false
   },
   {
+    "id": "custom-anime-metadata", "version": "1.0.2",
+    "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/custom-anime-metadata/main.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b6a19e5e5330a4c4b54debbfaa8a1427cb4adec7020148ee84e3f9a1d73ec8c2",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792005157565
+  },
+  {
     "id": "custom-css-manager", "version": "1.0.10",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Custom%20CSS%20Manager/provider.ts",
     "flags": "0/62", "flaggedBy": [],
