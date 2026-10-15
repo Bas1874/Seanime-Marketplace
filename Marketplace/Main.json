@@ -2817,6 +2817,19 @@
     "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
+    "id": "seapac", "name": "SeaPac", "version": "0.3.1", "author": "DefnoJae",
+    "description": "Pac-Man-inspired arcade mini-game with neon maze, vector ghosts, pellets, score and lives in the Seanime extension tray.",
+    "type": "plugin", "language": "javascript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/PacMan/main/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/PacMan/main/seapac.json",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/PacMan/main/code.js",
+    "website": "https://github.com/DefnoJae/PacMan", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3ba928951bf8a9e50d627350652a23d55a61ebdd33d763cb66f526cd585124e2",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1560329781038289026",
+    "addedAt": "2026-10-15T16:33:29.325Z", "updatedAt": "2026-10-15T18:03:11.630Z"
+  },
+  {
     "id": "SeaQueue", "name": "SeaQueue", "version": "0.2.1", "author": "Jae",
     "description": "A lightweight Watch Later queue for Seanime. Save up to 5 anime, 5 manga, and 5 light novels and jump back to them anytime.",
     "type": "plugin", "language": "typescript", "lang": "en",
@@ -2868,7 +2881,7 @@
     "permalink": "https://www.virustotal.com/gui/file/c6ead4cb595daf0ecfd32a7bfcf67b0b9c668f37fe892b6df6665359f8a41f42",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936927189110988","1359183296591823124","1359183394512048148"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1557588336183480381",
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1557588336183480381",
     "addedAt": "2026-10-08T02:59:57.938Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
@@ -3439,6 +3452,20 @@
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1499550391975546900", "addedAt": "2026-04-30T23:17:53.746Z",
     "updatedAt": "2026-10-14T22:02:23.218Z"
+  },
+  {
+    "id": "waifu-dex", "name": "WaifuDex", "version": "1.0.0", "author": "Pal",
+    "description": "Browse Danbooru anime imageboard posts with SFW/NSFW ratings, images, GIFs, WebM, and MP4 playback.",
+    "type": "plugin", "language": "javascript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/public/waifudex.jpg",
+    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/plugins/WaifuDex/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/plugins/WaifuDex/main.js",
+    "website": "https://danbooru.donmai.us/", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/240ad4c127fa97833f2d5ea423fded40162504b796987232b524f4a54420592c",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183211099459916","1359259306087940146","1359183394512048148"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1560328736182898738",
+    "addedAt": "2026-10-15T16:29:20.212Z", "updatedAt": "2026-10-15T18:03:11.630Z"
   },
   {
     "id": "Watch-Next", "name": "Watch Next", "version": "1.1.0", "author": "bas1874",
