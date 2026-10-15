@@ -946,19 +946,6 @@
     "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "capibaratraductordev", "name": "CapibaraTraductor", "version": "1.0.0", "author": "mohaisreal",
-    "description": "El Hub de tus Scans Favoritos. Proveedor de manga en español.", "type": "manga-provider",
-    "language": "typescript", "lang": "es", "icon": "https://capibaratraductor.com/images/faviconcaptrad.png",
-    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/CapibaraTraductor/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/dev/src/CapibaraTraductor/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7b964dadae8d19ead09f74ec9db8c58dc5429ca80474a27d924cd085d05f53b6",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
-    "stars": 1, "threadId": "1495719071998541866", "addedAt": "2026-04-20T09:33:35.881Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
-  },
-  {
     "id": "cerberus-series", "name": "Cerberus Series (LegionScans)", "version": "1.0.1", "author": "branrgx",
     "description": "Cerberus Series (LegionScans) as a Spanish manga provider for Seanime, primarily focused on manga but also supporting manhwa/manhua.",
     "type": "manga-provider", "language": "typescript", "lang": "es",
