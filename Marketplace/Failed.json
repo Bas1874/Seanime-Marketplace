@@ -29,10 +29,6 @@
     "originalMessageContent": "> **Extension name:**\n> AllManga (Anime)\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/allmanga/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/allmanga/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for  english anime.\n> \n> **Additional Notes:**\n> It currently supports **only sub anime**"
   },
   {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1495719071998541866", "reason": "404 Not Found.",
-    "originalMessageContent": "> **Extension Name:**\n> CapibaraTraductor\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/manifest.json```\n> **Description:**\n> Extension for [CapibaraTraductor](https://capibaratraductor.com/), a spanish manga provider.\n> \n> **Additional Notes:**\n> Supports multiscanlator, but it's only in spanish."
-  },
-  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1499066794231468133", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension name:**\n> MangaCloud\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangacloud/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangacloud/manifest.json```\n> **Description:**\n> A manga provider for english manga, made by Pal\n> \n> **Additional Notes:**\n> None"
   },
