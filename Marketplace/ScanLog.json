@@ -1483,6 +1483,12 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791525753047
   },
   {
+    "id": "seapac", "version": "0.3.1",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/PacMan/main/code.js", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3ba928951bf8a9e50d627350652a23d55a61ebdd33d763cb66f526cd585124e2",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792087391381
+  },
+  {
     "id": "SeaQueue", "version": "0.2.1",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaQueue/refs/heads/main/src/SeaQueue.js",
     "flags": "0/61", "flaggedBy": [],
@@ -1754,6 +1760,13 @@
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/5ed2e1ebde1f104c303a8d025ccc130549d22a4f9c7320285c858d7909ead70f",
     "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1787788632119
+  },
+  {
+    "id": "waifu-dex", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/plugins/WaifuDex/main.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/240ad4c127fa97833f2d5ea423fded40162504b796987232b524f4a54420592c",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792087344980
   },
   {
     "id": "Watch-Next", "version": "1.1.0",
