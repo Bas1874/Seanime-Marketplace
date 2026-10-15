@@ -1385,11 +1385,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1783868339958
   },
   {
-    "id": "rareanime", "version": "0.3.10",
+    "id": "rareanime", "version": "0.3.11",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/RareAnime/main/provider.ts", "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/25696dee3f19784f68eb44ccb7f9cf7861b77dd78a3d66db4b092604dce10664",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791096382215
+    "permalink": "https://www.virustotal.com/gui/file/21e837515e6f4ac29cfb81d9713b5ec8915b23e7b1d9d98cbebf4f8220e2adc2",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792029815021
   },
   {
     "id": "ravenscans", "version": "1.0.1",
