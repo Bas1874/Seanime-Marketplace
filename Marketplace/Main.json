@@ -2595,18 +2595,18 @@
     "addedAt": "2026-04-20T02:25:45.303Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "quick-access", "name": "Quick Access", "version": "1.0.5", "author": "nnotwen",
+    "id": "quick-access", "name": "Quick Access", "version": "1.0.6", "author": "nnotwen",
     "description": "Adds quick-access links to external anime databases and tracking sites.", "type": "plugin",
     "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/quick-access.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/provider.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ff562eaf67545a9ce23ed346dca865a65eee901d066f1540a5d21137796a118d",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e27f21ff0851eefcf55fe77f1279221c15de62db77211419d86c5e82069c9336",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 8, "threadId": "1502787259668365442",
-    "addedAt": "2026-05-09T21:40:03.142Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-09T21:40:03.142Z", "updatedAt": "2026-10-16T14:02:10.048Z"
   },
   {
     "id": "random-entry", "name": "Random Entry", "version": "1.1.2", "author": "nnotwen",
@@ -3464,7 +3464,7 @@
     "permalink": "https://www.virustotal.com/gui/file/240ad4c127fa97833f2d5ea423fded40162504b796987232b524f4a54420592c",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359259306087940146","1359183394512048148"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1560328736182898738",
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1560328736182898738",
     "addedAt": "2026-10-15T16:29:20.212Z", "updatedAt": "2026-10-15T22:01:39.234Z"
   },
   {
