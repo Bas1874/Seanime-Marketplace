@@ -1364,11 +1364,11 @@
     "timestamp": 1771873076725, "hadWorkingTag": true, "lastWorkingVersion": "3.10.4"
   },
   {
-    "id": "quick-access", "version": "1.0.5",
+    "id": "quick-access", "version": "1.0.6",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Quick%20Access/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ff562eaf67545a9ce23ed346dca865a65eee901d066f1540a5d21137796a118d",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1787156190761
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e27f21ff0851eefcf55fe77f1279221c15de62db77211419d86c5e82069c9336",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792159329762
   },
   {
     "id": "random-entry", "version": "1.1.2",
