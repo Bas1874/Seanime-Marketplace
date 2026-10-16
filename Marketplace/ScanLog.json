@@ -469,11 +469,11 @@
     "timestamp": 1771866081063, "hadWorkingTag": false
   },
   {
-    "id": "aq-anikoto", "version": "1.4.10",
+    "id": "aq-anikoto", "version": "1.4.11",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "flags": "0/42", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/3bb6b2a932ff39e4519639a1682d6b5a4d22fa49098b28a6fed9231b08aca1d2",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791843127513
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/6881a34bb1e694eedeff9262a08f8c994bbb6115cb66f4efe949fb54217fe9b6",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792145243153
   },
   {
     "id": "aq-animepahe", "version": "0.2.44",
@@ -511,18 +511,18 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790435499561
   },
   {
-    "id": "aq-kickassanime", "version": "0.1.1",
+    "id": "aq-kickassanime", "version": "0.1.2",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/kickassanime/provider.ts",
-    "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/4f124ceca306fed776fecfc5b1421b3ded12292e99dc011eacc4fbecfa063b94",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791843359374
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/a287cb241dc58e7061784aef695acb2e2eb01e7afd9a378bf43d0e42e3890b96",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792145117883
   },
   {
-    "id": "aq-mkissa", "version": "0.1.1",
+    "id": "aq-mkissa", "version": "0.1.2",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/provider.ts",
-    "flags": "0/58", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f0938d5695ef24a0019b9df3d337897fac95cabccad2b945aadfc907627a0a1e",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791857254761
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/2a42ab514b666947401fc204817ded5ad57c2b5734ad4226f083cf30d2093462",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792144932232
   },
   {
     "id": "aq-seatags", "version": "1.7.25",
