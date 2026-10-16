@@ -511,46 +511,46 @@
     "addedAt": "2026-05-17T16:41:55.087Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "animesdigital", "name": "Animes Digital", "version": "1.0.5", "author": "Jhoorodr",
+    "id": "animesdigital", "name": "Animes Digital", "version": "1.0.6", "author": "Jhoorodr",
     "description": "Anime streaming provider for Animes Digital. May only work with a Brazil VPN.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/animesdigital.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesdigital/animesdigital.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesdigital/animesdigital.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/96caa9b7989bded7694428c9b66fbd07ca009ce01135f69ba155d9e0ad52426a",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5500a0cd72be7ca69ae34d809f0bfa2bf7674a8ae6e83f6a9ddc1de37c9a7f1e",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.8.7", "stars": 0, "threadId": "1522032961845854268",
-    "addedAt": "2026-07-02T00:15:36.109Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-02T00:15:36.109Z", "updatedAt": "2026-10-16T22:17:20.236Z"
   },
   {
-    "id": "animesonlinecc-provider", "name": "AnimesOnlineCC", "version": "1.0.3", "author": "Jhoorodr",
+    "id": "animesonlinecc-provider", "name": "AnimesOnlineCC", "version": "1.0.4", "author": "Jhoorodr",
     "description": "Anime streaming provider for AnimesOnlineCC. May only work with a Brazil VPN.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/animesonlinecc.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesonlinecc/animesonlinecc.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesonlinecc/animesonlinecc.ts",
-    "website": "", "flags": "1/60", "flaggedBy": ["Microsoft"],
-    "permalink": "https://www.virustotal.com/gui/file/ce0124a04cde95179a183e42fc2d20c41e2a6ab853e0a9d9330eb0fccefe71d4",
+    "website": "", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/4225258dab87a368bdd1cc2d91cf97a2be63dca7400b557a3ab996d5ca1cdb26",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1516049025797853285",
-    "addedAt": "2026-06-15T11:57:34.579Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-15T11:57:34.579Z", "updatedAt": "2026-10-16T22:17:20.236Z"
   },
   {
-    "id": "animestokyo", "name": "Animes Tokyo", "version": "1.0.0", "author": "Jhoorodr",
+    "id": "animestokyo", "name": "Animes Tokyo", "version": "1.0.1", "author": "Jhoorodr",
     "description": "Anime streaming provider for Animes Tokyo. May only work with a Brazil VPN.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/animestokyo.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animestokyo/animestokyo.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animestokyo/animestokyo.ts",
-    "website": "", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8e1a6968b026483a6c138d53bf6915bc56bb373fafc75193feff9f0d199ab6b6",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/681d7242b589a434c0af4c7117b06e24476f13ec674a2f89ceb58757177cb5b9",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1547027680027873301",
-    "addedAt": "2026-09-08T23:35:41.303Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-08T23:35:41.303Z", "updatedAt": "2026-10-16T22:17:20.236Z"
   },
   {
     "id": "animethemes", "name": "AnimeThemes Player", "version": "2.0.4", "author": "jabifx",
@@ -683,18 +683,18 @@
     "addedAt": "2026-10-08T14:06:02.925Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "animeyabu", "name": "Anime Yabu", "version": "1.0.3", "author": "Jhoorodr",
+    "id": "animeyabu", "name": "Anime Yabu", "version": "1.0.4", "author": "Jhoorodr",
     "description": "Anime streaming provider for Anime Yabu. May only work with a Brazil VPN.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/animeyabu.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animeyabu/animeyabu.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animeyabu/animeyabu.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/063e7a981da51add5b42fa70b715b46b0820e2840f1388aa3240517c4f6024cd",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/9cc6883b1d7259b42ac206797674dd03cac3e23030cde376608daff085331192",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1521955672873242694",
-    "addedAt": "2026-07-01T19:08:28.982Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-01T19:08:28.982Z", "updatedAt": "2026-10-16T22:17:20.236Z"
   },
   {
     "id": "animo", "name": "Animo", "version": "1.0.2", "author": "Thekingcrusher",
@@ -732,18 +732,18 @@
     "addedAt": "2026-05-20T09:42:56.269Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "anitube", "name": "Anitube (PT-BR)", "version": "1.0.1", "author": "Jhoorodr",
+    "id": "anitube", "name": "Anitube (PT-BR)", "version": "1.0.2", "author": "Jhoorodr",
     "description": "Anime streaming provider for Anitube, with subbed and dubbed titles in Brazilian Portuguese. May only work with a Brazil VPN.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/anitube.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/anitube/anitube.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/anitube/anitube.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/041740894c36bfae980a08332a828d97d062e2212499a9e8492d871c35ab0aca",
+    "permalink": "https://www.virustotal.com/gui/file/13de19204b4918610355e4a3dbd34944538d30317365e51a54b7092002fc032b",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1547064890823278662",
-    "addedAt": "2026-09-09T02:03:33.048Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-09T02:03:33.048Z", "updatedAt": "2026-10-16T22:17:20.236Z"
   },
   {
     "id": "aniworld", "name": "AniWorld", "version": "1.2.0", "author": "Pal",
@@ -1153,18 +1153,18 @@
     "addedAt": "2025-08-18T04:48:54.093Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "dattebayobr-provider", "name": "Dattebayo BR", "version": "1.0.2", "author": "Jhoorodr",
+    "id": "dattebayobr-provider", "name": "Dattebayo BR", "version": "1.0.3", "author": "Jhoorodr",
     "description": "Anime streaming provider for Dattebayo BR. May only work with a Brazil VPN.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/dattebayobr.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/dattebayobr/dattebayobr.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/dattebayobr/dattebayobr.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0db5d2b349c7787dfd20443bef200c631c7d8ed71ee7478a16e6a81b0e9e576c",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c3f84e5692d95dfa942cd3c9af22e22bcef6dfcd9531af10204bc3bfb9715d3d",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1516087913799094364",
-    "addedAt": "2026-06-15T14:32:06.201Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-15T14:32:06.201Z", "updatedAt": "2026-10-16T22:17:20.236Z"
   },
   {
     "id": "debridtoggle", "name": "Debrid Toggle", "version": "1.2.1", "author": "Kaktus",
@@ -1450,18 +1450,18 @@
     "addedAt": "2025-04-24T08:09:00.241Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "goyabu-provider", "name": "Goyabu", "version": "1.0.7", "author": "Jhoorodr",
+    "id": "goyabu-provider", "name": "Goyabu", "version": "1.0.8", "author": "Jhoorodr",
     "description": "Anime streaming provider for Goyabu. May only work with a Brazil VPN.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/goyabu.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/goyabu/goyabu.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/goyabu/goyabu.ts",
-    "website": "", "flags": "1/60", "flaggedBy": ["Microsoft"],
-    "permalink": "https://www.virustotal.com/gui/file/43e176ab597e0ef8f3a7aeefcc24a82cc8d896487b7445e0f11edfa5d6fd546d",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/4c76b08721db9461d4c7464edff343e381c551c9ce17d6e5a9206219700664cd",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.8.7", "stars": 0, "threadId": "1516019217319723139",
-    "addedAt": "2026-06-15T09:59:07.684Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-15T09:59:07.684Z", "updatedAt": "2026-10-16T22:17:20.236Z"
   },
   {
     "id": "hanime-online-streaming", "name": "EN | hanime.tv (18+) (broken)", "version": "1.2.5",
@@ -1581,18 +1581,18 @@
     "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "hinatasoul-provider", "name": "Hinata Soul", "version": "1.1.7", "author": "Jhoorodr",
+    "id": "hinatasoul-provider", "name": "Hinata Soul", "version": "1.1.8", "author": "Jhoorodr",
     "description": "Anime streaming provider for Hinata Soul. May only work with a Brazil VPN.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/hinatasoul.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/hinatasoul/hinatasoul.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/hinatasoul/hinatasoul.ts",
-    "website": "", "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/875658544ce99d349b76acde7d80046ff84c42d4494604259a770cf5f0f6b22f",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b6b3fb87cb56ea5bdcab3853e06f870002fb1a1255b7039c590141392bcd8e98",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1516192096074338455",
-    "addedAt": "2026-06-15T21:26:05.191Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-15T21:26:05.191Z", "updatedAt": "2026-10-16T22:17:20.236Z"
   },
   {
     "id": "hipercool-provider-v3", "name": "HiperCool", "version": "1.0.2", "author": "Skrapt",
@@ -1725,18 +1725,18 @@
     "addedAt": "2026-09-10T06:35:13.373Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "kuromangas", "name": "Kuro Mangas", "version": "1.0.10", "author": "jhoorodr",
+    "id": "kuromangas", "name": "Kuro Mangas", "version": "1.0.11", "author": "jhoorodr",
     "description": "Manga reading provider for Kuro Mangas. NOTE: Requires an account created on the site to work.",
     "type": "manga-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/kuromangas.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/kuromangas/kuromangas.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8fe96263eb77837b82a6baefd4ef9c6a874022c6f869e10ffecea5b80bdad434",
+    "permalink": "https://www.virustotal.com/gui/file/9be864239726aa771112f1c9dc43a156dfe35ad8ec99cb2a74fa75f50c05c9e8",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.8.7", "stars": 0, "threadId": "1516231576378413158",
-    "addedAt": "2026-06-16T00:02:58.029Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-16T00:02:58.029Z", "updatedAt": "2026-10-16T22:17:20.236Z"
   },
   {
     "id": "latanime-online-provider", "name": "Latanime", "version": "0.1.11", "author": "lens7y",
@@ -2235,6 +2235,20 @@
     "addedAt": "2026-07-03T16:15:27.322Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
+    "id": "media-play-pause", "name": "Media Key Play/Pause", "version": "1.0.0", "author": "Faddix",
+    "description": "Maps physical keyboard media keys to the integrated player.", "type": "plugin",
+    "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/faddix/media-play-pause/main/assets/media-play-pause-icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/faddix/media-play-pause/main/media-play-pause.json",
+    "payloadURI": "https://raw.githubusercontent.com/faddix/media-play-pause/main/media-play-pause.ts",
+    "website": "https://github.com/faddix/media-play-pause", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/aa78d183f542a14472255e89133adda205fc9a4255627a18017b3deb87e53bb9",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1560772612789895208",
+    "addedAt": "2026-10-16T21:53:08.642Z", "updatedAt": "2026-10-16T22:17:20.236Z"
+  },
+  {
     "id": "mediocrescan", "name": "MediocreScan", "version": "1.0.8", "author": "jhoorodr",
     "description": "Manhwa provider for MediocreScan. NOTE: Requires an account created on the site (configured in the extension's settings) to work.",
     "type": "manga-provider", "language": "typescript", "lang": "pt-BR",
@@ -2384,18 +2398,18 @@
     "addedAt": "2026-04-13T11:11:01.999Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "nexustoons", "name": "Nexus Toons", "version": "1.0.1", "author": "Jhoorodr",
+    "id": "nexustoons", "name": "Nexus Toons", "version": "1.0.2", "author": "Jhoorodr",
     "description": "Manga provider for Nexus Toons.", "type": "manga-provider", "language": "typescript",
     "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/nexustoons.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/nexustoons/nexustoons.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/nexustoons/nexustoons.ts",
-    "website": "", "flags": "0/58", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6c148fe078ebabf7005bd68851944b0eb09dfcda015f224423dcc6760698139d",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b32b535015062c7c4ad7aa8338f503bebc2a004eab1332c36157e9cb443ea5ca",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.8.7", "stars": 0, "threadId": "1516464618430660658",
-    "addedAt": "2026-06-16T15:28:59.584Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-16T15:28:59.584Z", "updatedAt": "2026-10-16T22:17:20.236Z"
   },
   {
     "id": "nhentai", "name": "nhentai", "version": "1.0.0", "author": "nnotwen",
@@ -2729,14 +2743,14 @@
     "addedAt": "2026-10-02T21:38:00.840Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "seachat", "name": "SeaChat", "version": "0.8.1", "author": "DefnoJae",
+    "id": "seachat", "name": "SeaChat", "version": "0.9.1", "author": "DefnoJae",
     "description": "A shared public chat room for Seanime users.", "type": "plugin", "language": "javascript",
     "lang": "en", "icon": "https://raw.githubusercontent.com/DefnoJae/SeaChat/main/assets/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/SeaChat/main/Manifest.json", "payloadURI": "",
     "website": "https://github.com/DefnoJae/SeaChat", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1558625818819690578",
-    "addedAt": "2026-10-10T23:42:33.074Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-10T23:42:33.074Z", "updatedAt": "2026-10-16T22:17:20.236Z"
   },
   {
     "id": "seadex", "name": "SeaDex", "version": "1.0.4", "author": "Island",
@@ -3264,18 +3278,18 @@
     "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "topanimes", "name": "Top Animes", "version": "1.0.5", "author": "Jhoorodr",
+    "id": "topanimes", "name": "Top Animes", "version": "1.0.6", "author": "Jhoorodr",
     "description": "Anime streaming provider for Top Animes. May only work with a Brazil VPN.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
     "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/topanimes.png",
     "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/topanimes/topanimes.json",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/topanimes/topanimes.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/84f67172965233db9f7dfa234fdec8a91e630aefdc7b07648a5c44a196c683b8",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/56945644b654ebd42c448ad7f16adb7a1af2eaf798641ab0baee6eae5bc8a5ee",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1522046875581026364",
-    "addedAt": "2026-07-02T01:10:53.402Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-02T01:10:53.402Z", "updatedAt": "2026-10-16T22:17:20.236Z"
   },
   {
     "id": "torrentclaw", "name": "TorrentClaw (anime)", "version": "1.0.5", "author": "jhoorodr",
