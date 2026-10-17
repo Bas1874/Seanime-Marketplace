@@ -721,6 +721,18 @@
     "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
+    "id": "anipm", "name": "AniPM", "version": "1.0.0", "author": "Thekingcrusher",
+    "description": "AniPM is a uncompressed online stream provider for both soft/hard subs and dub.",
+    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/anipm/logo.png",
+    "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/anipm/manifest.json",
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1560860450240069723",
+    "addedAt": "2026-10-17T03:42:10.722Z", "updatedAt": "2026-10-17T06:03:57.632Z"
+  },
+  {
     "id": "anirena", "name": "AniRena", "version": "1.0.1", "author": "eepyboba",
     "description": "AniRena torrent provider for Seanime.", "type": "anime-torrent-provider",
     "language": "typescript", "lang": "multi",
@@ -2289,6 +2301,20 @@
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1526790354408439839",
     "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+  },
+  {
+    "id": "miruro-v2", "name": "Miruro", "version": "1.0.3", "author": "DefnoJae",
+    "description": "Miruro anime provider with separate sub/dub selection and labelled streaming servers.",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/DefnoJae/Miruro-V2/75b781d3dc53ed8d83802703e73a9c511949253c/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Miruro-V2/main/Manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Miruro-V2/main/provider.js",
+    "website": "https://www.miruro.tv/", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b70894f00ff3c9a8425392ce3df55a376320856910f172792e988b820730c1cf",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1560852567607742514",
+    "addedAt": "2026-10-17T03:10:51.356Z", "updatedAt": "2026-10-17T06:03:57.632Z"
   },
   {
     "id": "mkissa", "name": "MKissa", "version": "0.2.3", "author": "DefnoJae",
