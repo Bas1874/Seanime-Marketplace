@@ -1064,17 +1064,17 @@
     "addedAt": "2026-06-19T08:59:01.870Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "custom-anime-metadata", "name": "Custom Anime Metadata", "version": "1.1.0", "author": "Kaktus",
+    "id": "custom-anime-metadata", "name": "Custom Anime Metadata", "version": "1.2.2", "author": "Kaktus",
     "description": "Edit AniList anime metadata", "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/custom-anime-metadata/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/custom-anime-metadata/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/custom-anime-metadata/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/e412408e08734b59d1ce853149dd3ee0832b168723e5ad7c1be539ce841f3861",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1c3a82bf430987d9e6aef4a65e58bc2357054829df0caaad002aecbcc7f6efb5",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1559952770533036085",
-    "addedAt": "2026-10-14T15:35:23.016Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-14T15:35:23.016Z", "updatedAt": "2026-10-17T18:03:14.117Z"
   },
   {
     "id": "custom-banner-images", "name": "Custom Banner Images", "version": "1.0.2", "author": "Seanime",
@@ -1409,7 +1409,7 @@
     "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "french-stream", "name": "French Stream", "version": "1.2.3", "author": "Rafou376",
+    "id": "french-stream", "name": "French Stream", "version": "1.2.4", "author": "Rafou376",
     "description": "French Stream est une plateforme de streaming supportant séries et films",
     "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/french-stream/icon.ico",
@@ -1418,7 +1418,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1545383472682635334",
-    "addedAt": "2026-09-04T10:42:11.724Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-04T10:42:11.724Z", "updatedAt": "2026-10-17T18:03:14.117Z"
   },
   {
     "id": "friend-stats", "name": "Friend stats", "version": "1.2.2", "author": "Kaktus",
