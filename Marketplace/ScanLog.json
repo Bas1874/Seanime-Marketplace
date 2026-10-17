@@ -1252,6 +1252,13 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1786338649843
   },
   {
+    "id": "miruro-v2", "version": "1.0.3",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Miruro-V2/main/provider.js", "flags": "0/60",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b70894f00ff3c9a8425392ce3df55a376320856910f172792e988b820730c1cf",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792217037401
+  },
+  {
     "id": "my-list-table-view", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/dadangdut33/seanime-extensions/refs/heads/master/plugins/my-list-table-view/code.ts",
     "flags": "0/61", "flaggedBy": [],
