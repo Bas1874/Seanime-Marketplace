@@ -1231,11 +1231,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792188126276
   },
   {
-    "id": "mediocrescan", "version": "1.0.8",
+    "id": "mediocrescan", "version": "1.0.9",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mediocrescan/mediocrescan.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1b0c83a77ff535706f6739c4f6bdcbd3f7a1b0de640da306c518bce679620712",
-    "lastWorkingVersion": "3.8.3", "hadWorkingTag": false, "timestamp": 1785560297833
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/ee2062359691c769314eb9db057bd3d133a6d89e28cf2d0cd2208ea321b80719",
+    "lastWorkingVersion": "3.8.3", "hadWorkingTag": false, "timestamp": 1792202630078
   },
   {
     "id": "mh-scans", "version": "1.1.1",
