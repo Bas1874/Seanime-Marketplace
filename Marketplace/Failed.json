@@ -21,6 +21,10 @@
     "originalMessageContent": "> **Extension Name:**\n> KomikCast\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/komikcast/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/komikcast/manifest.json```\n> \n> **Description:**\n> Extension for reading manga in indonesian.\n> \n> **Additional Notes:**\n> None"
   },
   {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1440425091707175012", "reason": "404 Not Found.",
+    "originalMessageContent": "> **Extension name:**\n> Comix\n> \n> **Version:**\n> 2.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/comix/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/comix/manifest.json```\n> **Description:**\n> A manga provider for english manga, made by pal\n> \n> **Additional Notes:**\n> The new version requires a cf_clearance token and the matching user agent for it to work properly. *(Special thanks to <@344689799451377664> for reviving the extension)*"
+  },
+  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1455897158254461061", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension name:**\n> AgeFans\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/agefans/manifest.json) / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/agefans/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for chinese sub anime, made by pal\n> \n> **Additional Notes:**\n> None"
   },
