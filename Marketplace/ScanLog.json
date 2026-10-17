@@ -420,11 +420,11 @@
     "lastWorkingVersion": "3.10.4", "timestamp": 1782838347601, "hadWorkingTag": true
   },
   {
-    "id": "animex-online-streaming", "version": "1.0.19",
+    "id": "animex-online-streaming", "version": "1.0.21",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider/refs/heads/main/Provider.js",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/299a640bcb8b465842c7b33e7e93212537c2cd4aa97370836639fe1a51be7018",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1790721676417
+    "permalink": "https://www.virustotal.com/gui/file/26a9466e1d6bde51d2bea5296973f95649180c8f21995ff654611b5d8c9cfe69",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792274635780
   },
   {
     "id": "animeya", "version": "1.0.1",
@@ -1524,11 +1524,11 @@
     "lastWorkingVersion": "3.10.4", "timestamp": 1781440448205, "hadWorkingTag": true
   },
   {
-    "id": "seasubs", "version": "0.15.2",
+    "id": "seasubs", "version": "0.15.3",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaSubs/main/code.ts", "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b5452b66c83b91d0f854ac727e9a8eb3d45ccc5dd9233d650f225984345a65a3",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792130543927
+    "permalink": "https://www.virustotal.com/gui/file/6d6baea5f5ea4cc00360def4aaf97c92a2536022331e8bf90499328cd4b09a43",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792274589577
   },
   {
     "id": "SeaUtils-Kolex06-Version", "version": "1.2.75",
