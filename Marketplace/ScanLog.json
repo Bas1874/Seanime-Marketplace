@@ -301,11 +301,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1781613145012, "hadWorkingTag": false
   },
   {
-    "id": "animeheaven", "version": "1.1.4",
+    "id": "animeheaven", "version": "1.1.5",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/bd26ab1d453a19694c36da8d9ab54b29aed1d0292d053d4d14b5e7042e2f9452",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1790779354423
+    "permalink": "https://www.virustotal.com/gui/file/837a4f7266765a1c8332c28f207110f0c96b130e37ec25281656a098902cc5ce",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792245798494
   },
   {
     "id": "animekai", "version": "1.2.1",
@@ -1116,7 +1116,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mangafreak/provider.js",
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/cd548c38cf6fa4d0c0b94951a7170fa49273b09c2f5891350788c5e9a359ab56",
-    "timestamp": 1771870944725, "hadWorkingTag": false
+    "timestamp": 1771870944725, "hadWorkingTag": true, "lastWorkingVersion": "3.10.4"
   },
   {
     "id": "mangahub", "version": "1.0.0",
@@ -1559,11 +1559,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1787932444095
   },
   {
-    "id": "shiro", "version": "1.1.1",
+    "id": "shiro", "version": "1.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/shiro/provider.js",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1027632fff12c8bcab355f411cc7f06fa749216e8acd2b759fe3426231321f13",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791024311740
+    "permalink": "https://www.virustotal.com/gui/file/944725e4627e910e91778eff61a3520389c149e5611b321c676fec6e71feb097",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792245752356
   },
   {
     "id": "simkl", "version": "1.1.2",
