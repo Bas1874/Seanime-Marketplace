@@ -429,18 +429,18 @@
     "addedAt": "2026-01-12T12:33:46.171Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "animeheaven", "name": "AnimeHeaven", "version": "1.1.4", "author": "Pal",
+    "id": "animeheaven", "name": "AnimeHeaven", "version": "1.1.5", "author": "Pal",
     "description": "AnimeHeaven is an online streaming provider for subbed anime in english",
     "type": "onlinestream-provider", "language": "javascript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/animeheaven.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/bd26ab1d453a19694c36da8d9ab54b29aed1d0292d053d4d14b5e7042e2f9452",
+    "permalink": "https://www.virustotal.com/gui/file/837a4f7266765a1c8332c28f207110f0c96b130e37ec25281656a098902cc5ce",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505936860441083904","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1442565716028162180",
-    "addedAt": "2025-11-24T17:21:08.276Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-24T17:21:08.276Z", "updatedAt": "2026-10-17T14:03:18.783Z"
   },
   {
     "id": "animenexus", "name": "Anime Nexus", "version": "0.5.1", "author": "DefnoJae",
@@ -1011,20 +1011,6 @@
     "tags": ["1359259306087940146","1437869415344377887","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1536575711584718978",
     "addedAt": "2026-08-11T03:23:17.838Z", "updatedAt": "2026-10-14T22:02:23.218Z"
-  },
-  {
-    "id": "comix", "name": "Comix", "version": "2.0.0", "author": "Pal & Ari-03",
-    "description": "Comix (comix.to) manga provider for Seanime. Needs the cf_clearance cookie and the matching User-Agent from a browser that opened comix.to. With Chrome or Chromium installed on the Seanime host, it refreshes the site's signing keys on its own.",
-    "type": "manga-provider", "language": "javascript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/Ari-03/Seanime-Providers/main/public/comix.png",
-    "manifestURI": "https://raw.githubusercontent.com/Ari-03/Seanime-Providers/main/src/manga/comix/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Ari-03/Seanime-Providers/main/src/manga/comix/provider.js",
-    "website": "https://comix.to", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f5b92dde3a9ade09bc45e85f819d6c0407b13716038ab0966d1db293acf6e5ed",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 11, "threadId": "1440425091707175012",
-    "addedAt": "2025-11-18T19:35:03.667Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
     "id": "contranime", "name": "Contranime", "version": "1.0.0", "author": "eepyboba",
@@ -2031,10 +2017,10 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mangafreak/provider.js",
     "website": "", "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/cd548c38cf6fa4d0c0b94951a7170fa49273b09c2f5891350788c5e9a359ab56",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
-    "stars": 8, "threadId": "1428453575734067210", "addedAt": "2025-10-16T18:44:31.839Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 8, "threadId": "1428453575734067210",
+    "addedAt": "2025-10-16T18:44:31.839Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
     "id": "mangahub", "name": "MangaHub", "version": "1.0.0", "author": "Pal",
@@ -2148,6 +2134,17 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1547761989194096742",
     "addedAt": "2026-09-11T00:13:34.251Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+  },
+  {
+    "id": "mangataro", "name": "MangaTaro", "version": "1.0.0", "author": "Rafou376",
+    "description": "MangaTaro is an English scanlation platform", "type": "manga-provider", "language": "typescript",
+    "lang": "en", "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangataro/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangataro/manifest.json",
+    "payloadURI": "", "website": "https://mangataro.org", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1560980565648351232",
+    "addedAt": "2026-10-17T11:39:28.467Z", "updatedAt": "2026-10-17T14:03:18.783Z"
   },
   {
     "id": "mangaunion", "name": "MangaUnion", "version": "1.0.0", "author": "mohaisreal",
@@ -2998,18 +2995,18 @@
     "addedAt": "2025-11-28T06:14:56.545Z", "updatedAt": "2026-10-14T22:02:23.218Z"
   },
   {
-    "id": "shiro", "name": "Shiro", "version": "1.1.1", "author": "Pal",
+    "id": "shiro", "name": "Shiro", "version": "1.1.2", "author": "Pal",
     "description": "Shiro is an AniList-backed online streaming provider for subbed and dubbed anime.",
     "type": "onlinestream-provider", "language": "javascript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/main/public/shiro.ico",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/shiro/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/shiro/provider.js",
-    "website": "https://shiro.so/", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1027632fff12c8bcab355f411cc7f06fa749216e8acd2b759fe3426231321f13",
+    "website": "https://anv.to/", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/944725e4627e910e91778eff61a3520389c149e5611b321c676fec6e71feb097",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1554882674345381888",
-    "addedAt": "2026-09-30T15:48:37.887Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-30T15:48:37.887Z", "updatedAt": "2026-10-17T14:03:18.783Z"
   },
   {
     "id": "simkl", "name": "Simkl", "version": "1.1.2", "author": "jabifx",
