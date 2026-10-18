@@ -9,7 +9,7 @@
     "permalink": "https://www.virustotal.com/gui/file/3c4ea2c82385e5894241b08054fd051d6161325eaf8c0e312396273d4353a1dd",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1477141384917029026",
-    "addedAt": "2026-02-28T03:12:30.124Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-02-28T03:12:30.124Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "Account-Switcher-Kolex06-Version", "name": "Account Switcher Kolex06-Version", "version": "1.0.10",
@@ -23,7 +23,7 @@
     "permalink": "https://www.virustotal.com/gui/file/19f5e1723557e53f94d5e85899e0546fa725ff69716227c510137d0e29e7cff9",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1513612769063338064",
-    "addedAt": "2026-06-08T18:36:45.710Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-08T18:36:45.710Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "acg-rip-provider", "name": "ACG.RIP", "version": "1.0.2", "author": "Bas1874",
@@ -37,7 +37,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1405889827651457127",
-    "addedAt": "2025-08-15T12:24:15.082Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-08-15T12:24:15.082Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "Acgnx", "name": "Acgnx", "version": "1.0.3", "author": "bas1874",
@@ -51,7 +51,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1437482418511806575",
-    "addedAt": "2025-11-10T16:41:55.705Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-10T16:41:55.705Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "aiostreams-plugin", "name": "AIOStreams", "version": "0.10.2", "author": "Viren070",
@@ -63,7 +63,7 @@
     "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 13, "threadId": "1499798502086017024",
-    "addedAt": "2026-05-01T15:43:47.806Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-01T15:43:47.806Z", "updatedAt": "2026-09-17T20:52:55.786Z"
   },
   {
     "id": "al-3asq", "name": "3asq", "version": "1.0.0", "author": "Bruuhim",
@@ -76,7 +76,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 3, "threadId": "1467746874336477225", "addedAt": "2026-02-02T05:02:04.260Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "alternative-titles", "name": "Alternative Titles", "version": "1.0.4", "author": "nnotwen",
@@ -90,7 +90,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 9, "threadId": "1463411423051776067",
-    "addedAt": "2026-01-21T05:54:32.125Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-01-21T05:54:32.125Z", "updatedAt": "2026-08-19T16:19:04.727Z"
   },
   {
     "id": "anibt", "name": "AniBT", "version": "1.1.1", "author": "Elisoar",
@@ -104,7 +104,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1530499232430035107",
-    "addedAt": "2026-07-25T08:57:32.312Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-25T08:57:32.312Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "anidream", "name": "AniDream", "version": "1.0.1", "author": "jabifx",
@@ -118,7 +118,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 3, "threadId": "1431744765656961144", "addedAt": "2025-10-25T20:42:32.664Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "anikoto-online-streaming", "name": "EN | Anikoto", "version": "1.0.2", "author": "TropicalFrog3",
@@ -132,7 +132,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 2, "threadId": "1505372332682776649", "addedAt": "2026-05-17T00:52:12.577Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "AniLiberty", "name": "AniLiberty", "version": "1.0.1", "author": "vsecoder",
@@ -146,7 +146,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1452741478706053342",
-    "addedAt": "2025-12-22T19:15:59.155Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-12-22T19:15:59.155Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "anilist-activity", "name": "Anilist activity", "version": "1.3.9", "author": "Pal",
@@ -160,7 +160,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359259306087940146","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 18, "threadId": "1445123413277413507",
-    "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-09-23T19:07:55.982Z"
   },
   {
     "id": "anilist-autopause", "name": "Anilist Autopause", "version": "1.0.2", "author": "nnotwen",
@@ -174,7 +174,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1442364686199951432",
-    "addedAt": "2025-11-24T04:02:19.030Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-24T04:02:19.030Z", "updatedAt": "2026-08-19T16:19:04.727Z"
   },
   {
     "id": "anilist-custom-lists", "name": "AniList Custom Lists", "version": "1.1.0", "author": "Faddix",
@@ -187,7 +187,7 @@
     "permalink": "https://www.virustotal.com/gui/file/f3cd9ecce43f2e020faa4aa698a063e1d3a2760e4fe9ee41f0c6601620b41907",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1541465962992242758",
-    "addedAt": "2026-08-24T15:15:24.630Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-24T15:15:24.630Z", "updatedAt": "2026-08-24T20:24:57.951Z"
   },
   {
     "id": "anilist-discussions", "name": "AniList Discussions", "version": "1.5.0", "author": "Bas1874",
@@ -201,7 +201,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 7, "threadId": "1394438391696982046",
-    "addedAt": "2025-07-14T22:00:19.993Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-07-14T22:00:19.993Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "AniList-Discussions-Integrated-Player", "name": "AniList Discussions (Integrated Player)",
@@ -216,7 +216,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359259306087940146","1359183296591823124","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 7, "threadId": "1455276575023960331",
-    "addedAt": "2025-12-29T19:09:33.217Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-12-29T19:09:33.217Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "anilist-favorites", "name": "Anilist Favorites", "version": "1.2.2", "author": "nnotwen",
@@ -230,7 +230,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1441727384914235473",
-    "addedAt": "2025-11-22T09:49:54.563Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-22T09:49:54.563Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "anilist-forums", "name": "Anilist Forums", "version": "0.1.5", "author": "nnotwen",
@@ -244,7 +244,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1458586898921427047",
-    "addedAt": "2026-01-07T22:23:35.937Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-01-07T22:23:35.937Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "AniList-Notifications-Kolex06-Version", "name": "AniList Notifications Kolex06-Version",
@@ -259,7 +259,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 9, "threadId": "1512020271224062012",
-    "addedAt": "2026-06-04T09:08:44.638Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-04T09:08:44.638Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "anilist-private", "name": "Anilist Private", "version": "1.1.3", "author": "nnotwen",
@@ -273,7 +273,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 6, "threadId": "1441399163517538355",
-    "addedAt": "2025-11-21T12:05:40.484Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-21T12:05:40.484Z", "updatedAt": "2026-07-12T13:10:19.472Z"
   },
   {
     "id": "anilist-watch-order", "name": "Anilist Watch Order", "version": "1.2.2", "author": "nnotwen",
@@ -287,7 +287,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 15, "threadId": "1445002690106097757",
-    "addedAt": "2025-12-01T10:44:48.173Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-12-01T10:44:48.173Z", "updatedAt": "2026-09-09T12:16:08.935Z"
   },
   {
     "id": "animapper-animevietsub", "name": "AniMapper AnimeVietSub", "version": "1.0.2",
@@ -301,7 +301,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1459395120100278517", "addedAt": "2026-01-10T03:55:10.882Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "animapper-niniyo", "name": "AniMapper Niniyo", "version": "1.0.1", "author": "Sinon (Hien Cao)",
@@ -314,7 +314,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1486874317777273027", "addedAt": "2026-03-26T23:47:42.147Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "Anime-Garden", "name": "Anime Garden", "version": "1.0.4", "author": "Elisoar",
@@ -328,7 +328,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1505936860441083904"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1528284315950252082",
-    "addedAt": "2026-07-19T06:16:15.072Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-19T06:16:15.072Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "anime-notes", "name": "Anime Notes", "version": "2.0.2", "author": "Faddix, Bas1874",
@@ -341,7 +341,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1396125150142791722",
-    "addedAt": "2025-07-19T13:42:54.545Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-07-19T13:42:54.545Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "anime-sama-online-streaming", "name": "FR | Anime Sama", "version": "3.1.4",
@@ -356,7 +356,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 5, "threadId": "1412209065957789737", "addedAt": "2025-09-01T22:54:38.900Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-30T19:59:06.556Z"
   },
   {
     "id": "anime-sama-vip-online-streaming", "name": "FR | Anime-Sama VIP", "version": "1.0.1",
@@ -370,7 +370,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1499546191929544845", "addedAt": "2026-04-30T23:01:12.377Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "anime-ultra-online-streaming", "name": "FR | Anime Ultra", "version": "1.0.5", "author": "TropicalFrog3",
@@ -384,7 +384,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1417542074907234345", "addedAt": "2025-09-16T16:06:07.316Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "animeav1", "name": "AnimeAV1", "version": "1.2.1", "author": "jabifx & yerasuu",
@@ -398,7 +398,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1434990488301342792",
-    "addedAt": "2025-11-03T19:39:53.245Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-03T19:39:53.245Z", "updatedAt": "2026-09-27T18:37:35.496Z"
   },
   {
     "id": "animeflv", "name": "AnimeFLV", "version": "1.0.1", "author": "jabifx",
@@ -412,7 +412,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 2, "threadId": "1430252871240253500", "addedAt": "2025-10-21T17:54:17.317Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "animegg", "name": "AnimeGG", "version": "1.0.1", "author": "Pal",
@@ -426,7 +426,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.8.7", "stars": 4, "threadId": "1460250402812461171",
-    "addedAt": "2026-01-12T12:33:46.171Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-01-12T12:33:46.171Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "animeheaven", "name": "AnimeHeaven", "version": "1.1.5", "author": "Pal",
@@ -454,7 +454,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1558775139682881697",
-    "addedAt": "2026-10-11T09:35:53.942Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-11T09:35:53.942Z", "updatedAt": "2026-10-11T10:02:07.735Z"
   },
   {
     "id": "animesalt", "name": "AnimeSalt", "version": "1.0.1", "author": "mohaisreal",
@@ -468,7 +468,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.2", "stars": 2, "threadId": "1509989485843185735",
-    "addedAt": "2026-05-29T18:39:07.673Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-29T18:39:07.673Z", "updatedAt": "2026-09-10T12:43:09.360Z"
   },
   {
     "id": "animesamamanga", "name": "AnimeSama (Manga)", "version": "2.1.0", "author": "pal & Rafou376",
@@ -482,7 +482,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.9.1", "stars": 4, "threadId": "1484987717359112353",
-    "addedAt": "2026-03-21T18:51:01.556Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-03-21T18:51:01.556Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "animesaturn", "name": "AnimeSaturn", "version": "1.0.3", "author": "kRYstall9",
@@ -495,7 +495,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.9.1", "stars": 9, "threadId": "1362859772474560693",
-    "addedAt": "2025-04-18T18:38:10.468Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-04-18T18:38:10.468Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "animesaturnmirror", "name": "AnimeSaturn (Mirror)", "version": "1.0.0", "author": "Pal",
@@ -508,7 +508,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1505611334652395582",
-    "addedAt": "2026-05-17T16:41:55.087Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-17T16:41:55.087Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "animesdigital", "name": "Animes Digital", "version": "1.0.6", "author": "Jhoorodr",
@@ -564,7 +564,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 14, "threadId": "1432823765565440030",
-    "addedAt": "2025-10-28T20:10:06.289Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-10-28T20:10:06.289Z", "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "animetoast", "name": "AnimeToast", "version": "1.0.1", "author": "Pal",
@@ -578,7 +578,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 2, "threadId": "1494704345487380602", "addedAt": "2026-04-17T14:21:26.228Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "animetosho", "name": "Animetosho", "version": "1.0.1", "author": "Island",
@@ -601,7 +601,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 13, "threadId": "1505548228865687562",
-    "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-10-08T14:07:02.763Z"
   },
   {
     "id": "animeunion", "name": "AnimeUnion", "version": "1.0.0", "author": "Pal",
@@ -615,7 +615,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1558548384145743882",
-    "addedAt": "2026-10-10T18:34:51.209Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-10T18:34:51.209Z", "updatedAt": "2026-10-10T22:03:41.481Z"
   },
   {
     "id": "AnimeUnity", "name": "AnimeUnity", "version": "1.1.3", "author": "kRYstall9",
@@ -628,7 +628,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 5, "threadId": "1428028775689621615", "addedAt": "2025-10-15T14:36:31.616Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "animeunitymirror", "name": "AnimeUnity (Mirror)", "version": "1.1.0", "author": "Pal",
@@ -641,7 +641,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1504154200358260836",
-    "addedAt": "2026-05-13T16:11:47.199Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-13T16:11:47.199Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "animeworld", "name": "AnimeWorld", "version": "1.0.3", "author": "kRYstall9",
@@ -652,7 +652,7 @@
     "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 9, "threadId": "1361802639926624518", "addedAt": "2025-04-15T20:37:30.428Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "animex-online-streaming", "name": "AnimeX", "version": "1.0.21", "author": "Jae",
@@ -680,7 +680,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1557755961488179200",
-    "addedAt": "2026-10-08T14:06:02.925Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-08T14:06:02.925Z", "updatedAt": "2026-10-08T18:05:22.974Z"
   },
   {
     "id": "animeyabu", "name": "Anime Yabu", "version": "1.0.4", "author": "Jhoorodr",
@@ -706,7 +706,7 @@
     "brokenTag": false, "deprecatedTag": true,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1515974530282160293", "addedAt": "2026-06-15T07:01:33.464Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "anineko", "name": "AniNeko", "version": "1.0.0", "author": "Thekingcrusher",
@@ -718,7 +718,7 @@
     "brokenTag": false, "deprecatedTag": true,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 3, "threadId": "1519595535651307611", "addedAt": "2026-06-25T06:50:08.419Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "anipm", "name": "AniPM", "version": "1.0.0", "author": "Thekingcrusher",
@@ -741,7 +741,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359259206880067784"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1506593058404175993",
-    "addedAt": "2026-05-20T09:42:56.269Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-20T09:42:56.269Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "anitube", "name": "Anitube (PT-BR)", "version": "1.0.2", "author": "Jhoorodr",
@@ -769,7 +769,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 7, "threadId": "1454098914352304233", "addedAt": "2025-12-26T13:09:57.033Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "anizone", "name": "AniZone by Jae", "version": "1.0.4", "author": "Jae",
@@ -783,7 +783,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1553943677892562944",
-    "addedAt": "2026-09-28T01:37:23.687Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-28T01:37:23.687Z", "updatedAt": "2026-09-28T02:49:25.811Z"
   },
   {
     "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.11", "author": "aquaryuo",
@@ -811,7 +811,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1559286767331577977",
-    "addedAt": "2026-10-12T19:28:55.479Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-12T19:28:55.479Z", "updatedAt": "2026-10-12T22:15:59.671Z"
   },
   {
     "id": "aq-kickassanime", "name": "KickAssAnime", "version": "0.1.2", "author": "aquaryuo",
@@ -853,7 +853,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183211099459916","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1505394749128048692",
-    "addedAt": "2026-05-17T02:21:17.074Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-17T02:21:17.074Z", "updatedAt": "2026-10-05T02:46:08.969Z"
   },
   {
     "id": "asurascans", "name": "AsuraScans", "version": "1.1.2", "author": "Pal",
@@ -867,7 +867,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.8.7", "stars": 4, "threadId": "1459989841243803885",
-    "addedAt": "2026-01-11T19:18:23.452Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-01-11T19:18:23.452Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "atsumaru", "name": "Atsumaru", "version": "1.1.2", "author": "Pal",
@@ -881,7 +881,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1488456218048462878",
-    "addedAt": "2026-03-31T08:33:36.562Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-03-31T08:33:36.562Z", "updatedAt": "2026-09-22T19:10:06.597Z"
   },
   {
     "id": "bangumi-ui", "name": "Bangumi 番组计划", "version": "1.2.3", "author": "Elisoar",
@@ -894,7 +894,7 @@
     "permalink": "https://www.virustotal.com/gui/file/e081ecd13a57b5ed2853e01ac9c5b012e3f78b1222c2dbfba40166b440835305",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1529440643787653150",
-    "addedAt": "2026-07-22T10:51:05.112Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-22T10:51:05.112Z", "updatedAt": "2026-08-23T04:24:17.889Z"
   },
   {
     "id": "banner-remover", "name": "Banner Remover", "version": "1.0.3", "author": "bas1874",
@@ -907,7 +907,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1400449705816883272",
-    "addedAt": "2025-07-31T12:07:08.964Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-07-31T12:07:08.964Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "baozimh-manga-provider", "name": "Baozi Manhua", "version": "1.0.1", "author": "Elisoar",
@@ -920,7 +920,7 @@
     "permalink": "https://www.virustotal.com/gui/file/dc5e5ca50c12af65988315866b7a04728a865764980844a10e75cf4a954d112b",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.9.1", "stars": 1, "threadId": "1526796637433892935",
-    "addedAt": "2026-07-15T03:44:44.874Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-15T03:44:44.874Z", "updatedAt": "2026-08-09T13:13:10.440Z"
   },
   {
     "id": "basic-nyaa-seanime", "name": "Basic Nyaa", "version": "1.0.2", "author": "Island",
@@ -941,7 +941,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183211099459916"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1536660651068629012",
-    "addedAt": "2026-08-11T09:00:48.989Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-11T09:00:48.989Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "bokugents", "name": "Bokugents", "version": "1.0.4", "author": "branrgx",
@@ -955,7 +955,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1515180622509773011", "addedAt": "2026-06-13T02:26:51.101Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "capibaratraductordev", "name": "CapibaraTraductor", "version": "1.0.0", "author": "mohaisreal",
@@ -982,7 +982,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1514915058054991972", "addedAt": "2026-06-12T08:51:35.601Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "characters-info-plus", "name": "Characters info+", "version": "1.0.1", "author": "Pal",
@@ -996,7 +996,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359259306087940146","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1556284859515797545",
-    "addedAt": "2026-10-04T12:40:24.883Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-04T12:40:24.883Z", "updatedAt": "2026-10-05T18:49:16.916Z"
   },
   {
     "id": "comicvine", "name": "ComicVine", "version": "1.3.0", "author": "aor-rex",
@@ -1010,7 +1010,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1437869415344377887","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1536575711584718978",
-    "addedAt": "2026-08-11T03:23:17.838Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-11T03:23:17.838Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "contranime", "name": "Contranime", "version": "1.0.0", "author": "eepyboba",
@@ -1020,7 +1020,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359259306087940146","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1506880206651265104",
-    "addedAt": "2026-05-21T04:43:57.746Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-21T04:43:57.746Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "cookie-clicker", "name": "Cookie Clicker", "version": "1.0.0", "author": "SyntaxSama & Pal-droid",
@@ -1033,7 +1033,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 6, "threadId": "1366838781264531526",
-    "addedAt": "2025-04-29T18:09:20.090Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-04-29T18:09:20.090Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "cornhub", "name": "CornHub (18+)", "version": "1.0.3", "author": "aor-rex",
@@ -1047,7 +1047,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1536131162504699996",
-    "addedAt": "2026-08-09T21:56:49.078Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-09T21:56:49.078Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "cubari", "name": "Cubari", "version": "1.0.2", "author": "Jhoorodr",
@@ -1061,7 +1061,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.8.7", "stars": 1, "threadId": "1517453644902043688",
-    "addedAt": "2026-06-19T08:59:01.870Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-19T08:59:01.870Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "custom-anime-metadata", "name": "Custom Anime Metadata", "version": "1.2.2", "author": "Kaktus",
@@ -1106,7 +1106,7 @@
     "permalink": "https://www.virustotal.com/gui/file/3fbf6f2d8d333318eb4e6fdb524936d652cbd507643f5a9e26b79bdb01882444",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 6, "threadId": "1452965857821986859",
-    "addedAt": "2025-12-23T10:07:35.305Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-12-23T10:07:35.305Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "custom-episode-metadata", "name": "Custom Episode Metadata", "version": "1.2.3", "author": "nnotwen",
@@ -1134,7 +1134,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1554225358956404757",
-    "addedAt": "2026-09-28T20:16:41.686Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-28T20:16:41.686Z", "updatedAt": "2026-09-28T22:38:48.785Z"
   },
   {
     "id": "darkmahou-provider", "name": "DarkMahou", "version": "1.0.11", "author": "jhoorodr",
@@ -1148,7 +1148,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1505936178292064266","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1406862398715072542",
-    "addedAt": "2025-08-18T04:48:54.093Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-08-18T04:48:54.093Z", "updatedAt": "2026-09-09T04:28:32.418Z"
   },
   {
     "id": "dattebayobr-provider", "name": "Dattebayo BR", "version": "1.0.3", "author": "Jhoorodr",
@@ -1176,7 +1176,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 6, "threadId": "1461773447746158603",
-    "addedAt": "2026-01-16T17:25:48.380Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-01-16T17:25:48.380Z", "updatedAt": "2026-07-03T16:21:00.916Z"
   },
   {
     "id": "delete-watched-episodes", "name": "Delete Watched Episodes", "version": "1.1.0", "author": "Dadangdut33",
@@ -1190,7 +1190,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 9, "threadId": "1460945559887024139",
-    "addedAt": "2026-01-14T10:36:04.533Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-01-14T10:36:04.533Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "demoniscans", "name": "Demonic Scans", "version": "1.0.0", "author": "Faddix",
@@ -1204,7 +1204,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 1, "threadId": "1492074297726992504", "addedAt": "2026-04-10T08:10:33.978Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "dipland-mangaball", "name": "MangaBall", "version": "1.0.0", "author": "dip-land",
@@ -1218,7 +1218,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1551646334757380116",
-    "addedAt": "2026-09-21T17:28:34.401Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-21T17:28:34.401Z", "updatedAt": "2026-09-22T19:10:06.597Z"
   },
   {
     "id": "dipland-mangadot", "name": "MangaDot", "version": "1.0.1", "author": "dip-land",
@@ -1232,7 +1232,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1552717267920363580",
-    "addedAt": "2026-09-24T16:24:04.764Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-24T16:24:04.764Z", "updatedAt": "2026-09-24T19:08:29.450Z"
   },
   {
     "id": "dipland-mangafire", "name": "MangaFire", "version": "1.1.1", "author": "dip-land",
@@ -1246,7 +1246,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 7, "threadId": "1535551888580280470",
-    "addedAt": "2026-08-08T07:34:59.412Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-08T07:34:59.412Z", "updatedAt": "2026-09-22T19:10:06.597Z"
   },
   {
     "id": "discord-rpc-extended", "name": "Discord RPC Extended", "version": "1.0.11", "author": "nnotwen",
@@ -1259,7 +1259,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 9, "threadId": "1526254094568652891",
-    "addedAt": "2026-07-13T15:48:52.575Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-13T15:48:52.575Z", "updatedAt": "2026-09-11T16:44:27.205Z"
   },
   {
     "id": "discord-rpc-hide-logo", "name": "Discord RPC Hide Logo", "version": "1.0.1", "author": "Seanime",
@@ -1283,7 +1283,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1442187212858069043",
-    "addedAt": "2025-11-23T16:17:06.088Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-23T16:17:06.088Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "donghuastream", "name": "DonghuaStream", "version": "1.0.1", "author": "Pal",
@@ -1297,7 +1297,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505936860441083904","1359259306087940146","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1524765537190543502",
-    "addedAt": "2026-07-09T13:13:52.840Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-09T13:13:52.840Z", "updatedAt": "2026-08-27T11:51:26.357Z"
   },
   {
     "id": "Doom", "name": "Doom", "version": "1.0.3", "author": "bas1874", "description": "Doom in Seanime",
@@ -1310,7 +1310,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 8, "threadId": "1441246280255799416",
-    "addedAt": "2025-11-21T01:58:10.274Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-21T01:58:10.274Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "Dub-Schedule", "name": "Dub Schedule", "version": "2.0.0", "author": "Bas1874",
@@ -1324,7 +1324,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 7, "threadId": "1412165513777254570",
-    "addedAt": "2025-09-01T20:01:35.251Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-09-01T20:01:35.251Z", "updatedAt": "2026-10-10T14:03:36.585Z"
   },
   {
     "id": "episodeshistory", "name": "Episodes History", "version": "1.3.0", "author": "kRYstall9",
@@ -1338,7 +1338,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 7, "threadId": "1366810284831801434",
-    "addedAt": "2025-04-29T16:16:06.011Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-04-29T16:16:06.011Z", "updatedAt": "2026-08-05T16:59:38.078Z"
   },
   {
     "id": "ext", "name": "EXT Torrents", "version": "1.4.1", "author": "aor-rex",
@@ -1352,7 +1352,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1536042011121946654",
-    "addedAt": "2026-08-09T16:02:33.732Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-09T16:02:33.732Z", "updatedAt": "2026-09-07T00:07:03.406Z"
   },
   {
     "id": "fancy-fonts", "name": "Fancy Fonts", "version": "1.0.2", "author": "nnotwen",
@@ -1365,7 +1365,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 7, "threadId": "1442100026137641072",
-    "addedAt": "2025-11-23T10:30:39.154Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-23T10:30:39.154Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "fanfox", "name": "FanFox", "version": "1.0.0", "author": "Pal",
@@ -1379,7 +1379,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1557806003142008994",
-    "addedAt": "2026-10-08T17:24:53.785Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-08T17:24:53.785Z", "updatedAt": "2026-10-08T18:05:22.974Z"
   },
   {
     "id": "force-op-ed-skip", "name": "Force OP/ED Skip", "version": "1.0.12", "author": "DefnoJae",
@@ -1391,7 +1391,7 @@
     "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1558252571288670309",
-    "addedAt": "2026-10-09T22:59:23.928Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-09T22:59:23.928Z", "updatedAt": "2026-10-10T18:01:36.491Z"
   },
   {
     "id": "french-anime-online-streaming", "name": "FR | French Anime", "version": "1.0.4",
@@ -1406,7 +1406,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 4, "threadId": "1408504187507048508", "addedAt": "2025-08-22T17:32:47.044Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "french-stream", "name": "French Stream", "version": "1.2.4", "author": "Rafou376",
@@ -1445,7 +1445,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.8.7", "stars": 9, "threadId": "1364875763739922452",
-    "addedAt": "2025-04-24T08:09:00.241Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-04-24T08:09:00.241Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "goyabu-provider", "name": "Goyabu", "version": "1.0.8", "author": "Jhoorodr",
@@ -1474,7 +1474,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 10, "threadId": "1404264498134782073",
-    "addedAt": "2025-08-11T00:45:46.328Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-08-11T00:45:46.328Z", "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "hentai-origines", "name": "Hentai Origines (18+)", "version": "1.0.3", "author": "Rafou376",
@@ -1486,7 +1486,7 @@
     "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1547766165139497031",
-    "addedAt": "2026-09-11T00:30:09.874Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-11T00:30:09.874Z", "updatedAt": "2026-10-11T22:01:40.711Z"
   },
   {
     "id": "hentai2read", "name": "Hentai2Read (18+)", "version": "1.0.0", "author": "eepyboba",
@@ -1497,7 +1497,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 2, "threadId": "1507481043752452097", "addedAt": "2026-05-22T20:31:28.474Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "hentaiera", "name": "HentaiEra (18+)", "version": "1.0.2", "author": "eepyboba",
@@ -1508,7 +1508,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
     "brokenTag": true, "deprecatedTag": false, "tags": ["1437869415344377887"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 0, "threadId": "1507491769661522152", "addedAt": "2026-05-22T21:14:05.730Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "hentaiera-read", "name": "HentaiEra (18+)", "version": "1.0.0", "author": "eepyboba",
@@ -1519,7 +1519,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
     "brokenTag": true, "deprecatedTag": false, "tags": ["1359183211099459916"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 0, "threadId": "1507496007980814366", "addedAt": "2026-05-22T21:30:56.224Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "hentaihaven-online-streaming", "name": "EN | HentaiHaven (18+)", "version": "1.1.0",
@@ -1534,7 +1534,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": true,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.3", "stars": 4, "threadId": "1499541991435014249",
-    "addedAt": "2026-04-30T22:44:30.901Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-04-30T22:44:30.901Z", "updatedAt": "2026-08-31T11:56:57.153Z"
   },
   {
     "id": "hentaisaturn", "name": "HentaiSaturn", "version": "1.1.1", "author": "Pal",
@@ -1548,7 +1548,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1441782637743181935",
-    "addedAt": "2025-11-22T13:29:27.864Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-22T13:29:27.864Z", "updatedAt": "2026-07-16T12:33:24.314Z"
   },
   {
     "id": "hentaiworld", "name": "HentaiWorld", "version": "1.1.2", "author": "Pal",
@@ -1562,7 +1562,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 4, "threadId": "1441749702734385263", "addedAt": "2025-11-22T11:18:35.546Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "hianime", "name": "HiAnime", "version": "1.1.3", "author": "Thekingcrusher",
@@ -1576,7 +1576,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": true,
     "tags": ["1359183296591823124","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 9, "threadId": "1405395450680447039", "addedAt": "2025-08-14T03:39:46.427Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "hinatasoul-provider", "name": "Hinata Soul", "version": "1.1.8", "author": "Jhoorodr",
@@ -1601,7 +1601,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 1, "threadId": "1495448515072233572",
-    "addedAt": "2026-04-19T15:38:30.083Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-04-19T15:38:30.083Z", "updatedAt": "2026-07-23T19:06:11.791Z"
   },
   {
     "id": "horizontal-scroll", "name": "Horizontal Scroll", "version": "1.2.0", "author": "Kaktus",
@@ -1615,7 +1615,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1514285000395329729",
-    "addedAt": "2026-06-10T15:07:58.149Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-10T15:07:58.149Z", "updatedAt": "2026-07-11T21:09:55.985Z"
   },
   {
     "id": "jkanime", "name": "JkAnime", "version": "1.0.2", "author": "mohaisreal",
@@ -1628,7 +1628,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.9.1", "stars": 0, "threadId": "1492520080989491333",
-    "addedAt": "2026-04-11T13:41:56.990Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-04-11T13:41:56.990Z", "updatedAt": "2026-10-09T22:03:11.746Z"
   },
   {
     "id": "kaa", "name": "KickAssAnime", "version": "1.0.8", "author": "Thekingcrusher",
@@ -1640,7 +1640,7 @@
     "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 6, "threadId": "1407866604762566706",
-    "addedAt": "2025-08-20T23:19:15.472Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-08-20T23:19:15.472Z", "updatedAt": "2026-10-07T10:01:39.534Z"
   },
   {
     "id": "kagane-source", "name": "Kagane", "version": "1.0.2", "author": "jabifx",
@@ -1653,7 +1653,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183211099459916","1437869415344377887"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 1, "threadId": "1441522773745860800", "addedAt": "2025-11-21T20:16:51.459Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "kitsusync", "name": "KitsuSync", "version": "1.3.1", "author": "nnotwen",
@@ -1667,7 +1667,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183211099459916","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1446934454797860955",
-    "addedAt": "2025-12-06T18:40:56.766Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-12-06T18:40:56.766Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "knaben", "name": "Knaben", "version": "1.1.0", "author": "aor-rex",
@@ -1681,7 +1681,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1359259306087940146"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1546892179752882298",
-    "addedAt": "2026-09-08T14:37:15.520Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-08T14:37:15.520Z", "updatedAt": "2026-09-08T16:11:07.982Z"
   },
   {
     "id": "kodik-dub", "name": "Kodik Dub", "version": "0.2.1", "author": "Uximy",
@@ -1694,7 +1694,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148","1505937222891733062","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 1, "threadId": "1549123492094672967",
-    "addedAt": "2026-09-14T18:23:41.838Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-14T18:23:41.838Z", "updatedAt": "2026-09-14T20:50:13.535Z"
   },
   {
     "id": "komiku", "name": "Komiku", "version": "1.0.0", "author": "pal",
@@ -1707,7 +1707,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 5, "threadId": "1439637348169027626", "addedAt": "2025-11-16T15:24:50.972Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "kuramanga", "name": "KuraManga", "version": "1.0.0", "author": "Pal",
@@ -1720,7 +1720,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1547495647207489656",
-    "addedAt": "2026-09-10T06:35:13.373Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-10T06:35:13.373Z", "updatedAt": "2026-09-10T08:42:56.456Z"
   },
   {
     "id": "kuromangas", "name": "Kuro Mangas", "version": "1.0.11", "author": "jhoorodr",
@@ -1748,7 +1748,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 3, "threadId": "1509322165013577899", "addedAt": "2026-05-27T22:27:25.989Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-09-18T16:54:09.074Z"
   },
   {
     "id": "leercapitulo", "name": "LeerCapitulo", "version": "1.1.0", "author": "branrgx",
@@ -1762,7 +1762,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1496723415388786748", "addedAt": "2026-04-23T04:04:30.005Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "leermangaesp", "name": "MangaLect", "version": "2.0.0", "author": "mohaisreal",
@@ -1776,7 +1776,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 1, "threadId": "1509689914189545683", "addedAt": "2026-05-28T22:48:44.225Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-07T13:08:08.627Z"
   },
   {
     "id": "lelmanga", "name": "LelManga", "version": "1.0.1", "author": "pal",
@@ -1790,7 +1790,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1485292014735065320", "addedAt": "2026-03-22T15:00:11.704Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-10-03T18:48:10.721Z"
   },
   {
     "id": "library-grid-layout", "name": "Library Grid Layout", "version": "1.1.2", "author": "Carloss616",
@@ -1804,7 +1804,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.9.1", "stars": 2, "threadId": "1517287039651811400",
-    "addedAt": "2026-06-18T21:57:00.083Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-18T21:57:00.083Z", "updatedAt": "2026-07-09T23:36:51.758Z"
   },
   {
     "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.7.0", "author": "Kaktus",
@@ -1818,7 +1818,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 7, "threadId": "1525547132885401751",
-    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-10-11T18:02:28.365Z"
   },
   {
     "id": "LN-reader", "name": "Light Novel Reader", "version": "1.6.7", "author": "Pal & mohaisreal",
@@ -1832,7 +1832,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 28, "threadId": "1433173588470661180",
-    "addedAt": "2025-10-29T19:20:10.569Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-10-29T19:20:10.569Z", "updatedAt": "2026-09-23T19:07:55.982Z"
   },
   {
     "id": "lst", "name": "LST", "version": "1.0.2", "author": "Sharky",
@@ -1845,7 +1845,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1359183394512048148","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.2", "stars": 0, "threadId": "1512128627997675803",
-    "addedAt": "2026-06-04T16:19:18.906Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-04T16:19:18.906Z", "updatedAt": "2026-09-13T04:48:02.166Z"
   },
   {
     "id": "mal-button", "name": "MAL Button", "version": "1.0.18", "author": "bruuhim",
@@ -1859,7 +1859,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1459672111160234118",
-    "addedAt": "2026-01-10T22:15:50.697Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-01-10T22:15:50.697Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mal-friend-stats", "name": "MAL Friend Stats", "version": "1.0.4", "author": "Bruuhim",
@@ -1873,7 +1873,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1539285918031024138",
-    "addedAt": "2026-08-18T14:52:41.408Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-18T14:52:41.408Z", "updatedAt": "2026-08-19T12:16:56.937Z"
   },
   {
     "id": "mal-unofficial", "name": "MyAnimeList", "version": "1.0.2", "author": "jabifx",
@@ -1887,7 +1887,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148","1359183211099459916"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 3, "threadId": "1437829066597204042", "addedAt": "2025-11-11T15:39:23.049Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "MALSync", "name": "MALSync", "version": "1.1.0", "author": "bas1874",
@@ -1900,7 +1900,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": true,
     "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 8, "threadId": "1444037428007669983", "addedAt": "2025-11-28T18:49:11.755Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "manga-source-updates", "name": "Manga Source Updates", "version": "1.8.8", "author": "Carloss616",
@@ -1914,7 +1914,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1526465762573680720",
-    "addedAt": "2026-07-14T05:49:58.160Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-14T05:49:58.160Z", "updatedAt": "2026-07-23T03:06:46.547Z"
   },
   {
     "id": "mangabaka", "name": "MangaBaka", "version": "1.0.1", "author": "jabifx",
@@ -1928,7 +1928,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1437869415344377887"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1439348217463439451",
-    "addedAt": "2025-11-15T20:15:56.840Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-15T20:15:56.840Z", "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "mangabats", "name": "MangaBats", "version": "1.2.3", "author": "Pal",
@@ -1941,7 +1941,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 8, "threadId": "1456041776615002306", "addedAt": "2025-12-31T21:50:11.493Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mangabuddy", "name": "MangaBuddy", "version": "2.4.2", "author": "Pal",
@@ -1955,7 +1955,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.8.7", "stars": 7, "threadId": "1429860669502783651",
-    "addedAt": "2025-10-20T15:55:49.136Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-10-20T15:55:49.136Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mangadex", "name": "Mangadex", "version": "1.0.0", "author": "kiko",
@@ -1967,7 +1967,7 @@
     "permalink": "https://www.virustotal.com/gui/file/c73c2ce2438e8e9fd4924f72d8f5f27d09dc744f39af761cff9ede3c5aa132d6",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 2, "threadId": "1436152509885448322",
-    "addedAt": "2025-11-07T00:37:20.780Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-07T00:37:20.780Z", "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "mangadex-source", "name": "MangaDex", "version": "1.0.1", "author": "jabifx",
@@ -1981,7 +1981,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1437863059556143184",
-    "addedAt": "2025-11-11T17:54:27.602Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-11T17:54:27.602Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mangafire", "name": "MangaFire", "version": "1.0.3", "author": "jabifx",
@@ -1995,7 +1995,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 8, "threadId": "1433927730399023174", "addedAt": "2025-10-31T21:16:52.016Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "mangaflix-ptbr", "name": "MangaFlix", "version": "1.0.0", "author": "Skrapt",
@@ -2006,7 +2006,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 0, "threadId": "1496899012962553887",
-    "addedAt": "2026-04-23T15:42:15.729Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-04-23T15:42:15.729Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mangafreak", "name": "MangaFreak", "version": "1.0.3", "author": "pal",
@@ -2020,7 +2020,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 8, "threadId": "1428453575734067210",
-    "addedAt": "2025-10-16T18:44:31.839Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-10-16T18:44:31.839Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mangahub", "name": "MangaHub", "version": "1.0.0", "author": "Pal",
@@ -2034,7 +2034,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1504517120476708924", "addedAt": "2026-05-14T16:13:54.098Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-05T16:59:38.078Z"
   },
   {
     "id": "mangakatana", "name": "MangaKatana", "version": "1.0.0", "author": "Pal",
@@ -2048,7 +2048,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1499455893635469343", "addedAt": "2026-04-30T17:02:23.586Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "mangalib", "name": "MangaLib", "version": "1.0.3", "author": "Rafou376",
@@ -2060,7 +2060,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1549530163774099537",
-    "addedAt": "2026-09-15T21:19:39.922Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-15T21:19:39.922Z", "updatedAt": "2026-10-11T22:01:40.711Z"
   },
   {
     "id": "mangalivre-tv", "name": "MangaLivre.tv", "version": "1.1.10", "author": "jhoorodr",
@@ -2074,7 +2074,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 4, "threadId": "1407944055026880572", "addedAt": "2025-08-21T04:27:01.054Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-09-12T16:48:01.699Z"
   },
   {
     "id": "mangaoni", "name": "MangaOni", "version": "1.0.0", "author": "mohaisreal",
@@ -2087,7 +2087,7 @@
     "permalink": "https://www.virustotal.com/gui/file/2b066bff180770323c6bc9d63af0d9b5a2c0b1ee4685c7e9d3e3f94c287fe173",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 0, "threadId": "1496554802883072110",
-    "addedAt": "2026-04-22T16:54:29.651Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-04-22T16:54:29.651Z", "updatedAt": "2026-08-12T00:02:31.648Z"
   },
   {
     "id": "mangapark", "name": "MangaPark", "version": "1.0.3", "author": "ari___",
@@ -2099,7 +2099,7 @@
     "permalink": "https://www.virustotal.com/gui/file/e18ce244821562b06c653d57c247bfe2ad38a9a440a27de26a0dfce28c3f08f9",
     "workingTag": false, "brokenTag": true, "deprecatedTag": false, "tags": ["1359183211099459916"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 3, "threadId": "1430638767667937454",
-    "addedAt": "2025-10-22T19:27:42.195Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-10-22T19:27:42.195Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mangapill", "name": "Mangapill", "version": "1.0.1", "author": "Island",
@@ -2121,7 +2121,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1497148622620328006", "addedAt": "2026-04-24T08:14:07.309Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mangas-origines", "name": "Mangas Origines", "version": "1.0.3", "author": "Rafou376",
@@ -2133,7 +2133,7 @@
     "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1547761989194096742",
-    "addedAt": "2026-09-11T00:13:34.251Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-11T00:13:34.251Z", "updatedAt": "2026-10-11T22:01:40.711Z"
   },
   {
     "id": "mangataro", "name": "MangaTaro", "version": "1.0.0", "author": "Rafou376",
@@ -2158,7 +2158,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1558597669386059836",
-    "addedAt": "2026-10-10T21:50:41.726Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-10T21:50:41.726Z", "updatedAt": "2026-10-10T22:03:41.481Z"
   },
   {
     "id": "mangaupdates", "name": "MangaUpdates", "version": "1.0.2", "author": "Carloss616",
@@ -2172,7 +2172,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1437869415344377887","1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1509323088251195533",
-    "addedAt": "2026-05-27T22:31:06.106Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-27T22:31:06.106Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mangaupdates-sync", "name": "MangaUpdates Sync", "version": "1.2.3", "author": "Carloss616",
@@ -2186,7 +2186,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505936178292064266","1359183211099459916","1359183394512048148","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1509327418685395095",
-    "addedAt": "2026-05-27T22:48:18.562Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-27T22:48:18.562Z", "updatedAt": "2026-07-14T07:09:00.353Z"
   },
   {
     "id": "mangaworld", "name": "MangaWorld", "version": "1.0.2", "author": "kRYstall9",
@@ -2199,7 +2199,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 8, "threadId": "1359432599935651861", "addedAt": "2025-04-09T07:39:48.861Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-02T12:55:45.417Z"
   },
   {
     "id": "mangaworldadult", "name": "MangaWorldAdult", "version": "1.0.1", "author": "pal",
@@ -2213,7 +2213,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 5, "threadId": "1441502445787418624", "addedAt": "2025-11-21T18:56:04.896Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-10-03T22:44:51.159Z"
   },
   {
     "id": "manhastro", "name": "Manhastro", "version": "1.0.2", "author": "jhoorodr",
@@ -2227,7 +2227,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.8.7", "stars": 0, "threadId": "1516274030238498996",
-    "addedAt": "2026-06-16T02:51:39.818Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-16T02:51:39.818Z", "updatedAt": "2026-08-01T04:58:18.046Z"
   },
   {
     "id": "Marketplace-Plus", "name": "Marketplace+", "version": "1.2.2", "author": "bas1874",
@@ -2241,7 +2241,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 23, "threadId": "1522636904766505030",
-    "addedAt": "2026-07-03T16:15:27.322Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-03T16:15:27.322Z", "updatedAt": "2026-09-20T18:32:55.178Z"
   },
   {
     "id": "media-play-pause", "name": "Media Key Play/Pause", "version": "1.0.0", "author": "Faddix",
@@ -2283,7 +2283,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1497093864585039924", "addedAt": "2026-04-24T04:36:31.976Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mikan-project", "name": "Mikan Project", "version": "1.1.3", "author": "Elisoar",
@@ -2297,7 +2297,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1526790354408439839",
-    "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "miruro-v2", "name": "Miruro", "version": "1.0.3", "author": "DefnoJae",
@@ -2323,7 +2323,7 @@
     "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1557990549120880730",
-    "addedAt": "2026-10-09T05:38:12.975Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-09T05:38:12.975Z", "updatedAt": "2026-10-13T14:01:39.050Z"
   },
   {
     "id": "my-list-table-view", "name": "My List Table View", "version": "1.0.0", "author": "Dadangdut33",
@@ -2337,7 +2337,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 7, "threadId": "1472303380503199921", "addedAt": "2026-02-14T18:47:59.986Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "myanimelistsync", "name": "MyAnimeListSync", "version": "1.1.4", "author": "nnotwen",
@@ -2351,7 +2351,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183211099459916","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 11, "threadId": "1449622275044147210",
-    "addedAt": "2025-12-14T04:41:23.050Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-12-14T04:41:23.050Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "MyDubList", "name": "MyDubList", "version": "1.1.3", "author": "bas1874",
@@ -2365,7 +2365,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 6, "threadId": "1445070621309538586",
-    "addedAt": "2025-12-01T15:14:44.234Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-12-01T15:14:44.234Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "mynimeku", "name": "MyNimeKu", "version": "1.3.1", "author": "Pal",
@@ -2379,7 +2379,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505936860441083904","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1459253757207515197",
-    "addedAt": "2026-01-09T18:33:27.342Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-01-09T18:33:27.342Z", "updatedAt": "2026-10-03T18:48:10.721Z"
   },
   {
     "id": "mynimekumanga", "name": "MyNimeKu (Manga)", "version": "1.2.1", "author": "Pal",
@@ -2392,7 +2392,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1488609005155913888",
-    "addedAt": "2026-03-31T18:40:43.847Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-03-31T18:40:43.847Z", "updatedAt": "2026-10-03T18:48:10.721Z"
   },
   {
     "id": "nartag", "name": "Nartag (Discontinued)", "version": "1.1.0", "author": "branrgx",
@@ -2406,7 +2406,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1497001381897310238", "addedAt": "2026-04-23T22:29:02.385Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
     "id": "nekobt", "name": "nekoBT", "version": "1.0.2", "author": "bruuhim",
@@ -2418,7 +2418,7 @@
     "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 9, "threadId": "1493206877335588894",
-    "addedAt": "2026-04-13T11:11:01.999Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-04-13T11:11:01.999Z", "updatedAt": "2026-08-18T08:14:45.384Z"
   },
   {
     "id": "nexustoons", "name": "Nexus Toons", "version": "1.0.2", "author": "Jhoorodr",
@@ -2445,7 +2445,7 @@
     "permalink": "https://www.virustotal.com/gui/file/675d3b929a43819a0b2e76389ac6bd8f136c7fde1a53172efeaa00e8c052c615",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 2, "threadId": "1507914243658354689",
-    "addedAt": "2026-05-24T01:12:51.380Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-24T01:12:51.380Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "nhentai-cs", "name": "nhentai", "version": "1.0.2", "author": "nnotwen",
@@ -2459,7 +2459,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1437869415344377887"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1507909761130041404",
-    "addedAt": "2026-05-24T00:55:02.662Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-24T00:55:02.662Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "nihonkuni", "name": "NihonKuni", "version": "1.0.1", "author": "Rafou376",
@@ -2470,7 +2470,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1554959063291400332",
-    "addedAt": "2026-09-30T20:52:10.431Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-30T20:52:10.431Z", "updatedAt": "2026-10-11T22:01:40.711Z"
   },
   {
     "id": "no-cap-ratings", "name": "No Cap Ratings", "version": "1.0.0", "author": "nnotwen",
@@ -2483,7 +2483,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1512747633377022022",
-    "addedAt": "2026-06-06T09:19:01.289Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-06T09:19:01.289Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "nontonanime", "name": "NonTonAnime", "version": "1.0.0", "author": "Pal",
@@ -2497,7 +2497,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1469643019480338473", "addedAt": "2026-02-07T10:36:40.491Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "notes", "name": "Notes", "version": "1.0.5", "author": "nnotwen",
@@ -2511,7 +2511,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1451408804242788352",
-    "addedAt": "2025-12-19T03:00:24.803Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-12-19T03:00:24.803Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "nyaa", "name": "Nyaa", "version": "2.1.0", "author": "Island",
@@ -2552,7 +2552,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1492104499609993409", "addedAt": "2026-04-10T10:10:34.668Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "olympusscanlation", "name": "Olympus Scanlation", "version": "1.2.1", "author": "branrgx",
@@ -2566,7 +2566,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1514856677609050203", "addedAt": "2026-06-12T04:59:36.618Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "oneko", "name": "Onekojs", "version": "1.0.1", "author": "jabifx & Pal",
@@ -2578,7 +2578,7 @@
     "permalink": "https://www.virustotal.com/gui/file/330a4dfa9135974055c8e052404189b8173a1ae8259268980286669bbef8e644",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1441114950557761576",
-    "addedAt": "2025-11-20T17:16:18.834Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-20T17:16:18.834Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "oppai-stream-online-streaming", "name": "EN | Oppai Stream (18+)", "version": "1.0.3",
@@ -2593,7 +2593,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 2, "threadId": "1412517567330779346", "addedAt": "2025-09-02T19:20:31.359Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "picked-for-you", "name": "Picked For You", "version": "1.2.0", "author": "kRYstall9",
@@ -2607,7 +2607,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 8, "threadId": "1369058205660872844",
-    "addedAt": "2025-05-05T21:08:32.101Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-05-05T21:08:32.101Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "pornhub", "name": "PornHub (18+)", "version": "1.0.1", "author": "eepyboba",
@@ -2618,7 +2618,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1437869415344377887"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 16, "threadId": "1507022885674287276",
-    "addedAt": "2026-05-21T14:10:55.076Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-21T14:10:55.076Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "ptscans-provider", "name": "PT Scans", "version": "1.0.4", "author": "Skrapt",
@@ -2629,7 +2629,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 0, "threadId": "1495611401790558379",
-    "addedAt": "2026-04-20T02:25:45.303Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-04-20T02:25:45.303Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "quick-access", "name": "Quick Access", "version": "1.0.6", "author": "nnotwen",
@@ -2656,7 +2656,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 8, "threadId": "1492949932221403298",
-    "addedAt": "2026-04-12T18:10:01.510Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-04-12T18:10:01.510Z", "updatedAt": "2026-07-14T11:06:23.114Z"
   },
   {
     "id": "ranime-discussion", "name": "r/anime Discussion", "version": "1.2.0", "author": "Kaktus",
@@ -2670,7 +2670,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1504185976866734210",
-    "addedAt": "2026-05-13T18:18:03.309Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-13T18:18:03.309Z", "updatedAt": "2026-07-12T14:59:00.373Z"
   },
   {
     "id": "rareanime", "name": "RareAnime by Jae", "version": "0.3.11", "author": "Jae",
@@ -2697,7 +2697,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1489303499136041132", "addedAt": "2026-04-02T16:40:24.115Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-17T16:40:36.034Z"
   },
   {
     "id": "reanime", "name": "Reanime", "version": "1.1.3", "author": "Sharky",
@@ -2708,7 +2708,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 12, "threadId": "1548645673803579503",
-    "addedAt": "2026-09-13T10:45:01.080Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-13T10:45:01.080Z", "updatedAt": "2026-09-14T00:46:43.617Z"
   },
   {
     "id": "rncanlation", "name": "RNcanlation", "version": "1.0.1", "author": "branrgx",
@@ -2722,7 +2722,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1514896594313543761", "addedAt": "2026-06-12T07:38:13.502Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "schedule-editor", "name": "Schedule Editor", "version": "1.1.1", "author": "Kaktus",
@@ -2736,7 +2736,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1525301921919795411",
-    "addedAt": "2026-07-11T00:45:16.925Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-11T00:45:16.925Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "score-extended", "name": "Score Extended", "version": "1.0.0", "author": "nnotwen",
@@ -2749,7 +2749,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 9, "threadId": "1545782561492443226", "addedAt": "2026-09-05T13:08:01.911Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-09-05T16:05:39.350Z"
   },
   {
     "id": "SeaBoost", "name": "SeaBoost", "version": "0.3.0", "author": "Jae",
@@ -2763,7 +2763,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1555695375074201764",
-    "addedAt": "2026-10-02T21:38:00.840Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-02T21:38:00.840Z", "updatedAt": "2026-10-04T22:46:42.022Z"
   },
   {
     "id": "seachat", "name": "SeaChat", "version": "0.9.1", "author": "DefnoJae",
@@ -2795,7 +2795,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1557012330292707338",
-    "addedAt": "2026-10-06T12:51:07.432Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-06T12:51:07.432Z", "updatedAt": "2026-10-06T14:49:12.107Z"
   },
   {
     "id": "SeaFit", "name": "SeaFit", "version": "0.1.3", "author": "Jae",
@@ -2809,7 +2809,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1556341474629652570",
-    "addedAt": "2026-10-04T16:25:22.978Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-04T16:25:22.978Z", "updatedAt": "2026-10-04T18:46:25.555Z"
   },
   {
     "id": "seakit", "name": "SeaKit", "version": "0.1.11", "author": "DefnoJae",
@@ -2823,7 +2823,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1555400322665680996",
-    "addedAt": "2026-10-02T02:05:34.864Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-02T02:05:34.864Z", "updatedAt": "2026-10-10T14:03:36.585Z"
   },
   {
     "id": "seanime-download-notifier", "name": "Seanime Download Notifier", "version": "1.0.0",
@@ -2837,7 +2837,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1527972253126361118",
-    "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-09-21T19:03:39.797Z"
   },
   {
     "id": "seanime-wrapped", "name": "Seanime Wrapped", "version": "1.0.13", "author": "DefnoJae",
@@ -2851,7 +2851,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1553865953186414682",
-    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-10-09T06:02:33.300Z"
   },
   {
     "id": "seapac", "name": "SeaPac", "version": "0.3.1", "author": "DefnoJae",
@@ -2878,7 +2878,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1555674945059553311",
-    "addedAt": "2026-10-02T20:16:49.945Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-02T20:16:49.945Z", "updatedAt": "2026-10-04T02:46:28.909Z"
   },
   {
     "id": "searoulette", "name": "SeaRoulette", "version": "0.1.20", "author": "DefnoJae",
@@ -2892,7 +2892,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1558568259605893190",
-    "addedAt": "2026-10-10T19:53:49.888Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-10-10T19:53:49.888Z", "updatedAt": "2026-10-13T02:07:35.005Z"
   },
   {
     "id": "seastats", "name": "SeaStats", "version": "0.1.4", "author": "Crashdaemon",
@@ -2905,7 +2905,7 @@
     "permalink": "https://www.virustotal.com/gui/file/44fc86be75c5a147c4aa98e03bc748c1df2c5e149881d8fec159298c75c5141e",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 7, "threadId": "1514810175322587248",
-    "addedAt": "2026-06-12T01:54:49.609Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-12T01:54:49.609Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "seasubs", "name": "SeaSubs", "version": "0.15.3", "author": "DefnoJae",
@@ -2929,7 +2929,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 7, "threadId": "1506801478239522977",
-    "addedAt": "2026-05-20T23:31:07.430Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-20T23:31:07.430Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "SeaUtils-Kolex06-Version", "name": "SeaUtils Kolex06-Version", "version": "1.2.75", "author": "Kolex06",
@@ -2941,7 +2941,7 @@
     "permalink": "https://www.virustotal.com/gui/file/36144a1817a39554ce805d06c91dcb5438b56b41ac71a3dd6c0d029983e643b4",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1508838426366185724",
-    "addedAt": "2026-05-26T14:25:13.708Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-26T14:25:13.708Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "senshi", "name": "Senshi", "version": "1.1.0", "author": "Thekingcrusher",
@@ -2953,7 +2953,7 @@
     "brokenTag": true, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 2, "threadId": "1496830248463896647",
-    "addedAt": "2026-04-23T11:09:00.995Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-04-23T11:09:00.995Z", "updatedAt": "2026-09-27T14:37:35.373Z"
   },
   {
     "id": "setwatched", "name": "SetWatched", "version": "1.0.0", "author": "./Zzzz",
@@ -2966,7 +2966,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1402784020739264612",
-    "addedAt": "2025-08-06T22:42:53.011Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-08-06T22:42:53.011Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "shademanga", "name": "Shade Manga", "version": "1.2.0", "author": "yerasuu",
@@ -2978,7 +2978,7 @@
     "permalink": "https://www.virustotal.com/gui/file/5ab8c291da2a5ae61664630aeba9232d70c134f70b13c267a2a5474a6e39c5ce",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1552963799559053392",
-    "addedAt": "2026-09-25T08:43:42.487Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-25T08:43:42.487Z", "updatedAt": "2026-09-25T11:10:06.712Z"
   },
   {
     "id": "shikimorisync", "name": "ShikimoriSync", "version": "1.3.1", "author": "nnotwen",
@@ -2992,7 +2992,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183211099459916","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1443847613899210853",
-    "addedAt": "2025-11-28T06:14:56.545Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-28T06:14:56.545Z", "updatedAt": "2026-08-28T15:54:04.369Z"
   },
   {
     "id": "shiro", "name": "Shiro", "version": "1.1.2", "author": "Pal",
@@ -3019,7 +3019,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1437869415344377887"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 10, "threadId": "1438609701993447576",
-    "addedAt": "2025-11-13T19:21:21.031Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-13T19:21:21.031Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "simklsync", "name": "SimklSync", "version": "3.0.5", "author": "nnotwen",
@@ -3032,7 +3032,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1454854331265454152",
-    "addedAt": "2025-12-28T15:11:42.460Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-12-28T15:11:42.460Z", "updatedAt": "2026-10-12T14:02:32.414Z"
   },
   {
     "id": "simklv2", "name": "Simkl V2", "version": "2.5.5", "author": "aor-rex",
@@ -3046,7 +3046,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1360636715643179231","1437869415344377887"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1536115597983621150",
-    "addedAt": "2026-08-09T20:54:58.207Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-09T20:54:58.207Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "skip-ahead-video-player", "name": "Skip Ahead", "version": "1.2.2", "author": "EnnioMrk",
@@ -3060,7 +3060,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1359183394512048148","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1530607112260948008",
-    "addedAt": "2026-07-25T16:06:12.868Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-25T16:06:12.868Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "skip-data-manager", "name": "Skip Data Manager", "version": "1.1.0", "author": "Thekingcrusher",
@@ -3071,7 +3071,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183147123867881","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 11, "threadId": "1497940442493485127",
-    "addedAt": "2026-04-26T12:40:31.878Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-04-26T12:40:31.878Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "slashlib", "name": "SlashLib", "version": "1.0.3", "author": "Rafou376",
@@ -3083,7 +3083,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1549520251232976966",
-    "addedAt": "2026-09-15T20:40:16.588Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-15T20:40:16.588Z", "updatedAt": "2026-10-11T22:01:40.711Z"
   },
   {
     "id": "snow-effect", "name": "Seanime Snow effect", "version": "1.1.1", "author": "Pal",
@@ -3097,7 +3097,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1457096606825582828",
-    "addedAt": "2026-01-03T19:41:42.613Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-01-03T19:41:42.613Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "stremio-custom-source", "name": "Stremio Catalog", "version": "0.10.2", "author": "Viren070",
@@ -3109,7 +3109,7 @@
     "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1437869415344377887"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1499809709073367070",
-    "addedAt": "2026-05-01T16:28:19.760Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-01T16:28:19.760Z", "updatedAt": "2026-09-17T20:52:55.786Z"
   },
   {
     "id": "SubsPlease-Provider", "name": "SubsPlease", "version": "1.0.1", "author": "Bas1874",
@@ -3123,7 +3123,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1409580664063267023",
-    "addedAt": "2025-08-25T16:50:19.055Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-08-25T16:50:19.055Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "subtitle-engine", "name": "Subtitle Engine", "version": "1.1.2", "author": "Thekingcrusher",
@@ -3134,7 +3134,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
     "brokenTag": true, "deprecatedTag": false, "tags": ["1359183147123867881","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 11, "threadId": "1462667157585530942",
-    "addedAt": "2026-01-19T04:37:05.410Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-01-19T04:37:05.410Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "sushiscan", "name": "SushiScan", "version": "1.0.0", "author": "branrgx",
@@ -3148,7 +3148,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1515441632437211246", "addedAt": "2026-06-13T19:44:00.717Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-31T11:56:57.153Z"
   },
   {
     "id": "taiyo", "name": "Taiyo", "version": "1.0.2", "author": "pal",
@@ -3162,7 +3162,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 2, "threadId": "1478816312879878205", "addedAt": "2026-03-04T18:08:04.069Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-10-03T18:48:10.721Z"
   },
   {
     "id": "thepiratebay", "name": "ThePiratebay", "version": "1.0.2", "author": "jabifx",
@@ -3176,7 +3176,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1438953916183089244",
-    "addedAt": "2025-11-14T18:09:08.089Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-14T18:09:08.089Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "thepiratebayv2", "name": "ThePirateBay V2", "version": "3.1.1", "author": "aor-rex",
@@ -3190,7 +3190,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1538548008889749726",
-    "addedAt": "2026-08-16T14:00:30.159Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-16T14:00:30.159Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "tmdb", "name": "TMDB", "version": "1.0.0", "author": "eepyboba",
@@ -3201,7 +3201,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1437869415344377887"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1507030122820141197",
-    "addedAt": "2026-05-21T14:39:40.546Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-21T14:39:40.546Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "tmdbv2", "name": "TMDB V2", "version": "1.1.6", "author": "aor-rex",
@@ -3214,7 +3214,7 @@
     "permalink": "https://www.virustotal.com/gui/file/74169ea2c7d4871c60639d0dc826a7ac653223d99089aaab1d9c6146885a86a1",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1437869415344377887"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1536052519996882954",
-    "addedAt": "2026-08-09T16:44:19.243Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-09T16:44:19.243Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "Tokyo-Toshokan-Provider", "name": "Tokyo Toshokan", "version": "1.0.1", "author": "Bas1874",
@@ -3228,7 +3228,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1405912585957806191",
-    "addedAt": "2025-08-15T13:54:41.085Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-08-15T13:54:41.085Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "Tokyo-Toshokan-Raws-Provider", "name": "Tokyo Toshokan (Raws)", "version": "1.0.0", "author": "Bas1874",
@@ -3242,7 +3242,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1405912585957806191",
-    "addedAt": "2025-08-15T13:54:41.085Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-08-15T13:54:41.085Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "tomato", "name": "Tomato", "version": "1.0.0", "author": "Jhoorodr",
@@ -3256,7 +3256,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1547069388954402867",
-    "addedAt": "2026-09-09T02:21:25.486Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-09T02:21:25.486Z", "updatedAt": "2026-09-12T20:46:21.963Z"
   },
   {
     "id": "toonanime-online-streaming", "name": "FR | ToonAnime", "version": "1.1.4", "author": "TropicalFrog3",
@@ -3270,7 +3270,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 6, "threadId": "1405015716100313139", "addedAt": "2025-08-13T02:30:50.648Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "toongod", "name": "Toongod", "version": "1.0.5", "author": "branrgx",
@@ -3284,7 +3284,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 1, "threadId": "1515218781742567424", "addedAt": "2026-06-13T04:58:28.971Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "toonily", "name": "Toonily", "version": "1.0.0", "author": "nnotwen",
@@ -3298,7 +3298,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": true,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1510606251157885000", "addedAt": "2026-05-31T11:29:55.983Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "topanimes", "name": "Top Animes", "version": "1.0.6", "author": "Jhoorodr",
@@ -3326,7 +3326,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1513757266187128943",
-    "addedAt": "2026-06-09T04:10:56.509Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-09T04:10:56.509Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "torrentio", "name": "Torrentio", "version": "0.1.2", "author": "Crashdaemon",
@@ -3340,7 +3340,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1513853305615421560",
-    "addedAt": "2026-06-09T10:32:34.093Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-09T10:32:34.093Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "torrentiov2", "name": "Torrentio V2", "version": "2.2.4", "author": "aor-rex",
@@ -3354,7 +3354,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1359259306087940146","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 7, "threadId": "1537042708848181268",
-    "addedAt": "2026-08-12T10:18:58.662Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-12T10:18:58.662Z", "updatedAt": "2026-08-19T04:17:44.180Z"
   },
   {
     "id": "traktsync", "name": "TraktSync", "version": "1.2.7", "author": "nnotwen",
@@ -3368,7 +3368,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1447662077849370805",
-    "addedAt": "2025-12-08T18:52:15.620Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-12-08T18:52:15.620Z", "updatedAt": "2026-09-13T08:48:03.990Z"
   },
   {
     "id": "tsukihime", "name": "Tsukihime", "version": "0.1.2", "author": "Crashdaemon",
@@ -3382,7 +3382,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 6, "threadId": "1517157611693281401",
-    "addedAt": "2026-06-18T13:22:42.053Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-18T13:22:42.053Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "tvmaze-cs", "name": "TVMaze", "version": "1.0.2", "author": "nnotwen",
@@ -3395,7 +3395,7 @@
     "permalink": "https://www.virustotal.com/gui/file/bed482379e0ab6efc66246a39c27359a83744043f9e30093b221ac449de6615e",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1437869415344377887"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 2, "threadId": "1531338246678646876",
-    "addedAt": "2026-07-27T16:31:28.897Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-07-27T16:31:28.897Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "uchuujin-projects", "name": "Uchuujin Projects", "version": "1.0.1", "author": "branrgx",
@@ -3409,7 +3409,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 1, "threadId": "1497089617281683546", "addedAt": "2026-04-24T04:19:39.340Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "ui-translation", "name": "UI Translation", "version": "1.4.4", "author": "jabifx & Pal",
@@ -3421,7 +3421,7 @@
     "permalink": "https://www.virustotal.com/gui/file/0850046b77e42f3149c7a3dd5709db4960c292d3f4c9e83db0edd5e0826afab1",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 10, "threadId": "1431350740038717561",
-    "addedAt": "2025-10-24T18:36:49.636Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-10-24T18:36:49.636Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "uniquestream", "name": "UniqueStream", "version": "1.1.1", "author": "Sharky",
@@ -3432,7 +3432,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1433178980625944757",
-    "addedAt": "2025-10-29T19:41:36.159Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-10-29T19:41:36.159Z", "updatedAt": "2026-09-15T20:49:42.753Z"
   },
   {
     "id": "untracked", "name": "Untracked", "version": "1.0.3", "author": "nnotwen",
@@ -3446,7 +3446,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1450902758860525668",
-    "addedAt": "2025-12-17T17:29:34.182Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-12-17T17:29:34.182Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "vault", "name": "Vault", "version": "1.2.6", "author": "nnotwen",
@@ -3460,7 +3460,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1443700822121648168",
-    "addedAt": "2025-11-27T20:31:38.658Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-11-27T20:31:38.658Z", "updatedAt": "2026-08-18T16:18:11.633Z"
   },
   {
     "id": "vidsrc", "name": "VidSrc", "version": "1.0.6", "author": "aor-rex",
@@ -3474,7 +3474,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259306087940146","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1537766366797373491",
-    "addedAt": "2026-08-14T10:14:32.162Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-14T10:14:32.162Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "vostfree-online-streaming", "name": "FR | Vostfree", "version": "1.0.0", "author": "TropicalFrog3",
@@ -3488,7 +3488,7 @@
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1499550391975546900", "addedAt": "2026-04-30T23:17:53.746Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-08-27T00:06:58.007Z"
   },
   {
     "id": "waifu-dex", "name": "WaifuDex", "version": "1.0.0", "author": "Pal",
@@ -3516,7 +3516,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359259306087940146","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 10, "threadId": "1409962015572885625",
-    "addedAt": "2025-08-26T18:05:40.340Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-08-26T18:05:40.340Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "Watch-Next-Kolex06-Version", "name": "Watch Next Kolex06-Version", "version": "1.0.7",
@@ -3530,7 +3530,7 @@
     "permalink": "https://www.virustotal.com/gui/file/c2e31cf17437008c9c436256b025813c6a4343b0f0a611f0735459ec055fc87e",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1513646051125366924",
-    "addedAt": "2026-06-08T20:49:00.772Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-06-08T20:49:00.772Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "watch-order", "name": "Watch Order", "version": "1.0.0", "author": "Bas1874",
@@ -3544,7 +3544,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 6, "threadId": "1412179374429573130",
-    "addedAt": "2025-09-01T20:56:39.888Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2025-09-01T20:56:39.888Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "webtoons", "name": "WebToons", "version": "1.0.0", "author": "eepyboba",
@@ -3555,7 +3555,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1437869415344377887"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1507446215137296515",
-    "addedAt": "2026-05-22T18:13:04.685Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-05-22T18:13:04.685Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "webtoons-manhua", "name": "WebToons", "version": "1.0.0", "author": "eepyboba",
@@ -3566,7 +3566,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
     "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1507465388223365171", "addedAt": "2026-05-22T19:29:15.905Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "weebcentral", "name": "WeebCentral", "version": "1.0.1", "author": "Island",
@@ -3587,7 +3587,7 @@
     "permalink": "https://www.virustotal.com/gui/file/893fac07ba4b0c01479c161371a6fa449bd11800347c637249487991dc23cde5",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1552338497065582715",
-    "addedAt": "2026-09-23T15:18:58.755Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-23T15:18:58.755Z", "updatedAt": "2026-10-07T18:08:07.438Z"
   },
   {
     "id": "xanime", "name": "XAnime", "version": "1.0.0", "author": "fampep",
@@ -3600,7 +3600,7 @@
     "permalink": "https://www.virustotal.com/gui/file/86488398d240162ff5f5aeac482bf54909255ba13a38c3b418ee83c5a47e4d8a",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183296591823124"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 0, "threadId": "1536389866600931458",
-    "addedAt": "2026-08-10T15:04:48.941Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-08-10T15:04:48.941Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
     "id": "xcomic", "name": "xComic", "version": "1.0.0", "author": "Pal",
@@ -3613,7 +3613,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1554807028420059176",
-    "addedAt": "2026-09-30T10:48:02.493Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-30T10:48:02.493Z", "updatedAt": "2026-09-30T14:42:34.677Z"
   },
   {
     "id": "youtube", "name": "YouTube", "version": "1.0.0", "author": "eepyboba",
@@ -3624,7 +3624,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
     "brokenTag": true, "deprecatedTag": false, "tags": ["1437869415344377887"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1507018570071150754", "addedAt": "2026-05-21T13:53:46.156Z",
-    "updatedAt": "2026-10-14T22:02:23.218Z"
+    "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "zazaza", "name": "ZazaZa", "version": "1.0.2", "author": "Rafou376",
@@ -3636,6 +3636,6 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1549761624804429824",
-    "addedAt": "2026-09-16T12:39:24.532Z", "updatedAt": "2026-10-14T22:02:23.218Z"
+    "addedAt": "2026-09-16T12:39:24.532Z", "updatedAt": "2026-10-11T22:01:40.711Z"
   }
 ]
