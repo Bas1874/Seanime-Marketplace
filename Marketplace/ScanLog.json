@@ -651,11 +651,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1781872625410, "hadWorkingTag": false
   },
   {
-    "id": "custom-anime-metadata", "version": "1.2.2",
+    "id": "custom-anime-metadata", "version": "1.2.5",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/custom-anime-metadata/main.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1c3a82bf430987d9e6aef4a65e58bc2357054829df0caaad002aecbcc7f6efb5",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792260193873
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/9d752959226b580cf54c9ff0392355746cdade82c3394eca8be5e05ee3137895",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792362294971
   },
   {
     "id": "custom-css-manager", "version": "1.0.10",
