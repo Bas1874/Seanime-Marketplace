@@ -1524,11 +1524,11 @@
     "lastWorkingVersion": "3.10.4", "timestamp": 1781440448205, "hadWorkingTag": true
   },
   {
-    "id": "seasubs", "version": "0.15.3",
+    "id": "seasubs", "version": "0.15.4",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaSubs/main/code.ts", "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6d6baea5f5ea4cc00360def4aaf97c92a2536022331e8bf90499328cd4b09a43",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792274589577
+    "permalink": "https://www.virustotal.com/gui/file/dba99b78daac621df9edc5e9b209abf79d168f3ba15e26e7976fc9e467b71bb6",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792347963016
   },
   {
     "id": "SeaUtils-Kolex06-Version", "version": "1.2.75",
@@ -1755,11 +1755,11 @@
     "timestamp": 1771865660365, "hadWorkingTag": true, "lastWorkingVersion": "3.10.4"
   },
   {
-    "id": "vault", "version": "1.2.6",
+    "id": "vault", "version": "2.0.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8e83dcaea7b2e89c8489a734e4e4dee70f61ece3bea56b8fcece22a6d7bf0064",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1787069891383
+    "permalink": "https://www.virustotal.com/gui/file/f457765582089f8a93aa4b6d9d84cd8afd301af4de27f10b2baec151c785bbe6",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792348009431
   },
   {
     "id": "vidsrc", "version": "1.0.6",
