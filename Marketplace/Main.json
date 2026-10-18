@@ -587,7 +587,7 @@
     "icon": "https://island.clap.ing/api/extensions/icons/animetosho.png",
     "manifestURI": "https://island.clap.ing/api/extensions/anime-torrent-providers/animetosho/animetosho.json",
     "payloadURI": "", "website": "", "flags": "0/0", "flaggedBy": [], "permalink": "", "official": false,
-    "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z"
+    "addedAt": "2026-07-03T16:17:46.582Z", "updatedAt": "2026-07-03T16:17:46.582Z", "brokenTag": true
   },
   {
     "id": "animetosho-new", "name": "AnimeTosho (NEW)", "version": "2.5.1", "author": "Faddix, Island",
@@ -1484,7 +1484,7 @@
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/hentai-origines/manifest.json",
     "payloadURI": "", "website": "https://hentai-origines.com", "flags": "Unscanned", "flaggedBy": [],
     "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
+    "tags": ["1561358697974997147","1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1547766165139497031",
     "addedAt": "2026-09-11T00:30:09.874Z", "updatedAt": "2026-10-11T22:01:40.711Z"
   },
@@ -2310,7 +2310,7 @@
     "permalink": "https://www.virustotal.com/gui/file/b70894f00ff3c9a8425392ce3df55a376320856910f172792e988b820730c1cf",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1560852567607742514",
+    "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1560852567607742514",
     "addedAt": "2026-10-17T03:10:51.356Z", "updatedAt": "2026-10-17T06:03:57.632Z"
   },
   {
@@ -2908,18 +2908,18 @@
     "addedAt": "2026-06-12T01:54:49.609Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "seasubs", "name": "SeaSubs", "version": "0.15.3", "author": "DefnoJae",
+    "id": "seasubs", "name": "SeaSubs", "version": "0.15.4", "author": "DefnoJae",
     "description": "Find, load, or generate English Forced / Signs & Songs subtitles when the current release does not include them.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/DefnoJae/SeaSubs/main/marketplace-icon.png",
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/SeaSubs/main/Manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeaSubs/main/code.ts",
     "website": "https://github.com/DefnoJae/SeaSubs", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6d6baea5f5ea4cc00360def4aaf97c92a2536022331e8bf90499328cd4b09a43",
+    "permalink": "https://www.virustotal.com/gui/file/dba99b78daac621df9edc5e9b209abf79d168f3ba15e26e7976fc9e467b71bb6",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936927189110988","1359183296591823124","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1557588336183480381",
-    "addedAt": "2026-10-08T02:59:57.938Z", "updatedAt": "2026-10-17T22:03:56.020Z"
+    "addedAt": "2026-10-08T02:59:57.938Z", "updatedAt": "2026-10-18T18:26:49.688Z"
   },
   {
     "id": "seautils", "name": "SeaUtils", "version": "1.3.2", "author": "eepyboba",
@@ -3449,18 +3449,18 @@
     "addedAt": "2025-12-17T17:29:34.182Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "vault", "name": "Vault", "version": "1.2.6", "author": "nnotwen",
+    "id": "vault", "name": "Vault", "version": "2.0.0", "author": "nnotwen",
     "description": "Create, Edit, and View your personal curated lists.", "type": "plugin", "language": "typescript",
     "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/vault.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/provider.ts",
     "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8e83dcaea7b2e89c8489a734e4e4dee70f61ece3bea56b8fcece22a6d7bf0064",
+    "permalink": "https://www.virustotal.com/gui/file/f457765582089f8a93aa4b6d9d84cd8afd301af4de27f10b2baec151c785bbe6",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1443700822121648168",
-    "addedAt": "2025-11-27T20:31:38.658Z", "updatedAt": "2026-08-18T16:18:11.633Z"
+    "addedAt": "2025-11-27T20:31:38.658Z", "updatedAt": "2026-10-18T18:26:49.688Z"
   },
   {
     "id": "vidsrc", "name": "VidSrc", "version": "1.0.6", "author": "aor-rex",
