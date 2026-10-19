@@ -729,7 +729,7 @@
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
     "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1560860450240069723",
+    "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1560860450240069723",
     "addedAt": "2026-10-17T03:42:10.722Z", "updatedAt": "2026-10-17T06:03:57.632Z"
   },
   {
@@ -2840,18 +2840,18 @@
     "addedAt": "2026-07-18T09:36:13.497Z", "updatedAt": "2026-09-21T19:03:39.797Z"
   },
   {
-    "id": "seanime-wrapped", "name": "Seanime Wrapped", "version": "1.0.13", "author": "DefnoJae",
+    "id": "seanime-wrapped", "name": "Seanime Wrapped", "version": "1.0.15", "author": "DefnoJae",
     "description": "A cinematic, private anime recap generated from your Seanime and AniList data.",
     "type": "plugin", "language": "javascript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/assets/extension-icon.png",
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js",
-    "website": "https://github.com/DefnoJae/Seanime-Wrapped", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a795369c4794c47edbcda9fee8de77ca6f87386350a29af2e18d18f589147f59",
+    "website": "https://github.com/DefnoJae/Seanime-Wrapped", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/60e6a3779fa9f620c2a635a191d9c7621d92e19e884cd3f9f7942eea5a71e133",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1553865953186414682",
-    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-10-09T06:02:33.300Z"
+    "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-10-19T18:25:15.599Z"
   },
   {
     "id": "seapac", "name": "SeaPac", "version": "0.3.1", "author": "DefnoJae",
