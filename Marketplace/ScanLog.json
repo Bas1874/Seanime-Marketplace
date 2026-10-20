@@ -1273,11 +1273,11 @@
     "timestamp": 1771865427648, "hadWorkingTag": false
   },
   {
-    "id": "myanimelistsync", "version": "1.1.4",
+    "id": "myanimelistsync", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/MyAnimeListSync/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d71b2c05e33e2fdabcf23e0764600058b847eb41fbed2852ad2e0e42c75af6ac",
-    "timestamp": 1778519176581, "hadWorkingTag": true, "lastWorkingVersion": "3.10.4"
+    "permalink": "https://www.virustotal.com/gui/file/df5976bd4f1bbbafb6f917ecd1c5e20401dd827cebb4f6396b080f0c3b5a6d9f",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792506439422
   },
   {
     "id": "MyDubList", "version": "1.1.3",
