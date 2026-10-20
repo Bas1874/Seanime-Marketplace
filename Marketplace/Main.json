@@ -2354,18 +2354,18 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "myanimelistsync", "name": "MyAnimeListSync", "version": "1.1.4", "author": "nnotwen",
+    "id": "myanimelistsync", "name": "MyAnimeListSync", "version": "1.2.0", "author": "nnotwen",
     "description": "Synchronize entry progress seamlessly with MyAnimeList.net", "type": "plugin",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/MyAnimeListSync/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/MyAnimeListSync/myanimelistsync.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/MyAnimeListSync/provider.ts",
     "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d71b2c05e33e2fdabcf23e0764600058b847eb41fbed2852ad2e0e42c75af6ac",
+    "permalink": "https://www.virustotal.com/gui/file/df5976bd4f1bbbafb6f917ecd1c5e20401dd827cebb4f6396b080f0c3b5a6d9f",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183211099459916","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 11, "threadId": "1449622275044147210",
-    "addedAt": "2025-12-14T04:41:23.050Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2025-12-14T04:41:23.050Z", "updatedAt": "2026-10-20T14:27:19.697Z"
   },
   {
     "id": "MyDubList", "name": "MyDubList", "version": "1.1.3", "author": "bas1874",
@@ -2877,7 +2877,7 @@
     "permalink": "https://www.virustotal.com/gui/file/60e6a3779fa9f620c2a635a191d9c7621d92e19e884cd3f9f7942eea5a71e133",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1553865953186414682",
+    "lastWorkingVersion": "3.10.4", "stars": 6, "threadId": "1553865953186414682",
     "addedAt": "2026-09-27T20:28:32.673Z", "updatedAt": "2026-10-19T18:25:15.599Z"
   },
   {
