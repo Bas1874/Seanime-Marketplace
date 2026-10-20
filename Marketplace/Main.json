@@ -614,7 +614,7 @@
     "permalink": "https://www.virustotal.com/gui/file/46b18f825c9ec030a193047d7c6509ddc2c9e008910fa4a7c62c0f83f7b94269",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1562159893648117780",
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1562159893648117780",
     "addedAt": "2026-10-20T17:45:42.173Z", "updatedAt": "2026-10-20T18:24:56.167Z"
   },
   {
@@ -2338,7 +2338,7 @@
     "permalink": "https://www.virustotal.com/gui/file/6b98ca370779c3cb612eb9da9fe117621e6d214b646ae8f8bbf4de70ebf0479c",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1561909811082170410",
+    "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1561909811082170410",
     "addedAt": "2026-10-20T01:11:57.843Z", "updatedAt": "2026-10-20T01:18:38.123Z"
   },
   {
@@ -2877,7 +2877,7 @@
     "website": "https://github.com/DefnoJae/SeanimeSpooky", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/62530bb8f79e16780f3a7e2735b7f5dcdc1080c8cd75752142b556be2d195b8c",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1561980853335359599",
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1561980853335359599",
     "addedAt": "2026-10-20T05:54:15.636Z", "updatedAt": "2026-10-20T06:25:12.733Z"
   },
   {
