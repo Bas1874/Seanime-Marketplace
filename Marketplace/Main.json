@@ -604,6 +604,20 @@
     "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-10-08T14:07:02.763Z"
   },
   {
+    "id": "animetvplus", "name": "AniTVPlus", "version": "1.0.0", "author": "Pal",
+    "description": "Search anime on AniTVPlus and stream available episodes with HLS playback and subtitle metadata. (may also support dubtitles)",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/main/public/animetvplus.png",
+    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animetvplus/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animetvplus/provider.js",
+    "website": "https://animetvplus.xyz/", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/46b18f825c9ec030a193047d7c6509ddc2c9e008910fa4a7c62c0f83f7b94269",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1562159893648117780",
+    "addedAt": "2026-10-20T17:45:42.173Z", "updatedAt": "2026-10-20T18:24:56.167Z"
+  },
+  {
     "id": "animeunion", "name": "AnimeUnion", "version": "1.0.0", "author": "Pal",
     "description": "AnimeUnion search and streaming with available subtitle and dub episode sources.",
     "type": "onlinestream-provider", "language": "javascript", "lang": "it",
@@ -1546,8 +1560,8 @@
     "website": "", "flags": "0/56", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/ee5d555de7af5b6fdae59c477887809b689a8a25e0866e7215f45f5a2fcc7842",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1441782637743181935",
+    "tags": ["1359183147123867881","1359183296591823124","1561358697974997147","1360636715643179231"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1441782637743181935",
     "addedAt": "2025-11-22T13:29:27.864Z", "updatedAt": "2026-07-16T12:33:24.314Z"
   },
   {
@@ -1560,9 +1574,9 @@
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/315ca42d481cf67b5bf7d1c33ddb4000bfe0b9b2bc1db57d992af141438e42e0",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": null, "stars": 4, "threadId": "1441749702734385263", "addedAt": "2025-11-22T11:18:35.546Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "tags": ["1359183147123867881","1561358697974997147","1359183296591823124","1360636715643179231"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 4, "threadId": "1441749702734385263",
+    "addedAt": "2025-11-22T11:18:35.546Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "hianime", "name": "HiAnime", "version": "1.1.3", "author": "Thekingcrusher",
@@ -2863,7 +2877,7 @@
     "website": "https://github.com/DefnoJae/SeanimeSpooky", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/62530bb8f79e16780f3a7e2735b7f5dcdc1080c8cd75752142b556be2d195b8c",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1561980853335359599",
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1561980853335359599",
     "addedAt": "2026-10-20T05:54:15.636Z", "updatedAt": "2026-10-20T06:25:12.733Z"
   },
   {
@@ -3476,18 +3490,18 @@
     "addedAt": "2025-12-17T17:29:34.182Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "vault", "name": "Vault", "version": "2.0.0", "author": "nnotwen",
+    "id": "vault", "name": "Vault", "version": "2.0.1", "author": "nnotwen",
     "description": "Create, Edit, and View your personal curated lists.", "type": "plugin", "language": "typescript",
     "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/vault.json",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Vault/provider.ts",
     "website": "https://github.com/nnotwen/n-seanime-extensions", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f457765582089f8a93aa4b6d9d84cd8afd301af4de27f10b2baec151c785bbe6",
+    "permalink": "https://www.virustotal.com/gui/file/5ec9b323d9b66255f4c810492a179bb7e988c0fe49d2931e8c39f5acc885b7f4",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1443700822121648168",
-    "addedAt": "2025-11-27T20:31:38.658Z", "updatedAt": "2026-10-18T18:26:49.688Z"
+    "addedAt": "2025-11-27T20:31:38.658Z", "updatedAt": "2026-10-20T18:25:58.325Z"
   },
   {
     "id": "vidsrc", "name": "VidSrc", "version": "1.0.6", "author": "aor-rex",
@@ -3527,8 +3541,8 @@
     "website": "https://danbooru.donmai.us/", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/240ad4c127fa97833f2d5ea423fded40162504b796987232b524f4a54420592c",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183211099459916","1359259306087940146","1359183394512048148"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1560328736182898738",
+    "tags": ["1359259306087940146","1561358697974997147","1359183394512048148"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1560328736182898738",
     "addedAt": "2026-10-15T16:29:20.212Z", "updatedAt": "2026-10-15T22:01:39.234Z"
   },
   {
