@@ -1497,6 +1497,13 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1784378602566
   },
   {
+    "id": "seanime-spooky", "version": "1.3.1",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/SeanimeSpooky/main/dist/seanime-spooky.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/62530bb8f79e16780f3a7e2735b7f5dcdc1080c8cd75752142b556be2d195b8c",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792477512733
+  },
+  {
     "id": "seanime-wrapped", "version": "1.0.15",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-Wrapped/main/dist/code.js", "flags": "0/61",
     "flaggedBy": [],
