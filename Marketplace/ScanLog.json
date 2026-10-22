@@ -406,11 +406,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792520696167
   },
   {
-    "id": "animeunion", "version": "1.0.0",
+    "id": "animeunion", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animeunion/provider.js",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/55a965f23c3d87bbfcb9d5a3b1442bf8b5307ce15dc2aa58ce99f21edb497cf3",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791669774365
+    "permalink": "https://www.virustotal.com/gui/file/63915d8923fd9277f52e7b137ca0f324d0bd916d612388404426e0b94c40a330",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792693592678
   },
   {
     "id": "AnimeUnity", "version": "1.1.3",
