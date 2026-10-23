@@ -471,18 +471,18 @@
     "addedAt": "2026-05-29T18:39:07.673Z", "updatedAt": "2026-09-10T12:43:09.360Z"
   },
   {
-    "id": "animesamamanga", "name": "AnimeSama (Manga)", "version": "2.1.0", "author": "pal & Rafou376",
+    "id": "animesamamanga", "name": "AnimeSama (Manga)", "version": "2.2.0", "author": "pal & Rafou376",
     "description": "AnimeSama is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "fr",
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/animesama.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/animesama/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/animesama/provider.js",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9138b8b40e3112b97e48f3bbd48b6645f0c10ce093c65a6949158931c542f546",
+    "website": "", "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b7777f79460e38549a76de52911b6bd05dc4e05df797bc96de6a0b88e2164d34",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.9.1", "stars": 4, "threadId": "1484987717359112353",
-    "addedAt": "2026-03-21T18:51:01.556Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "addedAt": "2026-03-21T18:51:01.556Z", "updatedAt": "2026-10-23T18:29:15.948Z"
   },
   {
     "id": "animesaturn", "name": "AnimeSaturn", "version": "1.0.3", "author": "kRYstall9",
@@ -3062,6 +3062,20 @@
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1554882674345381888",
     "addedAt": "2026-09-30T15:48:37.887Z", "updatedAt": "2026-10-17T14:03:18.783Z"
+  },
+  {
+    "id": "shonen", "name": "Shonen", "version": "1.0.0", "author": "Pal",
+    "description": "Shonen.to sub anime search and streaming provider.", "type": "onlinestream-provider",
+    "language": "javascript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/public/shonen.png",
+    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/shonen/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/shonen/provider.js",
+    "website": "https://shonen.to", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/fbd36f1aab77006d10993ab379335d1ebd78521370cf5085d27bd1042f116284",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1505936860441083904","1359183147123867881","1359183296591823124","1360636715643179231"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1563218040118710412",
+    "addedAt": "2026-10-23T15:50:23.951Z", "updatedAt": "2026-10-23T18:25:21.308Z"
   },
   {
     "id": "simkl", "name": "Simkl", "version": "1.1.2", "author": "jabifx",
