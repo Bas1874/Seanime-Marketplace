@@ -758,6 +758,20 @@
     "addedAt": "2026-05-20T09:42:56.269Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "anistar", "name": "AniStar (RU)", "version": "1.3.0", "author": "Lampe332",
+    "description": "Russian dubbed anime from anistar.org (HLS + MP4, 360p/720p).", "type": "onlinestream-provider",
+    "language": "typescript", "lang": "ru",
+    "icon": "https://raw.githubusercontent.com/Lampe332/seanime-anistar/main/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/Lampe332/seanime-anistar/main/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Lampe332/seanime-anistar/main/provider.ts",
+    "website": "https://github.com/Lampe332/seanime-anistar", "flags": "0/57", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/dad4cf4cfaa4261b4af27abe67e2400c80dc888e821b516a61ec0d5425519df5",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1505936927189110988","1359183296591823124"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1563273854842048682",
+    "addedAt": "2026-10-23T19:32:11.218Z", "updatedAt": "2026-10-23T22:26:56.220Z"
+  },
+  {
     "id": "anitube", "name": "Anitube (PT-BR)", "version": "1.0.2", "author": "Jhoorodr",
     "description": "Anime streaming provider for Anitube, with subbed and dubbed titles in Brazilian Portuguese. May only work with a Brazil VPN.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
