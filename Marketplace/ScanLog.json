@@ -336,11 +336,11 @@
     "lastWorkingVersion": "3.9.1", "timestamp": 1783452043851, "hadWorkingTag": false
   },
   {
-    "id": "animesamamanga", "version": "2.1.0",
+    "id": "animesamamanga", "version": "2.2.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/animesama/provider.js",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/9138b8b40e3112b97e48f3bbd48b6645f0c10ce093c65a6949158931c542f546",
-    "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1785776277529
+    "flags": "0/58", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/b7777f79460e38549a76de52911b6bd05dc4e05df797bc96de6a0b88e2164d34",
+    "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1792780155656
   },
   {
     "id": "animesaturn", "version": "1.0.3",
@@ -1592,6 +1592,13 @@
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/944725e4627e910e91778eff61a3520389c149e5611b321c676fec6e71feb097",
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792245752356
+  },
+  {
+    "id": "shonen", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/shonen/provider.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/fbd36f1aab77006d10993ab379335d1ebd78521370cf5085d27bd1042f116284",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792779921308
   },
   {
     "id": "simkl", "version": "1.1.2",
