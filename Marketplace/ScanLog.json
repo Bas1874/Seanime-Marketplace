@@ -1014,6 +1014,13 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791741748135
   },
   {
+    "id": "ln-discord-rpc", "version": "1.1.0",
+    "payloadURI": "https://raw.githubusercontent.com/USER122121221/LN-Discord-RPC/refs/heads/main/ln-discord-rpc.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/bee45834f41368ca53aacc03667ca0c4dff46e6828e937295cef31b88c906362",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792751172651
+  },
+  {
     "id": "LN-reader", "version": "1.6.7",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/main.ts",
     "flags": "0/62", "flaggedBy": [],
