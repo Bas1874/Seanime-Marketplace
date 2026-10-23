@@ -448,6 +448,13 @@
     "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1792188792260
   },
   {
+    "id": "anistar", "version": "1.3.0",
+    "payloadURI": "https://raw.githubusercontent.com/Lampe332/seanime-anistar/main/provider.ts", "flags": "0/57",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/dad4cf4cfaa4261b4af27abe67e2400c80dc888e821b516a61ec0d5425519df5",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792794416220
+  },
+  {
     "id": "anitube", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/anitube/anitube.ts",
     "flags": "0/61", "flaggedBy": [],
