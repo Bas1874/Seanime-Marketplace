@@ -1280,11 +1280,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792217037401
   },
   {
-    "id": "missing-metadata-fix", "version": "2.1.1",
-    "payloadURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Missing%20Metadata%20Fix/provider.min.js",
+    "id": "missing-metadata-fix", "version": "2.2.2",
+    "payloadURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Missing%20Metadata%20Fix/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6b98ca370779c3cb612eb9da9fe117621e6d214b646ae8f8bbf4de70ebf0479c",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792459118123
+    "permalink": "https://www.virustotal.com/gui/file/d280adbc660db4ea8d87d7205e9ff5512b638816a994233a3b2b7eb92d3d04aa",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792880717195
   },
   {
     "id": "my-list-table-view", "version": "1.0.0",
