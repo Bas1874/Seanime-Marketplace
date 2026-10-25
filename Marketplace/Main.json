@@ -604,18 +604,18 @@
     "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-10-08T14:07:02.763Z"
   },
   {
-    "id": "animetvplus", "name": "AniTVPlus", "version": "1.0.0", "author": "Pal",
+    "id": "animetvplus", "name": "AniTVPlus", "version": "1.0.1", "author": "Pal",
     "description": "Search anime on AniTVPlus and stream available episodes with HLS playback and subtitle metadata. (may also support dubtitles)",
     "type": "onlinestream-provider", "language": "javascript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/main/public/animetvplus.png",
     "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animetvplus/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animetvplus/provider.js",
     "website": "https://animetvplus.xyz/", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/46b18f825c9ec030a193047d7c6509ddc2c9e008910fa4a7c62c0f83f7b94269",
+    "permalink": "https://www.virustotal.com/gui/file/00ea4837a941eea4235a8108a47732a2ba7933799cc8b7e756572a38b04df8f6",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1562159893648117780",
-    "addedAt": "2026-10-20T17:45:42.173Z", "updatedAt": "2026-10-20T18:24:56.167Z"
+    "addedAt": "2026-10-20T17:45:42.173Z", "updatedAt": "2026-10-25T10:25:16.808Z"
   },
   {
     "id": "animeunion", "name": "AnimeUnion", "version": "1.0.1", "author": "Pal",
