@@ -399,11 +399,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791468422505
   },
   {
-    "id": "animetvplus", "version": "1.0.0",
+    "id": "animetvplus", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animetvplus/provider.js",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/46b18f825c9ec030a193047d7c6509ddc2c9e008910fa4a7c62c0f83f7b94269",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792520696167
+    "permalink": "https://www.virustotal.com/gui/file/00ea4837a941eea4235a8108a47732a2ba7933799cc8b7e756572a38b04df8f6",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792923916562
   },
   {
     "id": "animeunion", "version": "1.0.1",
