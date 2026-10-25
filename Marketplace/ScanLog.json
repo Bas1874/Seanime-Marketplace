@@ -399,11 +399,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791468422505
   },
   {
-    "id": "animetvplus", "version": "1.0.1",
+    "id": "animetvplus", "version": "1.0.2",
     "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animetvplus/provider.js",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/00ea4837a941eea4235a8108a47732a2ba7933799cc8b7e756572a38b04df8f6",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792923916562
+    "permalink": "https://www.virustotal.com/gui/file/ae2c22251a45ee173fe0eaf0c5e7338ad477f9feecab86804134712d4637bc78",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792938671712
   },
   {
     "id": "animeunion", "version": "1.0.1",
@@ -1182,6 +1182,13 @@
     "lastWorkingVersion": null, "timestamp": 1781771834103, "hadWorkingTag": false
   },
   {
+    "id": "mangastash", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangastash/provider.js",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/53e51521bc691bc331ced12dd699ff678d3fdda0fc203a4e1a41b814249ce872",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792938331010
+  },
+  {
     "id": "mangaunion", "version": "1.0.0",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/MangaUnion/main.ts",
     "flags": "0/61", "flaggedBy": [],
@@ -1280,11 +1287,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792217037401
   },
   {
-    "id": "missing-metadata-fix", "version": "2.2.2",
+    "id": "missing-metadata-fix", "version": "2.2.3",
     "payloadURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Missing%20Metadata%20Fix/provider.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d280adbc660db4ea8d87d7205e9ff5512b638816a994233a3b2b7eb92d3d04aa",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792880717195
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8412711249f1dc19374523b5c116f5fb8e456cc1cf54e34b3eaa622a7a04583b",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792938578226
   },
   {
     "id": "my-list-table-view", "version": "1.0.0",
