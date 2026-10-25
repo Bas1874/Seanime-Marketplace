@@ -604,18 +604,18 @@
     "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-10-08T14:07:02.763Z"
   },
   {
-    "id": "animetvplus", "name": "AniTVPlus", "version": "1.0.1", "author": "Pal",
+    "id": "animetvplus", "name": "AniTVPlus", "version": "1.0.2", "author": "Pal",
     "description": "Search anime on AniTVPlus and stream available episodes with HLS playback and subtitle metadata. (may also support dubtitles)",
     "type": "onlinestream-provider", "language": "javascript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/main/public/animetvplus.png",
     "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animetvplus/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animetvplus/provider.js",
     "website": "https://animetvplus.xyz/", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/00ea4837a941eea4235a8108a47732a2ba7933799cc8b7e756572a38b04df8f6",
+    "permalink": "https://www.virustotal.com/gui/file/ae2c22251a45ee173fe0eaf0c5e7338ad477f9feecab86804134712d4637bc78",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1562159893648117780",
-    "addedAt": "2026-10-20T17:45:42.173Z", "updatedAt": "2026-10-25T10:25:16.808Z"
+    "addedAt": "2026-10-20T17:45:42.173Z", "updatedAt": "2026-10-25T14:31:11.968Z"
   },
   {
     "id": "animeunion", "name": "AnimeUnion", "version": "1.0.1", "author": "Pal",
@@ -2178,6 +2178,20 @@
     "addedAt": "2026-09-11T00:13:34.251Z", "updatedAt": "2026-10-11T22:01:40.711Z"
   },
   {
+    "id": "mangastash", "name": "MangaStash", "version": "1.0.0", "author": "Pal",
+    "description": "Search MangaStash and read manga chapters in English.", "type": "manga-provider",
+    "language": "javascript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/public/mangastash.ico",
+    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangastash/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangastash/provider.js",
+    "website": "https://mangastash.org", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/53e51521bc691bc331ced12dd699ff678d3fdda0fc203a4e1a41b814249ce872",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1563890513223090266",
+    "addedAt": "2026-10-25T12:22:34.033Z", "updatedAt": "2026-10-25T14:25:31.010Z"
+  },
+  {
     "id": "mangataro", "name": "MangaTaro", "version": "1.0.0", "author": "Rafou376",
     "description": "MangaTaro is an English scanlation platform", "type": "manga-provider", "language": "typescript",
     "lang": "en", "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/mangataro/icon.ico",
@@ -2356,18 +2370,18 @@
     "addedAt": "2026-10-17T03:10:51.356Z", "updatedAt": "2026-10-17T06:03:57.632Z"
   },
   {
-    "id": "missing-metadata-fix", "name": "Missing Metadata Fix", "version": "2.2.2", "author": "nnotwen, rinkerbel",
+    "id": "missing-metadata-fix", "name": "Missing Metadata Fix", "version": "2.2.3", "author": "nnotwen, rinkerbel",
     "description": "Customize episode metadata of anime in your AniList collection.", "type": "plugin",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Missing%20Metadata%20Fix/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Missing%20Metadata%20Fix/missing-metadata-fix.json",
     "payloadURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Missing%20Metadata%20Fix/provider.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d280adbc660db4ea8d87d7205e9ff5512b638816a994233a3b2b7eb92d3d04aa",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8412711249f1dc19374523b5c116f5fb8e456cc1cf54e34b3eaa622a7a04583b",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1561909811082170410",
-    "addedAt": "2026-10-20T01:11:57.843Z", "updatedAt": "2026-10-24T22:25:17.486Z"
+    "addedAt": "2026-10-20T01:11:57.843Z", "updatedAt": "2026-10-25T14:31:11.968Z"
   },
   {
     "id": "mkissa", "name": "MKissa", "version": "0.2.3", "author": "DefnoJae",
