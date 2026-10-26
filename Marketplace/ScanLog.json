@@ -693,11 +693,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792981543491
   },
   {
-    "id": "custom-lists", "version": "1.0.3",
+    "id": "custom-lists", "version": "1.0.4",
     "payloadURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Custom%20Lists/custom-lists.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/aba9f9bbb033b3fabdef9d7c830da2182fe759716747ccd3612a285cc8bfea49",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793024823246
+    "permalink": "https://www.virustotal.com/gui/file/1cd9345f6e531bbdb3ad17477359774043300255294c36870377d9ab55d6b388",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793039130590
   },
   {
     "id": "darkmahou-provider", "version": "1.0.11",
