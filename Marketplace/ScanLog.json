@@ -686,11 +686,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792073153271
   },
   {
-    "id": "custom-list-mapper", "version": "1.8.6",
-    "payloadURI": "https://raw.githubusercontent.com/AlwaysBorderRadius/custom-list-mapper/main/code.js",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1bafd22c054ef4cab5b8857a24c13aea8a9291de172d968ebaa963e84cc92a43",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1790635128517
+    "id": "custom-list-mapper", "version": "1.8.8",
+    "payloadURI": "https://raw.githubusercontent.com/AlwaysBorderRadius/custom-lists-to-status/main/code.js",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/927697dc020ea7669e6c77965905e50bcfedfee6ccdd170b24ac1efb19fd4c58",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792981543491
   },
   {
     "id": "darkmahou-provider", "version": "1.0.11",
