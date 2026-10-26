@@ -639,7 +639,7 @@
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-streaming-providers/refs/heads/main/src/AnimeUnity/provider.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/54a3fc874ec355556fdbd21d63ec31b63b8fd6c169c8a401fa1ac42e709a3dcf",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 5, "threadId": "1428028775689621615", "addedAt": "2025-10-15T14:36:31.616Z",
     "updatedAt": "2026-07-03T13:57:01.706Z"
@@ -1151,18 +1151,18 @@
     "addedAt": "2025-12-16T05:00:01.270Z", "updatedAt": "2026-10-15T14:05:53.552Z"
   },
   {
-    "id": "custom-list-mapper", "name": "Custom Lists to Status", "version": "1.8.6", "author": "AlwaysBorderRadius",
+    "id": "custom-list-mapper", "name": "Custom Lists to Status", "version": "1.8.8", "author": "AlwaysBorderRadius",
     "description": "Maps AniList custom lists to virtual status lists so Seanime can see anime hidden from status lists.",
     "type": "plugin", "language": "javascript", "lang": "multi",
-    "icon": "https://raw.githubusercontent.com/AlwaysBorderRadius/custom-list-mapper/main/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/AlwaysBorderRadius/custom-list-mapper/main/custom-list-mapper.json",
-    "payloadURI": "https://raw.githubusercontent.com/AlwaysBorderRadius/custom-list-mapper/main/code.js",
-    "website": "https://github.com/AlwaysBorderRadius/custom-list-mapper", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1bafd22c054ef4cab5b8857a24c13aea8a9291de172d968ebaa963e84cc92a43",
+    "icon": "https://raw.githubusercontent.com/AlwaysBorderRadius/custom-lists-to-status/main/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/AlwaysBorderRadius/custom-lists-to-status/main/custom-list-mapper.json",
+    "payloadURI": "https://raw.githubusercontent.com/AlwaysBorderRadius/custom-lists-to-status/main/code.js",
+    "website": "https://github.com/AlwaysBorderRadius/custom-lists-to-status", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/927697dc020ea7669e6c77965905e50bcfedfee6ccdd170b24ac1efb19fd4c58",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1554225358956404757",
-    "addedAt": "2026-09-28T20:16:41.686Z", "updatedAt": "2026-09-28T22:38:48.785Z"
+    "addedAt": "2026-09-28T20:16:41.686Z", "updatedAt": "2026-10-26T02:25:43.747Z"
   },
   {
     "id": "darkmahou-provider", "name": "DarkMahou", "version": "1.0.11", "author": "jhoorodr",
