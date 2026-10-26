@@ -1165,18 +1165,18 @@
     "addedAt": "2026-09-28T20:16:41.686Z", "updatedAt": "2026-10-26T02:25:43.747Z"
   },
   {
-    "id": "custom-lists", "name": "Custom Lists", "version": "1.0.3", "author": "rinkerbel",
+    "id": "custom-lists", "name": "Custom Lists", "version": "1.0.4", "author": "rinkerbel",
     "description": "Edit your AniList custom lists from Seanime, and show entries hidden from status lists.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Custom%20Lists/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Custom%20Lists/custom-lists.json",
     "payloadURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Custom%20Lists/custom-lists.ts",
     "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/aba9f9bbb033b3fabdef9d7c830da2182fe759716747ccd3612a285cc8bfea49",
+    "permalink": "https://www.virustotal.com/gui/file/1cd9345f6e531bbdb3ad17477359774043300255294c36870377d9ab55d6b388",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1564261465836494868",
-    "addedAt": "2026-10-26T12:56:36.028Z", "updatedAt": "2026-10-26T14:27:03.527Z"
+    "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1564261465836494868",
+    "addedAt": "2026-10-26T12:56:36.028Z", "updatedAt": "2026-10-26T18:25:30.882Z"
   },
   {
     "id": "darkmahou-provider", "name": "DarkMahou", "version": "1.0.11", "author": "jhoorodr",
