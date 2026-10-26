@@ -2384,18 +2384,18 @@
     "addedAt": "2026-10-17T03:10:51.356Z", "updatedAt": "2026-10-17T06:03:57.632Z"
   },
   {
-    "id": "missing-metadata-fix", "name": "Missing Metadata Fix", "version": "2.2.3", "author": "nnotwen, rinkerbel",
+    "id": "missing-metadata-fix", "name": "Missing Metadata Fix", "version": "2.2.4", "author": "nnotwen, rinkerbel",
     "description": "Customize episode metadata of anime in your AniList collection.", "type": "plugin",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Missing%20Metadata%20Fix/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Missing%20Metadata%20Fix/missing-metadata-fix.json",
     "payloadURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Missing%20Metadata%20Fix/provider.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8412711249f1dc19374523b5c116f5fb8e456cc1cf54e34b3eaa622a7a04583b",
+    "website": "", "flags": "0/56", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/df8ed106e547663e45bc960281e5353e4f83ef484090a90da19adf30b11a8d33",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1561909811082170410",
-    "addedAt": "2026-10-20T01:11:57.843Z", "updatedAt": "2026-10-25T14:31:11.968Z"
+    "addedAt": "2026-10-20T01:11:57.843Z", "updatedAt": "2026-10-26T22:25:31.274Z"
   },
   {
     "id": "mkissa", "name": "MKissa", "version": "0.2.3", "author": "DefnoJae",
@@ -3064,18 +3064,6 @@
     "tags": ["1359183394512048148","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1402784020739264612",
     "addedAt": "2025-08-06T22:42:53.011Z", "updatedAt": "2026-07-03T13:57:01.706Z"
-  },
-  {
-    "id": "shademanga", "name": "Shade Manga", "version": "1.2.0", "author": "yerasuu",
-    "description": "Proveedor de manga y cómics de Shade Manga.", "type": "manga-provider", "language": "typescript",
-    "lang": "es", "icon": "https://raw.githubusercontent.com/yerasuu/My-Seanime-Providers/main/shademanga/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/yerasuu/My-Seanime-Providers/main/shademanga/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/yerasuu/My-Seanime-Providers/main/shademanga/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5ab8c291da2a5ae61664630aeba9232d70c134f70b13c267a2a5474a6e39c5ce",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1552963799559053392",
-    "addedAt": "2026-09-25T08:43:42.487Z", "updatedAt": "2026-09-25T11:10:06.712Z"
   },
   {
     "id": "shikimorisync", "name": "ShikimoriSync", "version": "2.0.1", "author": "nnotwen",
