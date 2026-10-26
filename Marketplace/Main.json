@@ -1165,6 +1165,20 @@
     "addedAt": "2026-09-28T20:16:41.686Z", "updatedAt": "2026-10-26T02:25:43.747Z"
   },
   {
+    "id": "custom-lists", "name": "Custom Lists", "version": "1.0.1", "author": "rinkerbel",
+    "description": "Edit your AniList custom lists from Seanime, and show entries hidden from status lists.",
+    "type": "plugin", "language": "typescript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Custom%20Lists/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Custom%20Lists/custom-lists.json",
+    "payloadURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Custom%20Lists/custom-lists.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/51ced88c349ab3e22e5aca611f518034726d6b7e992d61cc9c2eaa804b671974",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1564261465836494868",
+    "addedAt": "2026-10-26T12:56:36.028Z", "updatedAt": "2026-10-26T13:24:31.242Z"
+  },
+  {
     "id": "darkmahou-provider", "name": "DarkMahou", "version": "1.0.11", "author": "jhoorodr",
     "description": "Anime torrent provider for the DarkMahou.org site with smart search and fixed batch detection",
     "type": "anime-torrent-provider", "language": "typescript", "lang": "pt-BR",
