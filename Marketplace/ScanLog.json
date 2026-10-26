@@ -1294,11 +1294,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792217037401
   },
   {
-    "id": "missing-metadata-fix", "version": "2.2.3",
+    "id": "missing-metadata-fix", "version": "2.2.4",
     "payloadURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/Missing%20Metadata%20Fix/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8412711249f1dc19374523b5c116f5fb8e456cc1cf54e34b3eaa622a7a04583b",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792938578226
+    "flags": "0/56", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/df8ed106e547663e45bc960281e5353e4f83ef484090a90da19adf30b11a8d33",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793053531039
   },
   {
     "id": "my-list-table-view", "version": "1.0.0",
