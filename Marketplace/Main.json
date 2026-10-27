@@ -352,23 +352,8 @@
     "payloadURI": "", "website": "https://anime-sama.to", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1564438807380758638",
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1564438807380758638",
     "addedAt": "2026-10-27T00:41:17.547Z", "updatedAt": "2026-10-27T02:24:30.803Z"
-  },
-  {
-    "id": "anime-sama-online-streaming", "name": "FR | Anime Sama", "version": "3.1.4",
-    "author": "TropicalFrog3 & Rafou376",
-    "description": "Anime Sama est une extension Seanime en français qui permet de regarder des anime dans le catalogue du site anime-sama.com.",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
-    "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-sama/favicon.png",
-    "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-sama/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/anime-sama/payload.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f10bf7aa0dbbab8b8916b6a7acca23c078360ea03960fbb56b97b2c076b74d0f",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": null, "stars": 5, "threadId": "1412209065957789737", "addedAt": "2025-09-01T22:54:38.900Z",
-    "updatedAt": "2026-08-30T19:59:06.556Z"
   },
   {
     "id": "anime-sama-vip-online-streaming", "name": "FR | Anime-Sama VIP", "version": "1.0.1",
