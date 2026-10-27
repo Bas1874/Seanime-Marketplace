@@ -344,6 +344,18 @@
     "addedAt": "2025-07-19T13:42:54.545Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "anime-sama-anime", "name": "Anime-Sama", "version": "1.0.0", "author": "Rafou376",
+    "description": "Anime-Sama est une plateforme de streaming d'anime française", "type": "onlinestream-provider",
+    "language": "typescript", "lang": "fr",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/anime-sama-anime/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/anime-sama-anime/manifest.json",
+    "payloadURI": "", "website": "https://anime-sama.to", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1564438807380758638",
+    "addedAt": "2026-10-27T00:41:17.547Z", "updatedAt": "2026-10-27T02:24:30.803Z"
+  },
+  {
     "id": "anime-sama-online-streaming", "name": "FR | Anime Sama", "version": "3.1.4",
     "author": "TropicalFrog3 & Rafou376",
     "description": "Anime Sama est une extension Seanime en français qui permet de regarder des anime dans le catalogue du site anime-sama.com.",
@@ -467,7 +479,7 @@
     "permalink": "https://www.virustotal.com/gui/file/d11fb43bb135689bb591d292d6e26111226dde0641494e832386072c38c367cf",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.2", "stars": 2, "threadId": "1509989485843185735",
+    "lastWorkingVersion": "3.10.2", "stars": 1, "threadId": "1509989485843185735",
     "addedAt": "2026-05-29T18:39:07.673Z", "updatedAt": "2026-09-10T12:43:09.360Z"
   },
   {
