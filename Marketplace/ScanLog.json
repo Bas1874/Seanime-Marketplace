@@ -525,11 +525,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790435499561
   },
   {
-    "id": "aq-kickassanime", "version": "0.1.3",
+    "id": "aq-kickassanime", "version": "0.1.4",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/kickassanime/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/8eaab45c849d2bd02761cbc94ee3c4c6952a3abbccc37fd23d0dcf57706df559",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793155020919
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f7aa2689849a4d68c98a084cd228300bc6cec255cbd5894ec35715933f1784dd",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793168748868
   },
   {
     "id": "aq-mkissa", "version": "0.1.2",
