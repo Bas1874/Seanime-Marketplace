@@ -483,11 +483,11 @@
     "timestamp": 1771866081063, "hadWorkingTag": false
   },
   {
-    "id": "aq-anikoto", "version": "1.4.11",
+    "id": "aq-anikoto", "version": "1.4.12",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/6881a34bb1e694eedeff9262a08f8c994bbb6115cb66f4efe949fb54217fe9b6",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792145243153
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/843fc4cbd6fe2bea3ab4900866c0000e697f0c2d3c0dc0a6e278ae4d3de39c15",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793154356542
   },
   {
     "id": "aq-animepahe", "version": "0.2.44",
@@ -525,11 +525,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790435499561
   },
   {
-    "id": "aq-kickassanime", "version": "0.1.2",
+    "id": "aq-kickassanime", "version": "0.1.3",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/kickassanime/provider.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/a287cb241dc58e7061784aef695acb2e2eb01e7afd9a378bf43d0e42e3890b96",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792145117883
+    "permalink": "https://www.virustotal.com/gui/file/8eaab45c849d2bd02761cbc94ee3c4c6952a3abbccc37fd23d0dcf57706df559",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793155020919
   },
   {
     "id": "aq-mkissa", "version": "0.1.2",
