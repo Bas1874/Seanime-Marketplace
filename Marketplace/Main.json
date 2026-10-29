@@ -149,18 +149,18 @@
     "addedAt": "2025-12-22T19:15:59.155Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anilist-activity", "name": "Anilist activity", "version": "1.3.11", "author": "Pal",
+    "id": "anilist-activity", "name": "Anilist activity", "version": "1.3.16", "author": "Pal",
     "description": "A plugin for viewing your friend's and your Anilist activities inside Seanime.",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/public/anilist.ico",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/plugins/anilist-activities/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/anilist-activities/main.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/90d69d59c0d789b7ab4fec37dd39ad8d764af8b6b4dcc5cd0287a3f5c6d19f0a",
+    "permalink": "https://www.virustotal.com/gui/file/0e729625e2609ad27721bcbd64a6e1c8b52e3916afe6d5bea2aaf1d64e7b1fab",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359259306087940146","1359183394512048148"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 18, "threadId": "1445123413277413507",
-    "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-10-27T18:27:12.924Z"
+    "addedAt": "2025-12-01T18:44:30.820Z", "updatedAt": "2026-10-29T22:26:52.348Z"
   },
   {
     "id": "anilist-autopause", "name": "Anilist Autopause", "version": "1.0.2", "author": "nnotwen",
@@ -2367,18 +2367,18 @@
     "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
-    "id": "miruro-v2", "name": "Miruro", "version": "1.0.3", "author": "DefnoJae",
+    "id": "miruro-v2", "name": "Miruro", "version": "1.0.6", "author": "DefnoJae",
     "description": "Miruro anime provider with separate sub/dub selection and labelled streaming servers.",
     "type": "onlinestream-provider", "language": "javascript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/DefnoJae/Miruro-V2/75b781d3dc53ed8d83802703e73a9c511949253c/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Miruro-V2/main/Manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Miruro-V2/main/provider.js",
-    "website": "https://www.miruro.tv/", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b70894f00ff3c9a8425392ce3df55a376320856910f172792e988b820730c1cf",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "website": "https://miruro.cx/", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f6802cae3fe653d4ed3b5eb9468a358c1ebe1ab964aca8fa1449ea8cdef85f5a",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1560852567607742514",
-    "addedAt": "2026-10-17T03:10:51.356Z", "updatedAt": "2026-10-17T06:03:57.632Z"
+    "addedAt": "2026-10-17T03:10:51.356Z", "updatedAt": "2026-10-29T22:26:52.348Z"
   },
   {
     "id": "missing-metadata-fix", "name": "Missing Metadata Fix", "version": "2.2.4", "author": "nnotwen, rinkerbel",
@@ -2875,7 +2875,7 @@
     "permalink": "https://www.virustotal.com/gui/file/bfc477cbee5b90be1fe9df3e88c77fa5d1e5e81aca5cff1bc0bde69f9eba3c7d",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148","1505937222891733062"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1557012330292707338",
+    "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1557012330292707338",
     "addedAt": "2026-10-06T12:51:07.432Z", "updatedAt": "2026-10-06T14:49:12.107Z"
   },
   {
