@@ -140,11 +140,11 @@
     "timestamp": 1771870620962, "hadWorkingTag": true, "lastWorkingVersion": "3.10.4"
   },
   {
-    "id": "anilist-activity", "version": "1.3.11",
+    "id": "anilist-activity", "version": "1.3.16",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/anilist-activities/main.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/90d69d59c0d789b7ab4fec37dd39ad8d764af8b6b4dcc5cd0287a3f5c6d19f0a",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793125632661
+    "permalink": "https://www.virustotal.com/gui/file/0e729625e2609ad27721bcbd64a6e1c8b52e3916afe6d5bea2aaf1d64e7b1fab",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793312812081
   },
   {
     "id": "anilist-autopause", "version": "1.0.2",
@@ -1287,11 +1287,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1786338649843
   },
   {
-    "id": "miruro-v2", "version": "1.0.3",
-    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Miruro-V2/main/provider.js", "flags": "0/60",
+    "id": "miruro-v2", "version": "1.0.6",
+    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Miruro-V2/main/provider.js", "flags": "0/61",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/b70894f00ff3c9a8425392ce3df55a376320856910f172792e988b820730c1cf",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792217037401
+    "permalink": "https://www.virustotal.com/gui/file/f6802cae3fe653d4ed3b5eb9468a358c1ebe1ab964aca8fa1449ea8cdef85f5a",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": false, "timestamp": 1793312719305
   },
   {
     "id": "missing-metadata-fix", "version": "2.2.4",
