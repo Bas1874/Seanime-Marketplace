@@ -784,6 +784,13 @@
     "timestamp": 1771870574708, "hadWorkingTag": true, "lastWorkingVersion": "3.10.4"
   },
   {
+    "id": "dkb", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Lampe332/seanime-dkb/main/provider.ts", "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5300a7afc45169548f7a5c10859d9dc1eebadb7ee9463a6e8941231c3d5a2e4b",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793399146455
+  },
+  {
     "id": "donghuastream", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/donghuastream/provider.js",
     "flags": "0/60", "flaggedBy": [],
@@ -1082,6 +1089,13 @@
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/483672be191a98fd3c7cc86305c030e69b7687568108bed2f89f55397c2d5c8f",
     "timestamp": 1771869278116, "hadWorkingTag": false
+  },
+  {
+    "id": "manga-categories", "version": "0.1.0",
+    "payloadURI": "https://raw.githubusercontent.com/addregin/seanime-manga-categories/main/manga-categories.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e060c07e230b77a8b1c68bfe24e84de9045502d050eef0a623f952b84b0b3c9e",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793399100160
   },
   {
     "id": "manga-source-updates", "version": "1.8.8",
