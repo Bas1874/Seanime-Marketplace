@@ -546,6 +546,13 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1790377907086
   },
   {
+    "id": "archive-org", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Lampe332/seanime-archive-org/main/provider.ts", "flags": "0/61",
+    "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8bfafe976372ea2e2ce616b2bd7b5f51284378126b29681932045f7b694e759f",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793384698306
+  },
+  {
     "id": "asunatracks-sync", "version": "0.1.27",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AsunaTracksSync/provider.ts",
     "flags": "0/61", "flaggedBy": [],
@@ -602,11 +609,11 @@
     "lastWorkingVersion": null, "timestamp": 1781440325692, "hadWorkingTag": false
   },
   {
-    "id": "capibaratraductor", "version": "1.0.0",
+    "id": "capibaratraductor", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/main.ts",
-    "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7b964dadae8d19ead09f74ec9db8c58dc5429ca80474a27d924cd085d05f53b6",
-    "timestamp": 1776706078054, "hadWorkingTag": false
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3170bd294918571820a3210aede73c6a36fc4c3fe874d81d0b803017479a5d25",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1793384792439
   },
   {
     "id": "capibaratraductordev", "version": "1.0.0",
