@@ -469,11 +469,11 @@
     "timestamp": 1771865304049, "hadWorkingTag": false
   },
   {
-    "id": "anizone", "version": "1.0.4",
-    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider-2/main/provider.ts", "flags": "0/61",
-    "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/158a5e46da99311f385407e87ff6953427a4a6609d768eb0b1a80ddb809bcc73",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1790563765561
+    "id": "anizone", "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/refs/heads/master/src/AniZone/index.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/289376c583dad130d616bcee0a2e832e2a866060802fd6236e0b9b45e87431de",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": false, "timestamp": 1793327096947
   },
   {
     "id": "antiseeding", "version": "1.0.0",
