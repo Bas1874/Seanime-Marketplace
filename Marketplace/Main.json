@@ -1344,7 +1344,8 @@
     "icon": "https://raw.githubusercontent.com/Lampe332/seanime-dkb/main/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Lampe332/seanime-dkb/main/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Lampe332/seanime-dkb/main/provider.ts",
-    "website": "https://github.com/Lampe332/seanime-dkb", "flags": "Error", "flaggedBy": [], "permalink": "",
+    "website": "https://github.com/Lampe332/seanime-dkb", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5300a7afc45169548f7a5c10859d9dc1eebadb7ee9463a6e8941231c3d5a2e4b",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359259206880067784","1359183147123867881","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1565770813528084560",
@@ -1982,6 +1983,31 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "manga-categories", "name": "Manga Categories", "version": "0.1.0", "author": "addregin",
+    "description": "Local-only custom categories (Priority, Updating, ...) for your manga. Not synced to AniList.",
+    "type": "plugin", "language": "typescript", "lang": "multi", "icon": "",
+    "manifestURI": "https://raw.githubusercontent.com/addregin/seanime-manga-categories/main/manga-categories.json",
+    "payloadURI": "https://raw.githubusercontent.com/addregin/seanime-manga-categories/main/manga-categories.ts",
+    "website": "https://github.com/addregin/seanime-manga-categories", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e060c07e230b77a8b1c68bfe24e84de9045502d050eef0a623f952b84b0b3c9e",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1565850949803708486",
+    "addedAt": "2026-10-30T22:12:38.537Z", "updatedAt": "2026-10-30T22:25:00.160Z"
+  },
+  {
+    "id": "manga-english-titles", "name": "Manga English Titles", "version": "1.8.0", "author": "addregin",
+    "description": "Shows an English title for your manga (entry pages and cards), with a tray on/off switch and a per-manga title chooser. Display only.",
+    "type": "plugin", "language": "javascript", "lang": "multi", "icon": "",
+    "manifestURI": "https://raw.githubusercontent.com/addregin/seanime-manga-english-titles/main/manga-english-titles.json",
+    "payloadURI": "https://raw.githubusercontent.com/addregin/seanime-manga-english-titles/main/manga-english-titles.js",
+    "website": "https://github.com/addregin/seanime-manga-english-titles", "flags": "Error", "flaggedBy": [],
+    "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1565846023371362375",
+    "addedAt": "2026-10-30T21:53:03.984Z", "updatedAt": "2026-10-30T22:26:32.816Z"
+  },
+  {
     "id": "manga-source-updates", "name": "Manga Source Updates", "version": "1.8.8", "author": "Carloss616",
     "description": "Refresh a manga's chapters across providers and list the sources that have new chapters.",
     "type": "plugin", "language": "typescript", "lang": "en",
@@ -2403,7 +2429,7 @@
     "permalink": "https://www.virustotal.com/gui/file/f6802cae3fe653d4ed3b5eb9468a358c1ebe1ab964aca8fa1449ea8cdef85f5a",
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1560852567607742514",
+    "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1560852567607742514",
     "addedAt": "2026-10-17T03:10:51.356Z", "updatedAt": "2026-10-29T22:26:52.348Z"
   },
   {
