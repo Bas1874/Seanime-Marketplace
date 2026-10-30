@@ -345,7 +345,7 @@
   },
   {
     "id": "anime-sama-anime", "name": "Anime-Sama", "version": "1.0.1", "author": "Rafou376",
-    "description": "Anime-Sama est une plateforme de streaming d'anime française", "type": "onlinestream-provider",
+    "description": "Anime-Sama est une plateforme française de streaming d'anime", "type": "onlinestream-provider",
     "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/anime-sama-anime/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/anime-sama-anime/manifest.json",
@@ -353,7 +353,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1564438807380758638",
-    "addedAt": "2026-10-27T00:41:17.547Z", "updatedAt": "2026-10-27T14:26:51.628Z"
+    "addedAt": "2026-10-27T00:41:17.547Z", "updatedAt": "2026-10-30T18:26:32.774Z"
   },
   {
     "id": "anime-sama-vip-online-streaming", "name": "FR | Anime-Sama VIP", "version": "1.0.1",
@@ -820,7 +820,7 @@
     "permalink": "https://www.virustotal.com/gui/file/843fc4cbd6fe2bea3ab4900866c0000e697f0c2d3c0dc0a6e278ae4d3de39c15",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1559282505683574975",
+    "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1559282505683574975",
     "addedAt": "2026-10-12T19:11:59.423Z", "updatedAt": "2026-10-28T02:37:01.169Z"
   },
   {
@@ -864,6 +864,20 @@
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1559345374219604079",
     "addedAt": "2026-10-12T23:21:48.450Z", "updatedAt": "2026-10-16T10:07:23.402Z"
+  },
+  {
+    "id": "archive-org", "name": "Internet Archive", "version": "1.0.0", "author": "Lampe332",
+    "description": "Anime torrents from archive.org. archive.org seeds every item over HTTP (web seed), so downloads work without peers. Smart search filters out AMVs, reviews, YouTube mirrors and other non-episode uploads.",
+    "type": "anime-torrent-provider", "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/Lampe332/seanime-archive-org/main/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/Lampe332/seanime-archive-org/main/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Lampe332/seanime-archive-org/main/provider.ts",
+    "website": "https://github.com/Lampe332/seanime-archive-org", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8bfafe976372ea2e2ce616b2bd7b5f51284378126b29681932045f7b694e759f",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259206880067784","1359183147123867881","1505937222891733062"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1565774636401168534",
+    "addedAt": "2026-10-30T17:09:24.004Z", "updatedAt": "2026-10-30T18:24:58.306Z"
   },
   {
     "id": "asunatracks-sync", "name": "AsunaTracks Sync", "version": "0.1.27", "author": "Kolex06",
@@ -987,9 +1001,11 @@
     "language": "typescript", "lang": "es", "icon": "https://capibaratraductor.com/images/faviconcaptrad.png",
     "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/main.ts",
-    "website": "", "flags": "Error", "flaggedBy": [], "permalink": "", "workingTag": false, "brokenTag": false,
-    "deprecatedTag": false, "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": null, "stars": 1, "threadId": "1495719071998541866", "addedAt": "2026-04-20T09:33:35.881Z",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3170bd294918571820a3210aede73c6a36fc4c3fe874d81d0b803017479a5d25",
+    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
+    "stars": 1, "threadId": "1495719071998541866", "addedAt": "2026-04-20T09:33:35.881Z",
     "updatedAt": "2026-10-30T14:24:59.705Z"
   },
   {
@@ -1322,6 +1338,19 @@
     "addedAt": "2025-11-23T16:17:06.088Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "dkb", "name": "DKB", "version": "1.0.0", "author": "Lampe332",
+    "description": "DKB & Weeblets releases from dkb.lowpolyfire.com: 1080p HEVC x265 10-bit weekly episodes, season batches and movies. Smart search maps AniList episodes to DKB's TVDB-style season numbering.",
+    "type": "anime-torrent-provider", "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/Lampe332/seanime-dkb/main/icon.png",
+    "manifestURI": "https://raw.githubusercontent.com/Lampe332/seanime-dkb/main/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Lampe332/seanime-dkb/main/provider.ts",
+    "website": "https://github.com/Lampe332/seanime-dkb", "flags": "Error", "flaggedBy": [], "permalink": "",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359259206880067784","1359183147123867881","1505937222891733062"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1565770813528084560",
+    "addedAt": "2026-10-30T16:54:12.560Z", "updatedAt": "2026-10-30T18:26:32.774Z"
+  },
+  {
     "id": "donghuastream", "name": "DonghuaStream", "version": "1.0.1", "author": "Pal",
     "description": "DonghuaStream streaming provider for Seanime", "type": "onlinestream-provider",
     "language": "javascript", "lang": "en",
@@ -1446,7 +1475,7 @@
   },
   {
     "id": "french-stream", "name": "French Stream", "version": "1.2.4", "author": "Rafou376",
-    "description": "French Stream est une plateforme de streaming supportant séries et films",
+    "description": "French Stream est une plateforme française de streaming pour séries et films",
     "type": "onlinestream-provider", "language": "typescript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/french-stream/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/french-stream/manifest.json",
@@ -1454,7 +1483,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183296591823124","1505937222891733062","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1545383472682635334",
-    "addedAt": "2026-09-04T10:42:11.724Z", "updatedAt": "2026-10-17T18:03:14.117Z"
+    "addedAt": "2026-09-04T10:42:11.724Z", "updatedAt": "2026-10-30T18:26:32.774Z"
   },
   {
     "id": "friend-stats", "name": "Friend stats", "version": "1.2.2", "author": "Kaktus",
