@@ -797,18 +797,17 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anizone", "name": "AniZone by Jae", "version": "1.0.4", "author": "Jae",
-    "description": "AniZone by Jae online streaming provider with HLS playback, smarter title matching, and selectable subtitles.",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider-2/main/logo.png",
-    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider-2/main/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/DefnoJae/Seanime-provider-2/main/provider.ts", "website": "",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/158a5e46da99311f385407e87ff6953427a4a6609d768eb0b1a80ddb809bcc73",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1553943677892562944",
-    "addedAt": "2026-09-28T01:37:23.687Z", "updatedAt": "2026-09-28T02:49:25.811Z"
+    "id": "anizone", "name": "AniZone", "version": "1.0.1", "author": "jabifx",
+    "description": "Online streaming provider with soft subs and dubs.", "type": "onlinestream-provider",
+    "language": "typescript", "lang": "multi", "icon": "",
+    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AniZone/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/refs/heads/master/src/AniZone/index.ts",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/289376c583dad130d616bcee0a2e832e2a866060802fd6236e0b9b45e87431de",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1430593283947761827",
+    "addedAt": "2025-10-22T16:26:58.031Z", "updatedAt": "2026-10-30T02:24:57.227Z"
   },
   {
     "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.12", "author": "aquaryuo",
