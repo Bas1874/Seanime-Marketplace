@@ -732,7 +732,7 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anipm", "name": "AniPM", "version": "1.0.0", "author": "Thekingcrusher",
+    "id": "anipm", "name": "AniPM", "version": "1.0.1", "author": "Thekingcrusher",
     "description": "AniPM is a uncompressed online stream provider for both soft/hard subs and dub.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/anipm/logo.png",
@@ -741,7 +741,7 @@
     "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1560860450240069723",
-    "addedAt": "2026-10-17T03:42:10.722Z", "updatedAt": "2026-10-17T06:03:57.632Z"
+    "addedAt": "2026-10-17T03:42:10.722Z", "updatedAt": "2026-10-30T10:24:29.599Z"
   },
   {
     "id": "anirena", "name": "AniRena", "version": "1.0.1", "author": "eepyboba",
