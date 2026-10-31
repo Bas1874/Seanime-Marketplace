@@ -483,11 +483,11 @@
     "timestamp": 1771866081063, "hadWorkingTag": false
   },
   {
-    "id": "aq-anikoto", "version": "1.4.12",
+    "id": "aq-anikoto", "version": "1.4.13",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/843fc4cbd6fe2bea3ab4900866c0000e697f0c2d3c0dc0a6e278ae4d3de39c15",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793154356542
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/dcb28741d3257cb50e18f5e106b5693911ef262271955af802837c9976c3d771",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793456782397
   },
   {
     "id": "aq-animepahe", "version": "0.2.44",
