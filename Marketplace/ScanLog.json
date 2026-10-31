@@ -504,11 +504,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789318114984
   },
   {
-    "id": "aq-anizone", "version": "1.1.42",
+    "id": "aq-anizone", "version": "1.1.43",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
-    "flags": "0/27", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/59e76078c0a0db6636e9fd08b7bd915154b1c1cd327738a3210cf754f06b4518",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791842820358
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/cc50b24ae29d0cbf043002b2f940b99fa17d475b4a2354af556e0aaf30204456",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793427974533
   },
   {
     "id": "aq-aquaprefs", "version": "1.1.66",
