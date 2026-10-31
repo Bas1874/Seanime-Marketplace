@@ -824,18 +824,18 @@
     "addedAt": "2026-10-12T19:11:59.423Z", "updatedAt": "2026-10-28T02:37:01.169Z"
   },
   {
-    "id": "aq-anizone", "name": "AniZone", "version": "1.1.42", "author": "aquaryuo",
+    "id": "aq-anizone", "name": "AniZone", "version": "1.1.43", "author": "aquaryuo",
     "description": "Only anizone compatibility layer you'll ever need. Dub streams carry both audio tracks — pick English in the player's audio menu once and Seanime remembers it for that series.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
-    "website": "https://anizone.to", "flags": "0/27", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/59e76078c0a0db6636e9fd08b7bd915154b1c1cd327738a3210cf754f06b4518",
+    "website": "https://anizone.to", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/cc50b24ae29d0cbf043002b2f940b99fa17d475b4a2354af556e0aaf30204456",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1559286767331577977",
-    "addedAt": "2026-10-12T19:28:55.479Z", "updatedAt": "2026-10-12T22:15:59.671Z"
+    "addedAt": "2026-10-12T19:28:55.479Z", "updatedAt": "2026-10-31T06:26:14.774Z"
   },
   {
     "id": "aq-kickassanime", "name": "KickAssAnime", "version": "0.1.4", "author": "aquaryuo",
@@ -852,18 +852,16 @@
     "addedAt": "2026-10-12T19:46:25.417Z", "updatedAt": "2026-10-28T06:25:49.118Z"
   },
   {
-    "id": "aq-mkissa", "name": "MKissa", "version": "0.1.2", "author": "aquaryuo",
+    "id": "aq-mkissa", "name": "MKissa", "version": "0.1.3", "author": "aquaryuo",
     "description": "Only mkissa compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/provider.ts",
-    "website": "https://mkissa.to", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2a42ab514b666947401fc204817ded5ad57c2b5734ad4226f083cf30d2093462",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1559345374219604079",
-    "addedAt": "2026-10-12T23:21:48.450Z", "updatedAt": "2026-10-16T10:07:23.402Z"
+    "website": "https://mkissa.to", "flags": "Error", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183147123867881","1359183296591823124"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1559345374219604079",
+    "addedAt": "2026-10-12T23:21:48.450Z", "updatedAt": "2026-10-31T06:26:14.774Z"
   },
   {
     "id": "archive-org", "name": "Internet Archive", "version": "1.0.0", "author": "Lampe332",
