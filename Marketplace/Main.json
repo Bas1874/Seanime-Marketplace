@@ -2001,8 +2001,9 @@
     "type": "plugin", "language": "javascript", "lang": "multi", "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/addregin/seanime-manga-english-titles/main/manga-english-titles.json",
     "payloadURI": "https://raw.githubusercontent.com/addregin/seanime-manga-english-titles/main/manga-english-titles.js",
-    "website": "https://github.com/addregin/seanime-manga-english-titles", "flags": "Error", "flaggedBy": [],
-    "permalink": "", "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "website": "https://github.com/addregin/seanime-manga-english-titles", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8a232174bdc2de6289c4e5d88f4151f6b32b914751f73a37dfa65a451ef9c46d",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1565846023371362375",
     "addedAt": "2026-10-30T21:53:03.984Z", "updatedAt": "2026-10-30T22:26:32.816Z"
