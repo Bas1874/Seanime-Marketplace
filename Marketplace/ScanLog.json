@@ -532,11 +532,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793168748868
   },
   {
-    "id": "aq-mkissa", "version": "0.1.2",
+    "id": "aq-mkissa", "version": "0.1.3",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2a42ab514b666947401fc204817ded5ad57c2b5734ad4226f083cf30d2093462",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792144932232
+    "permalink": "https://www.virustotal.com/gui/file/5db11acbcfd73c83db3fa83a02844bfca3fb3a8b4ff8a9961236e5f4c90d2e39",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793442343664
   },
   {
     "id": "aq-seatags", "version": "1.7.25",
