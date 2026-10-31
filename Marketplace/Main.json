@@ -810,18 +810,17 @@
     "addedAt": "2025-10-22T16:26:58.031Z", "updatedAt": "2026-10-30T02:24:57.227Z"
   },
   {
-    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.12", "author": "aquaryuo",
+    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.13", "author": "aquaryuo",
     "description": "Only anikoto compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "website": "https://anikototv.to", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/843fc4cbd6fe2bea3ab4900866c0000e697f0c2d3c0dc0a6e278ae4d3de39c15",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "website": "https://anikototv.to", "flags": "Error", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1559282505683574975",
-    "addedAt": "2026-10-12T19:11:59.423Z", "updatedAt": "2026-10-28T02:37:01.169Z"
+    "addedAt": "2026-10-12T19:11:59.423Z", "updatedAt": "2026-10-31T10:25:43.946Z"
   },
   {
     "id": "aq-anizone", "name": "AniZone", "version": "1.1.43", "author": "aquaryuo",
@@ -858,9 +857,11 @@
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/provider.ts",
-    "website": "https://mkissa.to", "flags": "Error", "flaggedBy": [], "permalink": "", "workingTag": true,
-    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183147123867881","1359183296591823124"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1559345374219604079",
+    "website": "https://mkissa.to", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5db11acbcfd73c83db3fa83a02844bfca3fb3a8b4ff8a9961236e5f4c90d2e39",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1559345374219604079",
     "addedAt": "2026-10-12T23:21:48.450Z", "updatedAt": "2026-10-31T06:26:14.774Z"
   },
   {
