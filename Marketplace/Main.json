@@ -816,8 +816,9 @@
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "website": "https://anikototv.to", "flags": "Error", "flaggedBy": [], "permalink": "", "workingTag": true,
-    "brokenTag": false, "deprecatedTag": false,
+    "website": "https://anikototv.to", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/dcb28741d3257cb50e18f5e106b5693911ef262271955af802837c9976c3d771",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1559282505683574975",
     "addedAt": "2026-10-12T19:11:59.423Z", "updatedAt": "2026-10-31T10:25:43.946Z"
@@ -1110,7 +1111,7 @@
     "permalink": "https://www.virustotal.com/gui/file/e9026ac1f16cdafce3b1c71a4ba005801bbe8690ec8de7fa65c83412d0b1e8be",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1559952770533036085",
+    "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1559952770533036085",
     "addedAt": "2026-10-14T15:35:23.016Z", "updatedAt": "2026-10-25T02:28:54.309Z"
   },
   {
@@ -1184,7 +1185,7 @@
     "permalink": "https://www.virustotal.com/gui/file/1cd9345f6e531bbdb3ad17477359774043300255294c36870377d9ab55d6b388",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183211099459916","1359183394512048148"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1564261465836494868",
+    "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1564261465836494868",
     "addedAt": "2026-10-26T12:56:36.028Z", "updatedAt": "2026-10-26T18:25:30.882Z"
   },
   {
