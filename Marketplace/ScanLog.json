@@ -1098,6 +1098,13 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793399100160
   },
   {
+    "id": "manga-english-titles", "version": "1.8.0",
+    "payloadURI": "https://raw.githubusercontent.com/addregin/seanime-manga-english-titles/main/manga-english-titles.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8a232174bdc2de6289c4e5d88f4151f6b32b914751f73a37dfa65a451ef9c46d",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793413501555
+  },
+  {
     "id": "manga-source-updates", "version": "1.8.8",
     "payloadURI": "https://raw.githubusercontent.com/Carloss616/seanime-extensions/main/src/plugins/manga-source-updates/code.js",
     "flags": "0/61", "flaggedBy": [],
