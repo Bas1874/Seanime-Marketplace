@@ -742,18 +742,18 @@
     "timestamp": 1775816055850, "hadWorkingTag": false
   },
   {
-    "id": "dipland-mangaball", "version": "1.0.0",
+    "id": "dipland-mangaball", "version": "2.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangaball/provider.ts",
-    "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1a139d2752939059c39e34ace147b6e8e32afc7b690b7f74a43f89d249275cb2",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1790104037590
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/98f5d0b1f83692a476be2f35e19ac8eef7939b5df80c60d67b5b4409e04e77e2",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793822961099
   },
   {
-    "id": "dipland-mangadot", "version": "1.0.1",
+    "id": "dipland-mangadot", "version": "2.0.0",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangadot/provider.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/35b9ae47a5ad2b5f2fb3a26c071c104ebda7b413c09f2e5c83ae149f44e26d16",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1790276909190
+    "flags": "0/57", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f6f2886a7e5b148aace9939c7923a09f5ff72662f54d45a1521ea77d3d1b5b4c",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793822744197
   },
   {
     "id": "dipland-mangafire", "version": "1.1.1",
