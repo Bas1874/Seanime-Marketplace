@@ -426,18 +426,17 @@
     "addedAt": "2026-01-12T12:33:46.171Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "animeheaven", "name": "AnimeHeaven", "version": "1.1.5", "author": "Pal",
+    "id": "animeheaven", "name": "AnimeHeaven", "version": "1.1.6", "author": "Pal",
     "description": "AnimeHeaven is an online streaming provider for subbed anime in english",
     "type": "onlinestream-provider", "language": "javascript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/animeheaven.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/837a4f7266765a1c8332c28f207110f0c96b130e37ec25281656a098902cc5ce",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "website": "", "flags": "Error", "flaggedBy": [], "permalink": "", "workingTag": true, "brokenTag": false,
+    "deprecatedTag": false,
     "tags": ["1505936860441083904","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1442565716028162180",
-    "addedAt": "2025-11-24T17:21:08.276Z", "updatedAt": "2026-10-17T14:03:18.783Z"
+    "addedAt": "2025-11-24T17:21:08.276Z", "updatedAt": "2026-11-04T20:09:21.360Z"
   },
   {
     "id": "animenexus", "name": "Anime Nexus", "version": "0.5.1", "author": "DefnoJae",
@@ -1259,37 +1258,37 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "dipland-mangaball", "name": "MangaBall", "version": "1.0.0", "author": "dip-land",
-    "description": "Multi language manga provider. (Requires Aqua's Utils)", "type": "manga-provider",
-    "language": "typescript", "lang": "multi",
+    "id": "dipland-mangaball", "name": "MangaBall", "version": "2.0.0", "author": "dip-land",
+    "description": "Multi language manga provider.", "type": "manga-provider", "language": "typescript",
+    "lang": "multi",
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/mangaball.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangaball/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangaball/provider.ts",
-    "website": "https://mangaball.net/", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1a139d2752939059c39e34ace147b6e8e32afc7b690b7f74a43f89d249275cb2",
+    "website": "https://mangaball.net/", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/98f5d0b1f83692a476be2f35e19ac8eef7939b5df80c60d67b5b4409e04e77e2",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1551646334757380116",
-    "addedAt": "2026-09-21T17:28:34.401Z", "updatedAt": "2026-09-22T19:10:06.597Z"
+    "addedAt": "2026-09-21T17:28:34.401Z", "updatedAt": "2026-11-04T20:09:21.360Z"
   },
   {
-    "id": "dipland-mangadot", "name": "MangaDot", "version": "1.0.1", "author": "dip-land",
-    "description": "Multi language manga provider. (Requires Aqua's Utils)", "type": "manga-provider",
-    "language": "typescript", "lang": "multi",
+    "id": "dipland-mangadot", "name": "MangaDot", "version": "2.0.0", "author": "dip-land",
+    "description": "Multi language manga provider.", "type": "manga-provider", "language": "typescript",
+    "lang": "multi",
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/mangadot.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangadot/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangadot/provider.ts",
-    "website": "https://mangadot.net/", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/35b9ae47a5ad2b5f2fb3a26c071c104ebda7b413c09f2e5c83ae149f44e26d16",
+    "website": "https://mangadot.net/", "flags": "0/57", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f6f2886a7e5b148aace9939c7923a09f5ff72662f54d45a1521ea77d3d1b5b4c",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1552717267920363580",
-    "addedAt": "2026-09-24T16:24:04.764Z", "updatedAt": "2026-09-24T19:08:29.450Z"
+    "addedAt": "2026-09-24T16:24:04.764Z", "updatedAt": "2026-11-04T20:09:21.360Z"
   },
   {
     "id": "dipland-mangafire", "name": "MangaFire", "version": "1.1.1", "author": "dip-land",
-    "description": "Multi language manga provider. (Requires Aqua's Utils)", "type": "manga-provider",
-    "language": "typescript", "lang": "multi",
+    "description": "Multi language manga provider.", "type": "manga-provider", "language": "typescript",
+    "lang": "multi",
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/mangafire.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangafire/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangafire/provider.ts",
@@ -1298,7 +1297,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 7, "threadId": "1535551888580280470",
-    "addedAt": "2026-08-08T07:34:59.412Z", "updatedAt": "2026-09-22T19:10:06.597Z"
+    "addedAt": "2026-08-08T07:34:59.412Z", "updatedAt": "2026-11-04T20:09:21.360Z"
   },
   {
     "id": "discord-rpc-extended", "name": "Discord RPC Extended", "version": "1.0.11", "author": "nnotwen",
