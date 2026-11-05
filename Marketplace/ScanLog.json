@@ -1301,6 +1301,13 @@
     "lastWorkingVersion": "3.8.3", "hadWorkingTag": false, "timestamp": 1792202630078
   },
   {
+    "id": "megaplay", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/megaplay/provider.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/188e99c523480345e1c485a454b56fdb11c3490a82e71fb650f230bfa657ea98",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793909056733
+  },
+  {
     "id": "mh-scans", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/MhScans/main.ts",
     "flags": "0/60", "flaggedBy": [],
