@@ -2392,6 +2392,19 @@
     "addedAt": "2026-06-07T02:02:08.796Z", "updatedAt": "2026-10-17T02:03:50.323Z"
   },
   {
+    "id": "megaplay", "name": "Megaplay", "version": "1.0.0", "author": "Pal",
+    "description": "Megaplay is an AniList-backed online streaming provider for subbed and dubbed anime.",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "en", "icon": "",
+    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/megaplay/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/megaplay/provider.js",
+    "website": "https://megaplay.buzz/", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/188e99c523480345e1c485a454b56fdb11c3490a82e71fb650f230bfa657ea98",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1567929529282863165",
+    "addedAt": "2026-11-05T15:52:10.503Z", "updatedAt": "2026-11-05T20:04:16.733Z"
+  },
+  {
     "id": "mh-scans", "name": "MH Scans", "version": "1.1.1", "author": "branrgx",
     "description": "MHScans integration bringing Spanish-translated manhua and manhwa.", "type": "manga-provider",
     "language": "typescript", "lang": "es",
