@@ -301,11 +301,11 @@
     "lastWorkingVersion": "3.8.7", "timestamp": 1781613145012, "hadWorkingTag": false
   },
   {
-    "id": "animeheaven", "version": "1.1.5",
+    "id": "animeheaven", "version": "1.1.6",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/837a4f7266765a1c8332c28f207110f0c96b130e37ec25281656a098902cc5ce",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792245798494
+    "flags": "0/55", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/3d35e9b056291df2aa9e809031714577e982490a062b859052a29bf396239394",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793851508482
   },
   {
     "id": "animekai", "version": "1.2.1",
