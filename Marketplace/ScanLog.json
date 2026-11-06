@@ -1928,5 +1928,12 @@
     "flags": "0/62", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/eb1245ebf120955818f505449a84b3314c172ed06cc83076791c2e551f4d5c49",
     "timestamp": 1771873277694
+  },
+  {
+    "id": "zokoanime", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/zokoanime/provider.js",
+    "flags": "0/55", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/093fff976a56c32fed669b84834be847754748c53299f8c49979248dfaac75ce",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793995687344
   }
 ]
