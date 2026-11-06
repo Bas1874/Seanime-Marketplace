@@ -3799,5 +3799,19 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1549761624804429824",
     "addedAt": "2026-09-16T12:39:24.532Z", "updatedAt": "2026-10-11T22:01:40.711Z"
+  },
+  {
+    "id": "zokoanime", "name": "ZokoAnime", "version": "1.0.0", "author": "Pal",
+    "description": "ZokoAnime is an AniList-backed MAL ID online streaming provider for subbed and dubbed anime. Dubtitles may be available too",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/public/zokoanime.png",
+    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/zokoanime/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/zokoanime/provider.js",
+    "website": "https://zokoanime.video/", "flags": "0/55", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/093fff976a56c32fed669b84834be847754748c53299f8c49979248dfaac75ce",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1568304294741151965",
+    "addedAt": "2026-11-06T16:41:21.551Z", "updatedAt": "2026-11-06T20:08:07.344Z"
   }
 ]
