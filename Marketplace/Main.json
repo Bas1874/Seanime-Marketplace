@@ -2405,6 +2405,19 @@
     "addedAt": "2026-11-05T15:52:10.503Z", "updatedAt": "2026-11-06T16:05:28.900Z"
   },
   {
+    "id": "megavid", "name": "Megavid", "version": "1.0.0", "author": "Pal",
+    "description": "Megavid is an AniList-backed online streaming provider for subbed and dubbed anime. Dubtitles are also available",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "multi", "icon": "",
+    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/megavid/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/megavid/provider.js",
+    "website": "https://megavid.buzz/", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/daceb1ac4aa84082585782bf2c7a9b8c916632067a09fcf8e2d3c5755328d31d",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1568568819880820796",
+    "addedAt": "2026-11-07T10:12:29.259Z", "updatedAt": "2026-11-07T12:03:49.554Z"
+  },
+  {
     "id": "mh-scans", "name": "MH Scans", "version": "1.1.1", "author": "branrgx",
     "description": "MHScans integration bringing Spanish-translated manhua and manhwa.", "type": "manga-provider",
     "language": "typescript", "lang": "es",
@@ -2497,7 +2510,7 @@
     "permalink": "https://www.virustotal.com/gui/file/df5976bd4f1bbbafb6f917ecd1c5e20401dd827cebb4f6396b080f0c3b5a6d9f",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1505936178292064266","1359183211099459916","1359183394512048148"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 11, "threadId": "1449622275044147210",
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 12, "threadId": "1449622275044147210",
     "addedAt": "2025-12-14T04:41:23.050Z", "updatedAt": "2026-10-20T14:27:19.697Z"
   },
   {
