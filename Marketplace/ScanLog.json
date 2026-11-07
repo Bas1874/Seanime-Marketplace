@@ -1308,6 +1308,13 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793981128609
   },
   {
+    "id": "megavid", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/megavid/provider.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/daceb1ac4aa84082585782bf2c7a9b8c916632067a09fcf8e2d3c5755328d31d",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794053029554
+  },
+  {
     "id": "mh-scans", "version": "1.1.1",
     "payloadURI": "https://raw.githubusercontent.com/branrgx/seanime-extensions/main/src/MhScans/main.ts",
     "flags": "0/60", "flaggedBy": [],
