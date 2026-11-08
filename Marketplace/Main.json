@@ -1873,18 +1873,18 @@
     "addedAt": "2026-06-18T21:57:00.083Z", "updatedAt": "2026-07-09T23:36:51.758Z"
   },
   {
-    "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.7.0", "author": "Kaktus",
+    "id": "livechart-schedule", "name": "LiveChart Schedule", "version": "0.8.1", "author": "Kaktus",
     "description": "Overrides Seanime's schedule times using LiveChart's data, with a choice between Japanese broadcast and simulcast/dub schedules per anime or globally.",
     "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/main.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c39cb91216875a065b7a021c1137269bba1832392e0e8ca3dbddc18d12ab6623",
+    "permalink": "https://www.virustotal.com/gui/file/468fb84e2271e15317988fc409afc65445800912ac8b66eda495045c5e7e76ef",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 7, "threadId": "1525547132885401751",
-    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-10-11T18:02:28.365Z"
+    "addedAt": "2026-07-11T16:59:39.775Z", "updatedAt": "2026-11-08T16:04:35.702Z"
   },
   {
     "id": "ln-discord-rpc", "name": "Light Novel Discord RPC", "version": "1.1.0", "author": "BTL-DARKER",
@@ -2309,17 +2309,17 @@
     "addedAt": "2026-05-27T22:48:18.562Z", "updatedAt": "2026-07-14T07:09:00.353Z"
   },
   {
-    "id": "mangaworld", "name": "MangaWorld", "version": "1.0.2", "author": "kRYstall9",
+    "id": "mangaworld", "name": "MangaWorld", "version": "1.0.3", "author": "kRYstall9",
     "description": "MangaWorld is a manga provider for MangaWorld. It mainly focuses on Italian manga.",
     "type": "manga-provider", "language": "typescript", "lang": "it", "icon": "",
     "manifestURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-manga-providers/refs/heads/main/src/MangaWorld/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-manga-providers/refs/heads/main/src/MangaWorld/provider.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2ac2f21e25e2517afb398d239bf86e09c9f9b68806ee768807c8bbd5b1b23304",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0049c676b3900d23d45f3f50e0b917b056ec8360e5b520c5fb1459c31cb5dc0a",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 8, "threadId": "1359432599935651861", "addedAt": "2025-04-09T07:39:48.861Z",
-    "updatedAt": "2026-08-02T12:55:45.417Z"
+    "updatedAt": "2026-11-08T16:04:35.702Z"
   },
   {
     "id": "mangaworldadult", "name": "MangaWorldAdult", "version": "1.0.1", "author": "pal",
