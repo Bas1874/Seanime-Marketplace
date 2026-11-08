@@ -350,11 +350,11 @@
     "lastWorkingVersion": "3.9.1", "timestamp": 1783299959288, "hadWorkingTag": false
   },
   {
-    "id": "animesaturnmirror", "version": "1.0.0",
+    "id": "animesaturnmirror", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesaturnmirror/provider.js",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7112be517b302279b415ed0369055b8b903520d9d1668cb7799a8df749f8d404",
-    "timestamp": 1779040626672, "lastWorkingVersion": "3.10.4", "hadWorkingTag": true
+    "permalink": "https://www.virustotal.com/gui/file/1d3c67586821135c8307618a8c7b531a49d787794f07bd11d46e7f2fd58712f3",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794168329837
   },
   {
     "id": "animesdigital", "version": "1.0.6",
@@ -389,7 +389,7 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animetoast/provider.js",
     "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2038eede87d10744a2ac68f3d76aa6e8d970464dfd759e39e5304049fc16a326",
-    "timestamp": 1776472247923, "hadWorkingTag": false
+    "timestamp": 1776472247923, "hadWorkingTag": true, "lastWorkingVersion": "3.10.4"
   },
   {
     "id": "animetosho-new", "version": "2.5.3",
@@ -399,11 +399,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1793139904177
   },
   {
-    "id": "animetvplus", "version": "1.0.2",
+    "id": "animetvplus", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animetvplus/provider.js",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ae2c22251a45ee173fe0eaf0c5e7338ad477f9feecab86804134712d4637bc78",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792938671712
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/134166da8618d33ded949c49622b09e0a1d5399959a1f0edeadd19013fcec185",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794168283665
   },
   {
     "id": "animeunion", "version": "1.0.1",
@@ -455,11 +455,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792794416220
   },
   {
-    "id": "anitube", "version": "1.0.2",
-    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/anitube/anitube.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/13de19204b4918610355e4a3dbd34944538d30317365e51a54b7092002fc032b",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792188203674
+    "id": "anitube", "version": "1.0.1",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anitube/provider.ts",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1e93deb98b8d67c3c0a837b0fcb79ad9a9be0ab760e8598c1f7446e75cb2b56e",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": false, "timestamp": 1794168375949
   },
   {
     "id": "aniworld", "version": "1.2.0",
@@ -1364,11 +1364,11 @@
     "timestamp": 1771865941910, "lastWorkingVersion": "3.10.4", "hadWorkingTag": true
   },
   {
-    "id": "mynimeku", "version": "1.3.1",
+    "id": "mynimeku", "version": "1.4.1",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/mynimeku/provider.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5ad53e69b7013960021c4956c12b292e4ce416d76acded677b4c0de351c02e49",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791053197818
+    "permalink": "https://www.virustotal.com/gui/file/20765732a4b128a0aaab888c58cdca5889cdd3916666294d00dd2001f5633357",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794168437398
   },
   {
     "id": "mynimekumanga", "version": "1.2.1",
