@@ -1035,11 +1035,11 @@
     "lastWorkingVersion": "3.9.1", "timestamp": 1783639380941, "hadWorkingTag": false
   },
   {
-    "id": "livechart-schedule", "version": "0.7.0",
+    "id": "livechart-schedule", "version": "0.8.1",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/livechart-schedule/main.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c39cb91216875a065b7a021c1137269bba1832392e0e8ca3dbddc18d12ab6623",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791741748135
+    "permalink": "https://www.virustotal.com/gui/file/468fb84e2271e15317988fc409afc65445800912ac8b66eda495045c5e7e76ef",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794153828854
   },
   {
     "id": "ln-discord-rpc", "version": "1.1.0",
@@ -1245,11 +1245,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1784012940100
   },
   {
-    "id": "mangaworld", "version": "1.0.2",
+    "id": "mangaworld", "version": "1.0.3",
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-manga-providers/refs/heads/main/src/MangaWorld/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/2ac2f21e25e2517afb398d239bf86e09c9f9b68806ee768807c8bbd5b1b23304",
-    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1785675345191
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0049c676b3900d23d45f3f50e0b917b056ec8360e5b520c5fb1459c31cb5dc0a",
+    "lastWorkingVersion": null, "hadWorkingTag": false, "timestamp": 1794153875454
   },
   {
     "id": "mangaworldadult", "version": "1.0.1",
