@@ -495,17 +495,17 @@
     "addedAt": "2025-04-18T18:38:10.468Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
-    "id": "animesaturnmirror", "name": "AnimeSaturn (Mirror)", "version": "1.0.0", "author": "Pal",
+    "id": "animesaturnmirror", "name": "AnimeSaturn (Mirror)", "version": "1.0.1", "author": "Pal",
     "description": "AnimeSaturn mirror", "type": "onlinestream-provider", "language": "javascript", "lang": "it",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/animesaturn.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesaturnmirror/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animesaturnmirror/provider.js",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7112be517b302279b415ed0369055b8b903520d9d1668cb7799a8df749f8d404",
+    "permalink": "https://www.virustotal.com/gui/file/1d3c67586821135c8307618a8c7b531a49d787794f07bd11d46e7f2fd58712f3",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1505611334652395582",
-    "addedAt": "2026-05-17T16:41:55.087Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "addedAt": "2026-05-17T16:41:55.087Z", "updatedAt": "2026-11-08T20:07:17.639Z"
   },
   {
     "id": "animesdigital", "name": "Animes Digital", "version": "1.0.6", "author": "Jhoorodr",
@@ -572,10 +572,10 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animetoast/provider.js",
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/2038eede87d10744a2ac68f3d76aa6e8d970464dfd759e39e5304049fc16a326",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": null, "stars": 2, "threadId": "1494704345487380602", "addedAt": "2026-04-17T14:21:26.228Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1494704345487380602",
+    "addedAt": "2026-04-17T14:21:26.228Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
     "id": "animetosho", "name": "Animetosho", "version": "1.0.1", "author": "Island",
@@ -601,18 +601,18 @@
     "addedAt": "2026-05-17T12:31:09.495Z", "updatedAt": "2026-10-27T22:25:04.440Z"
   },
   {
-    "id": "animetvplus", "name": "AniTVPlus", "version": "1.0.2", "author": "Pal",
+    "id": "animetvplus", "name": "AniTVPlus", "version": "1.0.3", "author": "Pal",
     "description": "Search anime on AniTVPlus and stream available episodes with HLS playback and subtitle metadata. (may also support dubtitles)",
     "type": "onlinestream-provider", "language": "javascript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/main/public/animetvplus.png",
     "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animetvplus/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animetvplus/provider.js",
-    "website": "https://animetvplus.xyz/", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/ae2c22251a45ee173fe0eaf0c5e7338ad477f9feecab86804134712d4637bc78",
+    "website": "https://animetvplus.xyz/", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/134166da8618d33ded949c49622b09e0a1d5399959a1f0edeadd19013fcec185",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1562159893648117780",
-    "addedAt": "2026-10-20T17:45:42.173Z", "updatedAt": "2026-10-25T14:31:11.968Z"
+    "addedAt": "2026-10-20T17:45:42.173Z", "updatedAt": "2026-11-08T20:07:17.639Z"
   },
   {
     "id": "animeunion", "name": "AnimeUnion", "version": "1.0.1", "author": "Pal",
@@ -769,18 +769,18 @@
     "addedAt": "2026-10-23T19:32:11.218Z", "updatedAt": "2026-10-23T22:26:56.220Z"
   },
   {
-    "id": "anitube", "name": "Anitube (PT-BR)", "version": "1.0.2", "author": "Jhoorodr",
-    "description": "Anime streaming provider for Anitube, with subbed and dubbed titles in Brazilian Portuguese. May only work with a Brazil VPN.",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "pt-BR",
-    "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/icon/anitube.png",
-    "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/anitube/anitube.json",
-    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/anitube/anitube.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/13de19204b4918610355e4a3dbd34944538d30317365e51a54b7092002fc032b",
-    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1547064890823278662",
-    "addedAt": "2026-09-09T02:03:33.048Z", "updatedAt": "2026-10-16T22:17:20.236Z"
+    "id": "anitube", "name": "AniTube", "version": "1.0.1", "author": "Pal",
+    "description": "AniTube is an online streaming provider for portugese subs.", "type": "onlinestream-provider",
+    "language": "typescript", "lang": "pt",
+    "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/anitube.png",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anitube/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anitube/provider.ts",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1e93deb98b8d67c3c0a837b0fcb79ad9a9be0ab760e8598c1f7446e75cb2b56e",
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1461429630023242005",
+    "addedAt": "2026-01-15T18:39:35.847Z", "updatedAt": "2026-11-08T20:07:17.639Z"
   },
   {
     "id": "aniworld", "name": "AniWorld", "version": "1.2.0", "author": "Pal",
@@ -2528,18 +2528,18 @@
     "addedAt": "2025-12-01T15:14:44.234Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mynimeku", "name": "MyNimeKu", "version": "1.3.1", "author": "Pal",
+    "id": "mynimeku", "name": "MyNimeKu", "version": "1.4.1", "author": "Pal",
     "description": "MyNimeKu is an online streaming provider for indonesian subs.", "type": "onlinestream-provider",
     "language": "typescript", "lang": "id",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/mynimeku.jpg",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/mynimeku/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/mynimeku/provider.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5ad53e69b7013960021c4956c12b292e4ce416d76acded677b4c0de351c02e49",
+    "permalink": "https://www.virustotal.com/gui/file/20765732a4b128a0aaab888c58cdca5889cdd3916666294d00dd2001f5633357",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505936860441083904","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1459253757207515197",
-    "addedAt": "2026-01-09T18:33:27.342Z", "updatedAt": "2026-10-03T18:48:10.721Z"
+    "addedAt": "2026-01-09T18:33:27.342Z", "updatedAt": "2026-11-08T20:07:17.639Z"
   },
   {
     "id": "mynimekumanga", "name": "MyNimeKu (Manga)", "version": "1.2.1", "author": "Pal",
