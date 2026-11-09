@@ -41,22 +41,12 @@
     "originalMessageContent": "> **Extension name:**\n> Anilist Notifications\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/plugins/anilist-notifications/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/plugins/anilist-notifications/manifest.json```\n> **Description:**\n> A plugin for viewing your Anilist notifications.\n> \n> **Additional Notes:**\n> None"
   },
   {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1509322165013577899",
-    "reason": "Request failed with status code 504",
-    "originalMessageContent": "> **Extension Name:**\n> Latanime\n> \n> **Version:**\n> 0.1.11\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://github.com/lens7y/seanime-ext-latanime) / Copy the link below:\n> `https://github.com/lens7y/seanime-ext-latanime/releases/latest/download/manifest.json`\n> \n> **Description:**\n> Online streaming provider for [Latanime](https://latanime.org/) — Dub preference: Latino, then Castellano; Japanese/sub when no dub is listed. Made by **lens7y**.\n> \n> **Additional Notes:**\n> You can report issues on Github or here."
-  },
-  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1510577432560926720", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension name:**\n> AniDB\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for english sub/dub anime, made by Pal\n> \n> **Additional Notes:**\n> Content is identical to AnimePahe but they self host it."
   },
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1512176296829128794", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension name:**\n> AniBD\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/anibd/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/anibd/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for english sub BD anime, made by Pal.\n> \n> **Additional Notes:**\n> Offers Blue Rays"
-  },
-  {
-    "threadURL": "https://discord.com/channels/1224767201551192224/1527972253126361118",
-    "reason": "Request failed with status code 504",
-    "originalMessageContent": "> **Extension Name:**\n> Seanime Download Notifier\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/seanime-download-notifier.json)  / Copy the link below: \n> `@`@`https://github.com/Hyperclaw79/seanime-download-notifier/releases/download/v1.0.0/seanime-download-notifier.json`@`@`\n> **Description:**\n> Get notified when Seanime Auto Downloader torrents finish. Seanime Download Notifier watches only torrents queued by Seanime, waits until your torrent client reports completion, then sends a rich provider-based notification.\n> \n> Discord webhooks are supported today, with embeds that can include anime and episode artwork, metadata, quality, codec, size, languages, release group, and a cleaned torrent title. Delivery failures are retried instead of dropped.\n> \n> **Additional Notes:**\n> - If something looks off, check the plugin page first — it shows tracked downloads, delivery state, and a recent activity log. For best results, keep the plugin enabled while downloads are in progress so it can poll completion and retry delivery when needed.\n> - Do checkout the [Github Repo](https://github.com/Hyperclaw79/seanime-download-notifier) to understand the plugin better or contribute to it via Issues and PRs."
   },
   {
     "threadURL": "https://discord.com/channels/1224767201551192224/1552963799559053392", "reason": "404 Not Found.",
