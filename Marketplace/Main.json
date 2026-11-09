@@ -810,60 +810,60 @@
     "addedAt": "2025-10-22T16:26:58.031Z", "updatedAt": "2026-10-30T02:24:57.227Z"
   },
   {
-    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.13", "author": "aquaryuo",
+    "id": "aq-anikoto", "name": "Anikoto", "version": "1.4.14", "author": "aquaryuo",
     "description": "Only anikoto compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
     "website": "https://anikototv.to", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/dcb28741d3257cb50e18f5e106b5693911ef262271955af802837c9976c3d771",
+    "permalink": "https://www.virustotal.com/gui/file/c6024f33db836f351eb5f7ecc9f261b8c2c0b7e830e42d79faf17a01684f5ce3",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1559282505683574975",
-    "addedAt": "2026-10-12T19:11:59.423Z", "updatedAt": "2026-10-31T10:25:43.946Z"
+    "addedAt": "2026-10-12T19:11:59.423Z", "updatedAt": "2026-11-09T22:16:20.545Z"
   },
   {
-    "id": "aq-anizone", "name": "AniZone", "version": "1.1.43", "author": "aquaryuo",
+    "id": "aq-anizone", "name": "AniZone", "version": "1.1.44", "author": "aquaryuo",
     "description": "Only anizone compatibility layer you'll ever need. Dub streams carry both audio tracks — pick English in the player's audio menu once and Seanime remembers it for that series.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
-    "website": "https://anizone.to", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/cc50b24ae29d0cbf043002b2f940b99fa17d475b4a2354af556e0aaf30204456",
+    "website": "https://anizone.to", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/14c0eb2be9643e4d925bee2c0b27e2120f4d7373d29fd437fefcc4937d40384f",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1559286767331577977",
-    "addedAt": "2026-10-12T19:28:55.479Z", "updatedAt": "2026-10-31T06:26:14.774Z"
+    "addedAt": "2026-10-12T19:28:55.479Z", "updatedAt": "2026-11-09T22:16:20.545Z"
   },
   {
-    "id": "aq-kickassanime", "name": "KickAssAnime", "version": "0.1.4", "author": "aquaryuo",
+    "id": "aq-kickassanime", "name": "KickAssAnime", "version": "0.1.5", "author": "aquaryuo",
     "description": "Only kickassanime compatibility layer you'll ever need. Dub streams carry both audio tracks — pick English in the player's audio menu once and Seanime remembers it for that series.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/kickassanime/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/kickassanime/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/kickassanime/provider.ts",
-    "website": "https://kaa.lt", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f7aa2689849a4d68c98a084cd228300bc6cec255cbd5894ec35715933f1784dd",
+    "website": "https://kaa.lt", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8c7f9f447e4d287bfe0d88c1193e12c852a8b52b0aedabeb5be96a1779a411cb",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1559291171090595861",
-    "addedAt": "2026-10-12T19:46:25.417Z", "updatedAt": "2026-10-28T06:25:49.118Z"
+    "addedAt": "2026-10-12T19:46:25.417Z", "updatedAt": "2026-11-09T22:16:20.545Z"
   },
   {
-    "id": "aq-mkissa", "name": "MKissa", "version": "0.1.3", "author": "aquaryuo",
+    "id": "aq-mkissa", "name": "MKissa", "version": "0.1.4", "author": "aquaryuo",
     "description": "Only mkissa compatibility layer you'll ever need", "type": "onlinestream-provider",
     "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/provider.ts",
-    "website": "https://mkissa.to", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/5db11acbcfd73c83db3fa83a02844bfca3fb3a8b4ff8a9961236e5f4c90d2e39",
+    "website": "https://mkissa.to", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8355fdc74d2e1273514cf5a6346061ac2e02fed220f168fc05b0a766fdea754c",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1559345374219604079",
-    "addedAt": "2026-10-12T23:21:48.450Z", "updatedAt": "2026-10-31T06:26:14.774Z"
+    "addedAt": "2026-10-12T23:21:48.450Z", "updatedAt": "2026-11-09T22:16:20.545Z"
   },
   {
     "id": "archive-org", "name": "Internet Archive", "version": "1.0.0", "author": "Lampe332",
@@ -2064,6 +2064,19 @@
     "addedAt": "2025-10-20T15:55:49.136Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "mangadex", "name": "MangaDex", "version": "1.0.2", "author": "Faddix",
+    "description": "Integrates MangaDex as a manga provider for Seanime.", "type": "manga-provider",
+    "language": "typescript", "lang": "multi",
+    "icon": "https://raw.githubusercontent.com/faddix/seanime-mangadex/main/src/mangadex-logo.png",
+    "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-mangadex/main/mangadex.json",
+    "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-mangadex/main/mangadex.ts", "website": "",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/856459b24a90d7513ccba3b7679391c68581aceade520994154a4bdb1c656fa7",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1569425754666696745",
+    "addedAt": "2026-11-09T18:57:38.433Z", "updatedAt": "2026-11-09T22:08:37.632Z"
+  },
+  {
     "id": "mangadex-source", "name": "MangaDex", "version": "1.0.1", "author": "jabifx",
     "description": "Implements MangaDex as a custom source.", "type": "custom-source", "language": "typescript",
     "lang": "multi",
@@ -2634,18 +2647,18 @@
     "addedAt": "2026-06-06T09:19:01.289Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "nontonanime", "name": "NonTonAnime", "version": "1.0.0", "author": "Pal",
+    "id": "nontonanime", "name": "NonTonAnime", "version": "1.1.0", "author": "Pal",
     "description": "NonTonAnime is an online streaming provider for indonesian anime.",
     "type": "onlinestream-provider", "language": "javascript", "lang": "id",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/nontonanime.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/nontonanime/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/nontonanime/provider.js",
-    "website": "", "flags": "0/62", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c7bffe81aee5f43dff05513a1975020f761c440bbeafbcbda3ce81aab280e7cd",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0abfb962a2baec805669fceb229cf22db3b4ae9f173dc7f18b9f8f25ee5ab74b",
     "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": null, "stars": 1, "threadId": "1469643019480338473", "addedAt": "2026-02-07T10:36:40.491Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-11-09T22:16:20.545Z"
   },
   {
     "id": "notes", "name": "Notes", "version": "1.0.5", "author": "nnotwen",
