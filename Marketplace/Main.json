@@ -2064,18 +2064,6 @@
     "addedAt": "2025-10-20T15:55:49.136Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mangadex", "name": "Mangadex", "version": "1.0.0", "author": "kiko",
-    "description": "No description provided.", "type": "manga-provider", "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/5rahim/hibike/main/icons/mangadex.png",
-    "manifestURI": "https://raw.githubusercontent.com/HyperKiko/seanime-extensions/main/src/mangadex/mangadex.json",
-    "payloadURI": "https://raw.githubusercontent.com/HyperKiko/seanime-extensions/main/src/mangadex/mangadex.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c73c2ce2438e8e9fd4924f72d8f5f27d09dc744f39af761cff9ede3c5aa132d6",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 2, "threadId": "1436152509885448322",
-    "addedAt": "2025-11-07T00:37:20.780Z", "updatedAt": "2026-07-06T15:13:11.445Z"
-  },
-  {
     "id": "mangadex-source", "name": "MangaDex", "version": "1.0.1", "author": "jabifx",
     "description": "Implements MangaDex as a custom source.", "type": "custom-source", "language": "typescript",
     "lang": "multi",
