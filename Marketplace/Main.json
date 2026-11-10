@@ -2064,17 +2064,17 @@
     "addedAt": "2025-10-20T15:55:49.136Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mangadex", "name": "MangaDex", "version": "1.0.2", "author": "Faddix",
+    "id": "mangadex", "name": "MangaDex", "version": "1.0.3", "author": "Faddix",
     "description": "Integrates MangaDex as a manga provider for Seanime.", "type": "manga-provider",
     "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/faddix/seanime-mangadex/main/src/mangadex-logo.png",
     "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-mangadex/main/mangadex.json",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-mangadex/main/mangadex.ts", "website": "",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/856459b24a90d7513ccba3b7679391c68581aceade520994154a4bdb1c656fa7",
+    "flags": "0/46", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/79cb13582bb13e5de0e3c4f1da5062638fc7cbce98e97f3cb38fba27710fb4c1",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1569425754666696745",
-    "addedAt": "2026-11-09T18:57:38.433Z", "updatedAt": "2026-11-09T22:17:08.251Z"
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1569425754666696745",
+    "addedAt": "2026-11-09T18:57:38.433Z", "updatedAt": "2026-11-10T14:16:42.702Z"
   },
   {
     "id": "mangadex-source", "name": "MangaDex", "version": "1.0.1", "author": "jabifx",
