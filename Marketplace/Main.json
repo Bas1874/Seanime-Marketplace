@@ -816,8 +816,9 @@
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "website": "https://anikototv.to", "flags": "Error", "flaggedBy": [], "permalink": "", "workingTag": true,
-    "brokenTag": false, "deprecatedTag": false,
+    "website": "https://anikototv.to", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/c6024f33db836f351eb5f7ecc9f261b8c2c0b7e830e42d79faf17a01684f5ce3",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124","1505937222891733062"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1559282505683574975",
     "addedAt": "2026-10-12T19:11:59.423Z", "updatedAt": "2026-11-09T22:17:08.251Z"
@@ -829,9 +830,11 @@
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
-    "website": "https://anizone.to", "flags": "Error", "flaggedBy": [], "permalink": "", "workingTag": true,
-    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183147123867881","1359183296591823124"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1559286767331577977",
+    "website": "https://anizone.to", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/14c0eb2be9643e4d925bee2c0b27e2120f4d7373d29fd437fefcc4937d40384f",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 3, "threadId": "1559286767331577977",
     "addedAt": "2026-10-12T19:28:55.479Z", "updatedAt": "2026-11-09T22:17:08.251Z"
   },
   {
@@ -855,9 +858,11 @@
     "icon": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/mkissa/provider.ts",
-    "website": "https://mkissa.to", "flags": "Error", "flaggedBy": [], "permalink": "", "workingTag": true,
-    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183147123867881","1359183296591823124"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1559345374219604079",
+    "website": "https://mkissa.to", "flags": "0/59", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8355fdc74d2e1273514cf5a6346061ac2e02fed220f168fc05b0a766fdea754c",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.4",
+    "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1559345374219604079",
     "addedAt": "2026-10-12T23:21:48.450Z", "updatedAt": "2026-11-09T22:17:08.251Z"
   },
   {
@@ -2065,9 +2070,10 @@
     "icon": "https://raw.githubusercontent.com/faddix/seanime-mangadex/main/src/mangadex-logo.png",
     "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-mangadex/main/mangadex.json",
     "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-mangadex/main/mangadex.ts", "website": "",
-    "flags": "Error", "flaggedBy": [], "permalink": "", "workingTag": true, "brokenTag": false,
-    "deprecatedTag": false, "tags": ["1359183211099459916"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1569425754666696745",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/856459b24a90d7513ccba3b7679391c68581aceade520994154a4bdb1c656fa7",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1569425754666696745",
     "addedAt": "2026-11-09T18:57:38.433Z", "updatedAt": "2026-11-09T22:17:08.251Z"
   },
   {
