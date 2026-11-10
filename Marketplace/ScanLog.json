@@ -1217,11 +1217,11 @@
     "lastWorkingVersion": null, "timestamp": 1781771834103, "hadWorkingTag": false
   },
   {
-    "id": "mangastash", "version": "1.0.0",
+    "id": "mangastash", "version": "1.0.1",
     "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangastash/provider.js",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/53e51521bc691bc331ced12dd699ff678d3fdda0fc203a4e1a41b814249ce872",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1792938331010
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/73fd874fb692fab26b9c3bada621384e77e1d5b35469a6be837ed0d1502df4ad",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794334465353
   },
   {
     "id": "mangaunion", "version": "1.0.0",
@@ -1371,11 +1371,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794168437398
   },
   {
-    "id": "mynimekumanga", "version": "1.2.1",
+    "id": "mynimekumanga", "version": "1.2.2",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/provider.js",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/da0de6c8c712f0ba13ed6c085cf817b10452ebb4e1d47915f7f5deda21752988",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791053151414
+    "permalink": "https://www.virustotal.com/gui/file/cfc30ce7193980eaee3f28f744514754a25cbb5cbcca2e3be291fd932d900198",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794334527926
   },
   {
     "id": "nartag", "version": "1.1.0",
