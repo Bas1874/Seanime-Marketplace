@@ -2243,18 +2243,18 @@
     "addedAt": "2026-09-11T00:13:34.251Z", "updatedAt": "2026-10-11T22:01:40.711Z"
   },
   {
-    "id": "mangastash", "name": "MangaStash", "version": "1.0.0", "author": "Pal",
+    "id": "mangastash", "name": "MangaStash", "version": "1.0.1", "author": "Pal",
     "description": "Search MangaStash and read manga chapters in English.", "type": "manga-provider",
     "language": "javascript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/public/mangastash.ico",
     "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangastash/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/mangastash/provider.js",
-    "website": "https://mangastash.org", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/53e51521bc691bc331ced12dd699ff678d3fdda0fc203a4e1a41b814249ce872",
+    "website": "https://mangastash.org", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/73fd874fb692fab26b9c3bada621384e77e1d5b35469a6be837ed0d1502df4ad",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1563890513223090266",
-    "addedAt": "2026-10-25T12:22:34.033Z", "updatedAt": "2026-10-25T14:25:31.010Z"
+    "addedAt": "2026-10-25T12:22:34.033Z", "updatedAt": "2026-11-10T18:15:28.460Z"
   },
   {
     "id": "mangataro", "name": "MangaTaro", "version": "1.0.0", "author": "Rafou376",
@@ -2543,17 +2543,17 @@
     "addedAt": "2026-01-09T18:33:27.342Z", "updatedAt": "2026-11-08T20:07:17.639Z"
   },
   {
-    "id": "mynimekumanga", "name": "MyNimeKu (Manga)", "version": "1.2.1", "author": "Pal",
+    "id": "mynimekumanga", "name": "MyNimeKu (Manga)", "version": "1.2.2", "author": "Pal",
     "description": "MyNimeKu is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "id", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/mynimeku.jpg",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mynimekumanga/provider.js",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/da0de6c8c712f0ba13ed6c085cf817b10452ebb4e1d47915f7f5deda21752988",
+    "permalink": "https://www.virustotal.com/gui/file/cfc30ce7193980eaee3f28f744514754a25cbb5cbcca2e3be291fd932d900198",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1488609005155913888",
-    "addedAt": "2026-03-31T18:40:43.847Z", "updatedAt": "2026-10-03T18:48:10.721Z"
+    "addedAt": "2026-03-31T18:40:43.847Z", "updatedAt": "2026-11-10T18:15:28.460Z"
   },
   {
     "id": "nartag", "name": "Nartag (Discontinued)", "version": "1.1.0", "author": "branrgx",
