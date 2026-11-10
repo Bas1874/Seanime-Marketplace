@@ -1140,11 +1140,11 @@
     "timestamp": 1777515701288, "hadWorkingTag": false
   },
   {
-    "id": "mangadex", "version": "1.0.2",
-    "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-mangadex/main/mangadex.ts", "flags": "0/60",
+    "id": "mangadex", "version": "1.0.3",
+    "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-mangadex/main/mangadex.ts", "flags": "0/46",
     "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/856459b24a90d7513ccba3b7679391c68581aceade520994154a4bdb1c656fa7",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794262117632
+    "permalink": "https://www.virustotal.com/gui/file/79cb13582bb13e5de0e3c4f1da5062638fc7cbce98e97f3cb38fba27710fb4c1",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794320202450
   },
   {
     "id": "mangadex-source", "version": "1.0.1",
