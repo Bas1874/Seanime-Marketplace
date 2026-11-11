@@ -564,7 +564,7 @@
     "addedAt": "2025-10-28T20:10:06.289Z", "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
-    "id": "animethemes-new", "name": "AnimeThemes Player", "version": "2.1.0", "author": "jabifx & Kaktus",
+    "id": "animethemes-new", "name": "AnimeThemes Player (NEW)", "version": "2.1.0", "author": "jabifx & Kaktus",
     "description": "Displays an animes openings and endings (using animethemes.moe) directly on its page.",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/animethemes-new/icon.ico",
@@ -575,7 +575,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1570131636538970132",
-    "addedAt": "2026-11-11T17:42:33.786Z", "updatedAt": "2026-11-11T18:14:27.857Z"
+    "addedAt": "2026-11-11T17:42:33.786Z", "updatedAt": "2026-11-11T22:33:12.939Z"
   },
   {
     "id": "animetoast", "name": "AnimeToast", "version": "1.0.1", "author": "Pal",
