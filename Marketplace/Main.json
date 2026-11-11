@@ -2073,7 +2073,7 @@
     "flags": "0/46", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/79cb13582bb13e5de0e3c4f1da5062638fc7cbce98e97f3cb38fba27710fb4c1",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183211099459916"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 4, "threadId": "1569425754666696745",
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 6, "threadId": "1569425754666696745",
     "addedAt": "2026-11-09T18:57:38.433Z", "updatedAt": "2026-11-10T14:16:42.702Z"
   },
   {
