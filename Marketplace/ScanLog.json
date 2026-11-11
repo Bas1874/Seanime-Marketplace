@@ -382,7 +382,14 @@
     "payloadURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AnimeThemes/animethemes.ts",
     "flags": "0/59", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/52d9bf8e5d8c80e60bc893f27c1f55f98dfd76fe63271ecce806e38c239150e9",
-    "timestamp": 1778207800949, "hadWorkingTag": true, "lastWorkingVersion": "3.10.4"
+    "timestamp": 1778207800949, "hadWorkingTag": false, "lastWorkingVersion": "3.10.4"
+  },
+  {
+    "id": "animethemes-new", "version": "2.1.0",
+    "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/animethemes-new/main.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/0db1a5a604d99939eb3ef987f814424b0539f94cda767c62ad82f6b8a0133e24",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794420867857
   },
   {
     "id": "animetoast", "version": "1.0.1",
@@ -560,11 +567,11 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1791168368719
   },
   {
-    "id": "asurascans", "version": "1.1.2",
+    "id": "asurascans", "version": "1.1.3",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/asurascans/provider.js",
-    "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/f50eb061da0e8531fe0e985c93990ccd531718b548066f275eb18eee840ff1c7",
-    "lastWorkingVersion": "3.8.7", "timestamp": 1782204112427, "hadWorkingTag": false
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1f13c67af0066170409e1662e42903a2e40362ade6dd0abe5c9d0b02448afebe",
+    "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1794420960647
   },
   {
     "id": "atsumaru", "version": "1.1.2",
@@ -1804,11 +1811,11 @@
     "lastWorkingVersion": "3.10.4", "timestamp": 1781225149061, "hadWorkingTag": true
   },
   {
-    "id": "torrentiov2", "version": "2.3.0",
+    "id": "torrentiov2", "version": "2.3.1",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Torrentio/main.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/1826860a8f786223769238b6b18b46a803901a2da356eac1335f310cad54a412",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794406494029
+    "permalink": "https://www.virustotal.com/gui/file/e2fc8982c92a3b3f676a9dab97ae7335916b9600b70de2c4a7968e7ed6d58d18",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794421037995
   },
   {
     "id": "traktsync", "version": "1.2.7",
