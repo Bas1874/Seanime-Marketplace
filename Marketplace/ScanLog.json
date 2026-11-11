@@ -1804,11 +1804,11 @@
     "lastWorkingVersion": "3.10.4", "timestamp": 1781225149061, "hadWorkingTag": true
   },
   {
-    "id": "torrentiov2", "version": "2.2.4",
+    "id": "torrentiov2", "version": "2.3.0",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Torrentio/main.ts",
-    "flags": "0/59", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d57eed781a0891535f4f21a51ef3f04c6b6153ead8cf057533be544e36335ad9",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1787113063907
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1826860a8f786223769238b6b18b46a803901a2da356eac1335f310cad54a412",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794406494029
   },
   {
     "id": "traktsync", "version": "1.2.7",
