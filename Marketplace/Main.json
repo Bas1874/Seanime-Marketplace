@@ -2862,19 +2862,6 @@
     "addedAt": "2026-10-03T17:39:31.962Z", "updatedAt": "2026-10-15T02:03:35.267Z"
   },
   {
-    "id": "ravenscans", "name": "RavenScans", "version": "1.0.1", "author": "Pal",
-    "description": "RavenScans is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
-    "lang": "en", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/ravenscans.png",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/ravenscans/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/ravenscans/provider.js",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c9fea916cc18f4e9fb74e82f602b970ef9d2d19466be182f5e202078f33f2588",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
-    "stars": 0, "threadId": "1489303499136041132", "addedAt": "2026-04-02T16:40:24.115Z",
-    "updatedAt": "2026-07-17T16:40:36.034Z"
-  },
-  {
     "id": "reanime", "name": "Reanime", "version": "1.1.3", "author": "Sharky",
     "description": "Plays Re:ANIME (reanime.to) through the Reanime restream proxy. Start the proxy first.",
     "type": "onlinestream-provider", "language": "javascript", "lang": "en",
