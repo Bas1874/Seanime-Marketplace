@@ -1283,7 +1283,7 @@
     "permalink": "https://www.virustotal.com/gui/file/b0f91837bc9d54634381dc92fdae0ce084dff2689f6ee68f48ced814005749e7",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1551646334757380116",
+    "lastWorkingVersion": "3.10.4", "stars": 2, "threadId": "1551646334757380116",
     "addedAt": "2026-09-21T17:28:34.401Z", "updatedAt": "2026-11-05T08:04:21.441Z"
   },
   {
@@ -3138,7 +3138,7 @@
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/senshi/logo.png",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/senshi/manifest.json",
     "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": true, "deprecatedTag": false,
+    "brokenTag": false, "deprecatedTag": true,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 2, "threadId": "1496830248463896647",
     "addedAt": "2026-04-23T11:09:00.995Z", "updatedAt": "2026-09-27T14:37:35.373Z"
