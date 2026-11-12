@@ -490,11 +490,11 @@
     "timestamp": 1771866081063, "hadWorkingTag": false
   },
   {
-    "id": "aq-anikoto", "version": "1.4.14",
+    "id": "aq-anikoto", "version": "1.4.15",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/provider.ts",
-    "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/c6024f33db836f351eb5f7ecc9f261b8c2c0b7e830e42d79faf17a01684f5ce3",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794262380311
+    "flags": "0/55", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/ac23f28a6c54b0ad16b5e14e83dda7b432fe5ddafe6c5108b43e98aba9abebde",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794521797244
   },
   {
     "id": "aq-animepahe", "version": "0.2.44",
@@ -511,11 +511,11 @@
     "lastWorkingVersion": "3.10.3", "hadWorkingTag": true, "timestamp": 1789318114984
   },
   {
-    "id": "aq-anizone", "version": "1.1.44",
+    "id": "aq-anizone", "version": "1.1.45",
     "payloadURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anizone/provider.ts",
     "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/14c0eb2be9643e4d925bee2c0b27e2120f4d7373d29fd437fefcc4937d40384f",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794262225950
+    "permalink": "https://www.virustotal.com/gui/file/14cce472f29828d188a9ae5cc060b1b12a3ac0b9f443a6304b8f4db345e624e5",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794522043962
   },
   {
     "id": "aq-aquaprefs", "version": "1.1.66",
