@@ -455,6 +455,13 @@
     "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1792188792260
   },
   {
+    "id": "animotvslash", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animotvslash/provider.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/84749b298b6ca7aca8e4ed24885e43ada150e80e544732a5726afd13d4da9e8a",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794593702459
+  },
+  {
     "id": "anistar", "version": "1.3.0",
     "payloadURI": "https://raw.githubusercontent.com/Lampe332/seanime-anistar/main/provider.ts", "flags": "0/57",
     "flaggedBy": [],
