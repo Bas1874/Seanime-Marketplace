@@ -734,6 +734,20 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
+    "id": "animotvslash", "name": "AnimoTVSlash", "version": "1.0.0", "author": "Pal",
+    "description": "AnimoTVSlash is an online streaming provider for subbed anime in english",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/animotvslash.png",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animotvslash/manifest.json",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animotvslash/provider.js",
+    "website": "", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/84749b298b6ca7aca8e4ed24885e43ada150e80e544732a5726afd13d4da9e8a",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1505936860441083904","1359183147123867881","1359183296591823124","1360636715643179231"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1570830367554936852",
+    "addedAt": "2026-11-13T15:59:04.242Z", "updatedAt": "2026-11-13T18:15:02.459Z"
+  },
+  {
     "id": "anineko", "name": "AniNeko", "version": "1.0.0", "author": "Thekingcrusher",
     "description": "AniNeko is an online stream provider for both soft/hard subs and dub.",
     "type": "onlinestream-provider", "language": "typescript", "lang": "en",
