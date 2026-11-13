@@ -1010,17 +1010,17 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "capibaratraductor", "name": "CapibaraTraductor", "version": "1.0.1", "author": "mohaisreal",
+    "id": "capibaratraductor", "name": "CapibaraTraductor", "version": "1.0.2", "author": "mohaisreal",
     "description": "El Hub de tus Scans Favoritos. Proveedor de manga en español.", "type": "manga-provider",
     "language": "typescript", "lang": "es", "icon": "https://capibaratraductor.com/images/faviconcaptrad.png",
     "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/CapibaraTraductor/main.ts",
-    "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/3170bd294918571820a3210aede73c6a36fc4c3fe874d81d0b803017479a5d25",
+    "website": "", "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/f6b50b75cd7f9793bf792a44e1ccde86247d6e524c9695091978cce1deee2dfc",
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4", "lastWorkingVersion": null,
     "stars": 1, "threadId": "1495719071998541866", "addedAt": "2026-04-20T09:33:35.881Z",
-    "updatedAt": "2026-10-30T14:24:59.705Z"
+    "updatedAt": "2026-11-13T02:14:16.581Z"
   },
   {
     "id": "cerberus-series", "name": "Cerberus Series (LegionScans)", "version": "1.0.1", "author": "branrgx",
@@ -3804,16 +3804,16 @@
     "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "zazaza", "name": "ZazaZa", "version": "1.0.3", "author": "Rafou376",
+    "id": "zazaza", "name": "ZazaZa", "version": "1.0.4", "author": "Rafou376",
     "description": "ZazaZa — это русскоязычная платформа сканлейта", "type": "manga-provider",
     "language": "typescript", "lang": "ru",
     "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/zazaza/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/zazaza/manifest.json",
-    "payloadURI": "", "website": "https://a.zazaza.me", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
+    "payloadURI": "", "website": "https://b.zazaza.me", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1549761624804429824",
-    "addedAt": "2026-09-16T12:39:24.532Z", "updatedAt": "2026-11-07T00:03:16.799Z"
+    "addedAt": "2026-09-16T12:39:24.532Z", "updatedAt": "2026-11-13T02:14:16.581Z"
   },
   {
     "id": "zokoanime", "name": "ZokoAnime", "version": "1.0.0", "author": "Pal",
