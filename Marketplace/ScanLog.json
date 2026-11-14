@@ -210,6 +210,13 @@
     "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1783861819234
   },
   {
+    "id": "anilist-timetable", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/rinkerbel/rinkerbel-seanime-extensions/main/plugins/AniList%20Timetable/anilist-timetable.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/5e7d881fb296a0277607ed7de558dd7dd2c32fc491d6912e01b9606e6eb147e3",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794616691439
+  },
+  {
     "id": "anilist-watch-order", "version": "1.2.2",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/provider.ts",
     "flags": "0/61", "flaggedBy": [],
