@@ -392,11 +392,11 @@
     "timestamp": 1778207800949, "hadWorkingTag": false, "lastWorkingVersion": "3.10.4"
   },
   {
-    "id": "animethemes-new", "version": "2.1.1",
+    "id": "animethemes-new", "version": "2.1.2",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/animethemes-new/main.ts",
     "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/bd638df15a4e6233745f375ccf741a3add9e09726f73d8b97595debe56f0839e",
-    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794752058120
+    "permalink": "https://www.virustotal.com/gui/file/8da588868627e465104da42fd48a8f9c40e541250192e3a7ef0f97279782c1fa",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1794766457681
   },
   {
     "id": "animetoast", "version": "1.0.1",
