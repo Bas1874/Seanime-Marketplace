@@ -3331,15 +3331,15 @@
     "addedAt": "2025-08-25T16:50:19.055Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "subtitle-engine", "name": "Subtitle Engine", "version": "1.1.2", "author": "Thekingcrusher",
-    "description": "Add subtitles of your preferred language and format scraped from multiple different sources to your current session.",
+    "id": "subtitle-engine", "name": "Subtitle Engine", "version": "1.9.0", "author": "Thekingcrusher",
+    "description": "Add subtitles of your preferred language and format from multiple different sources to your current videocore session.",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Thekingcrusher/seanime-plugins/refs/heads/main/subtitle-engine/icon.png",
     "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/seanime-plugins/refs/heads/main/subtitle-engine/manifest.json",
-    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": false,
-    "brokenTag": true, "deprecatedTag": false, "tags": ["1359183147123867881","1359183394512048148"],
-    "scannedOnVersion": "3.10.4", "lastWorkingVersion": null, "stars": 11, "threadId": "1462667157585530942",
-    "addedAt": "2026-01-19T04:37:05.410Z", "updatedAt": "2026-08-17T20:13:56.938Z"
+    "payloadURI": "", "website": "", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
+    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183147123867881","1359183394512048148"],
+    "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 12, "threadId": "1462667157585530942",
+    "addedAt": "2026-01-19T04:37:05.410Z", "updatedAt": "2026-11-15T10:13:42.798Z"
   },
   {
     "id": "sushiscan", "name": "SushiScan", "version": "1.0.0", "author": "branrgx",
