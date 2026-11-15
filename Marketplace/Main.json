@@ -286,7 +286,7 @@
     "permalink": "https://www.virustotal.com/gui/file/5528f600c4b2d37babf004bd34b4be240242f9ae2cf5853c13b65259c637af32",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
-    "lastWorkingVersion": "3.10.4", "stars": 5, "threadId": "1570960126364614686",
+    "lastWorkingVersion": "3.10.4", "stars": 6, "threadId": "1570960126364614686",
     "addedAt": "2026-11-14T00:34:41.153Z", "updatedAt": "2026-11-14T02:15:54.437Z"
   },
   {
@@ -578,18 +578,18 @@
     "addedAt": "2025-10-28T20:10:06.289Z", "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
-    "id": "animethemes-new", "name": "AnimeThemes Player (NEW)", "version": "2.1.1", "author": "jabifx & Kaktus",
+    "id": "animethemes-new", "name": "AnimeThemes Player (NEW)", "version": "2.1.2", "author": "jabifx & Kaktus",
     "description": "Displays an animes openings and endings (using animethemes.moe) directly on its page.",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/animethemes-new/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/animethemes-new/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/animethemes-new/main.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/bd638df15a4e6233745f375ccf741a3add9e09726f73d8b97595debe56f0839e",
+    "permalink": "https://www.virustotal.com/gui/file/8da588868627e465104da42fd48a8f9c40e541250192e3a7ef0f97279782c1fa",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1570131636538970132",
-    "addedAt": "2026-11-11T17:42:33.786Z", "updatedAt": "2026-11-15T14:14:18.355Z"
+    "addedAt": "2026-11-11T17:42:33.786Z", "updatedAt": "2026-11-15T18:14:18.008Z"
   },
   {
     "id": "animetoast", "name": "AnimeToast", "version": "1.0.1", "author": "Pal",
