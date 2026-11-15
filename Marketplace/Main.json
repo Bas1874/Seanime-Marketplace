@@ -358,7 +358,7 @@
     "addedAt": "2025-07-19T13:42:54.545Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "anime-sama-anime", "name": "Anime-Sama", "version": "1.1.0", "author": "Rafou376",
+    "id": "anime-sama-anime", "name": "Anime-Sama", "version": "1.1.1", "author": "Rafou376",
     "description": "Anime-Sama est une plateforme française de streaming d'anime", "type": "onlinestream-provider",
     "language": "javascript", "lang": "fr",
     "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/anime-sama-anime/icon.ico",
@@ -367,7 +367,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
     "scannedOnVersion": "3.10.4", "lastWorkingVersion": "3.10.4", "stars": 1, "threadId": "1564438807380758638",
-    "addedAt": "2026-10-27T00:41:17.547Z", "updatedAt": "2026-11-14T18:13:51.241Z"
+    "addedAt": "2026-10-27T00:41:17.547Z", "updatedAt": "2026-11-15T14:14:18.355Z"
   },
   {
     "id": "anime-sama-vip-online-streaming", "name": "FR | Anime-Sama VIP", "version": "1.0.1",
@@ -578,18 +578,18 @@
     "addedAt": "2025-10-28T20:10:06.289Z", "updatedAt": "2026-07-06T15:13:11.445Z"
   },
   {
-    "id": "animethemes-new", "name": "AnimeThemes Player (NEW)", "version": "2.1.0", "author": "jabifx & Kaktus",
+    "id": "animethemes-new", "name": "AnimeThemes Player (NEW)", "version": "2.1.1", "author": "jabifx & Kaktus",
     "description": "Displays an animes openings and endings (using animethemes.moe) directly on its page.",
     "type": "plugin", "language": "typescript", "lang": "multi",
     "icon": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/animethemes-new/icon.ico",
     "manifestURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/animethemes-new/manifest.json",
     "payloadURI": "https://raw.githubusercontent.com/Kaktusmann/seanime-extension/refs/heads/main/src/animethemes-new/main.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/0db1a5a604d99939eb3ef987f814424b0539f94cda767c62ad82f6b8a0133e24",
+    "permalink": "https://www.virustotal.com/gui/file/bd638df15a4e6233745f375ccf741a3add9e09726f73d8b97595debe56f0839e",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.4",
     "lastWorkingVersion": "3.10.4", "stars": 0, "threadId": "1570131636538970132",
-    "addedAt": "2026-11-11T17:42:33.786Z", "updatedAt": "2026-11-11T22:33:12.939Z"
+    "addedAt": "2026-11-11T17:42:33.786Z", "updatedAt": "2026-11-15T14:14:18.355Z"
   },
   {
     "id": "animetoast", "name": "AnimeToast", "version": "1.0.1", "author": "Pal",
