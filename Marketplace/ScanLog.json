@@ -371,6 +371,13 @@
     "lastWorkingVersion": "3.8.7", "hadWorkingTag": false, "timestamp": 1792188853793
   },
   {
+    "id": "animesfhd", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesfhd/animesfhd.ts",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/1f657052c4bb0943f0f604d1b8f0b14f54c87a7ee9cd00d16012f23fbbdaa9ef",
+    "lastWorkingVersion": "3.10.4", "hadWorkingTag": true, "timestamp": 1795241706887
+  },
+  {
     "id": "animesonlinecc-provider", "version": "1.0.4",
     "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/animesonlinecc/animesonlinecc.ts",
     "flags": "0/59", "flaggedBy": [],
