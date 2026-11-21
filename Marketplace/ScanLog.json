@@ -665,6 +665,13 @@
     "lastWorkingVersion": "3.10.5", "hadWorkingTag": true, "timestamp": 1793125524502
   },
   {
+    "id": "chikari", "version": "1.0.0",
+    "payloadURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/manga/chikari/provider.js",
+    "flags": "0/60", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/2f72d67139f9a445acdb84fbf643761de1d8d6a084fde348b73354f6a3f84473",
+    "lastWorkingVersion": "3.10.5", "hadWorkingTag": true, "timestamp": 1795270460707
+  },
+  {
     "id": "comicvine", "version": "1.3.0",
     "payloadURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/ComicVine/main.ts",
     "flags": "0/58", "flaggedBy": [],
