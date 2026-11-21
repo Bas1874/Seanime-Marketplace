@@ -1371,6 +1371,19 @@
     "addedAt": "2026-08-08T07:34:59.412Z", "updatedAt": "2026-11-04T20:09:21.360Z"
   },
   {
+    "id": "discord-rich-presence", "name": "Discord RPC", "version": "0.5.0", "author": "gaury (@nxfu)",
+    "description": "Customizable Discord Rich Presence with anime artwork, episode format presets, native episode-name fallback, and selectable update intervals.",
+    "type": "plugin", "language": "javascript", "lang": "en", "icon": "https://seanime.gaury.dev/icons/discord.png",
+    "manifestURI": "https://seanime.gaury.dev/plugins/discord/manifest.json",
+    "payloadURI": "https://seanime.gaury.dev/plugins/discord/plugin.js", "website": "https://seanime.gaury.dev/",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8f20271bdb57ad80f6df5b8970a9694c5d8b5f5680f19f6d9b76faf7de85332f",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.5",
+    "lastWorkingVersion": "3.10.5", "stars": 1, "threadId": "1573721758882734180",
+    "addedAt": "2026-11-21T15:28:25.654Z", "updatedAt": "2026-11-21T18:15:53.138Z"
+  },
+  {
     "id": "discord-rpc-extended", "name": "Discord RPC Extended", "version": "1.0.11", "author": "nnotwen",
     "description": "Provide more info for Discord RPC.", "type": "plugin", "language": "typescript", "lang": "en",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Extended/icon.png",
@@ -2517,15 +2530,18 @@
     "addedAt": "2026-07-15T03:19:46.884Z", "updatedAt": "2026-08-17T20:13:56.938Z"
   },
   {
-    "id": "miruro-cx", "name": "Miruro", "version": "0.1.1", "author": "Gaurav",
+    "id": "miruro-cx", "name": "Miruro", "version": "0.1.4", "author": "gaury (@nxfu)",
     "description": "Miruro is an online streaming provider for subbed and dubbed anime with multiple servers and subtitles.",
-    "type": "onlinestream-provider", "language": "javascript", "lang": "multi",
+    "type": "onlinestream-provider", "language": "javascript", "lang": "en",
     "icon": "https://seanime.gaury.dev/icons/miruro.png",
-    "manifestURI": "https://seanime.gaury.dev/online/miruro/manifest.json", "payloadURI": "",
-    "website": "https://www.miruro.cx/", "flags": "Unscanned", "flaggedBy": [], "permalink": "", "workingTag": true,
-    "brokenTag": false, "deprecatedTag": false, "tags": ["1359183147123867881","1359183296591823124"],
-    "scannedOnVersion": "3.10.5", "lastWorkingVersion": "3.10.5", "stars": 1, "threadId": "1573698481825255546",
-    "addedAt": "2026-11-21T13:55:55.971Z", "updatedAt": "2026-11-21T14:14:20.960Z"
+    "manifestURI": "https://seanime.gaury.dev/online/miruro/manifest.json",
+    "payloadURI": "https://seanime.gaury.dev/online/miruro/provider.js", "website": "https://www.miruro.cx/",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/2c9a85c99e52145fcd893dd8488fa223ab82f875275ec00932b8d62de731c98b",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.5",
+    "lastWorkingVersion": "3.10.5", "stars": 1, "threadId": "1573698481825255546",
+    "addedAt": "2026-11-21T13:55:55.971Z", "updatedAt": "2026-11-21T18:15:53.387Z"
   },
   {
     "id": "miruro-v2", "name": "Miruro", "version": "1.0.6", "author": "DefnoJae",
