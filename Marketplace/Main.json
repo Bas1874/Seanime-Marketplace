@@ -366,7 +366,7 @@
     "payloadURI": "", "website": "https://anime-sama.to", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1505937222891733062","1359183147123867881","1359183296591823124","1360636715643179231"],
-    "scannedOnVersion": "3.10.5", "lastWorkingVersion": "3.10.5", "stars": 1, "threadId": "1564438807380758638",
+    "scannedOnVersion": "3.10.5", "lastWorkingVersion": "3.10.5", "stars": 2, "threadId": "1564438807380758638",
     "addedAt": "2026-10-27T00:41:17.547Z", "updatedAt": "2026-11-16T02:13:48.267Z"
   },
   {
@@ -2540,7 +2540,7 @@
     "permalink": "https://www.virustotal.com/gui/file/2c9a85c99e52145fcd893dd8488fa223ab82f875275ec00932b8d62de731c98b",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183296591823124"], "scannedOnVersion": "3.10.5",
-    "lastWorkingVersion": "3.10.5", "stars": 1, "threadId": "1573698481825255546",
+    "lastWorkingVersion": "3.10.5", "stars": 2, "threadId": "1573698481825255546",
     "addedAt": "2026-11-21T13:55:55.971Z", "updatedAt": "2026-11-21T18:15:53.387Z"
   },
   {
