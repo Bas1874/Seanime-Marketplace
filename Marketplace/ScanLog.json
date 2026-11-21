@@ -798,6 +798,12 @@
     "lastWorkingVersion": "3.10.5", "hadWorkingTag": true, "timestamp": 1790104144766
   },
   {
+    "id": "discord-rich-presence", "version": "0.5.0",
+    "payloadURI": "https://seanime.gaury.dev/plugins/discord/plugin.js", "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/8f20271bdb57ad80f6df5b8970a9694c5d8b5f5680f19f6d9b76faf7de85332f",
+    "lastWorkingVersion": "3.10.5", "hadWorkingTag": true, "timestamp": 1795284953138
+  },
+  {
     "id": "discord-rpc-episode-title", "version": "1.2.0",
     "payloadURI": "https://raw.githubusercontent.com/S1lent999/seanime-discord-rpc-episode-title/refs/heads/main/discord-rpc-episode-title.ts",
     "flags": "0/59", "flaggedBy": [],
@@ -1362,6 +1368,12 @@
     "flags": "0/60", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0348d4a36ab391eabac33722fd21a89dc48895ca351d98635f5dd054d3bd8b0b",
     "lastWorkingVersion": "3.10.5", "hadWorkingTag": true, "timestamp": 1786338649843
+  },
+  {
+    "id": "miruro-cx", "version": "0.1.4", "payloadURI": "https://seanime.gaury.dev/online/miruro/provider.js",
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/2c9a85c99e52145fcd893dd8488fa223ab82f875275ec00932b8d62de731c98b",
+    "lastWorkingVersion": "3.10.5", "hadWorkingTag": true, "timestamp": 1795284890674
   },
   {
     "id": "miruro-v2", "version": "1.0.6",
