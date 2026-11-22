@@ -2400,7 +2400,7 @@
     "payloadURI": "https://raw.githubusercontent.com/kRYstall9/Seanime-manga-providers/refs/heads/main/src/MangaWorld/provider.ts",
     "website": "", "flags": "0/61", "flaggedBy": [],
     "permalink": "https://www.virustotal.com/gui/file/0049c676b3900d23d45f3f50e0b917b056ec8360e5b520c5fb1459c31cb5dc0a",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
+    "workingTag": false, "brokenTag": true, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.5", "lastWorkingVersion": null,
     "stars": 8, "threadId": "1359432599935651861", "addedAt": "2025-04-09T07:39:48.861Z",
     "updatedAt": "2026-11-08T16:04:35.702Z"
