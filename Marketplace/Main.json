@@ -1380,7 +1380,7 @@
     "permalink": "https://www.virustotal.com/gui/file/8f20271bdb57ad80f6df5b8970a9694c5d8b5f5680f19f6d9b76faf7de85332f",
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183147123867881","1359183394512048148"], "scannedOnVersion": "3.10.5",
-    "lastWorkingVersion": "3.10.5", "stars": 1, "threadId": "1573721758882734180",
+    "lastWorkingVersion": "3.10.5", "stars": 2, "threadId": "1573721758882734180",
     "addedAt": "2026-11-21T15:28:25.654Z", "updatedAt": "2026-11-21T18:15:53.138Z"
   },
   {
@@ -3848,6 +3848,18 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183394512048148"],
     "scannedOnVersion": "3.10.5", "lastWorkingVersion": "3.10.5", "stars": 5, "threadId": "1552338497065582715",
     "addedAt": "2026-09-23T15:18:58.755Z", "updatedAt": "2026-10-07T18:08:07.438Z"
+  },
+  {
+    "id": "westmanga", "name": "WestManga", "version": "1.0.0", "author": "Rafou376",
+    "description": "WestManga adalah situs komik terjemahan bahasa Indonesia", "type": "manga-provider",
+    "language": "javascript", "lang": "id",
+    "icon": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/westmanga/icon.ico",
+    "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/manga/westmanga/manifest.json",
+    "payloadURI": "", "website": "https://v1.westmanga.my", "flags": "Unscanned", "flaggedBy": [], "permalink": "",
+    "workingTag": true, "brokenTag": false, "deprecatedTag": false,
+    "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.5",
+    "lastWorkingVersion": "3.10.5", "stars": 0, "threadId": "1573973958607372391",
+    "addedAt": "2026-11-22T08:10:34.754Z", "updatedAt": "2026-11-22T10:13:55.162Z"
   },
   {
     "id": "xanime", "name": "XAnime", "version": "1.0.0", "author": "fampep",
