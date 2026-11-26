@@ -3862,19 +3862,6 @@
     "addedAt": "2026-11-22T08:10:34.754Z", "updatedAt": "2026-11-22T10:13:55.162Z"
   },
   {
-    "id": "xanime", "name": "XAnime", "version": "1.0.0", "author": "fampep",
-    "description": "XAnime (xanime.me) — direct HLS from the site's GraphQL API, with soft subtitles",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "en",
-    "icon": "https://raw.githubusercontent.com/fampep/extensions/main/seanime/xanime/icon.png",
-    "manifestURI": "https://raw.githubusercontent.com/fampep/extensions/main/seanime/xanime/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/fampep/extensions/main/seanime/xanime/provider.ts",
-    "website": "https://xanime.me", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/86488398d240162ff5f5aeac482bf54909255ba13a38c3b418ee83c5a47e4d8a",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false, "tags": ["1359183296591823124"],
-    "scannedOnVersion": "3.10.5", "lastWorkingVersion": null, "stars": 0, "threadId": "1536389866600931458",
-    "addedAt": "2026-08-10T15:04:48.941Z", "updatedAt": "2026-08-17T20:13:56.938Z"
-  },
-  {
     "id": "xcomic", "name": "xComic", "version": "1.0.0", "author": "Pal",
     "description": "English manga provider for xComic.", "type": "manga-provider", "language": "javascript",
     "lang": "en", "icon": "",
