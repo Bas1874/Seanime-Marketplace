@@ -1846,7 +1846,7 @@
     "addedAt": "2026-09-14T18:23:41.838Z", "updatedAt": "2026-09-14T20:50:13.535Z"
   },
   {
-    "id": "komiku", "name": "Komiku", "version": "1.0.0", "author": "pal",
+    "id": "komiku", "name": "Komiku", "version": "1.0.0", "author": "Pal",
     "description": "Komiku is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "id", "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/komiku.png",
     "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/komiku/manifest.json",
@@ -1856,7 +1856,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.5", "lastWorkingVersion": null,
     "stars": 5, "threadId": "1439637348169027626", "addedAt": "2025-11-16T15:24:50.972Z",
-    "updatedAt": "2026-07-03T13:57:01.706Z"
+    "updatedAt": "2026-11-28T14:14:00.706Z"
   },
   {
     "id": "kuramanga", "name": "KuraManga", "version": "1.0.0", "author": "Pal",
@@ -1884,20 +1884,6 @@
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.5",
     "lastWorkingVersion": "3.8.7", "stars": 0, "threadId": "1516231576378413158",
     "addedAt": "2026-06-16T00:02:58.029Z", "updatedAt": "2026-10-16T22:17:20.236Z"
-  },
-  {
-    "id": "latanime-online-provider", "name": "Latanime", "version": "0.1.11", "author": "lens7y",
-    "description": "Latanime online streaming provider for Seanime (Spanish dub; Latino preferred, sub fallback).",
-    "type": "onlinestream-provider", "language": "typescript", "lang": "es",
-    "icon": "https://raw.githubusercontent.com/lens7y/seanime-ext-latanime/main/public/icon.png",
-    "manifestURI": "https://github.com/lens7y/seanime-ext-latanime/releases/latest/download/manifest.json",
-    "payloadURI": "https://raw.githubusercontent.com/lens7y/seanime-ext-latanime/v0.1.11/src/provider.ts",
-    "website": "", "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/d45a1632455c3aeaa06a93634cba7b52e69738cd8ba139632eaa393e70e9a569",
-    "workingTag": false, "brokenTag": false, "deprecatedTag": false,
-    "tags": ["1359183147123867881","1359183296591823124","1360636715643179231"], "scannedOnVersion": "3.10.5",
-    "lastWorkingVersion": null, "stars": 3, "threadId": "1509322165013577899", "addedAt": "2026-05-27T22:27:25.989Z",
-    "updatedAt": "2026-07-06T15:13:11.099Z"
   },
   {
     "id": "leercapitulo", "name": "LeerCapitulo", "version": "1.1.0", "author": "branrgx",
@@ -1928,7 +1914,7 @@
     "updatedAt": "2026-08-07T13:08:08.627Z"
   },
   {
-    "id": "lelmanga", "name": "LelManga", "version": "1.0.1", "author": "pal",
+    "id": "lelmanga", "name": "LelManga", "version": "1.0.1", "author": "Pal",
     "description": "LelManga is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "fr",
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/lelmanga.png",
@@ -1939,7 +1925,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.5", "lastWorkingVersion": null,
     "stars": 0, "threadId": "1485292014735065320", "addedAt": "2026-03-22T15:00:11.704Z",
-    "updatedAt": "2026-10-03T18:48:10.721Z"
+    "updatedAt": "2026-11-28T14:14:00.706Z"
   },
   {
     "id": "library-grid-layout", "name": "Library Grid Layout", "version": "1.1.2", "author": "Carloss616",
@@ -2199,7 +2185,7 @@
     "addedAt": "2026-04-23T15:42:15.729Z", "updatedAt": "2026-07-03T13:57:01.706Z"
   },
   {
-    "id": "mangafreak", "name": "MangaFreak", "version": "1.0.3", "author": "pal",
+    "id": "mangafreak", "name": "MangaFreak", "version": "1.0.3", "author": "Pal",
     "description": "MangaFreak is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "en",
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/mangafreak.jpeg",
@@ -2210,7 +2196,7 @@
     "workingTag": true, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.5",
     "lastWorkingVersion": "3.10.5", "stars": 8, "threadId": "1428453575734067210",
-    "addedAt": "2025-10-16T18:44:31.839Z", "updatedAt": "2026-07-03T13:57:01.706Z"
+    "addedAt": "2025-10-16T18:44:31.839Z", "updatedAt": "2026-11-28T14:14:00.706Z"
   },
   {
     "id": "mangahub", "name": "MangaHub", "version": "1.0.0", "author": "Pal",
@@ -2406,7 +2392,7 @@
     "updatedAt": "2026-11-08T16:04:35.702Z"
   },
   {
-    "id": "mangaworldadult", "name": "MangaWorldAdult", "version": "1.0.1", "author": "pal",
+    "id": "mangaworldadult", "name": "MangaWorldAdult", "version": "1.0.1", "author": "Pal",
     "description": "MangaWorldAdult is a manga provider for Seanime", "type": "manga-provider",
     "language": "typescript", "lang": "it",
     "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/MangaWorld.jpeg",
@@ -2417,7 +2403,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.5", "lastWorkingVersion": null,
     "stars": 5, "threadId": "1441502445787418624", "addedAt": "2025-11-21T18:56:04.896Z",
-    "updatedAt": "2026-10-03T22:44:51.159Z"
+    "updatedAt": "2026-11-28T14:14:00.706Z"
   },
   {
     "id": "manhastro", "name": "Manhastro", "version": "1.0.2", "author": "jhoorodr",
@@ -3411,7 +3397,7 @@
     "updatedAt": "2026-08-31T11:56:57.153Z"
   },
   {
-    "id": "taiyo", "name": "Taiyo", "version": "1.0.2", "author": "pal",
+    "id": "taiyo", "name": "Taiyo", "version": "1.0.2", "author": "Pal",
     "description": "Taiyo is a manga provider for Seanime", "type": "manga-provider", "language": "javascript",
     "lang": "pt",
     "icon": "https://raw.githubusercontent.com/pal-droid/seanime-providers/refs/heads/main/public/taiyo.jpeg",
@@ -3422,7 +3408,7 @@
     "workingTag": false, "brokenTag": false, "deprecatedTag": false,
     "tags": ["1359183211099459916","1360636715643179231"], "scannedOnVersion": "3.10.5", "lastWorkingVersion": null,
     "stars": 2, "threadId": "1478816312879878205", "addedAt": "2026-03-04T18:08:04.069Z",
-    "updatedAt": "2026-10-03T18:48:10.721Z"
+    "updatedAt": "2026-11-28T14:14:00.706Z"
   },
   {
     "id": "thepiratebay", "name": "ThePiratebay", "version": "1.0.2", "author": "jabifx",
