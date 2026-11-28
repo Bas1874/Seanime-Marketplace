@@ -45,6 +45,11 @@
     "originalMessageContent": "> **Extension name:**\n> Anilist Notifications\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/plugins/anilist-notifications/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/plugins/anilist-notifications/manifest.json```\n> **Description:**\n> A plugin for viewing your Anilist notifications.\n> \n> **Additional Notes:**\n> None"
   },
   {
+    "threadURL": "https://discord.com/channels/1224767201551192224/1509322165013577899",
+    "reason": "getaddrinfo EAI_AGAIN github.com",
+    "originalMessageContent": "> **Extension Name:**\n> Latanime\n> \n> **Version:**\n> 0.1.11\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://github.com/lens7y/seanime-ext-latanime) / Copy the link below:\n> `https://github.com/lens7y/seanime-ext-latanime/releases/latest/download/manifest.json`\n> \n> **Description:**\n> Online streaming provider for [Latanime](https://latanime.org/) — Dub preference: Latino, then Castellano; Japanese/sub when no dub is listed. Made by **lens7y**.\n> \n> **Additional Notes:**\n> You can report issues on Github or here."
+  },
+  {
     "threadURL": "https://discord.com/channels/1224767201551192224/1510577432560926720", "reason": "404 Not Found.",
     "originalMessageContent": "> **Extension name:**\n> AniDB\n> \n> **Version:**\n> 1.0.0\n> \n> **GitHub Repository / Download Link:**\n> [Click Here](https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/manifest.json)  / Copy the link below: \n> ```https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/manifest.json```\n> \n> **Description:**\n> An online-streaming provider for english sub/dub anime, made by Pal\n> \n> **Additional Notes:**\n> Content is identical to AnimePahe but they self host it."
   },
