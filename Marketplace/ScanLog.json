@@ -811,11 +811,11 @@
     "lastWorkingVersion": "3.9.1", "hadWorkingTag": false, "timestamp": 1783897489706
   },
   {
-    "id": "discord-rpc-extended", "version": "1.0.11",
+    "id": "discord-rpc-extended", "version": "1.0.12",
     "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Discord%20RPC%20Extended/provider.ts",
-    "flags": "0/60", "flaggedBy": [],
-    "permalink": "https://www.virustotal.com/gui/file/7973ad7bff1ea479675c08c94859da1c30c840d508b91d5c73f6a471f9c6e0e3",
-    "lastWorkingVersion": "3.10.5", "hadWorkingTag": true, "timestamp": 1789145066944
+    "flags": "0/61", "flaggedBy": [],
+    "permalink": "https://www.virustotal.com/gui/file/e5facdbc5f05fa5608df69d5bc85d3321970ddfedc721f6e4fd382e48a961a7b",
+    "lastWorkingVersion": "3.10.5", "hadWorkingTag": true, "timestamp": 1795889671367
   },
   {
     "id": "discord-rpc-hide-nsfw", "version": "1.0.4",
